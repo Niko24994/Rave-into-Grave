@@ -189,14 +189,34 @@ const festivals = [
   // ══════════════════════════════════════════
 
   {
+    name: "VERKNIPT OBERHAUSEN 2026",
+    date: "2026-07-25",
+    dateDisplay: "25. Juli 2026",
+    location: "Turbinenhalle, Oberhausen",
+    genre: ["Hard Techno"],
+    url: "",
+    soldOut: false,
+    description: "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew."
+  },
+  {
+    name: "FACELESS OPEN AIR 2026",
+    date: "2026-08-01",
+    dateDisplay: "1. Aug 2026",
+    location: "Turbinenhalle, Oberhausen",
+    genre: ["Hardcore"],
+    url: "https://www.turbinenhalle.de",
+    soldOut: false,
+    description: "Hardcore-Open-Air-Feeling in der Turbinenhalle Oberhausen — für alle die es hart und kompromisslos mögen."
+  },
+  {
     name: "ELECTRISIZE 2026",
     date: "2026-08-09",
     dateDisplay: "7.–9. Aug 2026",
-    location: "bei Düsseldorf, NRW",
-    genre: ["EDM", "Techno", "Hardstyle"],
+    location: "Haus Hohenbusch, Erkelenz",
+    genre: ["EDM", "Techno", "Hard Techno", "Hardstyle"],
     url: "https://www.electrisize.de",
     soldOut: false,
-    description: "Großes Electronic Festival bei Düsseldorf — mehrere Stages, internationales Line-up, Camping."
+    description: "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping."
   },
   {
     name: "SONNE MOND STERNE 2026",
@@ -269,6 +289,26 @@ const festivals = [
     description: "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene."
   },
   {
+    name: "ELECTRIC HORIZON FESTIVAL 2026",
+    date: "2026-08-15",
+    dateDisplay: "15. Aug 2026",
+    location: "Weldegarten, Plankstadt",
+    genre: ["Hard Techno"],
+    url: "https://www.electric-horizon.de",
+    soldOut: false,
+    description: "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
+  },
+  {
+    name: "HELL FESTIVAL 2026",
+    date: "2026-08-30",
+    dateDisplay: "27.–30. Aug 2026",
+    location: "Stausee Kelbra, Sachsen-Anhalt",
+    genre: ["Hardcore", "Hard Techno", "Schranz"],
+    url: "https://www.hell-festival.de",
+    soldOut: false,
+    description: "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse."
+  },
+  {
     name: "FERRA FESTIVAL 2026",
     date: "2026-08-30",
     dateDisplay: "ca. Aug/Sep 2026",
@@ -276,7 +316,27 @@ const festivals = [
     genre: ["Hard Techno", "Techno", "Schranz"],
     url: "https://www.ferra-festival.de",
     soldOut: false,
-    description: "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser. Ein weiteres Ferropolis-Highlight."
+    description: "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser."
+  },
+  {
+    name: "NIBIRII FESTIVAL 2026",
+    date: "2026-08-30",
+    dateDisplay: "28.–30. Aug 2026",
+    location: "Düren, NRW",
+    genre: ["Techno", "Hard Techno", "Electronic"],
+    url: "https://www.nibirii.de",
+    soldOut: false,
+    description: "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene."
+  },
+  {
+    name: "CAMAKAVUM FESTIVAL 2026",
+    date: "2026-09-13",
+    dateDisplay: "11.–13. Sep 2026",
+    location: "Historische Ziegelei Benzin, Outdoor",
+    genre: ["Hardcore", "Schranz"],
+    url: "https://www.camakavum.de",
+    soldOut: false,
+    description: "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
 
   // ══════════════════════════════════════════
@@ -304,6 +364,16 @@ const festivals = [
     description: "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere."
   },
   {
+    name: "POKKE HERRIE 2026",
+    date: "2026-09-05",
+    dateDisplay: "5. Sep 2026",
+    location: "Turbinenhalle, Oberhausen",
+    genre: ["Hardcore"],
+    url: "https://www.turbinenhalle.de",
+    soldOut: false,
+    description: "Hardcore-Event in der Turbinenhalle Oberhausen — Pokke Herrie macht keinen Spaß, und das ist gut so."
+  },
+  {
     name: "BLACKLIST FESTIVAL 2026",
     date: "2026-10-10",
     dateDisplay: "10. Okt 2026",
@@ -312,6 +382,36 @@ const festivals = [
     url: "https://www.blacklist-festival.de",
     soldOut: false,
     description: "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
+  },
+  {
+    name: "FACELESS PSYCHO CITY 2026",
+    date: "2026-11-01",
+    dateDisplay: "31. Okt – 1. Nov 2026",
+    location: "Turbinenhalle, Oberhausen",
+    genre: ["Hardcore"],
+    url: "https://www.turbinenhalle.de",
+    soldOut: false,
+    description: "Halloween-Hardcore in der Turbinenhalle — Faceless Psycho City macht die Nacht zum Tag der Toten."
+  },
+  {
+    name: "THE HOLY SHIT SHOW 2026",
+    date: "2026-11-06",
+    dateDisplay: "6. Nov 2026",
+    location: "Maimarkthalle, Mannheim",
+    genre: ["Hardcore"],
+    url: "https://www.theholyshitshow.de",
+    soldOut: false,
+    description: "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung."
+  },
+  {
+    name: "HARDSHIFT FESTIVAL 2026",
+    date: "2026-12-04",
+    dateDisplay: "4. Dez 2026",
+    location: "Zenith Halle, München",
+    genre: ["Hardcore", "Hard Techno"],
+    url: "https://www.hardshift-festival.de",
+    soldOut: false,
+    description: "Hardcore und Hard Techno in der Zenith Halle München — Bayerns härteste Nacht des Jahres."
   },
   {
     name: "TOXICATOR 2026",
@@ -328,6 +428,31 @@ const festivals = [
   // BEVORSTEHEND — 2027
   // ══════════════════════════════════════════
 
+  {
+    name: "ARMY OF HARDCORE 2026",
+    date: "2026-12-25",
+    dateDisplay: "25. Dez 2026",
+    location: "Turbinenhalle, Oberhausen",
+    genre: ["Hardcore"],
+    url: "https://www.turbinenhalle.de",
+    soldOut: false,
+    description: "Weihnachten hardcore-style — Army of Hardcore macht Bescherung auf die härteste Art möglich."
+  },
+
+  // ══════════════════════════════════════════
+  // BEVORSTEHEND — 2027
+  // ══════════════════════════════════════════
+
+  {
+    name: "APEX 2027",
+    date: "2027-01-30",
+    dateDisplay: "30. Jan 2027",
+    location: "Maimarkthalle, Mannheim",
+    genre: ["Hardcore", "Hard Techno"],
+    url: "https://www.apex-festival.de",
+    soldOut: false,
+    description: "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno."
+  },
   {
     name: "TIME WARP 2027",
     date: "2027-04-03",

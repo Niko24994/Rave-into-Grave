@@ -231,9 +231,7 @@
             <p class="card-description">${f.description}</p>
             <div class="card-footer">
               <span class="countdown ${countdownClass}">${countdown}</span>
-              <a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">
-                ZUR WEBSITE →
-              </a>
+              ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
             </div>
           </div>
         </article>
