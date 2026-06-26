@@ -1,10 +1,11 @@
-// Daten zuletzt aktualisiert: Juni 2026 — Quellen: offizielle Festival-Websites
-// Alle Daten verifiziert — immer auf der offiziellen Website gegenchecken!
+// Daten zuletzt aktualisiert: Juni 2026
+// Quellen: offizielle Festival-Websites, dein-festival.de, festivalticker.de
+// Immer auf der offiziellen Website gegenchecken!
 
 const festivals = [
 
   // ══════════════════════════════════════════
-  // VERGANGEN 2026 (vor dem 26. Juni 2026)
+  // VERGANGEN 2026
   // ══════════════════════════════════════════
 
   {
@@ -26,6 +27,16 @@ const festivals = [
     url: "https://www.mayday.de",
     soldOut: false,
     description: "Die Mutter aller Raves seit 1991 — härteste Walpurgisnacht Deutschlands in den Westfalenhallen."
+  },
+  {
+    name: "SPUTNIK SPRING BREAK 2026",
+    date: "2026-05-25",
+    dateDisplay: "22.–25. Mai 2026",
+    location: "Halbinsel Pouch, Saale",
+    genre: ["Techno", "Electronic", "House"],
+    url: "https://www.sputnik-springbreak.de",
+    soldOut: false,
+    description: "Das Frühlings-Festival an der Halbinsel Pouch — Electronic, Techno und Indie am Saale-See."
   },
   {
     name: "IKARUS FESTIVAL 2026",
@@ -58,16 +69,6 @@ const festivals = [
     description: "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno."
   },
   {
-    name: "RUHR-IN-LOVE 2026",
-    date: "2026-06-21",
-    dateDisplay: "20.–21. Juni 2026",
-    location: "OLGA-Park, Oberhausen",
-    genre: ["Techno", "House", "Hardstyle"],
-    url: "https://www.ruhr-in-love.de",
-    soldOut: false,
-    description: "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park mit breitem Electronic-Line-up."
-  },
-  {
     name: "FUSION FESTIVAL 2026",
     date: "2026-06-29",
     dateDisplay: "24.–29. Juni 2026",
@@ -82,6 +83,16 @@ const festivals = [
   // BEVORSTEHEND — JULI 2026
   // ══════════════════════════════════════════
 
+  {
+    name: "RUHR-IN-LOVE 2026",
+    date: "2026-07-04",
+    dateDisplay: "4. Juli 2026",
+    location: "OLGA-Park, Oberhausen",
+    genre: ["Techno", "House", "Hardstyle"],
+    url: "https://www.ruhr-in-love.de",
+    soldOut: false,
+    description: "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up."
+  },
   {
     name: "AIRBEAT ONE 2026",
     date: "2026-07-12",
@@ -120,7 +131,7 @@ const festivals = [
     genre: ["Techno", "Electronic", "Pop", "Rock"],
     url: "https://www.lollapaloozade.com",
     soldOut: false,
-    description: "Das globale Kultfestival im Olympiapark Berlin — mit starker Techno- und Electronic-Vertretung auf mehreren Stages."
+    description: "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages."
   },
   {
     name: "FEEL FESTIVAL 2026",
@@ -136,11 +147,11 @@ const festivals = [
     name: "OPEN BEATZ 2026",
     date: "2026-07-26",
     dateDisplay: "24.–26. Juli 2026",
-    location: "Flugplatz Feucht, Nürnberg",
+    location: "bei Herzogenaurach, Nürnberg",
     genre: ["Techno", "Hard Techno", "EDM"],
     url: "https://www.openbeatz.de",
     soldOut: false,
-    description: "Bayerisches Open-Air auf dem Flugplatz bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse."
+    description: "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse."
   },
   {
     name: "JUICY BEATS 2026",
@@ -152,21 +163,31 @@ const festivals = [
     soldOut: false,
     description: "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel."
   },
-
-  // ══════════════════════════════════════════
-  // BEVORSTEHEND — AUGUST 2026
-  // ══════════════════════════════════════════
-
   {
     name: "NATURE ONE 2026",
     date: "2026-08-02",
     dateDisplay: "30. Juli – 2. Aug 2026",
     location: "Raketenbasis Pydna, Kastellaun",
-    genre: ["Techno", "Trance", "Hardstyle"],
+    genre: ["Techno", "Trance", "Hardstyle", "Hardcore"],
     url: "https://www.nature-one.de",
     soldOut: false,
     description: "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival."
   },
+  {
+    name: "FERDINANDS FELD FESTIVAL 2026",
+    date: "2026-08-01",
+    dateDisplay: "31. Juli – 1. Aug 2026",
+    location: "Rotenburg an der Wümme",
+    genre: ["Techno", "Electronic", "House"],
+    url: "https://ferdinandsfelderfestival.de",
+    soldOut: false,
+    description: "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground."
+  },
+
+  // ══════════════════════════════════════════
+  // BEVORSTEHEND — AUGUST 2026
+  // ══════════════════════════════════════════
+
   {
     name: "ELECTRISIZE 2026",
     date: "2026-08-09",
@@ -176,6 +197,26 @@ const festivals = [
     url: "https://www.electrisize.de",
     soldOut: false,
     description: "Großes Electronic Festival bei Düsseldorf — mehrere Stages, internationales Line-up, Camping."
+  },
+  {
+    name: "SONNE MOND STERNE 2026",
+    date: "2026-08-09",
+    dateDisplay: "7.–9. Aug 2026",
+    location: "Saalburg-Ebersdorf, Thüringen",
+    genre: ["Techno", "Trance"],
+    url: "https://www.sms-festival.de",
+    soldOut: false,
+    description: "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair."
+  },
+  {
+    name: "SAN HEJMO FESTIVAL 2026",
+    date: "2026-08-15",
+    dateDisplay: "14.–15. Aug 2026",
+    location: "Airport Weeze, Weeze",
+    genre: ["Techno", "Electronic", "House"],
+    url: "https://www.san-hejmo.com",
+    soldOut: false,
+    description: "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre."
   },
   {
     name: "MS DOCKVILLE 2026",
@@ -198,20 +239,60 @@ const festivals = [
     description: "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil."
   },
   {
-    name: "SONNE MOND STERNE 2026",
-    date: "2026-08-23",
-    dateDisplay: "ca. Aug 2026",
-    location: "Halbinsel Pouch, Bitterfeld",
-    genre: ["Techno", "Trance"],
-    url: "https://www.sms-festival.de",
+    name: "WILDE MÖHRE FESTIVAL 2026",
+    date: "2026-08-24",
+    dateDisplay: "21.–24. Aug 2026",
+    location: "Lausitz, Brandenburg",
+    genre: ["Techno", "Electronic", "Experimental"],
+    url: "https://www.wilde-moehre.de",
     soldOut: false,
-    description: "SMS am Muldestausee — Camping, Seenblick und drei Tage Techno und Trance in Mitteldeutschland."
+    description: "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream."
+  },
+  {
+    name: "INDIAN SPIRIT 2026",
+    date: "2026-08-31",
+    dateDisplay: "26.–31. Aug 2026",
+    location: "Flugplatz Ludwigslust, Mecklenburg",
+    genre: ["Psytrance", "Techno", "Experimental"],
+    url: "https://www.indianspirit.de",
+    soldOut: false,
+    description: "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust."
+  },
+  {
+    name: "NIBIRII FESTIVAL 2026",
+    date: "2026-08-30",
+    dateDisplay: "28.–30. Aug 2026",
+    location: "Düren, NRW",
+    genre: ["Techno", "Hard Techno", "Electronic"],
+    url: "https://www.nibirii.de",
+    soldOut: false,
+    description: "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene."
+  },
+  {
+    name: "FERRA FESTIVAL 2026",
+    date: "2026-08-30",
+    dateDisplay: "ca. Aug/Sep 2026",
+    location: "Ferropolis, Gräfenhainichen",
+    genre: ["Hard Techno", "Techno", "Schranz"],
+    url: "https://www.ferra-festival.de",
+    soldOut: false,
+    description: "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser. Ein weiteres Ferropolis-Highlight."
   },
 
   // ══════════════════════════════════════════
-  // BEVORSTEHEND — HERBST / WINTER 2026
+  // BEVORSTEHEND — HERBST 2026
   // ══════════════════════════════════════════
 
+  {
+    name: "GLÜCKSGEFÜHLE FESTIVAL 2026",
+    date: "2026-09-06",
+    dateDisplay: "3.–6. Sep 2026",
+    location: "Hockenheimring, Hockenheim",
+    genre: ["Techno", "Electronic", "House"],
+    url: "https://www.gluecksgefuehle-festival.de",
+    soldOut: false,
+    description: "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs."
+  },
   {
     name: "SYNDICATE 2026",
     date: "2026-10-03",
@@ -220,7 +301,27 @@ const festivals = [
     genre: ["Hard Techno", "Hardcore", "Hardstyle", "Schranz"],
     url: "https://www.syndicate-festival.de",
     soldOut: false,
-    description: "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen für Hard Techno und Hardcore-Jünger."
+    description: "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere."
+  },
+  {
+    name: "BLACKLIST FESTIVAL 2026",
+    date: "2026-10-10",
+    dateDisplay: "10. Okt 2026",
+    location: "Oberhausen, NRW",
+    genre: ["Techno", "Hardcore", "Drum and Bass"],
+    url: "https://www.blacklist-festival.de",
+    soldOut: false,
+    description: "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
+  },
+  {
+    name: "TOXICATOR 2026",
+    date: "2026-12-05",
+    dateDisplay: "5. Dez 2026",
+    location: "Maimarkthalle, Mannheim",
+    genre: ["Hardcore", "Hard Techno", "Hardstyle"],
+    url: "https://www.toxicator.de",
+    soldOut: false,
+    description: "Hardcore, Hardstyle und Hard Techno auf drei Floors in der Maimarkthalle — das härteste Ende des Jahres 2026."
   },
 
   // ══════════════════════════════════════════
@@ -248,6 +349,16 @@ const festivals = [
     description: "Die nächste Walpurgisnacht — Tickets sichern bevor sie weg sind."
   },
   {
+    name: "WORLD CLUB DOME 2027",
+    date: "2027-06-06",
+    dateDisplay: "4.–6. Juni 2027",
+    location: "Messe Frankfurt, Frankfurt",
+    genre: ["Techno", "Hard Techno", "EDM", "House"],
+    url: "https://www.worldclubdome.com",
+    soldOut: false,
+    description: "Das größte Club-Festival der Welt — Early Bird Tickets bereits für €129 erhältlich."
+  },
+  {
     name: "IKARUS FESTIVAL 2027",
     date: "2027-06-27",
     dateDisplay: "25.–27. Juni 2027",
@@ -256,16 +367,6 @@ const festivals = [
     url: "https://www.ikarus-festival.de",
     soldOut: false,
     description: "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up."
-  },
-  {
-    name: "WORLD CLUB DOME 2027",
-    date: "2027-06-06",
-    dateDisplay: "4.–6. Juni 2027",
-    location: "Messe Frankfurt, Frankfurt",
-    genre: ["Techno", "Hard Techno", "EDM", "House"],
-    url: "https://www.worldclubdome.com",
-    soldOut: false,
-    description: "Das größte Club-Festival der Welt — Early Bird Tickets bereits erhältlich für €129."
   }
 
 ];
