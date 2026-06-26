@@ -28,8 +28,18 @@ const SOURCES = [
     scrape: scrapeDeinFestival
   },
   {
+    name: 'dein-festival.de (Hard Techno)',
+    url: 'https://www.dein-festival.de/festivals/hard-techno-festivals',
+    scrape: scrapeDeinFestival
+  },
+  {
     name: 'festival-alarm.com',
     url: 'https://www.festival-alarm.com/Kategorien/Electro-Festivals/year/2026',
+    scrape: scrapeFestivalAlarm
+  },
+  {
+    name: 'festival-alarm.com (2027)',
+    url: 'https://www.festival-alarm.com/Kategorien/Electro-Festivals/year/2027',
     scrape: scrapeFestivalAlarm
   },
   {
@@ -41,6 +51,31 @@ const SOURCES = [
     name: 'festivalticker.de',
     url: 'https://www.festivalticker.de/festivals/genre/elektronische_festivals/',
     scrape: scrapeFestivalTicker
+  },
+  {
+    name: 'festivalticker.de (techno)',
+    url: 'https://www.festivalticker.de/festivals/genre/techno/',
+    scrape: scrapeFestivalTicker
+  },
+  {
+    name: 'festivalhopper.de',
+    url: 'https://www.festivalhopper.de/festivals/suche/?genre%5B%5D=Techno&land=DE',
+    scrape: scrapeFestivalHopper
+  },
+  {
+    name: 'festivalhopper.de (hard techno)',
+    url: 'https://www.festivalhopper.de/festivals/suche/?genre%5B%5D=Hard+Techno&land=DE',
+    scrape: scrapeFestivalHopper
+  },
+  {
+    name: 'festivalguide.de',
+    url: 'https://www.festivalguide.de/festivals/techno',
+    scrape: scrapeFestivalGuide
+  },
+  {
+    name: 'goabase.net',
+    url: 'https://www.goabase.net/party/list/?country=de&genre=techno',
+    scrape: scrapeGoabase
   }
 ];
 
@@ -224,6 +259,76 @@ function normalizeEntry({ name, dateText, location, genreText, link, source }) {
     description: '',
     _source: source
   };
+}
+
+async function scrapeFestivalHopper(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+
+  $('.festival, .festival-item, article, [class*="festival"]').each((_, el) => {
+    const name = $(el).find('h2, h3, .title, [class*="name"]').first().text().trim();
+    const dateText = $(el).find('time, .date, [class*="date"], [class*="zeit"]').first().text().trim();
+    const location = $(el).find('.location, .ort, .city, [class*="location"]').first().text().trim();
+    const genreText = $(el).find('.genre, .tag, [class*="genre"], [class*="stile"]').text().toLowerCase();
+    const link = $(el).find('a').first().attr('href') || '';
+
+    if (!name || name.length < 3) return;
+    if (!hasRelevantGenre(genreText + ' ' + name.toLowerCase())) return;
+    if (isClubEvent(location)) return;
+
+    results.push(normalizeEntry({ name, dateText, location, genreText: genreText || 'techno', link, source: 'festivalhopper.de' }));
+  });
+
+  return results.filter(Boolean);
+}
+
+async function scrapeFestivalGuide(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+
+  $('article, .festival-card, .event, [class*="festival"]').each((_, el) => {
+    const name = $(el).find('h1, h2, h3, [class*="title"]').first().text().trim();
+    const dateText = $(el).find('time, [class*="date"], [class*="datum"]').first().text().trim();
+    const location = $(el).find('[class*="location"], [class*="ort"], [class*="venue"]').first().text().trim();
+    const genreText = $(el).find('[class*="genre"], [class*="tag"]').text().toLowerCase();
+    const link = $(el).find('a').first().attr('href') || '';
+
+    if (!name || name.length < 3) return;
+    if (!hasRelevantGenre(genreText + ' ' + name.toLowerCase())) return;
+    if (isClubEvent(location)) return;
+
+    results.push(normalizeEntry({ name, dateText, location, genreText: genreText || 'techno', link, source: 'festivalguide.de' }));
+  });
+
+  return results.filter(Boolean);
+}
+
+async function scrapeGoabase(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+
+  // goabase.net hat Tabellen-Layout
+  $('table tr, .party-item, .event-row').each((_, el) => {
+    const name = $(el).find('a, .name, td:nth-child(2)').first().text().trim();
+    const dateText = $(el).find('td:first-child, .date, time').first().text().trim();
+    const location = $(el).find('td:nth-child(3), .location, .city').first().text().trim();
+    const genreText = $(el).find('td:nth-child(4), .genre').text().toLowerCase();
+    const link = $(el).find('a').first().attr('href') || '';
+
+    if (!name || name.length < 3) return;
+    if (!hasRelevantGenre(genreText + ' ' + name.toLowerCase())) return;
+    if (isClubEvent(location)) return;
+
+    results.push(normalizeEntry({ name, dateText, location, genreText: genreText || 'techno', link, source: 'goabase.net' }));
+  });
+
+  return results.filter(Boolean);
 }
 
 // ─── DEDUPLICATION ───

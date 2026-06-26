@@ -80,13 +80,15 @@
 
     <div class="genre-filters">
       <span class="genre-label">// GENRE:</span>
-      <button class="genre-btn active" data-genre="all">ALLE</button>
-      <button class="genre-btn" data-genre="Techno">TECHNO</button>
-      <button class="genre-btn" data-genre="Hard Techno">HARD TECHNO</button>
-      <button class="genre-btn" data-genre="Schranz">SCHRANZ</button>
-      <button class="genre-btn" data-genre="Hardstyle">HARDSTYLE</button>
-      <button class="genre-btn" data-genre="Hardcore">HARDCORE</button>
-      <button class="genre-btn" data-genre="Trance">TRANCE</button>
+      <div class="genre-btn-scroll">
+        <button class="genre-btn active" data-genre="all">ALLE</button>
+        <button class="genre-btn" data-genre="Techno">TECHNO</button>
+        <button class="genre-btn" data-genre="Hard Techno">HARD TECHNO</button>
+        <button class="genre-btn" data-genre="Schranz">SCHRANZ</button>
+        <button class="genre-btn" data-genre="Hardstyle">HARDSTYLE</button>
+        <button class="genre-btn" data-genre="Hardcore">HARDCORE</button>
+        <button class="genre-btn" data-genre="Trance">TRANCE</button>
+      </div>
     </div>
   </div>
 
@@ -122,6 +124,9 @@
     </div>
     <p class="footer-disclaimer">Alle Angaben ohne Gewähr. Immer die offizielle Festival-Website checken.</p>
   </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Nach oben">▲</button>
 
   <script type="module">
     import festivals from './data/festivals.js';
@@ -350,6 +355,15 @@
       const grid = document.getElementById('past-grid');
       toggle.classList.toggle('open');
       grid.classList.toggle('open');
+    });
+
+    // ─── SCROLL TO TOP ───
+    const scrollBtn = document.getElementById('scroll-top');
+    window.addEventListener('scroll', () => {
+      scrollBtn.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // ─── INIT ───
