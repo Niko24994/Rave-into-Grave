@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --bg: #0a0a0a;
+  --red: #ff2d00;
+  --orange: #ff9900;
+  --white: #f0f0f0;
+  --dim: #888;
+  --card-bg: #0f0f0f;
+  --card-border: #1a1a1a;
+  --green: #00ff88;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: 'Share Tech Mono', monospace;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Scanline overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.18) 2px,
+    rgba(0, 0, 0, 0.18) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Noise texture */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.4;
+}
+
+/* ─── HEADER ─── */
+
+header {
+  padding: 3rem 2rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+  position: relative;
+  background: linear-gradient(180deg, #100000 0%, var(--bg) 100%);
+}
+
+.header-logo {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 12px var(--red));
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { filter: drop-shadow(0 0 8px var(--red)); }
+  50% { filter: drop-shadow(0 0 20px var(--red)) drop-shadow(0 0 40px var(--orange)); }
+}
+
+.site-title {
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--white);
+  text-transform: uppercase;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  animation: glitch-flicker 6s infinite;
+}
+
+.site-title::before,
+.site-title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.site-title::before {
+  color: var(--red);
+  animation: glitch-1 6s infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+}
+
+.site-title::after {
+  color: var(--orange);
+  animation: glitch-2 6s infinite;
+  clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch-flicker {
+  0%, 94%, 96%, 98%, 100% { opacity: 1; transform: translate(0); }
+  95% { opacity: 0.8; transform: translate(-2px, 1px) skew(-1deg); }
+  97% { opacity: 0.9; transform: translate(2px, -1px) skew(0.5deg); }
+  99% { opacity: 0.7; transform: translate(-1px, 2px); }
+}
+
+@keyframes glitch-1 {
+  0%, 94%, 100% { transform: translate(0); opacity: 0; }
+  95% { transform: translate(-4px, 0); opacity: 0.7; }
+  96% { transform: translate(4px, 0); opacity: 0.5; }
+  97% { transform: translate(0); opacity: 0; }
+}
+
+@keyframes glitch-2 {
+  0%, 96%, 100% { transform: translate(0); opacity: 0; }
+  97% { transform: translate(4px, 2px); opacity: 0.6; }
+  98% { transform: translate(-2px, -2px); opacity: 0.4; }
+  99% { transform: translate(0); opacity: 0; }
+}
+
+.tagline {
+  margin-top: 1rem;
+  color: var(--dim);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tagline span {
+  color: var(--red);
+}
+
+/* ─── STATS BAR ─── */
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1a1a1a;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.stat-number {
+  font-size: 1.6rem;
+  color: var(--red);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  color: var(--dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ─── CONTROLS ─── */
+
+.controls {
+  padding: 1.5rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  background: #0f0f0f;
+  border: 1px solid #2a2a2a;
+  color: var(--white);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  letter-spacing: 0.05em;
+}
+
+.search-input::placeholder {
+  color: #444;
+}
+
+.search-input:focus {
+  border-color: var(--red);
+  box-shadow: 0 0 10px rgba(255, 45, 0, 0.2);
+}
+
+.month-select {
+  background: #0f0f0f;
+  border: 1px solid #2a2a2a;
+  color: var(--white);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  transition: border-color 0.2s;
+}
+
+.month-select:focus {
+  border-color: var(--red);
+}
+
+.month-select option {
+  background: #0f0f0f;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.toggle-label input[type="checkbox"] {
+  accent-color: var(--red);
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.toggle-label:hover {
+  color: var(--white);
+}
+
+/* Genre filter buttons */
+.genre-filters {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.genre-label {
+  font-size: 0.65rem;
+  color: var(--dim);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+
+.genre-btn {
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  color: #555;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: all 0.15s;
+}
+
+.genre-btn:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.genre-btn.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+  box-shadow: 0 0 14px rgba(255, 45, 0, 0.4);
+}
+
+/* ─── GRID ─── */
+
+.main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  color: var(--dim);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding: 1rem 0 0.75rem;
+  border-top: 1px solid #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #1a1a1a;
+}
+
+.section-label .count {
+  color: var(--red);
+  font-size: 0.75rem;
+}
+
+.festival-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* ─── FESTIVAL CARD ─── */
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--card-border);
+  transition: background 0.3s;
+}
+
+.card.status-upcoming::before { background: var(--green); }
+.card.status-soon::before { background: var(--orange); box-shadow: 0 0 10px rgba(255, 153, 0, 0.5); }
+.card.status-past::before { background: #333; }
+.card.status-sold-out::before { background: var(--red); box-shadow: 0 0 10px rgba(255, 45, 0, 0.5); }
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 45, 0, 0.15);
+  border-color: #2a2a2a;
+}
+
+.card-inner {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-name {
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--white);
+  line-height: 1.2;
+  flex: 1;
+}
+
+.card-status-badge {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.badge-upcoming { color: var(--green); border-color: var(--green); }
+.badge-soon { color: var(--orange); border-color: var(--orange); }
+.badge-past { color: #555; border-color: #333; }
+.badge-sold-out { color: var(--red); border-color: var(--red); }
+
+.genre-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.9rem;
+}
+
+.genre-tag {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.15rem 0.5rem;
+  background: #151515;
+  border: 1px solid #252525;
+  color: var(--dim);
+}
+
+.genre-tag.tag-hard-techno { border-color: var(--red); color: var(--red); background: rgba(255,45,0,0.05); }
+.genre-tag.tag-schranz { border-color: #cc2200; color: #cc2200; background: rgba(204,34,0,0.05); }
+.genre-tag.tag-techno { border-color: var(--orange); color: var(--orange); background: rgba(255,153,0,0.05); }
+.genre-tag.tag-hardcore { border-color: #ff0066; color: #ff0066; background: rgba(255,0,102,0.05); }
+.genre-tag.tag-hardstyle { border-color: #aa00ff; color: #aa00ff; background: rgba(170,0,255,0.05); }
+.genre-tag.tag-trance { border-color: #0099ff; color: #0099ff; background: rgba(0,153,255,0.05); }
+.genre-tag.tag-psytrance { border-color: #00ffcc; color: #00ffcc; background: rgba(0,255,204,0.05); }
+.genre-tag.tag-edm { border-color: #777; color: #777; }
+.genre-tag.tag-experimental { border-color: #555; color: #555; }
+.genre-tag.tag-house { border-color: #aaa; color: #aaa; }
+
+.card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.meta-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  color: var(--dim);
+}
+
+.meta-icon {
+  color: var(--red);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  width: 14px;
+}
+
+.meta-value {
+  color: var(--white);
+  opacity: 0.85;
+}
+
+.card-description {
+  font-size: 0.75rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.countdown {
+  font-size: 0.75rem;
+  color: var(--dim);
+  letter-spacing: 0.05em;
+}
+
+.countdown.soon { color: var(--orange); }
+.countdown.very-soon { color: var(--red); animation: blink 1.5s step-end infinite; }
+.countdown.past { color: #333; }
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.visit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  text-decoration: none;
+  padding: 0.45rem 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.visit-btn:hover {
+  background: var(--red);
+  color: var(--white);
+  box-shadow: 0 0 20px rgba(255, 45, 0, 0.4);
+}
+
+.card.status-past .visit-btn {
+  border-color: #333;
+  color: #444;
+}
+
+.card.status-past .visit-btn:hover {
+  background: #222;
+  color: #777;
+  box-shadow: none;
+}
+
+/* ─── PAST FESTIVALS SECTION ─── */
+
+.past-section {
+  margin-top: 2rem;
+}
+
+.past-toggle {
+  background: none;
+  border: 1px solid #1a1a1a;
+  color: var(--dim);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.past-toggle:hover {
+  border-color: #333;
+  color: var(--white);
+  background: #0f0f0f;
+}
+
+.past-toggle .arrow {
+  transition: transform 0.2s;
+  color: var(--red);
+}
+
+.past-toggle.open .arrow {
+  transform: rotate(180deg);
+}
+
+.past-grid {
+  display: none;
+  margin-top: 1rem;
+}
+
+.past-grid.open {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+/* ─── EMPTY STATE ─── */
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #333;
+  grid-column: 1 / -1;
+}
+
+.empty-state h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1em;
+}
+
+.empty-state p {
+  font-size: 0.8rem;
+  color: #2a2a2a;
+}
+
+/* ─── FOOTER ─── */
+
+footer {
+  border-top: 1px solid #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  background: #080808;
+}
+
+.footer-skull {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 6px var(--red));
+}
+
+.footer-tagline {
+  color: var(--dim);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--orange);
+}
+
+.footer-disclaimer {
+  font-size: 0.65rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ─── SCROLLBAR ─── */
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: var(--red); }
+::-webkit-scrollbar-thumb:hover { background: var(--orange); }
+
+/* ─── RESPONSIVE ─── */
+
+@media (max-width: 1024px) {
+  .festival-grid, .past-grid.open {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .festival-grid, .past-grid.open {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .controls {
+    padding: 1rem;
+  }
+
+  .main-content {
+    padding: 0 1rem 2rem;
+  }
+
+  .stats-bar {
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 1.2rem;
+  }
+
+  .search-row {
+    flex-direction: column;
+  }
+
+  .search-input, .month-select {
+    width: 100%;
+  }
+}
+
+/* ─── LOADING ANIMATION ─── */
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  animation: card-in 0.3s ease both;
+}
+
+/* Red glow on focused elements */
+input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible {
+  outline: 1px solid var(--red);
+  outline-offset: 2px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "rave-into-grave-scraper",
+  "version": "1.0.0",
+  "description": "Scraper für Techno/Hard Techno Festival-Daten in Deutschland",
+  "type": "module",
+  "scripts": {
+    "scrape": "node fetch_festivals.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}

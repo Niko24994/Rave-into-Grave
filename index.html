@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAVE INTO GRAVE — Techno Festival Tracker Deutschland</title>
+  <meta name="description" content="Kein Techno- oder Hard Techno Festival in Deutschland mehr verpassen. Alle Dates, Genres, Countdowns auf einen Blick." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠️</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <span class="header-logo">☠️⚡</span>
+    <h1 class="site-title" data-text="RAVE INTO GRAVE">RAVE INTO GRAVE</h1>
+    <p class="tagline">Kein Festival mehr verpassen. <span>Oder sterben es versuchend.</span></p>
+  </header>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-number" id="stat-total">–</span>
+      <span class="stat-label">Festivals</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" id="stat-upcoming">–</span>
+      <span class="stat-label">Bevorstehend</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" id="stat-next-days">–</span>
+      <span class="stat-label">Tage bis nächstes</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" id="stat-genres">–</span>
+      <span class="stat-label">Genres</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="search-row">
+      <input
+        type="text"
+        class="search-input"
+        id="search"
+        placeholder="// FESTIVAL ODER ORT SUCHEN..."
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <select class="month-select" id="month-filter">
+        <option value="">ALLE MONATE</option>
+        <option value="1">JAN</option>
+        <option value="2">FEB</option>
+        <option value="3">MÄR</option>
+        <option value="4">APR</option>
+        <option value="5">MAI</option>
+        <option value="6">JUN</option>
+        <option value="7">JUL</option>
+        <option value="8">AUG</option>
+        <option value="9">SEP</option>
+        <option value="10">OKT</option>
+        <option value="11">NOV</option>
+        <option value="12">DEZ</option>
+      </select>
+      <label class="toggle-label">
+        <input type="checkbox" id="upcoming-only" />
+        NUR BEVORSTEHENDE
+      </label>
+    </div>
+
+    <div class="genre-filters">
+      <span class="genre-label">// GENRE:</span>
+      <button class="genre-btn active" data-genre="all">ALLE</button>
+      <button class="genre-btn" data-genre="Techno">TECHNO</button>
+      <button class="genre-btn" data-genre="Hard Techno">HARD TECHNO</button>
+      <button class="genre-btn" data-genre="Schranz">SCHRANZ</button>
+      <button class="genre-btn" data-genre="Hardstyle">HARDSTYLE</button>
+      <button class="genre-btn" data-genre="Hardcore">HARDCORE</button>
+      <button class="genre-btn" data-genre="Trance">TRANCE</button>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <div class="section-label">
+      <span>// BEVORSTEHENDE FESTIVALS</span>
+      <span class="count" id="upcoming-count"></span>
+    </div>
+    <div class="festival-grid" id="festival-grid">
+      <!-- Cards rendered by JS -->
+    </div>
+
+    <div class="past-section" id="past-section" style="display:none">
+      <button class="past-toggle" id="past-toggle">
+        <span>// VERGANGENE FESTIVALS <span id="past-count"></span></span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="past-grid" id="past-grid">
+        <!-- Past cards rendered by JS -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span class="footer-skull">☠️</span>
+    <p class="footer-tagline">
+      Rave into Grave — Für alle, die lieber im Dreck tanzen als auf dem Sofa sitzen.
+    </p>
+    <div class="footer-links">
+      <a href="https://github.com/Niko24994/Rave-into-Grave" target="_blank" rel="noopener">GitHub Repo</a>
+      <a href="https://github.com/Niko24994/Rave-into-Grave/issues/new" target="_blank" rel="noopener">Festival melden / Fehler korrigieren</a>
+      <a href="mailto:nikosteinbach@web.de?subject=Rave into Grave – Festival melden">Per Mail schreiben</a>
+    </div>
+    <p class="footer-disclaimer">Alle Angaben ohne Gewähr. Immer die offizielle Festival-Website checken.</p>
+  </footer>
+
+  <script type="module">
+    import festivals from './data/festivals.js';
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // ─── STATE ───
+    let activeGenre = 'all';
+    let searchQuery = '';
+    let monthFilter = '';
+    let upcomingOnly = false;
+
+    // ─── HELPERS ───
+
+    function getDaysUntil(dateStr) {
+      const d = new Date(dateStr);
+      d.setHours(0, 0, 0, 0);
+      return Math.round((d - today) / (1000 * 60 * 60 * 24));
+    }
+
+    function getStatus(f) {
+      if (f.soldOut) return 'sold-out';
+      const days = getDaysUntil(f.date);
+      if (days < 0) return 'past';
+      if (days <= 30) return 'soon';
+      return 'upcoming';
+    }
+
+    function getCountdownText(f) {
+      const days = getDaysUntil(f.date);
+      if (days < 0) return `vor ${Math.abs(days)} Tagen`;
+      if (days === 0) return 'HEUTE !!!';
+      if (days === 1) return 'MORGEN';
+      return `in ${days} Tagen`;
+    }
+
+    function getCountdownClass(f) {
+      const days = getDaysUntil(f.date);
+      if (days < 0) return 'past';
+      if (days <= 7) return 'very-soon';
+      if (days <= 30) return 'soon';
+      return '';
+    }
+
+    function getStatusBadge(status) {
+      const map = {
+        'upcoming': ['BEVORSTEHEND', 'badge-upcoming'],
+        'soon': ['BALD', 'badge-soon'],
+        'past': ['VERGANGEN', 'badge-past'],
+        'sold-out': ['AUSVERKAUFT', 'badge-sold-out']
+      };
+      return map[status] || map['upcoming'];
+    }
+
+    function getTagClass(genre) {
+      const map = {
+        'Hard Techno': 'tag-hard-techno',
+        'Schranz': 'tag-schranz',
+        'Techno': 'tag-techno',
+        'Hardcore': 'tag-hardcore',
+        'Hardstyle': 'tag-hardstyle',
+        'Trance': 'tag-trance',
+        'Psytrance': 'tag-psytrance',
+        'EDM': 'tag-edm',
+        'Experimental': 'tag-experimental',
+        'House': 'tag-house'
+      };
+      return map[genre] || '';
+    }
+
+    // ─── RENDER CARD ───
+
+    function renderCard(f) {
+      const status = getStatus(f);
+      const [badgeText, badgeClass] = getStatusBadge(status);
+      const countdown = getCountdownText(f);
+      const countdownClass = getCountdownClass(f);
+
+      const tags = f.genre.map(g =>
+        `<span class="genre-tag ${getTagClass(g)}">${g.toUpperCase()}</span>`
+      ).join('');
+
+      return `
+        <article class="card status-${status}">
+          <div class="card-inner">
+            <div class="card-header">
+              <h2 class="card-name">${f.name}</h2>
+              <span class="card-status-badge ${badgeClass}">${badgeText}</span>
+            </div>
+            <div class="genre-tags">${tags}</div>
+            <div class="card-meta">
+              <div class="meta-row">
+                <span class="meta-icon">▶</span>
+                <span class="meta-value">${f.dateDisplay}</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-icon">◈</span>
+                <span class="meta-value">${f.location}</span>
+              </div>
+            </div>
+            <p class="card-description">${f.description}</p>
+            <div class="card-footer">
+              <span class="countdown ${countdownClass}">${countdown}</span>
+              <a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">
+                ZUR WEBSITE →
+              </a>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    // ─── FILTER ───
+
+    function filterFestivals() {
+      return festivals.filter(f => {
+        const q = searchQuery.toLowerCase();
+        const matchSearch = !q ||
+          f.name.toLowerCase().includes(q) ||
+          f.location.toLowerCase().includes(q);
+
+        const matchGenre = activeGenre === 'all' ||
+          f.genre.some(g => g.toLowerCase() === activeGenre.toLowerCase());
+
+        const matchMonth = !monthFilter ||
+          new Date(f.date).getMonth() + 1 === parseInt(monthFilter);
+
+        const status = getStatus(f);
+        const matchUpcoming = !upcomingOnly || status !== 'past';
+
+        return matchSearch && matchGenre && matchMonth && matchUpcoming;
+      });
+    }
+
+    // ─── RENDER ───
+
+    function render() {
+      const filtered = filterFestivals();
+
+      const upcoming = filtered.filter(f => getStatus(f) !== 'past');
+      const past = filtered.filter(f => getStatus(f) === 'past');
+
+      // Sort upcoming ascending, past descending
+      upcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
+      past.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      const grid = document.getElementById('festival-grid');
+      const pastGrid = document.getElementById('past-grid');
+      const pastSection = document.getElementById('past-section');
+      const upcomingCountEl = document.getElementById('upcoming-count');
+      const pastCountEl = document.getElementById('past-count');
+
+      if (upcoming.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <h3>// KEINE TREFFER</h3>
+            <p>Kein Festival passt zu deiner Suche. Vielleicht stirbst du doch auf dem Sofa.</p>
+          </div>`;
+      } else {
+        grid.innerHTML = upcoming.map(renderCard).join('');
+      }
+
+      upcomingCountEl.textContent = `[${upcoming.length}]`;
+
+      if (past.length > 0) {
+        pastSection.style.display = '';
+        pastGrid.innerHTML = past.map(renderCard).join('');
+        pastCountEl.textContent = `[${past.length}]`;
+      } else {
+        pastSection.style.display = 'none';
+      }
+
+      updateStats();
+    }
+
+    // ─── STATS ───
+
+    function updateStats() {
+      const allUpcoming = festivals.filter(f => getStatus(f) !== 'past');
+      allUpcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+      document.getElementById('stat-total').textContent = festivals.length;
+      document.getElementById('stat-upcoming').textContent = allUpcoming.length;
+
+      const genres = new Set(festivals.flatMap(f => f.genre));
+      document.getElementById('stat-genres').textContent = genres.size;
+
+      if (allUpcoming.length > 0) {
+        const nextDays = getDaysUntil(allUpcoming[0].date);
+        document.getElementById('stat-next-days').textContent =
+          nextDays <= 0 ? 'HEUTE' : nextDays;
+      } else {
+        document.getElementById('stat-next-days').textContent = '–';
+      }
+    }
+
+    // ─── EVENT LISTENERS ───
+
+    document.getElementById('search').addEventListener('input', e => {
+      searchQuery = e.target.value;
+      render();
+    });
+
+    document.getElementById('month-filter').addEventListener('change', e => {
+      monthFilter = e.target.value;
+      render();
+    });
+
+    document.getElementById('upcoming-only').addEventListener('change', e => {
+      upcomingOnly = e.target.checked;
+      render();
+    });
+
+    document.querySelectorAll('.genre-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeGenre = btn.dataset.genre;
+        render();
+      });
+    });
+
+    document.getElementById('past-toggle').addEventListener('click', () => {
+      const toggle = document.getElementById('past-toggle');
+      const grid = document.getElementById('past-grid');
+      toggle.classList.toggle('open');
+      grid.classList.toggle('open');
+    });
+
+    // ─── INIT ───
+    render();
+  </script>
+</body>
+</html>
