@@ -199,7 +199,7 @@ const festivals = [
     dateDisplay: "31. Juli – 1. Aug 2026",
     location: "Rotenburg an der Wümme",
     genre: ["Techno", "Electronic", "House"],
-    url: "",
+    url: "https://www.ferdinandsfeld.de/",
     soldOut: false,
     description: "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground."
   },
@@ -265,7 +265,7 @@ const festivals = [
     dateDisplay: "14.–15. Aug 2026",
     location: "Airport Weeze, Weeze",
     genre: ["Techno", "Electronic", "House"],
-    url: "",
+    url: "https://www.sanhejmo.com/en/",
     soldOut: false,
     description: "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre."
   },
@@ -335,7 +335,7 @@ const festivals = [
     dateDisplay: "15. Aug 2026",
     location: "Weldegarten, Plankstadt",
     genre: ["Hard Techno"],
-    url: "",
+    url: "https://www.electric-horizon.com/en",
     soldOut: false,
     description: "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
   },
@@ -365,17 +365,17 @@ const festivals = [
     dateDisplay: "29. Aug 2026",
     location: "Messegelände, Balingen",
     genre: ["Techno", "Electronic"],
-    url: "",
+    url: "https://www.eventbrite.de/e/bassaffekt-open-air-2026-tickets-1983602124351",
     soldOut: false,
     description: "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans."
   },
   {
     name: "ZUKUNFTSMUSIK OPEN AIR 2026",
-    date: "2026-08-21",
-    dateDisplay: "21. Aug 2026",
+    date: "2026-08-23",
+    dateDisplay: "21.–23. Aug 2026",
     location: "ZOA Infield, Ecklak, Schleswig-Holstein",
     genre: ["Techno", "Electronic"],
-    url: "",
+    url: "https://zukunftsmusik-openair.de/",
     soldOut: false,
     description: "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals."
   },
@@ -383,9 +383,9 @@ const festivals = [
     name: "FUTURE BEATZZ FESTIVAL 2026",
     date: "2026-08-29",
     dateDisplay: "29. Aug 2026",
-    location: "Hacienda Cospuden, Leipzig",
+    location: "Nordstrand Cospudener See, Leipzig",
     genre: ["Techno", "Electronic", "Hard Techno"],
-    url: "",
+    url: "https://www.leipzig-beatzz.de/",
     soldOut: false,
     description: "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser."
   },
@@ -395,7 +395,7 @@ const festivals = [
     dateDisplay: "12. Sep 2026",
     location: "Sorpesee, Sundern (Sauerland)",
     genre: ["Techno", "Electronic"],
-    url: "",
+    url: "https://www.eventbrite.de/e/solem-tickets-1983433817942",
     soldOut: false,
     description: "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe."
   },
@@ -403,9 +403,9 @@ const festivals = [
     name: "CAMAKAVUM FESTIVAL 2026",
     date: "2026-09-13",
     dateDisplay: "11.–13. Sep 2026",
-    location: "Historische Ziegelei Benzin, Outdoor",
+    location: "Ziegelei Benzin, Kritzow (Parchim)",
     genre: ["Hardcore", "Schranz"],
-    url: "",
+    url: "https://www.camakavum.com",
     soldOut: false,
     description: "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
