@@ -100,6 +100,13 @@ header {
   animation: pulse-glow 3s ease-in-out infinite;
 }
 
+.header-svg-logo {
+  width: min(420px, 90vw);
+  margin: 0 auto;
+  filter: drop-shadow(0 0 18px rgba(255,34,0,0.35));
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
 @keyframes pulse-glow {
   0%, 100% { filter: drop-shadow(0 0 8px var(--red)); }
   50% { filter: drop-shadow(0 0 24px var(--red)) drop-shadow(0 0 50px var(--orange)); }
