@@ -84,6 +84,16 @@ const festivals = [
   // ══════════════════════════════════════════
 
   {
+    name: "MODUS FESTIVAL 2026",
+    date: "2026-07-04",
+    dateDisplay: "4. Juli 2026",
+    location: "Hamburg",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.modus-festival.de",
+    soldOut: false,
+    description: "Hamburger Techno-Open-Air mit Stephan Bodzin, Âme, Monika Kruse, Extrawelt — underground trifft auf Waterfront-Vibes."
+  },
+  {
     name: "RUHR-IN-LOVE 2026",
     date: "2026-07-04",
     dateDisplay: "4. Juli 2026",
@@ -152,6 +162,16 @@ const festivals = [
     url: "https://www.openbeatz.de",
     soldOut: false,
     description: "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse."
+  },
+  {
+    name: "LOVE FAMILY PARK 2026",
+    date: "2026-07-26",
+    dateDisplay: "25.–26. Juli 2026",
+    location: "Rebstockpark, Frankfurt am Main",
+    genre: ["Techno", "Electronic", "House"],
+    url: "https://www.lovefamilypark.com",
+    soldOut: false,
+    description: "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 1996."
   },
   {
     name: "JUICY BEATS 2026",
@@ -257,6 +277,16 @@ const festivals = [
     url: "https://www.highfield.de",
     soldOut: false,
     description: "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil."
+  },
+  {
+    name: "TFELD FESTIVAL 2026",
+    date: "2026-08-22",
+    dateDisplay: "22. Aug 2026",
+    location: "Berlin",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.tfeld.de",
+    soldOut: false,
+    description: "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld."
   },
   {
     name: "WILDE MÖHRE FESTIVAL 2026",
