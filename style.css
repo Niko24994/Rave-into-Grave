@@ -60,15 +60,16 @@ body::after {
   pointer-events: none;
 }
 
-.video-bg iframe {
+.video-bg video {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 177.78vh; /* 16:9 aspect ratio */
+  width: 177.78vh;
   height: 100vh;
   min-width: 100%;
   min-height: 56.25vw;
   transform: translate(-50%, -50%);
+  object-fit: cover;
   pointer-events: none;
 }
 
