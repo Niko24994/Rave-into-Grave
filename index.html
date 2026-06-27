@@ -275,7 +275,7 @@
       const allUpcoming = festivals.filter(f => getStatus(f) !== 'past');
       allUpcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-      document.getElementById('stat-total').textContent = festivals.length;
+      document.getElementById('stat-total').textContent = allUpcoming.length;
       document.getElementById('stat-upcoming').textContent = allUpcoming.length;
 
       const genres = new Set(festivals.flatMap(f => f.genre));
