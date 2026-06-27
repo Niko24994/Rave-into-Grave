@@ -101,15 +101,6 @@
       <!-- Cards rendered by JS -->
     </div>
 
-    <div class="past-section" id="past-section" style="display:none">
-      <button class="past-toggle" id="past-toggle">
-        <span>// VERGANGENE FESTIVALS <span id="past-count"></span></span>
-        <span class="arrow">▼</span>
-      </button>
-      <div class="past-grid" id="past-grid">
-        <!-- Past cards rendered by JS -->
-      </div>
-    </div>
   </main>
 
   <footer>
@@ -258,17 +249,10 @@
       const filtered = filterFestivals();
 
       const upcoming = filtered.filter(f => getStatus(f) !== 'past');
-      const past = filtered.filter(f => getStatus(f) === 'past');
-
-      // Sort upcoming ascending, past descending
       upcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
-      past.sort((a, b) => new Date(b.date) - new Date(a.date));
 
       const grid = document.getElementById('festival-grid');
-      const pastGrid = document.getElementById('past-grid');
-      const pastSection = document.getElementById('past-section');
       const upcomingCountEl = document.getElementById('upcoming-count');
-      const pastCountEl = document.getElementById('past-count');
 
       if (upcoming.length === 0) {
         grid.innerHTML = `
@@ -281,14 +265,6 @@
       }
 
       upcomingCountEl.textContent = `[${upcoming.length}]`;
-
-      if (past.length > 0) {
-        pastSection.style.display = '';
-        pastGrid.innerHTML = past.map(renderCard).join('');
-        pastCountEl.textContent = `[${past.length}]`;
-      } else {
-        pastSection.style.display = 'none';
-      }
 
       updateStats();
     }
