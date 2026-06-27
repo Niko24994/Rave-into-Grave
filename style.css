@@ -101,7 +101,7 @@ header {
 }
 
 .header-svg-logo {
-  width: min(260px, 65vw);
+  width: min(300px, 70vw);
   margin: 0 auto;
   filter: drop-shadow(0 0 18px rgba(255,34,0,0.35));
   animation: pulse-glow 4s ease-in-out infinite;
@@ -774,7 +774,7 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 
 @media (max-width: 768px) {
   /* Video background off on mobile — iOS doesn't autoplay iframes */
-  .video-bg { display: none; }
+  .video-bg { display: block; }
   .video-overlay { background: rgba(5,0,0,0.95); }
 
   .stats-bar {
