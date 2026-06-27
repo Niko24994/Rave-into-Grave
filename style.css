@@ -101,7 +101,7 @@ header {
 }
 
 .header-svg-logo {
-  width: min(420px, 90vw);
+  width: min(260px, 65vw);
   margin: 0 auto;
   filter: drop-shadow(0 0 18px rgba(255,34,0,0.35));
   animation: pulse-glow 4s ease-in-out infinite;
