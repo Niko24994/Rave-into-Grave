@@ -225,7 +225,7 @@ const festivals = [
     dateDisplay: "25. Juli 2026",
     location: "Turbinenhalle, Oberhausen",
     genre: ["Hard Techno"],
-    url: "",
+    url: "https://www.verknipt.org/oberhausen-day-night/",
     soldOut: false,
     description: "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew."
   },
