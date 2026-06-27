@@ -410,38 +410,6 @@ const festivals = [
     description: "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
 
-  {
-    name: "SURREAL",
-    date: "2026-11-01",
-    dateDisplay: "Datum TBA 2026",
-    location: "Lokschuppen Bielefeld",
-    genre: ["Hard Techno", "Techno", "Psytrance"],
-    url: "https://www.lokschuppen-bielefeld.de",
-    soldOut: false,
-    description: "Regelmäßige Techno & Goa Veranstaltungsreihe im Lokschuppen Bielefeld — nächster Termin noch nicht angekündigt."
-  },
-
-  {
-    name: "BALIKALI",
-    date: "2026-09-04",
-    dateDisplay: "4. Sep 2026",
-    location: "Lokschuppen Bielefeld",
-    genre: ["Hard Techno", "Techno", "Psytrance"],
-    url: "https://www.lokschuppen-bielefeld.de",
-    soldOut: false,
-    description: "Rave Festival auf 3 Floors — Hard Techno, Goa & Techno im Lokschuppen Bielefeld. Regelmäßige Veranstaltungsreihe, 18+."
-  },
-
-  {
-    name: "XHARDMESS",
-    date: "2026-12-28",
-    dateDisplay: "Ende Dez 2026 (TBA)",
-    location: "Lokschuppen Bielefeld",
-    genre: ["Hard Techno", "Schranz"],
-    url: "https://www.lokschuppen-bielefeld.de",
-    soldOut: false,
-    description: "Findet jedes Jahr Ende Dezember im Lokschuppen Bielefeld statt — genaues Datum noch nicht angekündigt."
-  },
 
   // ══════════════════════════════════════════
   // BEVORSTEHEND — HERBST 2026
