@@ -30,6 +30,20 @@ const festivals = [
     "description": "Die Mutter aller Raves seit 1991 — härteste Walpurgisnacht Deutschlands in den Westfalenhallen."
   },
   {
+    "name": "POLLERWIESEN FESTIVAL 2026",
+    "date": "2026-05-24",
+    "dateDisplay": "24. Mai 2026",
+    "location": "Revierpark Wischlingen, Dortmund",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.pollerwiesen.org",
+    "soldOut": false,
+    "description": "Seit 1993 Deutschlands schönstes Techno-Open-Air — vier Bühnen, 11–22 Uhr, im Revierpark Wischlingen. 30.000 Raver, kein Camping, pure Energie."
+  },
+  {
     "name": "SPUTNIK SPRING BREAK 2026",
     "date": "2026-05-25",
     "dateDisplay": "22.–25. Mai 2026",
@@ -87,20 +101,6 @@ const festivals = [
     "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno."
   },
   {
-    "name": "OPEN BEATZ 2026",
-    "date": "2026-06-28",
-    "dateDisplay": "28. Juni 2026",
-    "location": "bei Herzogenaurach, Nürnberg",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "EDM"
-    ],
-    "url": "https://www.openbeatz.de",
-    "soldOut": false,
-    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse."
-  },
-  {
     "name": "FUSION FESTIVAL 2026",
     "date": "2026-06-29",
     "dateDisplay": "24.–29. Juni 2026",
@@ -141,6 +141,20 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up."
   },
   {
+    "name": "STONE TECHNO FESTIVAL 2026",
+    "date": "2026-07-10",
+    "dateDisplay": "10.–12. Juli 2026",
+    "location": "Zeche Zollverein, Essen",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.stone-techno.com",
+    "soldOut": false,
+    "description": "100+ Artists auf dem UNESCO-Welterbe Zeche Zollverein — drei Tage Techno in einer der beeindruckendsten Industrie-Kulissen Europas."
+  },
+  {
     "name": "AIRBEAT ONE 2026",
     "date": "2026-07-12",
     "dateDisplay": "8.–12. Juli 2026",
@@ -155,21 +169,7 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up."
   },
   {
-    "name": "LOVE FAMILY PARK 2026",
-    "date": "2026-07-12",
-    "dateDisplay": "12. Juli 2026",
-    "location": "Rebstockpark, Frankfurt am Main",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "House"
-    ],
-    "url": "https://www.lovefamilypark.com",
-    "soldOut": false,
-    "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2026."
-  },
-  {
-    "name": "HEXON FESTIVAL #2",
+    "name": "HEXON FESTIVAL #2 2026",
     "date": "2026-07-18",
     "dateDisplay": "18. Juli 2026",
     "location": "Lokschuppen Bielefeld",
@@ -227,18 +227,19 @@ const festivals = [
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages."
   },
   {
-    "name": "OPEN BEATZ 2026",
+    "name": "BACHBLYTEN FESTIVAL 2026",
     "date": "2026-07-24",
-    "dateDisplay": "24. Juli 2026",
-    "location": "bei Herzogenaurach, Nürnberg",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Flugplatz Schwesing, Husum (Schleswig-Holstein)",
     "genre": [
       "Techno",
-      "Hard Techno",
-      "EDM"
+      "Psytrance",
+      "Drum and Bass",
+      "Electronic"
     ],
-    "url": "https://www.openbeatz.de",
+    "url": "https://bachblyten-festival.com",
     "soldOut": false,
-    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse."
+    "description": "Drei Tage Techno, Psytrance und Goa am Flugplatz Schwesing — intimes Festival im Norden mit starker Community."
   },
   {
     "name": "VERKNIPT OBERHAUSEN 2026",
@@ -251,20 +252,6 @@ const festivals = [
     "url": "https://www.verknipt.org/oberhausen-day-night/",
     "soldOut": false,
     "description": "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew."
-  },
-  {
-    "name": "JUICY BEATS 2026",
-    "date": "2026-07-25",
-    "dateDisplay": "25. Juli 2026",
-    "location": "Westfalenpark, Dortmund",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "House"
-    ],
-    "url": "https://www.juicybeats.net",
-    "soldOut": false,
-    "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel."
   },
   {
     "name": "FEEL FESTIVAL 2026",
@@ -499,6 +486,19 @@ const festivals = [
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream."
   },
   {
+    "name": "SOLÅ FESTIVAL 2026",
+    "date": "2026-08-29",
+    "dateDisplay": "29. Aug 2026",
+    "location": "Orangerie, Karlsaue, Kassel",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.sola-festival.de",
+    "soldOut": false,
+    "description": "Techno-Open-Air auf der Karlsaue in Kassel — die Wiese vor der Orangerie wird zum Dancefloor. 12–22 Uhr, 16+."
+  },
+  {
     "name": "BASSAFFEKT OPEN AIR 2026",
     "date": "2026-08-29",
     "dateDisplay": "29. Aug 2026",
@@ -661,6 +661,20 @@ const festivals = [
     "url": "https://blacklist-festival.com/",
     "soldOut": false,
     "description": "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
+  },
+  {
+    "name": "HIVE INDOOR 2026",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "Messe Leipzig, Leipzig",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Techno"
+    ],
+    "url": "https://hive.ticket.io/27MG6YJh/",
+    "soldOut": false,
+    "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr."
   },
   {
     "name": "VERKNIPT AMSTERDAM — DAY 1",

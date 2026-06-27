@@ -289,20 +289,20 @@ function buildEditionEntry(knownFest, newName, date, sourceUrl) {
 // ─────────────────────────────────────────────────────────────────────────────
 
 const DISCOVERY_SOURCES = [
-  { name: 'hardtours.de',                   url: 'https://www.hardtours.de/festivals',                                       fn: scrapeHardtours },
-  { name: 'festivalticker.de (electronic)', url: 'https://www.festivalticker.de/festivals/genre/elektronische_festivals/',    fn: scrapeFestivalTicker },
-  { name: 'festivalguide.de (techno)',      url: 'https://www.festivalguide.de/festivals/techno',                            fn: scrapeGenericListing },
-  { name: 'dein-festival.de (techno 26)',   url: 'https://www.dein-festival.de/festivals/techno-festivals-2026',             fn: scrapeGenericListing },
-  { name: 'dein-festival.de (techno 27)',   url: 'https://www.dein-festival.de/festivals/techno-festivals-2027',             fn: scrapeGenericListing },
-  { name: 'dein-festival.de (hard techno)', url: 'https://www.dein-festival.de/festivals/hard-techno-festivals',            fn: scrapeGenericListing },
-  { name: 'eventbrite.de (techno festival)',url: 'https://www.eventbrite.de/d/germany/techno-festival/',                    fn: scrapeEventbrite },
-  { name: 'eventbrite.de (hard techno)',    url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',               fn: scrapeEventbrite },
-  { name: 'eventbrite.de (open air NRW)',  url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
-  { name: 'verknipt.org (tickets)',         url: 'https://www.verknipt.org/tickets/',                                       fn: scrapeVerknipt },
-  { name: 'verknipt.org (events)',          url: 'https://www.verknipt.org/events/',                                        fn: scrapeVerknipt },
-  // NL entdecken
-  { name: 'eventbrite.nl (techno)',         url: 'https://www.eventbrite.nl/d/netherlands/techno-festival/',                fn: scrapeEventbrite },
-  { name: 'partyflock.nl (festivals)',      url: 'https://partyflock.nl/agenda/festivals?genre=techno',                     fn: scrapePartyflock },
+  // Listing-Seiten DE
+  { name: 'hardtours.de',                    url: 'https://www.hardtours.de/festivals',                                        fn: scrapeHardtours },
+  { name: 'festivalticker.de (electronic)',  url: 'https://www.festivalticker.de/festivals/genre/elektronische_festivals/',     fn: scrapeFestivalTicker },
+  { name: 'dein-festival.de (techno 26)',    url: 'https://www.dein-festival.de/festivals/techno-festivals-2026',              fn: scrapeDeinFestival },
+  { name: 'dein-festival.de (techno 27)',    url: 'https://www.dein-festival.de/festivals/techno-festivals-2027',              fn: scrapeDeinFestival },
+  { name: 'dein-festival.de (hard techno)',  url: 'https://www.dein-festival.de/festivals/hard-techno-festivals',             fn: scrapeDeinFestival },
+  { name: 'dein-festival.de (hardcore)',     url: 'https://www.dein-festival.de/festivals/hardcore-festivals',                fn: scrapeDeinFestival },
+  { name: 'eventbrite.de (techno festival)', url: 'https://www.eventbrite.de/d/germany/techno-festival/',                     fn: scrapeEventbrite },
+  { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
+  { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
+  // Verknipt NL — einzige erlaubte Holland-Quelle
+  { name: 'verknipt.org (tickets)',          url: 'https://www.verknipt.org/tickets/',                                        fn: scrapeVerknipt },
+  { name: 'verknipt.org (events)',           url: 'https://www.verknipt.org/events/',                                         fn: scrapeVerknipt },
+  // Keine anderen NL-Quellen — nur Verknipt-Events aus Holland erlaubt
 ];
 
 const GENRE_KEYWORDS = ['techno', 'hard techno', 'hardtechno', 'schranz', 'hardcore', 'hardstyle', 'psytrance', 'hard core', 'rave'];
@@ -368,6 +368,28 @@ async function scrapeGenericListing(url) {
     if (!name || name.length < 3 || isClubName(name)) return;
     if (!hasRelevantGenre(genre + ' ' + name)) return;
     const entry = buildDiscoveryEntry({ name, dateText, location, genreText: genre || 'techno', link, source: getDomain(url) || url });
+    if (entry) results.push(entry);
+  });
+  return results;
+}
+
+async function scrapeDeinFestival(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+  // dein-festival.de listet Festivals als Karten mit data-* Attributen oder als .festival-item
+  $('[class*="festival"], [class*="card"], article, li.festival').each((_, el) => {
+    const name     = $(el).find('[class*="title"], [class*="name"], h2, h3').first().text().trim();
+    const dateText = $(el).find('[class*="date"], time, [class*="datum"]').first().text().trim();
+    const location = $(el).find('[class*="location"], [class*="city"], [class*="ort"]').first().text().trim();
+    const genre    = $(el).find('[class*="genre"], [class*="tag"], [class*="style"]').text().toLowerCase();
+    let link       = $(el).find('a').first().attr('href') || '';
+    if (!link.startsWith('http') && link) link = `https://www.dein-festival.de${link}`;
+    if (!name || name.length < 3 || name.length > 80) return;
+    if (isClubName(name)) return;
+    if (!hasRelevantGenre(genre + ' ' + name + ' ' + url)) return;
+    const entry = buildDiscoveryEntry({ name, dateText, location, genreText: genre || 'techno', link, source: 'dein-festival.de' });
     if (entry) results.push(entry);
   });
   return results;
@@ -441,24 +463,6 @@ async function scrapeVerknipt(url) {
   return results;
 }
 
-async function scrapePartyflock(url) {
-  const html = await fetchPage(url);
-  if (!html) return [];
-  const $ = cheerio.load(html);
-  const results = [];
-  $('tr, .event, article').each((_, el) => {
-    const name     = $(el).find('a, .title, td:nth-child(2)').first().text().trim();
-    const dateText = $(el).find('td:first-child, time, .date').first().text().trim();
-    const location = $(el).find('td:nth-child(3), .location').first().text().trim();
-    const link     = $(el).find('a').first().attr('href') || '';
-    if (!name || name.length < 3 || isClubName(name)) return;
-    if (!hasRelevantGenre(name)) return;
-    const fullLink = link.startsWith('http') ? link : `https://partyflock.nl${link}`;
-    const entry = buildDiscoveryEntry({ name, dateText, location, genreText: 'techno', link: fullLink, source: 'partyflock.nl', allowForeign: true });
-    if (entry) results.push(entry);
-  });
-  return results;
-}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HILFSFUNKTIONEN
@@ -494,15 +498,21 @@ function guessGenres(text) {
   return genres.length ? genres : ['Techno'];
 }
 
-function buildDiscoveryEntry({ name, dateText, location, genreText, link, source, allowForeign = false }) {
+function buildDiscoveryEntry({ name, dateText, location, genreText, link, source }) {
   const date = parseDate(dateText);
   if (!date) return null;
 
-  // Ausland filtern (außer NL für Verknipt & wenn explizit erlaubt)
-  if (!allowForeign) {
-    const foreign = ['netherlands', 'nederland', 'amsterdam', 'utrecht', 'rotterdam', 'austria', 'schweiz', 'belgien', 'france', 'uk ', 'united kingdom', 'croatia'];
-    if (foreign.some(f => (location + ' ' + name).toLowerCase().includes(f))) return null;
+  const combined = (location + ' ' + name).toLowerCase();
+
+  // Holländische Locations: NUR Verknipt-Events erlaubt
+  const nlKeywords = ['netherlands', 'nederland', 'amsterdam', 'utrecht', 'rotterdam', 'eindhoven', 'nl)'];
+  if (nlKeywords.some(kw => combined.includes(kw))) {
+    if (!name.toLowerCase().includes('verknipt')) return null;
   }
+
+  // Sonstige Auslandsfestivals komplett ausschließen
+  const foreignOther = ['austria', 'österreich', 'schweiz', 'belgien', 'france', 'frankreich', 'uk ', 'united kingdom', 'croatia', 'kroatien', 'spain', 'spanien', 'italy', 'italien'];
+  if (foreignOther.some(f => combined.includes(f))) return null;
 
   const url = link && link.startsWith('http') ? link : (link ? `https://${source}${link}` : '');
 
@@ -524,6 +534,11 @@ function nameKey(name) {
   return name.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 25);
 }
 
+// Basisname ohne Jahreszahl, für proximity-Dedup
+function baseName(name) {
+  return name.toLowerCase().replace(/\d{4}/g, '').replace(/[^a-z]/g, '').substring(0, 20);
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 // MERGE
 // ─────────────────────────────────────────────────────────────────────────────
@@ -531,12 +546,29 @@ function nameKey(name) {
 function mergeIntoExisting(existing, candidates) {
   const existingKeys = new Set(existing.map(f => nameKey(f.name) + f.date));
   const added = [];
+
   for (const c of candidates) {
     if (!c || !c.date || !c.name) continue;
+
+    // 1. Exakter Name+Datum Duplikat
     const key = nameKey(c.name) + c.date;
     if (existingKeys.has(key)) continue;
+
+    // 2. Gleiches Festival, selber Monat oder Nachbarmonat → nicht re-adden
+    //    Verhindert Start-/End-Datum-Duplikate bei mehrtägigen Festivals
+    //    (z.B. Open Beatz Juli 24 UND Juli 26 würden beide eingetragen)
+    const cBase = baseName(c.name);
+    const cYear = c.date.slice(0, 4);
+    const cMonth = parseInt(c.date.slice(5, 7));
+    const nearDuplicate = existing.some(f => {
+      if (baseName(f.name) !== cBase) return false;
+      if (f.date.slice(0, 4) !== cYear) return false;
+      const fMonth = parseInt(f.date.slice(5, 7));
+      return Math.abs(cMonth - fMonth) <= 1; // gleicher oder Nachbarmonat
+    });
+    if (nearDuplicate) continue;
+
     existingKeys.add(key);
-    // _source/_auto sind interne Felder → sauber entfernen
     const { _source, _auto, ...clean } = c;
     added.push(clean);
   }
