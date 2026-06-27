@@ -1,0 +1,51 @@
+name: Daily Festival Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Täglich 06:00 UTC (08:00 CEST)
+  workflow_dispatch:       # Auch manuell auslösbar via GitHub UI
+
+jobs:
+  update-festivals:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Scraper Dependencies
+        run: |
+          cd scraper
+          npm install
+
+      - name: Run Festival Scraper
+        run: |
+          cd scraper
+          node fetch_festivals.js
+        continue-on-error: true  # Nicht abbrechen wenn Scraper keine neuen Daten findet
+
+      - name: Check for Changes
+        id: changes
+        run: |
+          if git diff --quiet data/festivals.js; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push Updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/festivals.js
+          git commit -m "chore: auto-update festival data [$(date '+%Y-%m-%d')]"
+          git push

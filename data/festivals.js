@@ -319,16 +319,6 @@ const festivals = [
     description: "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser."
   },
   {
-    name: "NIBIRII FESTIVAL 2026",
-    date: "2026-08-30",
-    dateDisplay: "28.–30. Aug 2026",
-    location: "Düren, NRW",
-    genre: ["Techno", "Hard Techno", "Electronic"],
-    url: "https://www.nibirii.de",
-    soldOut: false,
-    description: "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene."
-  },
-  {
     name: "CAMAKAVUM FESTIVAL 2026",
     date: "2026-09-13",
     dateDisplay: "11.–13. Sep 2026",
@@ -443,6 +433,16 @@ const festivals = [
   // BEVORSTEHEND — 2027
   // ══════════════════════════════════════════
 
+  {
+    name: "AFFENKÄFIG FESTIVAL 2027",
+    date: "2027-06-20",
+    dateDisplay: "18.–20. Juni 2027",
+    location: "Deutschland",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.affenkaefig-festival.de",
+    soldOut: false,
+    description: "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen."
+  },
   {
     name: "APEX 2027",
     date: "2027-01-30",
