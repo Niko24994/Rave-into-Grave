@@ -7,7 +7,7 @@
   --white: #f0f0f0;
   --dim: #999;
   --card-bg: #0e0e0e;
-  --card-border: #1c1c1c;
+  --card-border: var(--orange);
   --green: #00ff88;
   --font-mono: 'Share Tech Mono', monospace;
   --font-body: 'Rajdhani', sans-serif;
