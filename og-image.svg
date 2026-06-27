@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Scanlines -->
+  <rect width="1200" height="630" fill="url(#scanlines)" opacity="0.15"/>
+
+  <!-- Red accent bar top -->
+  <rect width="1200" height="4" fill="#ff2d00"/>
+
+  <!-- Red accent bar bottom -->
+  <rect y="626" width="1200" height="4" fill="#ff2d00"/>
+
+  <!-- Left glow blob -->
+  <ellipse cx="100" cy="315" rx="200" ry="300" fill="#ff2d00" opacity="0.04"/>
+  <!-- Right glow blob -->
+  <ellipse cx="1100" cy="315" rx="200" ry="300" fill="#ff2d00" opacity="0.04"/>
+
+  <!-- Skull + lightning -->
+  <text x="600" y="200" font-size="90" text-anchor="middle" filter="url(#glow)">☠️⚡</text>
+
+  <!-- Main title -->
+  <text x="600" y="330" font-family="monospace" font-size="96" font-weight="bold"
+        fill="#f0f0f0" text-anchor="middle" letter-spacing="16"
+        filter="url(#glow)">RAVE INTO GRAVE</text>
+
+  <!-- Red underline -->
+  <rect x="200" y="348" width="800" height="3" fill="#ff2d00" opacity="0.8"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="420" font-family="monospace" font-size="28"
+        fill="#ff2d00" text-anchor="middle" letter-spacing="6">
+    TECHNO &amp; HARD TECHNO FESTIVALS — DEUTSCHLAND
+  </text>
+
+  <!-- Stats row -->
+  <text x="600" y="510" font-family="monospace" font-size="20"
+        fill="#666" text-anchor="middle" letter-spacing="4">
+    ALLE DATES · GENRE-FILTER · COUNTDOWNS · KEINE WERBUNG
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="580" font-family="monospace" font-size="18"
+        fill="#444" text-anchor="middle" letter-spacing="2">
+    niko24994.github.io/Rave-into-Grave
+  </text>
+</svg>

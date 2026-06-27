@@ -328,6 +328,28 @@ header {
   box-shadow: 0 0 16px rgba(255,45,0,0.4);
 }
 
+/* ─── RESET BUTTON ─── */
+
+.reset-btn {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+  padding: 0.45rem 1.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: #888;
+  background: transparent;
+  border: 1px solid #444;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  text-transform: uppercase;
+}
+
+.reset-btn:hover {
+  color: var(--red);
+  border-color: var(--red);
+}
+
 /* ─── GRID ─── */
 
 .main-content {

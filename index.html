@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RAVE INTO GRAVE — Techno Festival Tracker Deutschland</title>
   <meta name="description" content="Kein Techno- oder Hard Techno Festival in Deutschland mehr verpassen. Alle Dates, Genres, Countdowns auf einen Blick." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RAVE INTO GRAVE — Techno Festival Tracker Deutschland" />
+  <meta property="og:description" content="Alle Techno & Hard Techno Festivals in Deutschland. Dates, Genres, Countdowns — kein Festival mehr verpassen." />
+  <meta property="og:image" content="https://niko24994.github.io/Rave-into-Grave/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://niko24994.github.io/Rave-into-Grave/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Rave into Grave" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RAVE INTO GRAVE — Techno Festival Tracker Deutschland" />
+  <meta name="twitter:description" content="Alle Techno & Hard Techno Festivals in Deutschland. Dates, Genres, Countdowns — kein Festival mehr verpassen." />
+  <meta name="twitter:image" content="https://niko24994.github.io/Rave-into-Grave/og-image.svg" />
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠️</text></svg>" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -68,6 +85,8 @@
         <option value="12">DEZ</option>
       </select>
     </div>
+
+    <button class="reset-btn" id="reset-filters">✕ FILTER ZURÜCKSETZEN</button>
 
     <div class="genre-filters">
       <span class="genre-label">// GENRE:</span>
@@ -302,6 +321,18 @@
       });
     });
 
+
+    // ─── FILTER RESET ───
+    document.getElementById('reset-filters').addEventListener('click', () => {
+      searchQuery = '';
+      activeGenre = 'all';
+      monthFilter = '';
+      document.getElementById('search').value = '';
+      document.getElementById('month-filter').value = '';
+      document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.genre-btn[data-genre="all"]').classList.add('active');
+      render();
+    });
 
     // ─── SCROLL TO TOP ───
     const scrollBtn = document.getElementById('scroll-top');
