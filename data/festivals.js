@@ -411,6 +411,27 @@ const festivals = [
   },
 
 
+  {
+    name: "VERKNIPT AMSTERDAM — DAY 1",
+    date: "2026-10-24",
+    dateDisplay: "24. Okt 2026",
+    location: "AFAS Live, Amsterdam (NL)",
+    genre: ["Hard Techno"],
+    url: "https://www.verknipt.org/",
+    soldOut: false,
+    description: "Verknipt zu Gast in Amsterdam — zwei Tage Hard Techno im AFAS Live. Tag 1: 13:00–22:00 Uhr."
+  },
+  {
+    name: "VERKNIPT AMSTERDAM — DAY 2",
+    date: "2026-10-25",
+    dateDisplay: "25. Okt 2026",
+    location: "AFAS Live, Amsterdam (NL)",
+    genre: ["Hard Techno"],
+    url: "https://www.verknipt.org/",
+    soldOut: false,
+    description: "Verknipt zu Gast in Amsterdam — zwei Tage Hard Techno im AFAS Live. Tag 2: 14:00–00:00 Uhr."
+  },
+
   // ══════════════════════════════════════════
   // BEVORSTEHEND — HERBST 2026
   // ══════════════════════════════════════════
