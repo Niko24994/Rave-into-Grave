@@ -410,6 +410,17 @@ const festivals = [
     description: "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
 
+  {
+    name: "BALIKALI",
+    date: "2026-09-04",
+    dateDisplay: "4. Sep 2026",
+    location: "Lokschuppen Bielefeld",
+    genre: ["Hard Techno", "Techno", "Psytrance"],
+    url: "https://www.lokschuppen-bielefeld.de",
+    soldOut: false,
+    description: "Rave Festival auf 3 Floors — Hard Techno, Goa & Techno im Lokschuppen Bielefeld. Regelmäßige Veranstaltungsreihe, 18+."
+  },
+
   // ══════════════════════════════════════════
   // BEVORSTEHEND — HERBST 2026
   // ══════════════════════════════════════════
