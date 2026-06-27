@@ -776,7 +776,7 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 @media (max-width: 768px) {
   /* Video background off on mobile — iOS doesn't autoplay iframes */
   .video-bg { display: block; }
-  .video-overlay { background: rgba(5,0,0,0.95); }
+  .video-overlay { background: rgba(5,0,0,0.75); }
 
   .stats-bar {
     gap: 1rem 1.5rem;
