@@ -398,6 +398,14 @@
 
     // ─── INIT ───
     render();
+
+    // ─── iOS VIDEO FIX ───
+    const bgVideo = document.querySelector('.video-bg video');
+    if (bgVideo) {
+      bgVideo.play().catch(() => {
+        document.addEventListener('touchstart', () => bgVideo.play(), { once: true });
+      });
+    }
   </script>
 </body>
 </html>
