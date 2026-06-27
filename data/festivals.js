@@ -89,7 +89,7 @@ const festivals = [
     dateDisplay: "4. Juli 2026",
     location: "Hamburg",
     genre: ["Techno", "Electronic"],
-    url: "https://www.modus-festival.de",
+    url: "https://de.ra.co/events/2361023",
     soldOut: false,
     description: "Hamburger Techno-Open-Air mit Stephan Bodzin, Âme, Monika Kruse, Extrawelt — underground trifft auf Waterfront-Vibes."
   },
@@ -199,9 +199,20 @@ const festivals = [
     dateDisplay: "31. Juli – 1. Aug 2026",
     location: "Rotenburg an der Wümme",
     genre: ["Techno", "Electronic", "House"],
-    url: "https://ferdinandsfelderfestival.de",
+    url: "",
     soldOut: false,
     description: "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground."
+  },
+
+  {
+    name: "HEXON FESTIVAL #2",
+    date: "2026-07-18",
+    dateDisplay: "18. Juli 2026",
+    location: "Lokschuppen Bielefeld",
+    genre: ["Techno", "Trance", "Electronic"],
+    url: "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
+    soldOut: false,
+    description: "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+."
   },
 
   // ══════════════════════════════════════════
@@ -254,7 +265,7 @@ const festivals = [
     dateDisplay: "14.–15. Aug 2026",
     location: "Airport Weeze, Weeze",
     genre: ["Techno", "Electronic", "House"],
-    url: "https://www.san-hejmo.com",
+    url: "",
     soldOut: false,
     description: "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre."
   },
@@ -284,7 +295,7 @@ const festivals = [
     dateDisplay: "22. Aug 2026",
     location: "Berlin",
     genre: ["Techno", "Electronic"],
-    url: "https://www.tfeld.de",
+    url: "",
     soldOut: false,
     description: "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld."
   },
@@ -324,7 +335,7 @@ const festivals = [
     dateDisplay: "15. Aug 2026",
     location: "Weldegarten, Plankstadt",
     genre: ["Hard Techno"],
-    url: "https://www.electric-horizon.de",
+    url: "",
     soldOut: false,
     description: "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
   },
@@ -354,7 +365,7 @@ const festivals = [
     dateDisplay: "29. Aug 2026",
     location: "Messegelände, Balingen",
     genre: ["Techno", "Electronic"],
-    url: "https://www.eventbrite.de",
+    url: "",
     soldOut: false,
     description: "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans."
   },
@@ -364,7 +375,7 @@ const festivals = [
     dateDisplay: "21. Aug 2026",
     location: "ZOA Infield, Ecklak, Schleswig-Holstein",
     genre: ["Techno", "Electronic"],
-    url: "https://www.zoa-festival.de",
+    url: "",
     soldOut: false,
     description: "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals."
   },
@@ -374,7 +385,7 @@ const festivals = [
     dateDisplay: "29. Aug 2026",
     location: "Hacienda Cospuden, Leipzig",
     genre: ["Techno", "Electronic", "Hard Techno"],
-    url: "https://www.eventbrite.de",
+    url: "",
     soldOut: false,
     description: "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser."
   },
@@ -384,7 +395,7 @@ const festivals = [
     dateDisplay: "12. Sep 2026",
     location: "Sorpesee, Sundern (Sauerland)",
     genre: ["Techno", "Electronic"],
-    url: "https://www.eventbrite.de",
+    url: "",
     soldOut: false,
     description: "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe."
   },
@@ -394,7 +405,7 @@ const festivals = [
     dateDisplay: "11.–13. Sep 2026",
     location: "Historische Ziegelei Benzin, Outdoor",
     genre: ["Hardcore", "Schranz"],
-    url: "https://www.camakavum.de",
+    url: "",
     soldOut: false,
     description: "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
@@ -439,7 +450,7 @@ const festivals = [
     dateDisplay: "10. Okt 2026",
     location: "Oberhausen, NRW",
     genre: ["Techno", "Hardcore", "Drum and Bass"],
-    url: "https://www.blacklist-festival.de",
+    url: "https://blacklist-festival.com/",
     soldOut: false,
     description: "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
   },
@@ -459,7 +470,7 @@ const festivals = [
     dateDisplay: "6. Nov 2026",
     location: "Maimarkthalle, Mannheim",
     genre: ["Hardcore"],
-    url: "https://www.theholyshitshow.de",
+    url: "https://holypriest.os.fan/mannheim",
     soldOut: false,
     description: "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung."
   },
@@ -469,7 +480,7 @@ const festivals = [
     dateDisplay: "4. Dez 2026",
     location: "Zenith Halle, München",
     genre: ["Hardcore", "Hard Techno"],
-    url: "https://www.hardshift-festival.de",
+    url: "https://www.hardshift.de/",
     soldOut: false,
     description: "Hardcore und Hard Techno in der Zenith Halle München — Bayerns härteste Nacht des Jahres."
   },
@@ -519,7 +530,7 @@ const festivals = [
     dateDisplay: "30. Jan 2027",
     location: "Maimarkthalle, Mannheim",
     genre: ["Hardcore", "Hard Techno"],
-    url: "https://www.apex-festival.de",
+    url: "https://apexfest.de/",
     soldOut: false,
     description: "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno."
   },
