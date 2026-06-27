@@ -349,6 +349,46 @@ const festivals = [
     description: "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser."
   },
   {
+    name: "BASSAFFEKT OPEN AIR 2026",
+    date: "2026-08-29",
+    dateDisplay: "29. Aug 2026",
+    location: "Messegelände, Balingen",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.eventbrite.de",
+    soldOut: false,
+    description: "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans."
+  },
+  {
+    name: "ZUKUNFTSMUSIK OPEN AIR 2026",
+    date: "2026-08-21",
+    dateDisplay: "21. Aug 2026",
+    location: "ZOA Infield, Ecklak, Schleswig-Holstein",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.zoa-festival.de",
+    soldOut: false,
+    description: "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals."
+  },
+  {
+    name: "FUTURE BEATZZ FESTIVAL 2026",
+    date: "2026-08-29",
+    dateDisplay: "29. Aug 2026",
+    location: "Hacienda Cospuden, Leipzig",
+    genre: ["Techno", "Electronic", "Hard Techno"],
+    url: "https://www.eventbrite.de",
+    soldOut: false,
+    description: "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser."
+  },
+  {
+    name: "SOLEM FESTIVAL 2026",
+    date: "2026-09-12",
+    dateDisplay: "12. Sep 2026",
+    location: "Sorpesee, Sundern (Sauerland)",
+    genre: ["Techno", "Electronic"],
+    url: "https://www.eventbrite.de",
+    soldOut: false,
+    description: "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe."
+  },
+  {
     name: "CAMAKAVUM FESTIVAL 2026",
     date: "2026-09-13",
     dateDisplay: "11.–13. Sep 2026",

@@ -76,6 +76,26 @@ const SOURCES = [
     name: 'goabase.net',
     url: 'https://www.goabase.net/party/list/?country=de&genre=techno',
     scrape: scrapeGoabase
+  },
+  {
+    name: 'eventbrite.de (techno)',
+    url: 'https://www.eventbrite.de/d/germany/techno-festival/',
+    scrape: scrapeEventbrite
+  },
+  {
+    name: 'eventbrite.de (hard techno)',
+    url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',
+    scrape: scrapeEventbrite
+  },
+  {
+    name: 'eventbrite.de (schranz)',
+    url: 'https://www.eventbrite.de/d/germany/schranz-festival/',
+    scrape: scrapeEventbrite
+  },
+  {
+    name: 'eventbrite.de (electronic outdoor)',
+    url: 'https://www.eventbrite.de/d/germany/electronic-open-air/',
+    scrape: scrapeEventbrite
   }
 ];
 
@@ -304,6 +324,39 @@ async function scrapeFestivalGuide(url) {
     results.push(normalizeEntry({ name, dateText, location, genreText: genreText || 'techno', link, source: 'festivalguide.de' }));
   });
 
+  return results.filter(Boolean);
+}
+
+async function scrapeEventbrite(url) {
+  const results = [];
+  // Eventbrite hat 11+ Seiten — wir scrapen die ersten 4
+  for (let page = 1; page <= 4; page++) {
+    const pageUrl = page === 1 ? url : `${url}?page=${page}`;
+    const html = await fetchPage(pageUrl);
+    if (!html) continue;
+    const $ = cheerio.load(html);
+
+    $('[data-testid="event-card"], .eds-event-card, article, .search-event-card').each((_, el) => {
+      const name = $(el).find('h2, h3, [data-testid="event-card-title"], .eds-event-card__formatted-name').first().text().trim();
+      const dateText = $(el).find('time, [data-testid="event-card-date"], .eds-event-card__sub-title').first().text().trim();
+      const location = $(el).find('[data-testid="event-card-venue"], .card-text--truncated__one').first().text().trim();
+      const link = $(el).find('a').first().attr('href') || '';
+
+      if (!name || name.length < 3) return;
+      // Nur echte Festivals — mindestens "festival", "open air", "open-air" im Namen
+      const nameLower = name.toLowerCase();
+      if (!nameLower.includes('festival') && !nameLower.includes('open air') && !nameLower.includes('open-air')) return;
+      if (isClubEvent(location)) return;
+      if (!hasRelevantGenre(nameLower)) return;
+
+      results.push(normalizeEntry({
+        name, dateText, location,
+        genreText: 'techno',
+        link: link.startsWith('http') ? link : `https://www.eventbrite.de${link}`,
+        source: 'eventbrite.de'
+      }));
+    });
+  }
   return results.filter(Boolean);
 }
 
