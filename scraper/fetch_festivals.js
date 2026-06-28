@@ -162,7 +162,9 @@ function getDomain(url) {
 function shouldSkipUrl(url) {
   if (!url) return true;
   const domain = getDomain(url);
-  return SKIP_DOMAINS.has(domain);
+  if (!domain) return true;
+  // Prüfe domain UND alle übergeordneten Domains (z.B. de.ra.co → ra.co)
+  return SKIP_DOMAINS.has(domain) || [...SKIP_DOMAINS].some(s => domain.endsWith('.' + s));
 }
 
 function getCheckUrl(fest) {
