@@ -31,9 +31,25 @@
     gtag('config', 'G-1H6JCW8DEJ');
   </script>
 
+  <link rel="canonical" href="https://niko24994.github.io/Rave-into-Grave/" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☠️</text></svg>" />
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
   <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Rave into Grave",
+    "url": "https://niko24994.github.io/Rave-into-Grave/",
+    "description": "Alle Techno & Hard Techno Festivals in Deutschland — Dates, Genres, Countdowns. Kein Festival mehr verpassen.",
+    "inLanguage": "de",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rave into Grave"
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -399,6 +415,40 @@
 
     // ─── INIT ───
     render();
+
+    // ─── SEO: JSON-LD Event Schema ───
+    (function injectEventSchemas() {
+      const graph = festivals.map(f => {
+        const isNL = f.location.includes('(NL)') || f.location.toLowerCase().includes('amsterdam') || f.location.toLowerCase().includes('netherlands');
+        return {
+          "@type": "Event",
+          "name": f.name,
+          "startDate": f.date,
+          "description": f.description || `${f.name} — ${f.location}`,
+          "url": f.url || "https://niko24994.github.io/Rave-into-Grave/",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": f.location,
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": f.location.split(',').pop().trim(),
+              "addressCountry": isNL ? "NL" : "DE"
+            }
+          },
+          "organizer": {
+            "@type": "Organization",
+            "name": f.name.replace(/\s*\d{4}\s*$/, '').trim(),
+            "url": f.url || ""
+          }
+        };
+      });
+      const tag = document.createElement('script');
+      tag.type = 'application/ld+json';
+      tag.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
+      document.head.appendChild(tag);
+    })();
 
     // ─── iOS VIDEO FIX ───
     const bgVideo = document.querySelector('.video-bg video');
