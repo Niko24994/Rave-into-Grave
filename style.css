@@ -601,30 +601,35 @@ header {
 
 .icon-btn {
   background: transparent;
-  border: 1px solid #2a2a2a;
-  color: #555;
-  font-size: 0.85rem;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.6rem;
   cursor: pointer;
   transition: all 0.15s;
-  padding: 0;
-  line-height: 1;
+  white-space: nowrap;
+}
+
+.icon-btn.cal-btn {
+  border: 1px solid var(--orange);
+  color: var(--orange);
 }
 
 .icon-btn.cal-btn:hover {
-  border-color: var(--orange);
-  color: var(--orange);
-  box-shadow: 0 0 10px rgba(255,153,0,0.3);
+  background: var(--orange);
+  color: #000;
+  box-shadow: 0 0 14px rgba(255,153,0,0.35);
+}
+
+.icon-btn.share-btn {
+  border: 1px solid var(--red);
+  color: var(--red);
 }
 
 .icon-btn.share-btn:hover {
-  border-color: var(--red);
-  color: var(--red);
-  box-shadow: 0 0 10px rgba(255,45,0,0.3);
+  background: var(--red);
+  color: var(--white);
+  box-shadow: 0 0 14px rgba(255,45,0,0.35);
 }
 
 .countdown {
