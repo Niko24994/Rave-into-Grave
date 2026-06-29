@@ -593,6 +593,30 @@ header {
   border-top: 1px solid #1a1a1a;
 }
 
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.action-btn {
+  flex: 1;
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  color: #666;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.action-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
 .countdown {
   font-family: var(--font-mono);
   font-size: 0.78rem;

@@ -319,6 +319,10 @@
               <span class="countdown ${countdownClass}">${countdown}</span>
               ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
             </div>
+            <div class="card-actions">
+              <button class="action-btn cal-btn" data-fav="${favKey(f)}" aria-label="Zum Kalender hinzufügen">📅 KALENDER</button>
+              <button class="action-btn share-btn" data-fav="${favKey(f)}" aria-label="Festival teilen">↗ TEILEN</button>
+            </div>
           </div>
         </article>
       `;
@@ -400,8 +404,59 @@
       render();
     });
 
-    // Stern-Klicks per Event Delegation
+    // ─── KALENDER EXPORT (.ics) ───
+    function downloadICS(f) {
+      const start = f.date.replace(/-/g, '');
+      const endDate = new Date(f.date);
+      endDate.setDate(endDate.getDate() + 1);
+      const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
+      const desc = (f.description + (f.url ? '\\n' + f.url : '')).replace(/,/g, '\\,');
+      const ics = [
+        'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Rave into Grave//DE',
+        'BEGIN:VEVENT',
+        `DTSTART;VALUE=DATE:${start}`,
+        `DTEND;VALUE=DATE:${end}`,
+        `SUMMARY:${f.name}`,
+        `LOCATION:${f.location}`,
+        `DESCRIPTION:${desc}`,
+        f.url ? `URL:${f.url}` : '',
+        'END:VEVENT', 'END:VCALENDAR'
+      ].filter(Boolean).join('\r\n');
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
+      a.download = f.name.replace(/[^a-zA-Z0-9]/g, '-') + '.ics';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+
+    // ─── TEILEN ───
+    async function shareFestival(f) {
+      const siteUrl = 'https://niko24994.github.io/Rave-into-Grave/';
+      const text = `${f.name}\n📅 ${f.dateDisplay}\n📍 ${f.location}`;
+      if (navigator.share) {
+        try {
+          await navigator.share({ title: f.name, text, url: f.url || siteUrl });
+        } catch (_) {}
+      } else {
+        const waText = `🎵 ${text}\n\nMehr Festivals: ${siteUrl}`;
+        window.open(`https://wa.me/?text=${encodeURIComponent(waText)}`, '_blank');
+      }
+    }
+
+    // Stern-Klicks + Kalender + Teilen per Event Delegation
     document.getElementById('festival-grid').addEventListener('click', e => {
+      const calBtn = e.target.closest('.cal-btn');
+      if (calBtn) {
+        const fest = festivals.find(f => favKey(f) === calBtn.dataset.fav);
+        if (fest) downloadICS(fest);
+        return;
+      }
+      const shareBtn = e.target.closest('.share-btn');
+      if (shareBtn) {
+        const fest = festivals.find(f => favKey(f) === shareBtn.dataset.fav);
+        if (fest) shareFestival(fest);
+        return;
+      }
       const btn = e.target.closest('.fav-btn');
       if (!btn) return;
       e.preventDefault();
