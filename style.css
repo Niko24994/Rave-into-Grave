@@ -612,6 +612,10 @@ header {
 .fav-btn:hover { color: #ffaa00; transform: scale(1.2); }
 .fav-btn.active { color: #ffaa00; }
 
+.fav-filter-row {
+  margin-top: 0.75rem;
+}
+
 .genre-btn.fav-filter.active {
   background: #ffaa00;
   border-color: #ffaa00;
