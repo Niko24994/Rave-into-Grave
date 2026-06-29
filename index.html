@@ -137,14 +137,17 @@
 
   <div class="controls">
     <div class="search-row">
-      <input
-        type="text"
-        class="search-input"
-        id="search"
-        placeholder="// FESTIVAL ODER ORT SUCHEN..."
-        autocomplete="off"
-        spellcheck="false"
-      />
+      <div class="search-wrapper">
+        <input
+          type="text"
+          class="search-input"
+          id="search"
+          placeholder="// FESTIVAL ODER ORT SUCHEN..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <div class="search-suggestions" id="search-suggestions" hidden></div>
+      </div>
       <select class="month-select" id="month-filter">
         <option value="">ALLE MONATE</option>
         <option value="1">JAN</option>
@@ -398,9 +401,72 @@
 
     // ─── EVENT LISTENERS ───
 
-    document.getElementById('search').addEventListener('input', e => {
+    // ─── AUTOCOMPLETE ───
+    const searchEl   = document.getElementById('search');
+    const suggestEl  = document.getElementById('search-suggestions');
+    let activeIdx = -1;
+
+    function buildSuggestions(q) {
+      if (!q || q.length < 1) return [];
+      const low = q.toLowerCase();
+      const names = [...new Set(festivals.map(f => f.name))]
+        .filter(n => n.toLowerCase().includes(low))
+        .slice(0, 4)
+        .map(n => ({ label: n, type: 'festival' }));
+      const locs = [...new Set(festivals.map(f => f.location.split(',')[0].trim()))]
+        .filter(l => l.toLowerCase().includes(low))
+        .slice(0, 3)
+        .map(l => ({ label: l, type: 'ort' }));
+      return [...names, ...locs].slice(0, 6);
+    }
+
+    function showSuggestions(items) {
+      activeIdx = -1;
+      if (!items.length) { suggestEl.hidden = true; return; }
+      suggestEl.innerHTML = items.map((it, i) =>
+        `<div class="suggestion-item" data-idx="${i}" data-label="${it.label}">
+          <span class="suggestion-icon">${it.type === 'festival' ? '▶' : '◈'}</span>
+          <span>${it.label}</span>
+        </div>`
+      ).join('');
+      suggestEl.hidden = false;
+    }
+
+    function hideSuggestions() { suggestEl.hidden = true; activeIdx = -1; }
+
+    function applyIdx(idx) {
+      suggestEl.querySelectorAll('.suggestion-item').forEach((el, i) =>
+        el.classList.toggle('active', i === idx)
+      );
+    }
+
+    searchEl.addEventListener('input', e => {
       searchQuery = e.target.value;
       render();
+      showSuggestions(buildSuggestions(searchQuery));
+    });
+
+    searchEl.addEventListener('keydown', e => {
+      const items = suggestEl.querySelectorAll('.suggestion-item');
+      if (!items.length) return;
+      if (e.key === 'ArrowDown')  { e.preventDefault(); activeIdx = Math.min(activeIdx + 1, items.length - 1); applyIdx(activeIdx); }
+      if (e.key === 'ArrowUp')    { e.preventDefault(); activeIdx = Math.max(activeIdx - 1, -1); applyIdx(activeIdx); }
+      if (e.key === 'Enter' && activeIdx >= 0) { e.preventDefault(); searchEl.value = items[activeIdx].dataset.label; searchQuery = searchEl.value; render(); hideSuggestions(); }
+      if (e.key === 'Escape') hideSuggestions();
+    });
+
+    suggestEl.addEventListener('mousedown', e => {
+      const item = e.target.closest('.suggestion-item');
+      if (!item) return;
+      e.preventDefault();
+      searchEl.value = item.dataset.label;
+      searchQuery = item.dataset.label;
+      render();
+      hideSuggestions();
+    });
+
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.search-wrapper')) hideSuggestions();
     });
 
     // ─── KALENDER EXPORT (.ics) ───

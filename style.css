@@ -273,9 +273,50 @@ header {
   flex-wrap: wrap;
 }
 
-.search-input {
+.search-wrapper {
   flex: 1;
   min-width: 220px;
+  position: relative;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  background: #0e0e0e;
+  border: 1px solid #2a2a2a;
+  border-top: 1px solid var(--orange);
+  z-index: 100;
+  overflow: hidden;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: #aaa;
+  cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+  background: rgba(255,153,0,0.08);
+  color: var(--white);
+}
+
+.suggestion-icon {
+  color: var(--orange);
+  font-size: 0.65rem;
+  flex-shrink: 0;
+}
+
+.search-input {
+  width: 100%;
   background: rgba(15,15,15,0.9);
   border: 1px solid #2a2a2a;
   color: var(--white);
