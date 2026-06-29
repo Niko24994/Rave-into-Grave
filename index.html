@@ -317,11 +317,11 @@
             <p class="card-description">${f.description}</p>
             <div class="card-footer">
               <span class="countdown ${countdownClass}">${countdown}</span>
+              <div class="card-icon-btns">
+                <button class="icon-btn cal-btn" data-fav="${favKey(f)}" aria-label="Zum Kalender hinzufügen" title="Zum Kalender hinzufügen">📅</button>
+                <button class="icon-btn share-btn" data-fav="${favKey(f)}" aria-label="Festival teilen" title="Festival teilen">↗</button>
+              </div>
               ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
-            </div>
-            <div class="card-actions">
-              <button class="action-btn cal-btn" data-fav="${favKey(f)}" aria-label="Zum Kalender hinzufügen">📅 KALENDER</button>
-              <button class="action-btn share-btn" data-fav="${favKey(f)}" aria-label="Festival teilen">↗ TEILEN</button>
             </div>
           </div>
         </article>
