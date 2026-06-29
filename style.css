@@ -593,46 +593,27 @@ header {
   border-top: 1px solid #1a1a1a;
 }
 
-.card-icon-btns {
+.card-actions {
   display: flex;
-  gap: 0.6rem;
-  margin: 0 auto 0 0.25rem;
+  gap: 1.25rem;
+  padding-bottom: 0.6rem;
 }
 
-.icon-btn {
-  background: transparent !important;
+.action-btn {
+  background: none;
+  border: none;
+  padding: 0;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
-  padding: 0.4rem 0.7rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
   cursor: pointer;
-  transition: all 0.15s;
-  white-space: nowrap;
-  appearance: none;
-  -webkit-appearance: none;
+  transition: color 0.15s;
 }
 
-.icon-btn.cal-btn {
-  border: 1px solid var(--orange);
-  color: var(--orange);
-}
-
-.icon-btn.cal-btn:hover {
-  background: var(--orange);
-  color: #000;
-  box-shadow: 0 0 14px rgba(255,153,0,0.35);
-}
-
-.icon-btn.share-btn {
-  border: 1px solid var(--red);
-  color: var(--red);
-}
-
-.icon-btn.share-btn:hover {
-  background: var(--red);
-  color: var(--white);
-  box-shadow: 0 0 14px rgba(255,45,0,0.35);
-}
+.action-btn.cal-btn  { color: #555; }
+.action-btn.share-btn { color: #555; }
+.action-btn.cal-btn:hover  { color: var(--orange); }
+.action-btn.share-btn:hover { color: var(--red); }
 
 .countdown {
   font-family: var(--font-mono);
