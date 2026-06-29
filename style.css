@@ -190,7 +190,7 @@ header {
 
 .seo-h1 {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.12em;
   color: #999;
@@ -728,7 +728,7 @@ footer {
   backdrop-filter: blur(4px);
 }
 
-.footer-skull { font-size: 1.5rem; display: block; margin-bottom: 0.5rem; filter: drop-shadow(0 0 6px var(--red)); }
+.footer-skull { width: 48px; height: 48px; display: block; margin: 0 auto 0.75rem; filter: drop-shadow(0 0 8px rgba(255,45,0,0.5)); border-radius: 8px; }
 
 .footer-tagline {
   font-family: var(--font-body);
