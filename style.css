@@ -190,18 +190,18 @@ header {
 
 .seo-h1 {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 400;
   letter-spacing: 0.12em;
-  color: #555;
+  color: #999;
   text-transform: uppercase;
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.5rem;
 }
 
 .seo-text {
   font-family: var(--font-mono);
-  font-size: 0.82rem;
-  color: #888;
+  font-size: 0.95rem;
+  color: #ccc;
   line-height: 1.7;
   margin: 0;
 }
