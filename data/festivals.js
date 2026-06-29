@@ -96,7 +96,7 @@ const festivals = [
       "Schranz",
       "Psytrance"
     ],
-    "url": "https://hivefestival.de",
+    "url": "https://hive-festival.de",
     "soldOut": false,
     "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno."
   },
@@ -373,7 +373,7 @@ const festivals = [
       "Techno",
       "Trance"
     ],
-    "url": "https://www.sms-festival.de",
+    "url": "https://www.sonnemondsterne.de",
     "soldOut": false,
     "description": "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair."
   },
@@ -481,8 +481,8 @@ const festivals = [
       "Electronic",
       "Experimental"
     ],
-    "url": "https://www.wilde-moehre.de",
-    "soldOut": false,
+    "url": "https://wildemoehrefestival.de",
+    "soldOut": true,
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream."
   },
   {
@@ -535,7 +535,7 @@ const festivals = [
       "Hard Techno",
       "Electronic"
     ],
-    "url": "https://www.nibirii.de",
+    "url": "https://nibirii.com",
     "soldOut": false,
     "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene."
   },
@@ -629,7 +629,7 @@ const festivals = [
       "Hardcore",
       "Schranz"
     ],
-    "url": "https://www.camakavum.com",
+    "url": "https://camakavum.ticket.io",
     "soldOut": false,
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
@@ -856,6 +856,20 @@ const festivals = [
     "url": "https://www.affenkaefig-festival.de",
     "soldOut": false,
     "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen."
+  },
+  {
+    "name": "HIVE FESTIVAL 2027",
+    "date": "2027-06-20",
+    "dateDisplay": "18.–20. Juni 2027",
+    "location": "Ferropolis, Gräfenhainichen",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Psytrance"
+    ],
+    "url": "https://hive-festival.de",
+    "soldOut": false,
+    "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno."
   },
   {
     "name": "IKARUS FESTIVAL 2027",

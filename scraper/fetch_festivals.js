@@ -151,6 +151,8 @@ const VENUE_DOMAINS = new Set([
 const VENUE_CALENDAR_URL = {
   'turbinenhalle.de':  'https://www.turbinenhalle.de/programm/',
   'westfalenhallen.de':'https://www.westfalenhallen.de/veranstaltungen/',
+  // Tickets-Seite hat mehr Datum-Infos als die Hauptseite
+  'hive-festival.de':  'https://hive-festival.de/tickets',
 };
 
 function getDomain(url) {
