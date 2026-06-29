@@ -315,13 +315,12 @@
               </div>
             </div>
             <p class="card-description">${f.description}</p>
-            <div class="card-actions">
-              <button class="action-btn cal-btn" data-fav="${favKey(f)}" aria-label="Zum Kalender hinzufügen">+ Kalender</button>
-              <button class="action-btn share-btn" data-fav="${favKey(f)}" aria-label="Festival teilen">↗ Teilen</button>
-            </div>
             <div class="card-footer">
               <span class="countdown ${countdownClass}">${countdown}</span>
-              ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
+              <div style="display:flex;gap:0.5rem;align-items:center">
+                <button class="share-btn visit-btn" data-fav="${favKey(f)}" aria-label="Festival teilen">↗ TEILEN</button>
+                ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
+              </div>
             </div>
           </div>
         </article>
