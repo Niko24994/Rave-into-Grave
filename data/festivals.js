@@ -634,6 +634,18 @@ const festivals = [
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
   {
+    "name": "TIME WARP 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Maimarkthalle, Mannheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.time-warp.de",
+    "soldOut": false,
+    "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth."
+  },
+  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Okt 2026",
@@ -737,6 +749,18 @@ const festivals = [
     "url": "https://holypriest.os.fan/mannheim",
     "soldOut": false,
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung."
+  },
+  {
+    "name": "TIME WARP 2026",
+    "date": "2026-11-21",
+    "dateDisplay": "21. November 2026",
+    "location": "Maimarkthalle, Mannheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.time-warp.de",
+    "soldOut": false,
+    "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth."
   },
   {
     "name": "ELECTRIC HORIZON FESTIVAL 2026",
@@ -860,7 +884,7 @@ const festivals = [
   {
     "name": "HIVE FESTIVAL 2027",
     "date": "2027-06-20",
-    "dateDisplay": "18.–20. Juni 2027",
+    "dateDisplay": "20. Juni 2027",
     "location": "Ferropolis, Gräfenhainichen",
     "genre": [
       "Hard Techno",

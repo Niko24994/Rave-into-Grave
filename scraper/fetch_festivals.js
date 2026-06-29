@@ -90,8 +90,8 @@ function extractFutureDates(text) {
     if (isValidFutureDate(iso)) dates.add(iso);
   }
 
-  // DD. Monat YYYY (deutsch)
-  for (const m of clean.matchAll(/\b(\d{1,2})\.\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*\.?\s*(202[6-9]|20[3-9]\d)\b/gi)) {
+  // DD. Monat YYYY (deutsch) — trailing \b → (?!\d) weil Wix-Seiten Jahr+Text ohne Leerzeichen zusammenkleben
+  for (const m of clean.matchAll(/\b(\d{1,2})\.\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*\.?\s*(202[6-9]|20[3-9]\d)(?!\d)/gi)) {
     const mon = MONTH_DE[m[2].toLowerCase().slice(0, 3)];
     if (!mon) continue;
     const iso = `${m[3]}-${mon}-${m[1].padStart(2,'0')}`;
@@ -105,7 +105,7 @@ function extractFutureDates(text) {
   }
 
   // Month DD, YYYY (englisch)
-  for (const m of clean.matchAll(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\s+(\d{1,2}),?\s+(202[6-9]|20[3-9]\d)\b/gi)) {
+  for (const m of clean.matchAll(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\s+(\d{1,2}),?\s+(202[6-9]|20[3-9]\d)(?!\d)/gi)) {
     const mon = MONTH_DE[m[1].toLowerCase().slice(0, 3)];
     if (!mon) continue;
     const iso = `${m[3]}-${mon}-${m[2].padStart(2,'0')}`;
@@ -151,8 +151,8 @@ const VENUE_DOMAINS = new Set([
 const VENUE_CALENDAR_URL = {
   'turbinenhalle.de':  'https://www.turbinenhalle.de/programm/',
   'westfalenhallen.de':'https://www.westfalenhallen.de/veranstaltungen/',
-  // Tickets-Seite hat mehr Datum-Infos als die Hauptseite
-  'hive-festival.de':  'https://hive-festival.de/tickets',
+  // Preregistration-Seite zeigt naechste Edition mit Datum
+  'hive-festival.de':  'https://www.hive-festival.de/en/hive27-preregistration',
 };
 
 function getDomain(url) {
