@@ -179,6 +179,45 @@ header {
 
 .tagline span { color: var(--red); }
 
+/* ─── SEO INTRO ─── */
+
+.seo-intro {
+  text-align: center;
+  padding: 0.75rem 2rem 0;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.seo-h1 {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #444;
+  text-transform: uppercase;
+  margin: 0 0 0.3rem;
+}
+
+.seo-text {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── FOOTER SEO TEXT ─── */
+
+.footer-seo {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: #2a2a2a;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto 0.75rem;
+  text-align: center;
+}
+
 /* ─── STATS BAR ─── */
 
 .stats-bar {
