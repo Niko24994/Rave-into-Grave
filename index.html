@@ -168,6 +168,7 @@
         <button class="genre-btn" data-genre="Hardstyle">HARDSTYLE</button>
         <button class="genre-btn" data-genre="Hardcore">HARDCORE</button>
         <button class="genre-btn" data-genre="Trance">TRANCE</button>
+        <button class="genre-btn fav-filter" id="fav-filter-btn">★ FAVORITEN</button>
       </div>
     </div>
   </div>
@@ -202,6 +203,16 @@
     let searchQuery = '';
     let monthFilter = '';
     let upcomingOnly = false;
+    let favoritesOnly = false;
+    let favorites = new Set(JSON.parse(localStorage.getItem('rig-favorites') || '[]'));
+
+    function favKey(f) { return f.name + '|' + f.date; }
+    function saveFavorites() { localStorage.setItem('rig-favorites', JSON.stringify([...favorites])); }
+    function toggleFavorite(key) {
+      favorites.has(key) ? favorites.delete(key) : favorites.add(key);
+      saveFavorites();
+      render();
+    }
 
     // ─── HELPERS ───
 
@@ -278,7 +289,10 @@
           <div class="card-inner">
             <div class="card-header">
               <h2 class="card-name">${f.name}</h2>
-              <span class="card-status-badge ${badgeClass}">${badgeText}</span>
+              <div style="display:flex;align-items:center;gap:0.5rem;flex-shrink:0">
+                <span class="card-status-badge ${badgeClass}">${badgeText}</span>
+                <button class="fav-btn ${favorites.has(favKey(f)) ? 'active' : ''}" data-fav="${favKey(f)}" aria-label="Favorit">★</button>
+              </div>
             </div>
             <div class="genre-tags">${tags}</div>
             <div class="card-meta">
@@ -318,8 +332,9 @@
 
         const status = getStatus(f);
         const matchUpcoming = !upcomingOnly || status !== 'past';
+        const matchFav = !favoritesOnly || favorites.has(favKey(f));
 
-        return matchSearch && matchGenre && matchMonth && matchUpcoming;
+        return matchSearch && matchGenre && matchMonth && matchUpcoming && matchFav;
       });
     }
 
@@ -376,17 +391,39 @@
       render();
     });
 
+    // Stern-Klicks per Event Delegation
+    document.getElementById('festival-grid').addEventListener('click', e => {
+      const btn = e.target.closest('.fav-btn');
+      if (!btn) return;
+      e.preventDefault();
+      toggleFavorite(btn.dataset.fav);
+    });
+
+    // Favoriten-Filter Button
+    document.getElementById('fav-filter-btn').addEventListener('click', () => {
+      favoritesOnly = !favoritesOnly;
+      document.getElementById('fav-filter-btn').classList.toggle('active', favoritesOnly);
+      // Genre-Filter deaktivieren wenn Favoriten aktiv
+      if (favoritesOnly) {
+        document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(b => b.classList.remove('active'));
+        activeGenre = 'all';
+      }
+      render();
+    });
+
     document.getElementById('month-filter').addEventListener('change', e => {
       monthFilter = e.target.value;
       render();
     });
 
 
-    document.querySelectorAll('.genre-btn').forEach(btn => {
+    document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeGenre = btn.dataset.genre;
+        favoritesOnly = false;
+        document.getElementById('fav-filter-btn').classList.remove('active');
         render();
       });
     });
@@ -397,10 +434,12 @@
       searchQuery = '';
       activeGenre = 'all';
       monthFilter = '';
+      favoritesOnly = false;
       document.getElementById('search').value = '';
       document.getElementById('month-filter').value = '';
       document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
       document.querySelector('.genre-btn[data-genre="all"]').classList.add('active');
+      document.getElementById('fav-filter-btn').classList.remove('active');
       render();
     });
 
