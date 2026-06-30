@@ -150,7 +150,7 @@ function renderPage(f, slug) {
           <span class="countdown" id="countdown"></span>
           <div style="display:flex;gap:0.5rem;align-items:center">
             <button class="visit-btn" id="share-btn-detail" type="button">↗ TEILEN</button>
-            ${f.url ? `<a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">LINEUP &amp; TICKETS →</a>` : ''}
+            ${f.url ? `<a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">WEBSITE →</a>` : ''}
           </div>
         </div>
       </div>
