@@ -36,6 +36,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://niko24994.github.io/Rave-into-Grave/festival/waves-open-air-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://niko24994.github.io/Rave-into-Grave/festival/hive-festival-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -212,6 +217,11 @@
   </url>
   <url>
     <loc>https://niko24994.github.io/Rave-into-Grave/festival/indian-spirit-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://niko24994.github.io/Rave-into-Grave/festival/waves-open-air-closing-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
