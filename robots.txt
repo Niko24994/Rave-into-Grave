@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://niko24994.github.io/Rave-into-Grave/sitemap.xml
+Sitemap: https://raveintograve.de/sitemap.xml
