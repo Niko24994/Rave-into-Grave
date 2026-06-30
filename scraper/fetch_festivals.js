@@ -82,7 +82,8 @@ const MONTH_DE = {
 
 function extractFutureDates(text) {
   const dates = new Set();
-  const clean = text.replace(/\s+/g, ' ');
+  // Ordinalsuffixe entfernen: "13th" → "13", "1st" → "1" usw.
+  const clean = text.replace(/\s+/g, ' ').replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
 
   // DD.MM.YYYY oder DD/MM/YYYY
   for (const m of clean.matchAll(/\b(\d{1,2})[.\/](\d{1,2})[.\/](202[6-9]|20[3-9]\d)\b/g)) {
@@ -303,6 +304,9 @@ const DISCOVERY_SOURCES = [
   { name: 'eventbrite.de (techno festival)', url: 'https://www.eventbrite.de/d/germany/techno-festival/',                     fn: scrapeEventbrite },
   { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
   { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
+  // Waves Open Air Hannover — Haupt-Event und Closing
+  { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
+  { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
   // Verknipt NL — einzige erlaubte Holland-Quelle
   { name: 'verknipt.org (tickets)',          url: 'https://www.verknipt.org/tickets/',                                        fn: scrapeVerknipt },
   { name: 'verknipt.org (events)',           url: 'https://www.verknipt.org/events/',                                         fn: scrapeVerknipt },
@@ -417,6 +421,37 @@ async function scrapeEventbrite(url) {
     const entry = buildDiscoveryEntry({ name, dateText, location, genreText: 'techno', link, source: 'eventbrite.de' });
     if (entry) results.push(entry);
   });
+  return results;
+}
+
+async function scrapeWavesOpenAir(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  $('nav, footer, script, style').remove();
+  // Ordinalsuffixe entfernen bevor Datumsextraktion
+  const pageText = $.text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
+  const dates = extractFutureDates(pageText);
+  const results = [];
+  const isClosing = url.includes('closing');
+  const name = isClosing ? 'WAVES OPEN AIR CLOSING' : 'WAVES OPEN AIR';
+  for (const date of dates) {
+    const year = date.slice(0, 4);
+    results.push({
+      name: `${name} ${year}`,
+      date,
+      dateDisplay: formatDate(date),
+      location: 'Spaßbad Wedemark, Hannover',
+      genre: ['Techno', 'Electronic'],
+      url: isClosing ? 'https://closing.waves-openair.de' : 'https://waves-openair.de',
+      soldOut: false,
+      description: isClosing
+        ? 'Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover.'
+        : 'Waves Open Air — Techno und Electronic im Spaßbad Wedemark bei Hannover. Drei Stages, Indoor & Outdoor, Pool-Vibes.',
+      _source: url,
+      _auto: true
+    });
+  }
   return results;
 }
 
