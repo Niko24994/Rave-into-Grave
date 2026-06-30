@@ -4,7 +4,8 @@
   "description": "Scraper für Techno/Hard Techno Festival-Daten in Deutschland",
   "type": "module",
   "scripts": {
-    "scrape": "node fetch_festivals.js"
+    "scrape": "node fetch_festivals.js",
+    "build-pages": "node generate_pages.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

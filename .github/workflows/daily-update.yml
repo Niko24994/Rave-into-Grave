@@ -32,10 +32,15 @@ jobs:
           node fetch_festivals.js
         continue-on-error: true  # Nicht abbrechen wenn Scraper keine neuen Daten findet
 
+      - name: Generate Festival Detail Pages
+        run: |
+          cd scraper
+          node generate_pages.js
+
       - name: Check for Changes
         id: changes
         run: |
-          if git diff --quiet data/festivals.js; then
+          if git diff --quiet data/festivals.js festival/ sitemap.xml; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -46,6 +51,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/festivals.js
+          git add data/festivals.js festival/ sitemap.xml
           git commit -m "chore: auto-update festival data [$(date '+%Y-%m-%d')]"
           git push

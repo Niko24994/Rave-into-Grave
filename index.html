@@ -219,6 +219,12 @@
     let favorites = new Set(JSON.parse(localStorage.getItem('rig-favorites') || '[]'));
 
     function favKey(f) { return f.name + '|' + f.date; }
+    function slugify(str) {
+      return str.toLowerCase()
+        .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
     function saveFavorites() { localStorage.setItem('rig-favorites', JSON.stringify([...favorites])); }
     function toggleFavorite(key) {
       favorites.has(key) ? favorites.delete(key) : favorites.add(key);
@@ -300,7 +306,7 @@
         <article class="card status-${status}">
           <div class="card-inner">
             <div class="card-header">
-              <h2 class="card-name">${f.name}</h2>
+              <h2 class="card-name"><a class="card-name-link" href="festival/${slugify(f.name)}/">${f.name}</a></h2>
               <div style="display:flex;align-items:center;gap:0.5rem;flex-shrink:0">
                 <span class="card-status-badge ${badgeClass}">${badgeText}</span>
                 <button class="fav-btn ${favorites.has(favKey(f)) ? 'active' : ''}" data-fav="${favKey(f)}" aria-label="Favorit">★</button>
