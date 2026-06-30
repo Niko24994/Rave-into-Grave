@@ -161,6 +161,10 @@ function renderPage(f, slug) {
   <footer>
     <img class="footer-skull" src="../../apple-touch-icon.png" alt="Rave into Grave" />
     <p class="footer-disclaimer">Alle Angaben ohne Gewähr. Immer die offizielle Festival-Website checken.</p>
+    <div class="footer-links" style="margin-top:1rem;">
+      <a href="../../impressum/">Impressum</a>
+      <a href="../../datenschutz/">Datenschutz</a>
+    </div>
   </footer>
 
   <script>
