@@ -12,8 +12,6 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import fetch from 'node-fetch';
-import * as cheerio from 'cheerio';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -36,41 +34,6 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
-const SKIP_FETCH_DOMAINS = new Set([
-  'eventbrite.de', 'eventbrite.com', 'eventbrite.nl', 'ra.co', 'holypriest.os.fan'
-]);
-
-async function fetchRichDescription(url) {
-  if (!url) return null;
-  try {
-    const domain = new URL(url).hostname.replace('www.', '');
-    if ([...SKIP_FETCH_DOMAINS].some(d => domain === d || domain.endsWith('.' + d))) return null;
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
-      },
-      redirect: 'follow',
-      signal: AbortSignal.timeout(8000),
-    });
-    if (!res.ok) return null;
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const isGeneric = t => /offiz\. website zur veranstalt|infos zum lineup, tickets, anreise/i.test(t);
-    const og = $('meta[property="og:description"]').attr('content')?.trim();
-    if (og && og.length > 40 && !isGeneric(og)) return og;
-    const meta = $('meta[name="description"]').attr('content')?.trim();
-    if (meta && meta.length > 40 && !isGeneric(meta)) return meta;
-    $('nav, footer, header, script, style, [class*="cookie"], [class*="nav"]').remove();
-    const paras = [];
-    $('p').each((_, el) => {
-      const t = $(el).text().replace(/\s+/g, ' ').trim();
-      if (t.length >= 60 && t.length <= 500 && !/cookie|impressum|datenschutz|privacy/i.test(t)) paras.push(t);
-    });
-    return paras.length > 0 ? paras.slice(0, 2).join(' ') : null;
-  } catch { return null; }
-}
 
 const TAG_CLASS = {
   'Hard Techno': 'tag-hard-techno', 'Schranz': 'tag-schranz', 'Techno': 'tag-techno',
@@ -79,15 +42,14 @@ const TAG_CLASS = {
   'House': 'tag-house'
 };
 
-function renderPage(f, slug, richDesc) {
+function renderPage(f, slug) {
   const isNL = f.location.includes('(NL)') || f.location.toLowerCase().includes('amsterdam') || f.location.toLowerCase().includes('netherlands');
   const tags = f.genre.map(g =>
     `<span class="genre-tag ${TAG_CLASS[g] || ''}">${escapeHtml(g.toUpperCase())}</span>`
   ).join('');
 
-  const displayDesc = richDesc || f.description;
   const title = `${f.name} – ${f.dateDisplay} in ${f.location} | Rave into Grave`;
-  const desc = `${displayDesc} ${f.dateDisplay} in ${f.location}.`.trim().slice(0, 300);
+  const desc = `${f.description} ${f.dateDisplay} in ${f.location}.`.trim();
   const pageUrl = `${SITE_URL}festival/${slug}/`;
 
   const jsonLd = {
@@ -184,7 +146,7 @@ function renderPage(f, slug, richDesc) {
             <span class="meta-value">${escapeHtml(f.location)}</span>
           </div>
         </div>
-        <p class="card-description">${escapeHtml(displayDesc)}</p>
+        <p class="card-description">${escapeHtml(f.description)}</p>
         <div class="card-footer">
           <span class="countdown" id="countdown"></span>
           <div style="display:flex;gap:0.5rem;align-items:center">
@@ -271,23 +233,10 @@ async function main() {
     entries.push({ f, slug });
   }
 
-  // 2. Beschreibungen von Festival-Websites holen (parallel, Batches à 6)
-  process.stdout.write('📖 Beschreibungen abrufen');
-  const richDescs = new Map();
-  const BATCH = 6;
-  for (let i = 0; i < entries.length; i += BATCH) {
-    const batch = entries.slice(i, i + BATCH);
-    const results = await Promise.all(batch.map(({ f }) => fetchRichDescription(f.url)));
-    batch.forEach(({ slug }, j) => { if (results[j]) richDescs.set(slug, results[j]); });
-    process.stdout.write('.');
-  }
-  console.log(` ${richDescs.size}/${entries.length} gefunden`);
-
-  // 3. HTML-Seiten schreiben
   for (const { f, slug } of entries) {
     const dir = path.join(festivalDir, slug);
     await fs.mkdir(dir, { recursive: true });
-    await fs.writeFile(path.join(dir, 'index.html'), renderPage(f, slug, richDescs.get(slug) || null), 'utf-8');
+    await fs.writeFile(path.join(dir, 'index.html'), renderPage(f, slug), 'utf-8');
   }
 
   const urlEntries = [
