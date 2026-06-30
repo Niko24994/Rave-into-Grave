@@ -16,7 +16,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const FESTIVALS_PATH = path.join(ROOT, 'data/festivals.js');
-const SITE_URL = 'https://niko24994.github.io/Rave-into-Grave/';
+const SITE_URL = 'https://raveintograve.de/';
 
 function slugify(str) {
   return str
