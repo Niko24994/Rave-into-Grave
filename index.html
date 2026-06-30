@@ -415,11 +415,12 @@
     function buildSuggestions(q) {
       if (!q || q.length < 1) return [];
       const low = q.toLowerCase();
-      const names = [...new Set(festivals.map(f => f.name))]
+      const upcoming = festivals.filter(f => getStatus(f) !== 'past');
+      const names = [...new Set(upcoming.map(f => f.name))]
         .filter(n => n.toLowerCase().includes(low))
         .slice(0, 4)
         .map(n => ({ label: n, type: 'festival' }));
-      const locs = [...new Set(festivals.map(f => f.location.split(',')[0].trim()))]
+      const locs = [...new Set(upcoming.map(f => f.location.split(',')[0].trim()))]
         .filter(l => l.toLowerCase().includes(low))
         .slice(0, 3)
         .map(l => ({ label: l, type: 'ort' }));

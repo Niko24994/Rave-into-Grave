@@ -87,6 +87,19 @@ const festivals = [
     "description": "Das größte Club-Festival der Welt — die Messe Frankfurt wird zum größten Club auf Erden."
   },
   {
+    "name": "WAVES OPEN AIR 2026",
+    "date": "2026-06-13",
+    "dateDisplay": "13. Juni 2026",
+    "location": "Spaßbad Wedemark, Hannover",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://waves-openair.de",
+    "soldOut": false,
+    "description": "Drei Stages, Indoor & Outdoor und Pool-Vibes im Spaßbad Wedemark — Hannovers Sommertechno-Highlight von 12:00 bis 23:59."
+  },
+  {
     "name": "HIVE FESTIVAL 2026",
     "date": "2026-06-21",
     "dateDisplay": "19.–21. Juni 2026",
@@ -580,6 +593,19 @@ const festivals = [
     "url": "https://www.indianspirit.de",
     "soldOut": false,
     "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust."
+  },
+  {
+    "name": "WAVES OPEN AIR CLOSING 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. Sep 2026",
+    "location": "Spaßbad Wedemark, Hannover",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://closing.waves-openair.de",
+    "soldOut": false,
+    "description": "Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover. Die letzte Sommerparty bevor der Herbst kommt."
   },
   {
     "name": "POKKE HERRIE 2026",
