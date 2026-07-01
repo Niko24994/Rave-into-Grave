@@ -304,6 +304,8 @@ const DISCOVERY_SOURCES = [
   { name: 'eventbrite.de (techno festival)', url: 'https://www.eventbrite.de/d/germany/techno-festival/',                     fn: scrapeEventbrite },
   { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
   { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
+  // Fairground Festival Hannover
+  { name: 'fairground-festival.de',         url: 'https://fairground-festival.de/',                                           fn: scrapeGenericListing },
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
