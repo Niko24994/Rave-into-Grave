@@ -801,6 +801,21 @@ const festivals = [
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
   },
   {
+    "name": "FAIRGROUND FESTIVAL 2026",
+    "date": "2026-11-28",
+    "dateDisplay": "28. Nov 2026",
+    "location": "Messe Hannover, Hannover",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House",
+      "Hardstyle"
+    ],
+    "url": "https://fairground-festival.de",
+    "soldOut": false,
+    "description": "Norddeutschlands größtes Indoor-Festival — 20.000 Besucher, 50+ Acts auf 5 Stages, 12 Stunden non-stop von 18:00 bis 06:00 Uhr."
+  },
+  {
     "name": "HARDSHIFT FESTIVAL 2026",
     "date": "2026-12-04",
     "dateDisplay": "4. Dez 2026",
