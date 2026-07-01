@@ -147,16 +147,14 @@ function renderPage(f, slug) {
           </div>
         </div>
         <p class="card-description">${escapeHtml(f.description)}</p>
-        <div class="card-footer">
+        <div class="card-footer detail-card-footer">
           <span class="countdown" id="countdown"></span>
-          <div style="display:flex;gap:0.5rem;align-items:center">
+          <div class="detail-btn-grid">
             <button class="visit-btn" id="share-btn-detail" type="button">↗ TEILEN</button>
-            ${f.url ? `<a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">WEBSITE →</a>` : ''}
+            ${f.url ? `<a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">WEBSITE →</a>` : '<span></span>'}
+            <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.location)}" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
+            <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
           </div>
-        </div>
-        <div class="detail-action-row">
-          <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.location)}" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
-          <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
         </div>
       </div>
     </article>
