@@ -154,6 +154,19 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up."
   },
   {
+    "name": "THIRD EYE FESTIVAL 2026",
+    "date": "2026-07-06",
+    "dateDisplay": "3.–6. Juli 2026",
+    "location": "Oakyard Grounds, bei Berlin",
+    "genre": [
+      "Techno",
+      "Experimental"
+    ],
+    "url": "https://www.thirdeyefestival.de/",
+    "soldOut": false,
+    "description": "Psychedelic Techno Gathering im Wald bei Berlin — DJ Nobu, Erika, Cio D'Or und Decoder über vier Tage im Underground-Kosmos."
+  },
+  {
     "name": "STONE TECHNO FESTIVAL 2026",
     "date": "2026-07-10",
     "dateDisplay": "10.–12. Juli 2026",
@@ -194,6 +207,19 @@ const festivals = [
     "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
     "soldOut": false,
     "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+."
+  },
+  {
+    "name": "HABITAT FESTIVAL 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "MS Artville, Hamburg",
+    "genre": [
+      "Techno",
+      "House"
+    ],
+    "url": "https://habitat-festival.de/",
+    "soldOut": false,
+    "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville."
   },
   {
     "name": "DEICHBRAND 2026",
@@ -348,6 +374,20 @@ const festivals = [
     "description": "Hardcore-Open-Air-Feeling in der Turbinenhalle Oberhausen — für alle die es hart und kompromisslos mögen."
   },
   {
+    "name": "GREENFIELDS OPEN AIR 2026",
+    "date": "2026-08-01",
+    "dateDisplay": "1. August 2026",
+    "location": "Galopprennbahn, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.greenfields-openair.de/",
+    "soldOut": false,
+    "description": "25 Jahre Greenfields — Richie Hawtin, Ben Klock, Sven Väth und Pan-Pot auf der Galopprennbahn München. Zwei Stages, 11 Stunden Electronic Music."
+  },
+  {
     "name": "NATURE ONE 2026",
     "date": "2026-08-02",
     "dateDisplay": "30. Juli – 2. Aug 2026",
@@ -430,6 +470,19 @@ const festivals = [
     "url": "https://www.electric-horizon.com/en",
     "soldOut": false,
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
+  },
+  {
+    "name": "ECHELON FESTIVAL 2026",
+    "date": "2026-08-15",
+    "dateDisplay": "14.–15. Aug 2026",
+    "location": "Ehem. US-Kaserne, Bad Aibling",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.echelon-festival.de/",
+    "soldOut": false,
+    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse."
   },
   {
     "name": "HIGHFIELD FESTIVAL 2026",
