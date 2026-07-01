@@ -75,6 +75,10 @@
             <a class="visit-btn" href="https://www.electric-horizon.com/en" target="_blank" rel="noopener noreferrer">WEBSITE →</a>
           </div>
         </div>
+        <div class="detail-action-row">
+          <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=Weldegarten%2C%20Plankstadt" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
+          <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
+        </div>
       </div>
     </article>
   </main>
@@ -121,6 +125,18 @@
       var cd = document.getElementById('countdown');
       cd.textContent = countdownText;
       if (countdownClass) cd.classList.add(countdownClass);
+
+      document.getElementById('cal-btn-detail').addEventListener('click', function () {
+        var ds = "2026-08-15".replace(/-/g, '');
+        var nd = new Date("2026-08-15"); nd.setDate(nd.getDate() + 1);
+        var de = nd.toISOString().slice(0,10).replace(/-/g,'');
+        var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "ELECTRIC HORIZON FESTIVAL 2026" + '\r\nLOCATION:' + "Weldegarten, Plankstadt" + '\r\nDESCRIPTION:' + "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
+        var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'electric-horizon-festival-2026.ics';
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      });
 
       document.getElementById('share-btn-detail').addEventListener('click', function () {
         var text = "ELECTRIC HORIZON FESTIVAL 2026" + '\n📅 ' + "15. Aug 2026" + '\n📍 ' + "Weldegarten, Plankstadt";

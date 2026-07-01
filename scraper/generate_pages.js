@@ -154,6 +154,10 @@ function renderPage(f, slug) {
             ${f.url ? `<a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">WEBSITE →</a>` : ''}
           </div>
         </div>
+        <div class="detail-action-row">
+          <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.location)}" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
+          <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
+        </div>
       </div>
     </article>
   </main>
@@ -200,6 +204,18 @@ function renderPage(f, slug) {
       var cd = document.getElementById('countdown');
       cd.textContent = countdownText;
       if (countdownClass) cd.classList.add(countdownClass);
+
+      document.getElementById('cal-btn-detail').addEventListener('click', function () {
+        var ds = ${JSON.stringify(f.date)}.replace(/-/g, '');
+        var nd = new Date(${JSON.stringify(f.date)}); nd.setDate(nd.getDate() + 1);
+        var de = nd.toISOString().slice(0,10).replace(/-/g,'');
+        var ics = 'BEGIN:VCALENDAR\\r\\nVERSION:2.0\\r\\nPRODID:-//Rave into Grave//DE\\r\\nBEGIN:VEVENT\\r\\nDTSTART;VALUE=DATE:' + ds + '\\r\\nDTEND;VALUE=DATE:' + de + '\\r\\nSUMMARY:' + ${JSON.stringify(escapeHtml(f.name))} + '\\r\\nLOCATION:' + ${JSON.stringify(f.location)} + '\\r\\nDESCRIPTION:' + ${JSON.stringify(f.description)} + '\\r\\nEND:VEVENT\\r\\nEND:VCALENDAR';
+        var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = '${slugify(f.name)}.ics';
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      });
 
       document.getElementById('share-btn-detail').addEventListener('click', function () {
         var text = ${JSON.stringify(f.name)} + '\\n📅 ' + ${JSON.stringify(f.dateDisplay)} + '\\n📍 ' + ${JSON.stringify(f.location)};

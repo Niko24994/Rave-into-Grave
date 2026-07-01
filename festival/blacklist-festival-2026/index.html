@@ -75,6 +75,10 @@
             <a class="visit-btn" href="https://blacklist-festival.com/" target="_blank" rel="noopener noreferrer">WEBSITE →</a>
           </div>
         </div>
+        <div class="detail-action-row">
+          <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=Oberhausen%2C%20NRW" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
+          <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
+        </div>
       </div>
     </article>
   </main>
@@ -121,6 +125,18 @@
       var cd = document.getElementById('countdown');
       cd.textContent = countdownText;
       if (countdownClass) cd.classList.add(countdownClass);
+
+      document.getElementById('cal-btn-detail').addEventListener('click', function () {
+        var ds = "2026-10-10".replace(/-/g, '');
+        var nd = new Date("2026-10-10"); nd.setDate(nd.getDate() + 1);
+        var de = nd.toISOString().slice(0,10).replace(/-/g,'');
+        var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "BLACKLIST FESTIVAL 2026" + '\r\nLOCATION:' + "Oberhausen, NRW" + '\r\nDESCRIPTION:' + "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
+        var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'blacklist-festival-2026.ics';
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      });
 
       document.getElementById('share-btn-detail').addEventListener('click', function () {
         var text = "BLACKLIST FESTIVAL 2026" + '\n📅 ' + "10. Okt 2026" + '\n📍 ' + "Oberhausen, NRW";

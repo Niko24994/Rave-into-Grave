@@ -142,6 +142,26 @@ header {
 .detail-card .card-description { font-size: 1.05rem; }
 .detail-card:hover { transform: none; }
 
+.detail-action-row {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #1a1a1a;
+  margin-top: 0.5rem;
+}
+
+.detail-secondary-btn {
+  border-color: #333;
+  color: #555;
+}
+
+.detail-secondary-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: rgba(255,153,0,0.05);
+  box-shadow: 0 0 12px rgba(255,153,0,0.2);
+}
+
 .card-name a.card-name-link {
   color: inherit;
   text-decoration: none;
