@@ -143,6 +143,8 @@ const SKIP_DOMAINS = new Set([
   'turbinenhalle.de',
   'westfalenhallen.de',
   'maimarkthalle.de',
+  // Event-Homepage listet alle 44-Events inkl. internationale → nur via scrape44LabelGroup
+  '44labelgroup.events',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
@@ -506,10 +508,11 @@ async function scrape44LabelGroup(url) {
   const html = await fetchPage(url);
   if (!html) return [];
   const $ = cheerio.load(html);
-  const foreignCheck = ['santiago', 'mexico', 'bogotá', 'new york', 'nyc', 'london', 'paris', 'amsterdam'];
+  const foreignCheck = ['santiago', 'mexico', 'bogotá', 'bogota', 'new york', 'nyc', 'london', 'paris', 'amsterdam', 'barcelona', 'madrid', 'vienna', 'wien', 'zürich', 'zurich', 'brussels', 'brüssel'];
+  const germanCheck = ['stuttgart', 'karlsruhe', 'berlin', 'hamburg', 'münchen', 'munich', 'köln', 'cologne', 'frankfurt', 'düsseldorf', 'dortmund', 'mannheim', 'leipzig', 'messe', 'deutschland', 'germany'];
   const results = [];
 
-  // 1. JSON-LD strukturierte Daten (funktioniert auch bei React/SPA-Seiten)
+  // JSON-LD (React/SPA-Seiten); nur Events mit "44" im Namen und deutscher Location
   $('script[type="application/ld+json"]').each((_, el) => {
     try {
       const data = JSON.parse($(el).html() || '{}');
@@ -518,11 +521,12 @@ async function scrape44LabelGroup(url) {
         if (ev['@type'] !== 'Event') continue;
         const date = parseDate(ev.startDate || '');
         if (!date) continue;
-        const loc = ev.location?.name || ev.location?.address?.addressLocality || '';
+        const loc = ev.location?.name || ev.location?.address?.addressLocality || ev.location?.address?.addressRegion || '';
         const name = (ev.name || '').trim();
-        if (!name || name.length < 3) continue;
+        if (!name || !name.includes('44')) continue;
         const combined = (name + ' ' + loc).toLowerCase();
         if (foreignCheck.some(f => combined.includes(f))) continue;
+        if (loc && !germanCheck.some(g => combined.includes(g))) continue;
         results.push({
           name: name.toUpperCase().substring(0, 80),
           date,
@@ -537,36 +541,6 @@ async function scrape44LabelGroup(url) {
         });
       }
     } catch {}
-  });
-
-  // 2. HTML-Karten (klassisches Rendering)
-  $('nav, footer, script, style').remove();
-  $('article, [class*="event"], [class*="card"], .event, section').each((_, el) => {
-    const text = $(el).text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1').replace(/\s+/g, ' ').trim();
-    if (text.length < 5 || text.length > 600) return;
-    const dates = extractFutureDates(text);
-    if (!dates.length) return;
-    const name = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
-    if (!name || name.length < 3) return;
-    const location = $(el).find('[class*="location"], [class*="venue"], [class*="city"]').first().text().trim() || 'Deutschland';
-    const combined = (name + ' ' + location).toLowerCase();
-    if (foreignCheck.some(f => combined.includes(f))) return;
-    let link = $(el).find('a').first().attr('href') || '';
-    if (!link.startsWith('http') && link) link = `https://44labelgroup.events${link}`;
-    for (const date of dates) {
-      results.push({
-        name: name.toUpperCase().substring(0, 80),
-        date,
-        dateDisplay: formatDate(date),
-        location,
-        genre: ['Hard Techno', 'Techno'],
-        url: link || url,
-        soldOut: false,
-        description: '',
-        _source: url,
-        _auto: true
-      });
-    }
   });
 
   return results;
