@@ -209,6 +209,71 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up."
   },
   {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-07-15",
+    "dateDisplay": "15. Juli 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-07-15",
+    "dateDisplay": "15. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X REBELS MÉXICO",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "HEXON FESTIVAL #2 2026",
     "date": "2026-07-18",
     "dateDisplay": "18. Juli 2026",
@@ -278,6 +343,45 @@ const festivals = [
     "url": "https://www.lollapaloozade.com",
     "soldOut": false,
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages."
+  },
+  {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-07-19",
+    "dateDisplay": "19. Juli 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X RITVALES X DOOM",
+    "date": "2026-07-19",
+    "dateDisplay": "19. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-07-19",
+    "dateDisplay": "19. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "BACHBLYTEN FESTIVAL 2026",
@@ -415,6 +519,45 @@ const festivals = [
     "url": "https://www.nature-one.de",
     "soldOut": false,
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival."
+  },
+  {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-08-07",
+    "dateDisplay": "7. August 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X SONNEMONDSTERNE",
+    "date": "2026-08-07",
+    "dateDisplay": "7. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-08-07",
+    "dateDisplay": "7. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "ELECTRISIZE 2026",
@@ -714,6 +857,45 @@ const festivals = [
     "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs."
   },
   {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X ÄGAPĒ FESTIVAL",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "SOLEM FESTIVAL 2026",
     "date": "2026-09-12",
     "dateDisplay": "12. Sep 2026",
@@ -936,6 +1118,32 @@ const festivals = [
     "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
   },
   {
+    "name": "44 X STUTYARD",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "UNREAL X STUTYARD 2026",
     "date": "2026-12-20",
     "dateDisplay": "19.–20. Dez 2026",
@@ -972,19 +1180,6 @@ const festivals = [
     "url": "https://apexfest.de/",
     "soldOut": false,
     "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno."
-  },
-  {
-    "name": "44 FESTIVAL 2027",
-    "date": "2027-07-03",
-    "dateDisplay": "3. Juli 2027",
-    "location": "Container Arena, Karlsruhe",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://44labelgroup.events",
-    "soldOut": false,
-    "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air."
   },
   {
     "name": "TIME WARP 2027",
@@ -1083,6 +1278,45 @@ const festivals = [
     "url": "https://www.ikarus-festival.de",
     "soldOut": false,
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up."
+  },
+  {
+    "name": "44 FESTIVAL 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Container Arena, Karlsruhe",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air."
+  },
+  {
+    "name": "44 LABEL X STUTYARD 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "44 X RESPIRA",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
   }
 ];
 
