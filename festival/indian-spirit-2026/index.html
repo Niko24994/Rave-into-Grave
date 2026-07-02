@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
   <link rel="stylesheet" href="../../style.css" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"INDIAN SPIRIT 2026","startDate":"2026-08-31","description":"Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.","url":"https://raveintograve.de/festival/indian-spirit-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Flugplatz Ludwigslust, Mecklenburg","address":{"@type":"PostalAddress","addressLocality":"Mecklenburg","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"INDIAN SPIRIT","url":"https://www.indianspirit.de"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"INDIAN SPIRIT 2026","startDate":"2026-08-26","description":"Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.","url":"https://raveintograve.de/festival/indian-spirit-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Flugplatz Ludwigslust, Mecklenburg","address":{"@type":"PostalAddress","addressLocality":"Mecklenburg","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"INDIAN SPIRIT","url":"https://www.indianspirit.de"}}</script>
 </head>
 <body>
 
@@ -125,7 +125,7 @@
       if (countdownClass) cd.classList.add(countdownClass);
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
-        var ds = "2026-08-31".replace(/-/g, '');
+        var ds = "2026-08-26".replace(/-/g, '');
         var nd = new Date("2026-08-31"); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "INDIAN SPIRIT 2026" + '\r\nLOCATION:' + "Flugplatz Ludwigslust, Mecklenburg" + '\r\nDESCRIPTION:' + "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';

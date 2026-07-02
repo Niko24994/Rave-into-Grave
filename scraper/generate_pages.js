@@ -34,6 +34,22 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+function parseStartDate(f) {
+  const display = f.dateDisplay || '';
+  const endIso = f.date;
+  const endYear = endIso.slice(0, 4);
+  const endMonth = endIso.slice(5, 7);
+  const MONTHS = { jan:'01',feb:'02','mär':'03',mar:'03',apr:'04',mai:'05',jun:'06',jul:'07',aug:'08',sep:'09',okt:'10',oct:'10',nov:'11',dez:'12',dec:'12' };
+  const m1 = display.match(/^(\d{1,2})\.\s*[-–]/);
+  if (m1) return `${endYear}-${endMonth}-${m1[1].padStart(2,'0')}`;
+  const m2 = display.match(/^(\d{1,2})\.\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*/i);
+  if (m2) {
+    const mon = MONTHS[m2[2].toLowerCase().slice(0, 3)];
+    if (mon) return `${endYear}-${mon}-${m2[1].padStart(2,'0')}`;
+  }
+  return endIso;
+}
+
 
 const TAG_CLASS = {
   'Hard Techno': 'tag-hard-techno', 'Schranz': 'tag-schranz', 'Techno': 'tag-techno',
@@ -51,12 +67,13 @@ function renderPage(f, slug) {
   const title = `${f.name} – ${f.dateDisplay} in ${f.location} | Rave into Grave`;
   const desc = `${f.description} ${f.dateDisplay} in ${f.location}.`.trim();
   const pageUrl = `${SITE_URL}festival/${slug}/`;
+  const startDateIso = parseStartDate(f);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
     "name": f.name,
-    "startDate": f.date,
+    "startDate": startDateIso,
     "description": f.description || `${f.name} — ${f.location}`,
     "url": pageUrl,
     "eventStatus": "https://schema.org/EventScheduled",
@@ -204,7 +221,7 @@ function renderPage(f, slug) {
       if (countdownClass) cd.classList.add(countdownClass);
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
-        var ds = ${JSON.stringify(f.date)}.replace(/-/g, '');
+        var ds = ${JSON.stringify(startDateIso)}.replace(/-/g, '');
         var nd = new Date(${JSON.stringify(f.date)}); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\\r\\nVERSION:2.0\\r\\nPRODID:-//Rave into Grave//DE\\r\\nBEGIN:VEVENT\\r\\nDTSTART;VALUE=DATE:' + ds + '\\r\\nDTEND;VALUE=DATE:' + de + '\\r\\nSUMMARY:' + ${JSON.stringify(escapeHtml(f.name))} + '\\r\\nLOCATION:' + ${JSON.stringify(f.location)} + '\\r\\nDESCRIPTION:' + ${JSON.stringify(f.description)} + '\\r\\nEND:VEVENT\\r\\nEND:VCALENDAR';

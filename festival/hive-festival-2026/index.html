@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
   <link rel="stylesheet" href="../../style.css" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"HIVE FESTIVAL 2026","startDate":"2026-06-21","description":"Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.","url":"https://raveintograve.de/festival/hive-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Ferropolis, Gräfenhainichen","address":{"@type":"PostalAddress","addressLocality":"Gräfenhainichen","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"HIVE FESTIVAL","url":"https://hive-festival.de"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"HIVE FESTIVAL 2026","startDate":"2026-06-19","description":"Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.","url":"https://raveintograve.de/festival/hive-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Ferropolis, Gräfenhainichen","address":{"@type":"PostalAddress","addressLocality":"Gräfenhainichen","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"HIVE FESTIVAL","url":"https://hive-festival.de"}}</script>
 </head>
 <body>
 
@@ -125,7 +125,7 @@
       if (countdownClass) cd.classList.add(countdownClass);
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
-        var ds = "2026-06-21".replace(/-/g, '');
+        var ds = "2026-06-19".replace(/-/g, '');
         var nd = new Date("2026-06-21"); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "HIVE FESTIVAL 2026" + '\r\nLOCATION:' + "Ferropolis, Gräfenhainichen" + '\r\nDESCRIPTION:' + "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';

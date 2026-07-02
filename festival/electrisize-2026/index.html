@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
   <link rel="stylesheet" href="../../style.css" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"ELECTRISIZE 2026","startDate":"2026-08-09","description":"Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.","url":"https://raveintograve.de/festival/electrisize-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Haus Hohenbusch, Erkelenz","address":{"@type":"PostalAddress","addressLocality":"Erkelenz","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"ELECTRISIZE","url":"https://www.electrisize.de"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"ELECTRISIZE 2026","startDate":"2026-08-07","description":"Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.","url":"https://raveintograve.de/festival/electrisize-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Haus Hohenbusch, Erkelenz","address":{"@type":"PostalAddress","addressLocality":"Erkelenz","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"ELECTRISIZE","url":"https://www.electrisize.de"}}</script>
 </head>
 <body>
 
@@ -125,7 +125,7 @@
       if (countdownClass) cd.classList.add(countdownClass);
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
-        var ds = "2026-08-09".replace(/-/g, '');
+        var ds = "2026-08-07".replace(/-/g, '');
         var nd = new Date("2026-08-09"); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "ELECTRISIZE 2026" + '\r\nLOCATION:' + "Haus Hohenbusch, Erkelenz" + '\r\nDESCRIPTION:' + "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
