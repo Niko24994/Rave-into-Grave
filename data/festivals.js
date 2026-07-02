@@ -235,6 +235,32 @@ const festivals = [
     "description": ""
   },
   {
+    "name": "44 X ÄGAPĒ FESTIVAL 2026",
+    "date": "2026-07-15",
+    "dateDisplay": "15. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2026",
+    "date": "2026-07-15",
+    "dateDisplay": "15. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "44 LABEL X STUTYARD 2026",
     "date": "2026-07-17",
     "dateDisplay": "17. Juli 2026",
@@ -262,6 +288,32 @@ const festivals = [
   },
   {
     "name": "44 X RESPIRA",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X ÄGAPĒ FESTIVAL 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2026",
     "date": "2026-07-17",
     "dateDisplay": "17. Juli 2026",
     "location": "Deutschland",
@@ -372,6 +424,32 @@ const festivals = [
   },
   {
     "name": "44 X RESPIRA",
+    "date": "2026-07-19",
+    "dateDisplay": "19. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X ÄGAPĒ FESTIVAL 2026",
+    "date": "2026-07-19",
+    "dateDisplay": "19. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2026",
     "date": "2026-07-19",
     "dateDisplay": "19. Juli 2026",
     "location": "Deutschland",
@@ -548,6 +626,19 @@ const festivals = [
   },
   {
     "name": "44 X RESPIRA",
+    "date": "2026-08-07",
+    "dateDisplay": "7. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2026",
     "date": "2026-08-07",
     "dateDisplay": "7. August 2026",
     "location": "Deutschland",
@@ -896,6 +987,45 @@ const festivals = [
     "description": ""
   },
   {
+    "name": "44 X REBELS MÉXICO 2026",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RITVALES X DOOM 2026",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2026",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "SOLEM FESTIVAL 2026",
     "date": "2026-09-12",
     "dateDisplay": "12. Sep 2026",
@@ -1144,6 +1274,58 @@ const festivals = [
     "description": ""
   },
   {
+    "name": "44 X REBELS MÉXICO 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RITVALES X DOOM 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X SONNEMONDSTERNE 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X ÄGAPĒ FESTIVAL 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "UNREAL X STUTYARD 2026",
     "date": "2026-12-20",
     "dateDisplay": "19.–20. Dez 2026",
@@ -1307,6 +1489,71 @@ const festivals = [
   },
   {
     "name": "44 X RESPIRA",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X REBELS MÉXICO 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X RITVALES X DOOM 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X SONNEMONDSTERNE 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X ÄGAPĒ FESTIVAL 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "44 X STUTYARD 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",
     "location": "Deutschland",
