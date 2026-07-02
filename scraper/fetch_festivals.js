@@ -325,6 +325,8 @@ const DISCOVERY_SOURCES = [
   { name: '44labelgroup.events',            url: 'https://44labelgroup.events/',                                              fn: scrape44LabelGroup },
   // Unreal Germany absichtlich NICHT drin — ist ein Label/Act, kein Festival.
   // Ihre Auftritte sind bei Nibirii, World Club Dome etc. → bereits in der Liste.
+  // Rheingrün Open Air
+  { name: 'rheingruen-openair.de',            url: 'https://rheingruen-openair.de/',                                          fn: makeFestivalScraper('RHEINGRÜN OPEN AIR', 'Deutschland', ['Techno', 'Electronic']) },
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
