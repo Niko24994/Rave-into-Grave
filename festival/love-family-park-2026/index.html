@@ -68,11 +68,13 @@
           </div>
         </div>
         <p class="card-description">30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 1996.</p>
-        <div class="card-footer">
+        <div class="card-footer detail-card-footer">
           <span class="countdown" id="countdown"></span>
-          <div style="display:flex;gap:0.5rem;align-items:center">
+          <div class="detail-btn-grid">
             <button class="visit-btn" id="share-btn-detail" type="button">↗ TEILEN</button>
             <a class="visit-btn" href="https://www.lovefamilypark.com" target="_blank" rel="noopener noreferrer">WEBSITE →</a>
+            <a class="visit-btn detail-secondary-btn" href="https://www.google.com/maps/search/?api=1&query=Rebstockpark%2C%20Frankfurt%20am%20Main" target="_blank" rel="noopener noreferrer">◈ MAPS</a>
+            <button class="visit-btn detail-secondary-btn" id="cal-btn-detail" type="button">▦ KALENDER</button>
           </div>
         </div>
       </div>
@@ -121,6 +123,18 @@
       var cd = document.getElementById('countdown');
       cd.textContent = countdownText;
       if (countdownClass) cd.classList.add(countdownClass);
+
+      document.getElementById('cal-btn-detail').addEventListener('click', function () {
+        var ds = "2026-07-26".replace(/-/g, '');
+        var nd = new Date("2026-07-26"); nd.setDate(nd.getDate() + 1);
+        var de = nd.toISOString().slice(0,10).replace(/-/g,'');
+        var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "LOVE FAMILY PARK 2026" + '\r\nLOCATION:' + "Rebstockpark, Frankfurt am Main" + '\r\nDESCRIPTION:' + "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 1996." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
+        var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'love-family-park-2026.ics';
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      });
 
       document.getElementById('share-btn-detail').addEventListener('click', function () {
         var text = "LOVE FAMILY PARK 2026" + '\n📅 ' + "25.–26. Juli 2026" + '\n📍 ' + "Rebstockpark, Frankfurt am Main";

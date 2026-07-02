@@ -142,6 +142,45 @@ header {
 .detail-card .card-description { font-size: 1.05rem; }
 .detail-card:hover { transform: none; }
 
+.detail-secondary-btn {
+  border-color: #333;
+  color: #555;
+}
+
+.detail-secondary-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: rgba(255,153,0,0.05);
+  box-shadow: 0 0 12px rgba(255,153,0,0.2);
+}
+
+/* Mobile: 2×2 grid */
+.detail-btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.detail-card-footer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* Desktop: alle 4 in einer Reihe */
+@media (min-width: 641px) {
+  .detail-btn-grid {
+    display: flex;
+    width: auto;
+  }
+  .detail-card-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .card-name a.card-name-link {
   color: inherit;
   text-decoration: none;
