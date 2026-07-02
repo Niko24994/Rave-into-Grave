@@ -581,58 +581,6 @@ async function scrapeFestivalAlarm(url) {
   return results;
 }
 
-async function scrapeUnrealGermany(url) {
-  const html = await fetchPage(url);
-  if (!html) return [];
-  const $ = cheerio.load(html);
-  // JSON-LD strukturierte Daten (beste Quelle bei SPAs)
-  const results = [];
-  $('script[type="application/ld+json"]').each((_, el) => {
-    try {
-      const data = JSON.parse($(el).html() || '{}');
-      const events = Array.isArray(data) ? data : [data];
-      for (const ev of events) {
-        if (ev['@type'] !== 'Event') continue;
-        const date = parseDate(ev.startDate || '');
-        if (!date) continue;
-        const loc = ev.location?.name || ev.location?.address?.addressLocality || 'Deutschland';
-        results.push({
-          name: (ev.name || 'UNREAL GERMANY EVENT').toUpperCase().substring(0, 80),
-          date,
-          dateDisplay: formatDate(date),
-          location: loc,
-          genre: ['Hard Techno', 'Techno'],
-          url: ev.url || 'https://www.unrealgermany.de',
-          soldOut: false,
-          description: '',
-          _source: url,
-          _auto: true
-        });
-      }
-    } catch {}
-  });
-  // Fallback: Text-Extraktion für statisch gerenderte Inhalte
-  if (results.length === 0) {
-    $('nav, footer, script, style').remove();
-    const pageText = $.text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
-    const dates = extractFutureDates(pageText);
-    for (const date of dates) {
-      results.push({
-        name: `UNREAL GERMANY ${date.slice(0, 4)}`,
-        date,
-        dateDisplay: formatDate(date),
-        location: 'Deutschland',
-        genre: ['Hard Techno', 'Techno'],
-        url: 'https://www.unrealgermany.de',
-        soldOut: false,
-        description: '',
-        _source: url,
-        _auto: true
-      });
-    }
-  }
-  return results;
-}
 
 async function scrapeWavesOpenAir(url) {
   const html = await fetchPage(url);
