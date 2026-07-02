@@ -326,7 +326,9 @@ const DISCOVERY_SOURCES = [
   // Unreal Germany absichtlich NICHT drin — ist ein Label/Act, kein Festival.
   // Ihre Auftritte sind bei Nibirii, World Club Dome etc. → bereits in der Liste.
   // Rheingrün Open Air
-  { name: 'rheingruen-openair.de',            url: 'https://rheingruen-openair.de/',                                          fn: makeFestivalScraper('RHEINGRÜN OPEN AIR', 'Deutschland', ['Techno', 'Electronic']) },
+  { name: 'rheingruen-openair.de',            url: 'https://rheingruen-openair.de/',                                          fn: makeFestivalScraper('RHEINGRÜN OPEN AIR', 'Rheinstrandbad, Karlsruhe', ['Techno', 'Electronic']) },
+  // Overdrive Hard Techno Events Hannover
+  { name: 'shop-overdrive.de',                url: 'https://shop-overdrive.de/events/',                                       fn: scrapeOverdrive },
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
@@ -669,6 +671,49 @@ async function scrapeVerknipt(url) {
   return results;
 }
 
+
+async function scrapeOverdrive(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+  // WooCommerce Produkt-Karten
+  $('li.product, article.product, .product').each((_, el) => {
+    const name     = $(el).find('.woocommerce-loop-product__title, h2, h3').first().text().trim();
+    const dateText = $(el).find('.date, time, [class*="date"]').first().text().trim() || $(el).text();
+    const link     = $(el).find('a').first().attr('href') || url;
+    if (!name || name.length < 3) return;
+    const entry = buildDiscoveryEntry({
+      name,
+      dateText,
+      location: 'Expo Park, Hannover',
+      genreText: 'hard techno',
+      link,
+      source: 'shop-overdrive.de'
+    });
+    if (entry) results.push(entry);
+  });
+  // Fallback: alle Daten auf der Seite + Name aus Titel
+  if (results.length === 0) {
+    const pageText = $.text();
+    const dates = extractFutureDates(pageText);
+    for (const date of dates) {
+      results.push({
+        name: `OVERDRIVE OPEN AIR FESTIVAL ${date.slice(0, 4)}`,
+        date,
+        dateDisplay: formatDate(date),
+        location: 'Expo Park, Hannover',
+        genre: ['Hard Techno'],
+        url,
+        soldOut: false,
+        description: 'Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.',
+        _source: url,
+        _auto: true
+      });
+    }
+  }
+  return results;
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HILFSFUNKTIONEN

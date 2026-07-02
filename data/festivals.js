@@ -417,6 +417,18 @@ const festivals = [
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival."
   },
   {
+    "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
+    "date": "2026-08-07",
+    "dateDisplay": "7. August 2026",
+    "location": "Expo Park, Hannover",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://shop-overdrive.de/events/",
+    "soldOut": false,
+    "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben."
+  },
+  {
     "name": "ELECTRISIZE 2026",
     "date": "2026-08-09",
     "dateDisplay": "7.–9. Aug 2026",
