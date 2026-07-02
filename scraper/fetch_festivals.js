@@ -92,7 +92,8 @@ function extractFutureDates(text) {
   }
 
   // DD. Monat YYYY (deutsch) — trailing \b → (?!\d) weil Wix-Seiten Jahr+Text ohne Leerzeichen zusammenkleben
-  for (const m of clean.matchAll(/\b(\d{1,2})\.\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*\.?\s*(202[6-9]|20[3-9]\d)(?!\d)/gi)) {
+  // Auch ohne Punkt: "3 Juli, 2027" (wie auf 44labelgroup.events)
+  for (const m of clean.matchAll(/\b(\d{1,2})\.?\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*\.?,?\s*(202[6-9]|20[3-9]\d)(?!\d)/gi)) {
     const mon = MONTH_DE[m[2].toLowerCase().slice(0, 3)];
     if (!mon) continue;
     const iso = `${m[3]}-${mon}-${m[1].padStart(2,'0')}`;
@@ -505,8 +506,41 @@ async function scrape44LabelGroup(url) {
   const html = await fetchPage(url);
   if (!html) return [];
   const $ = cheerio.load(html);
-  $('nav, footer, script, style').remove();
+  const foreignCheck = ['santiago', 'mexico', 'bogotá', 'new york', 'nyc', 'london', 'paris', 'amsterdam'];
   const results = [];
+
+  // 1. JSON-LD strukturierte Daten (funktioniert auch bei React/SPA-Seiten)
+  $('script[type="application/ld+json"]').each((_, el) => {
+    try {
+      const data = JSON.parse($(el).html() || '{}');
+      const events = Array.isArray(data) ? data : [data];
+      for (const ev of events) {
+        if (ev['@type'] !== 'Event') continue;
+        const date = parseDate(ev.startDate || '');
+        if (!date) continue;
+        const loc = ev.location?.name || ev.location?.address?.addressLocality || '';
+        const name = (ev.name || '').trim();
+        if (!name || name.length < 3) continue;
+        const combined = (name + ' ' + loc).toLowerCase();
+        if (foreignCheck.some(f => combined.includes(f))) continue;
+        results.push({
+          name: name.toUpperCase().substring(0, 80),
+          date,
+          dateDisplay: formatDate(date),
+          location: loc || 'Deutschland',
+          genre: ['Hard Techno', 'Techno'],
+          url: ev.url || url,
+          soldOut: false,
+          description: '',
+          _source: url,
+          _auto: true
+        });
+      }
+    } catch {}
+  });
+
+  // 2. HTML-Karten (klassisches Rendering)
+  $('nav, footer, script, style').remove();
   $('article, [class*="event"], [class*="card"], .event, section').each((_, el) => {
     const text = $(el).text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1').replace(/\s+/g, ' ').trim();
     if (text.length < 5 || text.length > 600) return;
@@ -515,10 +549,8 @@ async function scrape44LabelGroup(url) {
     const name = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
     if (!name || name.length < 3) return;
     const location = $(el).find('[class*="location"], [class*="venue"], [class*="city"]').first().text().trim() || 'Deutschland';
-    // Ausländische Events überspringen (44 Label tourt auch international)
-    const locLower = (name + ' ' + location).toLowerCase();
-    const foreignCheck = ['santiago', 'mexico', 'bogotá', 'new york', 'london', 'paris', 'amsterdam'];
-    if (foreignCheck.some(f => locLower.includes(f))) return;
+    const combined = (name + ' ' + location).toLowerCase();
+    if (foreignCheck.some(f => combined.includes(f))) return;
     let link = $(el).find('a').first().attr('href') || '';
     if (!link.startsWith('http') && link) link = `https://44labelgroup.events${link}`;
     for (const date of dates) {
@@ -536,6 +568,7 @@ async function scrape44LabelGroup(url) {
       });
     }
   });
+
   return results;
 }
 

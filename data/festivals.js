@@ -974,6 +974,19 @@ const festivals = [
     "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno."
   },
   {
+    "name": "44 FESTIVAL 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Container Arena, Karlsruhe",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air."
+  },
+  {
     "name": "TIME WARP 2027",
     "date": "2027-04-03",
     "dateDisplay": "3. April 2027",
