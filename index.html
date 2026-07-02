@@ -481,8 +481,26 @@
     });
 
     // ─── KALENDER EXPORT (.ics) ───
+    function parseStartDate(f) {
+      const display = f.dateDisplay || '';
+      const endIso = f.date;
+      const endYear = endIso.slice(0, 4);
+      const endMonth = endIso.slice(5, 7);
+      const MONTHS = { jan:'01',feb:'02','mär':'03',mar:'03',apr:'04',mai:'05',jun:'06',jul:'07',aug:'08',sep:'09',okt:'10',oct:'10',nov:'11',dez:'12',dec:'12' };
+      // "8.–12. Juli 2026" oder "22.–25. Mai 2026" — gleicher Monat
+      const m1 = display.match(/^(\d{1,2})\.\s*[–-]/);
+      if (m1) return `${endYear}-${endMonth}-${m1[1].padStart(2,'0')}`;
+      // "30. Juli – 2. Aug 2026" — verschiedene Monate
+      const m2 = display.match(/^(\d{1,2})\.\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Oct|Nov|Dez|Dec)\w*/i);
+      if (m2) {
+        const mon = MONTHS[m2[2].toLowerCase().slice(0, 3)];
+        if (mon) return `${endYear}-${mon}-${m2[1].padStart(2,'0')}`;
+      }
+      return endIso;
+    }
+
     function downloadICS(f) {
-      const start = f.date.replace(/-/g, '');
+      const start = parseStartDate(f).replace(/-/g, '');
       const endDate = new Date(f.date);
       endDate.setDate(endDate.getDate() + 1);
       const end = endDate.toISOString().slice(0, 10).replace(/-/g, '');
