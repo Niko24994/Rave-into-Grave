@@ -135,6 +135,8 @@ const SKIP_DOMAINS = new Set([
   'eventbrite.de', 'eventbrite.com', 'eventbrite.nl',
   'ra.co',
   'holypriest.os.fan',
+  // Ticket-Plattformen: listen viele Events auf einmal → Falsch-Treffer
+  'ticket.io',
   // Venues mit dichtem Wochenprogramm: jede Veranstaltung heißt z.B. "Faceless Presents: …"
   // → führt zu hunderten Falsch-Treffern. Neue jährliche Events werden manuell ergänzt.
   'turbinenhalle.de',
