@@ -304,6 +304,10 @@ const DISCOVERY_SOURCES = [
   { name: 'eventbrite.de (techno festival)', url: 'https://www.eventbrite.de/d/germany/techno-festival/',                     fn: scrapeEventbrite },
   { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
   { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
+  // Festival-Aggregatoren — decken viele Festivals auf einmal ab
+  { name: 'festivalsunited.com (DE)',        url: 'https://www.festivalsunited.com/festivals/countries/germany',              fn: scrapeFestivalsUnited },
+  { name: 'festival-alarm.com (DE 2026)',    url: 'https://www.festival-alarm.com/Festivals-2026',                           fn: scrapeFestivalAlarm },
+  { name: 'festival-alarm.com (Electro)',    url: 'https://www.festival-alarm.com/us/Categories/Electronic-music-festivals', fn: scrapeFestivalAlarm },
   // Fairground Festival Hannover
   { name: 'fairground-festival.de',         url: 'https://fairground-festival.de/',                                           fn: makeFestivalScraper('FAIRGROUND FESTIVAL', 'Messe Hannover, Hannover', ['Techno', 'Electronic', 'House', 'Hardstyle']) },
   // Sector Events
@@ -529,6 +533,48 @@ async function scrape44LabelGroup(url) {
         _auto: true
       });
     }
+  });
+  return results;
+}
+
+async function scrapeFestivalsUnited(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+  $('article, .festival-card, [class*="festival-item"], [class*="card"]').each((_, el) => {
+    const name     = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
+    const dateText = $(el).find('time, [class*="date"], [class*="datum"]').first().text().trim();
+    const location = $(el).find('[class*="location"], [class*="city"], [class*="ort"]').first().text().trim();
+    const genre    = $(el).find('[class*="genre"], [class*="tag"], [class*="category"], [class*="style"]').text().toLowerCase();
+    let link       = $(el).find('a').first().attr('href') || '';
+    if (!link.startsWith('http') && link) link = `https://www.festivalsunited.com${link}`;
+    if (!name || name.length < 3 || name.length > 80) return;
+    if (isClubName(name)) return;
+    if (!hasRelevantGenre(genre + ' ' + name)) return;
+    const entry = buildDiscoveryEntry({ name, dateText, location, genreText: genre || 'techno', link, source: 'festivalsunited.com' });
+    if (entry) results.push(entry);
+  });
+  return results;
+}
+
+async function scrapeFestivalAlarm(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+  $('article, .festival-item, [class*="festival"], [class*="event"], tr').each((_, el) => {
+    const name     = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
+    const dateText = $(el).find('time, [class*="date"], [class*="datum"]').first().text().trim();
+    const location = $(el).find('[class*="location"], [class*="city"], [class*="ort"]').first().text().trim();
+    const genre    = $(el).find('[class*="genre"], [class*="tag"], [class*="category"]').text().toLowerCase();
+    let link       = $(el).find('a').first().attr('href') || '';
+    if (!link.startsWith('http') && link) link = `https://www.festival-alarm.com${link}`;
+    if (!name || name.length < 3 || name.length > 80) return;
+    if (isClubName(name)) return;
+    if (!hasRelevantGenre(genre + ' ' + name + ' ' + url)) return;
+    const entry = buildDiscoveryEntry({ name, dateText, location, genreText: genre || 'techno electronic', link, source: 'festival-alarm.com' });
+    if (entry) results.push(entry);
   });
   return results;
 }
