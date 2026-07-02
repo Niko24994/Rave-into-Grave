@@ -209,6 +209,19 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up."
   },
   {
+    "name": "UNREAL X STUTYARD 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://unreal-events.ticket.io",
+    "soldOut": false,
+    "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren."
+  },
+  {
     "name": "HEXON FESTIVAL #2 2026",
     "date": "2026-07-18",
     "dateDisplay": "18. Juli 2026",
@@ -234,6 +247,19 @@ const festivals = [
     "url": "https://habitat-festival.de/",
     "soldOut": false,
     "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville."
+  },
+  {
+    "name": "UNREAL X STUTYARD 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://unreal-events.ticket.io",
+    "soldOut": false,
+    "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren."
   },
   {
     "name": "DEICHBRAND 2026",
@@ -752,6 +778,19 @@ const festivals = [
     "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth."
   },
   {
+    "name": "UNREAL X STUTYARD 2026",
+    "date": "2026-09-26",
+    "dateDisplay": "26. September 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://unreal-events.ticket.io",
+    "soldOut": false,
+    "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren."
+  },
+  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Okt 2026",
@@ -831,6 +870,19 @@ const festivals = [
     "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
     "soldOut": false,
     "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+."
+  },
+  {
+    "name": "UNREAL X STUTYARD 2026",
+    "date": "2026-10-31",
+    "dateDisplay": "31. Oktober 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://unreal-events.ticket.io",
+    "soldOut": false,
+    "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren."
   },
   {
     "name": "FACELESS PSYCHO CITY 2026",

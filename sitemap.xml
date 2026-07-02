@@ -81,12 +81,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/hexon-festival-2-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://raveintograve.de/festival/habitat-festival-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026-2026-07-18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -201,6 +211,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/tanzinsel-festival-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/zukunftsmusik-open-air-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -276,6 +291,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026-2026-09-26/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/syndicate-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -302,6 +322,11 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/hexon-festival-2-2026-2026-10-30/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026-2026-10-31/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -342,6 +367,11 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/44-label-x-stutyard-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026-2026-12-20/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
