@@ -1,4 +1,4 @@
-// Daten zuletzt aktualisiert: Juni 2026
+// Daten zuletzt aktualisiert: Juli 2026
 // Automatisch gepflegt von scraper/fetch_festivals.js — manuelle Einträge bleiben erhalten.
 
 const festivals = [
@@ -167,20 +167,6 @@ const festivals = [
     "description": "Psychedelic Techno Gathering im Wald bei Berlin — DJ Nobu, Erika, Cio D'Or und Decoder über vier Tage im Underground-Kosmos."
   },
   {
-    "name": "LIBELLA FESTIVAL 2026",
-    "date": "2026-07-11",
-    "dateDisplay": "10.–11. Juli 2026",
-    "location": "Kemnader See, Bochum",
-    "genre": [
-      "Techno",
-      "Schranz",
-      "Trance"
-    ],
-    "url": "https://libella-festival.de",
-    "soldOut": false,
-    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr."
-  },
-  {
     "name": "STONE TECHNO FESTIVAL 2026",
     "date": "2026-07-10",
     "dateDisplay": "10.–12. Juli 2026",
@@ -195,6 +181,20 @@ const festivals = [
     "description": "100+ Artists auf dem UNESCO-Welterbe Zeche Zollverein — drei Tage Techno in einer der beeindruckendsten Industrie-Kulissen Europas."
   },
   {
+    "name": "LIBELLA FESTIVAL 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "10.–11. Juli 2026",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr."
+  },
+  {
     "name": "AIRBEAT ONE 2026",
     "date": "2026-07-12",
     "dateDisplay": "8.–12. Juli 2026",
@@ -207,6 +207,32 @@ const festivals = [
     "url": "https://www.airbeat-one.de",
     "soldOut": false,
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-07-12",
+    "dateDisplay": "12. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -234,6 +260,19 @@ const festivals = [
     "url": "https://habitat-festival.de/",
     "soldOut": false,
     "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "DEICHBRAND 2026",
@@ -305,6 +344,19 @@ const festivals = [
     "url": "https://www.verknipt.org/oberhausen-day-night/",
     "soldOut": false,
     "description": "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-07-25",
+    "dateDisplay": "25. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "FEEL FESTIVAL 2026",
@@ -402,6 +454,19 @@ const festivals = [
     "description": "25 Jahre Greenfields — Richie Hawtin, Ben Klock, Sven Väth und Pan-Pot auf der Galopprennbahn München. Zwei Stages, 11 Stunden Electronic Music."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-08-01",
+    "dateDisplay": "1. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "NATURE ONE 2026",
     "date": "2026-08-02",
     "dateDisplay": "30. Juli – 2. Aug 2026",
@@ -415,6 +480,19 @@ const festivals = [
     "url": "https://www.nature-one.de",
     "soldOut": false,
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "ELECTRISIZE 2026",
@@ -539,6 +617,19 @@ const festivals = [
     "description": "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-08-22",
+    "dateDisplay": "22. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
     "date": "2026-08-23",
     "dateDisplay": "21.–23. Aug 2026",
@@ -564,6 +655,19 @@ const festivals = [
     "url": "https://wildemoehrefestival.de",
     "soldOut": true,
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-08-26",
+    "dateDisplay": "26. August 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -662,6 +766,19 @@ const festivals = [
     "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-04",
+    "dateDisplay": "4. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "WAVES OPEN AIR CLOSING 2026",
     "date": "2026-09-05",
     "dateDisplay": "5. Sep 2026",
@@ -687,6 +804,19 @@ const festivals = [
     "description": "Hardcore-Event in der Turbinenhalle Oberhausen — Pokke Herrie macht keinen Spaß, und das ist gut so."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
     "date": "2026-09-06",
     "dateDisplay": "3.–6. Sep 2026",
@@ -699,6 +829,32 @@ const festivals = [
     "url": "https://www.gluecksgefuehle-festival.de",
     "soldOut": false,
     "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-06",
+    "dateDisplay": "6. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-11",
+    "dateDisplay": "11. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "SOLEM FESTIVAL 2026",
@@ -714,6 +870,19 @@ const festivals = [
     "description": "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-12",
+    "dateDisplay": "12. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "CAMAKAVUM FESTIVAL 2026",
     "date": "2026-09-13",
     "dateDisplay": "11.–13. Sep 2026",
@@ -727,6 +896,32 @@ const festivals = [
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-15",
+    "dateDisplay": "15. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-18",
+    "dateDisplay": "18. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "TIME WARP 2026",
     "date": "2026-09-19",
     "dateDisplay": "19. September 2026",
@@ -737,6 +932,45 @@ const festivals = [
     "url": "https://www.time-warp.de",
     "soldOut": false,
     "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-25",
+    "dateDisplay": "25. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-09-26",
+    "dateDisplay": "26. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "SYNDICATE 2026",
@@ -754,6 +988,32 @@ const festivals = [
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-03",
+    "dateDisplay": "3. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-09",
+    "dateDisplay": "9. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "BLACKLIST FESTIVAL 2026",
     "date": "2026-10-10",
     "dateDisplay": "10. Okt 2026",
@@ -768,6 +1028,19 @@ const festivals = [
     "description": "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-11",
+    "dateDisplay": "11. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "HIVE INDOOR 2026",
     "date": "2026-10-17",
     "dateDisplay": "17. Oktober 2026",
@@ -780,6 +1053,32 @@ const festivals = [
     "url": "https://hive.ticket.io/27MG6YJh/",
     "soldOut": false,
     "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-23",
+    "dateDisplay": "23. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "VERKNIPT AMSTERDAM — DAY 1",
@@ -820,6 +1119,19 @@ const festivals = [
     "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-10-31",
+    "dateDisplay": "31. Oktober 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-11-01",
     "dateDisplay": "31. Okt – 1. Nov 2026",
@@ -844,6 +1156,32 @@ const festivals = [
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung."
   },
   {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-11-13",
+    "dateDisplay": "13. November 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "TIME WARP 2026",
     "date": "2026-11-21",
     "dateDisplay": "21. November 2026",
@@ -866,19 +1204,6 @@ const festivals = [
     "url": "https://www.electric-horizon.com/en",
     "soldOut": false,
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
-  },
-  {
-    "name": "44 LABEL X STUTYARD 2026",
-    "date": "2026-12-12",
-    "dateDisplay": "12. Dez 2026",
-    "location": "Messe Stuttgart ICS, Stuttgart",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://44labelgroup.events",
-    "soldOut": false,
-    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
@@ -923,6 +1248,32 @@ const festivals = [
     "description": "Hardcore, Hardstyle und Hard Techno auf drei Floors in der Maimarkthalle — das härteste Ende des Jahres 2026."
   },
   {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dez 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "UNREAL GERMANY 2026",
+    "date": "2026-12-19",
+    "dateDisplay": "19. Dezember 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "ARMY OF HARDCORE 2026",
     "date": "2026-12-25",
     "dateDisplay": "25. Dez 2026",
@@ -946,6 +1297,19 @@ const festivals = [
     "url": "https://apexfest.de/",
     "soldOut": false,
     "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno."
+  },
+  {
+    "name": "UNREAL GERMANY 2027",
+    "date": "2027-03-06",
+    "dateDisplay": "6. März 2027",
+    "location": "Deutschland",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "TIME WARP 2027",
@@ -988,6 +1352,21 @@ const festivals = [
     "url": "https://www.worldclubdome.com",
     "soldOut": false,
     "description": "Das größte Club-Festival der Welt — Early Bird Tickets bereits für €129 erhältlich."
+  },
+  {
+    "name": "DOCKLANDS FESTIVAL 2027",
+    "date": "2027-06-12",
+    "dateDisplay": "12. Juni 2027",
+    "location": "Hawerkamp, Münster",
+    "genre": [
+      "Techno",
+      "House",
+      "Trance",
+      "Hard Techno"
+    ],
+    "url": "https://docklands-festival.de/",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
