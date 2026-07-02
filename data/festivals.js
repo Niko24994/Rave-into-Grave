@@ -752,6 +752,19 @@ const festivals = [
     "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth."
   },
   {
+    "name": "RHEINGRÜN OPEN AIR 2026",
+    "date": "2026-09-20",
+    "dateDisplay": "20. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://rheingruen-openair.de/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Okt 2026",
