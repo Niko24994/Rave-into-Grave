@@ -55,7 +55,7 @@
 
   <!-- Video Background -->
   <div class="video-bg">
-    <video autoplay muted loop playsinline>
+    <video autoplay muted loop playsinline preload="auto">
       <source src="bg.mp4" type="video/mp4" />
     </video>
   </div>
@@ -629,12 +629,16 @@
       document.head.appendChild(tag);
     })();
 
-    // ─── iOS VIDEO FIX ───
+    // ─── VIDEO AUTOPLAY ───
     const bgVideo = document.querySelector('.video-bg video');
     if (bgVideo) {
-      bgVideo.play().catch(() => {
-        document.addEventListener('touchstart', () => bgVideo.play(), { once: true });
-      });
+      const tryPlay = () => bgVideo.play().catch(() => {});
+      if (bgVideo.readyState >= 3) {
+        tryPlay();
+      } else {
+        bgVideo.addEventListener('canplay', tryPlay, { once: true });
+      }
+      document.addEventListener('touchstart', tryPlay, { once: true });
     }
   </script>
 </body>
