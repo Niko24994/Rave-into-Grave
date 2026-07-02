@@ -539,6 +539,19 @@ const festivals = [
     "description": "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld."
   },
   {
+    "name": "TANZINSEL FESTIVAL 2026",
+    "date": "2026-08-22",
+    "dateDisplay": "22. Aug 2026",
+    "location": "Am Schutzhafen, Gemünden am Main",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://tanzinsel.de",
+    "soldOut": false,
+    "description": "Open-Air Techno-Festival am Schutzhafen in Gemünden am Main bei Würzburg — 12:00 bis 23:00 Uhr, 10.000 Besucher, ab 16 Jahren."
+  },
+  {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
     "date": "2026-08-23",
     "dateDisplay": "21.–23. Aug 2026",
@@ -921,6 +934,19 @@ const festivals = [
     "url": "https://44labelgroup.events",
     "soldOut": false,
     "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
+  },
+  {
+    "name": "UNREAL X STUTYARD 2026",
+    "date": "2026-12-20",
+    "dateDisplay": "19.–20. Dez 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://unreal-events.ticket.io",
+    "soldOut": false,
+    "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren."
   },
   {
     "name": "ARMY OF HARDCORE 2026",
