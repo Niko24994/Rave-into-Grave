@@ -81,19 +81,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/44-label-x-stutyard-2026/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-  
-  <url>
     <loc>https://raveintograve.de/festival/hexon-festival-2-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -118,11 +105,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  
-  
-  
-  
   <url>
     <loc>https://raveintograve.de/festival/bachblyten-festival-2026/</loc>
     <changefreq>weekly</changefreq>
@@ -173,10 +155,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  
-  
-  
   <url>
     <loc>https://raveintograve.de/festival/electrisize-2026/</loc>
     <changefreq>weekly</changefreq>
@@ -287,12 +265,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  
-  
-  
-  
-  
   <url>
     <loc>https://raveintograve.de/festival/solem-festival-2026/</loc>
     <changefreq>weekly</changefreq>
@@ -373,13 +345,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  
-  
-  
-  
-  
-  
+  <url>
+    <loc>https://raveintograve.de/festival/44-label-x-stutyard-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://raveintograve.de/festival/unreal-x-stutyard-2026/</loc>
     <changefreq>weekly</changefreq>
@@ -435,11 +405,4 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  
-  
-  
-  
-  
-  
 </urlset>
