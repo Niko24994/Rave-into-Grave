@@ -314,8 +314,8 @@ const DISCOVERY_SOURCES = [
   { name: 'docklands-festival.de',          url: 'https://docklands-festival.de/',                                            fn: makeFestivalScraper('DOCKLANDS FESTIVAL', 'Hawerkamp, Münster', ['Techno', 'House', 'Trance', 'Hard Techno']) },
   // 44 Label Group Events
   { name: '44labelgroup.events',            url: 'https://44labelgroup.events/',                                              fn: scrape44LabelGroup },
-  // Unreal Germany (SPA — JSON-LD + Fallback)
-  { name: 'unrealgermany.de',               url: 'https://www.unrealgermany.de/',                                             fn: scrapeUnrealGermany },
+  // Unreal Germany absichtlich NICHT drin — ist ein Label/Act, kein Festival.
+  // Ihre Auftritte sind bei Nibirii, World Club Dome etc. → bereits in der Liste.
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
