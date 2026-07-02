@@ -445,6 +445,20 @@ const festivals = [
     "description": "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair."
   },
   {
+    "name": "SHIFTED FESTIVAL 2026",
+    "date": "2026-08-09",
+    "dateDisplay": "6.–9. Aug 2026",
+    "location": "Geheimes Waldgelände, Brandenburg",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.shifted-festival.com/de",
+    "soldOut": false,
+    "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis."
+  },
+  {
     "name": "SAN HEJMO FESTIVAL 2026",
     "date": "2026-08-15",
     "dateDisplay": "14.–15. Aug 2026",
