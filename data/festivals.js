@@ -754,8 +754,8 @@ const festivals = [
   {
     "name": "RHEINGRÜN OPEN AIR 2026",
     "date": "2026-09-20",
-    "dateDisplay": "20. September 2026",
-    "location": "Deutschland",
+    "dateDisplay": "19.–20. September 2026",
+    "location": "Rheinstrandbad, Karlsruhe",
     "genre": [
       "Techno",
       "Electronic"
