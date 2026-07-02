@@ -154,6 +154,20 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up."
   },
   {
+    "name": "LIBELLA FESTIVAL 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "10.–11. Juli 2026",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr."
+  },
+  {
     "name": "STONE TECHNO FESTIVAL 2026",
     "date": "2026-07-10",
     "dateDisplay": "10.–12. Juli 2026",
@@ -799,6 +813,19 @@ const festivals = [
     "url": "https://www.electric-horizon.com/en",
     "soldOut": false,
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist."
+  },
+  {
+    "name": "44 LABEL X STUTYARD 2026",
+    "date": "2026-12-12",
+    "dateDisplay": "12. Dez 2026",
+    "location": "Messe Stuttgart ICS, Stuttgart",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events",
+    "soldOut": false,
+    "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau."
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",

@@ -305,7 +305,17 @@ const DISCOVERY_SOURCES = [
   { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
   { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
   // Fairground Festival Hannover
-  { name: 'fairground-festival.de',         url: 'https://fairground-festival.de/',                                           fn: scrapeGenericListing },
+  { name: 'fairground-festival.de',         url: 'https://fairground-festival.de/',                                           fn: makeFestivalScraper('FAIRGROUND FESTIVAL', 'Messe Hannover, Hannover', ['Techno', 'Electronic', 'House', 'Hardstyle']) },
+  // Sector Events
+  { name: 'sector-event.de',                url: 'https://sector-event.de/events',                                            fn: scrapeSectorEvents },
+  // Libella Festival Bochum
+  { name: 'libella-festival.de',            url: 'https://libella-festival.de/',                                              fn: makeFestivalScraper('LIBELLA FESTIVAL', 'Kemnader See, Bochum', ['Techno', 'Schranz', 'Trance']) },
+  // Docklands Festival Münster
+  { name: 'docklands-festival.de',          url: 'https://docklands-festival.de/',                                            fn: makeFestivalScraper('DOCKLANDS FESTIVAL', 'Hawerkamp, Münster', ['Techno', 'House', 'Trance', 'Hard Techno']) },
+  // 44 Label Group Events
+  { name: '44labelgroup.events',            url: 'https://44labelgroup.events/',                                              fn: scrape44LabelGroup },
+  // Unreal Germany (SPA — JSON-LD + Fallback)
+  { name: 'unrealgermany.de',               url: 'https://www.unrealgermany.de/',                                             fn: scrapeUnrealGermany },
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
@@ -423,6 +433,156 @@ async function scrapeEventbrite(url) {
     const entry = buildDiscoveryEntry({ name, dateText, location, genreText: 'techno', link, source: 'eventbrite.de' });
     if (entry) results.push(entry);
   });
+  return results;
+}
+
+// Factory für bekannte Festival-Websites: extrahiert Daten direkt ohne Genre-Filter,
+// da der Veranstalter bereits als relevant bekannt ist.
+function makeFestivalScraper(festName, location, genre) {
+  return async function(url) {
+    const html = await fetchPage(url);
+    if (!html) return [];
+    const $ = cheerio.load(html);
+    $('nav, footer, script, style').remove();
+    const pageText = $.text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
+    const dates = extractFutureDates(pageText);
+    return dates.map(date => ({
+      name: `${festName} ${date.slice(0, 4)}`.toUpperCase(),
+      date,
+      dateDisplay: formatDate(date),
+      location,
+      genre,
+      url,
+      soldOut: false,
+      description: '',
+      _source: url,
+      _auto: true
+    }));
+  };
+}
+
+async function scrapeSectorEvents(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  $('nav, footer, script, style').remove();
+  const results = [];
+  $('article, [class*="event"], [class*="card"], li.event, .event-item, [class*="item"]').each((_, el) => {
+    const text = $(el).text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1').replace(/\s+/g, ' ').trim();
+    if (text.length < 5 || text.length > 600) return;
+    const dates = extractFutureDates(text);
+    if (!dates.length) return;
+    const name = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
+    if (!name || name.length < 3 || isClubName(name)) return;
+    const location = $(el).find('[class*="location"], [class*="ort"], [class*="venue"], [class*="city"]').first().text().trim() || 'Deutschland';
+    let link = $(el).find('a').first().attr('href') || '';
+    if (!link.startsWith('http') && link) link = `https://sector-event.de${link}`;
+    for (const date of dates) {
+      results.push({
+        name: name.toUpperCase().substring(0, 80),
+        date,
+        dateDisplay: formatDate(date),
+        location,
+        genre: ['Hard Techno', 'Techno'],
+        url: link || url,
+        soldOut: false,
+        description: '',
+        _source: url,
+        _auto: true
+      });
+    }
+  });
+  return results;
+}
+
+async function scrape44LabelGroup(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  $('nav, footer, script, style').remove();
+  const results = [];
+  $('article, [class*="event"], [class*="card"], .event, section').each((_, el) => {
+    const text = $(el).text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1').replace(/\s+/g, ' ').trim();
+    if (text.length < 5 || text.length > 600) return;
+    const dates = extractFutureDates(text);
+    if (!dates.length) return;
+    const name = $(el).find('h2, h3, h4, [class*="title"], [class*="name"]').first().text().trim();
+    if (!name || name.length < 3) return;
+    const location = $(el).find('[class*="location"], [class*="venue"], [class*="city"]').first().text().trim() || 'Deutschland';
+    // Ausländische Events überspringen (44 Label tourt auch international)
+    const locLower = (name + ' ' + location).toLowerCase();
+    const foreignCheck = ['santiago', 'mexico', 'bogotá', 'new york', 'london', 'paris', 'amsterdam'];
+    if (foreignCheck.some(f => locLower.includes(f))) return;
+    let link = $(el).find('a').first().attr('href') || '';
+    if (!link.startsWith('http') && link) link = `https://44labelgroup.events${link}`;
+    for (const date of dates) {
+      results.push({
+        name: name.toUpperCase().substring(0, 80),
+        date,
+        dateDisplay: formatDate(date),
+        location,
+        genre: ['Hard Techno', 'Techno'],
+        url: link || url,
+        soldOut: false,
+        description: '',
+        _source: url,
+        _auto: true
+      });
+    }
+  });
+  return results;
+}
+
+async function scrapeUnrealGermany(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  // JSON-LD strukturierte Daten (beste Quelle bei SPAs)
+  const results = [];
+  $('script[type="application/ld+json"]').each((_, el) => {
+    try {
+      const data = JSON.parse($(el).html() || '{}');
+      const events = Array.isArray(data) ? data : [data];
+      for (const ev of events) {
+        if (ev['@type'] !== 'Event') continue;
+        const date = parseDate(ev.startDate || '');
+        if (!date) continue;
+        const loc = ev.location?.name || ev.location?.address?.addressLocality || 'Deutschland';
+        results.push({
+          name: (ev.name || 'UNREAL GERMANY EVENT').toUpperCase().substring(0, 80),
+          date,
+          dateDisplay: formatDate(date),
+          location: loc,
+          genre: ['Hard Techno', 'Techno'],
+          url: ev.url || 'https://www.unrealgermany.de',
+          soldOut: false,
+          description: '',
+          _source: url,
+          _auto: true
+        });
+      }
+    } catch {}
+  });
+  // Fallback: Text-Extraktion für statisch gerenderte Inhalte
+  if (results.length === 0) {
+    $('nav, footer, script, style').remove();
+    const pageText = $.text().replace(/\b(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
+    const dates = extractFutureDates(pageText);
+    for (const date of dates) {
+      results.push({
+        name: `UNREAL GERMANY ${date.slice(0, 4)}`,
+        date,
+        dateDisplay: formatDate(date),
+        location: 'Deutschland',
+        genre: ['Hard Techno', 'Techno'],
+        url: 'https://www.unrealgermany.de',
+        soldOut: false,
+        description: '',
+        _source: url,
+        _auto: true
+      });
+    }
+  }
   return results;
 }
 
