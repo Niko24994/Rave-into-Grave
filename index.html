@@ -300,11 +300,18 @@
     }
 
     async function geocodeAddress(query) {
-      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`;
+      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
       const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
+      if (!res.ok) return null;
       const data = await res.json();
       if (!data.length) return null;
-      return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon), display: data[0].display_name.split(',').slice(0, 2).join(',') };
+      const r = data[0];
+      const a = r.address || {};
+      const place = a.city || a.town || a.village || a.municipality || a.county || '';
+      const region = a.state || a.county || '';
+      const display = place ? (region && region !== place ? `${place}, ${region}` : place)
+                            : r.display_name.split(',').slice(0, 2).join(',');
+      return { lat: parseFloat(r.lat), lng: parseFloat(r.lon), display };
     }
 
     function getStatusBadge(status) {
@@ -382,6 +389,12 @@
     // ─── FILTER ───
 
     function filterFestivals() {
+      const panel = document.getElementById('proximity-panel');
+      const pLat = parseFloat(panel.dataset.proxLat);
+      const pLng = parseFloat(panel.dataset.proxLng);
+      const pRadius = parseInt(document.getElementById('proximity-radius').value) || 100;
+      const pActive = !panel.hidden && !isNaN(pLat);
+
       return festivals.filter(f => {
         const q = searchQuery.toLowerCase();
         const matchSearch = !q ||
@@ -398,9 +411,9 @@
         const matchUpcoming = !upcomingOnly || status !== 'past';
         const matchFav = !favoritesOnly || favorites.has(favKey(f));
 
-        const matchProximity = !proximityActive || !proximityCenter || (
+        const matchProximity = !pActive || (
           f.lat != null && f.lng != null &&
-          haversineKm(proximityCenter.lat, proximityCenter.lng, f.lat, f.lng) <= proximityRadius
+          haversineKm(pLat, pLng, f.lat, f.lng) <= pRadius
         );
 
         return matchSearch && matchGenre && matchMonth && matchUpcoming && matchFav && matchProximity;
@@ -620,17 +633,27 @@
     const proximityStatus = document.getElementById('proximity-status');
     const proximityGpsBtn = document.getElementById('proximity-gps');
 
+    function setProximityCoords(lat, lng) {
+      proximityPanel.dataset.proxLat = lat;
+      proximityPanel.dataset.proxLng = lng;
+      proximityCenter = { lat, lng };
+    }
+    function clearProximityCoords() {
+      delete proximityPanel.dataset.proxLat;
+      delete proximityPanel.dataset.proxLng;
+      proximityCenter = null;
+    }
+
     proximityBtn.addEventListener('click', () => {
       proximityActive = !proximityActive;
       proximityBtn.classList.toggle('active', proximityActive);
       proximityPanel.hidden = !proximityActive;
       if (proximityActive) proximityAddrEl.focus();
-      else { proximityCenter = null; proximityStatus.textContent = ''; }
+      else { clearProximityCoords(); proximityStatus.textContent = ''; }
       render();
     });
 
-    document.getElementById('proximity-radius').addEventListener('change', e => {
-      proximityRadius = parseInt(e.target.value);
+    document.getElementById('proximity-radius').addEventListener('change', () => {
       render();
     });
 
@@ -638,20 +661,20 @@
     proximityAddrEl.addEventListener('input', () => {
       clearTimeout(geocodeTimer);
       const q = proximityAddrEl.value.trim();
-      if (!q) { proximityCenter = null; proximityStatus.textContent = ''; render(); return; }
+      if (!q) { clearProximityCoords(); proximityStatus.textContent = ''; render(); return; }
       proximityStatus.textContent = '// suche…';
       geocodeTimer = setTimeout(async () => {
         try {
           const result = await geocodeAddress(q);
           if (result) {
-            proximityCenter = result;
+            setProximityCoords(result.lat, result.lng);
             proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${result.display}</span>`;
           } else {
-            proximityCenter = null;
+            clearProximityCoords();
             proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
           }
         } catch {
-          proximityCenter = null;
+          clearProximityCoords();
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
         }
         render();
@@ -665,7 +688,7 @@
       }
       proximityStatus.textContent = '// GPS wird abgerufen…';
       navigator.geolocation.getCurrentPosition(pos => {
-        proximityCenter = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        setProximityCoords(pos.coords.latitude, pos.coords.longitude);
         proximityAddrEl.value = '';
         proximityStatus.innerHTML = `<span class="proximity-ok">✓ Aktueller Standort</span>`;
         render();
@@ -699,7 +722,7 @@
       monthFilter = '';
       favoritesOnly = false;
       proximityActive = false;
-      proximityCenter = null;
+      clearProximityCoords();
       document.getElementById('search').value = '';
       document.getElementById('month-filter').value = '';
       document.getElementById('proximity-address').value = '';

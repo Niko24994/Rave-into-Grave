@@ -186,7 +186,7 @@ const festivals = [
     ],
     "url": "https://www.airpark-festival.de/",
     "soldOut": false,
-    "description": "",
+    "description": "Techno-Festival auf dem Flughafengelände Karlsruhe/Baden-Baden — 20.000 m² Festival-Area, Indoor-Hangar und Outdoor zwischen historischen Flugzeugen.",
     "lat": 48.7528211,
     "lng": 8.0405324
   },
@@ -855,7 +855,7 @@ const festivals = [
     ],
     "url": "https://www.strandfieber-festival.de/",
     "soldOut": false,
-    "description": "",
+    "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
     "lat": 52.7916075,
     "lng": 8.4459285
   },
