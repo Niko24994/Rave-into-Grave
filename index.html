@@ -402,8 +402,8 @@
           f.name.toLowerCase().includes(q) ||
           f.location.toLowerCase().includes(q);
 
-        const matchGenre = activeGenre === 'all' ||
-          f.genre.some(g => g.toLowerCase() === activeGenre.toLowerCase());
+        const matchGenre = !activeGenre || activeGenre === 'all' ||
+          (f.genre || []).some(g => (g || '').toLowerCase() === activeGenre.toLowerCase());
 
         const matchMonth = !monthFilter ||
           new Date(f.date).getMonth() + 1 === parseInt(monthFilter);
@@ -621,7 +621,7 @@
       document.getElementById('fav-filter-btn').classList.toggle('active', favoritesOnly);
       // Genre-Filter deaktivieren wenn Favoriten aktiv
       if (favoritesOnly) {
-        document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.genre-btn:not(.fav-filter):not(.proximity-btn)').forEach(b => b.classList.remove('active'));
         activeGenre = 'all';
       }
       render();
@@ -816,11 +816,11 @@
     });
 
 
-    document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(btn => {
+    document.querySelectorAll('.genre-btn:not(.fav-filter):not(.proximity-btn)').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.genre-btn:not(.fav-filter)').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.genre-btn:not(.fav-filter):not(.proximity-btn)').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        activeGenre = btn.dataset.genre;
+        activeGenre = btn.dataset.genre || 'all';
         favoritesOnly = false;
         document.getElementById('fav-filter-btn').classList.remove('active');
         render();
