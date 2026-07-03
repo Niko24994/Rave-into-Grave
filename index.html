@@ -732,14 +732,31 @@
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
           closeSuggestions();
         }
-      }, 400);
+      }, 250);
     });
 
     proximityAddrEl.addEventListener('keydown', e => {
       if (e.key === 'Enter') {
         e.preventDefault();
         const first = proxSuggestEl.querySelector('.prox-suggest-item');
-        if (first) applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
+        if (first) {
+          applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
+        } else {
+          // No suggestions visible — geocode directly
+          const q = proximityAddrEl.value.trim();
+          if (!q) return;
+          clearTimeout(suggestTimer);
+          clearTimeout(autoTimer);
+          proximityStatus.textContent = '// suche…';
+          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
+          fetch(url, { headers: { 'Accept-Language': 'de' } })
+            .then(r => r.json())
+            .then(data => {
+              if (data.length) applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
+              else proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
+            })
+            .catch(() => { proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`; });
+        }
       }
     });
 
@@ -751,7 +768,9 @@
       proximityStatus.textContent = '// GPS wird abgerufen…';
       navigator.geolocation.getCurrentPosition(pos => {
         setProximityCoords(pos.coords.latitude, pos.coords.longitude);
+        suppressInput = true;
         proximityAddrEl.value = '';
+        suppressInput = false;
         proximityStatus.innerHTML = `<span class="proximity-ok">✓ Aktueller Standort</span>`;
         render();
       }, () => {

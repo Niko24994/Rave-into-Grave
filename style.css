@@ -805,6 +805,8 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  position: relative;
+  z-index: 50;
 }
 .proximity-panel[hidden] { display: none; }
 
