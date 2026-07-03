@@ -695,6 +695,29 @@
 
     let suggestTimer;
     let autoTimer;
+    let fetchEpoch = 0;
+
+    async function searchPlaces(q, limit = 5) {
+      // Photon (Komoot) — kein Rate-Limit, OSM-basiert
+      const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=${limit}&lang=de`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const fc = await res.json();
+      const allowed = ['de','at','ch','nl','be','pl','cz'];
+      return (fc.features || [])
+        .filter(f => allowed.includes((f.properties.countrycode || '').toLowerCase()))
+        .map(f => {
+          const p = f.properties || {};
+          const name = p.name || '';
+          const state = p.state || '';
+          return {
+            lat: String(f.geometry.coordinates[1]),
+            lon: String(f.geometry.coordinates[0]),
+            address: { city: name, state }
+          };
+        });
+    }
+
     proximityAddrEl.addEventListener('input', () => {
       if (suppressInput) return;
       clearTimeout(suggestTimer);
@@ -705,12 +728,11 @@
       render();
       proximityStatus.textContent = '// suche…';
 
+      const epoch = ++fetchEpoch;
       suggestTimer = setTimeout(async () => {
         try {
-          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
-          const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
-          if (!res.ok) throw new Error();
-          const data = await res.json();
+          const data = await searchPlaces(q);
+          if (epoch !== fetchEpoch) return;
           if (!data.length) {
             proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
             closeSuggestions();
@@ -722,13 +744,14 @@
             const label = buildLabel(r);
             return `<div class="prox-suggest-item" data-lat="${r.lat}" data-lng="${r.lon}" data-label="${label}">${label}</div>`;
           }).join('');
-          // Auto-apply first result 700ms after suggestions appear (no second fetch)
           autoTimer = setTimeout(() => {
+            if (epoch !== fetchEpoch) return;
             if (isNaN(parseFloat(proximityPanel.dataset.proxLat))) {
               applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
             }
           }, 700);
         } catch {
+          if (epoch !== fetchEpoch) return;
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
           closeSuggestions();
         }
@@ -742,15 +765,12 @@
         if (first) {
           applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
         } else {
-          // No suggestions visible — geocode directly
           const q = proximityAddrEl.value.trim();
           if (!q) return;
           clearTimeout(suggestTimer);
           clearTimeout(autoTimer);
           proximityStatus.textContent = '// suche…';
-          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
-          fetch(url, { headers: { 'Accept-Language': 'de' } })
-            .then(r => r.json())
+          searchPlaces(q, 1)
             .then(data => {
               if (data.length) applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
               else proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
