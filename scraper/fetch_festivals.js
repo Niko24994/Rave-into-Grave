@@ -343,6 +343,20 @@ const DISCOVERY_SOURCES = [
   { name: 'strandfieber-festival.de',         url: 'https://www.strandfieber-festival.de/',                                   fn: makeFestivalScraper('STRANDFIEBER FESTIVAL', 'Deutschland', ['Techno', 'Electronic']) },
   // Awakenings (Niederlande erlaubt)
   { name: 'awakenings.com',                   url: 'https://www.awakenings.com/en/',                                          fn: scrapeAwakenings },
+  // Electric Residence Herne
+  { name: 'electric-residence.de',            url: 'https://www.electric-residence.de/',                                      fn: makeFestivalScraper('ELECTRIC RESIDENCE FESTIVAL', 'Schloss Strünkede, Herne', ['Techno', 'House', 'Electronic']) },
+  // Schall im Schilf München
+  { name: 'schallimschilf.de',                url: 'https://www.schallimschilf.de/',                                          fn: makeFestivalScraper('SCHALL IM SCHILF FESTIVAL', 'Garchinger See, München', ['Techno', 'Electronic']) },
+  // Westhafen Festival Leipzig
+  { name: 'westhafen-leipzig.de',             url: 'https://www.westhafen-leipzig.de/',                                       fn: makeFestivalScraper('WESTHAFEN FESTIVAL SUMMER EDITION', 'Westhafen, Leipzig', ['Techno', 'Electronic']) },
+  // Muuuhnlight Festival Schauenburg
+  { name: 'dancinginthemuuuhnlight.de',        url: 'https://www.dancinginthemuuuhnlight.de/',                                 fn: makeFestivalScraper('MUUUHNLIGHT FESTIVAL', 'Muuuhnlight Garten, Schauenburg (Hessen)', ['Techno', 'Electronic']) },
+  // about blank Berlin (Blank Holidays Weekender)
+  { name: 'aboutblank.li',                    url: 'https://aboutblank.li/',                                                  fn: makeFestivalScraper('BLANK HOLIDAYS FESTIVAL WEEKENDER', '://about blank, Berlin', ['Techno', 'Electronic']) },
+  // Circle of Leaves Festival
+  { name: 'circle-of-leaves.com',             url: 'https://circle-of-leaves.com/',                                           fn: makeFestivalScraper('CIRCLE OF LEAVES FESTIVAL', 'Marbach-Stausee, Oberzent (Hessen)', ['Techno', 'Electronic']) },
+  // Chimaera Festival Brandenburg
+  { name: 'chimaera-festival.de',             url: 'https://chimaera-festival.de/',                                           fn: makeFestivalScraper('CHIMAERA FESTIVAL', 'Klingemühle, Friedland (Brandenburg)', ['Techno', 'Electronic']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 

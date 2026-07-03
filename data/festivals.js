@@ -1162,7 +1162,7 @@ const festivals = [
     "dateDisplay": "11. Juli 2026",
     "location": "Schloss Strünkede, Herne",
     "genre": ["Techno", "House", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://www.electric-residence.de/",
     "soldOut": false,
     "description": "Elektronische Musik auf Schloss Strünkede in NRW — Bart Skils, Super Flu, Ante Perry und Phil Fuldner in historischem Ambiente."
   },
@@ -1172,7 +1172,7 @@ const festivals = [
     "dateDisplay": "18. Juli 2026",
     "location": "Garchinger See, München",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://www.schallimschilf.de/",
     "soldOut": false,
     "description": "Elektronisches Open Air am Garchinger See — Bambounou, Interstellar Funk, Palms Trax, Octo Octa und viele mehr unter freiem Münchner Himmel."
   },
@@ -1182,7 +1182,7 @@ const festivals = [
     "dateDisplay": "18. Juli 2026",
     "location": "Westhafen, Leipzig",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://www.westhafen-leipzig.de/",
     "soldOut": false,
     "description": "Techno am Westhafen Leipzig — Space 92, Township Rebellion, Victor Ruiz und Nora En Pure auf dem Wasser."
   },
@@ -1192,7 +1192,7 @@ const festivals = [
     "dateDisplay": "25. Juli 2026",
     "location": "Muuuhnlight Garten, Schauenburg (Hessen)",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://www.dancinginthemuuuhnlight.de/",
     "soldOut": false,
     "description": "Open Air im Muuuhnlight Garten Schauenburg — Nakadia, Dominik Eulberg, Township Rebellion, Mollono.Bass und Green Lake Project."
   },
@@ -1202,37 +1202,37 @@ const festivals = [
     "dateDisplay": "1. August 2026",
     "location": "://about blank, Berlin",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://aboutblank.li/",
     "soldOut": false,
     "description": "Weekender im legendären about:blank — Michael Mayer, André Galluzzi, Anja Schneider, Joel Mull und zahlreiche Underground-Acts."
   },
   {
     "name": "CIRCLE OF LEAVES FESTIVAL 2026",
     "date": "2026-08-07",
-    "dateDisplay": "7. August 2026",
-    "location": "Marbach-Stausee, Hessen",
+    "dateDisplay": "7.–9. August 2026",
+    "location": "Marbach-Stausee, Oberzent (Hessen)",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://circle-of-leaves.com/",
     "soldOut": false,
     "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser."
   },
   {
     "name": "MODULE FESTIVAL 2026",
     "date": "2026-08-13",
-    "dateDisplay": "13. August 2026",
+    "dateDisplay": "13.–16. August 2026",
     "location": "Kulturcampus Frankfurt",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://wdc2026.org/de/constellations/module-festival",
     "soldOut": false,
     "description": "Underground Techno auf dem Kulturcampus Frankfurt — Skee Mask, upsammy, Roza Terenzi, Rosa Anschütz und Suzanne Ciani."
   },
   {
     "name": "CHIMAERA FESTIVAL 2026",
     "date": "2026-08-14",
-    "dateDisplay": "14. August 2026",
-    "location": "Klingemühle, bei Berlin",
+    "dateDisplay": "14.–16. August 2026",
+    "location": "Klingemühle, Friedland (Brandenburg)",
     "genre": ["Techno", "Electronic"],
-    "url": "https://de.ra.co/festivals/de",
+    "url": "https://chimaera-festival.de/",
     "soldOut": false,
     "description": "Mehrtägiges Underground-Techno-Festival an der Klingemühle bei Berlin — riesiges Lineup aus der Berliner und europäischen Underground-Szene."
   },
