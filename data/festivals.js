@@ -1137,6 +1137,26 @@ const festivals = [
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up."
   },
   {
+    "name": "HAVELBEATS FESTIVAL 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "7.–8. August 2026",
+    "location": "Schiffbauergasse, Potsdam",
+    "genre": ["Techno", "Electronic", "Trance"],
+    "url": "https://www.citybounce.de/havelbeats-2026",
+    "soldOut": false,
+    "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse."
+  },
+  {
+    "name": "AWAKENINGS FESTIVAL 2026",
+    "date": "2026-07-12",
+    "dateDisplay": "10.–12. Juli 2026",
+    "location": "Beekse Bergen, Hilvarenbeek (NL)",
+    "genre": ["Techno"],
+    "url": "https://www.awakenings.com/en/events/2026/07/awakenings-festival/378057/",
+    "soldOut": false,
+    "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres."
+  },
+  {
     "name": "44 FESTIVAL 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",

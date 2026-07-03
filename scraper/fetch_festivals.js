@@ -337,12 +337,12 @@ const DISCOVERY_SOURCES = [
   { name: 'verknipt.org (events)',           url: 'https://www.verknipt.org/events/',                                         fn: scrapeVerknipt },
   // Airpark Festival
   { name: 'airpark-festival.de',              url: 'https://www.airpark-festival.de/',                                        fn: makeFestivalScraper('AIRPARK FESTIVAL', 'Deutschland', ['Techno', 'Electronic']) },
-  // City Bounce
-  { name: 'citybounce.de',                    url: 'https://www.citybounce.de/',                                              fn: makeFestivalScraper('CITY BOUNCE', 'Deutschland', ['Techno', 'Electronic', 'House']) },
+  // City Bounce / Havelbeats Festival Potsdam
+  { name: 'citybounce.de (havelbeats)',        url: 'https://www.citybounce.de/',                                              fn: scrapeHavelbeats },
   // Strandfieber Festival
   { name: 'strandfieber-festival.de',         url: 'https://www.strandfieber-festival.de/',                                   fn: makeFestivalScraper('STRANDFIEBER FESTIVAL', 'Deutschland', ['Techno', 'Electronic']) },
   // Awakenings (Niederlande erlaubt)
-  { name: 'awakenings.com',                   url: 'https://www.awakenings.com/en/',                                          fn: makeFestivalScraper('AWAKENINGS FESTIVAL', 'Amsterdam, Niederlande', ['Techno']) },
+  { name: 'awakenings.com',                   url: 'https://www.awakenings.com/en/',                                          fn: scrapeAwakenings },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
@@ -679,6 +679,67 @@ async function scrapeVerknipt(url) {
   return results;
 }
 
+
+async function scrapeHavelbeats(_url) {
+  const year = new Date().getFullYear();
+  const results = [];
+  for (const y of [year, year + 1]) {
+    const pageUrl = `https://www.citybounce.de/havelbeats-${y}`;
+    const html = await fetchPage(pageUrl);
+    if (!html) continue;
+    const $ = cheerio.load(html);
+    if ($('title').text().includes('nicht gefunden')) continue;
+    const pageText = $.text();
+    const dates = extractFutureDates(pageText);
+    for (const date of dates) {
+      const key = `havelbeats-festival-${y}-${date}`;
+      if (results.find(r => r.date === date)) continue;
+      results.push({
+        name: `HAVELBEATS FESTIVAL ${y}`,
+        date,
+        dateDisplay: formatDate(date),
+        location: 'Schiffbauergasse, Potsdam',
+        genre: ['Techno', 'Electronic', 'Trance'],
+        url: pageUrl,
+        soldOut: false,
+        description: `Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.`,
+        _source: pageUrl, _auto: true
+      });
+    }
+  }
+  return results;
+}
+
+async function scrapeAwakenings(_url) {
+  const html = await fetchPage('https://www.awakenings.com/en/');
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  const results = [];
+  $('a[href*="/events/"][href*="/awakenings-festival/"]').each((_, el) => {
+    const href = $(el).attr('href');
+    if (!href) return;
+    const yearMatch = href.match(/\/events\/(\d{4})\//);
+    if (!yearMatch) return;
+    const year = yearMatch[1];
+    const text = $.text();
+    const dateMatch = text.match(/(?:friday|saturday|sunday|monday)?\s*(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})(?:\s*[-–]\s*(?:\w+\s+)?(\d{1,2}))?,?\s*(\d{4})/i);
+    const fullUrl = href.startsWith('http') ? href : `https://www.awakenings.com${href}`;
+    const key = `awakenings-${year}`;
+    if (results.find(r => r.url === fullUrl)) return;
+    results.push({
+      name: `AWAKENINGS FESTIVAL ${year}`,
+      date: `${year}-07-12`,
+      dateDisplay: `Juli ${year}`,
+      location: 'Niederlande',
+      genre: ['Techno'],
+      url: fullUrl,
+      soldOut: false,
+      description: 'Eines der größten Techno-Festivals Europas — purer Techno mit den absoluten Weltstars des Genres.',
+      _source: fullUrl, _auto: true
+    });
+  });
+  return results;
+}
 
 async function scrapeOverdrive(url) {
   const html = await fetchPage(url);
