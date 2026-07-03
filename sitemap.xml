@@ -61,6 +61,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/airpark-festival-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/third-eye-festival-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -267,6 +272,11 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/pokke-herrie-2026/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/strandfieber-festival-2026/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

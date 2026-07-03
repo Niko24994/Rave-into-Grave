@@ -154,6 +154,19 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up."
   },
   {
+    "name": "AIRPARK FESTIVAL 2026",
+    "date": "2026-07-04",
+    "dateDisplay": "4. Juli 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.airpark-festival.de/",
+    "soldOut": false,
+    "description": ""
+  },
+  {
     "name": "THIRD EYE FESTIVAL 2026",
     "date": "2026-07-06",
     "dateDisplay": "3.–6. Juli 2026",
@@ -724,6 +737,19 @@ const festivals = [
     "url": "https://www.turbinenhalle.de",
     "soldOut": false,
     "description": "Hardcore-Event in der Turbinenhalle Oberhausen — Pokke Herrie macht keinen Spaß, und das ist gut so."
+  },
+  {
+    "name": "STRANDFIEBER FESTIVAL 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Deutschland",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.strandfieber-festival.de/",
+    "soldOut": false,
+    "description": ""
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
