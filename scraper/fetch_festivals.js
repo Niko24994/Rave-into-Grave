@@ -927,6 +927,53 @@ export default festivals;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
+// GEOCODING (Nominatim — kostenlos, kein API-Key nötig)
+// ─────────────────────────────────────────────────────────────────────────────
+
+async function nominatimGeocode(query) {
+  try {
+    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`;
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'raveintograve.de/1.0 festival-tracker' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.length) return null;
+    return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+  } catch { return null; }
+}
+
+async function geocodeMissingFestivals(festivals) {
+  const missing = festivals.filter(f => f.lat == null || f.lng == null);
+  if (missing.length === 0) return false;
+
+  console.log(`\n── Geocoding: ${missing.length} Festivals ohne Koordinaten ──`);
+  let changed = false;
+
+  for (const f of missing) {
+    const loc = f.location || '';
+    let coords = await nominatimGeocode(loc);
+    if (!coords) {
+      // Fallback: nur den Ortsteil nach dem letzten Komma versuchen
+      const cityPart = loc.split(',').pop().replace(/\(.*\)/g, '').trim();
+      if (cityPart && cityPart !== loc) coords = await nominatimGeocode(cityPart);
+    }
+    if (coords) {
+      f.lat = coords.lat;
+      f.lng = coords.lng;
+      console.log(`  ✓ ${loc} → ${coords.lat.toFixed(3)}, ${coords.lng.toFixed(3)}`);
+      changed = true;
+    } else {
+      console.log(`  ⚠️  ${loc} → nicht gefunden`);
+    }
+    await new Promise(r => setTimeout(r, 1100)); // Nominatim: max 1 req/s
+  }
+
+  return changed;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 // MAIN
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -956,18 +1003,22 @@ async function main() {
   // 4. Nur wirklich neue Events ermitteln
   const allCandidates = [...fromKnownSites, ...discovered];
   const newEntries = mergeIntoExisting(existing, allCandidates);
-
   console.log(`\n🆕 Neue Events: ${newEntries.length}`);
-  if (newEntries.length === 0) {
-    console.log('✅ Keine Änderungen — festivals.js bleibt unverändert.');
-    return;
+  if (newEntries.length > 0) {
+    newEntries.forEach(e => console.log(`  + ${e.name}  (${e.date})  ${e.location}`));
   }
-
-  newEntries.forEach(e => console.log(`  + ${e.name}  (${e.date})  ${e.location}`));
 
   // 5. Zusammenführen und nach Datum sortieren
   const merged = [...existing, ...newEntries];
   merged.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  // 6. Koordinaten für Festivals ohne lat/lng ergänzen
+  const geocodingChanged = await geocodeMissingFestivals(merged);
+
+  if (newEntries.length === 0 && !geocodingChanged) {
+    console.log('✅ Keine Änderungen — festivals.js bleibt unverändert.');
+    return;
+  }
 
   await writeOutput(merged);
 }

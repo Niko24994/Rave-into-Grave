@@ -184,6 +184,23 @@
     </div>
     <div class="fav-filter-row">
       <button class="genre-btn fav-filter" id="fav-filter-btn">★ FAVORITEN</button>
+      <button class="genre-btn proximity-btn" id="proximity-btn">📍 IN MEINER NÄHE</button>
+    </div>
+    <div class="proximity-panel" id="proximity-panel" hidden>
+      <div class="proximity-inputs">
+        <div class="proximity-search-wrapper">
+          <input type="text" class="proximity-input" id="proximity-address"
+                 placeholder="// ORT ODER ADRESSE..." autocomplete="off" spellcheck="false" />
+          <button class="proximity-gps-btn" id="proximity-gps" title="GPS-Standort nutzen">◎</button>
+        </div>
+        <select class="proximity-radius-select" id="proximity-radius">
+          <option value="50">50 km</option>
+          <option value="100" selected>100 km</option>
+          <option value="200">200 km</option>
+          <option value="500">500 km</option>
+        </select>
+      </div>
+      <div class="proximity-status" id="proximity-status"></div>
     </div>
   </div>
 
@@ -224,6 +241,9 @@
     let upcomingOnly = false;
     let favoritesOnly = false;
     let favorites = new Set(JSON.parse(localStorage.getItem('rig-favorites') || '[]'));
+    let proximityActive = false;
+    let proximityCenter = null; // { lat, lng }
+    let proximityRadius = 100; // km
 
     function favKey(f) { return f.name + '|' + f.date; }
     function slugify(str) {
@@ -269,6 +289,22 @@
       if (days <= 7) return 'very-soon';
       if (days <= 30) return 'soon';
       return '';
+    }
+
+    function haversineKm(lat1, lon1, lat2, lon2) {
+      const R = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+      const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    }
+
+    async function geocodeAddress(query) {
+      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`;
+      const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
+      const data = await res.json();
+      if (!data.length) return null;
+      return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon), display: data[0].display_name.split(',').slice(0, 2).join(',') };
     }
 
     function getStatusBadge(status) {
@@ -327,7 +363,7 @@
               </div>
               <div class="meta-row">
                 <span class="meta-icon">◈</span>
-                <span class="meta-value">${f.location}</span>
+                <span class="meta-value">${f.location}${proximityCenter && f.lat != null ? `<span class="dist-badge">~${Math.round(haversineKm(proximityCenter.lat, proximityCenter.lng, f.lat, f.lng))} km</span>` : ''}</span>
               </div>
             </div>
             <p class="card-description">${f.description}</p>
@@ -362,7 +398,12 @@
         const matchUpcoming = !upcomingOnly || status !== 'past';
         const matchFav = !favoritesOnly || favorites.has(favKey(f));
 
-        return matchSearch && matchGenre && matchMonth && matchUpcoming && matchFav;
+        const matchProximity = !proximityActive || !proximityCenter || (
+          f.lat != null && f.lng != null &&
+          haversineKm(proximityCenter.lat, proximityCenter.lng, f.lat, f.lng) <= proximityRadius
+        );
+
+        return matchSearch && matchGenre && matchMonth && matchUpcoming && matchFav && matchProximity;
       });
     }
 
@@ -572,6 +613,67 @@
       render();
     });
 
+    // ─── PROXIMITY (IN MEINER NÄHE) ───
+    const proximityPanel  = document.getElementById('proximity-panel');
+    const proximityBtn    = document.getElementById('proximity-btn');
+    const proximityAddrEl = document.getElementById('proximity-address');
+    const proximityStatus = document.getElementById('proximity-status');
+    const proximityGpsBtn = document.getElementById('proximity-gps');
+
+    proximityBtn.addEventListener('click', () => {
+      proximityActive = !proximityActive;
+      proximityBtn.classList.toggle('active', proximityActive);
+      proximityPanel.hidden = !proximityActive;
+      if (proximityActive) proximityAddrEl.focus();
+      else { proximityCenter = null; proximityStatus.textContent = ''; }
+      render();
+    });
+
+    document.getElementById('proximity-radius').addEventListener('change', e => {
+      proximityRadius = parseInt(e.target.value);
+      render();
+    });
+
+    let geocodeTimer;
+    proximityAddrEl.addEventListener('input', () => {
+      clearTimeout(geocodeTimer);
+      const q = proximityAddrEl.value.trim();
+      if (!q) { proximityCenter = null; proximityStatus.textContent = ''; render(); return; }
+      proximityStatus.textContent = '// suche…';
+      geocodeTimer = setTimeout(async () => {
+        try {
+          const result = await geocodeAddress(q);
+          if (result) {
+            proximityCenter = result;
+            proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${result.display}</span>`;
+          } else {
+            proximityCenter = null;
+            proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
+          }
+        } catch {
+          proximityCenter = null;
+          proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
+        }
+        render();
+      }, 600);
+    });
+
+    proximityGpsBtn.addEventListener('click', () => {
+      if (!navigator.geolocation) {
+        proximityStatus.innerHTML = `<span class="proximity-err">GPS nicht verfügbar</span>`;
+        return;
+      }
+      proximityStatus.textContent = '// GPS wird abgerufen…';
+      navigator.geolocation.getCurrentPosition(pos => {
+        proximityCenter = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        proximityAddrEl.value = '';
+        proximityStatus.innerHTML = `<span class="proximity-ok">✓ Aktueller Standort</span>`;
+        render();
+      }, () => {
+        proximityStatus.innerHTML = `<span class="proximity-err">GPS-Zugriff verweigert</span>`;
+      });
+    });
+
     document.getElementById('month-filter').addEventListener('change', e => {
       monthFilter = e.target.value;
       render();
@@ -596,11 +698,17 @@
       activeGenre = 'all';
       monthFilter = '';
       favoritesOnly = false;
+      proximityActive = false;
+      proximityCenter = null;
       document.getElementById('search').value = '';
       document.getElementById('month-filter').value = '';
+      document.getElementById('proximity-address').value = '';
+      document.getElementById('proximity-status').textContent = '';
+      document.getElementById('proximity-panel').hidden = true;
       document.querySelectorAll('.genre-btn').forEach(b => b.classList.remove('active'));
       document.querySelector('.genre-btn[data-genre="all"]').classList.add('active');
       document.getElementById('fav-filter-btn').classList.remove('active');
+      document.getElementById('proximity-btn').classList.remove('active');
       render();
     });
 
