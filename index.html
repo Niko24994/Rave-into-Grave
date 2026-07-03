@@ -659,25 +659,9 @@
     });
 
     const proxSuggestEl = document.getElementById('proximity-suggestions');
+    let suppressInput = false;
 
     function closeSuggestions() { proxSuggestEl.hidden = true; proxSuggestEl.innerHTML = ''; }
-
-    proxSuggestEl.addEventListener('click', e => {
-      const item = e.target.closest('.prox-suggest-item');
-      if (!item) return;
-      const lat = parseFloat(item.dataset.lat);
-      const lng = parseFloat(item.dataset.lng);
-      const label = item.dataset.label;
-      proximityAddrEl.value = label;
-      closeSuggestions();
-      setProximityCoords(lat, lng);
-      proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${label}</span>`;
-      render();
-    });
-
-    document.addEventListener('click', e => {
-      if (!proxSuggestEl.contains(e.target) && e.target !== proximityAddrEl) closeSuggestions();
-    });
 
     function buildLabel(r) {
       const a = r.address || {};
@@ -688,16 +672,31 @@
     }
 
     function applyResult(lat, lng, label) {
+      suppressInput = true;
       proximityAddrEl.value = label;
+      suppressInput = false;
+      clearTimeout(suggestTimer);
+      clearTimeout(autoTimer);
       closeSuggestions();
       setProximityCoords(lat, lng);
       proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${label}</span>`;
       render();
     }
 
+    proxSuggestEl.addEventListener('click', e => {
+      const item = e.target.closest('.prox-suggest-item');
+      if (!item) return;
+      applyResult(parseFloat(item.dataset.lat), parseFloat(item.dataset.lng), item.dataset.label);
+    });
+
+    document.addEventListener('click', e => {
+      if (!proxSuggestEl.contains(e.target) && e.target !== proximityAddrEl) closeSuggestions();
+    });
+
     let suggestTimer;
     let autoTimer;
     proximityAddrEl.addEventListener('input', () => {
+      if (suppressInput) return;
       clearTimeout(suggestTimer);
       clearTimeout(autoTimer);
       const q = proximityAddrEl.value.trim();
@@ -706,7 +705,6 @@
       render();
       proximityStatus.textContent = '// suche…';
 
-      // Fast: show dropdown suggestions after 300ms
       suggestTimer = setTimeout(async () => {
         try {
           const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
@@ -724,33 +722,24 @@
             const label = buildLabel(r);
             return `<div class="prox-suggest-item" data-lat="${r.lat}" data-lng="${r.lon}" data-label="${label}">${label}</div>`;
           }).join('');
+          // Auto-apply first result 700ms after suggestions appear (no second fetch)
+          autoTimer = setTimeout(() => {
+            if (isNaN(parseFloat(proximityPanel.dataset.proxLat))) {
+              applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
+            }
+          }, 700);
         } catch {
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
           closeSuggestions();
         }
-      }, 300);
-
-      // Slow fallback: auto-select first result after 900ms if user hasn't clicked a suggestion
-      autoTimer = setTimeout(async () => {
-        if (!isNaN(parseFloat(proximityPanel.dataset.proxLat))) return; // already set by suggestion click
-        try {
-          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
-          const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
-          if (!res.ok) throw new Error();
-          const data = await res.json();
-          if (!data.length) return;
-          applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
-        } catch { /* silent — suggestions already show the error */ }
-      }, 900);
+      }, 400);
     });
 
     proximityAddrEl.addEventListener('keydown', e => {
       if (e.key === 'Enter') {
         e.preventDefault();
         const first = proxSuggestEl.querySelector('.prox-suggest-item');
-        if (first) {
-          applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
-        }
+        if (first) applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
       }
     });
 
