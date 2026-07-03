@@ -679,13 +679,34 @@
       if (!proxSuggestEl.contains(e.target) && e.target !== proximityAddrEl) closeSuggestions();
     });
 
+    function buildLabel(r) {
+      const a = r.address || {};
+      const city = a.city || a.town || a.village || a.municipality || a.county || '';
+      const region = a.state || a.county || '';
+      return city ? (region && region !== city ? `${city}, ${region}` : city)
+                  : r.display_name.split(',')[0].trim();
+    }
+
+    function applyResult(lat, lng, label) {
+      proximityAddrEl.value = label;
+      closeSuggestions();
+      setProximityCoords(lat, lng);
+      proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${label}</span>`;
+      render();
+    }
+
     let suggestTimer;
+    let autoTimer;
     proximityAddrEl.addEventListener('input', () => {
       clearTimeout(suggestTimer);
+      clearTimeout(autoTimer);
       const q = proximityAddrEl.value.trim();
       if (!q) { clearProximityCoords(); closeSuggestions(); proximityStatus.textContent = ''; render(); return; }
       clearProximityCoords();
       render();
+      proximityStatus.textContent = '// suche…';
+
+      // Fast: show dropdown suggestions after 300ms
       suggestTimer = setTimeout(async () => {
         try {
           const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
@@ -700,11 +721,7 @@
           proximityStatus.textContent = '';
           proxSuggestEl.hidden = false;
           proxSuggestEl.innerHTML = data.map(r => {
-            const a = r.address || {};
-            const city = a.city || a.town || a.village || a.municipality || a.county || '';
-            const region = a.state || a.county || '';
-            const label = city ? (region && region !== city ? `${city}, ${region}` : city)
-                                : r.display_name.split(',')[0].trim();
+            const label = buildLabel(r);
             return `<div class="prox-suggest-item" data-lat="${r.lat}" data-lng="${r.lon}" data-label="${label}">${label}</div>`;
           }).join('');
         } catch {
@@ -712,6 +729,29 @@
           closeSuggestions();
         }
       }, 300);
+
+      // Slow fallback: auto-select first result after 900ms if user hasn't clicked a suggestion
+      autoTimer = setTimeout(async () => {
+        if (!isNaN(parseFloat(proximityPanel.dataset.proxLat))) return; // already set by suggestion click
+        try {
+          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
+          const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
+          if (!res.ok) throw new Error();
+          const data = await res.json();
+          if (!data.length) return;
+          applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
+        } catch { /* silent — suggestions already show the error */ }
+      }, 900);
+    });
+
+    proximityAddrEl.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const first = proxSuggestEl.querySelector('.prox-suggest-item');
+        if (first) {
+          applyResult(parseFloat(first.dataset.lat), parseFloat(first.dataset.lng), first.dataset.label);
+        }
+      }
     });
 
     proximityGpsBtn.addEventListener('click', () => {
