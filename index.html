@@ -697,25 +697,37 @@
     let autoTimer;
     let fetchEpoch = 0;
 
-    async function searchPlaces(q, limit = 5) {
-      // Photon (Komoot) — kein Rate-Limit, OSM-basiert
+    console.log('[RIG] proximity v4 — photon+nominatim fallback');
+
+    async function photonSearch(q, limit) {
       const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=${limit}&lang=de`;
       const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new Error(`Photon HTTP ${res.status}`);
       const fc = await res.json();
       const allowed = ['de','at','ch','nl','be','pl','cz'];
       return (fc.features || [])
         .filter(f => allowed.includes((f.properties.countrycode || '').toLowerCase()))
-        .map(f => {
-          const p = f.properties || {};
-          const name = p.name || '';
-          const state = p.state || '';
-          return {
-            lat: String(f.geometry.coordinates[1]),
-            lon: String(f.geometry.coordinates[0]),
-            address: { city: name, state }
-          };
-        });
+        .map(f => ({
+          lat: String(f.geometry.coordinates[1]),
+          lon: String(f.geometry.coordinates[0]),
+          address: { city: (f.properties || {}).name || '', state: (f.properties || {}).state || '' }
+        }));
+    }
+
+    async function nominatimSearch(q, limit) {
+      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=${limit}&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
+      const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
+      if (!res.ok) throw new Error(`Nominatim HTTP ${res.status}`);
+      return res.json();
+    }
+
+    async function searchPlaces(q, limit = 5) {
+      try {
+        return await photonSearch(q, limit);
+      } catch (e) {
+        console.warn('[RIG] Photon failed, trying Nominatim:', e.message);
+        return nominatimSearch(q, limit);
+      }
     }
 
     proximityAddrEl.addEventListener('input', () => {
