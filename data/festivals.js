@@ -179,7 +179,7 @@ const festivals = [
     "name": "AIRPARK FESTIVAL 2026",
     "date": "2026-07-04",
     "dateDisplay": "4. Juli 2026",
-    "location": "Deutschland",
+    "location": "Airpark Karlsruhe/Baden-Baden, Rheinmünster",
     "genre": [
       "Techno",
       "Electronic"
@@ -187,8 +187,8 @@ const festivals = [
     "url": "https://www.airpark-festival.de/",
     "soldOut": false,
     "description": "",
-    "lat": 51.1638175,
-    "lng": 10.4478313
+    "lat": 48.7528211,
+    "lng": 8.0405324
   },
   {
     "name": "THIRD EYE FESTIVAL 2026",
@@ -848,7 +848,7 @@ const festivals = [
     "name": "STRANDFIEBER FESTIVAL 2026",
     "date": "2026-09-05",
     "dateDisplay": "5. September 2026",
-    "location": "Deutschland",
+    "location": "Hartensbergsee, Goldenstedt",
     "genre": [
       "Techno",
       "Electronic"
@@ -856,8 +856,8 @@ const festivals = [
     "url": "https://www.strandfieber-festival.de/",
     "soldOut": false,
     "description": "",
-    "lat": 51.1638175,
-    "lng": 10.4478313
+    "lat": 52.7916075,
+    "lng": 8.4459285
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
@@ -1274,7 +1274,7 @@ const festivals = [
     "name": "AFFENKÄFIG FESTIVAL 2027",
     "date": "2027-06-20",
     "dateDisplay": "18.–20. Juni 2027",
-    "location": "Deutschland",
+    "location": "Mendig, Rheinland-Pfalz",
     "genre": [
       "Techno",
       "Electronic"
@@ -1282,8 +1282,8 @@ const festivals = [
     "url": "https://www.affenkaefig-festival.de",
     "soldOut": false,
     "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
-    "lat": 51.1638175,
-    "lng": 10.4478313
+    "lat": 50.3720933,
+    "lng": 7.2812427
   },
   {
     "name": "HIVE FESTIVAL 2027",
@@ -1412,7 +1412,7 @@ const festivals = [
     "name": "BLANK HOLIDAYS FESTIVAL WEEKENDER 2026",
     "date": "2026-08-01",
     "dateDisplay": "1. August 2026",
-    "location": "://about blank, Berlin",
+    "location": "Berlin",
     "genre": [
       "Techno",
       "Electronic"
