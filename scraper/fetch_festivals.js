@@ -335,7 +335,15 @@ const DISCOVERY_SOURCES = [
   // Verknipt NL — einzige erlaubte Holland-Quelle
   { name: 'verknipt.org (tickets)',          url: 'https://www.verknipt.org/tickets/',                                        fn: scrapeVerknipt },
   { name: 'verknipt.org (events)',           url: 'https://www.verknipt.org/events/',                                         fn: scrapeVerknipt },
-  // Keine anderen NL-Quellen — nur Verknipt-Events aus Holland erlaubt
+  // Airpark Festival
+  { name: 'airpark-festival.de',              url: 'https://www.airpark-festival.de/',                                        fn: makeFestivalScraper('AIRPARK FESTIVAL', 'Deutschland', ['Techno', 'Electronic']) },
+  // City Bounce
+  { name: 'citybounce.de',                    url: 'https://www.citybounce.de/',                                              fn: makeFestivalScraper('CITY BOUNCE', 'Deutschland', ['Techno', 'Electronic', 'House']) },
+  // Strandfieber Festival
+  { name: 'strandfieber-festival.de',         url: 'https://www.strandfieber-festival.de/',                                   fn: makeFestivalScraper('STRANDFIEBER FESTIVAL', 'Deutschland', ['Techno', 'Electronic']) },
+  // Awakenings (Niederlande erlaubt)
+  { name: 'awakenings.com',                   url: 'https://www.awakenings.com/en/',                                          fn: makeFestivalScraper('AWAKENINGS FESTIVAL', 'Amsterdam, Niederlande', ['Techno']) },
+  // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
 const GENRE_KEYWORDS = ['techno', 'hard techno', 'hardtechno', 'schranz', 'hardcore', 'hardstyle', 'psytrance', 'hard core', 'rave'];
