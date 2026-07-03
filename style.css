@@ -806,6 +806,7 @@ header {
   flex-direction: column;
   gap: 0.5rem;
 }
+.proximity-panel[hidden] { display: none; }
 
 .proximity-inputs {
   display: flex;
@@ -818,6 +819,7 @@ header {
   display: flex;
   gap: 0.4rem;
   align-items: center;
+  position: relative;
 }
 
 .proximity-input {
@@ -887,6 +889,37 @@ header {
   font-family: var(--font-mono);
   letter-spacing: 0.04em;
   vertical-align: middle;
+}
+
+/* ─── PROXIMITY SUGGESTIONS ─── */
+
+.prox-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+.prox-suggest-item {
+  padding: 0.55rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--dim);
+  cursor: pointer;
+  border-bottom: 1px solid #1a1a1a;
+  transition: background 0.12s, color 0.12s;
+}
+.prox-suggest-item:last-child { border-bottom: none; }
+.prox-suggest-item:hover {
+  background: rgba(255,45,0,0.1);
+  color: var(--fg);
 }
 
 /* ─── PAST SECTION ─── */

@@ -192,6 +192,7 @@
           <input type="text" class="proximity-input" id="proximity-address"
                  placeholder="// ORT ODER ADRESSE..." autocomplete="off" spellcheck="false" />
           <button class="proximity-gps-btn" id="proximity-gps" title="GPS-Standort nutzen">◎</button>
+          <div id="proximity-suggestions" class="prox-suggestions" hidden></div>
         </div>
         <select class="proximity-radius-select" id="proximity-radius">
           <option value="50">50 km</option>
@@ -393,7 +394,7 @@
       const pLat = parseFloat(panel.dataset.proxLat);
       const pLng = parseFloat(panel.dataset.proxLng);
       const pRadius = parseInt(document.getElementById('proximity-radius').value) || 100;
-      const pActive = !panel.hidden && !isNaN(pLat);
+      const pActive = !isNaN(pLat);
 
       return festivals.filter(f => {
         const q = searchQuery.toLowerCase();
@@ -657,28 +658,60 @@
       render();
     });
 
-    let geocodeTimer;
+    const proxSuggestEl = document.getElementById('proximity-suggestions');
+
+    function closeSuggestions() { proxSuggestEl.hidden = true; proxSuggestEl.innerHTML = ''; }
+
+    proxSuggestEl.addEventListener('click', e => {
+      const item = e.target.closest('.prox-suggest-item');
+      if (!item) return;
+      const lat = parseFloat(item.dataset.lat);
+      const lng = parseFloat(item.dataset.lng);
+      const label = item.dataset.label;
+      proximityAddrEl.value = label;
+      closeSuggestions();
+      setProximityCoords(lat, lng);
+      proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${label}</span>`;
+      render();
+    });
+
+    document.addEventListener('click', e => {
+      if (!proxSuggestEl.contains(e.target) && e.target !== proximityAddrEl) closeSuggestions();
+    });
+
+    let suggestTimer;
     proximityAddrEl.addEventListener('input', () => {
-      clearTimeout(geocodeTimer);
+      clearTimeout(suggestTimer);
       const q = proximityAddrEl.value.trim();
-      if (!q) { clearProximityCoords(); proximityStatus.textContent = ''; render(); return; }
-      proximityStatus.textContent = '// suche…';
-      geocodeTimer = setTimeout(async () => {
+      if (!q) { clearProximityCoords(); closeSuggestions(); proximityStatus.textContent = ''; render(); return; }
+      clearProximityCoords();
+      render();
+      suggestTimer = setTimeout(async () => {
         try {
-          const result = await geocodeAddress(q);
-          if (result) {
-            setProximityCoords(result.lat, result.lng);
-            proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${result.display}</span>`;
-          } else {
-            clearProximityCoords();
+          const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=de,at,ch,nl,be,pl,cz&addressdetails=1`;
+          const res = await fetch(url, { headers: { 'Accept-Language': 'de' } });
+          if (!res.ok) throw new Error();
+          const data = await res.json();
+          if (!data.length) {
             proximityStatus.innerHTML = `<span class="proximity-err">Ort nicht gefunden</span>`;
+            closeSuggestions();
+            return;
           }
+          proximityStatus.textContent = '';
+          proxSuggestEl.hidden = false;
+          proxSuggestEl.innerHTML = data.map(r => {
+            const a = r.address || {};
+            const city = a.city || a.town || a.village || a.municipality || a.county || '';
+            const region = a.state || a.county || '';
+            const label = city ? (region && region !== city ? `${city}, ${region}` : city)
+                                : r.display_name.split(',')[0].trim();
+            return `<div class="prox-suggest-item" data-lat="${r.lat}" data-lng="${r.lon}" data-label="${label}">${label}</div>`;
+          }).join('');
         } catch {
-          clearProximityCoords();
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
+          closeSuggestions();
         }
-        render();
-      }, 600);
+      }, 300);
     });
 
     proximityGpsBtn.addEventListener('click', () => {
