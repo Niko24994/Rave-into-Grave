@@ -357,6 +357,8 @@ const DISCOVERY_SOURCES = [
   { name: 'circle-of-leaves.com',             url: 'https://circle-of-leaves.com/',                                           fn: makeFestivalScraper('CIRCLE OF LEAVES FESTIVAL', 'Marbach-Stausee, Oberzent (Hessen)', ['Techno', 'Electronic']) },
   // Chimaera Festival Brandenburg
   { name: 'chimaera-festival.de',             url: 'https://chimaera-festival.de/',                                           fn: makeFestivalScraper('CHIMAERA FESTIVAL', 'Klingemühle, Friedland (Brandenburg)', ['Techno', 'Electronic']) },
+  // Reactōr Aftermath — Kernkraftwerk Kalkar
+  { name: 'reactor.events',                   url: 'https://reactor.events/',                                                  fn: makeFestivalScraper('REACTŌR AFTERMATH', 'Kernkraftwerk Kalkar, Kalkar (NRW)', ['Techno', 'Electronic']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 

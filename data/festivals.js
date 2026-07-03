@@ -846,6 +846,19 @@ const festivals = [
     "description": "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach."
   },
   {
+    "name": "REACTŌR AFTERMATH 2026",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "Kernkraftwerk Kalkar, Kalkar (NRW)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://reactor.events/",
+    "soldOut": false,
+    "description": "Raw. Rebellious. Relentless. — Underground-Techno im stillgelegten Kernkraftwerk Kalkar. Industrielle Ästhetik, brutalist sound, non-stop energy."
+  },
+  {
     "name": "HIVE INDOOR 2026",
     "date": "2026-10-17",
     "dateDisplay": "17. Oktober 2026",
