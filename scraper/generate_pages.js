@@ -249,6 +249,123 @@ function renderPage(f, slug) {
 `;
 }
 
+// ─── HOMEPAGE SSR: portiert 1:1 aus index.html (renderCard/getStatus/…) ───
+// Damit Suchmaschinen echte Festival-Namen + Links sehen, ohne JS ausführen
+// zu müssen. Der Client überschreibt diesen Inhalt beim Laden sofort per
+// render() — Nutzer sehen keinen Unterschied, nur Crawler profitieren.
+
+function getDaysUntil(dateStr, today) {
+  const d = new Date(dateStr);
+  d.setHours(0, 0, 0, 0);
+  return Math.round((d - today) / (1000 * 60 * 60 * 24));
+}
+
+function getStatus(f, today) {
+  if (f.soldOut) return 'sold-out';
+  const days = getDaysUntil(f.date, today);
+  if (days < 0) return 'past';
+  if (days <= 30) return 'soon';
+  return 'upcoming';
+}
+
+function getCountdownText(f, today) {
+  const days = getDaysUntil(f.date, today);
+  if (days < 0) return `vor ${Math.abs(days)} Tagen`;
+  if (days === 0) return 'HEUTE !!!';
+  if (days === 1) return 'MORGEN';
+  return `in ${days} Tagen`;
+}
+
+function getCountdownClass(f, today) {
+  const days = getDaysUntil(f.date, today);
+  if (days < 0) return 'past';
+  if (days <= 7) return 'very-soon';
+  if (days <= 30) return 'soon';
+  return '';
+}
+
+function getStatusBadge(status) {
+  const map = {
+    'upcoming': ['BEVORSTEHEND', 'badge-upcoming'],
+    'soon': ['BALD', 'badge-soon'],
+    'past': ['VERGANGEN', 'badge-past'],
+    'sold-out': ['AUSVERKAUFT', 'badge-sold-out']
+  };
+  return map[status] || map['upcoming'];
+}
+
+function renderHomepageCard(f, today) {
+  const status = getStatus(f, today);
+  const [badgeText, badgeClass] = getStatusBadge(status);
+  const countdown = getCountdownText(f, today);
+  const countdownClass = getCountdownClass(f, today);
+
+  const tags = f.genre.map(g =>
+    `<span class="genre-tag ${TAG_CLASS[g] || ''}">${g.toUpperCase()}</span>`
+  ).join('');
+
+  return `
+        <article class="card status-${status}">
+          <div class="card-inner">
+            <div class="card-header">
+              <h2 class="card-name"><a class="card-name-link" href="festival/${slugify(f.name)}/">${f.name}</a></h2>
+              <div style="display:flex;align-items:center;gap:0.5rem;flex-shrink:0">
+                <span class="card-status-badge ${badgeClass}">${badgeText}</span>
+                <button class="fav-btn" data-fav="${f.name}|${f.date}" aria-label="Favorit">★</button>
+              </div>
+            </div>
+            <div class="genre-tags">${tags}</div>
+            <div class="card-meta">
+              <div class="meta-row">
+                <span class="meta-icon">▶</span>
+                <span class="meta-value">${f.dateDisplay}</span>
+              </div>
+              <div class="meta-row">
+                <span class="meta-icon">◈</span>
+                <span class="meta-value">${f.location}</span>
+              </div>
+            </div>
+            <p class="card-description">${f.description}</p>
+            <div class="card-footer">
+              <span class="countdown ${countdownClass}">${countdown}</span>
+              <div style="display:flex;gap:0.5rem;align-items:center">
+                <button class="share-btn visit-btn" data-fav="${f.name}|${f.date}" aria-label="Festival teilen">↗ TEILEN</button>
+                ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
+              </div>
+            </div>
+          </div>
+        </article>`;
+}
+
+function buildHomepageSSR(festivals) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const upcoming = festivals
+    .filter(f => getStatus(f, today) !== 'past')
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  const gridHtml = upcoming.map(f => renderHomepageCard(f, today)).join('\n');
+  return { gridHtml, count: upcoming.length };
+}
+
+async function injectHomepageSSR(festivals) {
+  const indexPath = path.join(ROOT, 'index.html');
+  let html = await fs.readFile(indexPath, 'utf-8');
+  const { gridHtml, count } = buildHomepageSSR(festivals);
+
+  html = html.replace(
+    /<!--SSR_FESTIVALS_START-->[\s\S]*?<!--SSR_FESTIVALS_END-->/,
+    `<!--SSR_FESTIVALS_START-->${gridHtml}\n      <!--SSR_FESTIVALS_END-->`
+  );
+  html = html.replace(
+    /<!--SSR_COUNT_START-->[\s\S]*?<!--SSR_COUNT_END-->/,
+    `<!--SSR_COUNT_START-->[${count}]<!--SSR_COUNT_END-->`
+  );
+
+  await fs.writeFile(indexPath, html, 'utf-8');
+}
+
 async function main() {
   const fileUrl = new URL(`file:///${FESTIVALS_PATH.replace(/\\/g, '/')}`);
   fileUrl.searchParams.set('v', Date.now());
@@ -285,7 +402,9 @@ async function main() {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
   await fs.writeFile(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf-8');
 
-  console.log(`✅ ${entries.length} Detailseiten generiert + sitemap.xml aktualisiert.`);
+  await injectHomepageSSR(festivals);
+
+  console.log(`✅ ${entries.length} Detailseiten generiert + sitemap.xml aktualisiert + Homepage-SSR injiziert.`);
 }
 
 main().catch(err => {
