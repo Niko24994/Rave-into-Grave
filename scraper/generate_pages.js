@@ -136,7 +136,7 @@ function renderPage(f, slug) {
 <body>
 
   <div class="video-bg">
-    <video autoplay muted loop playsinline>
+    <video autoplay muted loop playsinline preload="metadata">
       <source src="../../bg.mp4" type="video/mp4" />
     </video>
   </div>
