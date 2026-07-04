@@ -190,8 +190,10 @@
       <div class="proximity-inputs">
         <div class="proximity-search-wrapper">
           <input type="text" class="proximity-input" id="proximity-address"
-                 placeholder="// ORT ODER ADRESSE..." autocomplete="off" spellcheck="false" />
-          <button class="proximity-gps-btn" id="proximity-gps" title="GPS-Standort nutzen">◎</button>
+                 placeholder="// PLZ ODER ORT..." autocomplete="off" spellcheck="false" />
+          <button class="proximity-gps-btn" id="proximity-gps" title="Genauen Standort per GPS verwenden">
+            <span class="gps-icon">◎</span><span class="gps-label">GPS</span>
+          </button>
           <div id="proximity-suggestions" class="prox-suggestions" hidden></div>
         </div>
         <select class="proximity-radius-select" id="proximity-radius">
@@ -202,6 +204,7 @@
         </select>
       </div>
       <div class="proximity-status" id="proximity-status"></div>
+      <div class="proximity-hint">// Genaue Adresse? Nutze <strong>GPS</strong> für deinen exakten Standort.</div>
     </div>
   </div>
 

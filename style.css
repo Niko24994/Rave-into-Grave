@@ -844,17 +844,30 @@ header {
 }
 
 .proximity-gps-btn {
-  background: transparent;
-  border: 1px solid #2a2a2a;
-  color: #bbb;
-  font-size: 1rem;
-  padding: 0.5rem 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255,45,0,0.08);
+  border: 1px solid rgba(255,45,0,0.4);
+  color: var(--red);
+  font-size: 0.85rem;
+  padding: 0.5rem 0.8rem;
   cursor: pointer;
   transition: all 0.15s;
   font-family: var(--font-mono);
+  letter-spacing: 0.05em;
   flex-shrink: 0;
 }
-.proximity-gps-btn:hover { border-color: var(--red); color: var(--red); }
+.proximity-gps-btn:hover { background: rgba(255,45,0,0.18); border-color: var(--red); }
+.proximity-gps-btn .gps-icon { font-size: 1rem; }
+
+.proximity-hint {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #777;
+  letter-spacing: 0.02em;
+}
+.proximity-hint strong { color: var(--red); font-weight: 600; }
 
 .proximity-radius-select {
   background: rgba(15,15,15,0.9);
