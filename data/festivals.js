@@ -118,7 +118,9 @@ const festivals = [
     "date": "2026-06-20",
     "dateDisplay": "20. Juni 2026",
     "location": "Pforzheim",
-    "genre": ["Techno"],
+    "genre": [
+      "Techno"
+    ],
     "url": "https://buchbusch.de",
     "soldOut": false,
     "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
@@ -250,6 +252,22 @@ const festivals = [
     "lng": 7.2678414
   },
   {
+    "name": "ELECTRIC RESIDENCE FESTIVAL 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "11. Juli 2026",
+    "location": "Schloss Strünkede, Herne",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.electric-residence.de/",
+    "soldOut": false,
+    "description": "Elektronische Musik auf Schloss Strünkede in NRW — Bart Skils, Super Flu, Ante Perry und Phil Fuldner in historischem Ambiente.",
+    "lat": 51.5514253,
+    "lng": 7.2113707
+  },
+  {
     "name": "AIRBEAT ONE 2026",
     "date": "2026-07-12",
     "dateDisplay": "8.–12. Juli 2026",
@@ -264,6 +282,20 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
     "lat": 53.3613328,
     "lng": 11.6141158
+  },
+  {
+    "name": "AWAKENINGS FESTIVAL 2026",
+    "date": "2026-07-12",
+    "dateDisplay": "10.–12. Juli 2026",
+    "location": "Beekse Bergen, Hilvarenbeek (NL)",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.awakenings.com/en/events/2026/07/awakenings-festival/378057/",
+    "soldOut": false,
+    "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres.",
+    "lat": 51.5250552,
+    "lng": 5.1197983
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -295,6 +327,36 @@ const festivals = [
     "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville.",
     "lat": 53.5036896,
     "lng": 9.9776863
+  },
+  {
+    "name": "SCHALL IM SCHILF FESTIVAL 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Garchinger See, München",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.schallimschilf.de/",
+    "soldOut": false,
+    "description": "Elektronisches Open Air am Garchinger See — Bambounou, Interstellar Funk, Palms Trax, Octo Octa und viele mehr unter freiem Münchner Himmel.",
+    "lat": 48.2602013,
+    "lng": 11.63915
+  },
+  {
+    "name": "WESTHAFEN FESTIVAL SUMMER EDITION 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Westhafen, Leipzig",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.westhafen-leipzig.de/",
+    "soldOut": false,
+    "description": "Techno am Westhafen Leipzig — Space 92, Township Rebellion, Victor Ruiz und Nora En Pure auf dem Wasser.",
+    "lat": 51.3383707,
+    "lng": 12.3050378
   },
   {
     "name": "DEICHBRAND 2026",
@@ -332,7 +394,10 @@ const festivals = [
     "date": "2026-07-19",
     "dateDisplay": "16.–19. Juli 2026",
     "location": "Grünefeld bei Berlin",
-    "genre": ["Techno", "Electronic"],
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
     "url": "https://pyonen.de/nog2026/",
     "soldOut": false,
     "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin.",
@@ -355,18 +420,6 @@ const festivals = [
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
     "lat": 52.5173885,
     "lng": 13.3951309
-  },
-  {
-    "name": "STROGA FESTIVAL 2026",
-    "date": "2026-07-26",
-    "dateDisplay": "24.–26. Juli 2026",
-    "location": "Energiefabrik Knappenrode, Hoyerswerda",
-    "genre": ["Techno", "Electronic"],
-    "url": "https://www.stroga-festival.de",
-    "soldOut": false,
-    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel.",
-    "lat": 51.5272,
-    "lng": 14.3064
   },
   {
     "name": "BACHBLYTEN FESTIVAL 2026",
@@ -398,6 +451,36 @@ const festivals = [
     "description": "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew.",
     "lat": 51.4835582,
     "lng": 6.8666494
+  },
+  {
+    "name": "MUUUHNLIGHT FESTIVAL 2026",
+    "date": "2026-07-25",
+    "dateDisplay": "25. Juli 2026",
+    "location": "Muuuhnlight Garten, Schauenburg (Hessen)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.dancinginthemuuuhnlight.de/",
+    "soldOut": false,
+    "description": "Open Air im Muuuhnlight Garten Schauenburg — Nakadia, Dominik Eulberg, Township Rebellion, Mollono.Bass und Green Lake Project.",
+    "lat": 51.2776974,
+    "lng": 9.3482404
+  },
+  {
+    "name": "STROGA FESTIVAL 2026",
+    "date": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Energiefabrik Knappenrode, Hoyerswerda",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.stroga-festival.de",
+    "soldOut": false,
+    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel.",
+    "lat": 51.5272,
+    "lng": 14.3064
   },
   {
     "name": "FEEL FESTIVAL 2026",
@@ -509,6 +592,21 @@ const festivals = [
     "lng": 11.6711537
   },
   {
+    "name": "BLANK HOLIDAYS FESTIVAL WEEKENDER 2026",
+    "date": "2026-08-01",
+    "dateDisplay": "1. August 2026",
+    "location": "Berlin",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://aboutblank.li/",
+    "soldOut": false,
+    "description": "Weekender im legendären about:blank — Michael Mayer, André Galluzzi, Anja Schneider, Joel Mull und zahlreiche Underground-Acts.",
+    "lat": 52.5024767,
+    "lng": 13.466302
+  },
+  {
     "name": "NATURE ONE 2026",
     "date": "2026-08-02",
     "dateDisplay": "30. Juli – 2. Aug 2026",
@@ -538,6 +636,37 @@ const festivals = [
     "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.",
     "lat": 52.3184969,
     "lng": 9.8179603
+  },
+  {
+    "name": "CIRCLE OF LEAVES FESTIVAL 2026",
+    "date": "2026-08-07",
+    "dateDisplay": "7.–9. August 2026",
+    "location": "Marbach-Stausee, Oberzent (Hessen)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://circle-of-leaves.com/",
+    "soldOut": false,
+    "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
+    "lat": 49.6101502,
+    "lng": 8.9671301
+  },
+  {
+    "name": "HAVELBEATS FESTIVAL 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "7.–8. August 2026",
+    "location": "Schiffbauergasse, Potsdam",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Trance"
+    ],
+    "url": "https://www.citybounce.de/havelbeats-2026",
+    "soldOut": false,
+    "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.",
+    "lat": 52.4031259,
+    "lng": 13.0737772
   },
   {
     "name": "ELECTRISIZE 2026",
@@ -586,6 +715,36 @@ const festivals = [
     "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis.",
     "lat": 52.8455492,
     "lng": 13.2461296
+  },
+  {
+    "name": "MODULE FESTIVAL 2026",
+    "date": "2026-08-13",
+    "dateDisplay": "13.–16. August 2026",
+    "location": "Kulturcampus Frankfurt",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://wdc2026.org/de/constellations/module-festival",
+    "soldOut": false,
+    "description": "Underground Techno auf dem Kulturcampus Frankfurt — Skee Mask, upsammy, Roza Terenzi, Rosa Anschütz und Suzanne Ciani.",
+    "lat": 50.1174667,
+    "lng": 8.6498444
+  },
+  {
+    "name": "CHIMAERA FESTIVAL 2026",
+    "date": "2026-08-14",
+    "dateDisplay": "14.–16. August 2026",
+    "location": "Klingemühle, Friedland (Brandenburg)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://chimaera-festival.de/",
+    "soldOut": false,
+    "description": "Mehrtägiges Underground-Techno-Festival an der Klingemühle bei Berlin — riesiges Lineup aus der Berliner und europäischen Underground-Szene.",
+    "lat": 52.1006829,
+    "lng": 14.4316386
   },
   {
     "name": "SAN HEJMO FESTIVAL 2026",
@@ -1307,6 +1466,20 @@ const festivals = [
     "lng": 7.6387486
   },
   {
+    "name": "BUCHBUSCH FESTIVAL 2027",
+    "date": "2027-06-19",
+    "dateDisplay": "19. Juni 2027",
+    "location": "Pforzheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://buchbusch.de",
+    "soldOut": false,
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
+    "lat": 48.890934,
+    "lng": 8.7025509
+  },
+  {
     "name": "AFFENKÄFIG FESTIVAL 2027",
     "date": "2027-06-20",
     "dateDisplay": "18.–20. Juni 2027",
@@ -1352,157 +1525,6 @@ const festivals = [
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
     "lat": 47.9888241,
     "lng": 10.2350723
-  },
-  {
-    "name": "HAVELBEATS FESTIVAL 2026",
-    "date": "2026-08-08",
-    "dateDisplay": "7.–8. August 2026",
-    "location": "Schiffbauergasse, Potsdam",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Trance"
-    ],
-    "url": "https://www.citybounce.de/havelbeats-2026",
-    "soldOut": false,
-    "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.",
-    "lat": 52.4031259,
-    "lng": 13.0737772
-  },
-  {
-    "name": "AWAKENINGS FESTIVAL 2026",
-    "date": "2026-07-12",
-    "dateDisplay": "10.–12. Juli 2026",
-    "location": "Beekse Bergen, Hilvarenbeek (NL)",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.awakenings.com/en/events/2026/07/awakenings-festival/378057/",
-    "soldOut": false,
-    "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres.",
-    "lat": 51.5250552,
-    "lng": 5.1197983
-  },
-  {
-    "name": "ELECTRIC RESIDENCE FESTIVAL 2026",
-    "date": "2026-07-11",
-    "dateDisplay": "11. Juli 2026",
-    "location": "Schloss Strünkede, Herne",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://www.electric-residence.de/",
-    "soldOut": false,
-    "description": "Elektronische Musik auf Schloss Strünkede in NRW — Bart Skils, Super Flu, Ante Perry und Phil Fuldner in historischem Ambiente.",
-    "lat": 51.5514253,
-    "lng": 7.2113707
-  },
-  {
-    "name": "SCHALL IM SCHILF FESTIVAL 2026",
-    "date": "2026-07-18",
-    "dateDisplay": "18. Juli 2026",
-    "location": "Garchinger See, München",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.schallimschilf.de/",
-    "soldOut": false,
-    "description": "Elektronisches Open Air am Garchinger See — Bambounou, Interstellar Funk, Palms Trax, Octo Octa und viele mehr unter freiem Münchner Himmel.",
-    "lat": 48.2602013,
-    "lng": 11.63915
-  },
-  {
-    "name": "WESTHAFEN FESTIVAL SUMMER EDITION 2026",
-    "date": "2026-07-18",
-    "dateDisplay": "18. Juli 2026",
-    "location": "Westhafen, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.westhafen-leipzig.de/",
-    "soldOut": false,
-    "description": "Techno am Westhafen Leipzig — Space 92, Township Rebellion, Victor Ruiz und Nora En Pure auf dem Wasser.",
-    "lat": 51.3383707,
-    "lng": 12.3050378
-  },
-  {
-    "name": "MUUUHNLIGHT FESTIVAL 2026",
-    "date": "2026-07-25",
-    "dateDisplay": "25. Juli 2026",
-    "location": "Muuuhnlight Garten, Schauenburg (Hessen)",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.dancinginthemuuuhnlight.de/",
-    "soldOut": false,
-    "description": "Open Air im Muuuhnlight Garten Schauenburg — Nakadia, Dominik Eulberg, Township Rebellion, Mollono.Bass und Green Lake Project.",
-    "lat": 51.2776974,
-    "lng": 9.3482404
-  },
-  {
-    "name": "BLANK HOLIDAYS FESTIVAL WEEKENDER 2026",
-    "date": "2026-08-01",
-    "dateDisplay": "1. August 2026",
-    "location": "Berlin",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://aboutblank.li/",
-    "soldOut": false,
-    "description": "Weekender im legendären about:blank — Michael Mayer, André Galluzzi, Anja Schneider, Joel Mull und zahlreiche Underground-Acts.",
-    "lat": 52.5024767,
-    "lng": 13.466302
-  },
-  {
-    "name": "CIRCLE OF LEAVES FESTIVAL 2026",
-    "date": "2026-08-07",
-    "dateDisplay": "7.–9. August 2026",
-    "location": "Marbach-Stausee, Oberzent (Hessen)",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://circle-of-leaves.com/",
-    "soldOut": false,
-    "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
-    "lat": 49.6101502,
-    "lng": 8.9671301
-  },
-  {
-    "name": "MODULE FESTIVAL 2026",
-    "date": "2026-08-13",
-    "dateDisplay": "13.–16. August 2026",
-    "location": "Kulturcampus Frankfurt",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://wdc2026.org/de/constellations/module-festival",
-    "soldOut": false,
-    "description": "Underground Techno auf dem Kulturcampus Frankfurt — Skee Mask, upsammy, Roza Terenzi, Rosa Anschütz und Suzanne Ciani.",
-    "lat": 50.1174667,
-    "lng": 8.6498444
-  },
-  {
-    "name": "CHIMAERA FESTIVAL 2026",
-    "date": "2026-08-14",
-    "dateDisplay": "14.–16. August 2026",
-    "location": "Klingemühle, Friedland (Brandenburg)",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://chimaera-festival.de/",
-    "soldOut": false,
-    "description": "Mehrtägiges Underground-Techno-Festival an der Klingemühle bei Berlin — riesiges Lineup aus der Berliner und europäischen Underground-Szene.",
-    "lat": 52.1006829,
-    "lng": 14.4316386
   },
   {
     "name": "44 FESTIVAL 2027",
