@@ -114,6 +114,16 @@ const festivals = [
     "lng": 9.7482486
   },
   {
+    "name": "BUCHBUSCH FESTIVAL 2026",
+    "date": "2026-06-20",
+    "dateDisplay": "20. Juni 2026",
+    "location": "Pforzheim",
+    "genre": ["Techno"],
+    "url": "https://buchbusch.de",
+    "soldOut": false,
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald."
+  },
+  {
     "name": "HIVE FESTIVAL 2026",
     "date": "2026-06-21",
     "dateDisplay": "19.–21. Juni 2026",
@@ -316,6 +326,16 @@ const festivals = [
     "lng": 6.1433899
   },
   {
+    "name": "NATION OF GONDWANA 2026",
+    "date": "2026-07-19",
+    "dateDisplay": "16.–19. Juli 2026",
+    "location": "Grünefeld bei Berlin",
+    "genre": ["Techno", "Electronic"],
+    "url": "https://pyonen.de/nog2026/",
+    "soldOut": false,
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin."
+  },
+  {
     "name": "LOLLAPALOOZA BERLIN 2026",
     "date": "2026-07-19",
     "dateDisplay": "18.–19. Juli 2026",
@@ -331,6 +351,16 @@ const festivals = [
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
     "lat": 52.5173885,
     "lng": 13.3951309
+  },
+  {
+    "name": "STROGA FESTIVAL 2026",
+    "date": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Energiefabrik Knappenrode, Hoyerswerda",
+    "genre": ["Techno", "Electronic"],
+    "url": "https://www.stroga-festival.de",
+    "soldOut": false,
+    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel."
   },
   {
     "name": "BACHBLYTEN FESTIVAL 2026",

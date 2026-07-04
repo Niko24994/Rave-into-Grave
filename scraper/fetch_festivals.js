@@ -329,6 +329,12 @@ const DISCOVERY_SOURCES = [
   { name: 'rheingruen-openair.de',            url: 'https://rheingruen-openair.de/',                                          fn: makeFestivalScraper('RHEINGRÜN OPEN AIR', 'Rheinstrandbad, Karlsruhe', ['Techno', 'Electronic']) },
   // Overdrive Hard Techno Events Hannover
   { name: 'shop-overdrive.de',                url: 'https://shop-overdrive.de/events/',                                       fn: scrapeOverdrive },
+  // Buchbusch Festival Pforzheim
+  { name: 'buchbusch.de',                    url: 'https://buchbusch.de/',                                                    fn: makeFestivalScraper('BUCHBUSCH FESTIVAL', 'Pforzheim', ['Techno']) },
+  // Stroga Festival Energiefabrik Knappenrode
+  { name: 'stroga-festival.de',              url: 'https://www.stroga-festival.de/',                                          fn: makeFestivalScraper('STROGA FESTIVAL', 'Energiefabrik Knappenrode, Hoyerswerda', ['Techno', 'Electronic']) },
+  // Nation of Gondwana bei Berlin
+  { name: 'pyonen.de (nog)',                 url: 'https://pyonen.de/',                                                       fn: makeFestivalScraper('NATION OF GONDWANA', 'Grünefeld bei Berlin', ['Techno', 'Electronic']) },
   // Waves Open Air Hannover — Haupt-Event und Closing
   { name: 'waves-openair.de',               url: 'https://waves-openair.de/waves/',                                          fn: scrapeWavesOpenAir },
   { name: 'waves-openair.de (closing)',      url: 'https://closing.waves-openair.de/',                                       fn: scrapeWavesOpenAir },
