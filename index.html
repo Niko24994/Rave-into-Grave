@@ -133,8 +133,8 @@
       <span class="stat-label">Tage bis nächstes</span>
     </div>
     <div class="stat">
-      <span class="stat-number" id="stat-genres">–</span>
-      <span class="stat-label">Genres</span>
+      <span class="stat-number" id="stat-this-month">–</span>
+      <span class="stat-label">Diesen Monat</span>
     </div>
   </div>
 
@@ -460,8 +460,11 @@
 
       document.getElementById('stat-total').textContent = allUpcoming.length;
 
-      const genres = new Set(festivals.flatMap(f => f.genre));
-      document.getElementById('stat-genres').textContent = genres.size;
+      const thisMonthCount = allUpcoming.filter(f => {
+        const d = new Date(f.date);
+        return d.getMonth() === today.getMonth() && d.getFullYear() === today.getFullYear();
+      }).length;
+      document.getElementById('stat-this-month').textContent = thisMonthCount;
 
       if (allUpcoming.length > 0) {
         const nextDays = getDaysUntil(allUpcoming[0].date);
