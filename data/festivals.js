@@ -121,7 +121,9 @@ const festivals = [
     "genre": ["Techno"],
     "url": "https://buchbusch.de",
     "soldOut": false,
-    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald."
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
+    "lat": 48.8932,
+    "lng": 8.7062
   },
   {
     "name": "HIVE FESTIVAL 2026",
@@ -333,7 +335,9 @@ const festivals = [
     "genre": ["Techno", "Electronic"],
     "url": "https://pyonen.de/nog2026/",
     "soldOut": false,
-    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin."
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin.",
+    "lat": 52.5972,
+    "lng": 12.9516
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2026",
@@ -360,7 +364,9 @@ const festivals = [
     "genre": ["Techno", "Electronic"],
     "url": "https://www.stroga-festival.de",
     "soldOut": false,
-    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel."
+    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel.",
+    "lat": 51.5272,
+    "lng": 14.3064
   },
   {
     "name": "BACHBLYTEN FESTIVAL 2026",
