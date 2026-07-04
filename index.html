@@ -676,7 +676,6 @@
       proximityAddrEl.value = label;
       suppressInput = false;
       clearTimeout(suggestTimer);
-      clearTimeout(autoTimer);
       closeSuggestions();
       setProximityCoords(lat, lng);
       proximityStatus.innerHTML = `<span class="proximity-ok">✓ ${label}</span>`;
@@ -694,10 +693,9 @@
     });
 
     let suggestTimer;
-    let autoTimer;
     let fetchEpoch = 0;
 
-    console.log('[RIG] proximity v4 — photon+nominatim fallback');
+    console.log('[RIG] proximity v5 — manuelle Auswahl');
 
     async function photonSearch(q, limit) {
       const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=${limit}&lang=de`;
@@ -733,7 +731,6 @@
     proximityAddrEl.addEventListener('input', () => {
       if (suppressInput) return;
       clearTimeout(suggestTimer);
-      clearTimeout(autoTimer);
       const q = proximityAddrEl.value.trim();
       if (!q) { clearProximityCoords(); closeSuggestions(); proximityStatus.textContent = ''; render(); return; }
       clearProximityCoords();
@@ -756,12 +753,6 @@
             const label = buildLabel(r);
             return `<div class="prox-suggest-item" data-lat="${r.lat}" data-lng="${r.lon}" data-label="${label}">${label}</div>`;
           }).join('');
-          autoTimer = setTimeout(() => {
-            if (epoch !== fetchEpoch) return;
-            if (isNaN(parseFloat(proximityPanel.dataset.proxLat))) {
-              applyResult(parseFloat(data[0].lat), parseFloat(data[0].lon), buildLabel(data[0]));
-            }
-          }, 700);
         } catch {
           if (epoch !== fetchEpoch) return;
           proximityStatus.innerHTML = `<span class="proximity-err">Fehler bei der Suche</span>`;
@@ -780,7 +771,6 @@
           const q = proximityAddrEl.value.trim();
           if (!q) return;
           clearTimeout(suggestTimer);
-          clearTimeout(autoTimer);
           proximityStatus.textContent = '// suche…';
           searchPlaces(q, 1)
             .then(data => {
