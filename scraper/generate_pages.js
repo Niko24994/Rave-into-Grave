@@ -101,10 +101,11 @@ function renderPage(f, slug) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(desc)}" />
+  <meta name="robots" content="index, follow" />
 
   <meta property="og:title" content="${escapeHtml(f.name)} | Rave into Grave" />
   <meta property="og:description" content="${escapeHtml(desc)}" />
-  <meta property="og:image" content="${SITE_URL}og-image.svg" />
+  <meta property="og:image" content="${SITE_URL}og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:url" content="${pageUrl}" />
@@ -114,7 +115,7 @@ function renderPage(f, slug) {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${escapeHtml(f.name)} | Rave into Grave" />
   <meta name="twitter:description" content="${escapeHtml(desc)}" />
-  <meta name="twitter:image" content="${SITE_URL}og-image.svg" />
+  <meta name="twitter:image" content="${SITE_URL}og-image.png" />
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1H6JCW8DEJ"></script>
@@ -274,10 +275,11 @@ async function main() {
     await fs.writeFile(path.join(dir, 'index.html'), renderPage(f, slug), 'utf-8');
   }
 
+  const lastmod = new Date().toISOString().slice(0, 10);
   const urlEntries = [
-    `  <url>\n    <loc>${SITE_URL}</loc>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>`,
+    `  <url>\n    <loc>${SITE_URL}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>`,
     ...entries.map(({ slug }) =>
-      `  <url>\n    <loc>${SITE_URL}festival/${slug}/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`
+      `  <url>\n    <loc>${SITE_URL}festival/${slug}/</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`
     )
   ];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
