@@ -236,6 +236,21 @@ const festivals = [
     "lng": 7.0386873
   },
   {
+    "name": "ROTE DICHTE 2026",
+    "date": "2026-07-10",
+    "dateDisplay": "10.–12. Juli 2026",
+    "location": "Galenbeck, Mecklenburg-Vorpommern",
+    "genre": [
+      "Techno",
+      "House"
+    ],
+    "url": "https://www.rotedichte.de/",
+    "soldOut": false,
+    "description": "Kleines, bewusst unkommerzielles Techno- und House-Festival mitten in der Natur — ohne Sponsoren, ohne VIP-Bereich, nur Musik und Community.",
+    "lat": 53.6197596,
+    "lng": 13.705076
+  },
+  {
     "name": "LIBELLA FESTIVAL 2026",
     "date": "2026-07-11",
     "dateDisplay": "10.–11. Juli 2026",
@@ -266,6 +281,22 @@ const festivals = [
     "description": "Elektronische Musik auf Schloss Strünkede in NRW — Bart Skils, Super Flu, Ante Perry und Phil Fuldner in historischem Ambiente.",
     "lat": 51.5514253,
     "lng": 7.2113707
+  },
+  {
+    "name": "KEINFESTIVAL 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "11. Juli 2026",
+    "location": "Pittlerwerke, Leipzig",
+    "genre": [
+      "Hard Techno",
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://kein-festival.de/",
+    "soldOut": false,
+    "description": "Leipziger Techno-Festival aus der Szene für die Szene — faire Ticketpreise, Fokus auf lokale Artists, vier Floors mit Melodic, Peak Time & Hard Techno, Trance und Hard Groove.",
+    "lat": 51.3785875,
+    "lng": 12.3161177
   },
   {
     "name": "AIRBEAT ONE 2026",
@@ -838,6 +869,22 @@ const festivals = [
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
     "lat": 49.4011747,
     "lng": 8.578611
+  },
+  {
+    "name": "LACUNA FESTIVAL 2026",
+    "date": "2026-08-20",
+    "dateDisplay": "20.–23. August 2026",
+    "location": "Felsenmühle, Ochtrup",
+    "genre": [
+      "Techno",
+      "Hardstyle",
+      "Trance"
+    ],
+    "url": "https://www.lacunafestival.com/",
+    "soldOut": false,
+    "description": "Techno & Hardstyle im Münsterland — 'A Fairytale of Dreams', über 40 Acts auf mehreren Floors an der Felsenmühle in Ochtrup.",
+    "lat": 52.1912904,
+    "lng": 7.1791635
   },
   {
     "name": "TFELD FESTIVAL 2026",

@@ -365,6 +365,12 @@ const DISCOVERY_SOURCES = [
   { name: 'chimaera-festival.de',             url: 'https://chimaera-festival.de/',                                           fn: makeFestivalScraper('CHIMAERA FESTIVAL', 'Klingemühle, Friedland (Brandenburg)', ['Techno', 'Electronic']) },
   // Reactōr Aftermath — Kernkraftwerk Kalkar
   { name: 'reactor.events',                   url: 'https://reactor.events/',                                                  fn: makeFestivalScraper('REACTŌR AFTERMATH', 'Kernkraftwerk Kalkar, Kalkar (NRW)', ['Techno', 'Electronic']) },
+  // KeinFestival — Pittlerwerke Leipzig
+  { name: 'kein-festival.de',                 url: 'https://kein-festival.de/',                                                fn: makeFestivalScraper('KEINFESTIVAL', 'Pittlerwerke, Leipzig', ['Hard Techno', 'Techno', 'Trance']) },
+  // Rote Dichte — Galenbeck
+  { name: 'rotedichte.de',                    url: 'https://www.rotedichte.de/',                                              fn: makeFestivalScraper('ROTE DICHTE', 'Galenbeck, Mecklenburg-Vorpommern', ['Techno', 'House']) },
+  // Lacuna Festival — Ochtrup
+  { name: 'lacunafestival.com',               url: 'https://www.lacunafestival.com/',                                         fn: makeFestivalScraper('LACUNA FESTIVAL', 'Felsenmühle, Ochtrup', ['Techno', 'Hardstyle', 'Trance']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
