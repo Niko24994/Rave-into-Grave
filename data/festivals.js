@@ -928,7 +928,7 @@ const festivals = [
       "Experimental"
     ],
     "url": "https://wildemoehrefestival.de",
-    "soldOut": true,
+    "soldOut": false,
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
     "lat": 51.5119509,
     "lng": 13.3505194
