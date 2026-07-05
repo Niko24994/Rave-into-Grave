@@ -145,6 +145,13 @@ const SKIP_DOMAINS = new Set([
   'maimarkthalle.de',
   // Event-Homepage listet alle 44-Events inkl. internationale → nur via scrape44LabelGroup
   '44labelgroup.events',
+  // Zeigt auch internationale Editionen (Spanien, Mexiko etc.) auf derselben Seite —
+  // wurden fälschlich als weitere Mannheim-Termine gespeichert. Neue Mannheim-Termine
+  // (nur 1x jährlich im März) werden manuell ergänzt.
+  'time-warp.de',
+  // Seite enthält Nebendaten (z.B. Ticket-Deadlines), die als weitere Editionen
+  // fehlinterpretiert wurden. Neue Termine manuell ergänzen.
+  'electric-horizon.com',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
@@ -187,10 +194,10 @@ function getCheckUrl(fest) {
 function shortMatchKey(name) {
   return name.toLowerCase()
     .replace(/\d{4}/g, '')
-    .replace(/[^a-z\s]/g, ' ')
+    .replace(/[^a-z0-9\s]/g, ' ')
     .trim()
     .split(/\s+/)
-    .filter(w => w.length > 1)
+    .filter(w => w.length > 1 || /^\d$/.test(w))
     .join(' ');
 }
 

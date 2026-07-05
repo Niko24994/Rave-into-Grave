@@ -857,20 +857,6 @@ const festivals = [
     "lng": 12.4534826
   },
   {
-    "name": "ELECTRIC HORIZON FESTIVAL 2026",
-    "date": "2026-08-16",
-    "dateDisplay": "16. August 2026",
-    "location": "Weldegarten, Plankstadt",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://www.electric-horizon.com/en",
-    "soldOut": false,
-    "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
-    "lat": 49.4011747,
-    "lng": 8.578611
-  },
-  {
     "name": "LACUNA FESTIVAL 2026",
     "date": "2026-08-20",
     "dateDisplay": "20.–23. August 2026",
@@ -1148,20 +1134,6 @@ const festivals = [
     "lng": 12.0962706
   },
   {
-    "name": "TIME WARP 2026",
-    "date": "2026-09-19",
-    "dateDisplay": "19. September 2026",
-    "location": "Maimarkthalle, Mannheim",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.time-warp.de",
-    "soldOut": false,
-    "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth.",
-    "lat": 49.4683637,
-    "lng": 8.5239462
-  },
-  {
     "name": "RHEINGRÜN OPEN AIR 2026",
     "date": "2026-09-20",
     "dateDisplay": "19.–20. September 2026",
@@ -1269,22 +1241,6 @@ const festivals = [
     "lng": 4.9442166
   },
   {
-    "name": "HEXON FESTIVAL #2 2026",
-    "date": "2026-10-30",
-    "dateDisplay": "30. Oktober 2026",
-    "location": "Lokschuppen Bielefeld",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
-    "soldOut": false,
-    "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
-    "lat": 52.0365537,
-    "lng": 8.5514521
-  },
-  {
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-11-01",
     "dateDisplay": "31. Okt – 1. Nov 2026",
@@ -1311,34 +1267,6 @@ const festivals = [
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung.",
     "lat": 49.4683637,
     "lng": 8.5239462
-  },
-  {
-    "name": "TIME WARP 2026",
-    "date": "2026-11-21",
-    "dateDisplay": "21. November 2026",
-    "location": "Maimarkthalle, Mannheim",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.time-warp.de",
-    "soldOut": false,
-    "description": "19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth.",
-    "lat": 49.4683637,
-    "lng": 8.5239462
-  },
-  {
-    "name": "ELECTRIC HORIZON FESTIVAL 2026",
-    "date": "2026-11-22",
-    "dateDisplay": "22. November 2026",
-    "location": "Weldegarten, Plankstadt",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://www.electric-horizon.com/en",
-    "soldOut": false,
-    "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
-    "lat": 49.4011747,
-    "lng": 8.578611
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
