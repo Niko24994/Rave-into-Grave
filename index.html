@@ -2940,7 +2940,6 @@
     }
 
     function getStatus(f) {
-      if (f.soldOut) return 'sold-out';
       const days = getDaysUntil(f.date);
       if (days < 0) return 'past';
       if (days <= 30) return 'soon';
@@ -2990,8 +2989,7 @@
       const map = {
         'upcoming': ['BEVORSTEHEND', 'badge-upcoming'],
         'soon': ['BALD', 'badge-soon'],
-        'past': ['VERGANGEN', 'badge-past'],
-        'sold-out': ['AUSVERKAUFT', 'badge-sold-out']
+        'past': ['VERGANGEN', 'badge-past']
       };
       return map[status] || map['upcoming'];
     }

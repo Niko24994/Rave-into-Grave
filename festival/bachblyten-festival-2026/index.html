@@ -94,14 +94,12 @@
   <script>
     (function () {
       var date = "2026-07-24";
-      var soldOut = false;
       var today = new Date(); today.setHours(0,0,0,0);
       var d = new Date(date); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
 
       var status, badgeText, badgeClass;
-      if (soldOut)        { status = 'sold-out'; badgeText = 'AUSVERKAUFT';  badgeClass = 'badge-sold-out'; }
-      else if (days < 0)  { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      if (days < 0)        { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
       else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
       else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 

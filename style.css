@@ -590,10 +590,9 @@ header {
   transition: background 0.3s;
 }
 
-.card.status-upcoming::before { background: #999; }
+.card.status-upcoming::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
 .card.status-soon::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
 .card.status-past::before { background: #2a2a2a; }
-.card.status-sold-out::before { background: var(--red); box-shadow: 0 0 10px rgba(255,45,0,0.5); }
 
 .card:hover {
   transform: translateY(-4px);
@@ -638,10 +637,9 @@ header {
   flex-shrink: 0;
 }
 
-.badge-upcoming { color: #999; border-color: #999; }
+.badge-upcoming { color: var(--orange); border-color: var(--orange); }
 .badge-soon { color: var(--orange); border-color: var(--orange); }
 .badge-past { color: #555; border-color: #333; }
-.badge-sold-out { color: var(--red); border-color: var(--red); }
 
 /* Genre tags */
 .genre-tags {

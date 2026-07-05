@@ -191,14 +191,12 @@ function renderPage(f, slug) {
   <script>
     (function () {
       var date = ${JSON.stringify(f.date)};
-      var soldOut = ${JSON.stringify(!!f.soldOut)};
       var today = new Date(); today.setHours(0,0,0,0);
       var d = new Date(date); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
 
       var status, badgeText, badgeClass;
-      if (soldOut)        { status = 'sold-out'; badgeText = 'AUSVERKAUFT';  badgeClass = 'badge-sold-out'; }
-      else if (days < 0)  { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      if (days < 0)        { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
       else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
       else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 
@@ -262,7 +260,6 @@ function getDaysUntil(dateStr, today) {
 }
 
 function getStatus(f, today) {
-  if (f.soldOut) return 'sold-out';
   const days = getDaysUntil(f.date, today);
   if (days < 0) return 'past';
   if (days <= 30) return 'soon';
@@ -289,8 +286,7 @@ function getStatusBadge(status) {
   const map = {
     'upcoming': ['BEVORSTEHEND', 'badge-upcoming'],
     'soon': ['BALD', 'badge-soon'],
-    'past': ['VERGANGEN', 'badge-past'],
-    'sold-out': ['AUSVERKAUFT', 'badge-sold-out']
+    'past': ['VERGANGEN', 'badge-past']
   };
   return map[status] || map['upcoming'];
 }
