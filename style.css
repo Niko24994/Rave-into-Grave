@@ -664,12 +664,12 @@ header {
 }
 
 .genre-tag.tag-hard-techno { border-color: var(--red); color: var(--red); background: rgba(255,45,0,0.06); }
-.genre-tag.tag-schranz { border-color: #cc2200; color: #cc2200; background: rgba(204,34,0,0.06); }
+.genre-tag.tag-schranz { border-color: #991008; color: #991008; background: rgba(153,16,8,0.06); }
 .genre-tag.tag-techno { border-color: var(--orange); color: var(--orange); background: rgba(255,153,0,0.05); }
-.genre-tag.tag-hardcore { border-color: #ff0066; color: #ff0066; background: rgba(255,0,102,0.05); }
-.genre-tag.tag-hardstyle { border-color: #aa00ff; color: #aa00ff; background: rgba(170,0,255,0.05); }
-.genre-tag.tag-trance { border-color: #0099ff; color: #0099ff; background: rgba(0,153,255,0.05); }
-.genre-tag.tag-psytrance { border-color: #00ffcc; color: #00ffcc; background: rgba(0,255,204,0.05); }
+.genre-tag.tag-hardcore { border-color: #ff4500; color: #ff4500; background: rgba(255,69,0,0.05); }
+.genre-tag.tag-hardstyle { border-color: #cc6600; color: #cc6600; background: rgba(204,102,0,0.05); }
+.genre-tag.tag-trance { border-color: #ffcc33; color: #ffcc33; background: rgba(255,204,51,0.05); }
+.genre-tag.tag-psytrance { border-color: #e6a23c; color: #e6a23c; background: rgba(230,162,60,0.05); }
 .genre-tag.tag-edm { border-color: #666; color: #888; }
 .genre-tag.tag-experimental { border-color: #444; color: #666; }
 .genre-tag.tag-house { border-color: #888; color: #aaa; }
