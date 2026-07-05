@@ -670,7 +670,7 @@ header {
 .genre-tag.tag-trance { border-color: #ffcc33; color: #ffcc33; background: rgba(255,204,51,0.05); }
 .genre-tag.tag-psytrance { border-color: #e6a23c; color: #e6a23c; background: rgba(230,162,60,0.05); }
 .genre-tag.tag-edm { border-color: #666; color: #888; }
-.genre-tag.tag-experimental { border-color: #444; color: #666; }
+.genre-tag.tag-experimental { border-color: #888; color: #aaa; }
 .genre-tag.tag-house { border-color: #888; color: #aaa; }
 .genre-tag.tag-electronic { border-color: #888; color: #aaa; }
 .genre-tag.tag-other { border-color: #888; color: #aaa; }
