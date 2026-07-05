@@ -145,13 +145,10 @@ const SKIP_DOMAINS = new Set([
   'maimarkthalle.de',
   // Event-Homepage listet alle 44-Events inkl. internationale → nur via scrape44LabelGroup
   '44labelgroup.events',
-  // Zeigt auch internationale Editionen (Spanien, Mexiko etc.) auf derselben Seite —
-  // wurden fälschlich als weitere Mannheim-Termine gespeichert. Neue Mannheim-Termine
-  // (nur 1x jährlich im März) werden manuell ergänzt.
+  // Allgemeine Startseite zeigt auch internationale Editionen (Spanien, Mexiko etc.) —
+  // wurden fälschlich als weitere Mannheim-Termine gespeichert. Wird stattdessen über
+  // die dedizierte scrapeTimeWarpMannheim()-Quelle (Discovery, s.u.) sicher geprüft.
   'time-warp.de',
-  // Seite enthält Nebendaten (z.B. Ticket-Deadlines), die als weitere Editionen
-  // fehlinterpretiert wurden. Neue Termine manuell ergänzen.
-  'electric-horizon.com',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
@@ -166,6 +163,10 @@ const VENUE_CALENDAR_URL = {
   'westfalenhallen.de':'https://www.westfalenhallen.de/veranstaltungen/',
   // Preregistration-Seite zeigt naechste Edition mit Datum
   'hive-festival.de':  'https://www.hive-festival.de/en/hive27-preregistration',
+  // /festival-Unterseite zeigt nur den einen echten Termin, keine Nebendaten
+  // (die allgemeine Startseite enthielt z.B. eine Ticket-Deadline, die als
+  // weitere Edition fehlinterpretiert wurde)
+  'electric-horizon.com': 'https://www.electric-horizon.com/festival',
 };
 
 function getDomain(url) {
@@ -380,6 +381,8 @@ const DISCOVERY_SOURCES = [
   { name: 'lacunafestival.com',               url: 'https://www.lacunafestival.com/',                                         fn: makeFestivalScraper('LACUNA FESTIVAL', 'Felsenmühle, Ochtrup', ['Techno', 'Hardstyle', 'Trance']) },
   // Kindheitstraum Festival — letzte Ausgabe 2027, danach eingestellt
   { name: 'kindheitstraum-festival.de',       url: 'https://www.kindheitstraum-festival.de/',                                 fn: makeFestivalScraper('KINDHEITSTRAUM FESTIVAL', 'Flugplatz Speichersdorf, Bayern', ['Techno', 'House', 'Electronic']) },
+  // Time Warp Mannheim — dedizierte, sichere Quelle statt der allgemeinen Startseite
+  { name: 'time-warp.de (mannheim)',          url: 'https://www.time-warp.de/germany/mannheim/',                              fn: scrapeTimeWarpMannheim },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
@@ -776,6 +779,43 @@ async function scrapeAwakenings(_url) {
     });
   });
   return results;
+}
+
+// Time Warp Mannheim: dedizierte Quelle statt der allgemeinen Startseite
+// (time-warp.de steht deshalb in SKIP_DOMAINS). Die Seite rendert den echten
+// Termin UND "Next Ticket Drop: April 2, 2026" im selben Datumsformat
+// ("Month DD, YYYY") — reines Format-Matching kann sie nicht unterscheiden.
+// Deshalb: Kontext vor jedem Treffer prüfen und "Drop"-Erwähnungen verwerfen.
+async function scrapeTimeWarpMannheim(url) {
+  const html = await fetchPage(url);
+  if (!html) return [];
+  const $ = cheerio.load(html);
+  $('nav, footer, script, style').remove();
+  const pageText = $.text().replace(/\s+/g, ' ');
+
+  const dates = new Set();
+  const regex = /\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\s+(\d{1,2}),?\s+(202[6-9]|20[3-9]\d)(?!\d)/gi;
+  for (const m of pageText.matchAll(regex)) {
+    const contextBefore = pageText.slice(Math.max(0, m.index - 40), m.index).toLowerCase();
+    if (contextBefore.includes('drop')) continue;
+    const mon = MONTH_DE[m[1].toLowerCase().slice(0, 3)];
+    if (!mon) continue;
+    const iso = `${m[3]}-${mon}-${m[2].padStart(2, '0')}`;
+    if (isValidFutureDate(iso)) dates.add(iso);
+  }
+
+  return [...dates].map(date => ({
+    name: `TIME WARP ${date.slice(0, 4)}`,
+    date,
+    dateDisplay: formatDate(date),
+    location: 'Maimarkthalle, Mannheim',
+    genre: ['Techno'],
+    url: 'https://www.time-warp.de',
+    soldOut: false,
+    description: '19 Stunden, 5 Floors — Time Warp verwandelt die Maimarkthalle in ein pulsierendes Techno-Labyrinth.',
+    _source: url,
+    _auto: true
+  }));
 }
 
 async function scrapeOverdrive(url) {
