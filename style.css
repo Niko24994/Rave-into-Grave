@@ -673,6 +673,7 @@ header {
 .genre-tag.tag-experimental { border-color: #444; color: #666; }
 .genre-tag.tag-house { border-color: #888; color: #aaa; }
 .genre-tag.tag-electronic { border-color: #888; color: #aaa; }
+.genre-tag.tag-other { border-color: #888; color: #aaa; }
 
 /* Card meta — datum + ort */
 .card-meta {

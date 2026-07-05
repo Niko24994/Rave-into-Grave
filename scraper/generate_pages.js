@@ -55,7 +55,8 @@ const TAG_CLASS = {
   'Hard Techno': 'tag-hard-techno', 'Schranz': 'tag-schranz', 'Techno': 'tag-techno',
   'Hardcore': 'tag-hardcore', 'Hardstyle': 'tag-hardstyle', 'Trance': 'tag-trance',
   'Psytrance': 'tag-psytrance', 'EDM': 'tag-edm', 'Experimental': 'tag-experimental',
-  'House': 'tag-house', 'Electronic': 'tag-electronic'
+  'House': 'tag-house', 'Electronic': 'tag-electronic',
+  'Rock': 'tag-other', 'Pop': 'tag-other', 'Indie': 'tag-other', 'Drum and Bass': 'tag-other'
 };
 
 function renderPage(f, slug) {
