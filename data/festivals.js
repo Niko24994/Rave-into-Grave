@@ -1558,6 +1558,22 @@ const festivals = [
     "lng": 12.4487506
   },
   {
+    "name": "KINDHEITSTRAUM FESTIVAL 2027",
+    "date": "2027-06-26",
+    "dateDisplay": "26. Juni 2027",
+    "location": "Flugplatz Speichersdorf, Bayern",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.kindheitstraum-festival.de/",
+    "soldOut": false,
+    "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
+    "lat": 49.8641269,
+    "lng": 11.7843596
+  },
+  {
     "name": "IKARUS FESTIVAL 2027",
     "date": "2027-06-27",
     "dateDisplay": "25.–27. Juni 2027",

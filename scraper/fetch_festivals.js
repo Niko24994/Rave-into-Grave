@@ -371,6 +371,8 @@ const DISCOVERY_SOURCES = [
   { name: 'rotedichte.de',                    url: 'https://www.rotedichte.de/',                                              fn: makeFestivalScraper('ROTE DICHTE', 'Galenbeck, Mecklenburg-Vorpommern', ['Techno', 'House']) },
   // Lacuna Festival — Ochtrup
   { name: 'lacunafestival.com',               url: 'https://www.lacunafestival.com/',                                         fn: makeFestivalScraper('LACUNA FESTIVAL', 'Felsenmühle, Ochtrup', ['Techno', 'Hardstyle', 'Trance']) },
+  // Kindheitstraum Festival — letzte Ausgabe 2027, danach eingestellt
+  { name: 'kindheitstraum-festival.de',       url: 'https://www.kindheitstraum-festival.de/',                                 fn: makeFestivalScraper('KINDHEITSTRAUM FESTIVAL', 'Flugplatz Speichersdorf, Bayern', ['Techno', 'House', 'Electronic']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
