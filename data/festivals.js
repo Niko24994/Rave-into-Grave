@@ -17,6 +17,21 @@ const festivals = [
     "lng": 8.5239462
   },
   {
+    "name": "POLLERWIESEN OPENING 2026",
+    "date": "2026-04-25",
+    "dateDisplay": "25. April 2026",
+    "location": "Jugendpark, Köln",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.pollerwiesen.org/",
+    "soldOut": false,
+    "description": "Saisonauftakt der PollerWiesen-Reihe im Kölner Jugendpark, mit Nachtprogramm im Bootshaus.",
+    "lat": 50.9560142,
+    "lng": 6.9838883
+  },
+  {
     "name": "MAYDAY 2026",
     "date": "2026-04-30",
     "dateDisplay": "30. April 2026",
@@ -114,6 +129,23 @@ const festivals = [
     "lng": 9.7482486
   },
   {
+    "name": "ISLE OF SUMMER 2026",
+    "date": "2026-06-13",
+    "dateDisplay": "13. Juni 2026",
+    "location": "Olympia Reitanlage Riem, München",
+    "genre": [
+      "Hard Techno",
+      "Techno",
+      "Hardstyle",
+      "Trance"
+    ],
+    "url": "https://www.isleofsummer.de/",
+    "soldOut": false,
+    "description": "Vier Bühnen, über 20 internationale Acts — von Hard Techno über Gabber bis Hardstyle und Trance, das Sommer-Highlight Münchens.",
+    "lat": 48.1454234,
+    "lng": 11.6684705
+  },
+  {
     "name": "BUCHBUSCH FESTIVAL 2026",
     "date": "2026-06-20",
     "dateDisplay": "20. Juni 2026",
@@ -142,6 +174,21 @@ const festivals = [
     "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.",
     "lat": 51.7590874,
     "lng": 12.4487506
+  },
+  {
+    "name": "HASARDEUR FESTIVAL 2026",
+    "date": "2026-06-27",
+    "dateDisplay": "27. Juni 2026",
+    "location": "Auto Böhler Schrottplatz, Karlsruhe",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://hasardeur-festival.de/",
+    "soldOut": false,
+    "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
+    "lat": 49.0068705,
+    "lng": 8.4034195
   },
   {
     "name": "FUSION FESTIVAL 2026",
@@ -299,6 +346,21 @@ const festivals = [
     "lng": 12.3161177
   },
   {
+    "name": "WET OPEN AIR 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "11. Juli 2026",
+    "location": "Badezentrum Sindelfingen",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.wet-openair.de/",
+    "soldOut": false,
+    "description": "Open Air im Badezentrum Sindelfingen mit Kobosil, I Hate Models und Deborah de Luca — in Kooperation mit dem Lehmannclub Stuttgart.",
+    "lat": 48.7193827,
+    "lng": 9.0167905
+  },
+  {
     "name": "AIRBEAT ONE 2026",
     "date": "2026-07-12",
     "dateDisplay": "8.–12. Juli 2026",
@@ -327,6 +389,22 @@ const festivals = [
     "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres.",
     "lat": 51.5250552,
     "lng": 5.1197983
+  },
+  {
+    "name": "SEA YOU FESTIVAL 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17.–19. Juli 2026",
+    "location": "Tunisee, Freiburg",
+    "genre": [
+      "Techno",
+      "House",
+      "Trance"
+    ],
+    "url": "https://www.seayou-festival.de/",
+    "soldOut": false,
+    "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
+    "lat": 48.0661014,
+    "lng": 7.814414
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -840,6 +918,20 @@ const festivals = [
     "lng": 12.0097685
   },
   {
+    "name": "RAVE THE PLANET PARADE 2026",
+    "date": "2026-08-15",
+    "dateDisplay": "15. August 2026",
+    "location": "Straße des 17. Juni, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.ravetheplanet.com/",
+    "soldOut": false,
+    "description": "Die Nachfolge-Parade der Love Parade — UNESCO-anerkanntes Kulturerbe, kostenlose Techno-Parade durchs Brandenburger Tor. Motto 2026: \"Imagine Love\".",
+    "lat": 52.5132816,
+    "lng": 13.3332602
+  },
+  {
     "name": "HIGHFIELD FESTIVAL 2026",
     "date": "2026-08-16",
     "dateDisplay": "13.–16. Aug 2026",
@@ -901,6 +993,21 @@ const festivals = [
     "description": "Open-Air Techno-Festival am Schutzhafen in Gemünden am Main bei Würzburg — 12:00 bis 23:00 Uhr, 10.000 Besucher, ab 16 Jahren.",
     "lat": 50.0584231,
     "lng": 9.6799525
+  },
+  {
+    "name": "AOS FESTIVAL 2026",
+    "date": "2026-08-22",
+    "dateDisplay": "22.–24. August 2026",
+    "location": "Hamburg",
+    "genre": [
+      "Techno",
+      "House"
+    ],
+    "url": "https://www.theaos.de/",
+    "soldOut": false,
+    "description": "Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.",
+    "lat": 53.5501721,
+    "lng": 10.0013165
   },
   {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
@@ -978,6 +1085,34 @@ const festivals = [
     "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
     "lat": 51.2859671,
     "lng": 12.3461028
+  },
+  {
+    "name": "AMPHORIA 2026",
+    "date": "2026-08-29",
+    "dateDisplay": "29. August 2026",
+    "location": "Schwarzer Bruch, Kevelaer",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://amphoria-kevelaer.de/",
+    "soldOut": false,
+    "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
+    "lat": 51.5802996,
+    "lng": 6.2456273
+  },
+  {
+    "name": "HARD.NOISE FESTIVAL 2026",
+    "date": "2026-08-29",
+    "dateDisplay": "29. August 2026",
+    "location": "Burg Stickhausen, Detern",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://hard-noise.de/",
+    "soldOut": false,
+    "description": "Hard Techno auf Burg Stickhausen — mit Kobosil, Negitiv, Neon Graveyard und weiteren.",
+    "lat": 53.2176097,
+    "lng": 7.643256
   },
   {
     "name": "NIBIRII FESTIVAL 2026",

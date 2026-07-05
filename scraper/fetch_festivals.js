@@ -149,6 +149,13 @@ const SKIP_DOMAINS = new Set([
   // wurden fälschlich als weitere Mannheim-Termine gespeichert. Wird stattdessen über
   // die dedizierte scrapeTimeWarpMannheim()-Quelle (Discovery, s.u.) sicher geprüft.
   'time-warp.de',
+  // Seite listet mehrere unterschiedliche PollerWiesen-Events (Opening, Boat, Hauptfestival
+  // in Dortmund) — Gefahr von Verwechslungen wie beim Hexon-Bug. Neue Termine manuell ergänzen.
+  'pollerwiesen.org',
+  // Stadtweites Multi-Venue-Format mit vielen Einzel-Terminen → hohes Risiko für Falsch-Treffer.
+  'theaos.de',
+  // Org-Website mit diversen Event-Typen (Afterpartys, Cleanup-Days etc.), nicht nur die Parade.
+  'ravetheplanet.com',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
@@ -383,6 +390,18 @@ const DISCOVERY_SOURCES = [
   { name: 'kindheitstraum-festival.de',       url: 'https://www.kindheitstraum-festival.de/',                                 fn: makeFestivalScraper('KINDHEITSTRAUM FESTIVAL', 'Flugplatz Speichersdorf, Bayern', ['Techno', 'House', 'Electronic']) },
   // Time Warp Mannheim — dedizierte, sichere Quelle statt der allgemeinen Startseite
   { name: 'time-warp.de (mannheim)',          url: 'https://www.time-warp.de/germany/mannheim/',                              fn: scrapeTimeWarpMannheim },
+  // WET Open Air Sindelfingen
+  { name: 'wet-openair.de',                   url: 'https://www.wet-openair.de/',                                             fn: makeFestivalScraper('WET OPEN AIR', 'Badezentrum Sindelfingen', ['Techno', 'Hard Techno']) },
+  // Isle of Summer München
+  { name: 'isleofsummer.de',                  url: 'https://www.isleofsummer.de/',                                            fn: makeFestivalScraper('ISLE OF SUMMER', 'Olympia Reitanlage Riem, München', ['Hard Techno', 'Techno', 'Hardstyle', 'Trance']) },
+  // Amphoria Kevelaer
+  { name: 'amphoria-kevelaer.de',             url: 'https://amphoria-kevelaer.de/',                                           fn: makeFestivalScraper('AMPHORIA', 'Schwarzer Bruch, Kevelaer', ['Techno']) },
+  // Hasardeur Festival Karlsruhe
+  { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
+  // Hard.Noise Festival Detern
+  { name: 'hard-noise.de',                    url: 'https://hard-noise.de/',                                                  fn: makeFestivalScraper('HARD.NOISE FESTIVAL', 'Burg Stickhausen, Detern', ['Hard Techno']) },
+  // Sea You Festival Freiburg
+  { name: 'seayou-festival.de',                url: 'https://www.seayou-festival.de/',                                        fn: makeFestivalScraper('SEA YOU FESTIVAL', 'Tunisee, Freiburg', ['Techno', 'House', 'Trance']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
