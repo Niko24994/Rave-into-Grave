@@ -138,6 +138,11 @@ header {
   transition: all 0.15s;
 }
 
+.back-arrow {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
 .back-link:hover {
   background: var(--red);
   color: var(--white);

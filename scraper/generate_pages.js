@@ -143,7 +143,7 @@ function renderPage(f, slug) {
   <div class="video-overlay"></div>
 
   <header class="detail-header">
-    <a href="../../" class="back-link">← ALLE FESTIVALS</a>
+    <a href="../../" class="back-link"><span class="back-arrow">←</span> ALLE FESTIVALS</a>
   </header>
 
   <main class="detail-main">
