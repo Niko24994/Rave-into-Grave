@@ -1,0 +1,9 @@
+# Persönliche Medien, nicht Teil der Website
+Bilder und Videos/
+
+# Node
+node_modules/
+package-lock.json
+
+# Lokale Hilfsskripte
+scraper/geocode_local.mjs
