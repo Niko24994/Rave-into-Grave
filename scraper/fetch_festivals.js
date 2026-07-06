@@ -402,6 +402,10 @@ const DISCOVERY_SOURCES = [
   { name: 'hard-noise.de',                    url: 'https://hard-noise.de/',                                                  fn: makeFestivalScraper('HARD.NOISE FESTIVAL', 'Burg Stickhausen, Detern', ['Hard Techno']) },
   // Sea You Festival Freiburg
   { name: 'seayou-festival.de',                url: 'https://www.seayou-festival.de/',                                        fn: makeFestivalScraper('SEA YOU FESTIVAL', 'Tunisee, Freiburg', ['Techno', 'House', 'Trance']) },
+  // Mahagoni Festival Teutschenthal
+  { name: 'mahagoni-festival.de',              url: 'https://mahagoni-festival.de/',                                          fn: makeFestivalScraper('MAHAGONI FESTIVAL', 'Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)', ['Techno', 'Experimental']) },
+  // Nimmerland Open Air Germersheim
+  { name: 'nimmerlandevents.de',               url: 'https://nimmerlandevents.de/openair',                                    fn: makeFestivalScraper('NIMMERLAND OPEN AIR', 'Festung Germersheim, Germersheim', ['Techno']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 

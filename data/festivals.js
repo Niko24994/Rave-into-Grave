@@ -733,6 +733,21 @@ const festivals = [
     "lng": 7.4255143
   },
   {
+    "name": "MAHAGONI FESTIVAL 2026",
+    "date": "2026-08-06",
+    "dateDisplay": "6.–9. August 2026",
+    "location": "Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)",
+    "genre": [
+      "Techno",
+      "Experimental"
+    ],
+    "url": "https://mahagoni-festival.de/",
+    "soldOut": false,
+    "description": "Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.",
+    "lat": 51.4317994,
+    "lng": 11.759075
+  },
+  {
     "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
     "date": "2026-08-07",
     "dateDisplay": "7. August 2026",
@@ -776,6 +791,20 @@ const festivals = [
     "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.",
     "lat": 52.4031259,
     "lng": 13.0737772
+  },
+  {
+    "name": "NIMMERLAND OPEN AIR 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Festung Germersheim, Germersheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://nimmerlandevents.de/openair",
+    "soldOut": false,
+    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
+    "lat": 49.2009672,
+    "lng": 8.3395468
   },
   {
     "name": "ELECTRISIZE 2026",
