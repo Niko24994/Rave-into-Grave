@@ -7,3 +7,7 @@ package-lock.json
 
 # Lokale Hilfsskripte
 scraper/geocode_local.mjs
+
+# Generierte Reel-Videos/Zwischendateien (nicht Teil der Website)
+social/output/
+social/.work/
