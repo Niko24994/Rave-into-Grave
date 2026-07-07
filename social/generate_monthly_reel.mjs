@@ -71,7 +71,21 @@ async function loadMonthFestivals(yearMonth) {
 
 // ─── HTML-Seiten rendern ───
 
-const FONT_IMPORT = `@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@600;700;800&display=swap');`;
+// Lokal eingebettete Fonts (statt Google Fonts über Netz) — vermeidet
+// Font-Ladefehler/Race-Conditions, die bei separaten Chrome-Prozessen pro
+// Seite dazu führten, dass manche Seiten auf eine Fallback-Schrift
+// zurückfielen und dadurch anders/größer aussahen als andere.
+const FONTS_DIR = path.join(__dirname, 'fonts');
+function fontFaceCss() {
+  const b64 = (file) => fs.readFileSync(path.join(FONTS_DIR, file)).toString('base64');
+  return `
+    @font-face { font-family:'Rajdhani'; font-style:normal; font-weight:600; font-display:block; src:url(data:font/woff2;base64,${b64('rajdhani-600.woff2')}) format('woff2'); }
+    @font-face { font-family:'Rajdhani'; font-style:normal; font-weight:700; font-display:block; src:url(data:font/woff2;base64,${b64('rajdhani-700.woff2')}) format('woff2'); }
+    @font-face { font-family:'Rajdhani'; font-style:normal; font-weight:800; font-display:block; src:url(data:font/woff2;base64,${b64('rajdhani-700.woff2')}) format('woff2'); }
+    @font-face { font-family:'Share Tech Mono'; font-style:normal; font-weight:400; font-display:block; src:url(data:font/woff2;base64,${b64('sharetechmono-400.woff2')}) format('woff2'); }
+  `;
+}
+const FONT_IMPORT = fontFaceCss();
 
 function escapeHtml(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -95,9 +109,8 @@ function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
     * { margin:0; padding:0; box-sizing:border-box; }
     html,body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; font-family:'Rajdhani',sans-serif; }
     .overlay { position:absolute; inset:0; background: rgba(6,4,4,0.82); z-index:0; }
-    .header { position:relative; z-index:1; padding: 150px 90px 20px; text-align:center; }
-    .wordmark { font-family:'Share Tech Mono',monospace; font-size:32px; letter-spacing:9px; color:#fff; margin-bottom:22px; }
-    .wordmark .accent { color:#ff2d00; }
+    .header { position:relative; z-index:1; padding: 130px 90px 20px; text-align:center; }
+    .wordmark-logo { width:360px; margin:0 auto 26px; display:block; filter: drop-shadow(0 0 16px rgba(255,34,0,0.45)); }
     .title { font-weight:800; font-size:72px; color:#fff; text-transform:uppercase; line-height:1.05; text-shadow:0 0 20px rgba(255,45,0,0.4); }
     .title .accent { color:#ff9900; }
     .subtitle { margin-top:14px; font-family:'Share Tech Mono',monospace; font-size:26px; letter-spacing:3px; color:#ff9900; }
@@ -115,7 +128,17 @@ function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
   <body>
     <div class="overlay"></div>
     <div class="header">
-      <div class="wordmark">RAVE <span class="accent">INTO</span> GRAVE</div>
+      <svg class="wordmark-logo" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rave into Grave">
+        <text x="202" y="112" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ff2200" opacity="0.18">RAVE</text>
+        <rect x="74" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
+        <rect x="79" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
+        <rect x="320" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
+        <rect x="325" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
+        <text x="200" y="114" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ffffff">RAVE</text>
+        <text x="200" y="142" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="12" fill="#ff5c33">I N T O</text>
+        <text x="198" y="208" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ff2200" opacity="0.15">GRAVE</text>
+        <text x="200" y="210" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
+      </svg>
       <div class="title">FESTIVALS IM <span class="accent">${escapeHtml(monthLabel.toUpperCase())}</span></div>
       <div class="subtitle">${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
     </div>
