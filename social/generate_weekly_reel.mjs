@@ -59,18 +59,39 @@ function toDateStr(d) {
   return d.toISOString().slice(0, 10);
 }
 
-async function loadWeekFestivals(mondayStr) {
+function loadAllFestivals() {
   const src = fs.readFileSync(path.join(ROOT, 'data', 'festivals.js'), 'utf-8');
   const match = src.match(/const festivals = (\[[\s\S]*?\]);/);
-  const festivals = JSON.parse(match[1]);
-  const monday = new Date(mondayStr + 'T00:00:00');
-  const sunday = new Date(monday); sunday.setDate(sunday.getDate() + 6);
+  return JSON.parse(match[1]);
+}
+
+function festivalsInRange(festivals, monday, endDate) {
   return festivals
     .filter(f => {
       const d = new Date(f.date + 'T00:00:00');
-      return d >= monday && d <= sunday;
+      return d >= monday && d <= endDate;
     })
     .sort((a, b) => new Date(a.date) - new Date(b.date));
+}
+
+// In flauen Phasen (z.B. Jan/Feb) reicht 1 Woche oft nicht für einen vollen
+// Post. Fenster wird automatisch verlaengert, bis genug zusammenkommt (oder
+// das Maximum erreicht ist) — keine manuelle Entscheidung pro Woche noetig.
+const MIN_FESTIVALS = 3;
+const WINDOW_STEPS_DAYS = [7, 14, 21, 30];
+
+function loadWeekFestivals(mondayStr) {
+  const festivals = loadAllFestivals();
+  const monday = new Date(mondayStr + 'T00:00:00');
+
+  let chosen = null;
+  for (const days of WINDOW_STEPS_DAYS) {
+    const endDate = new Date(monday); endDate.setDate(endDate.getDate() + days - 1);
+    const found = festivalsInRange(festivals, monday, endDate);
+    chosen = { days, endDate, festivals: found };
+    if (found.length >= MIN_FESTIVALS) break;
+  }
+  return chosen;
 }
 
 // ─── HTML-Seiten rendern (gleiches Design wie der Monatsreel) ───
@@ -172,7 +193,16 @@ async function main() {
   const arg = process.argv[2];
   const mondayStr = arg || nextOrCurrentMonday();
   const monday = new Date(mondayStr + 'T00:00:00');
-  const sunday = new Date(monday); sunday.setDate(sunday.getDate() + 6);
+
+  const { days, endDate: sunday, festivals } = loadWeekFestivals(mondayStr);
+
+  if (festivals.length === 0) {
+    console.log(`Keine Festivals im Zeitraum ab ${mondayStr} gefunden (auch nach Erweiterung auf ${WINDOW_STEPS_DAYS[WINDOW_STEPS_DAYS.length - 1]} Tage) — kein Reel fuer diesen Zeitraum.`);
+    return;
+  }
+  if (days > 7) {
+    console.log(`Nur wenige Festivals in 7 Tagen — Zeitraum automatisch auf ${days} Tage erweitert.`);
+  }
 
   const fmt = (d) => `${d.getDate()}.${MONTH_NAMES[d.getMonth()]}`;
   const weekLabel = monday.getMonth() === sunday.getMonth()
@@ -189,12 +219,7 @@ async function main() {
   const chrome = findChrome();
   const ffmpeg = findFfmpeg();
 
-  const festivals = await loadWeekFestivals(mondayStr);
-  if (festivals.length === 0) {
-    console.log(`Keine Festivals für die Woche ab ${mondayStr} gefunden.`);
-    return;
-  }
-  console.log(`${festivals.length} Festivals für die Woche ${weekLabel}.`);
+  console.log(`${festivals.length} Festivals für ${weekLabel}.`);
 
   // Gleichmässig auf Seiten verteilen (keine fast leere Restseite)
   const totalPages = Math.max(1, Math.ceil(festivals.length / PER_PAGE));
