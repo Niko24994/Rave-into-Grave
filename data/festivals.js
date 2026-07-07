@@ -1571,6 +1571,21 @@ const festivals = [
     "lng": 7.4602637
   },
   {
+    "name": "HASARDEUR FESTIVAL 2027",
+    "date": "2027-05-29",
+    "dateDisplay": "29. Mai 2027",
+    "location": "Auto Böhler Schrottplatz, Karlsruhe",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://hasardeur-festival.de/",
+    "soldOut": false,
+    "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
+    "lat": 49.0068705,
+    "lng": 8.4034195
+  },
+  {
     "name": "WORLD CLUB DOME 2027",
     "date": "2027-06-06",
     "dateDisplay": "4.–6. Juni 2027",
@@ -1617,6 +1632,21 @@ const festivals = [
     "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
     "lat": 48.890934,
     "lng": 8.7025509
+  },
+  {
+    "name": "AIRPARK FESTIVAL 2027",
+    "date": "2027-06-19",
+    "dateDisplay": "19. Juni 2027",
+    "location": "Airpark Karlsruhe/Baden-Baden, Rheinmünster",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.airpark-festival.de/",
+    "soldOut": false,
+    "description": "Techno-Festival auf dem Flughafengelände Karlsruhe/Baden-Baden — 20.000 m² Festival-Area, Indoor-Hangar und Outdoor zwischen historischen Flugzeugen.",
+    "lat": 48.7528211,
+    "lng": 8.0405324
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
