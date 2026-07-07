@@ -353,7 +353,7 @@ header {
 .stat-label {
   font-family: var(--font-mono);
   font-size: 0.65rem;
-  color: var(--dim);
+  color: #ddd;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -552,7 +552,7 @@ header {
 .section-label {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: #ccc;
+  color: #ddd;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   padding: 1rem 0 0.75rem;
