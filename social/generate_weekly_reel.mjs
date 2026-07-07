@@ -28,7 +28,7 @@ const OUT_DIR = path.join(__dirname, 'output');
 const WORK_DIR = path.join(__dirname, '.work');
 const W = 1080, H = 1920;
 const SECONDS_PER_PAGE = 6;
-const PER_PAGE = 10;
+const PER_PAGE = 9;
 
 // ─── Chrome & ffmpeg finden ───
 
@@ -188,10 +188,12 @@ async function main() {
   }
   console.log(`${festivals.length} Festivals für die Woche ${weekLabel}.`);
 
+  // Gleichmässig auf Seiten verteilen (keine fast leere Restseite)
   const totalPages = Math.max(1, Math.ceil(festivals.length / PER_PAGE));
+  const perPageEven = Math.ceil(festivals.length / totalPages);
   const groups = [];
   for (let i = 0; i < totalPages; i++) {
-    groups.push(festivals.slice(i * PER_PAGE, (i + 1) * PER_PAGE));
+    groups.push(festivals.slice(i * perPageEven, (i + 1) * perPageEven));
   }
 
   fs.mkdirSync(WORK_DIR, { recursive: true });
