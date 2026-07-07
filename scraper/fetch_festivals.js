@@ -8,6 +8,14 @@
  *    → Neue Daten/Editionen → automatisch hinzufügen
  * 3. ENTDECKUNG: Listing-Seiten nach komplett neuen Festivals absuchen
  * 4. Nur wirklich neue Events ergänzen — alle manuellen Einträge bleiben erhalten
+ *
+ * Datumsfelder in festivals.js:
+ *   date      = ERSTER Tag des Festivals (bei eintägigen Events der einzige Tag)
+ *   endDate   = LETZTER Tag, nur bei mehrtägigen Festivals gesetzt
+ * Dieser Scraper legt automatisch nur eintägige Events an (date = einziger Tag,
+ * kein endDate nötig). Mehrtägige Festivals werden bisher manuell in
+ * festivals.js gepflegt — dabei immer date=Start und endDate=Ende setzen,
+ * nicht umgekehrt (das hat in der Vergangenheit zu falschen Einträgen geführt).
  */
 
 import fetch from 'node-fetch';

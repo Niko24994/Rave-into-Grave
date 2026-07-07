@@ -66,7 +66,8 @@ const festivals = [
   },
   {
     "name": "SPUTNIK SPRING BREAK 2026",
-    "date": "2026-05-25",
+    "date": "2026-05-22",
+    "endDate": "2026-05-25",
     "dateDisplay": "22.–25. Mai 2026",
     "location": "Halbinsel Pouch, Saale",
     "genre": [
@@ -82,7 +83,8 @@ const festivals = [
   },
   {
     "name": "IKARUS FESTIVAL 2026",
-    "date": "2026-05-25",
+    "date": "2026-05-22",
+    "endDate": "2026-05-25",
     "dateDisplay": "22.–25. Mai 2026",
     "location": "Flughafen Memmingen",
     "genre": [
@@ -98,7 +100,8 @@ const festivals = [
   },
   {
     "name": "WORLD CLUB DOME 2026",
-    "date": "2026-06-07",
+    "date": "2026-06-05",
+    "endDate": "2026-06-07",
     "dateDisplay": "5.–7. Juni 2026",
     "location": "Messe Frankfurt, Frankfurt",
     "genre": [
@@ -161,7 +164,8 @@ const festivals = [
   },
   {
     "name": "HIVE FESTIVAL 2026",
-    "date": "2026-06-21",
+    "date": "2026-06-19",
+    "endDate": "2026-06-21",
     "dateDisplay": "19.–21. Juni 2026",
     "location": "Ferropolis, Gräfenhainichen",
     "genre": [
@@ -192,7 +196,8 @@ const festivals = [
   },
   {
     "name": "FUSION FESTIVAL 2026",
-    "date": "2026-06-29",
+    "date": "2026-06-24",
+    "endDate": "2026-06-29",
     "dateDisplay": "24.–29. Juni 2026",
     "location": "Kulturkosmos, Lärz",
     "genre": [
@@ -253,7 +258,8 @@ const festivals = [
   },
   {
     "name": "THIRD EYE FESTIVAL 2026",
-    "date": "2026-07-06",
+    "date": "2026-07-03",
+    "endDate": "2026-07-06",
     "dateDisplay": "3.–6. Juli 2026",
     "location": "Oakyard Grounds, bei Berlin",
     "genre": [
@@ -269,6 +275,7 @@ const festivals = [
   {
     "name": "STONE TECHNO FESTIVAL 2026",
     "date": "2026-07-10",
+    "endDate": "2026-07-12",
     "dateDisplay": "10.–12. Juli 2026",
     "location": "Zeche Zollverein, Essen",
     "genre": [
@@ -285,6 +292,7 @@ const festivals = [
   {
     "name": "ROTE DICHTE 2026",
     "date": "2026-07-10",
+    "endDate": "2026-07-12",
     "dateDisplay": "10.–12. Juli 2026",
     "location": "Galenbeck, Mecklenburg-Vorpommern",
     "genre": [
@@ -299,7 +307,8 @@ const festivals = [
   },
   {
     "name": "LIBELLA FESTIVAL 2026",
-    "date": "2026-07-11",
+    "date": "2026-07-10",
+    "endDate": "2026-07-11",
     "dateDisplay": "10.–11. Juli 2026",
     "location": "Kemnader See, Bochum",
     "genre": [
@@ -362,7 +371,8 @@ const festivals = [
   },
   {
     "name": "AIRBEAT ONE 2026",
-    "date": "2026-07-12",
+    "date": "2026-07-08",
+    "endDate": "2026-07-12",
     "dateDisplay": "8.–12. Juli 2026",
     "location": "Flughafen Neustadt-Glewe",
     "genre": [
@@ -378,7 +388,8 @@ const festivals = [
   },
   {
     "name": "AWAKENINGS FESTIVAL 2026",
-    "date": "2026-07-12",
+    "date": "2026-07-10",
+    "endDate": "2026-07-12",
     "dateDisplay": "10.–12. Juli 2026",
     "location": "Beekse Bergen, Hilvarenbeek (NL)",
     "genre": [
@@ -393,6 +404,7 @@ const festivals = [
   {
     "name": "SEA YOU FESTIVAL 2026",
     "date": "2026-07-17",
+    "endDate": "2026-07-19",
     "dateDisplay": "17.–19. Juli 2026",
     "location": "Tunisee, Freiburg",
     "genre": [
@@ -469,7 +481,8 @@ const festivals = [
   },
   {
     "name": "DEICHBRAND 2026",
-    "date": "2026-07-19",
+    "date": "2026-07-16",
+    "endDate": "2026-07-19",
     "dateDisplay": "16.–19. Juli 2026",
     "location": "Seeflughafen Cuxhaven/Nordholz",
     "genre": [
@@ -483,7 +496,8 @@ const festivals = [
   },
   {
     "name": "PAROOKAVILLE 2026",
-    "date": "2026-07-19",
+    "date": "2026-07-17",
+    "endDate": "2026-07-19",
     "dateDisplay": "17.–19. Juli 2026",
     "location": "Airport Weeze, Weeze",
     "genre": [
@@ -500,7 +514,8 @@ const festivals = [
   },
   {
     "name": "NATION OF GONDWANA 2026",
-    "date": "2026-07-19",
+    "date": "2026-07-16",
+    "endDate": "2026-07-19",
     "dateDisplay": "16.–19. Juli 2026",
     "location": "Grünefeld bei Berlin",
     "genre": [
@@ -515,7 +530,8 @@ const festivals = [
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2026",
-    "date": "2026-07-19",
+    "date": "2026-07-18",
+    "endDate": "2026-07-19",
     "dateDisplay": "18.–19. Juli 2026",
     "location": "Olympiastadion & Olympiapark, Berlin",
     "genre": [
@@ -533,6 +549,7 @@ const festivals = [
   {
     "name": "BACHBLYTEN FESTIVAL 2026",
     "date": "2026-07-24",
+    "endDate": "2026-07-26",
     "dateDisplay": "24.–26. Juli 2026",
     "location": "Flugplatz Schwesing, Husum (Schleswig-Holstein)",
     "genre": [
@@ -578,7 +595,8 @@ const festivals = [
   },
   {
     "name": "STROGA FESTIVAL 2026",
-    "date": "2026-07-26",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
     "dateDisplay": "24.–26. Juli 2026",
     "location": "Energiefabrik Knappenrode, Hoyerswerda",
     "genre": [
@@ -593,7 +611,8 @@ const festivals = [
   },
   {
     "name": "FEEL FESTIVAL 2026",
-    "date": "2026-07-26",
+    "date": "2026-07-23",
+    "endDate": "2026-07-26",
     "dateDisplay": "23.–26. Juli 2026",
     "location": "Bergheider See, Brandenburg",
     "genre": [
@@ -608,7 +627,8 @@ const festivals = [
   },
   {
     "name": "OPEN BEATZ 2026",
-    "date": "2026-07-26",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
     "dateDisplay": "24.–26. Juli 2026",
     "location": "bei Herzogenaurach, Nürnberg",
     "genre": [
@@ -624,7 +644,8 @@ const festivals = [
   },
   {
     "name": "LOVE FAMILY PARK 2026",
-    "date": "2026-07-26",
+    "date": "2026-07-25",
+    "endDate": "2026-07-26",
     "dateDisplay": "25.–26. Juli 2026",
     "location": "Rebstockpark, Frankfurt am Main",
     "genre": [
@@ -640,7 +661,8 @@ const festivals = [
   },
   {
     "name": "JUICY BEATS 2026",
-    "date": "2026-07-26",
+    "date": "2026-07-25",
+    "endDate": "2026-07-26",
     "dateDisplay": "25.–26. Juli 2026",
     "location": "Westfalenpark, Dortmund",
     "genre": [
@@ -656,7 +678,8 @@ const festivals = [
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2026",
-    "date": "2026-08-01",
+    "date": "2026-07-31",
+    "endDate": "2026-08-01",
     "dateDisplay": "31. Juli – 1. Aug 2026",
     "location": "Rotenburg an der Wümme",
     "genre": [
@@ -717,7 +740,8 @@ const festivals = [
   },
   {
     "name": "NATURE ONE 2026",
-    "date": "2026-08-02",
+    "date": "2026-07-30",
+    "endDate": "2026-08-02",
     "dateDisplay": "30. Juli – 2. Aug 2026",
     "location": "Raketenbasis Pydna, Kastellaun",
     "genre": [
@@ -735,6 +759,7 @@ const festivals = [
   {
     "name": "MAHAGONI FESTIVAL 2026",
     "date": "2026-08-06",
+    "endDate": "2026-08-09",
     "dateDisplay": "6.–9. August 2026",
     "location": "Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)",
     "genre": [
@@ -764,6 +789,7 @@ const festivals = [
   {
     "name": "CIRCLE OF LEAVES FESTIVAL 2026",
     "date": "2026-08-07",
+    "endDate": "2026-08-09",
     "dateDisplay": "7.–9. August 2026",
     "location": "Marbach-Stausee, Oberzent (Hessen)",
     "genre": [
@@ -778,7 +804,8 @@ const festivals = [
   },
   {
     "name": "HAVELBEATS FESTIVAL 2026",
-    "date": "2026-08-08",
+    "date": "2026-08-07",
+    "endDate": "2026-08-08",
     "dateDisplay": "7.–8. August 2026",
     "location": "Schiffbauergasse, Potsdam",
     "genre": [
@@ -808,7 +835,8 @@ const festivals = [
   },
   {
     "name": "ELECTRISIZE 2026",
-    "date": "2026-08-09",
+    "date": "2026-08-07",
+    "endDate": "2026-08-09",
     "dateDisplay": "7.–9. Aug 2026",
     "location": "Haus Hohenbusch, Erkelenz",
     "genre": [
@@ -825,7 +853,8 @@ const festivals = [
   },
   {
     "name": "SONNE MOND STERNE 2026",
-    "date": "2026-08-09",
+    "date": "2026-08-07",
+    "endDate": "2026-08-09",
     "dateDisplay": "7.–9. Aug 2026",
     "location": "Saalburg-Ebersdorf, Thüringen",
     "genre": [
@@ -840,7 +869,8 @@ const festivals = [
   },
   {
     "name": "SHIFTED FESTIVAL 2026",
-    "date": "2026-08-09",
+    "date": "2026-08-06",
+    "endDate": "2026-08-09",
     "dateDisplay": "6.–9. Aug 2026",
     "location": "Geheimes Waldgelände, Brandenburg",
     "genre": [
@@ -857,6 +887,7 @@ const festivals = [
   {
     "name": "MODULE FESTIVAL 2026",
     "date": "2026-08-13",
+    "endDate": "2026-08-16",
     "dateDisplay": "13.–16. August 2026",
     "location": "Kulturcampus Frankfurt",
     "genre": [
@@ -872,6 +903,7 @@ const festivals = [
   {
     "name": "CHIMAERA FESTIVAL 2026",
     "date": "2026-08-14",
+    "endDate": "2026-08-16",
     "dateDisplay": "14.–16. August 2026",
     "location": "Klingemühle, Friedland (Brandenburg)",
     "genre": [
@@ -886,7 +918,8 @@ const festivals = [
   },
   {
     "name": "SAN HEJMO FESTIVAL 2026",
-    "date": "2026-08-15",
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
     "dateDisplay": "14.–15. Aug 2026",
     "location": "Airport Weeze, Weeze",
     "genre": [
@@ -902,7 +935,8 @@ const festivals = [
   },
   {
     "name": "MS DOCKVILLE 2026",
-    "date": "2026-08-15",
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
     "dateDisplay": "14.–15. Aug 2026",
     "location": "Hamburg-Wilhelmsburg",
     "genre": [
@@ -933,7 +967,8 @@ const festivals = [
   },
   {
     "name": "ECHELON FESTIVAL 2026",
-    "date": "2026-08-15",
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
     "dateDisplay": "14.–15. Aug 2026",
     "location": "Ehem. US-Kaserne, Bad Aibling",
     "genre": [
@@ -962,7 +997,8 @@ const festivals = [
   },
   {
     "name": "HIGHFIELD FESTIVAL 2026",
-    "date": "2026-08-16",
+    "date": "2026-08-13",
+    "endDate": "2026-08-16",
     "dateDisplay": "13.–16. Aug 2026",
     "location": "Störmthaler See, Leipzig/Grosspösna",
     "genre": [
@@ -980,6 +1016,7 @@ const festivals = [
   {
     "name": "LACUNA FESTIVAL 2026",
     "date": "2026-08-20",
+    "endDate": "2026-08-23",
     "dateDisplay": "20.–23. August 2026",
     "location": "Felsenmühle, Ochtrup",
     "genre": [
@@ -1026,6 +1063,7 @@ const festivals = [
   {
     "name": "AOS FESTIVAL 2026",
     "date": "2026-08-22",
+    "endDate": "2026-08-24",
     "dateDisplay": "22.–24. August 2026",
     "location": "Hamburg",
     "genre": [
@@ -1040,7 +1078,8 @@ const festivals = [
   },
   {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
-    "date": "2026-08-23",
+    "date": "2026-08-21",
+    "endDate": "2026-08-23",
     "dateDisplay": "21.–23. Aug 2026",
     "location": "ZOA Infield, Ecklak, Schleswig-Holstein",
     "genre": [
@@ -1055,7 +1094,8 @@ const festivals = [
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2026",
-    "date": "2026-08-24",
+    "date": "2026-08-21",
+    "endDate": "2026-08-24",
     "dateDisplay": "21.–24. Aug 2026",
     "location": "Lausitz, Brandenburg",
     "genre": [
@@ -1145,7 +1185,8 @@ const festivals = [
   },
   {
     "name": "NIBIRII FESTIVAL 2026",
-    "date": "2026-08-30",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
     "dateDisplay": "28.–30. Aug 2026",
     "location": "Düren, NRW",
     "genre": [
@@ -1161,7 +1202,8 @@ const festivals = [
   },
   {
     "name": "HELL FESTIVAL 2026",
-    "date": "2026-08-30",
+    "date": "2026-08-27",
+    "endDate": "2026-08-30",
     "dateDisplay": "27.–30. Aug 2026",
     "location": "Stausee Kelbra, Sachsen-Anhalt",
     "genre": [
@@ -1193,7 +1235,8 @@ const festivals = [
   },
   {
     "name": "INDIAN SPIRIT 2026",
-    "date": "2026-08-31",
+    "date": "2026-08-26",
+    "endDate": "2026-08-31",
     "dateDisplay": "26.–31. Aug 2026",
     "location": "Flugplatz Ludwigslust, Mecklenburg",
     "genre": [
@@ -1253,7 +1296,8 @@ const festivals = [
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
-    "date": "2026-09-06",
+    "date": "2026-09-03",
+    "endDate": "2026-09-06",
     "dateDisplay": "3.–6. Sep 2026",
     "location": "Hockenheimring, Hockenheim",
     "genre": [
@@ -1284,7 +1328,8 @@ const festivals = [
   },
   {
     "name": "CAMAKAVUM FESTIVAL 2026",
-    "date": "2026-09-13",
+    "date": "2026-09-11",
+    "endDate": "2026-09-13",
     "dateDisplay": "11.–13. Sep 2026",
     "location": "Ziegelei Benzin, Kritzow (Parchim)",
     "genre": [
@@ -1299,7 +1344,8 @@ const festivals = [
   },
   {
     "name": "RHEINGRÜN OPEN AIR 2026",
-    "date": "2026-09-20",
+    "date": "2026-09-19",
+    "endDate": "2026-09-20",
     "dateDisplay": "19.–20. September 2026",
     "location": "Rheinstrandbad, Karlsruhe",
     "genre": [
@@ -1406,7 +1452,8 @@ const festivals = [
   },
   {
     "name": "FACELESS PSYCHO CITY 2026",
-    "date": "2026-11-01",
+    "date": "2026-10-31",
+    "endDate": "2026-11-01",
     "dateDisplay": "31. Okt – 1. Nov 2026",
     "location": "Turbinenhalle, Oberhausen",
     "genre": [
@@ -1497,7 +1544,8 @@ const festivals = [
   },
   {
     "name": "UNREAL X STUTYARD 2026",
-    "date": "2026-12-20",
+    "date": "2026-12-19",
+    "endDate": "2026-12-20",
     "dateDisplay": "19.–20. Dez 2026",
     "location": "Messe Stuttgart ICS, Stuttgart",
     "genre": [
@@ -1587,7 +1635,8 @@ const festivals = [
   },
   {
     "name": "WORLD CLUB DOME 2027",
-    "date": "2027-06-06",
+    "date": "2027-06-04",
+    "endDate": "2027-06-06",
     "dateDisplay": "4.–6. Juni 2027",
     "location": "Messe Frankfurt, Frankfurt",
     "genre": [
@@ -1650,7 +1699,8 @@ const festivals = [
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
-    "date": "2027-06-20",
+    "date": "2027-06-18",
+    "endDate": "2027-06-20",
     "dateDisplay": "18.–20. Juni 2027",
     "location": "Mendig, Rheinland-Pfalz",
     "genre": [
@@ -1697,7 +1747,8 @@ const festivals = [
   },
   {
     "name": "IKARUS FESTIVAL 2027",
-    "date": "2027-06-27",
+    "date": "2027-06-25",
+    "endDate": "2027-06-27",
     "dateDisplay": "25.–27. Juni 2027",
     "location": "Flughafen Memmingen",
     "genre": [

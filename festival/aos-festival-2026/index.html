@@ -35,7 +35,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
   <link rel="stylesheet" href="../../style.css" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"AOS FESTIVAL 2026","startDate":"2026-08-22","description":"Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.","url":"https://raveintograve.de/festival/aos-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Hamburg","address":{"@type":"PostalAddress","addressLocality":"Hamburg","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"AOS FESTIVAL","url":"https://www.theaos.de/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"AOS FESTIVAL 2026","startDate":"2026-08-22","endDate":"2026-08-24","description":"Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.","url":"https://raveintograve.de/festival/aos-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Hamburg","address":{"@type":"PostalAddress","addressLocality":"Hamburg","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"AOS FESTIVAL","url":"https://www.theaos.de/"}}</script>
 </head>
 <body>
 
@@ -109,7 +109,7 @@
 
   <script>
     (function () {
-      var date = "2026-08-22";
+      var date = "2026-08-24";
       var today = new Date(); today.setHours(0,0,0,0);
       var d = new Date(date); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
@@ -141,7 +141,7 @@
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
         var ds = "2026-08-22".replace(/-/g, '');
-        var nd = new Date("2026-08-22"); nd.setDate(nd.getDate() + 1);
+        var nd = new Date("2026-08-24"); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "AOS FESTIVAL 2026" + '\r\nLOCATION:' + "Hamburg" + '\r\nDESCRIPTION:' + "Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
         var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});

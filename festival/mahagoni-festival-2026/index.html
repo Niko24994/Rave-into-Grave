@@ -35,7 +35,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
   <link rel="stylesheet" href="../../style.css" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"MAHAGONI FESTIVAL 2026","startDate":"2026-08-06","description":"Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.","url":"https://raveintograve.de/festival/mahagoni-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)","address":{"@type":"PostalAddress","addressLocality":"Teutschenthal (Sachsen-Anhalt)","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"MAHAGONI FESTIVAL","url":"https://mahagoni-festival.de/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"MAHAGONI FESTIVAL 2026","startDate":"2026-08-06","endDate":"2026-08-09","description":"Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.","url":"https://raveintograve.de/festival/mahagoni-festival-2026/","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)","address":{"@type":"PostalAddress","addressLocality":"Teutschenthal (Sachsen-Anhalt)","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"MAHAGONI FESTIVAL","url":"https://mahagoni-festival.de/"}}</script>
 </head>
 <body>
 
@@ -109,7 +109,7 @@
 
   <script>
     (function () {
-      var date = "2026-08-06";
+      var date = "2026-08-09";
       var today = new Date(); today.setHours(0,0,0,0);
       var d = new Date(date); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
@@ -141,7 +141,7 @@
 
       document.getElementById('cal-btn-detail').addEventListener('click', function () {
         var ds = "2026-08-06".replace(/-/g, '');
-        var nd = new Date("2026-08-06"); nd.setDate(nd.getDate() + 1);
+        var nd = new Date("2026-08-09"); nd.setDate(nd.getDate() + 1);
         var de = nd.toISOString().slice(0,10).replace(/-/g,'');
         var ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Rave into Grave//DE\r\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:' + ds + '\r\nDTEND;VALUE=DATE:' + de + '\r\nSUMMARY:' + "MAHAGONI FESTIVAL 2026" + '\r\nLOCATION:' + "Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)" + '\r\nDESCRIPTION:' + "Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion." + '\r\nEND:VEVENT\r\nEND:VCALENDAR';
         var blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
