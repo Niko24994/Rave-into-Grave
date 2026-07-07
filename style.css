@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap');
 
+/* Selbst gehostet statt System-Font: "Arial Black" ist auf Android/iOS meist
+   nicht installiert, wodurch der Logo-Schriftzug dort schmaler/breiter fällt
+   und die roten Balken nicht mehr auf den Buchstabenkanten sitzen. */
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/archivo-black.woff2') format('woff2');
+}
+
 :root {
   --bg: #0a0a0a;
   --red: #ff2d00;

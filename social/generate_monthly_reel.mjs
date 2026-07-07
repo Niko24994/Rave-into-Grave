@@ -83,6 +83,7 @@ function fontFaceCss() {
     @font-face { font-family:'Rajdhani'; font-style:normal; font-weight:700; font-display:block; src:url(data:font/woff2;base64,${b64('rajdhani-700.woff2')}) format('woff2'); }
     @font-face { font-family:'Rajdhani'; font-style:normal; font-weight:800; font-display:block; src:url(data:font/woff2;base64,${b64('rajdhani-700.woff2')}) format('woff2'); }
     @font-face { font-family:'Share Tech Mono'; font-style:normal; font-weight:400; font-display:block; src:url(data:font/woff2;base64,${b64('sharetechmono-400.woff2')}) format('woff2'); }
+    @font-face { font-family:'Archivo Black'; font-style:normal; font-weight:400; font-display:block; src:url(data:font/woff2;base64,${b64('archivo-black.woff2')}) format('woff2'); }
   `;
 }
 const FONT_IMPORT = fontFaceCss();
@@ -129,15 +130,15 @@ function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
     <div class="overlay"></div>
     <div class="header">
       <svg class="wordmark-logo" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rave into Grave">
-        <text x="202" y="112" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ff2200" opacity="0.18">RAVE</text>
+        <text x="202" y="112" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ff2200" opacity="0.18">RAVE</text>
         <rect x="74" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
         <rect x="79" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
         <rect x="320" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
         <rect x="325" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
-        <text x="200" y="114" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ffffff">RAVE</text>
+        <text x="200" y="114" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ffffff">RAVE</text>
         <text x="200" y="142" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="12" fill="#ff5c33">I N T O</text>
-        <text x="198" y="208" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ff2200" opacity="0.15">GRAVE</text>
-        <text x="200" y="210" text-anchor="middle" font-family="'Arial Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
+        <text x="198" y="208" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ff2200" opacity="0.15">GRAVE</text>
+        <text x="200" y="210" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
       </svg>
       <div class="title">FESTIVALS IM <span class="accent">${escapeHtml(monthLabel.toUpperCase())}</span></div>
       <div class="subtitle">${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
