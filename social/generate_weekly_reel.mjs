@@ -93,10 +93,15 @@ function escapeHtml(str) {
 }
 
 function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTitle) {
+  // Weniger Zeilen auf der Seite -> etwas mehr Abstand dazwischen, damit es
+  // nicht nur "zentriert mit Leerraum drumherum" wirkt, sondern die Seite
+  // insgesamt voller. Bei maximaler Belegung (9) bleibt der Abstand wie bisher.
+  const rowGap = Math.min(40, 16 + Math.max(0, PER_PAGE - group.length) * 4);
+
   const rows = group.map(f => {
     const shortDate = f.dateDisplay.replace(new RegExp(`\\s*${yearLabel}$`), '').replace(/\s*–\s*/, '–');
     return `
-      <div class="row">
+      <div class="row" style="margin-bottom:${rowGap}px">
         <div class="row-date">${escapeHtml(shortDate)}</div>
         <div class="row-main">
           <div class="row-name">${escapeHtml(f.name.replace(new RegExp(`\\s*${yearLabel}$`), ''))}</div>
