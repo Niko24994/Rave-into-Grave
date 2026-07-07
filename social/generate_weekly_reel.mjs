@@ -110,12 +110,13 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     * { margin:0; padding:0; box-sizing:border-box; }
     html,body { width:${W}px; height:${H}px; background:transparent; overflow:hidden; font-family:'Rajdhani',sans-serif; }
     .overlay { position:absolute; inset:0; background: rgba(6,4,4,0.82); z-index:0; }
-    .header { position:relative; z-index:1; padding: 130px 90px 20px; text-align:center; }
+    .content-area { position:relative; z-index:1; height: calc(100% - 230px); display:flex; flex-direction:column; }
+    .header { flex-shrink:0; padding: 130px 90px 20px; text-align:center; }
     .wordmark-logo { width:360px; margin:0 auto 26px; display:block; filter: drop-shadow(0 0 16px rgba(255,34,0,0.45)); }
     .title { font-weight:800; font-size:66px; color:#fff; text-transform:uppercase; line-height:1.05; text-shadow:0 0 20px rgba(255,45,0,0.4); }
     .title .accent { color:#ff9900; }
     .subtitle { margin-top:14px; font-family:'Share Tech Mono',monospace; font-size:26px; letter-spacing:3px; color:#ff9900; }
-    .list { position:relative; z-index:1; padding: 6px 90px 0; }
+    .list { flex:1; min-height:0; display:flex; flex-direction:column; justify-content:center; padding: 6px 90px 0; }
     .row { display:flex; align-items:center; gap:22px; border:2px solid #ff2d00; border-radius:6px; background: rgba(255,45,0,0.06); padding: 20px 26px; margin-bottom: 16px; }
     .row-date { font-family:'Share Tech Mono',monospace; font-size:28px; color:#ff9900; font-weight:700; white-space:nowrap; min-width: 168px; }
     .row-main { flex:1; min-width:0; }
@@ -128,22 +129,24 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
   </style></head>
   <body>
     <div class="overlay"></div>
-    <div class="header">
-      <svg class="wordmark-logo" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rave into Grave">
-        <text x="202" y="112" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ff2200" opacity="0.18">RAVE</text>
-        <rect x="74" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
-        <rect x="79" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
-        <rect x="320" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
-        <rect x="325" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
-        <text x="200" y="114" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ffffff">RAVE</text>
-        <text x="200" y="142" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="12" fill="#ff5c33">I N T O</text>
-        <text x="198" y="208" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ff2200" opacity="0.15">GRAVE</text>
-        <text x="200" y="210" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
-      </svg>
-      <div class="title">FESTIVALS <span class="accent">${escapeHtml(dateRangeTitle)}</span></div>
-      <div class="subtitle">${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
+    <div class="content-area">
+      <div class="header">
+        <svg class="wordmark-logo" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rave into Grave">
+          <text x="202" y="112" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ff2200" opacity="0.18">RAVE</text>
+          <rect x="74" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
+          <rect x="79" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
+          <rect x="320" y="36" width="3" height="188" fill="#ff2200" opacity="0.9"/>
+          <rect x="325" y="36" width="1" height="188" fill="#ff2200" opacity="0.4"/>
+          <text x="200" y="114" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#ffffff">RAVE</text>
+          <text x="200" y="142" text-anchor="middle" font-family="'Arial Narrow',Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="12" fill="#ff5c33">I N T O</text>
+          <text x="198" y="208" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ff2200" opacity="0.15">GRAVE</text>
+          <text x="200" y="210" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
+        </svg>
+        <div class="title">FESTIVALS <span class="accent">${escapeHtml(dateRangeTitle)}</span></div>
+        <div class="subtitle">${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
+      </div>
+      <div class="list">${rows}</div>
     </div>
-    <div class="list">${rows}</div>
     <div class="pagedots">${Array.from({ length: totalPages }, (_, i) => `<span class="dot${i === pageNum - 1 ? ' active' : ''}"></span>`).join('')}</div>
     <div class="footer">mehr auf raveintograve.de</div>
   </body></html>`;
