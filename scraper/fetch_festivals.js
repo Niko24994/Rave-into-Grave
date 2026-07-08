@@ -404,6 +404,11 @@ const DISCOVERY_SOURCES = [
   { name: 'isleofsummer.de',                  url: 'https://www.isleofsummer.de/',                                            fn: makeFestivalScraper('ISLE OF SUMMER', 'Olympia Reitanlage Riem, München', ['Hard Techno', 'Techno', 'Hardstyle', 'Trance']) },
   // Amphoria Kevelaer
   { name: 'amphoria-kevelaer.de',             url: 'https://amphoria-kevelaer.de/',                                           fn: makeFestivalScraper('AMPHORIA', 'Schwarzer Bruch, Kevelaer', ['Techno']) },
+  // Vortex Festival — naechster Termin noch nicht angekuendigt (Stand Juli 2026),
+  // Seite ist JS-lastig (Cargo-Baukasten) und der Termin steht evtl. nur clientseitig.
+  // Watch bleibt drin, damit er automatisch erscheint, sobald er als Text auf der
+  // Seite steht — falls er nie serverseitig sichtbar wird, muss er manuell ergaenzt werden.
+  { name: 'vortexfestival.com',               url: 'https://vortexfestival.com/',                                             fn: makeFestivalScraper('VORTEX FESTIVAL', 'EWS Arena, Göppingen', ['Techno', 'Trance', 'Hardcore']) },
   // Hasardeur Festival Karlsruhe
   { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
   // Hard.Noise Festival Detern

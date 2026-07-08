@@ -1776,6 +1776,34 @@ const festivals = [
     "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air.",
     "lat": 49.0068705,
     "lng": 8.4034195
+  },
+  {
+    "name": "ARENA RAVE LEIPZIG 2027",
+    "date": "2027-02-20",
+    "dateDisplay": "20. Feb 2027",
+    "location": "Halle 1, Messe-Allee, Leipzig",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/",
+    "soldOut": false,
+    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
+    "lat": 51.3945,
+    "lng": 12.4139
+  },
+  {
+    "name": "TECHNO FREITAG – ARENA EDITION 2027",
+    "date": "2027-05-21",
+    "dateDisplay": "21. Mai 2027",
+    "location": "Arena Berlin, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://semmel.de/tour/tour-alias/techno-freitag-arena-edition-einzeltermine-fruehjahr-2027.html",
+    "soldOut": false,
+    "description": "Aus dem Twitch-Rekord-Format wird Live-Erlebnis: Internet-Star \"Hänno\" bringt Techno Freitag erstmals vor 9.000 Menschen in die Arena Berlin.",
+    "lat": 52.4967,
+    "lng": 13.4478
   }
 ];
 
