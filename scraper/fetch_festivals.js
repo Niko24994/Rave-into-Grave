@@ -411,6 +411,9 @@ const DISCOVERY_SOURCES = [
   // Watch bleibt drin, damit er automatisch erscheint, sobald er als Text auf der
   // Seite steht — falls er nie serverseitig sichtbar wird, muss er manuell ergaenzt werden.
   { name: 'vortexfestival.com',               url: 'https://vortexfestival.com/',                                             fn: makeFestivalScraper('VORTEX FESTIVAL', 'EWS Arena, Göppingen', ['Techno', 'Trance', 'Hardcore']) },
+  // WinterBeats — 2026er Ausgabe (21.02.2026) bereits vorbei, 2027er Termin laut Website noch
+  // T.B.A. (Stand Juli 2026). Watch bleibt drin, damit der naechste Termin automatisch erscheint.
+  { name: 'winterbeats.de',                   url: 'https://winterbeats.de/',                                                 fn: makeFestivalScraper('WINTERBEATS', 'Saturn Arena, Ingolstadt', ['Hard Techno', 'Trance', 'Electronic']) },
   // Hasardeur Festival Karlsruhe
   { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
   // Hard.Noise Festival Detern
