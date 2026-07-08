@@ -49,22 +49,6 @@ const festivals = [
     "lng": 7.4602637
   },
   {
-    "name": "POLLERWIESEN FESTIVAL 2026",
-    "date": "2026-05-24",
-    "dateDisplay": "24. Mai 2026",
-    "location": "Revierpark Wischlingen, Dortmund",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "House"
-    ],
-    "url": "https://www.pollerwiesen.org",
-    "soldOut": false,
-    "description": "Seit 1993 Deutschlands schönstes Techno-Open-Air — vier Bühnen, 11–22 Uhr, im Revierpark Wischlingen. 30.000 Raver, kein Camping, pure Energie.",
-    "lat": 51.5195873,
-    "lng": 7.4047987
-  },
-  {
     "name": "SPUTNIK SPRING BREAK 2026",
     "date": "2026-05-22",
     "endDate": "2026-05-25",
@@ -97,6 +81,22 @@ const festivals = [
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
     "lat": 47.9888241,
     "lng": 10.2350723
+  },
+  {
+    "name": "POLLERWIESEN FESTIVAL 2026",
+    "date": "2026-05-24",
+    "dateDisplay": "24. Mai 2026",
+    "location": "Revierpark Wischlingen, Dortmund",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.pollerwiesen.org",
+    "soldOut": false,
+    "description": "Seit 1993 Deutschlands schönstes Techno-Open-Air — vier Bühnen, 11–22 Uhr, im Revierpark Wischlingen. 30.000 Raver, kein Camping, pure Energie.",
+    "lat": 51.5195873,
+    "lng": 7.4047987
   },
   {
     "name": "WORLD CLUB DOME 2026",
@@ -149,20 +149,6 @@ const festivals = [
     "lng": 11.6684705
   },
   {
-    "name": "BUCHBUSCH FESTIVAL 2026",
-    "date": "2026-06-20",
-    "dateDisplay": "20. Juni 2026",
-    "location": "Pforzheim",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://buchbusch.de",
-    "soldOut": false,
-    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
-    "lat": 48.8932,
-    "lng": 8.7062
-  },
-  {
     "name": "HIVE FESTIVAL 2026",
     "date": "2026-06-19",
     "endDate": "2026-06-21",
@@ -180,19 +166,18 @@ const festivals = [
     "lng": 12.4487506
   },
   {
-    "name": "HASARDEUR FESTIVAL 2026",
-    "date": "2026-06-27",
-    "dateDisplay": "27. Juni 2026",
-    "location": "Auto Böhler Schrottplatz, Karlsruhe",
+    "name": "BUCHBUSCH FESTIVAL 2026",
+    "date": "2026-06-20",
+    "dateDisplay": "20. Juni 2026",
+    "location": "Pforzheim",
     "genre": [
-      "Techno",
-      "Hard Techno"
+      "Techno"
     ],
-    "url": "https://hasardeur-festival.de/",
+    "url": "https://buchbusch.de",
     "soldOut": false,
-    "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
-    "lat": 49.0068705,
-    "lng": 8.4034195
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
+    "lat": 48.8932,
+    "lng": 8.7062
   },
   {
     "name": "FUSION FESTIVAL 2026",
@@ -209,6 +194,37 @@ const festivals = [
     "description": "Das anarchistische Kultfestival in Mecklenburg — keine Werbung, kein Bullshit, nur Musik und Kunst.",
     "lat": 53.3043302,
     "lng": 12.7327876
+  },
+  {
+    "name": "HASARDEUR FESTIVAL 2026",
+    "date": "2026-06-27",
+    "dateDisplay": "27. Juni 2026",
+    "location": "Auto Böhler Schrottplatz, Karlsruhe",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://hasardeur-festival.de/",
+    "soldOut": false,
+    "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
+    "lat": 49.0068705,
+    "lng": 8.4034195
+  },
+  {
+    "name": "THIRD EYE FESTIVAL 2026",
+    "date": "2026-07-03",
+    "endDate": "2026-07-06",
+    "dateDisplay": "3.–6. Juli 2026",
+    "location": "Oakyard Grounds, bei Berlin",
+    "genre": [
+      "Techno",
+      "Experimental"
+    ],
+    "url": "https://www.thirdeyefestival.de/",
+    "soldOut": false,
+    "description": "Psychedelic Techno Gathering im Wald bei Berlin — DJ Nobu, Erika, Cio D'Or und Decoder über vier Tage im Underground-Kosmos.",
+    "lat": 56.8407289,
+    "lng": 14.7951522
   },
   {
     "name": "MODUS FESTIVAL 2026",
@@ -257,20 +273,21 @@ const festivals = [
     "lng": 8.0405324
   },
   {
-    "name": "THIRD EYE FESTIVAL 2026",
-    "date": "2026-07-03",
-    "endDate": "2026-07-06",
-    "dateDisplay": "3.–6. Juli 2026",
-    "location": "Oakyard Grounds, bei Berlin",
+    "name": "AIRBEAT ONE 2026",
+    "date": "2026-07-08",
+    "endDate": "2026-07-12",
+    "dateDisplay": "8.–12. Juli 2026",
+    "location": "Flughafen Neustadt-Glewe",
     "genre": [
+      "EDM",
       "Techno",
-      "Experimental"
+      "Hardstyle"
     ],
-    "url": "https://www.thirdeyefestival.de/",
+    "url": "https://www.airbeat-one.de",
     "soldOut": false,
-    "description": "Psychedelic Techno Gathering im Wald bei Berlin — DJ Nobu, Erika, Cio D'Or und Decoder über vier Tage im Underground-Kosmos.",
-    "lat": 56.8407289,
-    "lng": 14.7951522
+    "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
+    "lat": 53.3613328,
+    "lng": 11.6141158
   },
   {
     "name": "STONE TECHNO FESTIVAL 2026",
@@ -323,6 +340,21 @@ const festivals = [
     "lng": 7.2678414
   },
   {
+    "name": "AWAKENINGS FESTIVAL 2026",
+    "date": "2026-07-10",
+    "endDate": "2026-07-12",
+    "dateDisplay": "10.–12. Juli 2026",
+    "location": "Beekse Bergen, Hilvarenbeek (NL)",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.awakenings.com/en/events/2026/07/awakenings-festival/378057/",
+    "soldOut": false,
+    "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres.",
+    "lat": 51.5250552,
+    "lng": 5.1197983
+  },
+  {
     "name": "ELECTRIC RESIDENCE FESTIVAL 2026",
     "date": "2026-07-11",
     "dateDisplay": "11. Juli 2026",
@@ -370,36 +402,35 @@ const festivals = [
     "lng": 9.0167905
   },
   {
-    "name": "AIRBEAT ONE 2026",
-    "date": "2026-07-08",
-    "endDate": "2026-07-12",
-    "dateDisplay": "8.–12. Juli 2026",
-    "location": "Flughafen Neustadt-Glewe",
+    "name": "DEICHBRAND 2026",
+    "date": "2026-07-16",
+    "endDate": "2026-07-19",
+    "dateDisplay": "16.–19. Juli 2026",
+    "location": "Seeflughafen Cuxhaven/Nordholz",
     "genre": [
-      "EDM",
       "Techno",
-      "Hardstyle"
+      "Electronic",
+      "Rock"
     ],
-    "url": "https://www.airbeat-one.de",
+    "url": "https://www.deichbrand.de",
     "soldOut": false,
-    "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
-    "lat": 53.3613328,
-    "lng": 11.6141158
+    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
   },
   {
-    "name": "AWAKENINGS FESTIVAL 2026",
-    "date": "2026-07-10",
-    "endDate": "2026-07-12",
-    "dateDisplay": "10.–12. Juli 2026",
-    "location": "Beekse Bergen, Hilvarenbeek (NL)",
+    "name": "NATION OF GONDWANA 2026",
+    "date": "2026-07-16",
+    "endDate": "2026-07-19",
+    "dateDisplay": "16.–19. Juli 2026",
+    "location": "Grünefeld bei Berlin",
     "genre": [
-      "Techno"
+      "Techno",
+      "Electronic"
     ],
-    "url": "https://www.awakenings.com/en/events/2026/07/awakenings-festival/378057/",
+    "url": "https://pyonen.de/nog2026/",
     "soldOut": false,
-    "description": "Eines der größten Techno-Festivals Europas — drei Tage purer Techno in Hilvarenbeek mit den absoluten Weltstars des Genres.",
-    "lat": 51.5250552,
-    "lng": 5.1197983
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin.",
+    "lat": 52.5972,
+    "lng": 12.9516
   },
   {
     "name": "SEA YOU FESTIVAL 2026",
@@ -417,6 +448,24 @@ const festivals = [
     "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
     "lat": 48.0661014,
     "lng": 7.814414
+  },
+  {
+    "name": "PAROOKAVILLE 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-19",
+    "dateDisplay": "17.–19. Juli 2026",
+    "location": "Airport Weeze, Weeze",
+    "genre": [
+      "EDM",
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.parookaville.com",
+    "soldOut": false,
+    "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
+    "lat": 51.6031019,
+    "lng": 6.1433899
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -480,55 +529,6 @@ const festivals = [
     "lng": 12.3050378
   },
   {
-    "name": "DEICHBRAND 2026",
-    "date": "2026-07-16",
-    "endDate": "2026-07-19",
-    "dateDisplay": "16.–19. Juli 2026",
-    "location": "Seeflughafen Cuxhaven/Nordholz",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Rock"
-    ],
-    "url": "https://www.deichbrand.de",
-    "soldOut": false,
-    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
-  },
-  {
-    "name": "PAROOKAVILLE 2026",
-    "date": "2026-07-17",
-    "endDate": "2026-07-19",
-    "dateDisplay": "17.–19. Juli 2026",
-    "location": "Airport Weeze, Weeze",
-    "genre": [
-      "EDM",
-      "Techno",
-      "Hard Techno",
-      "Trance"
-    ],
-    "url": "https://www.parookaville.com",
-    "soldOut": false,
-    "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
-    "lat": 51.6031019,
-    "lng": 6.1433899
-  },
-  {
-    "name": "NATION OF GONDWANA 2026",
-    "date": "2026-07-16",
-    "endDate": "2026-07-19",
-    "dateDisplay": "16.–19. Juli 2026",
-    "location": "Grünefeld bei Berlin",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://pyonen.de/nog2026/",
-    "soldOut": false,
-    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin.",
-    "lat": 52.5972,
-    "lng": 12.9516
-  },
-  {
     "name": "LOLLAPALOOZA BERLIN 2026",
     "date": "2026-07-18",
     "endDate": "2026-07-19",
@@ -547,6 +547,22 @@ const festivals = [
     "lng": 13.3951309
   },
   {
+    "name": "FEEL FESTIVAL 2026",
+    "date": "2026-07-23",
+    "endDate": "2026-07-26",
+    "dateDisplay": "23.–26. Juli 2026",
+    "location": "Bergheider See, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.feel-festival.de",
+    "soldOut": false,
+    "description": "Intimes Techno-Festival am Bergheider See in Brandenburg — underground, naturverbunden, unvergesslich.",
+    "lat": 51.5717953,
+    "lng": 13.791063
+  },
+  {
     "name": "BACHBLYTEN FESTIVAL 2026",
     "date": "2026-07-24",
     "endDate": "2026-07-26",
@@ -563,6 +579,39 @@ const festivals = [
     "description": "Drei Tage Techno, Psytrance und Goa am Flugplatz Schwesing — intimes Festival im Norden mit starker Community.",
     "lat": 54.4854137,
     "lng": 9.0537941
+  },
+  {
+    "name": "STROGA FESTIVAL 2026",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Energiefabrik Knappenrode, Hoyerswerda",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.stroga-festival.de",
+    "soldOut": false,
+    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel.",
+    "lat": 51.5272,
+    "lng": 14.3064
+  },
+  {
+    "name": "OPEN BEATZ 2026",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "bei Herzogenaurach, Nürnberg",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "EDM"
+    ],
+    "url": "https://www.openbeatz.de",
+    "soldOut": false,
+    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
+    "lat": 49.453872,
+    "lng": 11.077298
   },
   {
     "name": "VERKNIPT OBERHAUSEN 2026",
@@ -592,55 +641,6 @@ const festivals = [
     "description": "Open Air im Muuuhnlight Garten Schauenburg — Nakadia, Dominik Eulberg, Township Rebellion, Mollono.Bass und Green Lake Project.",
     "lat": 51.2776974,
     "lng": 9.3482404
-  },
-  {
-    "name": "STROGA FESTIVAL 2026",
-    "date": "2026-07-24",
-    "endDate": "2026-07-26",
-    "dateDisplay": "24.–26. Juli 2026",
-    "location": "Energiefabrik Knappenrode, Hoyerswerda",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.stroga-festival.de",
-    "soldOut": false,
-    "description": "Elektronische Musik trifft Industriekultur in der Energiefabrik Knappenrode — 90 Artists auf 5 Stages unter freiem Himmel.",
-    "lat": 51.5272,
-    "lng": 14.3064
-  },
-  {
-    "name": "FEEL FESTIVAL 2026",
-    "date": "2026-07-23",
-    "endDate": "2026-07-26",
-    "dateDisplay": "23.–26. Juli 2026",
-    "location": "Bergheider See, Brandenburg",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.feel-festival.de",
-    "soldOut": false,
-    "description": "Intimes Techno-Festival am Bergheider See in Brandenburg — underground, naturverbunden, unvergesslich.",
-    "lat": 51.5717953,
-    "lng": 13.791063
-  },
-  {
-    "name": "OPEN BEATZ 2026",
-    "date": "2026-07-24",
-    "endDate": "2026-07-26",
-    "dateDisplay": "24.–26. Juli 2026",
-    "location": "bei Herzogenaurach, Nürnberg",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "EDM"
-    ],
-    "url": "https://www.openbeatz.de",
-    "soldOut": false,
-    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
-    "lat": 49.453872,
-    "lng": 11.077298
   },
   {
     "name": "LOVE FAMILY PARK 2026",
@@ -675,6 +675,24 @@ const festivals = [
     "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
     "lat": 51.4953414,
     "lng": 7.4768236
+  },
+  {
+    "name": "NATURE ONE 2026",
+    "date": "2026-07-30",
+    "endDate": "2026-08-02",
+    "dateDisplay": "30. Juli – 2. Aug 2026",
+    "location": "Raketenbasis Pydna, Kastellaun",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "url": "https://www.nature-one.de",
+    "soldOut": false,
+    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
+    "lat": 50.0434566,
+    "lng": 7.4255143
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2026",
@@ -739,24 +757,6 @@ const festivals = [
     "lng": 13.466302
   },
   {
-    "name": "NATURE ONE 2026",
-    "date": "2026-07-30",
-    "endDate": "2026-08-02",
-    "dateDisplay": "30. Juli – 2. Aug 2026",
-    "location": "Raketenbasis Pydna, Kastellaun",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Hardstyle",
-      "Hardcore"
-    ],
-    "url": "https://www.nature-one.de",
-    "soldOut": false,
-    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
-    "lat": 50.0434566,
-    "lng": 7.4255143
-  },
-  {
     "name": "MAHAGONI FESTIVAL 2026",
     "date": "2026-08-06",
     "endDate": "2026-08-09",
@@ -771,6 +771,23 @@ const festivals = [
     "description": "Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.",
     "lat": 51.4317994,
     "lng": 11.759075
+  },
+  {
+    "name": "SHIFTED FESTIVAL 2026",
+    "date": "2026-08-06",
+    "endDate": "2026-08-09",
+    "dateDisplay": "6.–9. Aug 2026",
+    "location": "Geheimes Waldgelände, Brandenburg",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.shifted-festival.com/de",
+    "soldOut": false,
+    "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis.",
+    "lat": 52.8455492,
+    "lng": 13.2461296
   },
   {
     "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
@@ -820,20 +837,6 @@ const festivals = [
     "lng": 13.0737772
   },
   {
-    "name": "NIMMERLAND OPEN AIR 2026",
-    "date": "2026-08-08",
-    "dateDisplay": "8. August 2026",
-    "location": "Festung Germersheim, Germersheim",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://nimmerlandevents.de/openair",
-    "soldOut": false,
-    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
-    "lat": 49.2009672,
-    "lng": 8.3395468
-  },
-  {
     "name": "ELECTRISIZE 2026",
     "date": "2026-08-07",
     "endDate": "2026-08-09",
@@ -868,21 +871,18 @@ const festivals = [
     "lng": 11.7092902
   },
   {
-    "name": "SHIFTED FESTIVAL 2026",
-    "date": "2026-08-06",
-    "endDate": "2026-08-09",
-    "dateDisplay": "6.–9. Aug 2026",
-    "location": "Geheimes Waldgelände, Brandenburg",
+    "name": "NIMMERLAND OPEN AIR 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Festung Germersheim, Germersheim",
     "genre": [
-      "Techno",
-      "Hard Techno",
-      "Trance"
+      "Techno"
     ],
-    "url": "https://www.shifted-festival.com/de",
+    "url": "https://nimmerlandevents.de/openair",
     "soldOut": false,
-    "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis.",
-    "lat": 52.8455492,
-    "lng": 13.2461296
+    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
+    "lat": 49.2009672,
+    "lng": 8.3395468
   },
   {
     "name": "MODULE FESTIVAL 2026",
@@ -899,6 +899,24 @@ const festivals = [
     "description": "Underground Techno auf dem Kulturcampus Frankfurt — Skee Mask, upsammy, Roza Terenzi, Rosa Anschütz und Suzanne Ciani.",
     "lat": 50.1174667,
     "lng": 8.6498444
+  },
+  {
+    "name": "HIGHFIELD FESTIVAL 2026",
+    "date": "2026-08-13",
+    "endDate": "2026-08-16",
+    "dateDisplay": "13.–16. Aug 2026",
+    "location": "Störmthaler See, Leipzig/Grosspösna",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Rock",
+      "Indie"
+    ],
+    "url": "https://www.highfield.de",
+    "soldOut": false,
+    "description": "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil.",
+    "lat": 51.2292484,
+    "lng": 12.4534826
   },
   {
     "name": "CHIMAERA FESTIVAL 2026",
@@ -952,20 +970,6 @@ const festivals = [
     "lng": 10.0068586
   },
   {
-    "name": "ELECTRIC HORIZON FESTIVAL 2026",
-    "date": "2026-08-15",
-    "dateDisplay": "15. Aug 2026",
-    "location": "Weldegarten, Plankstadt",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://www.electric-horizon.com/en",
-    "soldOut": false,
-    "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
-    "lat": 49.4011747,
-    "lng": 8.578611
-  },
-  {
     "name": "ECHELON FESTIVAL 2026",
     "date": "2026-08-14",
     "endDate": "2026-08-15",
@@ -982,6 +986,20 @@ const festivals = [
     "lng": 12.0097685
   },
   {
+    "name": "ELECTRIC HORIZON FESTIVAL 2026",
+    "date": "2026-08-15",
+    "dateDisplay": "15. Aug 2026",
+    "location": "Weldegarten, Plankstadt",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://www.electric-horizon.com/en",
+    "soldOut": false,
+    "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
+    "lat": 49.4011747,
+    "lng": 8.578611
+  },
+  {
     "name": "RAVE THE PLANET PARADE 2026",
     "date": "2026-08-15",
     "dateDisplay": "15. August 2026",
@@ -994,24 +1012,6 @@ const festivals = [
     "description": "Die Nachfolge-Parade der Love Parade — UNESCO-anerkanntes Kulturerbe, kostenlose Techno-Parade durchs Brandenburger Tor. Motto 2026: \"Imagine Love\".",
     "lat": 52.5132816,
     "lng": 13.3332602
-  },
-  {
-    "name": "HIGHFIELD FESTIVAL 2026",
-    "date": "2026-08-13",
-    "endDate": "2026-08-16",
-    "dateDisplay": "13.–16. Aug 2026",
-    "location": "Störmthaler See, Leipzig/Grosspösna",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Rock",
-      "Indie"
-    ],
-    "url": "https://www.highfield.de",
-    "soldOut": false,
-    "description": "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil.",
-    "lat": 51.2292484,
-    "lng": 12.4534826
   },
   {
     "name": "LACUNA FESTIVAL 2026",
@@ -1029,6 +1029,39 @@ const festivals = [
     "description": "Techno & Hardstyle im Münsterland — 'A Fairytale of Dreams', über 40 Acts auf mehreren Floors an der Felsenmühle in Ochtrup.",
     "lat": 52.1912904,
     "lng": 7.1791635
+  },
+  {
+    "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
+    "date": "2026-08-21",
+    "endDate": "2026-08-23",
+    "dateDisplay": "21.–23. Aug 2026",
+    "location": "ZOA Infield, Ecklak, Schleswig-Holstein",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://zukunftsmusik-openair.de/",
+    "soldOut": false,
+    "description": "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals.",
+    "lat": 54.1853998,
+    "lng": 9.8220089
+  },
+  {
+    "name": "WILDE MÖHRE FESTIVAL 2026",
+    "date": "2026-08-21",
+    "endDate": "2026-08-24",
+    "dateDisplay": "21.–24. Aug 2026",
+    "location": "Lausitz, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Experimental"
+    ],
+    "url": "https://wildemoehrefestival.de",
+    "soldOut": false,
+    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
+    "lat": 51.5119509,
+    "lng": 13.3505194
   },
   {
     "name": "TFELD FESTIVAL 2026",
@@ -1077,37 +1110,55 @@ const festivals = [
     "lng": 10.0013165
   },
   {
-    "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
-    "date": "2026-08-21",
-    "endDate": "2026-08-23",
-    "dateDisplay": "21.–23. Aug 2026",
-    "location": "ZOA Infield, Ecklak, Schleswig-Holstein",
+    "name": "INDIAN SPIRIT 2026",
+    "date": "2026-08-26",
+    "endDate": "2026-08-31",
+    "dateDisplay": "26.–31. Aug 2026",
+    "location": "Flugplatz Ludwigslust, Mecklenburg",
     "genre": [
+      "Psytrance",
       "Techno",
-      "Electronic"
-    ],
-    "url": "https://zukunftsmusik-openair.de/",
-    "soldOut": false,
-    "description": "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals.",
-    "lat": 54.1853998,
-    "lng": 9.8220089
-  },
-  {
-    "name": "WILDE MÖHRE FESTIVAL 2026",
-    "date": "2026-08-21",
-    "endDate": "2026-08-24",
-    "dateDisplay": "21.–24. Aug 2026",
-    "location": "Lausitz, Brandenburg",
-    "genre": [
-      "Techno",
-      "Electronic",
       "Experimental"
     ],
-    "url": "https://wildemoehrefestival.de",
+    "url": "https://www.indianspirit.de",
     "soldOut": false,
-    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
-    "lat": 51.5119509,
-    "lng": 13.3505194
+    "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
+    "lat": 53.3040712,
+    "lng": 11.509997
+  },
+  {
+    "name": "HELL FESTIVAL 2026",
+    "date": "2026-08-27",
+    "endDate": "2026-08-30",
+    "dateDisplay": "27.–30. Aug 2026",
+    "location": "Stausee Kelbra, Sachsen-Anhalt",
+    "genre": [
+      "Hardcore",
+      "Hard Techno",
+      "Schranz"
+    ],
+    "url": "https://www.hell-festival.de",
+    "soldOut": false,
+    "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
+    "lat": 51.4363848,
+    "lng": 10.9954779
+  },
+  {
+    "name": "NIBIRII FESTIVAL 2026",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateDisplay": "28.–30. Aug 2026",
+    "location": "Düren, NRW",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Electronic"
+    ],
+    "url": "https://nibirii.com",
+    "soldOut": false,
+    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
+    "lat": 50.8031684,
+    "lng": 6.4820806
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -1184,40 +1235,6 @@ const festivals = [
     "lng": 7.643256
   },
   {
-    "name": "NIBIRII FESTIVAL 2026",
-    "date": "2026-08-28",
-    "endDate": "2026-08-30",
-    "dateDisplay": "28.–30. Aug 2026",
-    "location": "Düren, NRW",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "Electronic"
-    ],
-    "url": "https://nibirii.com",
-    "soldOut": false,
-    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
-    "lat": 50.8031684,
-    "lng": 6.4820806
-  },
-  {
-    "name": "HELL FESTIVAL 2026",
-    "date": "2026-08-27",
-    "endDate": "2026-08-30",
-    "dateDisplay": "27.–30. Aug 2026",
-    "location": "Stausee Kelbra, Sachsen-Anhalt",
-    "genre": [
-      "Hardcore",
-      "Hard Techno",
-      "Schranz"
-    ],
-    "url": "https://www.hell-festival.de",
-    "soldOut": false,
-    "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
-    "lat": 51.4363848,
-    "lng": 10.9954779
-  },
-  {
     "name": "FERRA FESTIVAL 2026",
     "date": "2026-08-30",
     "dateDisplay": "ca. Aug/Sep 2026",
@@ -1234,21 +1251,21 @@ const festivals = [
     "lng": 12.4487506
   },
   {
-    "name": "INDIAN SPIRIT 2026",
-    "date": "2026-08-26",
-    "endDate": "2026-08-31",
-    "dateDisplay": "26.–31. Aug 2026",
-    "location": "Flugplatz Ludwigslust, Mecklenburg",
+    "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
+    "date": "2026-09-03",
+    "endDate": "2026-09-06",
+    "dateDisplay": "3.–6. Sep 2026",
+    "location": "Hockenheimring, Hockenheim",
     "genre": [
-      "Psytrance",
       "Techno",
-      "Experimental"
+      "Electronic",
+      "House"
     ],
-    "url": "https://www.indianspirit.de",
+    "url": "https://www.gluecksgefuehle-festival.de",
     "soldOut": false,
-    "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
-    "lat": 53.3040712,
-    "lng": 11.509997
+    "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
+    "lat": 49.3297989,
+    "lng": 8.5763
   },
   {
     "name": "WAVES OPEN AIR CLOSING 2026",
@@ -1295,21 +1312,20 @@ const festivals = [
     "lng": 8.4459285
   },
   {
-    "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
-    "date": "2026-09-03",
-    "endDate": "2026-09-06",
-    "dateDisplay": "3.–6. Sep 2026",
-    "location": "Hockenheimring, Hockenheim",
+    "name": "CAMAKAVUM FESTIVAL 2026",
+    "date": "2026-09-11",
+    "endDate": "2026-09-13",
+    "dateDisplay": "11.–13. Sep 2026",
+    "location": "Ziegelei Benzin, Kritzow (Parchim)",
     "genre": [
-      "Techno",
-      "Electronic",
-      "House"
+      "Hardcore",
+      "Schranz"
     ],
-    "url": "https://www.gluecksgefuehle-festival.de",
+    "url": "https://camakavum.ticket.io",
     "soldOut": false,
-    "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
-    "lat": 49.3297989,
-    "lng": 8.5763
+    "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal.",
+    "lat": 53.4489349,
+    "lng": 12.0962706
   },
   {
     "name": "SOLEM FESTIVAL 2026",
@@ -1325,22 +1341,6 @@ const festivals = [
     "description": "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe.",
     "lat": 51.3309061,
     "lng": 7.9420379
-  },
-  {
-    "name": "CAMAKAVUM FESTIVAL 2026",
-    "date": "2026-09-11",
-    "endDate": "2026-09-13",
-    "dateDisplay": "11.–13. Sep 2026",
-    "location": "Ziegelei Benzin, Kritzow (Parchim)",
-    "genre": [
-      "Hardcore",
-      "Schranz"
-    ],
-    "url": "https://camakavum.ticket.io",
-    "soldOut": false,
-    "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal.",
-    "lat": 53.4489349,
-    "lng": 12.0962706
   },
   {
     "name": "RHEINGRÜN OPEN AIR 2026",
@@ -1512,6 +1512,20 @@ const festivals = [
     "lng": 11.6078535
   },
   {
+    "name": "ARENA RAVE ROSTOCK 2026",
+    "date": "2026-12-04",
+    "dateDisplay": "4. Dezember 2026",
+    "location": "Hansemesse, Rostock",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/event/rostock/",
+    "soldOut": false,
+    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Rostock.",
+    "lat": 54.1393903,
+    "lng": 12.0779788
+  },
+  {
     "name": "TOXICATOR 2026",
     "date": "2026-12-05",
     "dateDisplay": "5. Dez 2026",
@@ -1588,6 +1602,20 @@ const festivals = [
     "lng": 8.5239462
   },
   {
+    "name": "ARENA RAVE LEIPZIG 2027",
+    "date": "2027-02-20",
+    "dateDisplay": "20. Feb 2027",
+    "location": "Halle 1, Messe-Allee, Leipzig",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/",
+    "soldOut": false,
+    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
+    "lat": 51.3945,
+    "lng": 12.4139
+  },
+  {
     "name": "TIME WARP 2027",
     "date": "2027-04-03",
     "dateDisplay": "3. April 2027",
@@ -1617,6 +1645,20 @@ const festivals = [
     "description": "Die nächste Walpurgisnacht — Tickets sichern bevor sie weg sind.",
     "lat": 51.4966917,
     "lng": 7.4602637
+  },
+  {
+    "name": "TECHNO FREITAG – ARENA EDITION 2027",
+    "date": "2027-05-21",
+    "dateDisplay": "21. Mai 2027",
+    "location": "Arena Berlin, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://semmel.de/tour/tour-alias/techno-freitag-arena-edition-einzeltermine-fruehjahr-2027.html",
+    "soldOut": false,
+    "description": "Aus dem Twitch-Rekord-Format wird Live-Erlebnis: Internet-Star \"Hänno\" bringt Techno Freitag erstmals vor 9.000 Menschen in die Arena Berlin.",
+    "lat": 52.4967,
+    "lng": 13.4478
   },
   {
     "name": "HASARDEUR FESTIVAL 2027",
@@ -1669,6 +1711,22 @@ const festivals = [
     "lng": 7.6387486
   },
   {
+    "name": "AFFENKÄFIG FESTIVAL 2027",
+    "date": "2027-06-18",
+    "endDate": "2027-06-20",
+    "dateDisplay": "18.–20. Juni 2027",
+    "location": "Mendig, Rheinland-Pfalz",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.affenkaefig-festival.de",
+    "soldOut": false,
+    "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
+    "lat": 50.3720933,
+    "lng": 7.2812427
+  },
+  {
     "name": "BUCHBUSCH FESTIVAL 2027",
     "date": "2027-06-19",
     "dateDisplay": "19. Juni 2027",
@@ -1698,22 +1756,6 @@ const festivals = [
     "lng": 8.0405324
   },
   {
-    "name": "AFFENKÄFIG FESTIVAL 2027",
-    "date": "2027-06-18",
-    "endDate": "2027-06-20",
-    "dateDisplay": "18.–20. Juni 2027",
-    "location": "Mendig, Rheinland-Pfalz",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.affenkaefig-festival.de",
-    "soldOut": false,
-    "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
-    "lat": 50.3720933,
-    "lng": 7.2812427
-  },
-  {
     "name": "HIVE FESTIVAL 2027",
     "date": "2027-06-20",
     "dateDisplay": "20. Juni 2027",
@@ -1728,22 +1770,6 @@ const festivals = [
     "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.",
     "lat": 51.7590874,
     "lng": 12.4487506
-  },
-  {
-    "name": "KINDHEITSTRAUM FESTIVAL 2027",
-    "date": "2027-06-26",
-    "dateDisplay": "26. Juni 2027",
-    "location": "Flugplatz Speichersdorf, Bayern",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://www.kindheitstraum-festival.de/",
-    "soldOut": false,
-    "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
-    "lat": 49.8641269,
-    "lng": 11.7843596
   },
   {
     "name": "IKARUS FESTIVAL 2027",
@@ -1763,6 +1789,22 @@ const festivals = [
     "lng": 10.2350723
   },
   {
+    "name": "KINDHEITSTRAUM FESTIVAL 2027",
+    "date": "2027-06-26",
+    "dateDisplay": "26. Juni 2027",
+    "location": "Flugplatz Speichersdorf, Bayern",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.kindheitstraum-festival.de/",
+    "soldOut": false,
+    "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
+    "lat": 49.8641269,
+    "lng": 11.7843596
+  },
+  {
     "name": "44 FESTIVAL 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",
@@ -1778,32 +1820,20 @@ const festivals = [
     "lng": 8.4034195
   },
   {
-    "name": "ARENA RAVE LEIPZIG 2027",
-    "date": "2027-02-20",
-    "dateDisplay": "20. Feb 2027",
-    "location": "Halle 1, Messe-Allee, Leipzig",
+    "name": "RUHR-IN-LOVE 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "OLGA-Park, Oberhausen",
     "genre": [
-      "Hard Techno"
+      "Techno",
+      "House",
+      "Hardstyle"
     ],
-    "url": "https://arena-rave.de/",
+    "url": "https://www.ruhr-in-love.de",
     "soldOut": false,
-    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
-    "lat": 51.3945,
-    "lng": 12.4139
-  },
-  {
-    "name": "TECHNO FREITAG – ARENA EDITION 2027",
-    "date": "2027-05-21",
-    "dateDisplay": "21. Mai 2027",
-    "location": "Arena Berlin, Berlin",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://semmel.de/tour/tour-alias/techno-freitag-arena-edition-einzeltermine-fruehjahr-2027.html",
-    "soldOut": false,
-    "description": "Aus dem Twitch-Rekord-Format wird Live-Erlebnis: Internet-Star \"Hänno\" bringt Techno Freitag erstmals vor 9.000 Menschen in die Arena Berlin.",
-    "lat": 52.4967,
-    "lng": 13.4478
+    "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
+    "lat": 51.5013469,
+    "lng": 6.8746128
   }
 ];
 

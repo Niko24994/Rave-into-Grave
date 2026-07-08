@@ -25,12 +25,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/pollerwiesen-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/sputnik-spring-break-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,6 +32,12 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/ikarus-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/pollerwiesen-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -61,13 +61,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/hive-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/buchbusch-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/hive-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/fusion-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -79,7 +85,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/fusion-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/third-eye-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -103,7 +109,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/third-eye-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/airbeat-one-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -127,6 +133,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/awakenings-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/electric-residence-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -145,19 +157,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/airbeat-one-2026/</loc>
+    <loc>https://raveintograve.de/festival/deichbrand-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/awakenings-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/nation-of-gondwana-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://raveintograve.de/festival/sea-you-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/parookaville-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -187,31 +205,31 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/deichbrand-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/parookaville-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/nation-of-gondwana-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/lollapalooza-berlin-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/feel-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/bachblyten-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/stroga-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/open-beatz-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -229,24 +247,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/stroga-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/feel-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/open-beatz-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/love-family-park-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -254,6 +254,12 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/juicy-beats-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/nature-one-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -283,13 +289,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/nature-one-2026/</loc>
+    <loc>https://raveintograve.de/festival/mahagoni-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/mahagoni-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/shifted-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -313,12 +319,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/nimmerland-open-air-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/electrisize-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,13 +331,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/shifted-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/nimmerland-open-air-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://raveintograve.de/festival/module-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/highfield-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -361,13 +367,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/electric-horizon-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/echelon-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/echelon-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/electric-horizon-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -379,13 +385,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/highfield-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/lacuna-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/lacuna-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/zukunftsmusik-open-air-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/wilde-moehre-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -409,13 +421,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/zukunftsmusik-open-air-2026/</loc>
+    <loc>https://raveintograve.de/festival/indian-spirit-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/wilde-moehre-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/hell-festival-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/nibirii-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -451,25 +469,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/nibirii-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/hell-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/ferra-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/indian-spirit-2026/</loc>
+    <loc>https://raveintograve.de/festival/gluecksgefuehle-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -493,19 +499,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/gluecksgefuehle-festival-2026/</loc>
+    <loc>https://raveintograve.de/festival/camakavum-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://raveintograve.de/festival/solem-festival-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/camakavum-festival-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -577,6 +577,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/arena-rave-rostock-2026/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/toxicator-2026/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -607,6 +613,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/arena-rave-leipzig-2027/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/time-warp-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -614,6 +626,12 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/mayday-2027/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/techno-freitag-arena-edition-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -637,6 +655,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/affenkaefig-festival-2027/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/buchbusch-festival-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -649,19 +673,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/affenkaefig-festival-2027/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/hive-festival-2027/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/kindheitstraum-festival-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -673,19 +685,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/kindheitstraum-festival-2027/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/44-festival-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/arena-rave-leipzig-2027/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/techno-freitag-arena-edition-2027/</loc>
+    <loc>https://raveintograve.de/festival/ruhr-in-love-2027/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

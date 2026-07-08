@@ -404,6 +404,8 @@ const DISCOVERY_SOURCES = [
   { name: 'isleofsummer.de',                  url: 'https://www.isleofsummer.de/',                                            fn: makeFestivalScraper('ISLE OF SUMMER', 'Olympia Reitanlage Riem, München', ['Hard Techno', 'Techno', 'Hardstyle', 'Trance']) },
   // Amphoria Kevelaer
   { name: 'amphoria-kevelaer.de',             url: 'https://amphoria-kevelaer.de/',                                           fn: makeFestivalScraper('AMPHORIA', 'Schwarzer Bruch, Kevelaer', ['Techno']) },
+  // Arena Rave — Touring-Reihe, mehrere Staedte/Termine (siehe scrapeArenaRave)
+  { name: 'arena-rave.de',                    url: 'https://arena-rave.de/wp-json/wp/v2/event?per_page=50',                    fn: scrapeArenaRave },
   // Vortex Festival — naechster Termin noch nicht angekuendigt (Stand Juli 2026),
   // Seite ist JS-lastig (Cargo-Baukasten) und der Termin steht evtl. nur clientseitig.
   // Watch bleibt drin, damit er automatisch erscheint, sobald er als Text auf der
@@ -782,6 +784,51 @@ async function scrapeHavelbeats(_url) {
         _source: pageUrl, _auto: true
       });
     }
+  }
+  return results;
+}
+
+// Arena Rave — Touring-Reihe (angemietete Messehallen/Arenen, wechselnde Staedte).
+// Nutzt die WordPress-REST-API (eigener "event" Post-Type) statt der Startseite,
+// weil dort auch ein fremdes, cross-promotetes Club-Event (Boom Room/Docks Hamburg)
+// auftaucht, das keine Arena-Rave-Veranstaltung ist.
+async function scrapeArenaRave(_url) {
+  const apiUrl = 'https://arena-rave.de/wp-json/wp/v2/event?per_page=50';
+  const json = await fetchPage(apiUrl);
+  if (!json) return [];
+  let events;
+  try { events = JSON.parse(json); } catch { return []; }
+  if (!Array.isArray(events)) return [];
+
+  const results = [];
+  for (const ev of events) {
+    const city = (ev.title?.rendered || '').trim();
+    if (!city) continue;
+    const text = String(ev.content?.rendered || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const dates = extractFutureDates(text);
+    if (!dates.length) continue;
+    // Nur das fruehste Datum nehmen — Overnight-Raves erwaehnen oft noch
+    // einen Shuttle-Rueckfahrt-Termin am naechsten Morgen, kein zweiter Termin.
+    const date = dates.sort()[0];
+
+    const venueMatch = text.match(/ZUR\s+([A-ZÄÖÜ0-9À-Ž][A-ZÄÖÜ0-9À-Ž\s\-\.]*),\s*\d{4,5}\s+([A-ZÄÖÜ][A-ZÄÖÜ\s\-]*)/i);
+    const toTitleCase = (s) => s.trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+    const location = venueMatch
+      ? `${toTitleCase(venueMatch[1])}, ${toTitleCase(venueMatch[2])}`
+      : toTitleCase(city);
+
+    const year = date.slice(0, 4);
+    results.push({
+      name: `ARENA RAVE ${city.toUpperCase()} ${year}`,
+      date,
+      dateDisplay: formatDate(date),
+      location,
+      genre: ['Hard Techno'],
+      url: ev.link || 'https://arena-rave.de/',
+      soldOut: false,
+      description: `Angemietete Halle, großes Line-up — Arena Rave macht Station in ${toTitleCase(city)}.`,
+      _source: ev.link, _auto: true
+    });
   }
   return results;
 }
