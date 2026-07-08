@@ -996,12 +996,18 @@ function buildDiscoveryEntry({ name, dateText, location, genreText, link, source
 
   const url = link && link.startsWith('http') ? link : (link ? `https://${source}${link}` : '');
 
+  const genre = guessGenres(genreText + ' ' + name);
+  // Keine neuen reinen Hardcore-Festivals aufnehmen — bestehende bleiben, aber der
+  // Scraper soll nur Techno-nahe Events entdecken (Techno/Hard Techno/Schranz).
+  const technoAdjacent = ['Techno', 'Hard Techno', 'Schranz'];
+  if (!genre.some(g => technoAdjacent.includes(g))) return null;
+
   return {
     name: name.toUpperCase().substring(0, 80),
     date,
     dateDisplay: formatDate(date),
     location: location || 'Deutschland',
-    genre: guessGenres(genreText + ' ' + name),
+    genre,
     url,
     soldOut: false,
     description: '',
