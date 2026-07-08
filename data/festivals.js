@@ -1834,6 +1834,69 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128
+  },
+  {
+    "name": "44 FESTIVAL – 4 ENTERS KARLSRUHE 2026",
+    "date": "2026-05-23",
+    "dateDisplay": "23. Mai 2026",
+    "location": "Messe Karlsruhe, Rheinstetten",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": "Drei Areas gleichzeitig auf dem Messegelände — Container Arena, Gotec-Club und C2 Ost, mit Kobosil, Hannah Laing und Clara Cuvé.",
+    "lat": 48.9694,
+    "lng": 8.3277
+  },
+  {
+    "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
+    "date": "2027-01-09",
+    "dateDisplay": "9. Januar 2027",
+    "location": "Holstenhallen, Neumünster",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.festival-sh.de/bts-winter",
+    "soldOut": false,
+    "description": "Das Techno-Winter-Indoor-Festival im Norden — zwei Bühnen in den Holstenhallen, u.a. mit Axmo und Harris & Ford.",
+    "lat": 54.0728,
+    "lng": 9.9908
+  },
+  {
+    "name": "VOLUME X KRAGELUND FESTIVAL 2027",
+    "date": "2027-06-18",
+    "endDate": "2027-06-20",
+    "dateDisplay": "18.–20. Juni 2027",
+    "location": "Kragelund bei Viöl, Schleswig-Holstein",
+    "genre": [
+      "Hardstyle",
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "https://volume-x-event.de/",
+    "soldOut": false,
+    "description": "Über 6.000 Besucher, drei Stages zwischen Husum und Flensburg — die XCircus-Bühne im Zirkuszelt bringt Techno und Hard Techno.",
+    "lat": 54.6167,
+    "lng": 9.2
+  },
+  {
+    "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
+    "date": "2027-06-03",
+    "endDate": "2027-06-06",
+    "dateDisplay": "3.–6. Juni 2027",
+    "location": "Altes Lager, Niedergörsdorf",
+    "genre": [
+      "Techno",
+      "House",
+      "Psytrance"
+    ],
+    "url": "https://www.wurzelfestival.de/",
+    "soldOut": false,
+    "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
+    "lat": 51.9958,
+    "lng": 12.8898
   }
 ];
 
