@@ -11,3 +11,4 @@ scraper/geocode_local.mjs
 # Generierte Reel-Videos/Zwischendateien (nicht Teil der Website)
 social/output/
 social/.work/
+social/automation/*.log
