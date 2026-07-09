@@ -345,10 +345,46 @@ function buildHomepageSSR(festivals) {
   return { gridHtml, count: upcoming.length };
 }
 
+// Wandelt GROSSGESCHRIEBENE Festivalnamen in natürliche Lesbarkeit fuer den
+// SEO-Fliesstext um ("NATURE ONE" -> "Nature One").
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase());
+}
+
+// Entfernt Jahr/Edition-Suffixe, damit z.B. "HIVE FESTIVAL 2026" und
+// "HIVE FESTIVAL 2027" im SEO-Text nicht doppelt auftauchen.
+function baseFestivalName(name) {
+  return name
+    .replace(/\s*[—–-]\s*DAY\s*\d+$/i, '')
+    .replace(/\s+#\d+$/, '')
+    .replace(/\s+\d{4}$/, '')
+    .trim();
+}
+
+// Begrenzt auf eine handliche Auswahl statt aller ~130+ Festivals, damit der
+// Absatz nicht zur Textwueste wird — die vollstaendige Liste ist ueber die
+// Karten + Sitemap ohnehin crawlbar, hier reicht ein repraesentativer Auszug.
+const SEO_NAME_LIMIT = 50;
+
+function buildSeoNamesList(festivals) {
+  const seen = new Set();
+  const names = [];
+  for (const f of festivals) {
+    const base = baseFestivalName(f.name);
+    const key = base.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    names.push(toTitleCase(base));
+  }
+  names.sort((a, b) => a.localeCompare(b, 'de'));
+  return names.slice(0, SEO_NAME_LIMIT).join(', ');
+}
+
 async function injectHomepageSSR(festivals) {
   const indexPath = path.join(ROOT, 'index.html');
   let html = await fs.readFile(indexPath, 'utf-8');
   const { gridHtml, count } = buildHomepageSSR(festivals);
+  const seoNames = buildSeoNamesList(festivals);
 
   html = html.replace(
     /<!--SSR_FESTIVALS_START-->[\s\S]*?<!--SSR_FESTIVALS_END-->/,
@@ -357,6 +393,10 @@ async function injectHomepageSSR(festivals) {
   html = html.replace(
     /<!--SSR_COUNT_START-->[\s\S]*?<!--SSR_COUNT_END-->/,
     `<!--SSR_COUNT_START-->[${count}]<!--SSR_COUNT_END-->`
+  );
+  html = html.replace(
+    /<!--SEO_NAMES_START-->[\s\S]*?<!--SEO_NAMES_END-->/,
+    `<!--SEO_NAMES_START-->${seoNames}<!--SEO_NAMES_END-->`
   );
 
   await fs.writeFile(indexPath, html, 'utf-8');
