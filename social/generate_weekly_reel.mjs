@@ -27,8 +27,21 @@ const ROOT = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(__dirname, 'output');
 const WORK_DIR = path.join(__dirname, '.work');
 const W = 1080, H = 1920;
-const SECONDS_PER_PAGE = 6;
+const DEFAULT_SECONDS = 8;
+const SHORT_SECONDS = 4;
+const SHORT_THRESHOLD = 3;
 const PER_PAGE = 9;
+
+// Seite 1 laeuft immer die volle Standardzeit (auch wenn eine Woche mal duenn
+// besetzt ist). Nur eine noetige Folgeseite (Hochsaison, >PER_PAGE Festivals)
+// wird kuerzer angezeigt, wenn sie kaum noch Content hat.
+function pageDurations(groups) {
+  return groups.map((g, i) => {
+    if (i === 0) return DEFAULT_SECONDS;
+    const isLast = i === groups.length - 1;
+    return isLast && g.length <= SHORT_THRESHOLD ? SHORT_SECONDS : DEFAULT_SECONDS;
+  });
+}
 
 // ─── Chrome & ffmpeg finden ───
 
@@ -253,7 +266,8 @@ async function main() {
     console.log(`Seite ${i + 1}/${groups.length} gerendert (${groups[i].length} Festivals).`);
   }
 
-  const totalDuration = totalPages * SECONDS_PER_PAGE;
+  const durations = pageDurations(groups);
+  const totalDuration = durations.reduce((a, b) => a + b, 0);
   const bgVideo = path.join(ROOT, 'bg.mp4');
   const outVideo = path.join(OUT_DIR, `${mondayStr}_week_reel.mp4`);
 
@@ -262,9 +276,11 @@ async function main() {
 
   let filter = `[0:v]scale=-2:${H},crop=${W}:${H},eq=brightness=-0.06:saturation=0.9[bg];`;
   let prev = 'bg';
+  let cursor = 0;
   pageFiles.forEach((_, i) => {
-    const start = i * SECONDS_PER_PAGE;
-    const end = start + SECONDS_PER_PAGE;
+    const start = cursor;
+    const end = start + durations[i];
+    cursor = end;
     const next = `v${i + 1}`;
     filter += `[${prev}][${i + 1}:v]overlay=enable='between(t,${start},${end})'[${next}];`;
     prev = next;
