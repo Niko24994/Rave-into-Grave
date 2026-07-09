@@ -4400,6 +4400,7 @@
           "endDate": f.endDate || f.date,
           "description": f.description || `${f.name} — ${f.location}`,
           "url": f.url || "https://raveintograve.de/",
+          "image": ["https://raveintograve.de/og-image.png"],
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "location": {
@@ -4415,6 +4416,11 @@
             "@type": "Organization",
             "name": f.name.replace(/\s*\d{4}\s*$/, '').trim(),
             "url": f.url || ""
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": f.url || "https://raveintograve.de/",
+            "availability": f.soldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock"
           }
         };
       });

@@ -60,6 +60,7 @@ function renderPage(f, slug) {
     "endDate": f.endDate || f.date,
     "description": f.description || `${f.name} — ${f.location}`,
     "url": pageUrl,
+    "image": [`${SITE_URL}og-image.png`],
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {
@@ -75,6 +76,11 @@ function renderPage(f, slug) {
       "@type": "Organization",
       "name": f.name.replace(/\s*\d{4}\s*$/, '').trim(),
       "url": f.url || ""
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": f.url || pageUrl,
+      "availability": f.soldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock"
     }
   };
 
