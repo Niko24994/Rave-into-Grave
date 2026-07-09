@@ -412,6 +412,8 @@ const festivals = [
       "Electronic",
       "Rock"
     ],
+    "lat": 53.7686,
+    "lng": 8.6583,
     "url": "https://www.deichbrand.de",
     "soldOut": false,
     "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
