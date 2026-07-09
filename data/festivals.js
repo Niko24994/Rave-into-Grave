@@ -1948,6 +1948,21 @@ const festivals = [
     "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
     "lat": 50.9146,
     "lng": 6.9767
+  },
+  {
+    "name": "RAVE AND SUN FESTIVAL 2027",
+    "date": "2027-05-15",
+    "dateDisplay": "15. Mai 2027",
+    "location": "WM Arena, Gießen",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://raveandsun.net/",
+    "soldOut": false,
+    "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
+    "lat": 50.586,
+    "lng": 8.6797
   }
 ];
 
