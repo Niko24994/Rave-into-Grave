@@ -144,6 +144,11 @@ const SKIP_DOMAINS = new Set([
   'eventbrite.de', 'eventbrite.com', 'eventbrite.nl',
   'ra.co',
   'holypriest.os.fan',
+  // Social Media: erfordert Login, liefert unauthentifiziert keinen brauchbaren
+  // Inhalt. Festivals ohne eigene Website (z.B. "Es kracht die Nacht", das nur
+  // auf Instagram laeuft) brauchen dann manuelle Termin-Updates.
+  'instagram.com',
+  'facebook.com',
   // Ticket-Plattformen: listen viele Events auf einmal → Falsch-Treffer
   'ticket.io',
   // Venues mit dichtem Wochenprogramm: jede Veranstaltung heißt z.B. "Faceless Presents: …"

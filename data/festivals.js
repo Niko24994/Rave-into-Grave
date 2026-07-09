@@ -1963,6 +1963,38 @@ const festivals = [
     "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
     "lat": 50.586,
     "lng": 8.6797
+  },
+  {
+    "name": "ES KRACHT DIE NACHT 2026",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Marina Schlabendorf am See, Luckau",
+    "genre": [
+      "Hard Techno",
+      "Hardcore",
+      "Electronic"
+    ],
+    "url": "https://www.instagram.com/es_kracht_die_nacht/",
+    "soldOut": false,
+    "description": "11. Open-Air-Jubiläum an der Marina Schlabendorf am See — drei Bühnen, u.a. mit Taktstörer.",
+    "lat": 51.7867,
+    "lng": 13.7967
+  },
+  {
+    "name": "GEHT RAUS! OPEN AIR 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Hofwiesenpark, Gera",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
+    "soldOut": false,
+    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
+    "lat": 50.8803,
+    "lng": 12.0796
   }
 ];
 
