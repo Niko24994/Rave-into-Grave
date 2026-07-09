@@ -1897,6 +1897,23 @@ const festivals = [
     "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
     "lat": 51.9958,
     "lng": 12.8898
+  },
+  {
+    "name": "FOREST FORGE FESTIVAL 2026",
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
+    "dateDisplay": "14.–15. August 2026",
+    "location": "Historische Waldschmiede, Wieckenberg (Wietze)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Drum and Bass"
+    ],
+    "url": "https://forestforge.de/",
+    "soldOut": false,
+    "description": "Natur trifft Techno an einer historischen Waldschmiede — zwei Tage Musik, Feuer und Wald bei Wietze.",
+    "lat": 52.6333,
+    "lng": 9.8333
   }
 ];
 
