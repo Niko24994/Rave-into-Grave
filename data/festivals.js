@@ -2078,6 +2078,35 @@ const festivals = [
     "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
     "lat": 51.1667,
     "lng": 12.0333
+  },
+  {
+    "name": "CONTACT FESTIVAL 2026",
+    "date": "2026-12-05",
+    "dateDisplay": "5. Dezember 2026",
+    "location": "Zenith, München",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.contact-festival.de/",
+    "soldOut": false,
+    "description": "Indoor-Festival im Zenith München — die Kohlebunker-Stage steht für brachialen Hard Techno, 5.500 Gäste.",
+    "lat": 48.1969,
+    "lng": 11.5836
+  },
+  {
+    "name": "TELETECH FESTIVAL 2027",
+    "date": "2027-03-12",
+    "dateDisplay": "12. März 2027",
+    "location": "DM Arena, Rheinstetten (Karlsruhe)",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://teletech-events.de/",
+    "soldOut": false,
+    "description": "Reines Techno-Line-up in der DM Arena bei Karlsruhe.",
+    "lat": 48.9694,
+    "lng": 8.3277
   }
 ];
 
