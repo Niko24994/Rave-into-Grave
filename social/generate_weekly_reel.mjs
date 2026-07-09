@@ -27,7 +27,7 @@ const ROOT = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(__dirname, 'output');
 const WORK_DIR = path.join(__dirname, '.work');
 const W = 1080, H = 1920;
-const DEFAULT_SECONDS = 8;
+const DEFAULT_SECONDS = 7;
 const SHORT_SECONDS = 4;
 const SHORT_THRESHOLD = 3;
 const PER_PAGE = 9;
