@@ -215,7 +215,7 @@ const festivals = [
     "date": "2026-07-03",
     "endDate": "2026-07-06",
     "dateDisplay": "3.–6. Juli 2026",
-    "location": "Oakyard Grounds, bei Berlin",
+    "location": "Oakyard Grounds, Wilhelmsburg (Vorpommern)",
     "genre": [
       "Techno",
       "Experimental"
@@ -223,8 +223,8 @@ const festivals = [
     "url": "https://www.thirdeyefestival.de/",
     "soldOut": false,
     "description": "Psychedelic Techno Gathering im Wald bei Berlin — DJ Nobu, Erika, Cio D'Or und Decoder über vier Tage im Underground-Kosmos.",
-    "lat": 56.8407289,
-    "lng": 14.7951522
+    "lat": 53.65,
+    "lng": 13.98
   },
   {
     "name": "MODUS FESTIVAL 2026",
@@ -1069,12 +1069,12 @@ const festivals = [
     "name": "TFELD FESTIVAL 2026",
     "date": "2026-08-22",
     "dateDisplay": "22. Aug 2026",
-    "location": "Berlin",
+    "location": "Flughafen Tempelhof, Berlin",
     "genre": [
       "Techno",
       "Electronic"
     ],
-    "url": "",
+    "url": "https://tfeld.berlin/",
     "soldOut": false,
     "description": "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld.",
     "lat": 52.5173885,
@@ -1356,7 +1356,7 @@ const festivals = [
     ],
     "url": "https://rheingruen-openair.de/",
     "soldOut": false,
-    "description": "",
+    "description": "Rheinstrandbad Karlsruhe wird zur Bühne für Hard Techno, Industrial und Bouncy Grooves — zwei Tage direkt am Wasser.",
     "lat": 48.9995321,
     "lng": 8.2926327
   },
@@ -1695,7 +1695,7 @@ const festivals = [
     ],
     "url": "https://docklands-festival.de/",
     "soldOut": false,
-    "description": "",
+    "description": "Industrieflair im Hawerkamp Münster — rund 100 Acts zwischen House, Techno, Trance und Hard Techno für 15.000 Gäste.",
     "lat": 51.9467971,
     "lng": 7.6387486
   },
