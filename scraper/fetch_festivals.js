@@ -423,6 +423,10 @@ const DISCOVERY_SOURCES = [
   // naechster Termin noch nicht angekuendigt. Watch bleibt drin, damit die
   // naechste Ausgabe automatisch erscheint, sobald ein Datum online steht.
   { name: 'electrifinity.world',               url: 'https://electrifinity.world/',                                            fn: makeFestivalScraper('ELECTRIFINITY', 'Ehem. US-Kaserne, Bad Aibling', ['Hard Techno', 'Techno', 'Hardstyle']) },
+  // Spaetschicht Saar — etabliertes Techno-Festival am Flugplatz Zweibruecken
+  // (2.500 Besucher laut Lokalpresse), aber die Seite ist clientseitig gerendert
+  // und zeigt kein Datum im rohen HTML (Stand Juli 2026) — genau wie Vortex.
+  { name: 'spaetschicht-saar.de',             url: 'https://www.spaetschicht-saar.de/',                                       fn: makeFestivalScraper('SPÄTSCHICHT SAAR', 'Flugplatz, Zweibrücken', ['Techno']) },
   // Hasardeur Festival Karlsruhe
   { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
   // Hard.Noise Festival Detern
