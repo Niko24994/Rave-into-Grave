@@ -414,6 +414,10 @@ const DISCOVERY_SOURCES = [
   // WinterBeats — 2026er Ausgabe (21.02.2026) bereits vorbei, 2027er Termin laut Website noch
   // T.B.A. (Stand Juli 2026). Watch bleibt drin, damit der naechste Termin automatisch erscheint.
   { name: 'winterbeats.de',                   url: 'https://winterbeats.de/',                                                 fn: makeFestivalScraper('WINTERBEATS', 'Saturn Arena, Ingolstadt', ['Hard Techno', 'Trance', 'Electronic']) },
+  // Electrifinity — Ausgabe 19.-21.06.2026 bereits vorbei (Stand Juli 2026),
+  // naechster Termin noch nicht angekuendigt. Watch bleibt drin, damit die
+  // naechste Ausgabe automatisch erscheint, sobald ein Datum online steht.
+  { name: 'electrifinity.world',               url: 'https://electrifinity.world/',                                            fn: makeFestivalScraper('ELECTRIFINITY', 'Ehem. US-Kaserne, Bad Aibling', ['Hard Techno', 'Techno', 'Hardstyle']) },
   // Hasardeur Festival Karlsruhe
   { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
   // Hard.Noise Festival Detern

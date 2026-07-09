@@ -1916,6 +1916,38 @@ const festivals = [
     "description": "Natur trifft Techno an einer historischen Waldschmiede — zwei Tage Musik, Feuer und Wald bei Wietze.",
     "lat": 52.6333,
     "lng": 9.8333
+  },
+  {
+    "name": "MEDIVAL FESTIVAL 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-19",
+    "dateDisplay": "17.–19. Juli 2026",
+    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
+    "genre": [
+      "Techno",
+      "House",
+      "Drum and Bass"
+    ],
+    "url": "https://medival-festival.de/",
+    "soldOut": false,
+    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
+    "lat": 50.9439,
+    "lng": 10.0692
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-09-26",
+    "dateDisplay": "26. September 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9146,
+    "lng": 6.9767
   }
 ];
 
