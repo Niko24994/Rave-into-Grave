@@ -1995,6 +1995,89 @@ const festivals = [
     "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
     "lat": 50.8803,
     "lng": 12.0796
+  },
+  {
+    "name": "WHOLE FESTIVAL 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-20",
+    "dateDisplay": "17.–20. Juli 2026",
+    "location": "Ferropolis, Gräfenhainichen",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.wholefestival.com/",
+    "soldOut": false,
+    "description": "Queeres Nightlife-Festival in der Stadt aus Eisen — sechs Bühnen von hartem Techno bis sonnigem House.",
+    "lat": 51.7590874,
+    "lng": 12.4487506
+  },
+  {
+    "name": "BUCHT DER TRÄUMER 2026",
+    "date": "2026-08-13",
+    "endDate": "2026-08-17",
+    "dateDisplay": "13.–17. August 2026",
+    "location": "Helenesee, Frankfurt (Oder)",
+    "genre": [
+      "Techno",
+      "Tech House",
+      "Psytrance"
+    ],
+    "url": "https://bucht-der-traeumer.de/en/",
+    "soldOut": false,
+    "description": "Zehn Bühnen am Westufer des Helenesees — 13.000 Gäste, Lineup traditionell unangekündigt.",
+    "lat": 52.3364,
+    "lng": 14.5089
+  },
+  {
+    "name": "FREIRAUM OPEN AIR 2026",
+    "date": "2026-07-25",
+    "endDate": "2026-07-26",
+    "dateDisplay": "25.–26. Juli 2026",
+    "location": "Waldbühne, Trappenkamp",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.instagram.com/freiraumoa/",
+    "soldOut": false,
+    "description": "Eines der größten Techno-Events Schleswig-Holsteins — Waldbühne Trappenkamp unter freiem Himmel.",
+    "lat": 54.0122,
+    "lng": 10.3269
+  },
+  {
+    "name": "EULENFLUG FESTIVAL 2026",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateDisplay": "28.–30. August 2026",
+    "location": "Linden bei Rothenburg ob der Tauber",
+    "genre": [
+      "Techno",
+      "House",
+      "Minimal"
+    ],
+    "url": "https://grenz-kunst.de/",
+    "soldOut": false,
+    "description": "Wald, Kunst und Musik im romantischen Franken — selbstgebaute Bühnen zwischen Techno, House und Minimal.",
+    "lat": 49.3667,
+    "lng": 10.25
+  },
+  {
+    "name": "KEPOTOPIVAL 2026",
+    "date": "2026-08-26",
+    "endDate": "2026-08-31",
+    "dateDisplay": "26.–31. August 2026",
+    "location": "Kepotopia, Teuchern",
+    "genre": [
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "https://kepotopia.de/",
+    "soldOut": false,
+    "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
+    "lat": 51.1667,
+    "lng": 12.0333
   }
 ];
 
