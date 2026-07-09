@@ -27,19 +27,22 @@ const ROOT = path.resolve(__dirname, '..');
 const OUT_DIR = path.join(__dirname, 'output');
 const WORK_DIR = path.join(__dirname, '.work');
 const W = 1080, H = 1920;
-const DEFAULT_SECONDS = 7;
 const SHORT_SECONDS = 4;
 const SHORT_THRESHOLD = 3;
 const PER_PAGE = 9;
 
-// Seite 1 laeuft immer die volle Standardzeit (auch wenn eine Woche mal duenn
-// besetzt ist). Nur eine noetige Folgeseite (Hochsaison, >PER_PAGE Festivals)
-// wird kuerzer angezeigt, wenn sie kaum noch Content hat.
+// Nur eine Seite insgesamt -> mehr Zeit zum Lesen/Screenshotten, da nichts
+// weiter folgt (8s). Mehrere Seiten -> etwas knapper pro Seite, damit das
+// Video nicht unnoetig lang wird (7s). Seite 1 laeuft immer die volle
+// Standardzeit (auch wenn eine Woche mal duenn besetzt ist). Nur eine
+// noetige Folgeseite (Hochsaison, >PER_PAGE Festivals) wird kuerzer
+// angezeigt, wenn sie kaum noch Content hat.
 function pageDurations(groups) {
+  const defaultSeconds = groups.length === 1 ? 8 : 7;
   return groups.map((g, i) => {
-    if (i === 0) return DEFAULT_SECONDS;
+    if (i === 0) return defaultSeconds;
     const isLast = i === groups.length - 1;
-    return isLast && g.length <= SHORT_THRESHOLD ? SHORT_SECONDS : DEFAULT_SECONDS;
+    return isLast && g.length <= SHORT_THRESHOLD ? SHORT_SECONDS : defaultSeconds;
   });
 }
 
