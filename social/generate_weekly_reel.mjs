@@ -56,7 +56,12 @@ function findFfmpeg() {
 // ─── Festivals laden ───
 
 function toDateStr(d) {
-  return d.toISOString().slice(0, 10);
+  // Lokales Datum, nicht toISOString() (das rechnet auf UTC um und verschiebt
+  // in CEST/CET das Datum einen Tag zurueck).
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 function loadAllFestivals() {
