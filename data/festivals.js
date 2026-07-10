@@ -416,21 +416,6 @@ const festivals = [
     "lng": 9.0167905
   },
   {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-07-12",
-    "dateDisplay": "12. Juli 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
-  },
-  {
     "name": "DEICHBRAND 2026",
     "date": "2026-07-16",
     "endDate": "2026-07-19",
@@ -533,21 +518,6 @@ const festivals = [
     "lng": 12.4487506
   },
   {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-07-17",
-    "dateDisplay": "17. Juli 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
-  },
-  {
     "name": "HEXON FESTIVAL #2 2026",
     "date": "2026-07-18",
     "dateDisplay": "18. Juli 2026",
@@ -625,21 +595,6 @@ const festivals = [
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
     "lat": 52.5173885,
     "lng": 13.3951309
-  },
-  {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-07-18",
-    "dateDisplay": "18. Juli 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
   },
   {
     "name": "FEEL FESTIVAL 2026",
@@ -803,21 +758,6 @@ const festivals = [
     "description": "Eines der größten Techno-Events Schleswig-Holsteins — Waldbühne Trappenkamp unter freiem Himmel.",
     "lat": 54.0122,
     "lng": 10.3269
-  },
-  {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-07-25",
-    "dateDisplay": "25. Juli 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
   },
   {
     "name": "NATURE ONE 2026",
@@ -1707,36 +1647,6 @@ const festivals = [
     "lng": 8.5239462
   },
   {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-11-07",
-    "dateDisplay": "7. November 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
-  },
-  {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-11-13",
-    "dateDisplay": "13. November 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
-  },
-  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. Nov 2026",
@@ -1845,21 +1755,6 @@ const festivals = [
     "lng": 9.1800132
   },
   {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-12-19",
-    "dateDisplay": "19. Dezember 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
-  },
-  {
     "name": "ARMY OF HARDCORE 2026",
     "date": "2026-12-25",
     "dateDisplay": "25. Dez 2026",
@@ -1916,21 +1811,6 @@ const festivals = [
     "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
     "lat": 51.3945,
     "lng": 12.4139
-  },
-  {
-    "name": "UNREAL XXL OPEN AIR 2027",
-    "date": "2027-03-06",
-    "dateDisplay": "6. März 2027",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9179985,
-    "lng": 6.9768127
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2214,6 +2094,22 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128
+  },
+  {
+    "name": "UNREAL WEEKENDER 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-18",
+    "dateDisplay": "17.–18. Juli 2026",
+    "location": "Junkyard, Dortmund",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": true,
+    "description": "Zwei Tage und Naechte non-stop — Unreal bespielt das Junkyard Dortmund mit zwei Line-ups, Freitag bis Sonntagfrueh.",
+    "lat": 51.5178,
+    "lng": 7.4917
   }
 ];
 

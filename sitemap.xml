@@ -163,12 +163,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/deichbrand-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -205,12 +199,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-07-17/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/hexon-festival-2-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -236,12 +224,6 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/lollapalooza-berlin-2026/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-07-18/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -302,12 +284,6 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/freiraum-open-air-2026/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-07-25/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -601,7 +577,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-09-26/</loc>
+    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -649,18 +625,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-11-07/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-11-13/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/fairground-festival-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -703,12 +667,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2026-2026-12-19/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/army-of-hardcore-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -728,12 +686,6 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/arena-rave-leipzig-2027/</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/unreal-xxl-open-air-2027/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -842,6 +794,12 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/ruhr-in-love-2027/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/unreal-weekender-2026/</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

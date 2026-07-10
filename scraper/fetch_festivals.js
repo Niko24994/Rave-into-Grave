@@ -169,6 +169,14 @@ const SKIP_DOMAINS = new Set([
   'theaos.de',
   // Org-Website mit diversen Event-Typen (Afterpartys, Cleanup-Days etc.), nicht nur die Parade.
   'ravetheplanet.com',
+  // Unreal Germany bespielt viele verschiedene Venues/Staedte (Suedbruecke Koeln,
+  // Junkyard Dortmund, Stutyard Stuttgart, World Club Dome, Face2Face ...) unter
+  // einer Domain. monitorKnownFestivalSites() hat jedes gefundene Datum faelschlich
+  // als weitere "UNREAL XXL OPEN AIR"-Ausgabe unter der Koeln-Adresse gespeichert
+  // (9 Falsch-Treffer, u.a. den Junkyard-Dortmund-Termin am 17./18.07. als zwei
+  // separate Koeln-Eintraege). Neue Termine muessen manuell mit korrektem
+  // Venue/Namen ergaenzt werden.
+  'unrealgermany.de',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
