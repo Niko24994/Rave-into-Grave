@@ -249,7 +249,7 @@ const festivals = [
       "Techno",
       "Electronic"
     ],
-    "url": "https://de.ra.co/events/2361023",
+    "url": "https://www.instagram.com/modus.festival/",
     "soldOut": false,
     "description": "Hamburger Techno-Open-Air mit Stephan Bodzin, Âme, Monika Kruse, Extrawelt — underground trifft auf Waterfront-Vibes.",
     "lat": 53.5501721,
@@ -1334,7 +1334,7 @@ const festivals = [
       "Techno",
       "Electronic"
     ],
-    "url": "https://www.eventbrite.de/e/bassaffekt-open-air-2026-tickets-1983602124351",
+    "url": "https://www.instagram.com/bassaffekt/",
     "soldOut": false,
     "description": "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans.",
     "lat": 48.2627004,
@@ -1486,7 +1486,7 @@ const festivals = [
       "Hardcore",
       "Schranz"
     ],
-    "url": "https://camakavum.ticket.io",
+    "url": "https://www.instagram.com/camakavum_festival/",
     "soldOut": false,
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal.",
     "lat": 53.4489349,
@@ -1501,7 +1501,7 @@ const festivals = [
       "Techno",
       "Electronic"
     ],
-    "url": "https://www.eventbrite.de/e/solem-tickets-1983433817942",
+    "url": "",
     "soldOut": false,
     "description": "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe.",
     "lat": 51.3309061,
@@ -1596,7 +1596,7 @@ const festivals = [
       "Schranz",
       "Techno"
     ],
-    "url": "https://hive.ticket.io/27MG6YJh/",
+    "url": "https://hive-festival.de",
     "soldOut": false,
     "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
     "lat": 51.3963707,
@@ -1748,7 +1748,7 @@ const festivals = [
       "Hard Techno",
       "Techno"
     ],
-    "url": "https://ra.co/events/2355526",
+    "url": "https://www.unrealgermany.de/",
     "soldOut": false,
     "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren.",
     "lat": 48.7784485,

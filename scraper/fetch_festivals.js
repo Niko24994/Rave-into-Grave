@@ -179,6 +179,17 @@ const SKIP_DOMAINS = new Set([
   'unrealgermany.de',
 ]);
 
+// Festivals ohne eigene Website (nur Eventbrite/Instagram als einzige Quelle) —
+// "url" bleibt bewusst leer statt auf die Ticket-Plattform zu zeigen, damit der
+// "Zur Website"-Button auf der Seite nicht wie Werbung fuer Eventbrite/RA/ticket.io
+// wirkt. eventbrite.de/ra.co/ticket.io stehen bereits oben in SKIP_DOMAINS, werden
+// also nicht automatisch ueberwacht. Wird der Scraper hier erneut faendig (z.B. eine
+// neue SOLEM-Ausgabe ueber die Discovery-Quellen), bitte manuell pruefen, ob der
+// Veranstalter inzwischen eine eigene Website hat, bevor der Fund uebernommen wird.
+const NO_WEBSITE_YET = new Set([
+  'solem',
+]);
+
 // Domains die eine VENUE sind mit strukturiertem Kalender —
 // hier gezielt nach dem vollen Festival-Namen im Kontext suchen
 const VENUE_DOMAINS = new Set([
@@ -1068,6 +1079,15 @@ function mergeIntoExisting(existing, candidates) {
     //    Verhindert Start-/End-Datum-Duplikate bei mehrtägigen Festivals
     //    (z.B. Open Beatz Juli 24 UND Juli 26 würden beide eingetragen)
     const cBase = baseName(c.name);
+
+    // 1.5 Bekannte Festivals ohne eigene Website (s. NO_WEBSITE_YET oben): nicht
+    // automatisch mit dem Discovery-Link (Eventbrite/RA/…) übernehmen — erst
+    // manuell prüfen, ob der Veranstalter inzwischen eine eigene Seite hat.
+    if ([...NO_WEBSITE_YET].some(k => cBase.includes(k))) {
+      console.log(`  ⏸  ${c.name} übersprungen — kein automatischer Website-Link, manuell prüfen (NO_WEBSITE_YET)`);
+      continue;
+    }
+
     const cYear = c.date.slice(0, 4);
     const cMonth = parseInt(c.date.slice(5, 7));
     const nearDuplicate = existing.some(f => {
