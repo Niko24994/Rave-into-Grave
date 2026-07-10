@@ -83,6 +83,20 @@ const festivals = [
     "lng": 10.2350723
   },
   {
+    "name": "44 FESTIVAL – 4 ENTERS KARLSRUHE 2026",
+    "date": "2026-05-23",
+    "dateDisplay": "23. Mai 2026",
+    "location": "Messe Karlsruhe, Rheinstetten",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://44labelgroup.events/",
+    "soldOut": false,
+    "description": "Drei Areas gleichzeitig auf dem Messegelände — Container Arena, Gotec-Club und C2 Ost, mit Kobosil, Hannah Laing und Clara Cuvé.",
+    "lat": 48.9694,
+    "lng": 8.3277
+  },
+  {
     "name": "POLLERWIESEN FESTIVAL 2026",
     "date": "2026-05-24",
     "dateDisplay": "24. Mai 2026",
@@ -402,6 +416,21 @@ const festivals = [
     "lng": 9.0167905
   },
   {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-07-12",
+    "dateDisplay": "12. Juli 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
     "name": "DEICHBRAND 2026",
     "date": "2026-07-16",
     "endDate": "2026-07-19",
@@ -468,6 +497,55 @@ const festivals = [
     "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
     "lat": 51.6031019,
     "lng": 6.1433899
+  },
+  {
+    "name": "MEDIVAL FESTIVAL 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-19",
+    "dateDisplay": "17.–19. Juli 2026",
+    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
+    "genre": [
+      "Techno",
+      "House",
+      "Drum and Bass"
+    ],
+    "url": "https://medival-festival.de/",
+    "soldOut": false,
+    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
+    "lat": 50.9439,
+    "lng": 10.0692
+  },
+  {
+    "name": "WHOLE FESTIVAL 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-20",
+    "dateDisplay": "17.–20. Juli 2026",
+    "location": "Ferropolis, Gräfenhainichen",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.wholefestival.com/",
+    "soldOut": false,
+    "description": "Queeres Nightlife-Festival in der Stadt aus Eisen — sechs Bühnen von hartem Techno bis sonnigem House.",
+    "lat": 51.7590874,
+    "lng": 12.4487506
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-07-17",
+    "dateDisplay": "17. Juli 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -549,6 +627,21 @@ const festivals = [
     "lng": 13.3951309
   },
   {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
     "name": "FEEL FESTIVAL 2026",
     "date": "2026-07-23",
     "endDate": "2026-07-26",
@@ -616,6 +709,23 @@ const festivals = [
     "lng": 11.077298
   },
   {
+    "name": "ES KRACHT DIE NACHT 2026",
+    "date": "2026-07-24",
+    "endDate": "2026-07-26",
+    "dateDisplay": "24.–26. Juli 2026",
+    "location": "Marina Schlabendorf am See, Luckau",
+    "genre": [
+      "Hard Techno",
+      "Hardcore",
+      "Electronic"
+    ],
+    "url": "https://www.instagram.com/es_kracht_die_nacht/",
+    "soldOut": false,
+    "description": "11. Open-Air-Jubiläum an der Marina Schlabendorf am See — drei Bühnen, u.a. mit Taktstörer.",
+    "lat": 51.7867,
+    "lng": 13.7967
+  },
+  {
     "name": "VERKNIPT OBERHAUSEN 2026",
     "date": "2026-07-25",
     "dateDisplay": "25. Juli 2026",
@@ -677,6 +787,37 @@ const festivals = [
     "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
     "lat": 51.4953414,
     "lng": 7.4768236
+  },
+  {
+    "name": "FREIRAUM OPEN AIR 2026",
+    "date": "2026-07-25",
+    "endDate": "2026-07-26",
+    "dateDisplay": "25.–26. Juli 2026",
+    "location": "Waldbühne, Trappenkamp",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.instagram.com/freiraumoa/",
+    "soldOut": false,
+    "description": "Eines der größten Techno-Events Schleswig-Holsteins — Waldbühne Trappenkamp unter freiem Himmel.",
+    "lat": 54.0122,
+    "lng": 10.3269
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-07-25",
+    "dateDisplay": "25. Juli 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
   },
   {
     "name": "NATURE ONE 2026",
@@ -921,6 +1062,23 @@ const festivals = [
     "lng": 12.4534826
   },
   {
+    "name": "BUCHT DER TRÄUMER 2026",
+    "date": "2026-08-13",
+    "endDate": "2026-08-17",
+    "dateDisplay": "13.–17. August 2026",
+    "location": "Helenesee, Frankfurt (Oder)",
+    "genre": [
+      "Techno",
+      "Tech House",
+      "Psytrance"
+    ],
+    "url": "https://bucht-der-traeumer.de/en/",
+    "soldOut": false,
+    "description": "Zehn Bühnen am Westufer des Helenesees — 13.000 Gäste, Lineup traditionell unangekündigt.",
+    "lat": 52.3364,
+    "lng": 14.5089
+  },
+  {
     "name": "CHIMAERA FESTIVAL 2026",
     "date": "2026-08-14",
     "endDate": "2026-08-16",
@@ -986,6 +1144,23 @@ const festivals = [
     "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse.",
     "lat": 47.8640504,
     "lng": 12.0097685
+  },
+  {
+    "name": "FOREST FORGE FESTIVAL 2026",
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
+    "dateDisplay": "14.–15. August 2026",
+    "location": "Historische Waldschmiede, Wieckenberg (Wietze)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Drum and Bass"
+    ],
+    "url": "https://forestforge.de/",
+    "soldOut": false,
+    "description": "Natur trifft Techno an einer historischen Waldschmiede — zwei Tage Musik, Feuer und Wald bei Wietze.",
+    "lat": 52.6333,
+    "lng": 9.8333
   },
   {
     "name": "ELECTRIC HORIZON FESTIVAL 2026",
@@ -1129,6 +1304,22 @@ const festivals = [
     "lng": 11.509997
   },
   {
+    "name": "KEPOTOPIVAL 2026",
+    "date": "2026-08-26",
+    "endDate": "2026-08-31",
+    "dateDisplay": "26.–31. August 2026",
+    "location": "Kepotopia, Teuchern",
+    "genre": [
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "https://kepotopia.de/",
+    "soldOut": false,
+    "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
+    "lat": 51.1667,
+    "lng": 12.0333
+  },
+  {
     "name": "HELL FESTIVAL 2026",
     "date": "2026-08-27",
     "endDate": "2026-08-30",
@@ -1161,6 +1352,23 @@ const festivals = [
     "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
     "lat": 50.8031684,
     "lng": 6.4820806
+  },
+  {
+    "name": "EULENFLUG FESTIVAL 2026",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateDisplay": "28.–30. August 2026",
+    "location": "Linden bei Rothenburg ob der Tauber",
+    "genre": [
+      "Techno",
+      "House",
+      "Minimal"
+    ],
+    "url": "https://grenz-kunst.de/",
+    "soldOut": false,
+    "description": "Wald, Kunst und Musik im romantischen Franken — selbstgebaute Bühnen zwischen Techno, House und Minimal.",
+    "lat": 49.3667,
+    "lng": 10.25
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -1314,6 +1522,21 @@ const festivals = [
     "lng": 8.4459285
   },
   {
+    "name": "GEHT RAUS! OPEN AIR 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Hofwiesenpark, Gera",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
+    "soldOut": false,
+    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
+    "lat": 50.8803,
+    "lng": 12.0796
+  },
+  {
     "name": "CAMAKAVUM FESTIVAL 2026",
     "date": "2026-09-11",
     "endDate": "2026-09-13",
@@ -1359,6 +1582,21 @@ const festivals = [
     "description": "Rheinstrandbad Karlsruhe wird zur Bühne für Hard Techno, Industrial und Bouncy Grooves — zwei Tage direkt am Wasser.",
     "lat": 48.9995321,
     "lng": 8.2926327
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-09-26",
+    "dateDisplay": "26. September 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9146,
+    "lng": 6.9767
   },
   {
     "name": "SYNDICATE 2026",
@@ -1469,6 +1707,36 @@ const festivals = [
     "lng": 8.5239462
   },
   {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-11-13",
+    "dateDisplay": "13. November 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. Nov 2026",
@@ -1531,6 +1799,21 @@ const festivals = [
     "lng": 8.5239462
   },
   {
+    "name": "CONTACT FESTIVAL 2026",
+    "date": "2026-12-05",
+    "dateDisplay": "5. Dezember 2026",
+    "location": "Zenith, München",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.contact-festival.de/",
+    "soldOut": false,
+    "description": "Indoor-Festival im Zenith München — die Kohlebunker-Stage steht für brachialen Hard Techno, 5.500 Gäste.",
+    "lat": 48.1969,
+    "lng": 11.5836
+  },
+  {
     "name": "44 LABEL X STUTYARD 2026",
     "date": "2026-12-12",
     "dateDisplay": "12. Dez 2026",
@@ -1562,6 +1845,21 @@ const festivals = [
     "lng": 9.1800132
   },
   {
+    "name": "UNREAL XXL OPEN AIR 2026",
+    "date": "2026-12-19",
+    "dateDisplay": "19. Dezember 2026",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
     "name": "ARMY OF HARDCORE 2026",
     "date": "2026-12-25",
     "dateDisplay": "25. Dez 2026",
@@ -1574,6 +1872,21 @@ const festivals = [
     "description": "Weihnachten hardcore-style — Army of Hardcore macht Bescherung auf die härteste Art möglich.",
     "lat": 51.4835582,
     "lng": 6.8666494
+  },
+  {
+    "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
+    "date": "2027-01-09",
+    "dateDisplay": "9. Januar 2027",
+    "location": "Holstenhallen, Neumünster",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.festival-sh.de/bts-winter",
+    "soldOut": false,
+    "description": "Das Techno-Winter-Indoor-Festival im Norden — zwei Bühnen in den Holstenhallen, u.a. mit Axmo und Harris & Ford.",
+    "lat": 54.0728,
+    "lng": 9.9908
   },
   {
     "name": "APEX 2027",
@@ -1603,6 +1916,35 @@ const festivals = [
     "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
     "lat": 51.3945,
     "lng": 12.4139
+  },
+  {
+    "name": "UNREAL XXL OPEN AIR 2027",
+    "date": "2027-03-06",
+    "dateDisplay": "6. März 2027",
+    "location": "Südbrücke, Köln",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
+    "lat": 50.9179985,
+    "lng": 6.9768127
+  },
+  {
+    "name": "TELETECH FESTIVAL 2027",
+    "date": "2027-03-12",
+    "dateDisplay": "12. März 2027",
+    "location": "DM Arena, Rheinstetten (Karlsruhe)",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://teletech-events.de/",
+    "soldOut": false,
+    "description": "Reines Techno-Line-up in der DM Arena bei Karlsruhe.",
+    "lat": 48.9694,
+    "lng": 8.3277
   },
   {
     "name": "TIME WARP 2027",
@@ -1636,6 +1978,21 @@ const festivals = [
     "lng": 7.4602637
   },
   {
+    "name": "RAVE AND SUN FESTIVAL 2027",
+    "date": "2027-05-15",
+    "dateDisplay": "15. Mai 2027",
+    "location": "WM Arena, Gießen",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://raveandsun.net/",
+    "soldOut": false,
+    "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
+    "lat": 50.586,
+    "lng": 8.6797
+  },
+  {
     "name": "TECHNO FREITAG – ARENA EDITION 2027",
     "date": "2027-05-21",
     "dateDisplay": "21. Mai 2027",
@@ -1663,6 +2020,23 @@ const festivals = [
     "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
     "lat": 49.0068705,
     "lng": 8.4034195
+  },
+  {
+    "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
+    "date": "2027-06-03",
+    "endDate": "2027-06-06",
+    "dateDisplay": "3.–6. Juni 2027",
+    "location": "Altes Lager, Niedergörsdorf",
+    "genre": [
+      "Techno",
+      "House",
+      "Psytrance"
+    ],
+    "url": "https://www.wurzelfestival.de/",
+    "soldOut": false,
+    "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
+    "lat": 51.9958,
+    "lng": 12.8898
   },
   {
     "name": "WORLD CLUB DOME 2027",
@@ -1714,6 +2088,23 @@ const festivals = [
     "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
     "lat": 50.3720933,
     "lng": 7.2812427
+  },
+  {
+    "name": "VOLUME X KRAGELUND FESTIVAL 2027",
+    "date": "2027-06-18",
+    "endDate": "2027-06-20",
+    "dateDisplay": "18.–20. Juni 2027",
+    "location": "Kragelund bei Viöl, Schleswig-Holstein",
+    "genre": [
+      "Hardstyle",
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "https://volume-x-event.de/",
+    "soldOut": false,
+    "description": "Über 6.000 Besucher, drei Stages zwischen Husum und Flensburg — die XCircus-Bühne im Zirkuszelt bringt Techno und Hard Techno.",
+    "lat": 54.6167,
+    "lng": 9.2
   },
   {
     "name": "BUCHBUSCH FESTIVAL 2027",
@@ -1823,277 +2214,6 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128
-  },
-  {
-    "name": "44 FESTIVAL – 4 ENTERS KARLSRUHE 2026",
-    "date": "2026-05-23",
-    "dateDisplay": "23. Mai 2026",
-    "location": "Messe Karlsruhe, Rheinstetten",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://44labelgroup.events/",
-    "soldOut": false,
-    "description": "Drei Areas gleichzeitig auf dem Messegelände — Container Arena, Gotec-Club und C2 Ost, mit Kobosil, Hannah Laing und Clara Cuvé.",
-    "lat": 48.9694,
-    "lng": 8.3277
-  },
-  {
-    "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
-    "date": "2027-01-09",
-    "dateDisplay": "9. Januar 2027",
-    "location": "Holstenhallen, Neumünster",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.festival-sh.de/bts-winter",
-    "soldOut": false,
-    "description": "Das Techno-Winter-Indoor-Festival im Norden — zwei Bühnen in den Holstenhallen, u.a. mit Axmo und Harris & Ford.",
-    "lat": 54.0728,
-    "lng": 9.9908
-  },
-  {
-    "name": "VOLUME X KRAGELUND FESTIVAL 2027",
-    "date": "2027-06-18",
-    "endDate": "2027-06-20",
-    "dateDisplay": "18.–20. Juni 2027",
-    "location": "Kragelund bei Viöl, Schleswig-Holstein",
-    "genre": [
-      "Hardstyle",
-      "Techno",
-      "Psytrance"
-    ],
-    "url": "https://volume-x-event.de/",
-    "soldOut": false,
-    "description": "Über 6.000 Besucher, drei Stages zwischen Husum und Flensburg — die XCircus-Bühne im Zirkuszelt bringt Techno und Hard Techno.",
-    "lat": 54.6167,
-    "lng": 9.2
-  },
-  {
-    "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
-    "date": "2027-06-03",
-    "endDate": "2027-06-06",
-    "dateDisplay": "3.–6. Juni 2027",
-    "location": "Altes Lager, Niedergörsdorf",
-    "genre": [
-      "Techno",
-      "House",
-      "Psytrance"
-    ],
-    "url": "https://www.wurzelfestival.de/",
-    "soldOut": false,
-    "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
-    "lat": 51.9958,
-    "lng": 12.8898
-  },
-  {
-    "name": "FOREST FORGE FESTIVAL 2026",
-    "date": "2026-08-14",
-    "endDate": "2026-08-15",
-    "dateDisplay": "14.–15. August 2026",
-    "location": "Historische Waldschmiede, Wieckenberg (Wietze)",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Drum and Bass"
-    ],
-    "url": "https://forestforge.de/",
-    "soldOut": false,
-    "description": "Natur trifft Techno an einer historischen Waldschmiede — zwei Tage Musik, Feuer und Wald bei Wietze.",
-    "lat": 52.6333,
-    "lng": 9.8333
-  },
-  {
-    "name": "MEDIVAL FESTIVAL 2026",
-    "date": "2026-07-17",
-    "endDate": "2026-07-19",
-    "dateDisplay": "17.–19. Juli 2026",
-    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
-    "genre": [
-      "Techno",
-      "House",
-      "Drum and Bass"
-    ],
-    "url": "https://medival-festival.de/",
-    "soldOut": false,
-    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
-    "lat": 50.9439,
-    "lng": 10.0692
-  },
-  {
-    "name": "UNREAL XXL OPEN AIR 2026",
-    "date": "2026-09-26",
-    "dateDisplay": "26. September 2026",
-    "location": "Südbrücke, Köln",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
-    "lat": 50.9146,
-    "lng": 6.9767
-  },
-  {
-    "name": "RAVE AND SUN FESTIVAL 2027",
-    "date": "2027-05-15",
-    "dateDisplay": "15. Mai 2027",
-    "location": "WM Arena, Gießen",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://raveandsun.net/",
-    "soldOut": false,
-    "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
-    "lat": 50.586,
-    "lng": 8.6797
-  },
-  {
-    "name": "ES KRACHT DIE NACHT 2026",
-    "date": "2026-07-24",
-    "endDate": "2026-07-26",
-    "dateDisplay": "24.–26. Juli 2026",
-    "location": "Marina Schlabendorf am See, Luckau",
-    "genre": [
-      "Hard Techno",
-      "Hardcore",
-      "Electronic"
-    ],
-    "url": "https://www.instagram.com/es_kracht_die_nacht/",
-    "soldOut": false,
-    "description": "11. Open-Air-Jubiläum an der Marina Schlabendorf am See — drei Bühnen, u.a. mit Taktstörer.",
-    "lat": 51.7867,
-    "lng": 13.7967
-  },
-  {
-    "name": "GEHT RAUS! OPEN AIR 2026",
-    "date": "2026-09-05",
-    "dateDisplay": "5. September 2026",
-    "location": "Hofwiesenpark, Gera",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
-    "soldOut": false,
-    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
-    "lat": 50.8803,
-    "lng": 12.0796
-  },
-  {
-    "name": "WHOLE FESTIVAL 2026",
-    "date": "2026-07-17",
-    "endDate": "2026-07-20",
-    "dateDisplay": "17.–20. Juli 2026",
-    "location": "Ferropolis, Gräfenhainichen",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://www.wholefestival.com/",
-    "soldOut": false,
-    "description": "Queeres Nightlife-Festival in der Stadt aus Eisen — sechs Bühnen von hartem Techno bis sonnigem House.",
-    "lat": 51.7590874,
-    "lng": 12.4487506
-  },
-  {
-    "name": "BUCHT DER TRÄUMER 2026",
-    "date": "2026-08-13",
-    "endDate": "2026-08-17",
-    "dateDisplay": "13.–17. August 2026",
-    "location": "Helenesee, Frankfurt (Oder)",
-    "genre": [
-      "Techno",
-      "Tech House",
-      "Psytrance"
-    ],
-    "url": "https://bucht-der-traeumer.de/en/",
-    "soldOut": false,
-    "description": "Zehn Bühnen am Westufer des Helenesees — 13.000 Gäste, Lineup traditionell unangekündigt.",
-    "lat": 52.3364,
-    "lng": 14.5089
-  },
-  {
-    "name": "FREIRAUM OPEN AIR 2026",
-    "date": "2026-07-25",
-    "endDate": "2026-07-26",
-    "dateDisplay": "25.–26. Juli 2026",
-    "location": "Waldbühne, Trappenkamp",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.instagram.com/freiraumoa/",
-    "soldOut": false,
-    "description": "Eines der größten Techno-Events Schleswig-Holsteins — Waldbühne Trappenkamp unter freiem Himmel.",
-    "lat": 54.0122,
-    "lng": 10.3269
-  },
-  {
-    "name": "EULENFLUG FESTIVAL 2026",
-    "date": "2026-08-28",
-    "endDate": "2026-08-30",
-    "dateDisplay": "28.–30. August 2026",
-    "location": "Linden bei Rothenburg ob der Tauber",
-    "genre": [
-      "Techno",
-      "House",
-      "Minimal"
-    ],
-    "url": "https://grenz-kunst.de/",
-    "soldOut": false,
-    "description": "Wald, Kunst und Musik im romantischen Franken — selbstgebaute Bühnen zwischen Techno, House und Minimal.",
-    "lat": 49.3667,
-    "lng": 10.25
-  },
-  {
-    "name": "KEPOTOPIVAL 2026",
-    "date": "2026-08-26",
-    "endDate": "2026-08-31",
-    "dateDisplay": "26.–31. August 2026",
-    "location": "Kepotopia, Teuchern",
-    "genre": [
-      "Techno",
-      "Psytrance"
-    ],
-    "url": "https://kepotopia.de/",
-    "soldOut": false,
-    "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
-    "lat": 51.1667,
-    "lng": 12.0333
-  },
-  {
-    "name": "CONTACT FESTIVAL 2026",
-    "date": "2026-12-05",
-    "dateDisplay": "5. Dezember 2026",
-    "location": "Zenith, München",
-    "genre": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "url": "https://www.contact-festival.de/",
-    "soldOut": false,
-    "description": "Indoor-Festival im Zenith München — die Kohlebunker-Stage steht für brachialen Hard Techno, 5.500 Gäste.",
-    "lat": 48.1969,
-    "lng": 11.5836
-  },
-  {
-    "name": "TELETECH FESTIVAL 2027",
-    "date": "2027-03-12",
-    "dateDisplay": "12. März 2027",
-    "location": "DM Arena, Rheinstetten (Karlsruhe)",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://teletech-events.de/",
-    "soldOut": false,
-    "description": "Reines Techno-Line-up in der DM Arena bei Karlsruhe.",
-    "lat": 48.9694,
-    "lng": 8.3277
   }
 ];
 
