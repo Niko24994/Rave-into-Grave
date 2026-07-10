@@ -162,7 +162,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     .wordmark-logo { width:360px; margin:0 auto 26px; display:block; filter: drop-shadow(0 0 16px rgba(255,34,0,0.45)); }
     .title { font-weight:800; font-size:66px; color:#fff; text-transform:uppercase; line-height:1.05; text-shadow:0 0 20px rgba(255,45,0,0.4); }
     .title .accent { color:#ff9900; }
-    .subtitle { margin-top:14px; font-family:'Share Tech Mono',monospace; font-size:26px; letter-spacing:3px; color:#ff9900; }
+    .subtitle { margin-top:14px; font-family:'Share Tech Mono',monospace; font-size:31px; letter-spacing:3px; color:#ff9900; }
     .list { flex:1; min-height:0; display:flex; flex-direction:column; justify-content:center; overflow:hidden; padding: 6px 90px 0; }
     .row { display:flex; align-items:center; gap:22px; border:2px solid #ff2d00; border-radius:6px; background: rgba(255,45,0,0.06); padding: 20px 26px; margin-bottom: 16px; }
     .row-date { font-family:'Share Tech Mono',monospace; font-size:28px; color:#ff9900; font-weight:700; white-space:nowrap; width: 17ch; flex-shrink:0; }
@@ -190,7 +190,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
           <text x="200" y="210" text-anchor="middle" font-family="'Archivo Black',Impact,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="8" fill="#ffffff">GRAVE</text>
         </svg>
         <div class="title">FESTIVALS <span class="accent">${escapeHtml(dateRangeTitle)}</span></div>
-        <div class="subtitle">${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
+        <div class="subtitle">WOCHENÜBERSICHT · ${escapeHtml(yearLabel)} — SEITE ${pageNum}/${totalPages}</div>
       </div>
       <div class="list">${rows}</div>
     </div>
