@@ -165,9 +165,19 @@ async function fetchWeatherForFestivals(festivals) {
   return (f) => {
     if (typeof f.lat !== 'number' || typeof f.lng !== 'number') return null;
     const key = `${f.lat.toFixed(2)},${f.lng.toFixed(2)}`;
-    const entry = weatherByKey.get(`${key}|${f.date}`);
-    if (!entry || entry.code == null || entry.temp == null) return null;
-    return { icon: WEATHER_ICONS[entry.code] || '🌡️', temp: Math.round(entry.temp) };
+
+    // Bei mehrtaegigen Festivals den waermsten Tag im Zeitraum zeigen statt
+    // immer nur den ersten Tag — aussagekraeftiger fuer "wie wird das Wetter".
+    let best = null;
+    const end = new Date((f.endDate || f.date) + 'T00:00:00');
+    for (let d = new Date(f.date + 'T00:00:00'); d <= end; d.setDate(d.getDate() + 1)) {
+      const entry = weatherByKey.get(`${key}|${toDateStr(d)}`);
+      if (entry && entry.code != null && entry.temp != null && (!best || entry.temp > best.temp)) {
+        best = entry;
+      }
+    }
+    if (!best) return null;
+    return { icon: WEATHER_ICONS[best.code] || '🌡️', temp: Math.round(best.temp) };
   };
 }
 
@@ -230,9 +240,9 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     .row-main { flex:1; min-width:0; }
     .row-name { font-weight:700; font-size:35px; color:#fff; text-transform:uppercase; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
     .row-loc { font-family:'Share Tech Mono',monospace; font-size:22px; color:#aaa; margin-top:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .row-weather { flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:2px; width:60px; }
-    .weather-icon { font-size:34px; line-height:1; }
-    .weather-temp { font-family:'Share Tech Mono',monospace; font-size:20px; font-weight:700; color:#fff; }
+    .row-weather { flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:4px; width:74px; }
+    .weather-icon { font-size:36px; line-height:1; }
+    .weather-temp { font-family:'Share Tech Mono',monospace; font-size:30px; font-weight:700; color:#fff; }
     .footer { position:absolute; z-index:1; bottom:150px; left:0; right:0; text-align:center; font-family:'Share Tech Mono',monospace; font-size:28px; letter-spacing:2px; color:#ff2d00; }
     .pagedots { position:absolute; z-index:1; bottom:205px; left:0; right:0; text-align:center; }
     .dot { display:inline-block; width:16px; height:16px; border-radius:50%; margin:0 8px; background:#555; border:1px solid #777; }
