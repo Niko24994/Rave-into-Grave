@@ -177,7 +177,7 @@ async function fetchWeatherForFestivals(festivals) {
       }
     }
     if (!best) return null;
-    return { icon: WEATHER_ICONS[best.code] || '🌡️', temp: Math.round(best.temp) };
+    return { icon: WEATHER_ICONS[best.code] || '🌡️', temp: Math.floor(best.temp) };
   };
 }
 
