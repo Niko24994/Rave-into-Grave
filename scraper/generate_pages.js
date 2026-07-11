@@ -80,6 +80,7 @@ function renderPage(f, slug) {
     "offers": {
       "@type": "Offer",
       "url": f.url || pageUrl,
+      "priceCurrency": "EUR",
       "availability": f.soldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock"
     }
   };
