@@ -244,6 +244,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     .weather-icon { font-size:36px; line-height:1; }
     .weather-temp { font-family:'Share Tech Mono',monospace; font-size:30px; font-weight:700; color:#fff; }
     .footer { position:absolute; z-index:1; bottom:150px; left:0; right:0; text-align:center; font-family:'Share Tech Mono',monospace; font-size:28px; letter-spacing:2px; color:#ff2d00; }
+    .weather-credit { position:absolute; z-index:1; bottom:118px; left:0; right:0; text-align:center; font-family:'Share Tech Mono',monospace; font-size:16px; letter-spacing:1px; color:#888; }
     .pagedots { position:absolute; z-index:1; bottom:205px; left:0; right:0; text-align:center; }
     .dot { display:inline-block; width:16px; height:16px; border-radius:50%; margin:0 8px; background:#555; border:1px solid #777; }
     .dot.active { background:#ff2d00; }
@@ -270,6 +271,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     </div>
     <div class="pagedots">${Array.from({ length: totalPages }, (_, i) => `<span class="dot${i === pageNum - 1 ? ' active' : ''}"></span>`).join('')}</div>
     <div class="footer">mehr auf raveintograve.de</div>
+    <div class="weather-credit">Wetterdaten: Open-Meteo.com</div>
   </body></html>`;
 }
 
