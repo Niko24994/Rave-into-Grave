@@ -42,7 +42,48 @@ const TAG_CLASS = {
   'Rock': 'tag-other', 'Pop': 'tag-other', 'Indie': 'tag-other', 'Drum and Bass': 'tag-other'
 };
 
-function renderPage(f, slug) {
+// Anzahl gemeinsamer Genre-Tags — Basis fuer "Aehnliche Festivals".
+function genreOverlapCount(a, b) {
+  return a.genre.filter(g => b.genre.includes(g)).length;
+}
+
+// Sortierung: erst nach Genre-Ueberschneidung (mehr = aehnlicher), bei
+// Gleichstand nach zeitlicher Naehe zum aktuellen Festival — sonst waere die
+// Auswahl bei z.B. 70 Techno-Treffern beliebig statt sinnvoll priorisiert.
+// Andere Jahres-Ausgaben desselben Festivals werden ausgeschlossen (keine
+// "aehnliche" Empfehlung, sondern dasselbe Event).
+function findSimilarFestivals(f, allEntries) {
+  const base = baseFestivalName(f.name).toLowerCase();
+  return allEntries
+    .filter(({ f: other }) => baseFestivalName(other.name).toLowerCase() !== base)
+    .map(({ f: other, slug }) => ({ f: other, slug, score: genreOverlapCount(f, other) }))
+    .filter(c => c.score > 0)
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      const diffA = Math.abs(new Date(a.f.date) - new Date(f.date));
+      const diffB = Math.abs(new Date(b.f.date) - new Date(f.date));
+      return diffA - diffB;
+    })
+    .slice(0, 5);
+}
+
+function renderSimilarSection(f, allEntries) {
+  const similar = findSimilarFestivals(f, allEntries);
+  if (similar.length === 0) return '';
+  const items = similar.map(({ f: other, slug }) => `
+        <a class="similar-item" href="../${slug}/">
+          <span class="similar-name">${escapeHtml(other.name)}</span>
+          <span class="similar-date">${escapeHtml(other.dateDisplay)} · ${escapeHtml(other.location)}</span>
+        </a>`).join('');
+  return `
+    <section class="similar-festivals">
+      <h2 class="similar-title">Ähnliche Festivals</h2>
+      <div class="similar-grid">${items}
+      </div>
+    </section>`;
+}
+
+function renderPage(f, slug, allEntries) {
   const isNL = f.location.includes('(NL)') || f.location.toLowerCase().includes('amsterdam') || f.location.toLowerCase().includes('netherlands');
   const tags = f.genre.map(g =>
     `<span class="genre-tag ${TAG_CLASS[g] || ''}">${escapeHtml(g.toUpperCase())}</span>`
@@ -167,6 +208,7 @@ function renderPage(f, slug) {
         </div>
       </div>
     </article>
+    ${renderSimilarSection(f, allEntries)}
   </main>
 
   <footer>
@@ -432,7 +474,7 @@ async function main() {
   for (const { f, slug } of entries) {
     const dir = path.join(festivalDir, slug);
     await fs.mkdir(dir, { recursive: true });
-    await fs.writeFile(path.join(dir, 'index.html'), renderPage(f, slug), 'utf-8');
+    await fs.writeFile(path.join(dir, 'index.html'), renderPage(f, slug, entries), 'utf-8');
   }
 
   const lastmod = new Date().toISOString().slice(0, 10);

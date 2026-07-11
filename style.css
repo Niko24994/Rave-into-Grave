@@ -165,9 +165,56 @@ header {
   padding: 0 2rem;
 }
 
-.detail-card .card-name { font-size: 1.5rem; }
+.detail-card .card-name { font-size: 1.25rem; }
 .detail-card .card-description { font-size: 1.05rem; }
 .detail-card:hover { transform: none; }
+
+.similar-festivals { margin-top: 1.5rem; }
+
+.similar-title {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 0.75rem;
+}
+
+.similar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.similar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.75rem 1rem;
+  background: rgba(13,13,13,0.92);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.similar-item:hover {
+  border-color: var(--red);
+  box-shadow: 0 0 12px rgba(255,45,0,0.2);
+}
+
+.similar-name {
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.similar-date {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--dim);
+}
 
 .detail-secondary-btn {
   border-color: #333;
