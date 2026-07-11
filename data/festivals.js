@@ -518,6 +518,22 @@ const festivals = [
     "lng": 12.4487506
   },
   {
+    "name": "UNREAL WEEKENDER 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-18",
+    "dateDisplay": "17.–18. Juli 2026",
+    "location": "Junkyard, Dortmund",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": true,
+    "description": "Zwei Tage und Naechte non-stop — Unreal bespielt das Junkyard Dortmund mit zwei Line-ups, Freitag bis Sonntagfrueh.",
+    "lat": 51.5178,
+    "lng": 7.4917
+  },
+  {
     "name": "HEXON FESTIVAL #2 2026",
     "date": "2026-07-18",
     "dateDisplay": "18. Juli 2026",
@@ -2032,6 +2048,22 @@ const festivals = [
     "lng": 12.4487506
   },
   {
+    "name": "HIVE INDOOR 2027",
+    "date": "2027-06-20",
+    "dateDisplay": "20. Juni 2027",
+    "location": "Messe Leipzig, Leipzig",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Techno"
+    ],
+    "url": "https://hive-festival.de",
+    "soldOut": false,
+    "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
+    "lat": 51.3963707,
+    "lng": 12.4035524
+  },
+  {
     "name": "IKARUS FESTIVAL 2027",
     "date": "2027-06-25",
     "endDate": "2027-06-27",
@@ -2094,22 +2126,6 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128
-  },
-  {
-    "name": "UNREAL WEEKENDER 2026",
-    "date": "2026-07-17",
-    "endDate": "2026-07-18",
-    "dateDisplay": "17.–18. Juli 2026",
-    "location": "Junkyard, Dortmund",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": true,
-    "description": "Zwei Tage und Naechte non-stop — Unreal bespielt das Junkyard Dortmund mit zwei Line-ups, Freitag bis Sonntagfrueh.",
-    "lat": 51.5178,
-    "lng": 7.4917
   }
 ];
 
