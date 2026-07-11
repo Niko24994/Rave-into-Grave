@@ -115,6 +115,62 @@ function loadWeekFestivals(mondayStr) {
   return chosen;
 }
 
+// ─── Wettervorhersage (Open-Meteo, kein API-Key noetig) ───
+// Nur fuers Wochenreel relevant: Open-Meteo liefert Vorhersagen fuer maximal
+// 16 Tage im Voraus. Festivals ausserhalb dieses Fensters (z.B. wenn das
+// Zeitfenster wegen einer duennen Woche auf 21/30 Tage erweitert wurde)
+// bekommen dann einfach kein Wetter-Icon, statt falsche Daten zu zeigen.
+const WEATHER_ICONS = {
+  0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️',
+  45: '🌫️', 48: '🌫️',
+  51: '🌦️', 53: '🌦️', 55: '🌦️',
+  56: '🌧️', 57: '🌧️',
+  61: '🌧️', 63: '🌧️', 65: '🌧️',
+  66: '🌧️', 67: '🌧️',
+  71: '❄️', 73: '❄️', 75: '❄️', 77: '❄️',
+  80: '🌦️', 81: '🌦️', 82: '🌧️',
+  85: '🌨️', 86: '🌨️',
+  95: '⛈️', 96: '⛈️', 99: '⛈️',
+};
+
+async function fetchWeatherForFestivals(festivals) {
+  // Nach gerundeten Koordinaten gruppieren, damit nahegelegene Festivals sich
+  // eine Abfrage teilen statt jedes einzeln zu callen.
+  const byLocation = new Map();
+  for (const f of festivals) {
+    if (typeof f.lat !== 'number' || typeof f.lng !== 'number') continue;
+    const key = `${f.lat.toFixed(2)},${f.lng.toFixed(2)}`;
+    if (!byLocation.has(key)) byLocation.set(key, { lat: f.lat, lng: f.lng });
+  }
+
+  const weatherByKey = new Map();
+  for (const [key, { lat, lng }] of byLocation) {
+    try {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max&timezone=Europe%2FBerlin&forecast_days=16`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+      if (!res.ok) continue;
+      const data = await res.json();
+      const times = data?.daily?.time || [];
+      const codes = data?.daily?.weathercode || [];
+      const temps = data?.daily?.temperature_2m_max || [];
+      times.forEach((date, i) => {
+        weatherByKey.set(`${key}|${date}`, { code: codes[i], temp: temps[i] });
+      });
+    } catch {
+      // Wetter ist ein Bonus-Feature — bei Fehler (Timeout, API down) einfach
+      // kein Icon fuer die betroffenen Festivals anzeigen.
+    }
+  }
+
+  return (f) => {
+    if (typeof f.lat !== 'number' || typeof f.lng !== 'number') return null;
+    const key = `${f.lat.toFixed(2)},${f.lng.toFixed(2)}`;
+    const entry = weatherByKey.get(`${key}|${f.date}`);
+    if (!entry || entry.code == null || entry.temp == null) return null;
+    return { icon: WEATHER_ICONS[entry.code] || '🌡️', temp: Math.round(entry.temp) };
+  };
+}
+
 // ─── HTML-Seiten rendern (gleiches Design wie der Monatsreel) ───
 
 const FONTS_DIR = path.join(__dirname, 'fonts');
@@ -134,7 +190,7 @@ function escapeHtml(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTitle) {
+function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTitle, getWeather) {
   // Weniger Zeilen auf der Seite -> etwas mehr Abstand dazwischen, damit es
   // nicht nur "zentriert mit Leerraum drumherum" wirkt, sondern die Seite
   // insgesamt voller. Bei maximaler Belegung (9) bleibt der Abstand wie bisher.
@@ -142,6 +198,10 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
 
   const rows = group.map(f => {
     const shortDate = f.dateDisplay.replace(new RegExp(`\\s*${yearLabel}$`), '').replace(/\s*–\s*/, '–');
+    const weather = getWeather ? getWeather(f) : null;
+    const weatherHtml = weather
+      ? `<div class="row-weather"><span class="weather-icon">${weather.icon}</span><span class="weather-temp">${weather.temp}°</span></div>`
+      : '';
     return `
       <div class="row" style="margin-bottom:${rowGap}px">
         <div class="row-date">${escapeHtml(shortDate)}</div>
@@ -149,6 +209,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
           <div class="row-name">${escapeHtml(f.name.replace(new RegExp(`\\s*${yearLabel}$`), ''))}</div>
           <div class="row-loc">${escapeHtml(f.location)}</div>
         </div>
+        ${weatherHtml}
       </div>`;
   }).join('');
 
@@ -169,6 +230,9 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     .row-main { flex:1; min-width:0; }
     .row-name { font-weight:700; font-size:35px; color:#fff; text-transform:uppercase; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
     .row-loc { font-family:'Share Tech Mono',monospace; font-size:22px; color:#aaa; margin-top:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .row-weather { flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:2px; width:60px; }
+    .weather-icon { font-size:34px; line-height:1; }
+    .weather-temp { font-family:'Share Tech Mono',monospace; font-size:20px; font-weight:700; color:#fff; }
     .footer { position:absolute; z-index:1; bottom:150px; left:0; right:0; text-align:center; font-family:'Share Tech Mono',monospace; font-size:28px; letter-spacing:2px; color:#ff2d00; }
     .pagedots { position:absolute; z-index:1; bottom:205px; left:0; right:0; text-align:center; }
     .dot { display:inline-block; width:16px; height:16px; border-radius:50%; margin:0 8px; background:#555; border:1px solid #777; }
@@ -242,6 +306,10 @@ async function main() {
 
   console.log(`${festivals.length} Festivals für ${weekLabel}.`);
 
+  process.stdout.write('Wettervorhersage laden … ');
+  const getWeather = await fetchWeatherForFestivals(festivals);
+  console.log('fertig.');
+
   // Gleichmässig auf Seiten verteilen (keine fast leere Restseite)
   const totalPages = Math.max(1, Math.ceil(festivals.length / PER_PAGE));
   const perPageEven = Math.ceil(festivals.length / totalPages);
@@ -256,7 +324,7 @@ async function main() {
 
   const pageFiles = [];
   for (let i = 0; i < groups.length; i++) {
-    fs.writeFileSync(htmlFile, pageHtml(groups[i], i + 1, totalPages, weekLabel, yearLabel, dateRangeTitle), 'utf-8');
+    fs.writeFileSync(htmlFile, pageHtml(groups[i], i + 1, totalPages, weekLabel, yearLabel, dateRangeTitle, getWeather), 'utf-8');
     const outFile = path.join(WORK_DIR, `week_page_${i + 1}.png`);
     execFileSync(chrome, [
       '--headless', '--disable-gpu', '--hide-scrollbars',
