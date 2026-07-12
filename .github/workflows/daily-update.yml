@@ -37,6 +37,12 @@ jobs:
           cd scraper
           node generate_pages.js
 
+      - name: Validate Festival Data
+        run: |
+          cd scraper
+          node validate_festivals.js
+        continue-on-error: true  # Nur Warnungen im Log, blockiert den Auto-Update nie
+
       - name: Check for Changes
         id: changes
         run: |
