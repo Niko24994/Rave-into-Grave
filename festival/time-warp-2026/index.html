@@ -84,25 +84,25 @@
     <section class="similar-festivals">
       <h2 class="similar-title">Ähnliche Festivals</h2>
       <div class="similar-grid">
-        <a class="similar-item" href="../pollerwiesen-opening-2026/">
-          <span class="similar-name">POLLERWIESEN OPENING 2026</span>
-          <span class="similar-date">25. April 2026 · Jugendpark, Köln</span>
+        <a class="similar-item" href="../airbeat-one-2026/">
+          <span class="similar-name">AIRBEAT ONE 2026</span>
+          <span class="similar-date">8.–12. Juli 2026 · Flughafen Neustadt-Glewe</span>
         </a>
-        <a class="similar-item" href="../mayday-2026/">
-          <span class="similar-name">MAYDAY 2026</span>
-          <span class="similar-date">30. April 2026 · Westfalenhallen, Dortmund</span>
+        <a class="similar-item" href="../stone-techno-festival-2026/">
+          <span class="similar-name">STONE TECHNO FESTIVAL 2026</span>
+          <span class="similar-date">10.–12. Juli 2026 · Zeche Zollverein, Essen</span>
         </a>
-        <a class="similar-item" href="../sputnik-spring-break-2026/">
-          <span class="similar-name">SPUTNIK SPRING BREAK 2026</span>
-          <span class="similar-date">22.–25. Mai 2026 · Halbinsel Pouch, Saale</span>
+        <a class="similar-item" href="../rote-dichte-2026/">
+          <span class="similar-name">ROTE DICHTE 2026</span>
+          <span class="similar-date">10.–12. Juli 2026 · Galenbeck, Mecklenburg-Vorpommern</span>
         </a>
-        <a class="similar-item" href="../ikarus-festival-2026/">
-          <span class="similar-name">IKARUS FESTIVAL 2026</span>
-          <span class="similar-date">22.–25. Mai 2026 · Flughafen Memmingen</span>
+        <a class="similar-item" href="../awakenings-festival-2026/">
+          <span class="similar-name">AWAKENINGS FESTIVAL 2026</span>
+          <span class="similar-date">10.–12. Juli 2026 · Beekse Bergen, Hilvarenbeek (NL)</span>
         </a>
-        <a class="similar-item" href="../44-festival-4-enters-karlsruhe-2026/">
-          <span class="similar-name">44 FESTIVAL – 4 ENTERS KARLSRUHE 2026</span>
-          <span class="similar-date">23. Mai 2026 · Messe Karlsruhe, Rheinstetten</span>
+        <a class="similar-item" href="../deichbrand-2026/">
+          <span class="similar-name">DEICHBRAND 2026</span>
+          <span class="similar-date">16.–19. Juli 2026 · Seeflughafen Cuxhaven/Nordholz</span>
         </a>
       </div>
     </section>
@@ -135,13 +135,18 @@
 
   <script>
     (function () {
-      var date = "2026-03-21";
+      var startDate = "2026-03-21";
+      var endDateStr = "2026-03-21";
+      var isMultiDay = false;
       var today = new Date(); today.setHours(0,0,0,0);
-      var d = new Date(date); d.setHours(0,0,0,0);
+      var start = new Date(startDate); start.setHours(0,0,0,0);
+      var d = new Date(endDateStr); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
+      var ongoing = isMultiDay && today >= start && today <= d;
 
       var status, badgeText, badgeClass;
-      if (days < 0)        { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      if (ongoing)         { status = 'ongoing';  badgeText = 'LÄUFT';        badgeClass = 'badge-ongoing'; }
+      else if (days < 0)   { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
       else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
       else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 
@@ -151,13 +156,15 @@
       badge.classList.add(badgeClass);
 
       var countdownText;
-      if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
+      if (ongoing) countdownText = days === 0 ? 'LETZTER TAG' : 'noch ' + days + ' Tage';
+      else if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
       else if (days === 0) countdownText = 'HEUTE !!!';
       else if (days === 1) countdownText = 'MORGEN';
       else countdownText = 'in ' + days + ' Tagen';
 
       var countdownClass = '';
-      if (days < 0) countdownClass = 'past';
+      if (ongoing) countdownClass = 'very-soon';
+      else if (days < 0) countdownClass = 'past';
       else if (days <= 7) countdownClass = 'very-soon';
       else if (days <= 30) countdownClass = 'soon';
 

@@ -92,17 +92,17 @@
           <span class="similar-name">INDIAN SPIRIT 2026</span>
           <span class="similar-date">26.–31. Aug 2026 · Flugplatz Ludwigslust, Mecklenburg</span>
         </a>
-        <a class="similar-item" href="../third-eye-festival-2026/">
-          <span class="similar-name">THIRD EYE FESTIVAL 2026</span>
-          <span class="similar-date">3.–6. Juli 2026 · Oakyard Grounds, Wilhelmsburg (Vorpommern)</span>
-        </a>
-        <a class="similar-item" href="../fusion-festival-2026/">
-          <span class="similar-name">FUSION FESTIVAL 2026</span>
-          <span class="similar-date">24.–29. Juni 2026 · Kulturkosmos, Lärz</span>
-        </a>
         <a class="similar-item" href="../shifted-festival-2026/">
           <span class="similar-name">SHIFTED FESTIVAL 2026</span>
           <span class="similar-date">6.–9. Aug 2026 · Geheimes Waldgelände, Brandenburg</span>
+        </a>
+        <a class="similar-item" href="../circle-of-leaves-festival-2026/">
+          <span class="similar-name">CIRCLE OF LEAVES FESTIVAL 2026</span>
+          <span class="similar-date">7.–9. August 2026 · Marbach-Stausee, Oberzent (Hessen)</span>
+        </a>
+        <a class="similar-item" href="../havelbeats-festival-2026/">
+          <span class="similar-name">HAVELBEATS FESTIVAL 2026</span>
+          <span class="similar-date">7.–8. August 2026 · Schiffbauergasse, Potsdam</span>
         </a>
       </div>
     </section>
@@ -135,13 +135,18 @@
 
   <script>
     (function () {
-      var date = "2026-08-09";
+      var startDate = "2026-08-06";
+      var endDateStr = "2026-08-09";
+      var isMultiDay = true;
       var today = new Date(); today.setHours(0,0,0,0);
-      var d = new Date(date); d.setHours(0,0,0,0);
+      var start = new Date(startDate); start.setHours(0,0,0,0);
+      var d = new Date(endDateStr); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
+      var ongoing = isMultiDay && today >= start && today <= d;
 
       var status, badgeText, badgeClass;
-      if (days < 0)        { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      if (ongoing)         { status = 'ongoing';  badgeText = 'LÄUFT';        badgeClass = 'badge-ongoing'; }
+      else if (days < 0)   { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
       else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
       else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 
@@ -151,13 +156,15 @@
       badge.classList.add(badgeClass);
 
       var countdownText;
-      if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
+      if (ongoing) countdownText = days === 0 ? 'LETZTER TAG' : 'noch ' + days + ' Tage';
+      else if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
       else if (days === 0) countdownText = 'HEUTE !!!';
       else if (days === 1) countdownText = 'MORGEN';
       else countdownText = 'in ' + days + ' Tagen';
 
       var countdownClass = '';
-      if (days < 0) countdownClass = 'past';
+      if (ongoing) countdownClass = 'very-soon';
+      else if (days < 0) countdownClass = 'past';
       else if (days <= 7) countdownClass = 'very-soon';
       else if (days <= 30) countdownClass = 'soon';
 

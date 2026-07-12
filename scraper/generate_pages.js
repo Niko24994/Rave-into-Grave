@@ -53,9 +53,11 @@ function genreOverlapCount(a, b) {
 // Andere Jahres-Ausgaben desselben Festivals werden ausgeschlossen (keine
 // "aehnliche" Empfehlung, sondern dasselbe Event).
 function findSimilarFestivals(f, allEntries) {
+  const today = new Date(); today.setHours(0, 0, 0, 0);
   const base = baseFestivalName(f.name).toLowerCase();
   return allEntries
     .filter(({ f: other }) => baseFestivalName(other.name).toLowerCase() !== base)
+    .filter(({ f: other }) => new Date(other.endDate || other.date) >= today)
     .map(({ f: other, slug }) => ({ f: other, slug, score: genreOverlapCount(f, other) }))
     .filter(c => c.score > 0)
     .sort((a, b) => {
@@ -238,13 +240,18 @@ function renderPage(f, slug, allEntries) {
 
   <script>
     (function () {
-      var date = ${JSON.stringify(f.endDate || f.date)};
+      var startDate = ${JSON.stringify(f.date)};
+      var endDateStr = ${JSON.stringify(f.endDate || f.date)};
+      var isMultiDay = ${JSON.stringify(Boolean(f.endDate && f.endDate !== f.date))};
       var today = new Date(); today.setHours(0,0,0,0);
-      var d = new Date(date); d.setHours(0,0,0,0);
+      var start = new Date(startDate); start.setHours(0,0,0,0);
+      var d = new Date(endDateStr); d.setHours(0,0,0,0);
       var days = Math.round((d - today) / 86400000);
+      var ongoing = isMultiDay && today >= start && today <= d;
 
       var status, badgeText, badgeClass;
-      if (days < 0)        { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      if (ongoing)         { status = 'ongoing';  badgeText = 'LÄUFT';        badgeClass = 'badge-ongoing'; }
+      else if (days < 0)   { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
       else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
       else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 
@@ -254,13 +261,15 @@ function renderPage(f, slug, allEntries) {
       badge.classList.add(badgeClass);
 
       var countdownText;
-      if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
+      if (ongoing) countdownText = days === 0 ? 'LETZTER TAG' : 'noch ' + days + ' Tage';
+      else if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
       else if (days === 0) countdownText = 'HEUTE !!!';
       else if (days === 1) countdownText = 'MORGEN';
       else countdownText = 'in ' + days + ' Tagen';
 
       var countdownClass = '';
-      if (days < 0) countdownClass = 'past';
+      if (ongoing) countdownClass = 'very-soon';
+      else if (days < 0) countdownClass = 'past';
       else if (days <= 7) countdownClass = 'very-soon';
       else if (days <= 30) countdownClass = 'soon';
 
@@ -307,7 +316,18 @@ function getDaysUntil(dateStr, today) {
   return Math.round((d - today) / (1000 * 60 * 60 * 24));
 }
 
+// Mehrtaegiges Festival, bei dem "heute" zwischen Start- und Enddatum liegt
+// (inklusive) -> laeuft gerade, nicht nur "bald". Eintaegige Events (kein
+// eigenes endDate) behalten die einfache HEUTE/MORGEN-Logik unten.
+function isOngoing(f, today) {
+  if (!f.endDate || f.endDate === f.date) return false;
+  const start = new Date(f.date); start.setHours(0, 0, 0, 0);
+  const end = new Date(f.endDate); end.setHours(0, 0, 0, 0);
+  return today >= start && today <= end;
+}
+
 function getStatus(f, today) {
+  if (isOngoing(f, today)) return 'ongoing';
   const days = getDaysUntil(f.endDate || f.date, today);
   if (days < 0) return 'past';
   if (days <= 30) return 'soon';
@@ -315,6 +335,10 @@ function getStatus(f, today) {
 }
 
 function getCountdownText(f, today) {
+  if (isOngoing(f, today)) {
+    const daysLeft = getDaysUntil(f.endDate || f.date, today);
+    return daysLeft === 0 ? 'LETZTER TAG' : `noch ${daysLeft} Tage`;
+  }
   const days = getDaysUntil(f.endDate || f.date, today);
   if (days < 0) return `vor ${Math.abs(days)} Tagen`;
   if (days === 0) return 'HEUTE !!!';
@@ -323,6 +347,7 @@ function getCountdownText(f, today) {
 }
 
 function getCountdownClass(f, today) {
+  if (isOngoing(f, today)) return 'very-soon';
   const days = getDaysUntil(f.endDate || f.date, today);
   if (days < 0) return 'past';
   if (days <= 7) return 'very-soon';
@@ -334,6 +359,7 @@ function getStatusBadge(status) {
   const map = {
     'upcoming': ['BEVORSTEHEND', 'badge-upcoming'],
     'soon': ['BALD', 'badge-soon'],
+    'ongoing': ['LÄUFT', 'badge-ongoing'],
     'past': ['VERGANGEN', 'badge-past']
   };
   return map[status] || map['upcoming'];
