@@ -246,14 +246,17 @@ function renderPage(f, slug, allEntries) {
       var today = new Date(); today.setHours(0,0,0,0);
       var start = new Date(startDate); start.setHours(0,0,0,0);
       var d = new Date(endDateStr); d.setHours(0,0,0,0);
-      var days = Math.round((d - today) / 86400000);
+      // Vor Beginn zaehlt der Countdown bis zum START (passt so zum Datum
+      // direkt daneben) — nur "laeuft"/"vorbei" richten sich nach dem ENDE.
+      var daysUntilEnd = Math.round((d - today) / 86400000);
+      var daysUntilStart = Math.round((start - today) / 86400000);
       var ongoing = isMultiDay && today >= start && today <= d;
 
       var status, badgeText, badgeClass;
-      if (ongoing)         { status = 'ongoing';  badgeText = 'LÄUFT';        badgeClass = 'badge-ongoing'; }
-      else if (days < 0)   { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
-      else if (days <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
-      else                 { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
+      if (ongoing)                   { status = 'ongoing';  badgeText = 'LÄUFT';        badgeClass = 'badge-ongoing'; }
+      else if (daysUntilEnd < 0)     { status = 'past';      badgeText = 'VERGANGEN';    badgeClass = 'badge-past'; }
+      else if (daysUntilStart <= 30){ status = 'soon';      badgeText = 'BALD';         badgeClass = 'badge-soon'; }
+      else                           { status = 'upcoming';  badgeText = 'BEVORSTEHEND'; badgeClass = 'badge-upcoming'; }
 
       document.getElementById('detail-card').classList.add('status-' + status);
       var badge = document.getElementById('status-badge');
@@ -261,17 +264,17 @@ function renderPage(f, slug, allEntries) {
       badge.classList.add(badgeClass);
 
       var countdownText;
-      if (ongoing) countdownText = days === 0 ? 'LETZTER TAG' : 'noch ' + days + ' Tage';
-      else if (days < 0) countdownText = 'vor ' + Math.abs(days) + ' Tagen';
-      else if (days === 0) countdownText = 'HEUTE !!!';
-      else if (days === 1) countdownText = 'MORGEN';
-      else countdownText = 'in ' + days + ' Tagen';
+      if (ongoing) countdownText = daysUntilEnd === 0 ? 'LETZTER TAG' : 'noch ' + daysUntilEnd + ' Tage';
+      else if (daysUntilEnd < 0) countdownText = 'vor ' + Math.abs(daysUntilEnd) + ' Tagen';
+      else if (daysUntilStart === 0) countdownText = 'HEUTE !!!';
+      else if (daysUntilStart === 1) countdownText = 'MORGEN';
+      else countdownText = 'in ' + daysUntilStart + ' Tagen';
 
       var countdownClass = '';
       if (ongoing) countdownClass = 'very-soon';
-      else if (days < 0) countdownClass = 'past';
-      else if (days <= 7) countdownClass = 'very-soon';
-      else if (days <= 30) countdownClass = 'soon';
+      else if (daysUntilEnd < 0) countdownClass = 'past';
+      else if (daysUntilStart <= 7) countdownClass = 'very-soon';
+      else if (daysUntilStart <= 30) countdownClass = 'soon';
 
       var cd = document.getElementById('countdown');
       cd.textContent = countdownText;
@@ -326,11 +329,16 @@ function isOngoing(f, today) {
   return today >= start && today <= end;
 }
 
+// Vor Beginn zaehlt der Countdown bis zum START (so passt "in X Tagen" zu dem
+// Datum, das direkt daneben steht) — nur "laeuft"/"vorbei" richten sich nach
+// dem ENDE. Sonst wuerden zwei Festivals mit gleichem Start aber
+// unterschiedlicher Laenge unterschiedliche Countdowns zeigen.
 function getStatus(f, today) {
   if (isOngoing(f, today)) return 'ongoing';
-  const days = getDaysUntil(f.endDate || f.date, today);
-  if (days < 0) return 'past';
-  if (days <= 30) return 'soon';
+  const daysUntilEnd = getDaysUntil(f.endDate || f.date, today);
+  if (daysUntilEnd < 0) return 'past';
+  const daysUntilStart = getDaysUntil(f.date, today);
+  if (daysUntilStart <= 30) return 'soon';
   return 'upcoming';
 }
 
@@ -339,19 +347,21 @@ function getCountdownText(f, today) {
     const daysLeft = getDaysUntil(f.endDate || f.date, today);
     return daysLeft === 0 ? 'LETZTER TAG' : `noch ${daysLeft} Tage`;
   }
-  const days = getDaysUntil(f.endDate || f.date, today);
-  if (days < 0) return `vor ${Math.abs(days)} Tagen`;
-  if (days === 0) return 'HEUTE !!!';
-  if (days === 1) return 'MORGEN';
-  return `in ${days} Tagen`;
+  const daysUntilEnd = getDaysUntil(f.endDate || f.date, today);
+  if (daysUntilEnd < 0) return `vor ${Math.abs(daysUntilEnd)} Tagen`;
+  const daysUntilStart = getDaysUntil(f.date, today);
+  if (daysUntilStart === 0) return 'HEUTE !!!';
+  if (daysUntilStart === 1) return 'MORGEN';
+  return `in ${daysUntilStart} Tagen`;
 }
 
 function getCountdownClass(f, today) {
   if (isOngoing(f, today)) return 'very-soon';
-  const days = getDaysUntil(f.endDate || f.date, today);
-  if (days < 0) return 'past';
-  if (days <= 7) return 'very-soon';
-  if (days <= 30) return 'soon';
+  const daysUntilEnd = getDaysUntil(f.endDate || f.date, today);
+  if (daysUntilEnd < 0) return 'past';
+  const daysUntilStart = getDaysUntil(f.date, today);
+  if (daysUntilStart <= 7) return 'very-soon';
+  if (daysUntilStart <= 30) return 'soon';
   return '';
 }
 
