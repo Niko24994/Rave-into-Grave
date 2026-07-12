@@ -650,7 +650,7 @@ header {
 
 .card.status-upcoming::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
 .card.status-soon::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
-.card.status-ongoing::before { background: var(--red); box-shadow: 0 0 10px rgba(255,45,0,0.6); }
+.card.status-ongoing::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
 .card.status-past::before { background: #2a2a2a; }
 
 .card:hover {
@@ -698,13 +698,8 @@ header {
 
 .badge-upcoming { color: var(--orange); border-color: var(--orange); }
 .badge-soon { color: var(--orange); border-color: var(--orange); }
-.badge-ongoing { color: var(--red); border-color: var(--red); animation: badge-pulse 1.6s ease-in-out infinite; }
+.badge-ongoing { color: var(--orange); border-color: var(--orange); }
 .badge-past { color: #555; border-color: #333; }
-
-@keyframes badge-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
 
 /* Genre tags */
 .genre-tags {
