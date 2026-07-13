@@ -2126,6 +2126,22 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128
+  },
+  {
+    "name": "AIRBEAT ONE 2027",
+    "date": "2027-07-11",
+    "dateDisplay": "11. Juli 2027",
+    "location": "Flughafen Neustadt-Glewe",
+    "genre": [
+      "EDM",
+      "Techno",
+      "Hardstyle"
+    ],
+    "url": "https://www.airbeat-one.de",
+    "soldOut": false,
+    "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
+    "lat": 53.3613328,
+    "lng": 11.6141158
   }
 ];
 
