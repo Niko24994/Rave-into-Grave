@@ -4629,8 +4629,26 @@
         }
       });
 
-      openBtn.addEventListener('click', () => { overlay.hidden = false; document.body.style.overflow = 'hidden'; });
-      closeBtn.addEventListener('click', () => { overlay.hidden = true; document.body.style.overflow = ''; });
+      // Nur "overflow:hidden" auf dem Body reicht auf iOS Safari nicht — die
+      // Seite dahinter kann beim Scrollen im Overlay trotzdem "durchrutschen"
+      // (bekanntes iOS-Verhalten), sichtbar als kurz aufblitzende Zeile der
+      // echten Startseite am unteren Rand. Body waehrend des Overlays komplett
+      // fixieren und Scroll-Position beim Schliessen wiederherstellen behebt das.
+      let savedScrollY = 0;
+      openBtn.addEventListener('click', () => {
+        savedScrollY = window.scrollY;
+        overlay.hidden = false;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${savedScrollY}px`;
+        document.body.style.width = '100%';
+      });
+      closeBtn.addEventListener('click', () => {
+        overlay.hidden = true;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo(0, savedScrollY);
+      });
     })();
   </script>
 </body>
