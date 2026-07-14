@@ -1119,6 +1119,22 @@ const festivals = [
     "lng": 9.8333
   },
   {
+    "name": "ACE OF RAVE 2026",
+    "date": "2026-08-14",
+    "dateDisplay": "14. August 2026",
+    "location": "Twister Dance, Sande",
+    "genre": [
+      "Hard Techno",
+      "Trance",
+      "Schranz"
+    ],
+    "url": "https://klangwelten-bremen.de/event/0RSYY/",
+    "soldOut": false,
+    "description": "Indoor-Festival auf 3 Floors bei Twister Dance in Sande — Hard Techno, Trance und Schranz von Klangwelten Bremen.",
+    "lat": 53.4924729,
+    "lng": 8.0256578
+  },
+  {
     "name": "ELECTRIC HORIZON FESTIVAL 2026",
     "date": "2026-08-15",
     "dateDisplay": "15. Aug 2026",
@@ -1619,6 +1635,20 @@ const festivals = [
     "lng": 12.4035524
   },
   {
+    "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
+    "date": "2026-10-23",
+    "dateDisplay": "23. Oktober 2026",
+    "location": "Twister Dance, Sande",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://klangwelten-bremen.de/event/BUPQR/",
+    "soldOut": false,
+    "description": "Halloween-Special mit Goa- und Trance-Sounds bei Twister Dance in Sande, veranstaltet von Klangwelten Bremen.",
+    "lat": 53.4924729,
+    "lng": 8.0256578
+  },
+  {
     "name": "VERKNIPT AMSTERDAM 2026",
     "date": "2026-10-24",
     "endDate": "2026-10-25",
@@ -1661,6 +1691,22 @@ const festivals = [
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung.",
     "lat": 49.4683637,
     "lng": 8.5239462
+  },
+  {
+    "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",
+    "date": "2026-11-14",
+    "dateDisplay": "14. November 2026",
+    "location": "Aladin Music Hall, Bremen",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://klangwelten-bremen.de/event/KLHFX/",
+    "soldOut": false,
+    "description": "Norddeutschlands größte Goa- & Psytrance-Indoor-Experience auf mehreren Floors im Aladin Music Hall Bremen, u.a. mit Hard Techno und Techno.",
+    "lat": 53.0557345,
+    "lng": 8.8850217
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",

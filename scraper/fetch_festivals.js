@@ -356,6 +356,12 @@ const DISCOVERY_SOURCES = [
   { name: 'eventbrite.de (techno festival)', url: 'https://www.eventbrite.de/d/germany/techno-festival/',                     fn: scrapeEventbrite },
   { name: 'eventbrite.de (hard techno)',     url: 'https://www.eventbrite.de/d/germany/hard-techno-festival/',                fn: scrapeEventbrite },
   { name: 'eventbrite.de (open air NRW)',    url: 'https://www.eventbrite.de/d/germany--north-rhine-westphalia/techno-open-air/', fn: scrapeEventbrite },
+  // Klangwelten Bremen — Mehr-Event-Promoter (Aladin Music Hall, Twister-Dance
+  // Sande). Nur Events mit "techno"/"rave"/"schranz" etc. im Titel werden
+  // erkannt (siehe GENRE_KEYWORDS/hasRelevantGenre) — reine Goa/Psytrance-
+  // Termine ohne solches Schlagwort im Namen (z.B. "Goa World Halloween
+  // Special") muessen weiterhin manuell ergaenzt werden.
+  { name: 'klangwelten-bremen.de',           url: 'https://klangwelten-bremen.de/events/',                                     fn: scrapeGenericListing },
   // Festival-Aggregatoren — decken viele Festivals auf einmal ab
   { name: 'festivalsunited.com (DE)',        url: 'https://www.festivalsunited.com/festivals/countries/germany',              fn: scrapeFestivalsUnited },
   { name: 'festival-alarm.com (DE 2026)',    url: 'https://www.festival-alarm.com/Festivals-2026',                           fn: scrapeFestivalAlarm },
