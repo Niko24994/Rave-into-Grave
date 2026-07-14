@@ -113,6 +113,21 @@ const festivals = [
     "lng": 7.4047987
   },
   {
+    "name": "WE ARE ONE X SCHLACHTHOF FESTIVAL 2026",
+    "date": "2026-06-03",
+    "dateDisplay": "3. Juni 2026",
+    "location": "Schlachthof, Wiesbaden",
+    "genre": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://schlachthof-wiesbaden.de/events/weareone-festival-juni-2026",
+    "soldOut": false,
+    "description": "We Are One bespielt den Schlachthof Wiesbaden — 5 Stages, 30+ Artists, Day & Night von Hard Techno bis Trance.",
+    "lat": 50.0657898,
+    "lng": 8.2480486
+  },
+  {
     "name": "WORLD CLUB DOME 2026",
     "date": "2026-06-05",
     "endDate": "2026-06-07",
@@ -532,6 +547,23 @@ const festivals = [
     "description": "Zwei Tage und Naechte non-stop — Unreal bespielt das Junkyard Dortmund mit zwei Line-ups, Freitag bis Sonntagfrueh.",
     "lat": 51.5178,
     "lng": 7.4917
+  },
+  {
+    "name": "WE ARE ONE X MTW FESTIVAL 2026",
+    "date": "2026-07-17",
+    "endDate": "2026-07-19",
+    "dateDisplay": "17.–19. Juli 2026",
+    "location": "MTW, Offenbach am Main",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.weareonekollektiv.de/mtwfestival",
+    "soldOut": false,
+    "description": "2 Tage, 26 Stunden, 40+ Acts — We Are One bringt Techno, Hard Techno und Trance ins MTW Offenbach.",
+    "lat": 50.1117012,
+    "lng": 8.7391239
   },
   {
     "name": "HEXON FESTIVAL #2 2026",
@@ -1257,6 +1289,20 @@ const festivals = [
     "description": "Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.",
     "lat": 53.5501721,
     "lng": 10.0013165
+  },
+  {
+    "name": "WE ARE ONE PRESENTS HYDRO POOL SESH 2026",
+    "date": "2026-08-22",
+    "dateDisplay": "22. August 2026",
+    "location": "Nidderbad, Nidderau",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.weareonekollektiv.de/hydropoolsesh",
+    "soldOut": false,
+    "description": "Techno am Pool — We Are One verwandelt das Nidderbad bei Frankfurt in eine Open-Air-Bühne.",
+    "lat": 50.2289143,
+    "lng": 8.8742814
   },
   {
     "name": "INDIAN SPIRIT 2026",
