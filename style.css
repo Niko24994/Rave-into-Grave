@@ -1056,6 +1056,10 @@ header {
 @media (max-width: 900px) {
   .plan-layout { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
   .plan-card-col { position: static; }
+  /* Bild steht unter der Liste statt daneben — 70vh Liste wuerde dann fast
+     den ganzen Bildschirm fuellen, man scrollt sich durch die Liste statt
+     zur Grafik zu kommen. Kuerzer, damit die Karte schneller sichtbar wird. */
+  .plan-pick-list { max-height: 38vh; }
 }
 @media (max-width: 480px) {
   .plan-overlay { padding: 1.25rem 0.75rem 2.5rem; }
