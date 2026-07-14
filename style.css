@@ -1441,6 +1441,19 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
   }
   .genre-btn-scroll::-webkit-scrollbar { display: none; }
 
+  /* Sonst bricht der dritte Button (Festival-Plan) auf eine eigene,
+     fast leere zweite Zeile um — lieber wie die Genre-Zeile horizontal
+     scrollbar machen, damit oben nicht zwei Buttons-Zeilen "überfüllt" wirken. */
+  .fav-filter-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .fav-filter-row::-webkit-scrollbar { display: none; }
+  .fav-filter-row .genre-btn { flex-shrink: 0; }
+
   .genre-btn {
     flex-shrink: 0;
     padding: 0.55rem 1rem;
