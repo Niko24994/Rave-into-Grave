@@ -777,8 +777,7 @@ const festivals = [
   {
     "name": "JUICY BEATS 2026",
     "date": "2026-07-25",
-    "endDate": "2026-07-26",
-    "dateDisplay": "25.–26. Juli 2026",
+    "dateDisplay": "25. Juli 2026",
     "location": "Westfalenpark, Dortmund",
     "genre": [
       "Techno",

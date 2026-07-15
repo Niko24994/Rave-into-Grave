@@ -436,21 +436,13 @@ const DISCOVERY_SOURCES = [
   { name: 'amphoria-kevelaer.de',             url: 'https://amphoria-kevelaer.de/',                                           fn: makeFestivalScraper('AMPHORIA', 'Schwarzer Bruch, Kevelaer', ['Techno']) },
   // Arena Rave — Touring-Reihe, mehrere Staedte/Termine (siehe scrapeArenaRave)
   { name: 'arena-rave.de',                    url: 'https://arena-rave.de/wp-json/wp/v2/event?per_page=50',                    fn: scrapeArenaRave },
-  // Vortex Festival — naechster Termin noch nicht angekuendigt (Stand Juli 2026),
-  // Seite ist JS-lastig (Cargo-Baukasten) und der Termin steht evtl. nur clientseitig.
-  // Watch bleibt drin, damit er automatisch erscheint, sobald er als Text auf der
-  // Seite steht — falls er nie serverseitig sichtbar wird, muss er manuell ergaenzt werden.
+  // Vortex Festival — naechster Termin noch nicht angekuendigt (Stand Juli 2026)
   { name: 'vortexfestival.com',               url: 'https://vortexfestival.com/',                                             fn: makeFestivalScraper('VORTEX FESTIVAL', 'EWS Arena, Göppingen', ['Techno', 'Trance', 'Hardcore']) },
-  // WinterBeats — 2026er Ausgabe (21.02.2026) bereits vorbei, 2027er Termin laut Website noch
-  // T.B.A. (Stand Juli 2026). Watch bleibt drin, damit der naechste Termin automatisch erscheint.
+  // WinterBeats — naechster Termin T.B.A.
   { name: 'winterbeats.de',                   url: 'https://winterbeats.de/',                                                 fn: makeFestivalScraper('WINTERBEATS', 'Saturn Arena, Ingolstadt', ['Hard Techno', 'Trance', 'Electronic']) },
-  // Electrifinity — Ausgabe 19.-21.06.2026 bereits vorbei (Stand Juli 2026),
-  // naechster Termin noch nicht angekuendigt. Watch bleibt drin, damit die
-  // naechste Ausgabe automatisch erscheint, sobald ein Datum online steht.
+  // Electrifinity — naechster Termin noch nicht angekuendigt
   { name: 'electrifinity.world',               url: 'https://electrifinity.world/',                                            fn: makeFestivalScraper('ELECTRIFINITY', 'Ehem. US-Kaserne, Bad Aibling', ['Hard Techno', 'Techno', 'Hardstyle']) },
-  // Spaetschicht Saar — etabliertes Techno-Festival am Flugplatz Zweibruecken
-  // (2.500 Besucher laut Lokalpresse), aber die Seite ist clientseitig gerendert
-  // und zeigt kein Datum im rohen HTML (Stand Juli 2026) — genau wie Vortex.
+  // Spaetschicht Saar — Flugplatz Zweibruecken
   { name: 'spaetschicht-saar.de',             url: 'https://www.spaetschicht-saar.de/',                                       fn: makeFestivalScraper('SPÄTSCHICHT SAAR', 'Flugplatz, Zweibrücken', ['Techno']) },
   // Hasardeur Festival Karlsruhe
   { name: 'hasardeur-festival.de',            url: 'https://hasardeur-festival.de/',                                          fn: makeFestivalScraper('HASARDEUR FESTIVAL', 'Auto Böhler Schrottplatz, Karlsruhe', ['Techno', 'Hard Techno']) },
@@ -462,6 +454,8 @@ const DISCOVERY_SOURCES = [
   { name: 'mahagoni-festival.de',              url: 'https://mahagoni-festival.de/',                                          fn: makeFestivalScraper('MAHAGONI FESTIVAL', 'Rittergut Etzdorf, Teutschenthal (Sachsen-Anhalt)', ['Techno', 'Experimental']) },
   // Nimmerland Open Air Germersheim
   { name: 'nimmerlandevents.de',               url: 'https://nimmerlandevents.de/openair',                                    fn: makeFestivalScraper('NIMMERLAND OPEN AIR', 'Festung Germersheim, Germersheim', ['Techno']) },
+  // Juicy Beats Dortmund
+  { name: 'juicybeats.net',                  url: 'https://www.juicybeats.net/',                                             fn: makeFestivalScraper('JUICY BEATS', 'Westfalenpark, Dortmund', ['Techno', 'Electronic', 'House']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 
