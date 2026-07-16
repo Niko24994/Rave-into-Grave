@@ -194,6 +194,11 @@ const NO_WEBSITE_YET = new Set([
 // hier gezielt nach dem vollen Festival-Namen im Kontext suchen
 const VENUE_DOMAINS = new Set([
   'lokschuppen-bielefeld.de',
+  // outside-world.de: mehrere verschiedene Festivals (The Big Blue, SUNphetamine,
+  // Electric Garden, Strand Miezen) teilen sich dieselbe /events-URL (keine
+  // eigenen Event-Unterseiten verfuegbar) — ohne Venue-Modus wuerde jedes
+  // gefundene Zukunftsdatum faelschlich jedem der Festivals zugeordnet.
+  'outside-world.de',
 ]);
 
 // Kalender-Seite für Venue-Domains (wenn abweichend von der Festival-URL)
