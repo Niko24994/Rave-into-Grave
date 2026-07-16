@@ -456,6 +456,8 @@ const DISCOVERY_SOURCES = [
   { name: 'nimmerlandevents.de',               url: 'https://nimmerlandevents.de/openair',                                    fn: makeFestivalScraper('NIMMERLAND OPEN AIR', 'Festung Germersheim, Germersheim', ['Techno']) },
   // Juicy Beats Dortmund
   { name: 'juicybeats.net',                  url: 'https://www.juicybeats.net/',                                             fn: makeFestivalScraper('JUICY BEATS', 'Westfalenpark, Dortmund', ['Techno', 'Electronic', 'House']) },
+  // Welcome to my Garden — Kurhausgarten Hamm
+  { name: 'wtmg-festival.de',                url: 'https://wtmg-festival.de/',                                               fn: makeFestivalScraper('WELCOME TO MY GARDEN', 'Kurpark Hamm, Hamm', ['EDM', 'Trance', 'Techno']) },
   // Keine anderen NL-Quellen — nur Verknipt-Events und Awakenings aus Holland erlaubt
 ];
 

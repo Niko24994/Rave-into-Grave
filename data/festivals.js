@@ -791,6 +791,22 @@ const festivals = [
     "lng": 7.4768236
   },
   {
+    "name": "WELCOME TO MY GARDEN 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Kurpark Hamm, Hamm",
+    "genre": [
+      "EDM",
+      "Trance",
+      "Techno"
+    ],
+    "url": "https://wtmg-festival.de/",
+    "soldOut": false,
+    "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
+    "lat": 51.6768,
+    "lng": 7.8258
+  },
+  {
     "name": "FREIRAUM OPEN AIR 2026",
     "date": "2026-07-25",
     "endDate": "2026-07-26",
