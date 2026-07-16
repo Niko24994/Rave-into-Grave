@@ -645,6 +645,22 @@ const festivals = [
     "lng": 13.3951309
   },
   {
+    "name": "SUNphetamine FESTIVAL 2026",
+    "date": "2026-07-18",
+    "dateDisplay": "18. Juli 2026",
+    "location": "Stadtpark Hannover, Hannover",
+    "genre": [
+      "Techno",
+      "Rave",
+      "Trance"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno-Classics-Festival im Stadtpark Hannover (HCC-Terrasse) mit Rave-Classics- und Trance-Classics-Floor, von Outside World Festival.",
+    "lat": 52.3741063,
+    "lng": 9.7715194
+  },
+  {
     "name": "FEEL FESTIVAL 2026",
     "date": "2026-07-23",
     "endDate": "2026-07-26",
@@ -821,6 +837,20 @@ const festivals = [
     "description": "Eines der größten Techno-Events Schleswig-Holsteins — Waldbühne Trappenkamp unter freiem Himmel.",
     "lat": 54.0122,
     "lng": 10.3269
+  },
+  {
+    "name": "ELECTRIC GARDEN FESTIVAL 2026",
+    "date": "2026-07-26",
+    "dateDisplay": "26. Juli 2026",
+    "location": "Groove Garden, Hannover",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno am Maschsee — Open-Air-Tagesfestival im Groove Garden Hannover, präsentiert von Outside World Festival.",
+    "lat": 52.3528136,
+    "lng": 9.7443727
   },
   {
     "name": "NATURE ONE 2026",
@@ -1029,6 +1059,20 @@ const festivals = [
     "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
     "lat": 49.2009672,
     "lng": 8.3395468
+  },
+  {
+    "name": "STRAND MIEZEN – THE SEASIDE RAVE 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Friedrichsbad Zwintschöna, Halle",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — u.a. mit Westbam, DJ Rush und Dr. Motte, von Outside World Festival.",
+    "lat": 51.4574024,
+    "lng": 12.0488952
   },
   {
     "name": "MODULE FESTIVAL 2026",
@@ -1511,6 +1555,20 @@ const festivals = [
     "lng": 8.5763
   },
   {
+    "name": "THE BIG BLUE 2026",
+    "date": "2026-09-04",
+    "dateDisplay": "4. September 2026",
+    "location": "Blauer See, Garbsen",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Highlight-Festival von Outside World am Blauen See Garbsen — 38 DJs, u.a. Umek, Westbam und Kai Tracid, 30.000+ Besucher pro Jahr.",
+    "lat": 52.4196779,
+    "lng": 9.5503431
+  },
+  {
     "name": "WAVES OPEN AIR CLOSING 2026",
     "date": "2026-09-05",
     "dateDisplay": "5. Sep 2026",
@@ -1617,6 +1675,20 @@ const festivals = [
     "lng": 8.2926327
   },
   {
+    "name": "OUTSIDE WORLD PRESENTS: ATB – THE FINAL CHAPTER 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Alando Palais, Osnabrück",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "ATB auf Abschiedstour — \"The Final Chapter Worldtour\" macht im Alando Palais Osnabrück Halt, präsentiert von Outside World Festival.",
+    "lat": 52.2712368,
+    "lng": 8.0562127
+  },
+  {
     "name": "UNREAL XXL OPEN AIR 2026",
     "date": "2026-09-26",
     "dateDisplay": "26. September 2026",
@@ -1630,6 +1702,21 @@ const festivals = [
     "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
     "lat": 50.9146,
     "lng": 6.9767
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL – HARD EDITION 2026",
+    "date": "2026-10-02",
+    "dateDisplay": "2. Oktober 2026",
+    "location": "Baggi, Hannover",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Härtere Klänge im Baggi Hannover — die Hard Edition von Outside World Festival.",
+    "lat": 52.3788393,
+    "lng": 9.7438353
   },
   {
     "name": "SYNDICATE 2026",
@@ -1647,6 +1734,20 @@ const festivals = [
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere.",
     "lat": 51.4966917,
     "lng": 7.4602637
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL HAMBURG PRES. X 2026",
+    "date": "2026-10-03",
+    "dateDisplay": "3. Oktober 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Outside World Festival gastiert im Edelfettwerk Hamburg — Techno-Classics-Nacht bis in den frühen Morgen.",
+    "lat": 53.5952901,
+    "lng": 9.9057809
   },
   {
     "name": "BLACKLIST FESTIVAL 2026",
@@ -1710,6 +1811,20 @@ const festivals = [
     "lng": 8.8071646
   },
   {
+    "name": "OUTSIDE WORLD FESTIVAL 2026 – BIELEFELD",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "Lokschuppen, Bielefeld",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Outside World Festival im Lokschuppen Bielefeld — Techno-Classics-Nacht mit DJ-Legenden der 90er und 2000er.",
+    "lat": 52.0365537,
+    "lng": 8.5514521
+  },
+  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",
@@ -1768,6 +1883,35 @@ const festivals = [
     "lng": 8.5239462
   },
   {
+    "name": "OUTSIDE WORLD FESTIVAL – BEVERN 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Ta-Töff Eventcenter, Bremervörde",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Outside World Festival im Ta-Töff Eventcenter bei Bremervörde — Techno-Classics-Nacht der DJ-Legenden.",
+    "lat": 53.4384727,
+    "lng": 9.1773214
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL HANNOVER PRES. PLANET LOVE 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Baggi, Hannover",
+    "genre": [
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "\"Planet Love\"-Edition von Outside World Festival im Baggi Hannover — Techno- und Trance-Classics.",
+    "lat": 52.3788393,
+    "lng": 9.7438353
+  },
+  {
     "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",
     "date": "2026-11-14",
     "dateDisplay": "14. November 2026",
@@ -1799,6 +1943,20 @@ const festivals = [
     "description": "Norddeutschlands größtes Indoor-Festival — 20.000 Besucher, 50+ Acts auf 5 Stages, 12 Stunden non-stop von 18:00 bis 06:00 Uhr.",
     "lat": 52.3173696,
     "lng": 9.7924818
+  },
+  {
+    "name": "RAVE REPEAT X PUREDJLEGENDS 2026",
+    "date": "2026-11-28",
+    "dateDisplay": "28. November 2026",
+    "location": "Capitol, Halle",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Neues Rave-Legends-Konzept von Outside World im Capitol Halle — dunklere, clubbigere Sets internationaler Techno-Legenden.",
+    "lat": 51.4651012,
+    "lng": 11.9829409
   },
   {
     "name": "HARDSHIFT FESTIVAL 2026",
@@ -2263,6 +2421,20 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
     "lat": 53.3613328,
     "lng": 11.6141158
+  },
+  {
+    "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Friedrichsbad, Halle",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
+    "lat": 51.4574024,
+    "lng": 12.0488952
   }
 ];
 

@@ -362,6 +362,13 @@ const DISCOVERY_SOURCES = [
   // Termine ohne solches Schlagwort im Namen (z.B. "Goa World Halloween
   // Special") muessen weiterhin manuell ergaenzt werden.
   { name: 'klangwelten-bremen.de',           url: 'https://klangwelten-bremen.de/events/',                                     fn: scrapeGenericListing },
+  // Outside World Festival — deutschlandweiter Techno-Classics-Promoter
+  // (13 Staedte). Die meisten Event-Namen enthalten kein Genre-Schlagwort
+  // (z.B. "The Big Blue", "SUNphetamine FESTIVAL", "Electric Garden
+  // Festival") und rutschen daher durch den GENRE_KEYWORDS/technoAdjacent-
+  // Filter — muessen weiterhin manuell nachgepflegt werden. Nur klar
+  // benannte "OUTSIDE WORLD FESTIVAL ..."-Termine werden automatisch erkannt.
+  { name: 'outside-world.de',                url: 'https://outside-world.de/events',                                           fn: scrapeGenericListing },
   // Festival-Aggregatoren — decken viele Festivals auf einmal ab
   { name: 'festivalsunited.com (DE)',        url: 'https://www.festivalsunited.com/festivals/countries/germany',              fn: scrapeFestivalsUnited },
   { name: 'festival-alarm.com (DE 2026)',    url: 'https://www.festival-alarm.com/Festivals-2026',                           fn: scrapeFestivalAlarm },
