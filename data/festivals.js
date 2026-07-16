@@ -1680,6 +1680,20 @@ const festivals = [
     "lng": 12.4035524
   },
   {
+    "name": "ACE OF RAVE",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "Aladin Music Hall & Tivoli Bremen, Bremen",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://klangwelten-bremen.de/event/7G2XE/",
+    "soldOut": false,
+    "description": "",
+    "lat": 53.0758196,
+    "lng": 8.8071646
+  },
+  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",
