@@ -1675,20 +1675,6 @@ const festivals = [
     "lng": 8.2926327
   },
   {
-    "name": "OUTSIDE WORLD PRESENTS: ATB – THE FINAL CHAPTER 2026",
-    "date": "2026-09-19",
-    "dateDisplay": "19. September 2026",
-    "location": "Alando Palais, Osnabrück",
-    "genre": [
-      "Trance"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "ATB auf Abschiedstour — \"The Final Chapter Worldtour\" macht im Alando Palais Osnabrück Halt, präsentiert von Outside World Festival.",
-    "lat": 52.2712368,
-    "lng": 8.0562127
-  },
-  {
     "name": "UNREAL XXL OPEN AIR 2026",
     "date": "2026-09-26",
     "dateDisplay": "26. September 2026",
@@ -1702,21 +1688,6 @@ const festivals = [
     "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
     "lat": 50.9146,
     "lng": 6.9767
-  },
-  {
-    "name": "OUTSIDE WORLD FESTIVAL – HARD EDITION 2026",
-    "date": "2026-10-02",
-    "dateDisplay": "2. Oktober 2026",
-    "location": "Baggi, Hannover",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Härtere Klänge im Baggi Hannover — die Hard Edition von Outside World Festival.",
-    "lat": 52.3788393,
-    "lng": 9.7438353
   },
   {
     "name": "SYNDICATE 2026",
@@ -1734,20 +1705,6 @@ const festivals = [
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere.",
     "lat": 51.4966917,
     "lng": 7.4602637
-  },
-  {
-    "name": "OUTSIDE WORLD FESTIVAL HAMBURG PRES. X 2026",
-    "date": "2026-10-03",
-    "dateDisplay": "3. Oktober 2026",
-    "location": "Edelfettwerk, Hamburg",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Outside World Festival gastiert im Edelfettwerk Hamburg — Techno-Classics-Nacht bis in den frühen Morgen.",
-    "lat": 53.5952901,
-    "lng": 9.9057809
   },
   {
     "name": "BLACKLIST FESTIVAL 2026",
@@ -1811,20 +1768,6 @@ const festivals = [
     "lng": 8.8071646
   },
   {
-    "name": "OUTSIDE WORLD FESTIVAL 2026 – BIELEFELD",
-    "date": "2026-10-17",
-    "dateDisplay": "17. Oktober 2026",
-    "location": "Lokschuppen, Bielefeld",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Outside World Festival im Lokschuppen Bielefeld — Techno-Classics-Nacht mit DJ-Legenden der 90er und 2000er.",
-    "lat": 52.0365537,
-    "lng": 8.5514521
-  },
-  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",
@@ -1883,35 +1826,6 @@ const festivals = [
     "lng": 8.5239462
   },
   {
-    "name": "OUTSIDE WORLD FESTIVAL – BEVERN 2026",
-    "date": "2026-11-07",
-    "dateDisplay": "7. November 2026",
-    "location": "Ta-Töff Eventcenter, Bremervörde",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Outside World Festival im Ta-Töff Eventcenter bei Bremervörde — Techno-Classics-Nacht der DJ-Legenden.",
-    "lat": 53.4384727,
-    "lng": 9.1773214
-  },
-  {
-    "name": "OUTSIDE WORLD FESTIVAL HANNOVER PRES. PLANET LOVE 2026",
-    "date": "2026-11-07",
-    "dateDisplay": "7. November 2026",
-    "location": "Baggi, Hannover",
-    "genre": [
-      "Techno",
-      "Trance"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "\"Planet Love\"-Edition von Outside World Festival im Baggi Hannover — Techno- und Trance-Classics.",
-    "lat": 52.3788393,
-    "lng": 9.7438353
-  },
-  {
     "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",
     "date": "2026-11-14",
     "dateDisplay": "14. November 2026",
@@ -1943,20 +1857,6 @@ const festivals = [
     "description": "Norddeutschlands größtes Indoor-Festival — 20.000 Besucher, 50+ Acts auf 5 Stages, 12 Stunden non-stop von 18:00 bis 06:00 Uhr.",
     "lat": 52.3173696,
     "lng": 9.7924818
-  },
-  {
-    "name": "RAVE REPEAT X PUREDJLEGENDS 2026",
-    "date": "2026-11-28",
-    "dateDisplay": "28. November 2026",
-    "location": "Capitol, Halle",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Neues Rave-Legends-Konzept von Outside World im Capitol Halle — dunklere, clubbigere Sets internationaler Techno-Legenden.",
-    "lat": 51.4651012,
-    "lng": 11.9829409
   },
   {
     "name": "HARDSHIFT FESTIVAL 2026",
