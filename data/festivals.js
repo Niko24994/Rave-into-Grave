@@ -1680,7 +1680,7 @@ const festivals = [
     "lng": 12.4035524
   },
   {
-    "name": "ACE OF RAVE",
+    "name": "ACE OF RAVE 2026",
     "date": "2026-10-17",
     "dateDisplay": "17. Oktober 2026",
     "location": "Aladin Music Hall & Tivoli Bremen, Bremen",
@@ -1689,7 +1689,7 @@ const festivals = [
     ],
     "url": "https://klangwelten-bremen.de/event/7G2XE/",
     "soldOut": false,
-    "description": "",
+    "description": "Techno-Ausgabe von Ace of Rave in der Aladin Music Hall & Tivoli Bremen, präsentiert von Klangwelten Bremen.",
     "lat": 53.0758196,
     "lng": 8.8071646
   },
