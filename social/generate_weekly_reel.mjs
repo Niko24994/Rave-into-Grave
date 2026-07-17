@@ -190,15 +190,20 @@ async function fetchWeatherForFestivals(festivals) {
     // Vorhersage, egal ob Eintages- oder Durchschnittswert bei mehreren Tagen.
     const temp = Math.floor(avgTemp);
 
-    // Icon: sind alle Festival-Tage in derselben Kategorie (z.B. alle
-    // "clear"), wird der beste (niedrigste WMO-Code = klarste) Tag darin
-    // gezeigt. Sind die Tage gemischt (z.B. ein Regentag, ein Sonnentag),
-    // wird ein "teils/teils"-Icon (Sonne hinter Regenwolke) gezeigt, statt
-    // einen einzelnen Extremtag stellvertretend fuer alle zu waehlen.
-    const categories = new Set(entries.map(e => weatherCategory(e.code)));
-    const iconCode = categories.size === 1
-      ? entries.reduce((a, b) => (b.code < a.code ? b : a)).code
-      : 51;
+    // Icon: die Mehrheitskategorie ("clear" vs. "bad") entscheidet — bei
+    // z.B. 2 sonnigen Tagen und nur 1 Regentag wird der beste Tag aus der
+    // sonnigen Mehrheit gezeigt, nicht pauschal ein Misch-Icon. Nur bei
+    // echtem Gleichstand (z.B. 2 sonnig + 2 Regen) gibt es das "teils/teils"-
+    // Icon (Sonne hinter Regenwolke), weil dann keine Seite ueberwiegt.
+    const clearDays = entries.filter(e => weatherCategory(e.code) === 'clear');
+    const badDays = entries.filter(e => weatherCategory(e.code) === 'bad');
+    let iconCode;
+    if (clearDays.length === badDays.length) {
+      iconCode = 51;
+    } else {
+      const majority = clearDays.length > badDays.length ? clearDays : badDays;
+      iconCode = majority.reduce((a, b) => (b.code < a.code ? b : a)).code;
+    }
     return { icon: WEATHER_ICONS[iconCode] || '🌡️', temp };
   };
 }
