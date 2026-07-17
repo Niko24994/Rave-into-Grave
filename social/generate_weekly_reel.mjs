@@ -182,11 +182,18 @@ async function fetchWeatherForFestivals(festivals) {
     const avgTemp = entries.reduce((sum, e) => sum + e.temp, 0) / entries.length;
     // Icon vom Tag, der der Durchschnittstemperatur am naechsten liegt — bleibt
     // so ein echter, auf der Seite vorkommender Tag statt einer Kunstmischung.
-    const closest = entries.reduce((a, b) => Math.abs(b.temp - avgTemp) < Math.abs(a.temp - avgTemp) ? b : a);
-    // Eintages-Festivals: immer abrunden (27,7° -> 27°, nie optimistischer
-    // als die tatsaechliche Vorhersage). Mehrtaegig: normal runden, da bei
-    // einem Durchschnitt ueber mehrere Tage kein Einzelwert "beschoenigt" wird.
-    const temp = entries.length === 1 ? Math.floor(avgTemp) : Math.round(avgTemp);
+    // Bei Gleichstand (zwei Tage gleich weit vom Schnitt entfernt) den Tag mit
+    // dem niedrigeren WMO-Code nehmen, also den klareren/sonnigeren.
+    const closest = entries.reduce((a, b) => {
+      const diffA = Math.abs(a.temp - avgTemp);
+      const diffB = Math.abs(b.temp - avgTemp);
+      if (diffB < diffA) return b;
+      if (diffB > diffA) return a;
+      return b.code < a.code ? b : a;
+    });
+    // Immer abrunden (27,7° -> 27°) — nie optimistischer als die tatsaechliche
+    // Vorhersage, egal ob Eintages- oder Durchschnittswert bei mehreren Tagen.
+    const temp = Math.floor(avgTemp);
     return { icon: WEATHER_ICONS[closest.code] || '🌡️', temp };
   };
 }
