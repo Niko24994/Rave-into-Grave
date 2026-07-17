@@ -122,10 +122,8 @@ function loadWeekFestivals(mondayStr) {
 // bekommen dann einfach kein Wetter-Icon, statt falsche Daten zu zeigen.
 const WEATHER_ICONS = {
   0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️',
-  // 🌫️ (Nebel-Emoji) wirkt bei der kleinen Icon-Groesse im Reel wie ein
-  // formloses weisses Rechteck — 🌁 ist bei 36px deutlich als Dunst/Nebel
-  // erkennbar.
-  45: '🌁', 48: '🌁',
+  // Nebel-Codes zeigen einfach "bewoelkt" statt ein eigenes Nebel-Icon.
+  45: '☁️', 48: '☁️',
   51: '🌦️', 53: '🌦️', 55: '🌦️',
   56: '🌧️', 57: '🌧️',
   61: '🌧️', 63: '🌧️', 65: '🌧️',
