@@ -166,18 +166,23 @@ async function fetchWeatherForFestivals(festivals) {
     if (typeof f.lat !== 'number' || typeof f.lng !== 'number') return null;
     const key = `${f.lat.toFixed(2)},${f.lng.toFixed(2)}`;
 
-    // Bei mehrtaegigen Festivals den waermsten Tag im Zeitraum zeigen statt
-    // immer nur den ersten Tag — aussagekraeftiger fuer "wie wird das Wetter".
-    let best = null;
+    // Durchschnittstemperatur ueber die Festival-Tage statt Einzeltag-Maximum —
+    // ein einzelner waermerer Ausreissertag (z.B. der letzte von vier Tagen)
+    // sollte das Festival nicht optimistischer aussehen lassen, als es im
+    // Schnitt tatsaechlich wird.
+    const entries = [];
     const end = new Date((f.endDate || f.date) + 'T00:00:00');
     for (let d = new Date(f.date + 'T00:00:00'); d <= end; d.setDate(d.getDate() + 1)) {
       const entry = weatherByKey.get(`${key}|${toDateStr(d)}`);
-      if (entry && entry.code != null && entry.temp != null && (!best || entry.temp > best.temp)) {
-        best = entry;
-      }
+      if (entry && entry.code != null && entry.temp != null) entries.push(entry);
     }
-    if (!best) return null;
-    return { icon: WEATHER_ICONS[best.code] || '🌡️', temp: Math.floor(best.temp) };
+    if (entries.length === 0) return null;
+
+    const avgTemp = entries.reduce((sum, e) => sum + e.temp, 0) / entries.length;
+    // Icon vom Tag, der der Durchschnittstemperatur am naechsten liegt — bleibt
+    // so ein echter, auf der Seite vorkommender Tag statt einer Kunstmischung.
+    const closest = entries.reduce((a, b) => Math.abs(b.temp - avgTemp) < Math.abs(a.temp - avgTemp) ? b : a);
+    return { icon: WEATHER_ICONS[closest.code] || '🌡️', temp: Math.round(avgTemp) };
   };
 }
 
