@@ -265,7 +265,7 @@ function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTit
     /* Rechts mehr Innenabstand als links: TikTok/Instagram blenden dort ihre
        eigenen Like/Kommentar/Merken-Buttons ein, die sonst die Wetterspalte
        verdecken (echtes Feedback aus einem Live-Repost). */
-    .row { display:flex; align-items:center; gap:22px; border:2px solid #ff2d00; border-radius:6px; background: rgba(255,45,0,0.06); padding: 20px 90px 20px 26px; margin-bottom: 16px; }
+    .row { display:flex; align-items:center; gap:22px; border:2px solid #ff2d00; border-radius:6px; background: rgba(255,45,0,0.06); padding: 20px 58px 20px 26px; margin-bottom: 16px; }
     .row-date { font-family:'Share Tech Mono',monospace; font-size:28px; color:#ff9900; font-weight:700; white-space:nowrap; width: 17ch; flex-shrink:0; }
     .row-main { flex:1; min-width:0; }
     .row-name { font-weight:700; font-size:35px; color:#fff; text-transform:uppercase; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
