@@ -122,7 +122,10 @@ function loadWeekFestivals(mondayStr) {
 // bekommen dann einfach kein Wetter-Icon, statt falsche Daten zu zeigen.
 const WEATHER_ICONS = {
   0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️',
-  45: '🌫️', 48: '🌫️',
+  // 🌫️ (Nebel-Emoji) wirkt bei der kleinen Icon-Groesse im Reel wie ein
+  // formloses weisses Rechteck — 🌁 ist bei 36px deutlich als Dunst/Nebel
+  // erkennbar.
+  45: '🌁', 48: '🌁',
   51: '🌦️', 53: '🌦️', 55: '🌦️',
   56: '🌧️', 57: '🌧️',
   61: '🌧️', 63: '🌧️', 65: '🌧️',
@@ -182,7 +185,11 @@ async function fetchWeatherForFestivals(festivals) {
     // Icon vom Tag, der der Durchschnittstemperatur am naechsten liegt — bleibt
     // so ein echter, auf der Seite vorkommender Tag statt einer Kunstmischung.
     const closest = entries.reduce((a, b) => Math.abs(b.temp - avgTemp) < Math.abs(a.temp - avgTemp) ? b : a);
-    return { icon: WEATHER_ICONS[closest.code] || '🌡️', temp: Math.round(avgTemp) };
+    // Eintages-Festivals: immer abrunden (27,7° -> 27°, nie optimistischer
+    // als die tatsaechliche Vorhersage). Mehrtaegig: normal runden, da bei
+    // einem Durchschnitt ueber mehrere Tage kein Einzelwert "beschoenigt" wird.
+    const temp = entries.length === 1 ? Math.floor(avgTemp) : Math.round(avgTemp);
+    return { icon: WEATHER_ICONS[closest.code] || '🌡️', temp };
   };
 }
 
