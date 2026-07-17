@@ -134,6 +134,12 @@ const WEATHER_ICONS = {
   95: '⛈️', 96: '⛈️', 99: '⛈️',
 };
 
+// Grobe Kategorie eines WMO-Codes fuer die Mehrtages-Icon-Auswahl:
+// "clear" = Sonne/Wolken ohne Niederschlag, "bad" = Regen/Schnee/Gewitter.
+function weatherCategory(code) {
+  return [0, 1, 2, 3, 45, 48].includes(code) ? 'clear' : 'bad';
+}
+
 async function fetchWeatherForFestivals(festivals) {
   // Nach gerundeten Koordinaten gruppieren, damit nahegelegene Festivals sich
   // eine Abfrage teilen statt jedes einzeln zu callen.
@@ -180,21 +186,20 @@ async function fetchWeatherForFestivals(festivals) {
     if (entries.length === 0) return null;
 
     const avgTemp = entries.reduce((sum, e) => sum + e.temp, 0) / entries.length;
-    // Icon vom Tag, der der Durchschnittstemperatur am naechsten liegt — bleibt
-    // so ein echter, auf der Seite vorkommender Tag statt einer Kunstmischung.
-    // Bei Gleichstand (zwei Tage gleich weit vom Schnitt entfernt) den Tag mit
-    // dem niedrigeren WMO-Code nehmen, also den klareren/sonnigeren.
-    const closest = entries.reduce((a, b) => {
-      const diffA = Math.abs(a.temp - avgTemp);
-      const diffB = Math.abs(b.temp - avgTemp);
-      if (diffB < diffA) return b;
-      if (diffB > diffA) return a;
-      return b.code < a.code ? b : a;
-    });
     // Immer abrunden (27,7° -> 27°) — nie optimistischer als die tatsaechliche
     // Vorhersage, egal ob Eintages- oder Durchschnittswert bei mehreren Tagen.
     const temp = Math.floor(avgTemp);
-    return { icon: WEATHER_ICONS[closest.code] || '🌡️', temp };
+
+    // Icon: sind alle Festival-Tage in derselben Kategorie (z.B. alle
+    // "clear"), wird der beste (niedrigste WMO-Code = klarste) Tag darin
+    // gezeigt. Sind die Tage gemischt (z.B. ein Regentag, ein Sonnentag),
+    // wird ein "teils/teils"-Icon (Sonne hinter Regenwolke) gezeigt, statt
+    // einen einzelnen Extremtag stellvertretend fuer alle zu waehlen.
+    const categories = new Set(entries.map(e => weatherCategory(e.code)));
+    const iconCode = categories.size === 1
+      ? entries.reduce((a, b) => (b.code < a.code ? b : a)).code
+      : 51;
+    return { icon: WEATHER_ICONS[iconCode] || '🌡️', temp };
   };
 }
 
