@@ -855,6 +855,23 @@ const festivals = [
     "lng": 7.4255143
   },
   {
+    "name": "RANCH RAVE 2026",
+    "date": "2026-07-30",
+    "endDate": "2026-08-01",
+    "dateDisplay": "30. Juli–1. August 2026",
+    "location": "Binsfeld, Arnstein (bei Würzburg)",
+    "genre": [
+      "Techno",
+      "House",
+      "Hardstyle"
+    ],
+    "url": "https://ranchrave.de",
+    "soldOut": false,
+    "description": "Open-Air mitten im Grünen bei Würzburg — House, Techno und Hardstyle, organisiert vom Johannisverein Binsfeld e.V.",
+    "lat": 49.9490964,
+    "lng": 9.8861868
+  },
+  {
     "name": "FERDINANDS FELD FESTIVAL 2026",
     "date": "2026-07-31",
     "endDate": "2026-08-01",
