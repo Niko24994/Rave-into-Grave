@@ -807,22 +807,6 @@ const festivals = [
     "lng": 7.4768236
   },
   {
-    "name": "WELCOME TO MY GARDEN 2026",
-    "date": "2026-08-08",
-    "dateDisplay": "8. August 2026",
-    "location": "Kurpark Hamm, Hamm",
-    "genre": [
-      "EDM",
-      "Trance",
-      "Techno"
-    ],
-    "url": "https://wtmg-festival.de/",
-    "soldOut": false,
-    "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
-    "lat": 51.6768,
-    "lng": 7.8258
-  },
-  {
     "name": "FREIRAUM OPEN AIR 2026",
     "date": "2026-07-25",
     "endDate": "2026-07-26",
@@ -1045,6 +1029,22 @@ const festivals = [
     "description": "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair.",
     "lat": 50.4948382,
     "lng": 11.7092902
+  },
+  {
+    "name": "WELCOME TO MY GARDEN 2026",
+    "date": "2026-08-08",
+    "dateDisplay": "8. August 2026",
+    "location": "Kurpark Hamm, Hamm",
+    "genre": [
+      "EDM",
+      "Trance",
+      "Techno"
+    ],
+    "url": "https://wtmg-festival.de/",
+    "soldOut": false,
+    "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
+    "lat": 51.6768,
+    "lng": 7.8258
   },
   {
     "name": "NIMMERLAND OPEN AIR 2026",
@@ -2321,6 +2321,88 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
     "lat": 53.3613328,
     "lng": 11.6141158
+  },
+  {
+    "name": "STONE TECHNO FESTIVAL 2027",
+    "date": "2027-07-11",
+    "dateDisplay": "11. Juli 2027",
+    "location": "Zeche Zollverein, Essen",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.stone-techno.com",
+    "soldOut": false,
+    "description": "100+ Artists auf dem UNESCO-Welterbe Zeche Zollverein — drei Tage Techno in einer der beeindruckendsten Industrie-Kulissen Europas.",
+    "lat": 51.488001,
+    "lng": 7.0386873
+  },
+  {
+    "name": "LIBELLA FESTIVAL 2027",
+    "date": "2027-07-11",
+    "dateDisplay": "11. Juli 2027",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
+    "lat": 51.4254976,
+    "lng": 7.2678414
+  },
+  {
+    "name": "SEA YOU FESTIVAL 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Tunisee, Freiburg",
+    "genre": [
+      "Techno",
+      "House",
+      "Trance"
+    ],
+    "url": "https://www.seayou-festival.de/",
+    "soldOut": false,
+    "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
+    "lat": 48.0661014,
+    "lng": 7.814414
+  },
+  {
+    "name": "PAROOKAVILLE 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Airport Weeze, Weeze",
+    "genre": [
+      "EDM",
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.parookaville.com",
+    "soldOut": false,
+    "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
+    "lat": 51.6031019,
+    "lng": 6.1433899
+  },
+  {
+    "name": "LOLLAPALOOZA BERLIN 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Olympiastadion & Olympiapark, Berlin",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Pop",
+      "Rock"
+    ],
+    "url": "https://www.lollapaloozade.com",
+    "soldOut": false,
+    "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
+    "lat": 52.5173885,
+    "lng": 13.3951309
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
