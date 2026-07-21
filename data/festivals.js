@@ -2422,6 +2422,20 @@ const festivals = [
     "lng": 13.3951309
   },
   {
+    "name": "DEICHBRAND 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Seeflughafen Cuxhaven/Nordholz",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Rock"
+    ],
+    "url": "https://www.deichbrand.de",
+    "soldOut": false,
+    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
+  },
+  {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
     "date": "2027-08-07",
     "dateDisplay": "7. August 2027",
