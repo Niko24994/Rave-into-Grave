@@ -38,7 +38,7 @@ const PER_PAGE = 9;
 // noetige Folgeseite (Hochsaison, >PER_PAGE Festivals) wird kuerzer
 // angezeigt, wenn sie kaum noch Content hat.
 function pageDurations(groups) {
-  const defaultSeconds = groups.length === 1 ? 10 : 7;
+  const defaultSeconds = groups.length === 1 ? 10.5 : 7;
   return groups.map((g, i) => {
     if (i === 0) return defaultSeconds;
     const isLast = i === groups.length - 1;
