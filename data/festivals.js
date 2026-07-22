@@ -2436,6 +2436,38 @@ const festivals = [
     "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
   },
   {
+    "name": "MEDIVAL FESTIVAL 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
+    "genre": [
+      "Techno",
+      "House",
+      "Drum and Bass"
+    ],
+    "url": "https://medival-festival.de/",
+    "soldOut": false,
+    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
+    "lat": 50.994119,
+    "lng": 10.1722441
+  },
+  {
+    "name": "OPEN BEATZ 2027",
+    "date": "2027-07-25",
+    "dateDisplay": "25. Juli 2027",
+    "location": "bei Herzogenaurach, Nürnberg",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "EDM"
+    ],
+    "url": "https://www.openbeatz.de",
+    "soldOut": false,
+    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
+    "lat": 49.453872,
+    "lng": 11.077298
+  },
+  {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
     "date": "2027-08-07",
     "dateDisplay": "7. August 2027",
