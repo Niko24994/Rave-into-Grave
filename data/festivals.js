@@ -1645,6 +1645,20 @@ const festivals = [
     "lng": 12.0796
   },
   {
+    "name": "REBORN 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Allach-Untermenzing, München",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://reborn-festival.com",
+    "soldOut": false,
+    "description": "Neues Open-Air-Festival in München mit Fokus auf Trance — Day-Sets, Sunset-Momente und Night-Raves auf einer Stage.",
+    "lat": 48.1951989,
+    "lng": 11.4629222
+  },
+  {
     "name": "CAMAKAVUM FESTIVAL 2026",
     "date": "2026-09-11",
     "endDate": "2026-09-13",
@@ -2433,7 +2447,9 @@ const festivals = [
     ],
     "url": "https://www.deichbrand.de",
     "soldOut": false,
-    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting."
+    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting.",
+    "lat": 53.7686,
+    "lng": 8.6583
   },
   {
     "name": "MEDIVAL FESTIVAL 2027",
