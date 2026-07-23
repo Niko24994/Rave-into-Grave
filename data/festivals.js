@@ -2213,6 +2213,23 @@ const festivals = [
     "lng": 9.2
   },
   {
+    "name": "HIVE FESTIVAL 2027",
+    "date": "2027-06-18",
+    "dateDisplay": "18.–20. Juni 2027",
+    "location": "Ferropolis, Gräfenhainichen",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Psytrance"
+    ],
+    "url": "https://hive-festival.de",
+    "soldOut": false,
+    "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.",
+    "lat": 51.7590874,
+    "lng": 12.4487506,
+    "endDate": "2027-06-20"
+  },
+  {
     "name": "BUCHBUSCH FESTIVAL 2027",
     "date": "2027-06-19",
     "dateDisplay": "19. Juni 2027",
@@ -2240,38 +2257,6 @@ const festivals = [
     "description": "Techno-Festival auf dem Flughafengelände Karlsruhe/Baden-Baden — 20.000 m² Festival-Area, Indoor-Hangar und Outdoor zwischen historischen Flugzeugen.",
     "lat": 48.7528211,
     "lng": 8.0405324
-  },
-  {
-    "name": "HIVE FESTIVAL 2027",
-    "date": "2027-06-20",
-    "dateDisplay": "20. Juni 2027",
-    "location": "Ferropolis, Gräfenhainichen",
-    "genre": [
-      "Hard Techno",
-      "Schranz",
-      "Psytrance"
-    ],
-    "url": "https://hive-festival.de",
-    "soldOut": false,
-    "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.",
-    "lat": 51.7590874,
-    "lng": 12.4487506
-  },
-  {
-    "name": "HIVE INDOOR 2027",
-    "date": "2027-06-20",
-    "dateDisplay": "20. Juni 2027",
-    "location": "Messe Leipzig, Leipzig",
-    "genre": [
-      "Hard Techno",
-      "Schranz",
-      "Techno"
-    ],
-    "url": "https://hive-festival.de",
-    "soldOut": false,
-    "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
-    "lat": 51.3963707,
-    "lng": 12.4035524
   },
   {
     "name": "IKARUS FESTIVAL 2027",
@@ -2339,8 +2324,8 @@ const festivals = [
   },
   {
     "name": "AIRBEAT ONE 2027",
-    "date": "2027-07-11",
-    "dateDisplay": "11. Juli 2027",
+    "date": "2027-07-07",
+    "dateDisplay": "7.–11. Juli 2027",
     "location": "Flughafen Neustadt-Glewe",
     "genre": [
       "EDM",
@@ -2351,44 +2336,30 @@ const festivals = [
     "soldOut": false,
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
     "lat": 53.3613328,
-    "lng": 11.6141158
+    "lng": 11.6141158,
+    "endDate": "2027-07-11"
   },
   {
-    "name": "STONE TECHNO FESTIVAL 2027",
-    "date": "2027-07-11",
-    "dateDisplay": "11. Juli 2027",
-    "location": "Zeche Zollverein, Essen",
+    "name": "DEICHBRAND 2027",
+    "date": "2027-07-15",
+    "dateDisplay": "15.–18. Juli 2027",
+    "location": "Seeflughafen Cuxhaven/Nordholz",
     "genre": [
       "Techno",
       "Electronic",
-      "House"
+      "Rock"
     ],
-    "url": "https://www.stone-techno.com",
+    "url": "https://www.deichbrand.de",
     "soldOut": false,
-    "description": "100+ Artists auf dem UNESCO-Welterbe Zeche Zollverein — drei Tage Techno in einer der beeindruckendsten Industrie-Kulissen Europas.",
-    "lat": 51.488001,
-    "lng": 7.0386873
-  },
-  {
-    "name": "LIBELLA FESTIVAL 2027",
-    "date": "2027-07-11",
-    "dateDisplay": "11. Juli 2027",
-    "location": "Kemnader See, Bochum",
-    "genre": [
-      "Techno",
-      "Schranz",
-      "Trance"
-    ],
-    "url": "https://libella-festival.de",
-    "soldOut": false,
-    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
-    "lat": 51.4254976,
-    "lng": 7.2678414
+    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting.",
+    "lat": 53.7686,
+    "lng": 8.6583,
+    "endDate": "2027-07-18"
   },
   {
     "name": "SEA YOU FESTIVAL 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
+    "date": "2027-07-16",
+    "dateDisplay": "16.–18. Juli 2027",
     "location": "Tunisee, Freiburg",
     "genre": [
       "Techno",
@@ -2399,12 +2370,13 @@ const festivals = [
     "soldOut": false,
     "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
     "lat": 48.0661014,
-    "lng": 7.814414
+    "lng": 7.814414,
+    "endDate": "2027-07-18"
   },
   {
     "name": "PAROOKAVILLE 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
+    "date": "2027-07-16",
+    "dateDisplay": "16.–18. Juli 2027",
     "location": "Airport Weeze, Weeze",
     "genre": [
       "EDM",
@@ -2416,12 +2388,30 @@ const festivals = [
     "soldOut": false,
     "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
     "lat": 51.6031019,
-    "lng": 6.1433899
+    "lng": 6.1433899,
+    "endDate": "2027-07-18"
+  },
+  {
+    "name": "MEDIVAL FESTIVAL 2027",
+    "date": "2027-07-16",
+    "dateDisplay": "16.–18. Juli 2027",
+    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
+    "genre": [
+      "Techno",
+      "House",
+      "Drum and Bass"
+    ],
+    "url": "https://medival-festival.de/",
+    "soldOut": false,
+    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
+    "lat": 50.994119,
+    "lng": 10.1722441,
+    "endDate": "2027-07-18"
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
+    "date": "2027-07-17",
+    "dateDisplay": "17.–18. Juli 2027",
     "location": "Olympiastadion & Olympiapark, Berlin",
     "genre": [
       "Techno",
@@ -2433,44 +2423,13 @@ const festivals = [
     "soldOut": false,
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
     "lat": 52.5173885,
-    "lng": 13.3951309
-  },
-  {
-    "name": "DEICHBRAND 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
-    "location": "Seeflughafen Cuxhaven/Nordholz",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Rock"
-    ],
-    "url": "https://www.deichbrand.de",
-    "soldOut": false,
-    "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting.",
-    "lat": 53.7686,
-    "lng": 8.6583
-  },
-  {
-    "name": "MEDIVAL FESTIVAL 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
-    "location": "Burgruine Brandenburg, Gerstungen (Thüringen)",
-    "genre": [
-      "Techno",
-      "House",
-      "Drum and Bass"
-    ],
-    "url": "https://medival-festival.de/",
-    "soldOut": false,
-    "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
-    "lat": 50.994119,
-    "lng": 10.1722441
+    "lng": 13.3951309,
+    "endDate": "2027-07-18"
   },
   {
     "name": "OPEN BEATZ 2027",
-    "date": "2027-07-25",
-    "dateDisplay": "25. Juli 2027",
+    "date": "2027-07-23",
+    "dateDisplay": "23.–25. Juli 2027",
     "location": "bei Herzogenaurach, Nürnberg",
     "genre": [
       "Techno",
@@ -2481,7 +2440,8 @@ const festivals = [
     "soldOut": false,
     "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
     "lat": 49.453872,
-    "lng": 11.077298
+    "lng": 11.077298,
+    "endDate": "2027-07-25"
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
