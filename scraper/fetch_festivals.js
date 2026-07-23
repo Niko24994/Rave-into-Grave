@@ -331,6 +331,16 @@ function buildNewEditionName(existingName, newYear) {
   return `${existingName} ${newYear}`.toUpperCase();
 }
 
+// ACHTUNG bekannte Einschraenkung: erzeugt immer nur ein Einzeldatum, nie
+// einen endDate-Bereich, weil extractFutureDates() nur einzelne Daten aus dem
+// Seitentext holt, keine Zeitraeume ("16.-18. Juli") erkennt. Wenn das
+// bekannte Festival (knownFest) mehrtaegig war, geht diese Info bei der
+// naechsten Ausgabe verloren und der Eintrag wird faelschlich zu einem
+// Eintagesfestival. Am 2026-07-23 wurden dadurch 8 Festivals (Hive, Airbeat
+// One, Sea You, Parookaville, Lollapalooza Berlin, Deichbrand, Medival, Open
+// Beatz) mit falschem Einzeldatum vorgefunden und manuell korrigiert — bei
+// jeder neu automatisch entdeckten Ausgabe eines vorher mehrtaegigen
+// Festivals bitte das echte Datum pruefen, bevor es so stehen bleibt.
 function buildEditionEntry(knownFest, newName, date, sourceUrl) {
   return {
     name: newName,
