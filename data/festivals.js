@@ -840,7 +840,7 @@ const festivals = [
     "name": "NATURE ONE 2026",
     "date": "2026-07-30",
     "endDate": "2026-08-02",
-    "dateDisplay": "30. Juli – 2. Aug 2026",
+    "dateDisplay": "30. Juli – 2. August 2026",
     "location": "Raketenbasis Pydna, Kastellaun",
     "genre": [
       "Techno",
@@ -875,7 +875,7 @@ const festivals = [
     "name": "FERDINANDS FELD FESTIVAL 2026",
     "date": "2026-07-31",
     "endDate": "2026-08-01",
-    "dateDisplay": "31. Juli – 1. Aug 2026",
+    "dateDisplay": "31. Juli – 1. August 2026",
     "location": "Rotenburg an der Wümme",
     "genre": [
       "Techno",
@@ -891,7 +891,7 @@ const festivals = [
   {
     "name": "FACELESS OPEN AIR 2026",
     "date": "2026-08-01",
-    "dateDisplay": "1. Aug 2026",
+    "dateDisplay": "1. August 2026",
     "location": "Turbinenhalle, Oberhausen",
     "genre": [
       "Hardcore"
@@ -953,7 +953,7 @@ const festivals = [
     "name": "SHIFTED FESTIVAL 2026",
     "date": "2026-08-06",
     "endDate": "2026-08-09",
-    "dateDisplay": "6.–9. Aug 2026",
+    "dateDisplay": "6.–9. August 2026",
     "location": "Geheimes Waldgelände, Brandenburg",
     "genre": [
       "Techno",
@@ -1017,7 +1017,7 @@ const festivals = [
     "name": "ELECTRISIZE 2026",
     "date": "2026-08-07",
     "endDate": "2026-08-09",
-    "dateDisplay": "7.–9. Aug 2026",
+    "dateDisplay": "7.–9. August 2026",
     "location": "Haus Hohenbusch, Erkelenz",
     "genre": [
       "EDM",
@@ -1035,7 +1035,7 @@ const festivals = [
     "name": "SONNE MOND STERNE 2026",
     "date": "2026-08-07",
     "endDate": "2026-08-09",
-    "dateDisplay": "7.–9. Aug 2026",
+    "dateDisplay": "7.–9. August 2026",
     "location": "Saalburg-Ebersdorf, Thüringen",
     "genre": [
       "Techno",
@@ -1111,7 +1111,7 @@ const festivals = [
     "name": "HIGHFIELD FESTIVAL 2026",
     "date": "2026-08-13",
     "endDate": "2026-08-16",
-    "dateDisplay": "13.–16. Aug 2026",
+    "dateDisplay": "13.–16. August 2026",
     "location": "Störmthaler See, Leipzig/Grosspösna",
     "genre": [
       "Techno",
@@ -1162,7 +1162,7 @@ const festivals = [
     "name": "SAN HEJMO FESTIVAL 2026",
     "date": "2026-08-14",
     "endDate": "2026-08-15",
-    "dateDisplay": "14.–15. Aug 2026",
+    "dateDisplay": "14.–15. August 2026",
     "location": "Airport Weeze, Weeze",
     "genre": [
       "Techno",
@@ -1179,7 +1179,7 @@ const festivals = [
     "name": "MS DOCKVILLE 2026",
     "date": "2026-08-14",
     "endDate": "2026-08-15",
-    "dateDisplay": "14.–15. Aug 2026",
+    "dateDisplay": "14.–15. August 2026",
     "location": "Hamburg-Wilhelmsburg",
     "genre": [
       "Techno",
@@ -1197,7 +1197,7 @@ const festivals = [
     "name": "ECHELON FESTIVAL 2026",
     "date": "2026-08-14",
     "endDate": "2026-08-15",
-    "dateDisplay": "14.–15. Aug 2026",
+    "dateDisplay": "14.–15. August 2026",
     "location": "Ehem. US-Kaserne, Bad Aibling",
     "genre": [
       "Techno",
@@ -1245,7 +1245,7 @@ const festivals = [
   {
     "name": "ELECTRIC HORIZON FESTIVAL 2026",
     "date": "2026-08-15",
-    "dateDisplay": "15. Aug 2026",
+    "dateDisplay": "15. August 2026",
     "location": "Weldegarten, Plankstadt",
     "genre": [
       "Hard Techno"
@@ -1291,7 +1291,7 @@ const festivals = [
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
     "date": "2026-08-21",
     "endDate": "2026-08-23",
-    "dateDisplay": "21.–23. Aug 2026",
+    "dateDisplay": "21.–23. August 2026",
     "location": "ZOA Infield, Ecklak, Schleswig-Holstein",
     "genre": [
       "Techno",
@@ -1307,7 +1307,7 @@ const festivals = [
     "name": "WILDE MÖHRE FESTIVAL 2026",
     "date": "2026-08-21",
     "endDate": "2026-08-24",
-    "dateDisplay": "21.–24. Aug 2026",
+    "dateDisplay": "21.–24. August 2026",
     "location": "Lausitz, Brandenburg",
     "genre": [
       "Techno",
@@ -1323,7 +1323,7 @@ const festivals = [
   {
     "name": "TFELD FESTIVAL 2026",
     "date": "2026-08-22",
-    "dateDisplay": "22. Aug 2026",
+    "dateDisplay": "22. August 2026",
     "location": "Flughafen Tempelhof, Berlin",
     "genre": [
       "Techno",
@@ -1338,7 +1338,7 @@ const festivals = [
   {
     "name": "TANZINSEL FESTIVAL 2026",
     "date": "2026-08-22",
-    "dateDisplay": "22. Aug 2026",
+    "dateDisplay": "22. August 2026",
     "location": "Am Schutzhafen, Gemünden am Main",
     "genre": [
       "Techno",
@@ -1384,7 +1384,7 @@ const festivals = [
     "name": "INDIAN SPIRIT 2026",
     "date": "2026-08-26",
     "endDate": "2026-08-31",
-    "dateDisplay": "26.–31. Aug 2026",
+    "dateDisplay": "26.–31. August 2026",
     "location": "Flugplatz Ludwigslust, Mecklenburg",
     "genre": [
       "Psytrance",
@@ -1417,7 +1417,7 @@ const festivals = [
     "name": "HELL FESTIVAL 2026",
     "date": "2026-08-27",
     "endDate": "2026-08-30",
-    "dateDisplay": "27.–30. Aug 2026",
+    "dateDisplay": "27.–30. August 2026",
     "location": "Stausee Kelbra, Sachsen-Anhalt",
     "genre": [
       "Hardcore",
@@ -1434,7 +1434,7 @@ const festivals = [
     "name": "NIBIRII FESTIVAL 2026",
     "date": "2026-08-28",
     "endDate": "2026-08-30",
-    "dateDisplay": "28.–30. Aug 2026",
+    "dateDisplay": "28.–30. August 2026",
     "location": "Düren, NRW",
     "genre": [
       "Techno",
@@ -1467,7 +1467,7 @@ const festivals = [
   {
     "name": "SOLÅ FESTIVAL 2026",
     "date": "2026-08-29",
-    "dateDisplay": "29. Aug 2026",
+    "dateDisplay": "29. August 2026",
     "location": "Orangerie, Karlsaue, Kassel",
     "genre": [
       "Techno",
@@ -1482,7 +1482,7 @@ const festivals = [
   {
     "name": "BASSAFFEKT OPEN AIR 2026",
     "date": "2026-08-29",
-    "dateDisplay": "29. Aug 2026",
+    "dateDisplay": "29. August 2026",
     "location": "Messegelände, Balingen",
     "genre": [
       "Techno",
@@ -1497,7 +1497,7 @@ const festivals = [
   {
     "name": "FUTURE BEATZZ FESTIVAL 2026",
     "date": "2026-08-29",
-    "dateDisplay": "29. Aug 2026",
+    "dateDisplay": "29. August 2026",
     "location": "Nordstrand Cospudener See, Leipzig",
     "genre": [
       "Techno",
@@ -1541,7 +1541,7 @@ const festivals = [
   {
     "name": "FERRA FESTIVAL 2026",
     "date": "2026-08-30",
-    "dateDisplay": "ca. Aug/Sep 2026",
+    "dateDisplay": "ca. August/September 2026",
     "location": "Ferropolis, Gräfenhainichen",
     "genre": [
       "Hard Techno",
@@ -1558,7 +1558,7 @@ const festivals = [
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
     "date": "2026-09-03",
     "endDate": "2026-09-06",
-    "dateDisplay": "3.–6. Sep 2026",
+    "dateDisplay": "3.–6. September 2026",
     "location": "Hockenheimring, Hockenheim",
     "genre": [
       "Techno",
@@ -1588,7 +1588,7 @@ const festivals = [
   {
     "name": "WAVES OPEN AIR CLOSING 2026",
     "date": "2026-09-05",
-    "dateDisplay": "5. Sep 2026",
+    "dateDisplay": "5. September 2026",
     "location": "Spaßbad Wedemark, Hannover",
     "genre": [
       "Techno",
@@ -1603,7 +1603,7 @@ const festivals = [
   {
     "name": "POKKE HERRIE 2026",
     "date": "2026-09-05",
-    "dateDisplay": "5. Sep 2026",
+    "dateDisplay": "5. September 2026",
     "location": "Turbinenhalle, Oberhausen",
     "genre": [
       "Hardcore"
@@ -1662,7 +1662,7 @@ const festivals = [
     "name": "CAMAKAVUM FESTIVAL 2026",
     "date": "2026-09-11",
     "endDate": "2026-09-13",
-    "dateDisplay": "11.–13. Sep 2026",
+    "dateDisplay": "11.–13. September 2026",
     "location": "Ziegelei Benzin, Kritzow (Parchim)",
     "genre": [
       "Hardcore",
@@ -1677,7 +1677,7 @@ const festivals = [
   {
     "name": "SOLEM FESTIVAL 2026",
     "date": "2026-09-12",
-    "dateDisplay": "12. Sep 2026",
+    "dateDisplay": "12. September 2026",
     "location": "Sorpesee, Sundern (Sauerland)",
     "genre": [
       "Techno",
@@ -1723,7 +1723,7 @@ const festivals = [
   {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
-    "dateDisplay": "3. Okt 2026",
+    "dateDisplay": "3. Oktober 2026",
     "location": "Westfalenhallen, Dortmund",
     "genre": [
       "Hard Techno",
@@ -1740,7 +1740,7 @@ const festivals = [
   {
     "name": "BLACKLIST FESTIVAL 2026",
     "date": "2026-10-10",
-    "dateDisplay": "10. Okt 2026",
+    "dateDisplay": "10. Oktober 2026",
     "location": "Oberhausen, NRW",
     "genre": [
       "Techno",
@@ -1816,7 +1816,7 @@ const festivals = [
     "name": "VERKNIPT AMSTERDAM 2026",
     "date": "2026-10-24",
     "endDate": "2026-10-25",
-    "dateDisplay": "24.–25. Okt 2026",
+    "dateDisplay": "24.–25. Oktober 2026",
     "location": "AFAS Live, Amsterdam (NL)",
     "genre": [
       "Hard Techno"
@@ -1831,7 +1831,7 @@ const festivals = [
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-10-31",
     "endDate": "2026-11-01",
-    "dateDisplay": "31. Okt – 1. Nov 2026",
+    "dateDisplay": "31. Oktober – 1. November 2026",
     "location": "Turbinenhalle, Oberhausen",
     "genre": [
       "Hardcore"
@@ -1845,7 +1845,7 @@ const festivals = [
   {
     "name": "THE HOLY SHIT SHOW 2026",
     "date": "2026-11-06",
-    "dateDisplay": "6. Nov 2026",
+    "dateDisplay": "6. November 2026",
     "location": "Maimarkthalle, Mannheim",
     "genre": [
       "Hardcore"
@@ -1875,7 +1875,7 @@ const festivals = [
   {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
-    "dateDisplay": "28. Nov 2026",
+    "dateDisplay": "28. November 2026",
     "location": "Messe Hannover, Hannover",
     "genre": [
       "Techno",
@@ -1892,7 +1892,7 @@ const festivals = [
   {
     "name": "HARDSHIFT FESTIVAL 2026",
     "date": "2026-12-04",
-    "dateDisplay": "4. Dez 2026",
+    "dateDisplay": "4. Dezember 2026",
     "location": "Zenith Halle, München",
     "genre": [
       "Hardcore",
@@ -1921,7 +1921,7 @@ const festivals = [
   {
     "name": "TOXICATOR 2026",
     "date": "2026-12-05",
-    "dateDisplay": "5. Dez 2026",
+    "dateDisplay": "5. Dezember 2026",
     "location": "Maimarkthalle, Mannheim",
     "genre": [
       "Hardcore",
@@ -1952,7 +1952,7 @@ const festivals = [
   {
     "name": "44 LABEL X STUTYARD 2026",
     "date": "2026-12-12",
-    "dateDisplay": "12. Dez 2026",
+    "dateDisplay": "12. Dezember 2026",
     "location": "Messe Stuttgart ICS, Stuttgart",
     "genre": [
       "Hard Techno",
@@ -1968,7 +1968,7 @@ const festivals = [
     "name": "UNREAL X STUTYARD 2026",
     "date": "2026-12-19",
     "endDate": "2026-12-20",
-    "dateDisplay": "19.–20. Dez 2026",
+    "dateDisplay": "19.–20. Dezember 2026",
     "location": "Messe Stuttgart ICS, Stuttgart",
     "genre": [
       "Hard Techno",
@@ -1983,7 +1983,7 @@ const festivals = [
   {
     "name": "ARMY OF HARDCORE 2026",
     "date": "2026-12-25",
-    "dateDisplay": "25. Dez 2026",
+    "dateDisplay": "25. Dezember 2026",
     "location": "Turbinenhalle, Oberhausen",
     "genre": [
       "Hardcore"
@@ -2012,7 +2012,7 @@ const festivals = [
   {
     "name": "APEX 2027",
     "date": "2027-01-30",
-    "dateDisplay": "30. Jan 2027",
+    "dateDisplay": "30. Januar 2027",
     "location": "Maimarkthalle, Mannheim",
     "genre": [
       "Hardcore",
@@ -2027,7 +2027,7 @@ const festivals = [
   {
     "name": "ARENA RAVE LEIPZIG 2027",
     "date": "2027-02-20",
-    "dateDisplay": "20. Feb 2027",
+    "dateDisplay": "20. Februar 2027",
     "location": "Halle 1, Messe-Allee, Leipzig",
     "genre": [
       "Hard Techno"
