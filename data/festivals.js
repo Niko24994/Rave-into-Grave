@@ -2259,6 +2259,22 @@ const festivals = [
     "lng": 8.0405324
   },
   {
+    "name": "HIVE INDOOR 2027",
+    "date": "2027-06-20",
+    "dateDisplay": "20. Juni 2027",
+    "location": "Messe Leipzig, Leipzig",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Techno"
+    ],
+    "url": "https://hive-festival.de",
+    "soldOut": false,
+    "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
+    "lat": 51.3963707,
+    "lng": 12.4035524
+  },
+  {
     "name": "IKARUS FESTIVAL 2027",
     "date": "2027-06-25",
     "endDate": "2027-06-27",
@@ -2338,6 +2354,38 @@ const festivals = [
     "lat": 53.3613328,
     "lng": 11.6141158,
     "endDate": "2027-07-11"
+  },
+  {
+    "name": "STONE TECHNO FESTIVAL 2027",
+    "date": "2027-07-11",
+    "dateDisplay": "11. Juli 2027",
+    "location": "Zeche Zollverein, Essen",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.stone-techno.com",
+    "soldOut": false,
+    "description": "100+ Artists auf dem UNESCO-Welterbe Zeche Zollverein — drei Tage Techno in einer der beeindruckendsten Industrie-Kulissen Europas.",
+    "lat": 51.488001,
+    "lng": 7.0386873
+  },
+  {
+    "name": "LIBELLA FESTIVAL 2027",
+    "date": "2027-07-11",
+    "dateDisplay": "11. Juli 2027",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
+    "lat": 51.4254976,
+    "lng": 7.2678414
   },
   {
     "name": "DEICHBRAND 2027",
