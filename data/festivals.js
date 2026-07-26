@@ -2492,6 +2492,22 @@ const festivals = [
     "endDate": "2027-07-25"
   },
   {
+    "name": "JUICY BEATS 2027",
+    "date": "2027-07-31",
+    "dateDisplay": "31. Juli 2027",
+    "location": "Westfalenpark, Dortmund",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.juicybeats.net",
+    "soldOut": false,
+    "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
+    "lat": 51.4953414,
+    "lng": 7.4768236
+  },
+  {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
     "date": "2027-08-07",
     "dateDisplay": "7. August 2027",
