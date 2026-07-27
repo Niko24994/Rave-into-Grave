@@ -118,7 +118,7 @@ function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
       <div class="row" style="margin-bottom:${rowGap}px">
         <div class="row-date">${escapeHtml(shortDate)}</div>
         <div class="row-main">
-          <div class="row-name">${escapeHtml(f.name.replace(new RegExp(`\\s*${yearLabel}$`), ''))}</div>
+          <div class="row-name">${escapeHtml((f.reelName || f.name).replace(new RegExp(`\\s*${yearLabel}$`), ''))}</div>
           <div class="row-loc">${escapeHtml(f.location)}</div>
         </div>
       </div>`;

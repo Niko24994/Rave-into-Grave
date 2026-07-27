@@ -1385,6 +1385,7 @@ const festivals = [
   },
   {
     "name": "WE ARE ONE – HYDRO POOL SESH 2026",
+    "reelName": "WE ARE ONE – HYDRO POOL",
     "date": "2026-08-22",
     "dateDisplay": "22. August 2026",
     "location": "Nidderbad, Nidderau",
