@@ -190,6 +190,17 @@ const NO_WEBSITE_YET = new Set([
   'solem',
 ]);
 
+// Naechstjaehrige Ausgaben, die Teil 1 (monitorKnownFestivalSites) wiederholt
+// mit einem unbestaetigten/falschen Einzeldatum findet (siehe Kommentar bei
+// buildEditionEntry) und die trotz manueller Websuche keine verlaessliche
+// Quelle fuer ein echtes Datum ergeben haben. Exakter nameKey()+date-Schluessel,
+// damit ein spaeteres, echtes Datum (anderer Tag) nicht ebenfalls blockiert wird.
+const KNOWN_FALSE_POSITIVES = new Set([
+  'hiveindoor20272027-06-20',
+  'stonetechnofestival20272027-07-11',
+  'libellafestival20272027-07-11',
+]);
+
 // Domains die eine VENUE sind mit strukturiertem Kalender —
 // hier gezielt nach dem vollen Festival-Namen im Kontext suchen
 const VENUE_DOMAINS = new Set([
@@ -1100,6 +1111,13 @@ function mergeIntoExisting(existing, candidates) {
     // 1. Exakter Name+Datum Duplikat
     const key = nameKey(c.name) + c.date;
     if (existingKeys.has(key)) continue;
+
+    // 1.1 Bekannter Falsch-Fund (s. KNOWN_FALSE_POSITIVES oben) — manuell
+    // geprueft und ohne verlaessliche Quelle fuer dieses Datum verworfen.
+    if (KNOWN_FALSE_POSITIVES.has(key)) {
+      console.log(`  ⏸  ${c.name} (${c.date}) übersprungen — bekannter Falsch-Fund ohne verlässliche Quelle (KNOWN_FALSE_POSITIVES)`);
+      continue;
+    }
 
     // 2. Gleiches Festival, selber Monat oder Nachbarmonat → nicht re-adden
     //    Verhindert Start-/End-Datum-Duplikate bei mehrtägigen Festivals
