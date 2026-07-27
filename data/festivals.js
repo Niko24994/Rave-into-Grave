@@ -2492,6 +2492,21 @@ const festivals = [
     "endDate": "2027-07-25"
   },
   {
+    "name": "FEEL FESTIVAL 2027",
+    "date": "2027-07-25",
+    "dateDisplay": "25. Juli 2027",
+    "location": "Bergheider See, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.feel-festival.de",
+    "soldOut": false,
+    "description": "Intimes Techno-Festival am Bergheider See in Brandenburg — underground, naturverbunden, unvergesslich.",
+    "lat": 51.5717953,
+    "lng": 13.791063
+  },
+  {
     "name": "JUICY BEATS 2027",
     "date": "2027-07-31",
     "dateDisplay": "31. Juli 2027",
@@ -2520,6 +2535,22 @@ const festivals = [
     "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
     "lat": 51.4574024,
     "lng": 12.0488952
+  },
+  {
+    "name": "LOVE FAMILY PARK 2027",
+    "date": "2027-08-15",
+    "dateDisplay": "15. August 2027",
+    "location": "Rebstockpark, Frankfurt am Main",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.lovefamilypark.com",
+    "soldOut": false,
+    "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2027.",
+    "lat": 50.110597,
+    "lng": 8.6144214
   }
 ];
 
