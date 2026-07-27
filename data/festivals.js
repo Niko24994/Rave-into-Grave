@@ -1557,19 +1557,20 @@ const festivals = [
   },
   {
     "name": "FERRA FESTIVAL 2026",
-    "date": "2026-08-30",
-    "dateDisplay": "ca. August/September 2026",
-    "location": "Ferropolis, Gräfenhainichen",
+    "date": "2026-08-21",
+    "endDate": "2026-08-22",
+    "dateDisplay": "21.–22. August 2026",
+    "location": "Völklinger Hütte, Völklingen",
     "genre": [
       "Hard Techno",
       "Techno",
-      "Schranz"
+      "Trance"
     ],
     "url": "https://www.ferra-festival.de",
     "soldOut": false,
-    "description": "Vom Hive-Team — Hard Techno und Schranz in der Stadt aus Eisen, direkt am Wasser.",
-    "lat": 51.7590874,
-    "lng": 12.4487506
+    "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
+    "lat": 49.2490026,
+    "lng": 6.8439143
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
