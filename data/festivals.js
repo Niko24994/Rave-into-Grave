@@ -1873,6 +1873,20 @@ const festivals = [
     "lng": 8.8850217
   },
   {
+    "name": "VERKNIPT OBERHAUSEN 2026 (NOVEMBER)",
+    "date": "2026-11-14",
+    "dateDisplay": "14. November 2026",
+    "location": "Turbinenhalle, Oberhausen",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://www.verknipt.org/oberhausen-day-night/",
+    "soldOut": false,
+    "description": "Verknipt macht erneut Station in der Turbinenhalle Oberhausen — hartes Hard-Techno-Line-up, 22:00 bis 07:00 Uhr.",
+    "lat": 51.4835582,
+    "lng": 6.8666494
+  },
+  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. November 2026",
