@@ -1762,7 +1762,7 @@ const festivals = [
     "genre": [
       "Techno"
     ],
-    "url": "https://amaya-festival.ticket.io/wtufsd19/?lang=de",
+    "url": "",
     "soldOut": false,
     "description": "Premiere im Karlsruher Wildpark-Stadion — wetterunabhängiges Techno-Festival vom Gotec-Club, u.a. mit Alan Fitzpatrick, Nastia und Pan-Pot.",
     "lat": 49.0200043,
