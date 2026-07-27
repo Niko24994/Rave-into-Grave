@@ -967,6 +967,23 @@ const festivals = [
     "lng": 13.2461296
   },
   {
+    "name": "KLANGTHERAPIE FESTIVAL 2026",
+    "date": "2026-08-06",
+    "endDate": "2026-08-10",
+    "dateDisplay": "6.–10. August 2026",
+    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Psytrance"
+    ],
+    "url": "https://www.klangtherapie-festival.de/",
+    "soldOut": false,
+    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
+    "lat": 49.8959847,
+    "lng": 11.3231555
+  },
+  {
     "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
     "date": "2026-08-07",
     "dateDisplay": "7. August 2026",
@@ -1736,6 +1753,20 @@ const festivals = [
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere.",
     "lat": 51.4966917,
     "lng": 7.4602637
+  },
+  {
+    "name": "AMAYA FESTIVAL 2026",
+    "date": "2026-10-03",
+    "dateDisplay": "3. Oktober 2026",
+    "location": "BBBank Wildpark, Karlsruhe",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://amaya-festival.ticket.io/wtufsd19/?lang=de",
+    "soldOut": false,
+    "description": "Premiere im Karlsruher Wildpark-Stadion — wetterunabhängiges Techno-Festival vom Gotec-Club, u.a. mit Alan Fitzpatrick, Nastia und Pan-Pot.",
+    "lat": 49.0200043,
+    "lng": 8.4129879
   },
   {
     "name": "BLACKLIST FESTIVAL 2026",
