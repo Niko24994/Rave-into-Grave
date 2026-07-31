@@ -146,6 +146,23 @@ const festivals = [
     "lng": 8.6444501
   },
   {
+    "name": "BETWEEN THE SEAS FESTIVAL 2026",
+    "date": "2026-06-11",
+    "endDate": "2026-06-13",
+    "dateDisplay": "11.–13. Juni 2026",
+    "location": "Geestland, Kropp (Schleswig-Holstein)",
+    "genre": [
+      "Techno",
+      "Hardstyle",
+      "EDM"
+    ],
+    "url": "https://www.festival-sh.de/",
+    "soldOut": false,
+    "description": "5-jähriges Jubiläum — 40+ Acts auf vier Stages (u.a. eigene Techno-Stage) am Freibad-Gelände in Kropp.",
+    "lat": 54.4115609,
+    "lng": 9.5093321
+  },
+  {
     "name": "WAVES OPEN AIR 2026",
     "date": "2026-06-13",
     "dateDisplay": "13. Juni 2026",
@@ -1338,6 +1355,23 @@ const festivals = [
     "lng": 13.3505194
   },
   {
+    "name": "FERRA FESTIVAL 2026",
+    "date": "2026-08-21",
+    "endDate": "2026-08-22",
+    "dateDisplay": "21.–22. August 2026",
+    "location": "Völklinger Hütte, Völklingen",
+    "genre": [
+      "Hard Techno",
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.ferra-festival.de",
+    "soldOut": false,
+    "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
+    "lat": 49.2490026,
+    "lng": 6.8439143
+  },
+  {
     "name": "TFELD FESTIVAL 2026",
     "date": "2026-08-22",
     "dateDisplay": "22. August 2026",
@@ -1555,23 +1589,6 @@ const festivals = [
     "description": "Hard Techno auf Burg Stickhausen — mit Kobosil, Negitiv, Neon Graveyard und weiteren.",
     "lat": 53.2176097,
     "lng": 7.643256
-  },
-  {
-    "name": "FERRA FESTIVAL 2026",
-    "date": "2026-08-21",
-    "endDate": "2026-08-22",
-    "dateDisplay": "21.–22. August 2026",
-    "location": "Völklinger Hütte, Völklingen",
-    "genre": [
-      "Hard Techno",
-      "Techno",
-      "Trance"
-    ],
-    "url": "https://www.ferra-festival.de",
-    "soldOut": false,
-    "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
-    "lat": 49.2490026,
-    "lng": 6.8439143
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
