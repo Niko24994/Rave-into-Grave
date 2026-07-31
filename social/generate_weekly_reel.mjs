@@ -140,6 +140,14 @@ function weatherCategory(code) {
   return [0, 1, 2, 3, 45, 48].includes(code) ? 'clear' : 'bad';
 }
 
+// Grosse Wettermodelle koennen sich fuer denselben Ort/Tag stark widersprechen
+// (z.B. ein Modell "durchgehend Regen", ein anderes "durchgehend sonnig") —
+// ein Reel, das dann rein zufaellig das pessimistischste Modell zeigt, wirkt
+// unglaubwuerdig, wenn Zuschauer bei wetter.com etwas ganz anderes sehen.
+// Deshalb: pro Tag Mehrheitsentscheid ueber mehrere Modelle statt nur
+// Open-Meteos automatische "best_match"-Auswahl zu nehmen.
+const WEATHER_MODELS = ['best_match', 'ecmwf_ifs025', 'gfs_seamless'];
+
 async function fetchWeatherForFestivals(festivals) {
   // Nach gerundeten Koordinaten gruppieren, damit nahegelegene Festivals sich
   // eine Abfrage teilen statt jedes einzeln zu callen.
@@ -153,16 +161,38 @@ async function fetchWeatherForFestivals(festivals) {
   const weatherByKey = new Map();
   for (const [key, { lat, lng }] of byLocation) {
     try {
-      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max&timezone=Europe%2FBerlin&forecast_days=16`;
-      const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-      if (!res.ok) continue;
-      const data = await res.json();
-      const times = data?.daily?.time || [];
-      const codes = data?.daily?.weathercode || [];
-      const temps = data?.daily?.temperature_2m_max || [];
-      times.forEach((date, i) => {
-        weatherByKey.set(`${key}|${date}`, { code: codes[i], temp: temps[i] });
-      });
+      // Pro Tag ueber alle Modelle sammeln: { date -> [{code, temp}, ...] }
+      const perDay = new Map();
+      const results = await Promise.all(WEATHER_MODELS.map(async (model) => {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max&timezone=Europe%2FBerlin&forecast_days=16&models=${model}`;
+        try {
+          const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+          if (!res.ok) return null;
+          return await res.json();
+        } catch { return null; }
+      }));
+      for (const data of results) {
+        const times = data?.daily?.time || [];
+        const codes = data?.daily?.weathercode || [];
+        const temps = data?.daily?.temperature_2m_max || [];
+        times.forEach((date, i) => {
+          if (codes[i] == null || temps[i] == null) return;
+          if (!perDay.has(date)) perDay.set(date, []);
+          perDay.get(date).push({ code: codes[i], temp: temps[i] });
+        });
+      }
+      // Konsens pro Tag: Temperatur = Durchschnitt aller Modelle, Kategorie =
+      // Mehrheit der Modelle (clear vs. bad), Code = bester (niedrigster)
+      // Code aus der Mehrheitskategorie (fuers Icon).
+      for (const [date, entries] of perDay) {
+        const avgTemp = entries.reduce((s, e) => s + e.temp, 0) / entries.length;
+        const clearCount = entries.filter(e => weatherCategory(e.code) === 'clear').length;
+        const badCount = entries.length - clearCount;
+        const majorityCategory = clearCount >= badCount ? 'clear' : 'bad';
+        const majorityEntries = entries.filter(e => weatherCategory(e.code) === majorityCategory);
+        const bestCode = majorityEntries.reduce((a, b) => (b.code < a.code ? b : a)).code;
+        weatherByKey.set(`${key}|${date}`, { code: bestCode, temp: avgTemp });
+      }
     } catch {
       // Wetter ist ein Bonus-Feature — bei Fehler (Timeout, API down) einfach
       // kein Icon fuer die betroffenen Festivals anzeigen.
