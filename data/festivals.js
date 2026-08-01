@@ -1,4 +1,4 @@
-// Daten zuletzt aktualisiert: Juli 2026
+// Daten zuletzt aktualisiert: August 2026
 // Automatisch gepflegt von scraper/fetch_festivals.js — manuelle Einträge bleiben erhalten.
 
 const festivals = [
@@ -2539,6 +2539,22 @@ const festivals = [
     "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
     "lat": 51.4953414,
     "lng": 7.4768236
+  },
+  {
+    "name": "FERDINANDS FELD FESTIVAL 2027",
+    "date": "2027-07-31",
+    "dateDisplay": "31. Juli 2027",
+    "location": "Rotenburg an der Wümme",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.ferdinandsfeld.de/",
+    "soldOut": false,
+    "description": "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground.",
+    "lat": 53.0935023,
+    "lng": 9.417503
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
