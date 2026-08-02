@@ -2586,6 +2586,71 @@ const festivals = [
     "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2027.",
     "lat": 50.110597,
     "lng": 8.6144214
+  },
+  {
+    "name": "INTACT EXPANDA 2027",
+    "date": "2027-02-27",
+    "dateDisplay": "27. Februar 2027",
+    "location": "Catonium, Hamburg",
+    "genre": [
+      "Trance",
+      "Psytrance",
+      "Techno"
+    ],
+    "url": "https://www.facebook.com/events/intact-expanda-2027/2409517279394277/",
+    "soldOut": false,
+    "description": "Seit über 20 Jahren fester Bestandteil der Hamburger Szene — Progressive Trance, Psytrance und Techno im Catonium.",
+    "lat": 53.5881791,
+    "lng": 9.9199831
+  },
+  {
+    "name": "TRANCE WORLD FESTIVAL 2027",
+    "date": "2027-04-17",
+    "endDate": "2027-04-19",
+    "dateDisplay": "17.– 19. April 2027",
+    "location": "Max Nachttheater, Kiel",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://www.trance-world.de/",
+    "soldOut": false,
+    "description": "Erstmals in Schleswig-Holstein: Uplifting, Progressive und Hard Trance im Max Nachttheater Kiel.",
+    "lat": 54.3324518,
+    "lng": 10.1118095
+  },
+  {
+    "name": "HILL OF DREAMS 2026",
+    "date": "2026-08-07",
+    "endDate": "2026-08-08",
+    "dateDisplay": "7.– 8. August 2026",
+    "location": "Bruchhausen-Vilsen",
+    "genre": [
+      "Techno",
+      "EDM",
+      "Electronic"
+    ],
+    "url": "https://hill-of-dreams.de/",
+    "soldOut": false,
+    "description": "8. Auflage mit über 8000 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
+    "lat": 52.8288647,
+    "lng": 8.988901
+  },
+  {
+    "name": "NACHTI FESTIVAL 2027",
+    "date": "2027-07-30",
+    "endDate": "2027-08-01",
+    "dateDisplay": "30. Juli – 1. August 2027",
+    "location": "Bungalowdorf Olganitz",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://nachtdigital.de/en/nachti-festival",
+    "soldOut": false,
+    "description": "Nachfolger von Nachtdigital (seit 1998) — Techno, House und Electronica im Bungalowdorf Olganitz.",
+    "lat": 51.4052061,
+    "lng": 13.0921445
   }
 ];
 
