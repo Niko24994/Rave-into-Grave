@@ -773,7 +773,8 @@ const festivals = [
     "soldOut": false,
     "description": "Verknipt macht Station in der Turbinenhalle Oberhausen — hartes Hard Techno Line-up der niederländischen Crew.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil."
   },
   {
     "name": "MUUUHNLIGHT FESTIVAL 2026",
@@ -964,7 +965,8 @@ const festivals = [
     "soldOut": false,
     "description": "Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.",
     "lat": 51.4317994,
-    "lng": 11.759075
+    "lng": 11.759075,
+    "about": "Mahagoni ist ein intimes Kulturfestival ohne kommerzielle Ambitionen — bewusst ohne VIP-Bereich, dafür mit DIY-Kultur, Nachhaltigkeit und Gemeinschaftsgefühl. Nach mehreren Standortwechseln fand das seit 2018 bestehende Festival sein neues Zuhause am Rittergut Etzdorf bei Leipzig: sieben Bühnen, Workshops, Sauna, Jam-Sessions und ein Sandstrand am See, gestaltet, als sei alles rund um Gutshof und Wasser natürlich gewachsen."
   },
   {
     "name": "SHIFTED FESTIVAL 2026",
@@ -981,7 +983,8 @@ const festivals = [
     "soldOut": false,
     "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis.",
     "lat": 52.8455492,
-    "lng": 13.2461296
+    "lng": 13.2461296,
+    "about": "Shifted findet auf einem ehemaligen sowjetischen Militärflugplatz aus dem Kalten Krieg statt, der nach dem Zusammenbruch der Sowjetunion aufgegeben wurde. Über 15 Jahre verwandelte sich das als „Secret Forest\" bekannte Areal in Brandenburg in einen Kreativraum für Festivals. Seit der ersten Ausgabe 2024 verbindet Shifted futuristisches Stage-Design mit Underground-Electronic-Sound aus Trance, Hard- und Groove-Techno — mit besonderem Fokus auf Nachwuchskünstler:innen."
   },
   {
     "name": "KLANGTHERAPIE FESTIVAL 2026",
@@ -998,7 +1001,8 @@ const festivals = [
     "soldOut": false,
     "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
     "lat": 49.8959847,
-    "lng": 11.3231555
+    "lng": 11.3231555,
+    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Vier Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld."
   },
   {
     "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
@@ -1028,7 +1032,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
     "lat": 49.6101502,
-    "lng": 8.9671301
+    "lng": 8.9671301,
+    "about": "Am Marbach-Stausee im Odenwald verbindet Circle of Leaves pulsierende Beats mit der stillen Schönheit der Natur. Das Festival feiert elektronische Musik in all ihren Facetten und versteht sich als Ort für eine Community, die von Kreativität, Austausch und Solidarität geprägt ist — Techno und Tech House unter dem Sternenhimmel des Odenwalds."
   },
   {
     "name": "HAVELBEATS FESTIVAL 2026",
@@ -1045,7 +1050,8 @@ const festivals = [
     "soldOut": false,
     "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.",
     "lat": 52.4031259,
-    "lng": 13.0737772
+    "lng": 13.0737772,
+    "about": "Havelbeats findet seit 2017 im Kunst- und Kulturquartier Schiffbauergasse statt — einem ehemaligen Militärgelände direkt an der Havel im Potsdamer Norden. Veranstaltet wird das Festival vom traditionsreichen Waschhaus Potsdam, das die elektronische Clubkultur der Stadt seit den 1990ern prägt. Mehrere spezialisierte Bühnen decken das Spektrum ab: große Mainstage mit EDM, House und Techno, der raue Schirrhof für industriellen Techno-Sound, und ein Trance & Goa Garden direkt am Wasser."
   },
   {
     "name": "ELECTRISIZE 2026",
@@ -1063,7 +1069,8 @@ const festivals = [
     "soldOut": false,
     "description": "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.",
     "lat": 51.0681502,
-    "lng": 6.2781717
+    "lng": 6.2781717,
+    "about": "Electrisize feierte sein Debüt am 15. August 2009 im Erkelenzer Lahey-Park — damals traten sieben Künstler vor rund 400 Gästen auf. Seit 2013 ist das ehemalige Kreuzherrenkloster Hohenbusch die feste Heimat, mittlerweile bis 2028 vertraglich gesichert. Heute zieht das Festival bis zu 45.000 Besucher an und zählt damit zu den größten in Nordrhein-Westfalen. Fünf aufwendig gestaltete Themenwelten — von der Dschungelwelt „Tapuya\" bis zur Schwermetall-Dystopie „Hardsize\" — wechseln jährlich passend zum Ambiente."
   },
   {
     "name": "SONNE MOND STERNE 2026",
@@ -1097,7 +1104,8 @@ const festivals = [
     "soldOut": false,
     "description": "8. Auflage mit über 8000 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
     "lat": 52.8288647,
-    "lng": 8.988901
+    "lng": 8.988901,
+    "about": "Die 8. Auflage von Hill of Dreams bringt über 8.000 Besucher und mehr als 50 Live-Acts zwischen Bremen und Hannover zusammen. Vier Bühnen strukturieren das Gelände bei Bruchhausen-Vilsen — vom Castle Stage mit Techno über den Unicorn Stage (EDM, Big Room) bis zum Dirtbasss Stage für Bass Music und DnB. Camping ist fester Bestandteil, gefeiert wird von Freitagabend bis früh am Sonntagmorgen."
   },
   {
     "name": "WELCOME TO MY GARDEN 2026",
@@ -1113,7 +1121,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
     "lat": 51.6768,
-    "lng": 7.8258
+    "lng": 7.8258,
+    "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert."
   },
   {
     "name": "NIMMERLAND OPEN AIR 2026",
@@ -1127,7 +1136,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
     "lat": 49.2009672,
-    "lng": 8.3395468
+    "lng": 8.3395468,
+    "about": "Die historische Festung Germersheim verwandelt sich einmal im Jahr in einen pulsierenden Day-Techno-Tempel unter freiem Himmel. Mächtige Festungsmauern und offene Innenhöfe treffen auf zehn Stunden elektronische Musik — Nimmerland steht für die besondere Mischung aus Härte, Atmosphäre und kollektiver Eskalation, bei der sich Realität und Rave vermischen."
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2026",
@@ -1141,7 +1151,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — u.a. mit Westbam, DJ Rush und Dr. Motte, von Outside World Festival.",
     "lat": 51.4574024,
-    "lng": 12.0488952
+    "lng": 12.0488952,
+    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln."
   },
   {
     "name": "MODULE FESTIVAL 2026",
@@ -1157,7 +1168,8 @@ const festivals = [
     "soldOut": false,
     "description": "Underground Techno auf dem Kulturcampus Frankfurt — Skee Mask, upsammy, Roza Terenzi, Rosa Anschütz und Suzanne Ciani.",
     "lat": 50.1174667,
-    "lng": 8.6498444
+    "lng": 8.6498444,
+    "about": "Module ist Teil des Programms von World Design Capital Frankfurt RheinMain 2026 und findet auf dem Kulturcampus Frankfurt statt — dem ehemaligen Universitätsgelände in Bockenheim, das sich gerade im kulturellen Wandel befindet. Unter dem Motto „Design for Democracy\" verbindet das kostenlose, öffentliche Festival Konzerte, DJ-Sets, audiovisuelle Performances und Talks zu der Frage, wie Design und Kultur inklusive, lebendige öffentliche Räume schaffen können."
   },
   {
     "name": "HIGHFIELD FESTIVAL 2026",
@@ -1193,7 +1205,8 @@ const festivals = [
     "soldOut": false,
     "description": "Zehn Bühnen am Westufer des Helenesees — 13.000 Gäste, Lineup traditionell unangekündigt.",
     "lat": 52.3364,
-    "lng": 14.5089
+    "lng": 14.5089,
+    "about": "Seit der ersten Ausgabe 2017 verwandelt sich der Helenesee bei Frankfurt (Oder) für ein paar Tage in eine temporäre Utopie. Camping direkt am Seeufer ist zentraler Bestandteil des Konzepts — rund 13.000 Besucher wohnen mitten im Festivalgeschehen, statt nur zwischendurch vorbeizuschauen."
   },
   {
     "name": "CHIMAERA FESTIVAL 2026",
@@ -1209,7 +1222,8 @@ const festivals = [
     "soldOut": false,
     "description": "Mehrtägiges Underground-Techno-Festival an der Klingemühle bei Berlin — riesiges Lineup aus der Berliner und europäischen Underground-Szene.",
     "lat": 52.1006829,
-    "lng": 14.4316386
+    "lng": 14.4316386,
+    "about": "Chimaera entstand vor rund vier Jahren aus einer losen Gruppe verschiedener Akteure, Kollektive und Vereine der ostdeutschen Tiefenkultur, ein gutes Stück Impuls kam aus der lebendigen Dresdner Szene abseits von Berlin und Leipzig. Das nicht-kommerzielle, intime Festival versteht sich als Plattform für aufstrebende Künstler:innen verschiedenster Stile. Austragungsort ist die Klingemühle bei Friedland — ein altes DDR-Ferienlager mitten im Wald, direkt am Klingeteich, mit charmantem Camp-Flair statt durchgestylter Festivalkulisse."
   },
   {
     "name": "SAN HEJMO FESTIVAL 2026",
@@ -1226,7 +1240,8 @@ const festivals = [
     "soldOut": false,
     "description": "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre.",
     "lat": 51.6031019,
-    "lng": 6.1433899
+    "lng": 6.1433899,
+    "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet."
   },
   {
     "name": "MS DOCKVILLE 2026",
@@ -1261,7 +1276,8 @@ const festivals = [
     "soldOut": false,
     "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse.",
     "lat": 47.8640504,
-    "lng": 12.0097685
+    "lng": 12.0097685,
+    "about": "Echelon Festival findet auf dem Gelände einer ehemaligen US-Kaserne in Bad Aibling statt, die während des Kalten Kriegs als Abhörstation der NSA diente — direkt neben den ikonischen Radomen der einstigen Horchanlage. 2009 belebte eine Gruppe junger Kreativer den Ort erstmals mit Musik neu; aus Überwachung wurde Feiern, aus Kontrolle Verbindung. Auf dem Programm: Techno, Hardtechno, House, Acid, Melodic, Progressive und Minimal — bewusst ohne kommerziellen EDM."
   },
   {
     "name": "FOREST FORGE FESTIVAL 2026",
@@ -1278,7 +1294,8 @@ const festivals = [
     "soldOut": false,
     "description": "Natur trifft Techno an einer historischen Waldschmiede — zwei Tage Musik, Feuer und Wald bei Wietze.",
     "lat": 52.6333,
-    "lng": 9.8333
+    "lng": 9.8333,
+    "about": "Was als kleine Party unter Freunden begann, ist zu einem Rave mit tausenden Besuchern gewachsen: Die historische Waldschmiede bei Wietze lag lange verlassen da, bis Raver den Ort für sich entdeckten und schrittweise wiederbelebten. Forest Forge steht für Unabhängigkeit, Zusammenhalt und die besondere Energie, die entsteht, wenn Menschen und Musik im Einklang mit der Natur zusammenkommen — ohne Kommerz, dafür mit viel Herz."
   },
   {
     "name": "ACE OF RAVE 2026",
@@ -1294,7 +1311,8 @@ const festivals = [
     "soldOut": false,
     "description": "Indoor-Festival auf 3 Floors bei Twister Dance in Sande — Hard Techno, Trance und Schranz von Klangwelten Bremen.",
     "lat": 53.4924729,
-    "lng": 8.0256578
+    "lng": 8.0256578,
+    "about": "Ace of Rave gilt als die populärste Hardtechno-Indoor-Night im Norden — drei Floors, 16 Artists und fünf Headliner auf einer Bühne für Hardtechno, Trance, Schranz, Bounce und Psytrance. Austragungsort ist der Twister-Dance-Club in Sande, der nach einem Großbrand im November 2023 wiedereröffnet wurde."
   },
   {
     "name": "ELECTRIC HORIZON FESTIVAL 2026",
@@ -1308,7 +1326,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
     "lat": 49.4011747,
-    "lng": 8.578611
+    "lng": 8.578611,
+    "about": "Der Weldegarten in Plankstadt, ein ehemaliges Brauereigelände, ist seit einigen Jahren Schauplatz für größere Open-Air-Festivals in der Metropolregion Rhein-Neckar. Electric Horizon verwandelt das Areal für einen Tag in eine elektronische Sommerwelt mit Palmen, Chill-out-Ecken und drei Floors für Techno, Hardtechno, Trance und 90er-Klassiker — bei Sonnenuntergang geht es direkt in die offizielle After-Hour-Party über."
   },
   {
     "name": "RAVE THE PLANET PARADE 2026",
@@ -1340,7 +1359,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno & Hardstyle im Münsterland — 'A Fairytale of Dreams', über 40 Acts auf mehreren Floors an der Felsenmühle in Ochtrup.",
     "lat": 52.1912904,
-    "lng": 7.1791635
+    "lng": 7.1791635,
+    "about": "Lacuna ist das Electro-Festival im Münsterland und findet an der Felsenmühle in Ochtrup statt. Seit der ersten Ausgabe ist das Konzept kontinuierlich gewachsen — mittlerweile mit drei Tagen Camping, mehreren Bühnen, über 50 Artists und einer 360°-Stage. Musikalisch bleibt der Fokus auf Techno und Hardstyle, ergänzt um House, Harddance und Trance."
   },
   {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
@@ -1356,7 +1376,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals.",
     "lat": 54.1853998,
-    "lng": 9.8220089
+    "lng": 9.8220089,
+    "about": "Zukunftsmusik Open Air wurde 2018 in Ecklak, Schleswig-Holstein gegründet und verfolgt ein bewusst kleines, familiäres Konzept nach dem Motto „Rock trifft Elektro\". Zwei Bühnen teilen sich das Programm: eine Hauptbühne für handgemachte Musik aus verschiedenen Rock-Subgenres, und der zweite Floor „LonelyForest\" für elektronische Klangtherapien verschiedener Genres."
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2026",
@@ -1391,7 +1412,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
     "lat": 49.2490026,
-    "lng": 6.8439143
+    "lng": 6.8439143,
+    "about": "Die Völklinger Hütte ist das einzige vollständig erhaltene Hüttenwerk aus der Blütezeit der Industrialisierung und wurde 1994 als erstes Industriedenkmal weltweit UNESCO-Weltkulturerbe. Für FERRA öffnet dieses Weltkulturerbe Räume, die sonst verschlossen bleiben — auf fünf Bühnen treffen 67 DJs aus Hard Techno, Bounce und Trance auf monumentale Industriekultur, minimalistischen Sound und Laserinstallationen. Veranstaltet wird das Festival von Permanent Entertainment in Kooperation mit dem Hive Festival."
   },
   {
     "name": "TFELD FESTIVAL 2026",
@@ -1406,7 +1428,8 @@ const festivals = [
     "soldOut": false,
     "description": "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld.",
     "lat": 52.5173885,
-    "lng": 13.3951309
+    "lng": 13.3951309,
+    "about": "TFELD ist ein neues Festivalformat auf dem Berliner Flughafen Tempelhof, das unter dem Motto „Das ist Berlin\" HipHop und Techno erstmals gemeinsam auf eine Bühne bringt — inspiriert von Formaten wie der Backyard Stage des splash! Festivals und der legendären Autoscooter-Bühne des Melt Festivals. Der historische Flughafen, einst Drehscheibe für internationalen Austausch, steht symbolisch für Berlins kulturelle Entwicklung. Bewusst niedrige Ticketpreise sollen Kultur für möglichst viele zugänglich machen, nicht zum Privileg machen."
   },
   {
     "name": "TANZINSEL FESTIVAL 2026",
@@ -1421,7 +1444,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open-Air Techno-Festival am Schutzhafen in Gemünden am Main bei Würzburg — 12:00 bis 23:00 Uhr, 10.000 Besucher, ab 16 Jahren.",
     "lat": 50.0584231,
-    "lng": 9.6799525
+    "lng": 9.6799525,
+    "about": "Die Tanzinsel fand am 31. August 2013 erstmals als Tagesfestival in der Drei-Flüsse-Stadt Gemünden am Main statt, damals mit 5.000 Besuchern — heute sind es 10.000. Das Gelände am Schutzhafen liegt auf drei Seiten von Wasser umgeben, zwischen Mainufer und Hafenbecken. Ein großes Feuerwerk markiert traditionell das Ende jeder Ausgabe."
   },
   {
     "name": "AOS FESTIVAL 2026",
@@ -1437,7 +1461,8 @@ const festivals = [
     "soldOut": false,
     "description": "Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.",
     "lat": 53.5501721,
-    "lng": 10.0013165
+    "lng": 10.0013165,
+    "about": "AOS feierte 2023 mit dem PAL sein erstes Event — eine Reaktion darauf, dass eine ganze Generation wegen Corona nie echtes Clubbing erleben konnte. Das Hamburger Kollektiv verwandelt kalte Lagerhallen in Energie, Sound und Schweiß und will Tanzkultur voranbringen, ohne zu verlieren, was sie besonders macht. Das Festival ist ein 30-stündiger Urban Rave zwischen Deichtorhallen und PHOXXI-Freigelände mitten in Hamburg — Beton, Stahl und Museumscontainer rahmen schweißtreibende Dancefloors neben grünen Chill-out-Ecken."
   },
   {
     "name": "WE ARE ONE – HYDRO POOL SESH 2026",
@@ -1452,7 +1477,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno am Pool — We Are One verwandelt das Nidderbad bei Frankfurt in eine Open-Air-Bühne.",
     "lat": 50.2289143,
-    "lng": 8.8742814
+    "lng": 8.8742814,
+    "about": "We Are One veranstaltet seine Pool-Ausgabe im Nidderbad Nidderau, einem Freibad, das seit seiner Eröffnung 1972 über sechs Millionen Gäste empfangen hat. Zentral für das Kollektiv ist ein explizites Safespace-Konzept: Rassismus, Sexismus, Homophobie oder respektloses Verhalten führen zum sofortigen Ausschluss, ein Awareness-Team ist durchgehend vor Ort ansprechbar."
   },
   {
     "name": "INDIAN SPIRIT 2026",
@@ -1486,7 +1512,8 @@ const festivals = [
     "soldOut": false,
     "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
     "lat": 51.1667,
-    "lng": 12.0333
+    "lng": 12.0333,
+    "about": "Kepotopia entstand aus der Vision einer Gruppe von Freund:innen, die während eines gemeinsamen Urlaubs die Idee eines Ortes für gemeinschaftliches Leben und kreatives Arbeiten entwickelten. Der Name geht auf „Kepos\" zurück — griechisch für Garten oder Oase, ein Ort für Erholung und philosophischen Austausch, wie ihn schon Epikur führte. Getragen vom gemeinnützigen Verein Kepotopia e.V. ist der denkmalgeschützte Ort in Teuchern heute Lebensraum für mehrere Familien und gleichzeitig Schauplatz des Kepotopival — mit Musik, Workshops und Raum für persönliche Entwicklung."
   },
   {
     "name": "HELL FESTIVAL 2026",
@@ -1503,7 +1530,8 @@ const festivals = [
     "soldOut": false,
     "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
     "lat": 51.4363848,
-    "lng": 10.9954779
+    "lng": 10.9954779,
+    "about": "Hell Festival begann 2016 als kleines Event in Mansfeld-Südharz und ist innerhalb weniger Jahre zu einer festen Größe der europäischen Hardstyle- und Hardcore-Szene geworden. Nach einem Rechtsstreit um den ursprünglichen Standort am Mondsee Hohenmölsen zog das Festival an den Stausee Kelbra am Rand des Kyffhäusergebirges — ein Naturschutzgebiet mit Strand, Wiesen und Wald statt Industriebrache. Fast 200 Artists spielen über vier Tage auf sechs Floors, von klassischem Hardstyle über Rawstyle und Hardcore bis Frenchcore und Uptempo."
   },
   {
     "name": "NIBIRII FESTIVAL 2026",
@@ -1520,7 +1548,8 @@ const festivals = [
     "soldOut": false,
     "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
     "lat": 50.8031684,
-    "lng": 6.4820806
+    "lng": 6.4820806,
+    "about": "Nibirii feierte 2019 nach zwei Jahren als Clubevent seine Festival-Premiere mit über 15.000 Besuchern und wuchs bis 2024 auf rund 48.000. Das Besondere am Konzept: Techno, Psytrance und Drum & Bass — drei sonst kaum verbundene Nischen elektronischer Musik — teilen sich auf rund 45.000 Quadratmetern am Dürener Badesee fünf Bühnen. Neben der Musik gehören Wasserski, Bananaboat-Fahrten und Silent Disco zum kostenlosen Rahmenprogramm."
   },
   {
     "name": "EULENFLUG FESTIVAL 2026",
@@ -1537,7 +1566,8 @@ const festivals = [
     "soldOut": false,
     "description": "Wald, Kunst und Musik im romantischen Franken — selbstgebaute Bühnen zwischen Techno, House und Minimal.",
     "lat": 49.3667,
-    "lng": 10.25
+    "lng": 10.25,
+    "about": "2012 machten die Gründer ein Freiwilliges Soziales Jahr im Wildbad Rothenburg und veranstalteten dort mit Freunden zum ersten Mal den „Sundowner\" — daraus wuchs der Verein Grenzkunst und mit ihm das Eulenflug-Festival. Auf einem liebevoll dekorierten Waldgelände mit mehreren selbstgebauten Bühnen verschwimmen bewusst die Grenzen zwischen Musik, Theater und darstellender Kunst — seit Jahren arbeitet das Festival dafür mit Sprayern und Street-Art-Künstler:innen zusammen, die live vor Publikum arbeiten."
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -1552,7 +1582,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Open-Air auf der Karlsaue in Kassel — die Wiese vor der Orangerie wird zum Dancefloor. 12–22 Uhr, 16+.",
     "lat": 51.3102676,
-    "lng": 9.5008023
+    "lng": 9.5008023,
+    "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur."
   },
   {
     "name": "BASSAFFEKT OPEN AIR 2026",
@@ -1567,7 +1598,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans.",
     "lat": 48.2627004,
-    "lng": 8.8455873
+    "lng": 8.8455873,
+    "about": "Ende 2024 von Julius Vasiliadis und Robin Krützfeldt gegründet, feierte Bassaffekt eine erfolgreiche Premiere auf dem Balinger Messegelände. Das erklärte Ziel der Veranstalter: Festival-Atmosphäre bezahlbar machen und Menschen aus der Region zusammenbringen — bewusst moderate Preise statt Premium-Aufschlag, auf einem rund 24.000 Quadratmeter großen, eingezäunten Gelände."
   },
   {
     "name": "FUTURE BEATZZ FESTIVAL 2026",
@@ -1583,7 +1615,8 @@ const festivals = [
     "soldOut": false,
     "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
     "lat": 51.2859671,
-    "lng": 12.3461028
+    "lng": 12.3461028,
+    "about": "Future Beatzz verwandelt den Nordstrand des Cospudener Sees bei Leipzig in eine Kulisse direkt am Wasser, unter freiem Himmel — nach eigener Aussage der spektakulärste Festivalort der Region. Mega-Mainstage, LED-Show und Pyrotechnik treffen auf einen musikalischen Mix aus EDM, Afro House, Hard Techno und Party-Classics, mit Sonnenuntergang über dem See als natürlichem Höhepunkt."
   },
   {
     "name": "AMPHORIA 2026",
@@ -1597,7 +1630,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
     "lat": 51.5802996,
-    "lng": 6.2456273
+    "lng": 6.2456273,
+    "about": "Amphoria hat sein eigenes Erzähl-Konzept: Tief im Wald von Kevelaer liegt der Schwarze Bruch, ein mysteriöser Ort, der nur wenige Nächte im Jahr erwacht, wenn Amphoria seine Tore öffnet. Ähnlich wie Parookaville seine fiktive Stadt lebt, dreht sich Amphoria um die Waldgöttin, die für die richtige Feierstimmung sorgt — zwei Bühnen (Forest Stage und Local Hero Stage), eine kulinarische Food-Mile und ein Kreativbereich zum Mitmachen ergänzen das Programm."
   },
   {
     "name": "HARD.NOISE FESTIVAL 2026",
@@ -1611,7 +1645,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hard Techno auf Burg Stickhausen — mit Kobosil, Negitiv, Neon Graveyard und weiteren.",
     "lat": 53.2176097,
-    "lng": 7.643256
+    "lng": 7.643256,
+    "about": "Hard.Noise bringt etwas nach Ostfriesland, das es dort so noch nicht gab: einen Techno-Rave auf dem Gelände von Burg Stickhausen. Historische Architektur trifft auf moderne elektronische Musik — zwei Bühnen teilen sich das Areal, eine auf der großen Wiese am Eingang für klassische Festivalatmosphäre, eine zweite hinter dem markanten Burgturm für eine intensivere, mystischere Stimmung. Rund 3.500 Besucher werden erwartet."
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
@@ -1628,7 +1663,8 @@ const festivals = [
     "soldOut": false,
     "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
     "lat": 49.3297989,
-    "lng": 8.5763
+    "lng": 8.5763,
+    "about": "Glücksgefühle wurde von Musikmanager Markus Krampe und Fußballer Lukas Podolski ins Leben gerufen und feierte seine erste Ausgabe 2023. Mit rund 250.000 Besuchern und einer Veranstaltungsfläche von einer Million Quadratmetern auf dem Hockenheimring ist es mittlerweile Deutschlands größtes Musikfestival — drei Mainstages mit einer breiten Mischung aus Pop, Electro, HipHop und Party-Acts."
   },
   {
     "name": "THE BIG BLUE 2026",
@@ -1642,7 +1678,8 @@ const festivals = [
     "soldOut": false,
     "description": "Highlight-Festival von Outside World am Blauen See Garbsen — 38 DJs, u.a. Umek, Westbam und Kai Tracid, 30.000+ Besucher pro Jahr.",
     "lat": 52.4196779,
-    "lng": 9.5503431
+    "lng": 9.5503431,
+    "about": "Das Outside World Festival feiert mit „The Big Blue\" seine 5. Ausgabe am Blauen See in Garbsen bei Hannover — unter dem Jubiläumsmotto liegt der Fokus auf Techno-Classics aus den 1990ern, 2000ern und der Gegenwart. Drei Bühnen und 45 DJs, darunter Szene-Urgesteine wie Talla 2XLC, Umek und Westbam, sorgen für zwei Tage Nostalgie und Gegenwart nebeneinander."
   },
   {
     "name": "WAVES OPEN AIR CLOSING 2026",
@@ -1657,7 +1694,8 @@ const festivals = [
     "soldOut": false,
     "description": "Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover. Die letzte Sommerparty bevor der Herbst kommt.",
     "lat": 52.5467847,
-    "lng": 9.7482486
+    "lng": 9.7482486,
+    "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad."
   },
   {
     "name": "POKKE HERRIE 2026",
@@ -1671,7 +1709,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore-Event in der Turbinenhalle Oberhausen — Pokke Herrie macht keinen Spaß, und das ist gut so.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "about": "Pokke Herrie steht für niederländischen Hardcore in seiner lautesten, schnellsten Form. Die Reihe begann am 21. Oktober 2005 in Culemborg und feierte am 23. Oktober 2010 ihre erste deutsche Ausgabe — seitdem ist sie fester Bestandteil des Hardcore-Kalenders und zieht Fans aus ganz Europa in die Turbinenhalle Oberhausen, die seit ihrer Wiedereröffnung als Disco 1993 zu einer der größten Veranstaltungshallen der Region gewachsen ist."
   },
   {
     "name": "STRANDFIEBER FESTIVAL 2026",
@@ -1686,7 +1725,8 @@ const festivals = [
     "soldOut": false,
     "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
     "lat": 52.7916075,
-    "lng": 8.4459285
+    "lng": 8.4459285,
+    "about": "Strandfieber findet inzwischen zum zwölften Mal am Hartensbergsee in Goldenstedt statt — eine 13-stündige Electro-Party mit drei klar getrennten musikalischen Welten: die Waldbühne für Electro bis Hardstyle mitten im Grünen, die Strandbühne für Future House mit Seeblick, und das Amphitheater für Techno und Tech House."
   },
   {
     "name": "GEHT RAUS! OPEN AIR 2026",
@@ -1701,7 +1741,8 @@ const festivals = [
     "soldOut": false,
     "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
     "lat": 50.8803,
-    "lng": 12.0796
+    "lng": 12.0796,
+    "about": "GEht RAus! wird von der Stadtverwaltung Gera selbst organisiert und findet traditionell am ersten Septembersamstag im Hofwiesenpark statt — 2026 bereits zum vierten Mal seit dem Start 2023. Auf der Sparkassenbühne treffen treibender Techno, melodische Sounds und energiegeladene Live-Acts auf hochwertige Sound- und Lichttechnik, mitten im Grünen der Stadt."
   },
   {
     "name": "REBORN 2026",
@@ -1715,7 +1756,8 @@ const festivals = [
     "soldOut": false,
     "description": "Neues Open-Air-Festival in München mit Fokus auf Trance — Day-Sets, Sunset-Momente und Night-Raves auf einer Stage.",
     "lat": 48.1951989,
-    "lng": 11.4629222
+    "lng": 11.4629222,
+    "about": "Reborn versteht sich als Neubeginn einer Szene aus der Stadt heraus — treibender Techno, Hard Trance und industrielle Ästhetik unter dem Motto „One Stage, Thousands of Souls, One Rhythm\". Das Konzept setzt bewusst auf eine einzige Bühne statt vieler paralleler Areale: eine geteilte Erfahrung statt zersplitterter Programme, im Münchner Stadtteil Allach-Untermenzing."
   },
   {
     "name": "CAMAKAVUM FESTIVAL 2026",
@@ -1731,7 +1773,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal.",
     "lat": 53.4489349,
-    "lng": 12.0962706
+    "lng": 12.0962706,
+    "about": "Seit 2018 findet Camakavum auf dem Gelände der historischen Ziegelei Benzin in Kritzow statt — Backsteinmauern, Türme und Hallen bilden die Kulisse für eine psychedelische Welt aus Lichtkunst, Lasereffekten und Videomapping. Vier Floors decken das gesamte Spektrum der Trance-Familie ab: von Hitech und Psycore über Darkpsy bis Forest und Psy, ergänzt um DnB, Techno und Chill-Bereiche."
   },
   {
     "name": "SOLEM FESTIVAL 2026",
@@ -1746,7 +1789,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe.",
     "lat": 51.3309061,
-    "lng": 7.9420379
+    "lng": 7.9420379,
+    "about": "Solem findet direkt am Ufer des Sorpesees im Sauerland statt — Open Air mit Wasser und Sonnenuntergang, wo die Location die halbe Arbeit übernimmt und der Sound den Rest erledigt. Musikalisch setzt das Festival auf eine kuratierte Mischung aus Deep House, Afro House und Melodic Techno, von warm und sanft bis tief und treibend."
   },
   {
     "name": "RHEINGRÜN OPEN AIR 2026",
@@ -1762,7 +1806,8 @@ const festivals = [
     "soldOut": false,
     "description": "Rheinstrandbad Karlsruhe wird zur Bühne für Hard Techno, Industrial und Bouncy Grooves — zwei Tage direkt am Wasser.",
     "lat": 48.9995321,
-    "lng": 8.2926327
+    "lng": 8.2926327,
+    "about": "Rheingrün Open Air läuft seit 2013 im Rheinstrandbad Rappenwört, liebevoll „Rappele\" genannt — seit der Eröffnung 1929 einer der wichtigsten Freizeit- und Begegnungsorte am Karlsruher Rheinufer. Das Festival nutzt die idyllische Lage direkt am Fluss für ein Open Air rund um Electronic Music und Techno."
   },
   {
     "name": "UNREAL XXL OPEN AIR 2026",
@@ -1777,7 +1822,8 @@ const festivals = [
     "soldOut": false,
     "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
     "lat": 50.9146,
-    "lng": 6.9767
+    "lng": 6.9767,
+    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations. Die XXL Open Air Ausgabe an der Südbrücke Köln war Unreals erstes echtes Open Air in der Stadt — ein ganzer Tag und eine ganze Nacht Hard Techno in einzigartiger Industriekulisse direkt an der Brücke."
   },
   {
     "name": "SYNDICATE 2026",
@@ -1809,7 +1855,8 @@ const festivals = [
     "soldOut": false,
     "description": "Premiere im Karlsruher Wildpark-Stadion — wetterunabhängiges Techno-Festival vom Gotec-Club, u.a. mit Alan Fitzpatrick, Nastia und Pan-Pot.",
     "lat": 49.0200043,
-    "lng": 8.4129879
+    "lng": 8.4129879,
+    "about": "Amaya feiert seine Premiere als erste Veranstaltung dieser Größenordnung im BBBank Wildpark Stadion — dem Fußballstadion des Karlsruher SC. Statt sich an bestehenden Festivalformaten zu orientieren, wählten die Veranstalter bewusst einen komplett neuen Ansatz für die neue Infrastruktur: Gefeiert wird in den Katakomben des Stadions, wo raue Industrie-Untergrund-Optik auf kompromisslosen Techno-Sound trifft."
   },
   {
     "name": "BLACKLIST FESTIVAL 2026",
@@ -1825,7 +1872,8 @@ const festivals = [
     "soldOut": false,
     "description": "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach.",
     "lat": 51.4696137,
-    "lng": 6.8514435
+    "lng": 6.8514435,
+    "about": "Blacklist wurde im legendären Kölner Bootshaus-Club gegründet und bespielt seit 2017 Bühnen bei Parookaville, New Horizons und SonneMondSterne. Seit der Rückkehr in die Turbinenhalle Oberhausen 2023 und dem zehnjährigen Jubiläum 2025 gilt Blacklist als eine der größten Bass-Partys Deutschlands — vier Bühnen für Dubstep, Drum & Bass, Tearout und Hybrid-Metal, wo elektronische Musik und Metalcore aufeinandertreffen."
   },
   {
     "name": "REACTŌR AFTERMATH 2026",
@@ -1840,7 +1888,8 @@ const festivals = [
     "soldOut": false,
     "description": "Raw. Rebellious. Relentless. — Underground-Techno im stillgelegten Kernkraftwerk Kalkar. Industrielle Ästhetik, brutalist sound, non-stop energy.",
     "lat": 51.7388793,
-    "lng": 6.2927546
+    "lng": 6.2927546,
+    "about": "Das stillgelegte Kernkraftwerk Kalkar — der „Schnelle Brüter\", ein deutsch-belgisch-niederländisches Gemeinschaftsprojekt — wurde 1985 fertiggestellt, ging aber nach der Reaktorkatastrophe von Tschernobyl 1986 nie in Betrieb und wurde 1991 endgültig stillgelegt. Aus der Investitionsruine wurde später der Freizeitpark „Wunderland Kalkar\". REACTŌR verbindet diese Industriegeschichte mit zeitgemäßem Sound: 48 Stunden Musik non-stop auf Indoor- und Outdoor-Bühnen über den gesamten brutalistischen Gebäudekomplex verteilt."
   },
   {
     "name": "HIVE INDOOR 2026",
@@ -1871,7 +1920,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Ausgabe von Ace of Rave in der Aladin Music Hall & Tivoli Bremen, präsentiert von Klangwelten Bremen.",
     "lat": 53.0758196,
-    "lng": 8.8071646
+    "lng": 8.8071646,
+    "about": "Ace of Rave gilt als die populärste Hardtechno-Indoor-Night im Norden — drei Floors, 16 Artists und fünf Headliner auf einer Bühne für Hardtechno, Trance, Schranz, Bounce und Psytrance. Austragungsort ist der Twister-Dance-Club in Sande, der nach einem Großbrand im November 2023 wiedereröffnet wurde."
   },
   {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
@@ -1885,7 +1935,8 @@ const festivals = [
     "soldOut": false,
     "description": "Halloween-Special mit Goa- und Trance-Sounds bei Twister Dance in Sande, veranstaltet von Klangwelten Bremen.",
     "lat": 53.4924729,
-    "lng": 8.0256578
+    "lng": 8.0256578,
+    "about": "Goa World ist eine wiederkehrende Themen-Reihe im Twister-Dance Sande, die regelmäßig Goa, Hitech und Hardstyle auf mehreren Floors zusammenbringt. Der Club selbst hat eine bewegte Geschichte: Nach einem Großbrand im November 2023 wurde er komplett neu eröffnet, mit markantem Markenzeichen — einer sich langsam drehenden, runden Tanzfläche, die schon die alte Disco auszeichnete."
   },
   {
     "name": "VERKNIPT AMSTERDAM 2026",
@@ -1900,7 +1951,8 @@ const festivals = [
     "soldOut": false,
     "description": "Verknipt zu Gast in Amsterdam — zwei Tage Hard Techno im AFAS Live. Tag 1: 13:00–22:00 Uhr, Tag 2: 14:00–00:00 Uhr.",
     "lat": 52.3122606,
-    "lng": 4.9442166
+    "lng": 4.9442166,
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil."
   },
   {
     "name": "FACELESS PSYCHO CITY 2026",
@@ -1915,7 +1967,8 @@ const festivals = [
     "soldOut": false,
     "description": "Halloween-Hardcore in der Turbinenhalle — Faceless Psycho City macht die Nacht zum Tag der Toten.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "about": "Faceless verwandelt die Turbinenhalle Oberhausen zu Halloween in eine düstere Stadt in vier Vierteln — „The Capital\", „The Slums\", „The Undergrid\" und „The Deadzone\" — mit Platz für bis zu 3.000 Besucher auf den verschiedenen Arealen. Harder Styles stehen im Zentrum des Line-ups, verpackt in ein aufwendiges, thematisch durchdachtes Bühnenkonzept statt klassischer Festivalhallen-Optik."
   },
   {
     "name": "THE HOLY SHIT SHOW 2026",
@@ -1929,7 +1982,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung.",
     "lat": 49.4683637,
-    "lng": 8.5239462
+    "lng": 8.5239462,
+    "about": "Nach zahlreichen ausverkauften Shows in Hamburg, Berlin und Dortmund sowie europäischen Tourstationen hat sich die Holy Shit Show von DJ Holy Priest als feste Größe in der Hard-Techno-Szene etabliert. Die Mannheim-Ausgabe wird als größte Show der Reihe angekündigt — energiegeladene Sets, aufwendige Visuals und markantes Bühnendesign in der bis zu 12.500 Menschen fassenden Maimarkthalle, als einmalige Veranstaltung mit strikt limitierten Tickets."
   },
   {
     "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",
@@ -1945,7 +1999,8 @@ const festivals = [
     "soldOut": false,
     "description": "Norddeutschlands größte Goa- & Psytrance-Indoor-Experience auf mehreren Floors im Aladin Music Hall Bremen, u.a. mit Hard Techno und Techno.",
     "lat": 53.0557345,
-    "lng": 8.8850217
+    "lng": 8.8850217,
+    "about": "Klangwelten gilt als Norddeutschlands größtes Indoor-Festival für Goa und Psy — sechs Floors in der Bremer Aladin Music Hall, die seit ihrer Eröffnung 1977 zu den festen Größen der Bremer Clubszene zählt. Neben zwei Hauptbühnen sorgen vier kleinere Floors für Progressive, Psytrance, Forest, Hitech, Hardtechno und Techno, jeweils mit eigenem Deko- und Lichtkonzept, das jeden Floor zu einem eigenen Kosmos macht."
   },
   {
     "name": "VERKNIPT OBERHAUSEN 2026 (NOVEMBER)",
@@ -1959,7 +2014,8 @@ const festivals = [
     "soldOut": false,
     "description": "Verknipt macht erneut Station in der Turbinenhalle Oberhausen — hartes Hard-Techno-Line-up, 22:00 bis 07:00 Uhr.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil."
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
@@ -1976,7 +2032,8 @@ const festivals = [
     "soldOut": false,
     "description": "Norddeutschlands größtes Indoor-Festival — 20.000 Besucher, 50+ Acts auf 5 Stages, 12 Stunden non-stop von 18:00 bis 06:00 Uhr.",
     "lat": 52.3173696,
-    "lng": 9.7924818
+    "lng": 9.7924818,
+    "about": "Fairground fand 2022 erstmals auf dem Hannoveraner Messegelände statt und war das erste Festival mit reinem „Live Acts Only\"-Konzept in Deutschland. Aus einer Veranstaltung von Hannover für Hannover ist innerhalb weniger Jahre Deutschlands größtes Indoor-Festival mit internationaler Strahlkraft geworden, mit rund 20.000 Besuchern — die Größe des Messegeländes gibt Raum für weiteres Wachstum."
   },
   {
     "name": "HARDSHIFT FESTIVAL 2026",
@@ -1991,7 +2048,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore und Hard Techno in der Zenith Halle München — Bayerns härteste Nacht des Jahres.",
     "lat": 48.1946864,
-    "lng": 11.6078535
+    "lng": 11.6078535,
+    "about": "Hardshift gilt als Münchens härtestes Festival — rund 15.000 Besucher feiern jährlich im Zenith die besten Hardcore-, Hardstyle- und Raw-Acts. Das 1918 als Teil einer Bahnreparaturwerkstatt eröffnete und 1994 zur Veranstaltungshalle umgebaute Zenith bildet zusammen mit dem Kesselhaus die Kulisse für das Konzept „The 4 Realms\" — mehrere Areale, jede mit eigenen Regeln und eigener Energie."
   },
   {
     "name": "ARENA RAVE ROSTOCK 2026",
@@ -2005,7 +2063,8 @@ const festivals = [
     "soldOut": false,
     "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Rostock.",
     "lat": 54.1393903,
-    "lng": 12.0779788
+    "lng": 12.0779788,
+    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow, die neue Maßstäbe für die akustische und visuelle Bespielung solcher Hallen setzen soll."
   },
   {
     "name": "TOXICATOR 2026",
@@ -2037,7 +2096,8 @@ const festivals = [
     "soldOut": false,
     "description": "Indoor-Festival im Zenith München — die Kohlebunker-Stage steht für brachialen Hard Techno, 5.500 Gäste.",
     "lat": 48.1969,
-    "lng": 11.5836
+    "lng": 11.5836,
+    "about": "Contact zählt zu Deutschlands größten Indoor-Festivals für House und Techno und ist regelmäßig komplett ausverkauft. Auf drei benachbarten Industriearealen im Münchner Norden — Zenith, Kesselhaus und Kohlebunker — verteilen sich vier Bühnen für bis zu 17 Stunden internationale und nationale Electronic-Acts, von Electro und Acid House bis zu kompromisslosem Club-Sound."
   },
   {
     "name": "44 LABEL X STUTYARD 2026",
@@ -2052,7 +2112,8 @@ const festivals = [
     "soldOut": false,
     "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau.",
     "lat": 48.7784485,
-    "lng": 9.1800132
+    "lng": 9.1800132,
+    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet — die Stutyard-Ausgabe bringt das Format 2026 ins Stuttgarter Messegelände, mit dem gleichen Anspruch auf kompromisslosen Techno-Sound wie bei den Open-Air-Editionen."
   },
   {
     "name": "UNREAL X STUTYARD 2026",
@@ -2068,7 +2129,8 @@ const festivals = [
     "soldOut": false,
     "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren.",
     "lat": 48.7784485,
-    "lng": 9.1800132
+    "lng": 9.1800132,
+    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations — die Stutyard-Kooperation bringt das Format ins Messegelände Stuttgart, mit dem gleichen Anspruch auf schonungslosen Hard-Techno-Sound wie bei den Open-Air-Ausgaben."
   },
   {
     "name": "ARMY OF HARDCORE 2026",
@@ -2082,7 +2144,8 @@ const festivals = [
     "soldOut": false,
     "description": "Weihnachten hardcore-style — Army of Hardcore macht Bescherung auf die härteste Art möglich.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "about": "Rund 5.000 Besucher feiern jedes Jahr am 1. Weihnachtstag bei Army of Hardcore in der Turbinenhalle Oberhausen — Hardcore, Gabber und maximale Feierlaune statt Bescherung. Die Turbinenhalle selbst hat eine lange Geschichte: 1909 zur Stromerzeugung für die Gutehoffnungshütte errichtet, stand sie jahrelang leer, bevor sie 1993 als Disco wiedereröffnet wurde und sich seither zu einer der größten Veranstaltungshallen der Region entwickelt hat."
   },
   {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
@@ -2097,7 +2160,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das Techno-Winter-Indoor-Festival im Norden — zwei Bühnen in den Holstenhallen, u.a. mit Axmo und Harris & Ford.",
     "lat": 54.0728,
-    "lng": 9.9908
+    "lng": 9.9908,
+    "about": "Der winterliche Ableger des Between The Seas Festivals bringt treibenden Techno und EDM in die Holstenhallen Neumünster — mit Main Stage und Classic Stage für zwei musikalische Welten unter einem Dach. Wo das Sommer-Original auf Open-Air-Atmosphäre in Schleswig-Holstein setzt, holt die Winter-Ausgabe das gleiche Festivalgefühl ins Indoor-Format, inklusive spektakulärer Lightshow."
   },
   {
     "name": "APEX 2027",
@@ -2112,7 +2176,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
     "lat": 49.4683637,
-    "lng": 8.5239462
+    "lng": 8.5239462,
+    "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub."
   },
   {
     "name": "ARENA RAVE LEIPZIG 2027",
@@ -2126,7 +2191,8 @@ const festivals = [
     "soldOut": false,
     "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
     "lat": 51.3945,
-    "lng": 12.4139
+    "lng": 12.4139,
+    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück, 2027 erstmals nach Leipzig. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow."
   },
   {
     "name": "INTACT EXPANDA 2027",
@@ -2142,7 +2208,8 @@ const festivals = [
     "soldOut": false,
     "description": "Seit über 20 Jahren fester Bestandteil der Hamburger Szene — Progressive Trance, Psytrance und Techno im Catonium.",
     "lat": 53.5881791,
-    "lng": 9.9199831
+    "lng": 9.9199831,
+    "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut."
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2156,7 +2223,8 @@ const festivals = [
     "soldOut": false,
     "description": "Reines Techno-Line-up in der DM Arena bei Karlsruhe.",
     "lat": 48.9694,
-    "lng": 8.3277
+    "lng": 8.3277,
+    "about": "Teletech kehrt für seine Ausgabe in die dm-arena in Rheinstetten zurück — eine der vier Messehallen der Messe Karlsruhe mit Platz für 14.000 Menschen. Über 9.000 Besucher feierten bei der letzten Ausgabe, begleitet von einer Food-Mile mit Foodtrucks und einem eigenen Awareness-Team für respektvollen Umgang miteinander."
   },
   {
     "name": "TIME WARP 2027",
@@ -2170,7 +2238,8 @@ const festivals = [
     "soldOut": false,
     "description": "19 Stunden, 5 Floors — das jährliche Techno-Pilgerfest kehrt 2027 nach Mannheim zurück.",
     "lat": 49.4683637,
-    "lng": 8.5239462
+    "lng": 8.5239462,
+    "about": "Time Warp ist keine gewöhnliche Techno-Party — es ist eine Institution. Gegründet 1994 von Steffen Charles, feierte das Festival seine Premiere im November desselben Jahres in der Nähe von Stuttgart, mit gerade einmal 2.000 Besuchern. Schon ein Jahr später zog es nach Mannheim um — und ist dort seitdem zu Hause. Die Maimarkthalle macht möglich, was in den meisten Locations unmöglich wäre: tonnenschwere LED-Wände, immersive Laser-Arrays, Soundsysteme in Industriegröße. Kein Zufall, dass Mannheim dank Time Warp den Titel „UNESCO City of Music\" trägt. Was in Deutschland begann, hat sich längst international ausgebreitet — mit Ablegern in São Paulo, New York, Madrid und Santiago de Chile."
   },
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
@@ -2185,7 +2254,8 @@ const festivals = [
     "soldOut": false,
     "description": "Erstmals in Schleswig-Holstein: Uplifting, Progressive und Hard Trance im Max Nachttheater Kiel.",
     "lat": 54.3324518,
-    "lng": 10.1118095
+    "lng": 10.1118095,
+    "about": "Erstmals bringt ein Festival dieser Größenordnung die internationale Trance-Szene nach Schleswig-Holstein. Trance World startet als Season Opening im Max Nachttheater Kiel und deckt die ganze Bandbreite der Stilrichtung ab — von Uplifting über Progressive bis Hard Trance. Ein bewusst indoor konzipiertes Format für ein Genre, das sonst meist unter freiem Himmel zuhause ist."
   },
   {
     "name": "MAYDAY 2027",
@@ -2218,7 +2288,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
     "lat": 50.586,
-    "lng": 8.6797
+    "lng": 8.6797,
+    "about": "Rave and Sun ist ein junges Format — 2023 gegründet, findet es an einem Samstag in der WM Arena Gießen statt. Auf über 7.500 Quadratmetern teilen sich zwei Bühnen das Line-up: die Hauptbühne für rund 25 Acts „100% Rave-Musik\", und die minus:one Stage als eigene Container-Bühne für ausgewählte Underground-Acts und kompromisslosen Techno."
   },
   {
     "name": "TECHNO FREITAG – ARENA EDITION 2027",
@@ -2232,7 +2303,8 @@ const festivals = [
     "soldOut": false,
     "description": "Aus dem Twitch-Rekord-Format wird Live-Erlebnis: Internet-Star \"Hänno\" bringt Techno Freitag erstmals vor 9.000 Menschen in die Arena Berlin.",
     "lat": 52.4967,
-    "lng": 13.4478
+    "lng": 13.4478,
+    "about": "Techno Freitag entstand rund um den Streamer HandOfBlood (Maximilian Knabe) und seine Online-Community — der Sprung von Twitch und YouTube auf den Dancefloor. Das Format versteht sich bewusst als Gegenentwurf zu Geschmacks-Gatekeeping und abschreckender Türpolitik: Erfahrene Raver sind ebenso willkommen wie Menschen bei ihrem ersten großen Techno-Abend. Die Arena Berlin, 1927 als denkmalgeschütztes Omnibusdepot erbaut, bietet mit ihrer stützenarmen Fläche Platz für bis zu 9.000 Gäste."
   },
   {
     "name": "HASARDEUR FESTIVAL 2027",
@@ -2247,7 +2319,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
     "lat": 49.0068705,
-    "lng": 8.4034195
+    "lng": 8.4034195,
+    "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen."
   },
   {
     "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
@@ -2264,7 +2337,8 @@ const festivals = [
     "soldOut": false,
     "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
     "lat": 51.9958,
-    "lng": 12.8898
+    "lng": 12.8898,
+    "about": "Aus kleinen, selbstorganisierten Free-Open-Airs in Berlin entstand 2011/2012 die Idee zu Zurück zu den Wurzeln — 2014 fand die erste Ausgabe statt. Auf 220.000 Quadratmetern größtenteils barrierefreiem Gelände am Flugplatz Altes Lager bei Jüterbog bringen zehn Bühnen, über 200 Acts und 80 Workshops Menschen aller Hautfarben, Weltanschauungen und Identitäten zusammen. 2019 gewann das Festival den Helga!-Award für beste Inklusion."
   },
   {
     "name": "WORLD CLUB DOME 2027",
@@ -2300,7 +2374,8 @@ const festivals = [
     "soldOut": false,
     "description": "Industrieflair im Hawerkamp Münster — rund 100 Acts zwischen House, Techno, Trance und Hard Techno für 15.000 Gäste.",
     "lat": 51.9467971,
-    "lng": 7.6387486
+    "lng": 7.6387486,
+    "about": "Seit 2010 steht Docklands für sorgfältig kuratierte elektronische Musik zwischen Underground und Szenegrößen im Münsteraner Hawerkamp-Viertel. Das Besondere ist das Day-&-Night-Konzept: Tagsüber läuft das Programm open air rund um Hawerkamp und Kanal, ab 22 Uhr verlagert es sich nahtlos in die Clubs am Hawerkamp und Stadthafen — Festival und Clubkultur verschmelzen, statt getrennt nebeneinander zu existieren."
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
@@ -2316,7 +2391,8 @@ const festivals = [
     "soldOut": false,
     "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
     "lat": 50.3720933,
-    "lng": 7.2812427
+    "lng": 7.2812427,
+    "about": "Affenkäfig wurde 2023 auf dem Flugplatz Mendig in Rheinland-Pfalz gegründet und zieht mittlerweile rund 30.000 Besucher an. Auf 25.000 Quadratmetern verteilen sich sechs benannte Areale — darunter Black Leaf Terminal, Old London Terminal, Hangar 7 und Hardcore Hangar — mit Indoor- und Outdoor-Programm, XXL-Lightshows, Feuerwerk, Riesenrad und Kartbahn."
   },
   {
     "name": "VOLUME X KRAGELUND FESTIVAL 2027",
@@ -2333,7 +2409,8 @@ const festivals = [
     "soldOut": false,
     "description": "Über 6.000 Besucher, drei Stages zwischen Husum und Flensburg — die XCircus-Bühne im Zirkuszelt bringt Techno und Hard Techno.",
     "lat": 54.6167,
-    "lng": 9.2
+    "lng": 9.2,
+    "about": "Volume X bringt seit Jahren über 6.000 Besucher nach Kragelund bei Viöl in Schleswig-Holstein — ein mehrtägiges Festival für die härteren Spielarten elektronischer Musik. Drei Bühnen mit eigenem Charakter teilen sich das Gelände: XVILLE als Hauptbühne für Hardstyle, Rawstyle und Uptempo, XCIRCUS als Zelt für tiefe Techno-Energie, und XPEDITION als Rückzugsort für Goa und Psytrance mit eigener, magischer Dekoration."
   },
   {
     "name": "HIVE FESTIVAL 2027",
@@ -2365,7 +2442,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
     "lat": 48.890934,
-    "lng": 8.7025509
+    "lng": 8.7025509,
+    "about": "Buchbusch startete als Beginn einer neuen Festival-Ära in der Region Pforzheim — ein Ort, an dem sich die raue Energie von Mad Max mit den treibenden Rhythmen von Techno verbindet. Bewusst verzichtet das Festival auf klassisches Biergarten-Mobiliar und plakative Werbung, setzt stattdessen auf ästhetisch gestaltete Bars, regionale Foodtrucks und ein Bühnenkonzept, das sich harmonisch in die Natur einfügt — abseits von Mainstream und Kommerz."
   },
   {
     "name": "AIRPARK FESTIVAL 2027",
@@ -2380,7 +2458,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Festival auf dem Flughafengelände Karlsruhe/Baden-Baden — 20.000 m² Festival-Area, Indoor-Hangar und Outdoor zwischen historischen Flugzeugen.",
     "lat": 48.7528211,
-    "lng": 8.0405324
+    "lng": 8.0405324,
+    "about": "Der Flughafen Karlsruhe/Baden-Baden in Rheinmünster ist nach Stuttgart der zweitgrößte Flughafen Baden-Württembergs — auf seinem Gelände steht das Deutsch-Kanadische Luftwaffenmuseum mit einer umfangreichen Sammlung von Jets aus der NATO-Geschichte. Genau dort, zwischen Hangar und Kampfjets, findet seit 2024 das Airpark Festival statt: Indoor- und Outdoor-Floors zwischen Fluggerät schaffen eine der ungewöhnlichsten Festivalkulissen Deutschlands, mit Techno, House und Bass am Oberrhein."
   },
   {
     "name": "IKARUS FESTIVAL 2027",
@@ -2397,7 +2476,8 @@ const festivals = [
     "soldOut": false,
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
     "lat": 47.9888241,
-    "lng": 10.2350723
+    "lng": 10.2350723,
+    "about": "Ikarus fand am 5. und 6. Juni 2015 erstmals auf einem ehemaligen Militärflugplatz neben dem Flughafen Memmingen statt — benannt nach der Figur aus der griechischen Mythologie. Nach coronabedingten Ausfällen 2022 mit über 75.000 Besuchern zurück, wuchs das Festival bis 2026 auf 120.000 Besucher. Acht Bühnen bespielen offene Flächen, dunkle Shelter und Waldstücke — Mainstage-Momente treffen auf harten Techno, melodischer Wald-Floor auf Psytrance-Nacht."
   },
   {
     "name": "KINDHEITSTRAUM FESTIVAL 2027",
@@ -2413,7 +2493,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
     "lat": 49.8641269,
-    "lng": 11.7843596
+    "lng": 11.7843596,
+    "about": "Der Flugplatz Speichersdorf bei Bayreuth verwandelt sich einmal im Jahr in eine oberfränkische Dance-Alternative zu den großen süddeutschen Festivals — kompaktes Eintagesformat ohne Camping-Logistik, zwei Bühnen für Melodic Techno, House, EDM und Electronica, dazu Riesenrad und Biergarten. Nach über einem Jahrzehnt Tradition endet die Reihe 2027 mit ihrer finalen Ausgabe."
   },
   {
     "name": "44 FESTIVAL 2027",
@@ -2428,7 +2509,8 @@ const festivals = [
     "soldOut": false,
     "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air.",
     "lat": 49.0068705,
-    "lng": 8.4034195
+    "lng": 8.4034195,
+    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet. Bei Editionen wie „44 Enters Karlsruhe\" wurde etwa eine eigens gebaute „Container Arena\" in der dm-Arena errichtet — kompromissloser Techno-Sound, präsentiert von einem Kollektiv, das für seine Line-ups internationale Headliner und lokale Talente zusammenbringt."
   },
   {
     "name": "RUHR-IN-LOVE 2027",
@@ -2535,7 +2617,8 @@ const festivals = [
     "description": "Elektronische Vielfalt auf einer 800 Jahre alten Burgruine im Thüringer Wald — vier Bühnen, intimes Format.",
     "lat": 50.994119,
     "lng": 10.1722441,
-    "endDate": "2027-07-18"
+    "endDate": "2027-07-18",
+    "about": "Seit 2015 verbindet Medival ein hochkarätiges Electronic-Programm mit politischer Bildung, Kreativ-Workshops und einer offenen, diversen Festivalkultur. Schauplatz ist die Burgruine Brandenburg bei Gerstungen — eine im 12. Jahrhundert erbaute Verteidigungsanlage hoch über dem Werratal, die einst Handelswege sicherte. Auf vier Bühnen laufen House, Techno, Trance und Drum & Bass, umrahmt von aufwendigen Holzbauten und Diskussionsformaten zu Demokratie, Vielfalt und Awareness."
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2027",
@@ -2588,7 +2671,8 @@ const festivals = [
     "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
     "lat": 49.453872,
     "lng": 11.077298,
-    "endDate": "2027-07-25"
+    "endDate": "2027-07-25",
+    "about": "Was 2009 als kleine Ausgabe für die regionale Szene begann, ist heute eines der größten EDM-Festivals Süddeutschlands: Open Beatz zog bis 2012 in Wilhermsdorf bei Fürth Publikum an, bevor es 2013 nach Herzogenaurach umzog. Mit rund 90.000 Besuchern im Jahr, 200+ Acts auf acht Bühnen und einem Genre-Spektrum von Hardstyle über Techno bis Uptempo und Psytrance verwandelt sich das Gelände für ein Wochenende in eine temporäre Kleinstadt."
   },
   {
     "name": "JUICY BEATS 2027",
@@ -2623,7 +2707,8 @@ const festivals = [
     "soldOut": false,
     "description": "Nachfolger von Nachtdigital (seit 1998) — Techno, House und Electronica im Bungalowdorf Olganitz.",
     "lat": 51.4052061,
-    "lng": 13.0921445
+    "lng": 13.0921445,
+    "about": "Nachti ist der Nachfolger von Nachtdigital, einem Festival mit Wurzeln bis 1998 auf dem Gelände des Schullandheims Olganitz. Nach einer Pause 2019 kehrte das Konzept 2022 zunächst als „Escape to Olganitz\" zurück, seit 2023 läuft es alle zwei Jahre unter dem Namen Nachti weiter — Techno, House und Electronica im Bungalowdorf Olganitz."
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2027",
@@ -2639,7 +2724,8 @@ const festivals = [
     "soldOut": false,
     "description": "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground.",
     "lat": 53.0935023,
-    "lng": 9.417503
+    "lng": 9.417503,
+    "about": "Drei regional bekannte DJs hatten die Idee im Sommer 2014 nach einer durchfeierten Nacht — am nächsten Tag legten sie ihr Erspartes von 27.000 Euro zusammen und organisierten die erste Ausgabe für August 2015. Was mit 3.500 Besuchern startete, wuchs bis 2019 auf rund 15.000 zahlende Gäste. Maskottchen Ferdi, benannt nach Ferdinand von Zeppelin, steht für das erklärte Ziel des Teams: „Back to the roots\" mit fairen Ticketpreisen statt Kommerz-Eskalation."
   },
   {
     "name": "NATURE ONE 2027",
@@ -2656,7 +2742,8 @@ const festivals = [
     "soldOut": false,
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 2027 Deutschlands ältestes Freiluft-Rave-Festival.",
     "lat": 50.0434566,
-    "lng": 7.4255143
+    "lng": 7.4255143,
+    "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts."
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
@@ -2670,7 +2757,8 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
     "lat": 51.4574024,
-    "lng": 12.0488952
+    "lng": 12.0488952,
+    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln."
   },
   {
     "name": "LOVE FAMILY PARK 2027",
@@ -2687,7 +2775,8 @@ const festivals = [
     "soldOut": false,
     "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2027.",
     "lat": 50.110597,
-    "lng": 8.6144214
+    "lng": 8.6144214,
+    "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main."
   }
 ];
 

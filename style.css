@@ -169,7 +169,7 @@ header {
 .detail-card .card-description { font-size: 1.05rem; }
 .detail-card:hover { transform: none; }
 
-.about-festival { margin-top: 1.5rem; }
+.about-festival { margin-top: 2.75rem; }
 
 .about-label {
   font-family: var(--font-mono);
