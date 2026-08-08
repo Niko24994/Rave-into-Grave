@@ -69,6 +69,18 @@ function findSimilarFestivals(f, allEntries) {
     .slice(0, 5);
 }
 
+function renderAboutSection(f) {
+  if (!f.about) return '';
+  const paragraphs = f.about.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('\n        ');
+  return `
+    <section class="about-festival">
+      <h2 class="about-label">// Über das Festival</h2>
+      <div class="about-body">
+        ${paragraphs}
+      </div>
+    </section>`;
+}
+
 function renderSimilarSection(f, allEntries) {
   const similar = findSimilarFestivals(f, allEntries);
   if (similar.length === 0) return '';
@@ -210,6 +222,7 @@ function renderPage(f, slug, allEntries) {
         </div>
       </div>
     </article>
+    ${renderAboutSection(f)}
     ${renderSimilarSection(f, allEntries)}
   </main>
 

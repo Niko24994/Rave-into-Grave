@@ -169,6 +169,27 @@ header {
 .detail-card .card-description { font-size: 1.05rem; }
 .detail-card:hover { transform: none; }
 
+.about-festival { margin-top: 1.5rem; }
+
+.about-label {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 0.75rem;
+}
+
+.about-body p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #d8d8d8;
+  margin: 0 0 1rem;
+}
+
+.about-body p:last-child { margin-bottom: 0; }
+
 .similar-festivals { margin-top: 1.5rem; }
 
 .similar-title {

@@ -1079,7 +1079,8 @@ const festivals = [
     "soldOut": false,
     "description": "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair.",
     "lat": 50.4948382,
-    "lng": 11.7092902
+    "lng": 11.7092902,
+    "about": "Sonne Mond Sterne — kurz SMS — feierte 1997 seine erste Ausgabe an der Bleilochtalsperre bei Saalburg-Ebersdorf, mit rund 2.500 Besuchern auf einer einzigen Bühne und einem einzigen Zelt. Seitdem findet das Festival traditionell am zweiten August-Wochenende in Thüringen statt und ist auf mehrere zehntausend Besucher gewachsen (35.000 bereits zur 15. Ausgabe 2011) — heute eines der größten Electronic-Open-Airs Europas, direkt am Wasser der Talsperre."
   },
   {
     "name": "HILL OF DREAMS 2026",
@@ -1174,7 +1175,8 @@ const festivals = [
     "soldOut": false,
     "description": "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil.",
     "lat": 51.2292484,
-    "lng": 12.4534826
+    "lng": 12.4534826,
+    "about": "Highfield Festival gibt’s seit 1998 — ursprünglich am Stausee Hohenfelden südlich von Erfurt. 2010 zog das Festival an den Störmthaler See bei Großpösna nahe Leipzig um, nachdem der alte Standort zunehmend Probleme mit Verschmutzung und dem laufenden Badebetrieb am See bereitete. Am neuen Standort mit direktem Seeblick zieht Highfield heute rund 35.000 Besucher an."
   },
   {
     "name": "BUCHT DER TRÄUMER 2026",
@@ -1242,7 +1244,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hamburgs Kultfestival für Musik und Kunst in Wilhelmsburg — urban, kreativ, mit starkem Electronic-Anteil.",
     "lat": 53.4984734,
-    "lng": 10.0068586
+    "lng": 10.0068586,
+    "about": "MS Dockville verwandelt seit 2007 jeden August ein Stück Hamburger Hafenindustrie in Wilhelmsburg — zwischen Werftkränen, Lagerhallen und dem Reiherstieg-Kanal — in ein Festival für Musik UND Kunst. 2026 findet bereits die 19. Ausgabe statt. Neben zehn Bühnen für Indie, HipHop, Pop und Electronic gehören Kunstinstallationen, Performances und Lesungen fest zum Programm — die Dockville-Kunstinstallationen bleiben sogar außerhalb der Festivalwoche zugänglich. Mit rund 60.000 Besuchern und über 100 Acts hat das Festival dem Stadtteil eine eigene kulturelle Identität gegeben."
   },
   {
     "name": "ECHELON FESTIVAL 2026",
@@ -1319,7 +1322,8 @@ const festivals = [
     "soldOut": false,
     "description": "Die Nachfolge-Parade der Love Parade — UNESCO-anerkanntes Kulturerbe, kostenlose Techno-Parade durchs Brandenburger Tor. Motto 2026: \"Imagine Love\".",
     "lat": 52.5132816,
-    "lng": 13.3332602
+    "lng": 13.3332602,
+    "about": "Rave The Planet ist der geistige Nachfolger der Love Parade — gegründet von deren Erfinder Dr. Motte, der 1989 mit gerade 150 Teilnehmenden auf dem Ku’damm startete und die Parade in den 1990ern auf über eine Million Menschen an der Straße des 17. Juni wachsen sah, bevor sie 2010 nach der Duisburger Katastrophe endete. 2019 initiierte Dr. Motte gemeinsam mit einer Gruppe Electronic-Music-Enthusiast:innen die Rave The Planet Parade als Neuanfang; am 9. Juli 2022 zog erstmals seit zwölf Jahren wieder ein großer Techno-Umzug durch Berlin. Unter dem Motto „Imagine Love\" steht die Parade für Liebe, Frieden, Vielfalt und eine nachhaltige Zukunft."
   },
   {
     "name": "LACUNA FESTIVAL 2026",
@@ -1369,7 +1373,8 @@ const festivals = [
     "soldOut": false,
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
     "lat": 51.5119509,
-    "lng": 13.3505194
+    "lng": 13.3505194,
+    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern."
   },
   {
     "name": "FERRA FESTIVAL 2026",
@@ -1464,7 +1469,8 @@ const festivals = [
     "soldOut": false,
     "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
     "lat": 53.3040712,
-    "lng": 11.509997
+    "lng": 11.509997,
+    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik."
   },
   {
     "name": "KEPOTOPIVAL 2026",
@@ -1788,7 +1794,8 @@ const festivals = [
     "soldOut": false,
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere.",
     "lat": 51.4966917,
-    "lng": 7.4602637
+    "lng": 7.4602637,
+    "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. Die Halle wird für eine Nacht zur „WestfalenHELL\": 2026 gibt’s erstmals vier Floors gleichzeitig — Mainstage, Uptempo, Hardstyle und Early Hardcore — für ein Line-up, das von treibendem Hardstyle bis zu kompromisslosem Hardcore reicht."
   },
   {
     "name": "AMAYA FESTIVAL 2026",
@@ -1849,7 +1856,8 @@ const festivals = [
     "soldOut": false,
     "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
     "lat": 51.3963707,
-    "lng": 12.4035524
+    "lng": 12.4035524,
+    "about": "Hive Indoor ist der winterliche Ableger des Hive Festivals von Ferropolis — die gleiche Crew, die sonst zwischen den Tagebaubaggern der „Stadt aus Eisen\" auflegt, bringt Hard Techno und Schranz in die Messehallen Leipzig. Statt Open-Air-Weite gibt’s kompromisslosen Indoor-Sound unter einem Dach — ein bewusster Kontrast zum Sommer-Original, aber mit dem gleichen musikalischen Anspruch."
   },
   {
     "name": "ACE OF RAVE 2026",
@@ -2013,7 +2021,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore, Hardstyle und Hard Techno auf drei Floors in der Maimarkthalle — das härteste Ende des Jahres 2026.",
     "lat": 49.4683637,
-    "lng": 8.5239462
+    "lng": 8.5239462,
+    "about": "Toxicator ist seit 2009 fester Termin am ersten Dezember-Samstag in der Mannheimer Maimarkthalle. Aus bescheidenen 3.600 Besuchern bei der ersten Ausgabe ist längst das größte Harder-Styles-Festival Süddeutschlands geworden — 2025 feierte man mit 14.000 Besuchern „15 Jahre Strictly Hard\". Auf drei Floors laufen Hardcore, Hardstyle und Hardtechno — kompromisslos, wie der Name verspricht."
   },
   {
     "name": "CONTACT FESTIVAL 2026",
@@ -2193,7 +2202,8 @@ const festivals = [
     "soldOut": false,
     "description": "Die nächste Walpurgisnacht — Tickets sichern bevor sie weg sind.",
     "lat": 51.4966917,
-    "lng": 7.4602637
+    "lng": 7.4602637,
+    "about": "MAYDAY ist die Mutter aller deutschen Techno-Festivals. Die Idee kam 1991 von Fabian Lenz alias DJ Dick, unterstützt von seinem Bruder Maximilian (WestBam) und dem Szene-Magazin Frontpage — ursprünglich als Benefizveranstaltung für den vom Ende bedrohten DDR-Sender DT64, einen der ersten Sender überhaupt, die Techno spielten. Am 14. Dezember 1991 feierten rund 5.000 Menschen in einer Berliner Halle die erste MAYDAY. Seit 1993 ist Dortmund die feste Heimat — der Name selbst ist eine Anspielung auf das internationale Notrufsignal und den traditionellen Termin am 1. Mai."
   },
   {
     "name": "RAVE AND SUN FESTIVAL 2027",
@@ -2272,7 +2282,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das größte Club-Festival der Welt — Early Bird Tickets bereits für €129 erhältlich.",
     "lat": 50.1115781,
-    "lng": 8.6444501
+    "lng": 8.6444501,
+    "about": "World Club Dome verwandelt den Deutsche Bank Park einmal im Jahr in den „größten Club der Welt\" — mit über 25 Bühnen auf 700.000 Quadratmetern. Seit der ersten Ausgabe 2013 mit 25.000 Besuchern ist das Festival rasant gewachsen. Veranstalter ist BigCityBeats, seit fast zwei Jahrzehnten eine der zentralen Institutionen der deutschen EDM-Szene. Das Konzept hat sich längst international ausgebreitet — mit einer eigenen Cruise-Edition, einer Winter Edition und 2017 sogar einem Ableger in Südkorea."
   },
   {
     "name": "DOCKLANDS FESTIVAL 2027",
@@ -2339,7 +2350,8 @@ const festivals = [
     "description": "Hartes Techno-Gewitter in der Stadt aus Eisen — Ferropolis als brutaler Backdrop für Schranz und Hard Techno.",
     "lat": 51.7590874,
     "lng": 12.4487506,
-    "endDate": "2027-06-20"
+    "endDate": "2027-06-20",
+    "about": "Hive Festival findet auf einem der eindrücklichsten Festivalgelände Deutschlands statt: Ferropolis, die „Stadt aus Eisen\". Von 1957 bis 1991 wurde hier Braunkohle abgebaut — fünf gigantische Tagebaubagger, bis zu 30 Meter hoch, 120 Meter lang und fast 2.000 Tonnen schwer, holten rund 70 Millionen Tonnen Kohle aus der Erde. Seit die Grube im Jahr 2000 geflutet wurde, stehen die Maschinen als Industriedenkmal am See — und bilden die Kulisse für bis zu 30.000 Festival-Besucher. Auf dem Line-up: Techno in seinen härteren Spielarten, Trance, Hitech und Psytrance."
   },
   {
     "name": "BUCHBUSCH FESTIVAL 2027",
@@ -2432,7 +2444,8 @@ const festivals = [
     "soldOut": false,
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
-    "lng": 6.8746128
+    "lng": 6.8746128,
+    "about": "Ruhr-in-Love nennt sich selbst „das elektronische Familienfest\" — seit 2003, seit 2004 im OlgaPark Oberhausen. Die Fläche war einst Kohle- und Stahlgebiet, wurde für die Landesgartenschau 1999 umgestaltet und ist seitdem grüne Bühne fürs Festival. Statt eines zentralen Line-ups bringen rund 40 Floors von Clubs, Labels, Bookingagenturen und Radiosendern ihre eigene Handschrift mit — von Techno über House und Trance bis Hardcore und Hardstyle. Mit rund 35.000 Besuchern und 400+ DJs an einem einzigen Tag ist es eines der dichtesten Electronic-Line-ups Deutschlands."
   },
   {
     "name": "AIRBEAT ONE 2027",
@@ -2449,7 +2462,8 @@ const festivals = [
     "description": "Norddeutschlands größtes Open-Air auf dem Flughafen Neustadt-Glewe — 5 Tage, spektakuläre Shows, hartes Line-up.",
     "lat": 53.3613328,
     "lng": 11.6141158,
-    "endDate": "2027-07-11"
+    "endDate": "2027-07-11",
+    "about": "Was 2002 als „Airbase One\" mit rund 1.000 Besuchern auf dem Flugplatz Neustadt-Glewe begann, ist heute Deutschlands größtes Electronic-Festival — 2023 kamen rund 210.000 Besucher. Den Namen musste die Veranstaltung schon zur dritten Ausgabe aus markenrechtlichen Gründen ändern. Airbeat One ist bekannt für sein jährlich wechselndes Länder-Motto, das jede Ausgabe optisch komplett neu einkleidet — vom Flugfeld wird so jedes Jahr eine andere Welt."
   },
   {
     "name": "DEICHBRAND 2027",
@@ -2466,7 +2480,8 @@ const festivals = [
     "description": "Festival am Nordsee-Deich in Cuxhaven — Techno, Rock und Meer in einem einzigartigen Setting.",
     "lat": 53.7686,
     "lng": 8.6583,
-    "endDate": "2027-07-18"
+    "endDate": "2027-07-18",
+    "about": "Deichbrand begann 2005 als kleines Festival von Freunden — Marc Engelke und Daniel Schneider veranstalteten die erste Ausgabe an der ehemaligen Festung Fort Kugelbake in Cuxhaven, mit gerade einmal 500 Besuchern. Nach mehreren Standortwechseln fand das Festival 2009 seine feste Heimat auf dem Seeflughafen Cuxhaven/Nordholz. Heute zählt Deichbrand mit rund 60.000 Besuchern und über 120 Acts zu den größten Festivals Norddeutschlands — direkt am Deich, mit Nordsee-Luft inklusive."
   },
   {
     "name": "SEA YOU FESTIVAL 2027",
@@ -2483,7 +2498,8 @@ const festivals = [
     "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
     "lat": 48.0661014,
     "lng": 7.814414,
-    "endDate": "2027-07-18"
+    "endDate": "2027-07-18",
+    "about": "Sea You Festival hieß ursprünglich Sea of Love und startete 2002 mit rund 2.500 Besuchern und Sven Väth als Headliner. Nach einer turbulenten Phase — 2011 sorgten Guetta, Tiësto und Kalkbrenner für 25.000 verkaufte Tickets und beinahe für eine Massenpanik — orientierte sich das Festival 2014 unter neuem Namen bewusst um: weg von großen internationalen Headlinern, hin zur Crème der deutschen und europäischen Technoszene. Der Tunisee bei Freiburg bringt dazu eine Mischung aus Festival und Sommerurlaub — Sprung ins Wasser, zurück auf den Dancefloor."
   },
   {
     "name": "PAROOKAVILLE 2027",
@@ -2501,7 +2517,8 @@ const festivals = [
     "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
     "lat": 51.6031019,
     "lng": 6.1433899,
-    "endDate": "2027-07-18"
+    "endDate": "2027-07-18",
+    "about": "Parookaville ist mehr als ein Festival — es ist eine fiktive Stadt, die einmal im Jahr am Flughafen Weeze zum Leben erwacht. 2015 gegründet von Norbert Bergers, Georg van Wickeren und Bernd Dicks, inspiriert von Konzepten wie Tomorrowland und Burning Man, hat die Stadt einen eigenen Gründervater (Bürgermeister Bill Parooka), eigene Stadtteile und Institutionen wie Kirche, Standesamt und Gefängnis. Statt Tickets gibt’s ein „Visa\" mit Stempeln für jeden Besuch. Mit rund 85.000 Besuchern täglich auf 20 Bühnen ist Parookaville heute Deutschlands größtes EDM-Festival."
   },
   {
     "name": "MEDIVAL FESTIVAL 2027",
@@ -2536,7 +2553,8 @@ const festivals = [
     "description": "Das globale Kultfestival im Olympiapark Berlin — Techno und Electronic auf mehreren Stages.",
     "lat": 52.5173885,
     "lng": 13.3951309,
-    "endDate": "2027-07-18"
+    "endDate": "2027-07-18",
+    "about": "Lollapalooza wurde 1991 von Perry Farrell als Tourneefestival in den USA gegründet — Berlin war 2015 die erste europäische Stadt, die eine eigene Ausgabe bekam. Nach Stationen am Flughafen Tempelhof, im Treptower Park und auf der Trabrennbahn Karlshorst ist das Festival seit 2022 im Olympiapark und im Olympiastadion zu Hause. Im Inneren des historischen Stadions entsteht dabei eine der größten Rave-Kathedralen Europas. Das Konzept geht bewusst über reine Musik hinaus — Chartstürmer, elektronische Beats und Newcomer treffen auf Fashion, Kunst und gesellschaftlich relevante Themen."
   },
   {
     "name": "FEEL FESTIVAL 2027",
@@ -2552,7 +2570,8 @@ const festivals = [
     "description": "Intimes Techno-Festival am Bergheider See in Brandenburg — underground, naturverbunden, unvergesslich.",
     "lat": 51.5717953,
     "lng": 13.791063,
-    "endDate": "2027-07-25"
+    "endDate": "2027-07-25",
+    "about": "Feel Festival startete 2013 am Kiekebuscher See bei Schönefeld und zog 2015 an den Bergheider See in Brandenburg um, wo es bis heute zuhause ist. Unter dem Motto „Feel You Free\" verteilen sich zehn liebevoll gestaltete Bühnen mit jeweils eigener Klangwelt — von HipHop über Techno und House bis Disco und Live-Musik. Dazu kommt ein Rahmenprogramm mit Workshops und Talks zu Nachhaltigkeit und queer-feministischen Perspektiven. Mit 15.000 bis 20.000 Besuchern bleibt das Festival bewusst überschaubar und persönlich."
   },
   {
     "name": "OPEN BEATZ 2027",
@@ -2586,7 +2605,8 @@ const festivals = [
     "soldOut": false,
     "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
     "lat": 51.4953414,
-    "lng": 7.4768236
+    "lng": 7.4768236,
+    "about": "Juicy Beats geht auf den Dortmunder Club Trinidad zurück, damals einer der wichtigsten House-Clubs Deutschlands im Freizeitzentrum West. 1996 wagte man ein sommerliches Open-Air unter freiem Himmel im Westfalenpark — als „Juicy Fruits\" mit 2.000 Gästen. Aus dem Debüt wurde eine feste Institution: Seit 2007 gemeinsam von der Popmodern GmbH, dem Verein für urbane Popkultur und dem Dortmunder Jugendamt veranstaltet, zählt Juicy Beats heute zu den größten Musikfestivals Nordrhein-Westfalens."
   },
   {
     "name": "NACHTI FESTIVAL 2027",
