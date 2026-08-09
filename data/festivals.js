@@ -2892,6 +2892,24 @@ const festivals = [
     "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
     "lat": 54.3494378,
     "lng": 13.4718006
+  },
+  {
+    "name": "ELYSIUM FESTIVAL GERMANY 2026",
+    "date": "2026-09-12",
+    "endDate": "2026-09-13",
+    "dateDisplay": "12.–13. September 2026",
+    "location": "Maxvorstadt, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://elysium-festival.com/",
+    "soldOut": false,
+    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
+    "about": "Elysium versteht sich selbst als „Kein gewöhnlicher Clubabend. Kein klassisches Festival“ — die erste Ausgabe in München hält die genaue Adresse bewusst geheim und verschickt sie erst mit dem Ticket per Mail, ein typisches Konzept seriöser Underground-Techno-Events. Auf 3.500 Quadratmetern verteilen sich drei Welten: eine Open-Air-Fläche, die monumentale Mainstage mit gewaltigem Sound- und Lichtsystem, und der Rittersaal für eine melodischere, ruhigere Reise durch tief hypnotische Sounds. Als Premiere ohne Vorjahre steht Elysium noch ganz am Anfang seiner Geschichte — die erste Ausgabe wird zeigen, wohin sich das Format entwickelt.",
+    "lat": 48.1510916,
+    "lng": 11.5624179
   }
 ];
 
