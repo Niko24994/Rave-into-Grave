@@ -81,6 +81,18 @@ function renderAboutSection(f) {
     </section>`;
 }
 
+function renderAnfahrtSection(f) {
+  if (!f.anfahrt) return '';
+  const paragraphs = f.anfahrt.split('\n\n').map(p => `<p>${escapeHtml(p)}</p>`).join('\n        ');
+  return `
+    <section class="anfahrt-festival">
+      <h2 class="about-label">// Anfahrt</h2>
+      <div class="about-body">
+        ${paragraphs}
+      </div>
+    </section>`;
+}
+
 function renderSimilarSection(f, allEntries) {
   const similar = findSimilarFestivals(f, allEntries);
   if (similar.length === 0) return '';
@@ -223,6 +235,7 @@ function renderPage(f, slug, allEntries) {
       </div>
     </article>
     ${renderAboutSection(f)}
+    ${renderAnfahrtSection(f)}
     ${renderSimilarSection(f, allEntries)}
   </main>
 

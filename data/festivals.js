@@ -870,7 +870,8 @@ const festivals = [
     "soldOut": false,
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
     "lat": 50.0434566,
-    "lng": 7.4255143
+    "lng": 7.4255143,
+    "anfahrt": "Ab der Autobahnausfahrt der Beschilderung vor Ort folgen, nicht dem Navi — Tagesgäste folgen den ausgeschilderten Tagesparkplätzen, Camper der Beschilderung zu SilentCamp bzw. Camper-Bereichen. Kostenlose Shuttlebusse verkehren freitags und samstags von 9 bis 18 Uhr zwischen dem Gelände und der Innenstadt (Haltestellen EDEKA/Bahnhofstraße, Südstraße, Hallenbad, Marktplatz) — mit gültigem Ticket kostenlos nutzbar. Vom Hauptbahnhof Koblenz bringt ein Non-Stop-Shuttle euch in rund 45 Minuten direkt zum Gelände."
   },
   {
     "name": "RANCH RAVE 2026",
@@ -887,7 +888,8 @@ const festivals = [
     "soldOut": false,
     "description": "Open-Air mitten im Grünen bei Würzburg — House, Techno und Hardstyle, organisiert vom Johannisverein Binsfeld e.V.",
     "lat": 49.9490964,
-    "lng": 9.8861868
+    "lng": 9.8861868,
+    "anfahrt": "Adresse: Am Windradplatz, 97450 Arnstein-Binsfeld. Fahrzeuge, in denen nicht übernachtet wird, müssen auf dem offiziellen Parkplatz abgestellt werden — die Beschilderung vor Ort weist den Weg dorthin."
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2026",
@@ -904,7 +906,8 @@ const festivals = [
     "soldOut": false,
     "description": "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground.",
     "lat": 53.0935023,
-    "lng": 9.417503
+    "lng": 9.417503,
+    "anfahrt": "Der Veranstalter bietet Shuttle-Busse zwischen dem Bahnhof Rotenburg und dem Festivalgelände an (10 Euro Hin- und Rückfahrt), die sich an den Ankunfts- und Abfahrtszeiten des Metronoms orientieren statt an einem festen Fahrplan. Mit dem Auto könnt ihr direkt auf dem Gelände des Flugplatzes Rotenburg parken (Parkticket online 10 Euro zzgl. Gebühren, gilt für ein Fahrzeug und einmalige Einfahrt) — bitte ausschließlich die ausgeschilderten Parkflächen nutzen."
   },
   {
     "name": "FACELESS OPEN AIR 2026",
@@ -918,7 +921,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hardcore-Open-Air-Feeling in der Turbinenhalle Oberhausen — für alle die es hart und kompromisslos mögen.",
     "lat": 51.4835582,
-    "lng": 6.8666494
+    "lng": 6.8666494,
+    "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
     "name": "GREENFIELDS OPEN AIR 2026",
@@ -934,7 +938,8 @@ const festivals = [
     "soldOut": false,
     "description": "25 Jahre Greenfields — Richie Hawtin, Ben Klock, Sven Väth und Pan-Pot auf der Galopprennbahn München. Zwei Stages, 11 Stunden Electronic Music.",
     "lat": 48.1507242,
-    "lng": 11.6711537
+    "lng": 11.6711537,
+    "anfahrt": "Adresse: Graf-Lehndorff-Straße 36, 81929 München (Galopprennbahn Riem). Von der privaten PKW-Anreise wird ausdrücklich abgeraten — vor Ort gibt es nur sehr eingeschränkte Parkmöglichkeiten (rund 80 Plätze am Golfclub-Parkplatz, nur für Mitglieder/Gäste). Mit der S-Bahn S2 bis Haltestelle Riem. Wichtig: Die Bahnübergangsstraße Graf-Lehndorff-Str. ist nicht ganztägig befahrbar — alternativ die Landshamer Str. nutzen."
   },
   {
     "name": "BLANK HOLIDAYS FESTIVAL WEEKENDER 2026",
@@ -966,7 +971,8 @@ const festivals = [
     "description": "Intimes Techno- und Kultur-Festival auf dem Rittergut Etzdorf — 7 Bühnen, DIY-Kultur, kein VIP, Sauna und See statt Mainstream-Produktion.",
     "lat": 51.4317994,
     "lng": 11.759075,
-    "about": "Mahagoni ist ein intimes Kulturfestival ohne kommerzielle Ambitionen — bewusst ohne VIP-Bereich, dafür mit DIY-Kultur, Nachhaltigkeit und Gemeinschaftsgefühl. Nach mehreren Standortwechseln fand das seit 2018 bestehende Festival sein neues Zuhause am Rittergut Etzdorf bei Leipzig: sieben Bühnen, Workshops, Sauna, Jam-Sessions und ein Sandstrand am See, gestaltet, als sei alles rund um Gutshof und Wasser natürlich gewachsen."
+    "about": "Mahagoni ist ein intimes Kulturfestival ohne kommerzielle Ambitionen — bewusst ohne VIP-Bereich, dafür mit DIY-Kultur, Nachhaltigkeit und Gemeinschaftsgefühl. Nach mehreren Standortwechseln fand das seit 2018 bestehende Festival sein neues Zuhause am Rittergut Etzdorf bei Leipzig: sieben Bühnen, Workshops, Sauna, Jam-Sessions und ein Sandstrand am See, gestaltet, als sei alles rund um Gutshof und Wasser natürlich gewachsen.",
+    "anfahrt": "Mit dem Auto über die A38 (Abfahrt Halle-Süd oder Querfurt), dann über Landstraßen Richtung Teutschenthal — Parkplätze direkt am Rittergut. Ein Festival-Shuttle verkehrt vom Hauptbahnhof Halle (Saale) zum Gelände; zusätzliche Buslinien-Verstärkerfahrten laufen zu regulären ÖPNV-Tarifen und sind mit dem Deutschland-Ticket nutzbar."
   },
   {
     "name": "SHIFTED FESTIVAL 2026",
@@ -984,7 +990,8 @@ const festivals = [
     "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im geheimen Waldgelände Brandenburgs — 85 km von Berlin, starke Musik, fairer Preis.",
     "lat": 52.8455492,
     "lng": 13.2461296,
-    "about": "Shifted findet auf einem ehemaligen sowjetischen Militärflugplatz aus dem Kalten Krieg statt, der nach dem Zusammenbruch der Sowjetunion aufgegeben wurde. Über 15 Jahre verwandelte sich das als „Secret Forest\" bekannte Areal in Brandenburg in einen Kreativraum für Festivals. Seit der ersten Ausgabe 2024 verbindet Shifted futuristisches Stage-Design mit Underground-Electronic-Sound aus Trance, Hard- und Groove-Techno — mit besonderem Fokus auf Nachwuchskünstler:innen."
+    "about": "Shifted findet auf einem ehemaligen sowjetischen Militärflugplatz aus dem Kalten Krieg statt, der nach dem Zusammenbruch der Sowjetunion aufgegeben wurde. Über 15 Jahre verwandelte sich das als „Secret Forest\" bekannte Areal in Brandenburg in einen Kreativraum für Festivals. Seit der ersten Ausgabe 2024 verbindet Shifted futuristisches Stage-Design mit Underground-Electronic-Sound aus Trance, Hard- und Groove-Techno — mit besonderem Fokus auf Nachwuchskünstler:innen.",
+    "anfahrt": "Das Festivalgelände (Secret Forest) liegt auf dem ehemaligen Militärflugplatz Flugplatzweg 6, 14913 Niedergörsdorf — rund eine Autostunde von Berlin entfernt. Mit der Bahn geht es mit der RE3 ab Berlin bis Jüterbog, von dort bringt ein Shuttle euch direkt zum Gelände."
   },
   {
     "name": "KLANGTHERAPIE FESTIVAL 2026",
@@ -1002,7 +1009,8 @@ const festivals = [
     "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
     "lat": 49.8959847,
     "lng": 11.3231555,
-    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Vier Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld."
+    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Vier Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
+    "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
   },
   {
     "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
@@ -1016,7 +1024,8 @@ const festivals = [
     "soldOut": false,
     "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.",
     "lat": 52.3184969,
-    "lng": 9.8179603
+    "lng": 9.8179603,
+    "anfahrt": "Adresse: Expo-Plaza, 30539 Hannover. Ab Hannover-Zentrum über den Messeschnellweg (Richtung Hildesheim) bis Ausfahrt Messe Nord/Plaza, an der ersten Ampel rechts, dann links Richtung Expo-Plaza/ZAG Arena. Aus Richtung Hamburg (A7) über das Kreuz Hannover-Kirchhorst auf die A37/Messeschnellweg bis Ausfahrt Messe Nord/Plaza; aus Richtung Kassel (A7) über das Dreieck Hannover-Süd auf die A37 bis Ausfahrt Messe Süd. Mit der Stadtbahn bringen euch die Linien 6 und 16 ab Kröpcke direkt bis zur Endhaltestelle Expo-Plaza. Parkplätze liegen in den Bereichen Süd 26-29 und Ost 14-15."
   },
   {
     "name": "CIRCLE OF LEAVES FESTIVAL 2026",
@@ -1033,7 +1042,8 @@ const festivals = [
     "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
     "lat": 49.6101502,
     "lng": 8.9671301,
-    "about": "Am Marbach-Stausee im Odenwald verbindet Circle of Leaves pulsierende Beats mit der stillen Schönheit der Natur. Das Festival feiert elektronische Musik in all ihren Facetten und versteht sich als Ort für eine Community, die von Kreativität, Austausch und Solidarität geprägt ist — Techno und Tech House unter dem Sternenhimmel des Odenwalds."
+    "about": "Am Marbach-Stausee im Odenwald verbindet Circle of Leaves pulsierende Beats mit der stillen Schönheit der Natur. Das Festival feiert elektronische Musik in all ihren Facetten und versteht sich als Ort für eine Community, die von Kreativität, Austausch und Solidarität geprägt ist — Techno und Tech House unter dem Sternenhimmel des Odenwalds.",
+    "anfahrt": "Anfahrt je nach Richtung: von Frankfurt/Wiesbaden über die A5 bis Bensheim, dann via B47 durch Lindenfels nach Michelstadt/Beerfelden; von Mannheim/Heidelberg über die B37; von Würzburg/Aschaffenburg über die A3 bis Stockstadt; von Stuttgart/Heilbronn über die A6 bis Sinsheim, dann B292. Zwei Park-und-Ride-Parkplätze stehen bereit (Michelstadt und Beerfelden), Wohnmobile werden per Shuttle direkt zum Eingang gebracht. Mit der Bahn geht es bis Michelstadt, von dort per Festival-Shuttle weiter."
   },
   {
     "name": "HAVELBEATS FESTIVAL 2026",
@@ -1051,7 +1061,8 @@ const festivals = [
     "description": "Potsdams größtes Festival an der Havel — 5 Stages, 50+ Acts, Techno, Trance & Goa direkt am Wasser in der Schiffbauergasse.",
     "lat": 52.4031259,
     "lng": 13.0737772,
-    "about": "Havelbeats findet seit 2017 im Kunst- und Kulturquartier Schiffbauergasse statt — einem ehemaligen Militärgelände direkt an der Havel im Potsdamer Norden. Veranstaltet wird das Festival vom traditionsreichen Waschhaus Potsdam, das die elektronische Clubkultur der Stadt seit den 1990ern prägt. Mehrere spezialisierte Bühnen decken das Spektrum ab: große Mainstage mit EDM, House und Techno, der raue Schirrhof für industriellen Techno-Sound, und ein Trance & Goa Garden direkt am Wasser."
+    "about": "Havelbeats findet seit 2017 im Kunst- und Kulturquartier Schiffbauergasse statt — einem ehemaligen Militärgelände direkt an der Havel im Potsdamer Norden. Veranstaltet wird das Festival vom traditionsreichen Waschhaus Potsdam, das die elektronische Clubkultur der Stadt seit den 1990ern prägt. Mehrere spezialisierte Bühnen decken das Spektrum ab: große Mainstage mit EDM, House und Techno, der raue Schirrhof für industriellen Techno-Sound, und ein Trance & Goa Garden direkt am Wasser.",
+    "anfahrt": "Adresse: Schiffbauergasse 1, 14467 Potsdam. Der Veranstalter empfiehlt ausdrücklich die klimafreundliche Anreise mit der Bahn bis Potsdam — von dort ist es nicht weit bis zum Kunst- und Kulturquartier Schiffbauergasse. Zur Parkplatzsituation (insbesondere für Wohnmobile) lohnt sich vorab ein Blick auf die offizielle Website oder die Social-Media-Kanäle des Festivals."
   },
   {
     "name": "ELECTRISIZE 2026",
@@ -1070,7 +1081,8 @@ const festivals = [
     "description": "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.",
     "lat": 51.0681502,
     "lng": 6.2781717,
-    "about": "Electrisize feierte sein Debüt am 15. August 2009 im Erkelenzer Lahey-Park — damals traten sieben Künstler vor rund 400 Gästen auf. Seit 2013 ist das ehemalige Kreuzherrenkloster Hohenbusch die feste Heimat, mittlerweile bis 2028 vertraglich gesichert. Heute zieht das Festival bis zu 45.000 Besucher an und zählt damit zu den größten in Nordrhein-Westfalen. Fünf aufwendig gestaltete Themenwelten — von der Dschungelwelt „Tapuya\" bis zur Schwermetall-Dystopie „Hardsize\" — wechseln jährlich passend zum Ambiente."
+    "about": "Electrisize feierte sein Debüt am 15. August 2009 im Erkelenzer Lahey-Park — damals traten sieben Künstler vor rund 400 Gästen auf. Seit 2013 ist das ehemalige Kreuzherrenkloster Hohenbusch die feste Heimat, mittlerweile bis 2028 vertraglich gesichert. Heute zieht das Festival bis zu 45.000 Besucher an und zählt damit zu den größten in Nordrhein-Westfalen. Fünf aufwendig gestaltete Themenwelten — von der Dschungelwelt „Tapuya\" bis zur Schwermetall-Dystopie „Hardsize\" — wechseln jährlich passend zum Ambiente.",
+    "anfahrt": "Ein Shuttle verkehrt rund um die Uhr zwischen dem Bahnhof Erkelenz und dem Festivalgelände (5 Euro Tagesticket, 9 Euro fürs ganze Wochenende, mit Priority Pass kostenlos) — Tickets gibt es direkt am Bahnhof oder vorab im offiziellen Shop. Für die Anreise mit dem Auto steht ein Park-und-Ride-Parkplatz in Erkelenz bereit."
   },
   {
     "name": "SONNE MOND STERNE 2026",
@@ -1087,7 +1099,8 @@ const festivals = [
     "description": "SMS am Bleilochstausee in Thüringen — drei Tage Techno und Trance mit Seenblick und Campingflair.",
     "lat": 50.4948382,
     "lng": 11.7092902,
-    "about": "Sonne Mond Sterne — kurz SMS — feierte 1997 seine erste Ausgabe an der Bleilochtalsperre bei Saalburg-Ebersdorf, mit rund 2.500 Besuchern auf einer einzigen Bühne und einem einzigen Zelt. Seitdem findet das Festival traditionell am zweiten August-Wochenende in Thüringen statt und ist auf mehrere zehntausend Besucher gewachsen (35.000 bereits zur 15. Ausgabe 2011) — heute eines der größten Electronic-Open-Airs Europas, direkt am Wasser der Talsperre."
+    "about": "Sonne Mond Sterne — kurz SMS — feierte 1997 seine erste Ausgabe an der Bleilochtalsperre bei Saalburg-Ebersdorf, mit rund 2.500 Besuchern auf einer einzigen Bühne und einem einzigen Zelt. Seitdem findet das Festival traditionell am zweiten August-Wochenende in Thüringen statt und ist auf mehrere zehntausend Besucher gewachsen (35.000 bereits zur 15. Ausgabe 2011) — heute eines der größten Electronic-Open-Airs Europas, direkt am Wasser der Talsperre.",
+    "anfahrt": "Die Festivalwiese liegt direkt an der Bleilochtalsperre bei Saalburg — die meisten reisen mit dem Auto an, da Camping im Ticket enthalten ist und der Wagen direkt am Camp stehen darf (Parkgebühr ca. 30 Euro, für Wohnmobile/Anhänger ca. 50 Euro). Mit der Bahn geht es bis Bad Lobenstein, von dort bringt ein kostenloser Shuttle Ticketinhaber in rund 25 Minuten zum Gelände."
   },
   {
     "name": "HILL OF DREAMS 2026",
@@ -1105,7 +1118,8 @@ const festivals = [
     "description": "8. Auflage mit über 8000 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
     "lat": 52.8288647,
     "lng": 8.988901,
-    "about": "Die 8. Auflage von Hill of Dreams bringt über 8.000 Besucher und mehr als 50 Live-Acts zwischen Bremen und Hannover zusammen. Vier Bühnen strukturieren das Gelände bei Bruchhausen-Vilsen — vom Castle Stage mit Techno über den Unicorn Stage (EDM, Big Room) bis zum Dirtbasss Stage für Bass Music und DnB. Camping ist fester Bestandteil, gefeiert wird von Freitagabend bis früh am Sonntagmorgen."
+    "about": "Die 8. Auflage von Hill of Dreams bringt über 8.000 Besucher und mehr als 50 Live-Acts zwischen Bremen und Hannover zusammen. Vier Bühnen strukturieren das Gelände bei Bruchhausen-Vilsen — vom Castle Stage mit Techno über den Unicorn Stage (EDM, Big Room) bis zum Dirtbasss Stage für Bass Music und DnB. Camping ist fester Bestandteil, gefeiert wird von Freitagabend bis früh am Sonntagmorgen.",
+    "anfahrt": "Adresse: Freidorfer Weg 1, 27305 Bruchhausen-Vilsen — ab dort ist der Weg zum Parkplatz ausgeschildert (Parkgebühr 5 Euro vor Ort). Vom Bahnhof Syke verkehrt ein Shuttlebus: freitags im Pendelverkehr 18-21 Uhr (Fahrzeit ca. 30-40 Minuten), samstags 14-20 Uhr ab Bahnhof und 22-3 Uhr ab Festivalgelände."
   },
   {
     "name": "WELCOME TO MY GARDEN 2026",
@@ -1122,7 +1136,8 @@ const festivals = [
     "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
     "lat": 51.6768,
     "lng": 7.8258,
-    "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert."
+    "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert.",
+    "anfahrt": "Adresse: Ostenallee 87, 59071 Hamm (bzw. „Exerzierplatz Hamm\" bei Google Maps). Mit dem Auto der Beschilderung über die Kreuzung Ostenallee/Ahseufer folgen. Mit dem Bus (Linien 1, 3, 5) ab Haltestelle „HBF./Willy Brandt Platz\" in unter 15 Minuten am Gelände; mit dem Taxi ab Hamm Hauptbahnhof (Stichwort „Kurpark\" oder „Kurhaus\") in unter 12 Minuten."
   },
   {
     "name": "NIMMERLAND OPEN AIR 2026",
@@ -1152,7 +1167,8 @@ const festivals = [
     "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — u.a. mit Westbam, DJ Rush und Dr. Motte, von Outside World Festival.",
     "lat": 51.4574024,
     "lng": 12.0488952,
-    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln."
+    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln.",
+    "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
   },
   {
     "name": "MODULE FESTIVAL 2026",
@@ -1188,7 +1204,8 @@ const festivals = [
     "description": "Vier Tage Rock und Electronic am Störmthaler See bei Leipzig — mit Badestrand und wachsendem Techno-Anteil.",
     "lat": 51.2292484,
     "lng": 12.4534826,
-    "about": "Highfield Festival gibt’s seit 1998 — ursprünglich am Stausee Hohenfelden südlich von Erfurt. 2010 zog das Festival an den Störmthaler See bei Großpösna nahe Leipzig um, nachdem der alte Standort zunehmend Probleme mit Verschmutzung und dem laufenden Badebetrieb am See bereitete. Am neuen Standort mit direktem Seeblick zieht Highfield heute rund 35.000 Besucher an."
+    "about": "Highfield Festival gibt’s seit 1998 — ursprünglich am Stausee Hohenfelden südlich von Erfurt. 2010 zog das Festival an den Störmthaler See bei Großpösna nahe Leipzig um, nachdem der alte Standort zunehmend Probleme mit Verschmutzung und dem laufenden Badebetrieb am See bereitete. Am neuen Standort mit direktem Seeblick zieht Highfield heute rund 35.000 Besucher an.",
+    "anfahrt": "Mit der Bahn geht es bis Leipzig Hauptbahnhof, von dort verkehrt Donnerstag bis Sonntag ein Shuttlebus zum Störmthaler See (11 Euro im Vorverkauf, 15 Euro vor Ort). Parkplätze sind vorhanden, aber kostenpflichtig (15-20 Euro) und brauchen ein eigenes Parkticket zusätzlich zum Festivalticket. Wichtig: Vor Ort der ausgeschilderten Verkehrsführung folgen, nicht dem Navi."
   },
   {
     "name": "BUCHT DER TRÄUMER 2026",
@@ -1206,7 +1223,8 @@ const festivals = [
     "description": "Zehn Bühnen am Westufer des Helenesees — 13.000 Gäste, Lineup traditionell unangekündigt.",
     "lat": 52.3364,
     "lng": 14.5089,
-    "about": "Seit der ersten Ausgabe 2017 verwandelt sich der Helenesee bei Frankfurt (Oder) für ein paar Tage in eine temporäre Utopie. Camping direkt am Seeufer ist zentraler Bestandteil des Konzepts — rund 13.000 Besucher wohnen mitten im Festivalgeschehen, statt nur zwischendurch vorbeizuschauen."
+    "about": "Seit der ersten Ausgabe 2017 verwandelt sich der Helenesee bei Frankfurt (Oder) für ein paar Tage in eine temporäre Utopie. Camping direkt am Seeufer ist zentraler Bestandteil des Konzepts — rund 13.000 Besucher wohnen mitten im Festivalgeschehen, statt nur zwischendurch vorbeizuschauen.",
+    "anfahrt": "Vom Berliner Raum über die A10/A12 Richtung Frankfurt (Oder), auf der A12 Abfahrt Frankfurt (Oder)-Mitte, dann auf die B112 Richtung Eisenhüttenstadt und weiter Richtung Lossow/Helenesee. Alternativ mit der Bahn über Berlin Ostkreuz und Königs Wusterhausen bis Helenesee — am besten vorab die aktuelle Streckenverfügbarkeit prüfen, da es auf dieser Strecke gelegentlich baustellenbedingte Einschränkungen gibt."
   },
   {
     "name": "CHIMAERA FESTIVAL 2026",
@@ -1241,7 +1259,8 @@ const festivals = [
     "description": "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre.",
     "lat": 51.6031019,
     "lng": 6.1433899,
-    "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet."
+    "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet.",
+    "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
   },
   {
     "name": "MS DOCKVILLE 2026",
@@ -1260,7 +1279,8 @@ const festivals = [
     "description": "Hamburgs Kultfestival für Musik und Kunst in Wilhelmsburg — urban, kreativ, mit starkem Electronic-Anteil.",
     "lat": 53.4984734,
     "lng": 10.0068586,
-    "about": "MS Dockville verwandelt seit 2007 jeden August ein Stück Hamburger Hafenindustrie in Wilhelmsburg — zwischen Werftkränen, Lagerhallen und dem Reiherstieg-Kanal — in ein Festival für Musik UND Kunst. 2026 findet bereits die 19. Ausgabe statt. Neben zehn Bühnen für Indie, HipHop, Pop und Electronic gehören Kunstinstallationen, Performances und Lesungen fest zum Programm — die Dockville-Kunstinstallationen bleiben sogar außerhalb der Festivalwoche zugänglich. Mit rund 60.000 Besuchern und über 100 Acts hat das Festival dem Stadtteil eine eigene kulturelle Identität gegeben."
+    "about": "MS Dockville verwandelt seit 2007 jeden August ein Stück Hamburger Hafenindustrie in Wilhelmsburg — zwischen Werftkränen, Lagerhallen und dem Reiherstieg-Kanal — in ein Festival für Musik UND Kunst. 2026 findet bereits die 19. Ausgabe statt. Neben zehn Bühnen für Indie, HipHop, Pop und Electronic gehören Kunstinstallationen, Performances und Lesungen fest zum Programm — die Dockville-Kunstinstallationen bleiben sogar außerhalb der Festivalwoche zugänglich. Mit rund 60.000 Besuchern und über 100 Acts hat das Festival dem Stadtteil eine eigene kulturelle Identität gegeben.",
+    "anfahrt": "Auto-Anreise wird explizit nicht empfohlen — direkt am Gelände gibt es keine Parkplätze, und die Nachbarschaft in Wilhelmsburg ist von zusätzlichem Verkehr wenig begeistert. Mit der S-Bahn (S3/S5 Richtung Buxtehude/Neugraben/Stade) geht es bis Bahnhof Wilhelmsburg, nur rund 10 Minuten vom Hamburger Hauptbahnhof entfernt, von dort ist das Gelände fußläufig erreichbar. Für die Rückfahrt steht zusätzlich ein Bus-Shuttle bereit."
   },
   {
     "name": "ECHELON FESTIVAL 2026",
@@ -1277,7 +1297,8 @@ const festivals = [
     "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse.",
     "lat": 47.8640504,
     "lng": 12.0097685,
-    "about": "Echelon Festival findet auf dem Gelände einer ehemaligen US-Kaserne in Bad Aibling statt, die während des Kalten Kriegs als Abhörstation der NSA diente — direkt neben den ikonischen Radomen der einstigen Horchanlage. 2009 belebte eine Gruppe junger Kreativer den Ort erstmals mit Musik neu; aus Überwachung wurde Feiern, aus Kontrolle Verbindung. Auf dem Programm: Techno, Hardtechno, House, Acid, Melodic, Progressive und Minimal — bewusst ohne kommerziellen EDM."
+    "about": "Echelon Festival findet auf dem Gelände einer ehemaligen US-Kaserne in Bad Aibling statt, die während des Kalten Kriegs als Abhörstation der NSA diente — direkt neben den ikonischen Radomen der einstigen Horchanlage. 2009 belebte eine Gruppe junger Kreativer den Ort erstmals mit Musik neu; aus Überwachung wurde Feiern, aus Kontrolle Verbindung. Auf dem Programm: Techno, Hardtechno, House, Acid, Melodic, Progressive und Minimal — bewusst ohne kommerziellen EDM.",
+    "anfahrt": "Der ÖPNV-Zielbahnhof ist Bad Aibling, an der Bahnstrecke Holzkirchen-Rosenheim, rund eine Stunde vom Münchner Hauptbahnhof entfernt. Ein Echelon-Shuttle pendelt regelmäßig zwischen Bahnhof und Festivalgelände, ab Mitternacht sogar bis Rosenheim weiter — das Ticket muss vor Ort in ein Shuttle-Band getauscht werden. Mit dem Auto geht es über die A8, Ausfahrt Bad Aibling, dann der Beschilderung folgen."
   },
   {
     "name": "FOREST FORGE FESTIVAL 2026",
@@ -1327,7 +1348,8 @@ const festivals = [
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
     "lat": 49.4011747,
     "lng": 8.578611,
-    "about": "Der Weldegarten in Plankstadt, ein ehemaliges Brauereigelände, ist seit einigen Jahren Schauplatz für größere Open-Air-Festivals in der Metropolregion Rhein-Neckar. Electric Horizon verwandelt das Areal für einen Tag in eine elektronische Sommerwelt mit Palmen, Chill-out-Ecken und drei Floors für Techno, Hardtechno, Trance und 90er-Klassiker — bei Sonnenuntergang geht es direkt in die offizielle After-Hour-Party über."
+    "about": "Der Weldegarten in Plankstadt, ein ehemaliges Brauereigelände, ist seit einigen Jahren Schauplatz für größere Open-Air-Festivals in der Metropolregion Rhein-Neckar. Electric Horizon verwandelt das Areal für einen Tag in eine elektronische Sommerwelt mit Palmen, Chill-out-Ecken und drei Floors für Techno, Hardtechno, Trance und 90er-Klassiker — bei Sonnenuntergang geht es direkt in die offizielle After-Hour-Party über.",
+    "anfahrt": "Adresse für die Anfahrt: Brauereistraße 1, 68723 Plankstadt. Von Mannheim/Heidelberg über die A656, Ausfahrt Schwetzingen/Plankstadt; von Karlsruhe über A5/A6, Ausfahrt Schwetzingen-Nord; von Frankfurt über A5/A656, ebenfalls Ausfahrt Schwetzingen/Plankstadt. Mit dem ÖPNV geht es bis Bahnhof Schwetzingen, von dort mit Buslinie 714 oder 715 bis Haltestelle Plankstadt Rathaus (ca. 5 Minuten Fußweg zum Gelände)."
   },
   {
     "name": "RAVE THE PLANET PARADE 2026",
@@ -1342,7 +1364,8 @@ const festivals = [
     "description": "Die Nachfolge-Parade der Love Parade — UNESCO-anerkanntes Kulturerbe, kostenlose Techno-Parade durchs Brandenburger Tor. Motto 2026: \"Imagine Love\".",
     "lat": 52.5132816,
     "lng": 13.3332602,
-    "about": "Rave The Planet ist der geistige Nachfolger der Love Parade — gegründet von deren Erfinder Dr. Motte, der 1989 mit gerade 150 Teilnehmenden auf dem Ku’damm startete und die Parade in den 1990ern auf über eine Million Menschen an der Straße des 17. Juni wachsen sah, bevor sie 2010 nach der Duisburger Katastrophe endete. 2019 initiierte Dr. Motte gemeinsam mit einer Gruppe Electronic-Music-Enthusiast:innen die Rave The Planet Parade als Neuanfang; am 9. Juli 2022 zog erstmals seit zwölf Jahren wieder ein großer Techno-Umzug durch Berlin. Unter dem Motto „Imagine Love\" steht die Parade für Liebe, Frieden, Vielfalt und eine nachhaltige Zukunft."
+    "about": "Rave The Planet ist der geistige Nachfolger der Love Parade — gegründet von deren Erfinder Dr. Motte, der 1989 mit gerade 150 Teilnehmenden auf dem Ku’damm startete und die Parade in den 1990ern auf über eine Million Menschen an der Straße des 17. Juni wachsen sah, bevor sie 2010 nach der Duisburger Katastrophe endete. 2019 initiierte Dr. Motte gemeinsam mit einer Gruppe Electronic-Music-Enthusiast:innen die Rave The Planet Parade als Neuanfang; am 9. Juli 2022 zog erstmals seit zwölf Jahren wieder ein großer Techno-Umzug durch Berlin. Unter dem Motto „Imagine Love\" steht die Parade für Liebe, Frieden, Vielfalt und eine nachhaltige Zukunft.",
+    "anfahrt": "Die Parade zieht zwischen Brandenburger Tor und Großer Stern die Straße des 17. Juni entlang — wegen der enormen Besucherzahlen ist ÖPNV dringend empfohlen. Erreichbar mit der S-Bahn (S1/S2/S25/S26) bis Brandenburger Tor oder Potsdamer Platz, mit der U5 bis Brandenburger Tor, oder mit den Buslinien 100, 200 und 245 entlang der Strecke. Je nach Startpunkt solltet ihr 25 bis 60 Minuten Fahrtzeit einplanen."
   },
   {
     "name": "LACUNA FESTIVAL 2026",
@@ -1360,7 +1383,8 @@ const festivals = [
     "description": "Techno & Hardstyle im Münsterland — 'A Fairytale of Dreams', über 40 Acts auf mehreren Floors an der Felsenmühle in Ochtrup.",
     "lat": 52.1912904,
     "lng": 7.1791635,
-    "about": "Lacuna ist das Electro-Festival im Münsterland und findet an der Felsenmühle in Ochtrup statt. Seit der ersten Ausgabe ist das Konzept kontinuierlich gewachsen — mittlerweile mit drei Tagen Camping, mehreren Bühnen, über 50 Artists und einer 360°-Stage. Musikalisch bleibt der Fokus auf Techno und Hardstyle, ergänzt um House, Harddance und Trance."
+    "about": "Lacuna ist das Electro-Festival im Münsterland und findet an der Felsenmühle in Ochtrup statt. Seit der ersten Ausgabe ist das Konzept kontinuierlich gewachsen — mittlerweile mit drei Tagen Camping, mehreren Bühnen, über 50 Artists und einer 360°-Stage. Musikalisch bleibt der Fokus auf Techno und Hardstyle, ergänzt um House, Harddance und Trance.",
+    "anfahrt": "Adresse für die Anfahrt: Im Hook 6, 48607 Ochtrup. Parkplätze stehen laut Veranstalter kostenfrei zur Verfügung. Da ein Großteil der CO2-Bilanz eines Festivals durch die Anreise der Besucher entsteht, empfiehlt der Veranstalter ausdrücklich klimafreundliche Alternativen wie Bus, Bahn oder Fahrgemeinschaften."
   },
   {
     "name": "ZUKUNFTSMUSIK OPEN AIR 2026",
@@ -1377,7 +1401,8 @@ const festivals = [
     "description": "Techno Open Air in der norddeutschen Natur — Ecklak als ruhiger Gegenpol zu den großen Festivals.",
     "lat": 54.1853998,
     "lng": 9.8220089,
-    "about": "Zukunftsmusik Open Air wurde 2018 in Ecklak, Schleswig-Holstein gegründet und verfolgt ein bewusst kleines, familiäres Konzept nach dem Motto „Rock trifft Elektro\". Zwei Bühnen teilen sich das Programm: eine Hauptbühne für handgemachte Musik aus verschiedenen Rock-Subgenres, und der zweite Floor „LonelyForest\" für elektronische Klangtherapien verschiedener Genres."
+    "about": "Zukunftsmusik Open Air wurde 2018 in Ecklak, Schleswig-Holstein gegründet und verfolgt ein bewusst kleines, familiäres Konzept nach dem Motto „Rock trifft Elektro\". Zwei Bühnen teilen sich das Programm: eine Hauptbühne für handgemachte Musik aus verschiedenen Rock-Subgenres, und der zweite Floor „LonelyForest\" für elektronische Klangtherapien verschiedener Genres.",
+    "anfahrt": "Das Gelände liegt in Ecklak (Austrich 1A). Der Veranstalter empfiehlt Fahrgemeinschaften; für die letzten Kilometer ohne eigenes Auto steht ein lokaler Taxiservice zur Verfügung (Helo-Mini-Car, Tel. 04823/920866)."
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2026",
@@ -1395,7 +1420,8 @@ const festivals = [
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
     "lat": 51.5119509,
     "lng": 13.3505194,
-    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern."
+    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern.",
+    "anfahrt": "Wichtiger Hinweis: Viele Navigationsgeräte berechnen bei Eingabe der Geländeadresse eine falsche Route — besser zu den offiziell angegebenen Koordinaten einer nahegelegenen Kreuzung navigieren, ab dort führen Beschilderung und Helfer zum Gelände (Adresse: Göritz 5, 03116 Drebkau). Mit der Bahn geht es bis Calau, von dort bringt ein kostenpflichtiger Shuttle (Bassliner) direkt zum Festival. Falsch geparkte Autos werden in Kooperation mit der Stadt Drebkau abgeschleppt."
   },
   {
     "name": "FERRA FESTIVAL 2026",
@@ -1413,7 +1439,8 @@ const festivals = [
     "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
     "lat": 49.2490026,
     "lng": 6.8439143,
-    "about": "Die Völklinger Hütte ist das einzige vollständig erhaltene Hüttenwerk aus der Blütezeit der Industrialisierung und wurde 1994 als erstes Industriedenkmal weltweit UNESCO-Weltkulturerbe. Für FERRA öffnet dieses Weltkulturerbe Räume, die sonst verschlossen bleiben — auf fünf Bühnen treffen 67 DJs aus Hard Techno, Bounce und Trance auf monumentale Industriekultur, minimalistischen Sound und Laserinstallationen. Veranstaltet wird das Festival von Permanent Entertainment in Kooperation mit dem Hive Festival."
+    "about": "Die Völklinger Hütte ist das einzige vollständig erhaltene Hüttenwerk aus der Blütezeit der Industrialisierung und wurde 1994 als erstes Industriedenkmal weltweit UNESCO-Weltkulturerbe. Für FERRA öffnet dieses Weltkulturerbe Räume, die sonst verschlossen bleiben — auf fünf Bühnen treffen 67 DJs aus Hard Techno, Bounce und Trance auf monumentale Industriekultur, minimalistischen Sound und Laserinstallationen. Veranstaltet wird das Festival von Permanent Entertainment in Kooperation mit dem Hive Festival.",
+    "anfahrt": "Mit dem Auto über die A620 (Ausfahrt Völklingen) oder die A8 (Ausfahrt Saarbrücken-Klarenthal). Mit der Bahn geht es bis Saarbrücken Hauptbahnhof, von dort mit der S1 nach Völklingen — von der Haltestelle sind es nur rund 5 Minuten Fußweg zum Hütteneingang."
   },
   {
     "name": "TFELD FESTIVAL 2026",
@@ -1429,7 +1456,8 @@ const festivals = [
     "description": "Berliner Techno-Open-Air mit Paul Kalkbrenner und Ellen Allien — Hauptstadtvibes auf einem Feld.",
     "lat": 52.5173885,
     "lng": 13.3951309,
-    "about": "TFELD ist ein neues Festivalformat auf dem Berliner Flughafen Tempelhof, das unter dem Motto „Das ist Berlin\" HipHop und Techno erstmals gemeinsam auf eine Bühne bringt — inspiriert von Formaten wie der Backyard Stage des splash! Festivals und der legendären Autoscooter-Bühne des Melt Festivals. Der historische Flughafen, einst Drehscheibe für internationalen Austausch, steht symbolisch für Berlins kulturelle Entwicklung. Bewusst niedrige Ticketpreise sollen Kultur für möglichst viele zugänglich machen, nicht zum Privileg machen."
+    "about": "TFELD ist ein neues Festivalformat auf dem Berliner Flughafen Tempelhof, das unter dem Motto „Das ist Berlin\" HipHop und Techno erstmals gemeinsam auf eine Bühne bringt — inspiriert von Formaten wie der Backyard Stage des splash! Festivals und der legendären Autoscooter-Bühne des Melt Festivals. Der historische Flughafen, einst Drehscheibe für internationalen Austausch, steht symbolisch für Berlins kulturelle Entwicklung. Bewusst niedrige Ticketpreise sollen Kultur für möglichst viele zugänglich machen, nicht zum Privileg machen.",
+    "anfahrt": "Bestens an den ÖPNV angebunden: Die U-Bahn-Stationen Platz der Luftbrücke und Paradestraße (beide U6) sowie der S-Bahnhof Tempelhof liegen in Gehweite zum Tempelhofer Feld, dazu mehrere Bushaltestellen in unmittelbarer Nähe."
   },
   {
     "name": "TANZINSEL FESTIVAL 2026",
@@ -1445,7 +1473,8 @@ const festivals = [
     "description": "Open-Air Techno-Festival am Schutzhafen in Gemünden am Main bei Würzburg — 12:00 bis 23:00 Uhr, 10.000 Besucher, ab 16 Jahren.",
     "lat": 50.0584231,
     "lng": 9.6799525,
-    "about": "Die Tanzinsel fand am 31. August 2013 erstmals als Tagesfestival in der Drei-Flüsse-Stadt Gemünden am Main statt, damals mit 5.000 Besuchern — heute sind es 10.000. Das Gelände am Schutzhafen liegt auf drei Seiten von Wasser umgeben, zwischen Mainufer und Hafenbecken. Ein großes Feuerwerk markiert traditionell das Ende jeder Ausgabe."
+    "about": "Die Tanzinsel fand am 31. August 2013 erstmals als Tagesfestival in der Drei-Flüsse-Stadt Gemünden am Main statt, damals mit 5.000 Besuchern — heute sind es 10.000. Das Gelände am Schutzhafen liegt auf drei Seiten von Wasser umgeben, zwischen Mainufer und Hafenbecken. Ein großes Feuerwerk markiert traditionell das Ende jeder Ausgabe.",
+    "anfahrt": "Adresse: Am Schutzhafen, 97737 Gemünden am Main. Aus Richtung Würzburg/Aschaffenburg über die B26 Richtung Gemünden a.M.; aus Richtung Fulda über die A7 Richtung Würzburg, Ausfahrt Hammelburg, dann Richtung Gemünden a.M.; aus Richtung Frankfurt über die A3 Richtung Würzburg, Ausfahrt Lohr a.M., dann über die B26. Der Veranstalter empfiehlt die klimafreundliche Anreise mit der Bahn bis Gemünden am Main — von dort ist es nicht weit zur Tanzinsel."
   },
   {
     "name": "AOS FESTIVAL 2026",
@@ -1462,7 +1491,8 @@ const festivals = [
     "description": "Stadtweites Electronic-Festival in Hamburg — Tages-Stages und Indoor-Nightvenues verteilt über die Innenstadt.",
     "lat": 53.5501721,
     "lng": 10.0013165,
-    "about": "AOS feierte 2023 mit dem PAL sein erstes Event — eine Reaktion darauf, dass eine ganze Generation wegen Corona nie echtes Clubbing erleben konnte. Das Hamburger Kollektiv verwandelt kalte Lagerhallen in Energie, Sound und Schweiß und will Tanzkultur voranbringen, ohne zu verlieren, was sie besonders macht. Das Festival ist ein 30-stündiger Urban Rave zwischen Deichtorhallen und PHOXXI-Freigelände mitten in Hamburg — Beton, Stahl und Museumscontainer rahmen schweißtreibende Dancefloors neben grünen Chill-out-Ecken."
+    "about": "AOS feierte 2023 mit dem PAL sein erstes Event — eine Reaktion darauf, dass eine ganze Generation wegen Corona nie echtes Clubbing erleben konnte. Das Hamburger Kollektiv verwandelt kalte Lagerhallen in Energie, Sound und Schweiß und will Tanzkultur voranbringen, ohne zu verlieren, was sie besonders macht. Das Festival ist ein 30-stündiger Urban Rave zwischen Deichtorhallen und PHOXXI-Freigelände mitten in Hamburg — Beton, Stahl und Museumscontainer rahmen schweißtreibende Dancefloors neben grünen Chill-out-Ecken.",
+    "anfahrt": "Adresse: Deichtorstraße 1-2, Hamburg (Deichtorhallen-Areal). ÖPNV wird ausdrücklich empfohlen, eigene Parkplätze bietet das Festival nicht an — die nächstgelegene U-Bahn-Station U1 Steinstraße liegt nur rund 2 Gehminuten entfernt. Bei Taxi/Uber einfach „Deichtorstraße 1-2\" als Ziel angeben."
   },
   {
     "name": "WE ARE ONE – HYDRO POOL SESH 2026",
@@ -1478,7 +1508,8 @@ const festivals = [
     "description": "Techno am Pool — We Are One verwandelt das Nidderbad bei Frankfurt in eine Open-Air-Bühne.",
     "lat": 50.2289143,
     "lng": 8.8742814,
-    "about": "We Are One veranstaltet seine Pool-Ausgabe im Nidderbad Nidderau, einem Freibad, das seit seiner Eröffnung 1972 über sechs Millionen Gäste empfangen hat. Zentral für das Kollektiv ist ein explizites Safespace-Konzept: Rassismus, Sexismus, Homophobie oder respektloses Verhalten führen zum sofortigen Ausschluss, ein Awareness-Team ist durchgehend vor Ort ansprechbar."
+    "about": "We Are One veranstaltet seine Pool-Ausgabe im Nidderbad Nidderau, einem Freibad, das seit seiner Eröffnung 1972 über sechs Millionen Gäste empfangen hat. Zentral für das Kollektiv ist ein explizites Safespace-Konzept: Rassismus, Sexismus, Homophobie oder respektloses Verhalten führen zum sofortigen Ausschluss, ein Awareness-Team ist durchgehend vor Ort ansprechbar.",
+    "anfahrt": "Adresse: Konrad-Adenauer-Allee 7A, 61130 Nidderau (Nidderbad). Mit der Bahn ab Frankfurt Hauptbahnhof mit der S6 bis Bad Vilbel, dort umsteigen in die RB34 Richtung Glauburg-Stockheim bis Nidderau-Windecken Bahnhof, von dort rund 10-15 Minuten zu Fuß Richtung Ortsmitte (ausgeschildert). Parkplätze am Nidderbad sind nur begrenzt vorhanden — die Anreise mit dem ÖPNV wird ausdrücklich empfohlen."
   },
   {
     "name": "INDIAN SPIRIT 2026",
@@ -1496,7 +1527,8 @@ const festivals = [
     "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
     "lat": 53.3040712,
     "lng": 11.509997,
-    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik."
+    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik.",
+    "anfahrt": "Von Hamburg oder Berlin über die A24 bis Kreuz Schwerin, dann A14 Richtung Magdeburg, Ausfahrt Grabow/Ludwigslust, weiter Richtung Dannenberg — kurz vor Eldena weist die Beschilderung den Weg. Ohne Auto geht es mit dem Zug bis Ludwigslust (Mecklenburg-Vorpommern), von dort per Bus-Shuttle zum Gelände; zusätzlich gibt es Airport-Shuttles ab Hamburg."
   },
   {
     "name": "KEPOTOPIVAL 2026",
@@ -1513,7 +1545,8 @@ const festivals = [
     "description": "Intimes Familien-Festival bei Leipzig — nur 500 Gäste, drei Bühnen zwischen Techno und Psytrance.",
     "lat": 51.1667,
     "lng": 12.0333,
-    "about": "Kepotopia entstand aus der Vision einer Gruppe von Freund:innen, die während eines gemeinsamen Urlaubs die Idee eines Ortes für gemeinschaftliches Leben und kreatives Arbeiten entwickelten. Der Name geht auf „Kepos\" zurück — griechisch für Garten oder Oase, ein Ort für Erholung und philosophischen Austausch, wie ihn schon Epikur führte. Getragen vom gemeinnützigen Verein Kepotopia e.V. ist der denkmalgeschützte Ort in Teuchern heute Lebensraum für mehrere Familien und gleichzeitig Schauplatz des Kepotopival — mit Musik, Workshops und Raum für persönliche Entwicklung."
+    "about": "Kepotopia entstand aus der Vision einer Gruppe von Freund:innen, die während eines gemeinsamen Urlaubs die Idee eines Ortes für gemeinschaftliches Leben und kreatives Arbeiten entwickelten. Der Name geht auf „Kepos\" zurück — griechisch für Garten oder Oase, ein Ort für Erholung und philosophischen Austausch, wie ihn schon Epikur führte. Getragen vom gemeinnützigen Verein Kepotopia e.V. ist der denkmalgeschützte Ort in Teuchern heute Lebensraum für mehrere Familien und gleichzeitig Schauplatz des Kepotopival — mit Musik, Workshops und Raum für persönliche Entwicklung.",
+    "anfahrt": "Adresse: Straße zur Voß 43, 06682 Teuchern. Wer mit Auto oder Camper anreist, kann direkt neben dem eigenen Zelt parken (Parkgebühr 40 Euro pro Fahrzeug)."
   },
   {
     "name": "HELL FESTIVAL 2026",
@@ -1531,7 +1564,8 @@ const festivals = [
     "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
     "lat": 51.4363848,
     "lng": 10.9954779,
-    "about": "Hell Festival begann 2016 als kleines Event in Mansfeld-Südharz und ist innerhalb weniger Jahre zu einer festen Größe der europäischen Hardstyle- und Hardcore-Szene geworden. Nach einem Rechtsstreit um den ursprünglichen Standort am Mondsee Hohenmölsen zog das Festival an den Stausee Kelbra am Rand des Kyffhäusergebirges — ein Naturschutzgebiet mit Strand, Wiesen und Wald statt Industriebrache. Fast 200 Artists spielen über vier Tage auf sechs Floors, von klassischem Hardstyle über Rawstyle und Hardcore bis Frenchcore und Uptempo."
+    "about": "Hell Festival begann 2016 als kleines Event in Mansfeld-Südharz und ist innerhalb weniger Jahre zu einer festen Größe der europäischen Hardstyle- und Hardcore-Szene geworden. Nach einem Rechtsstreit um den ursprünglichen Standort am Mondsee Hohenmölsen zog das Festival an den Stausee Kelbra am Rand des Kyffhäusergebirges — ein Naturschutzgebiet mit Strand, Wiesen und Wald statt Industriebrache. Fast 200 Artists spielen über vier Tage auf sechs Floors, von klassischem Hardstyle über Rawstyle und Hardcore bis Frenchcore und Uptempo.",
+    "anfahrt": "Mit dem Auto über die A38, Ausfahrt Berga/Kelbra — eigene Parkplätze sowie Stellflächen für Camper sind direkt am Gelände vorhanden. Mit der Bahn geht es bis Berga-Kelbra, von dort bringt ein Festival-Shuttle euch zum Stausee."
   },
   {
     "name": "NIBIRII FESTIVAL 2026",
@@ -1549,7 +1583,8 @@ const festivals = [
     "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
     "lat": 50.8031684,
     "lng": 6.4820806,
-    "about": "Nibirii feierte 2019 nach zwei Jahren als Clubevent seine Festival-Premiere mit über 15.000 Besuchern und wuchs bis 2024 auf rund 48.000. Das Besondere am Konzept: Techno, Psytrance und Drum & Bass — drei sonst kaum verbundene Nischen elektronischer Musik — teilen sich auf rund 45.000 Quadratmetern am Dürener Badesee fünf Bühnen. Neben der Musik gehören Wasserski, Bananaboat-Fahrten und Silent Disco zum kostenlosen Rahmenprogramm."
+    "about": "Nibirii feierte 2019 nach zwei Jahren als Clubevent seine Festival-Premiere mit über 15.000 Besuchern und wuchs bis 2024 auf rund 48.000. Das Besondere am Konzept: Techno, Psytrance und Drum & Bass — drei sonst kaum verbundene Nischen elektronischer Musik — teilen sich auf rund 45.000 Quadratmetern am Dürener Badesee fünf Bühnen. Neben der Musik gehören Wasserski, Bananaboat-Fahrten und Silent Disco zum kostenlosen Rahmenprogramm.",
+    "anfahrt": "Mit dem Auto über die A4, Ausfahrt Düren — kostenpflichtige Parkplätze sind in Geländenähe vorhanden. Mit der Bahn geht es bis Bahnhof Düren, von dort pendelt regelmäßig ein Shuttle-Bus zum Festivalgelände; zusätzlich bietet Nibirii eigene Festivalbusse aus vielen deutschen Städten an."
   },
   {
     "name": "EULENFLUG FESTIVAL 2026",
@@ -1567,7 +1602,8 @@ const festivals = [
     "description": "Wald, Kunst und Musik im romantischen Franken — selbstgebaute Bühnen zwischen Techno, House und Minimal.",
     "lat": 49.3667,
     "lng": 10.25,
-    "about": "2012 machten die Gründer ein Freiwilliges Soziales Jahr im Wildbad Rothenburg und veranstalteten dort mit Freunden zum ersten Mal den „Sundowner\" — daraus wuchs der Verein Grenzkunst und mit ihm das Eulenflug-Festival. Auf einem liebevoll dekorierten Waldgelände mit mehreren selbstgebauten Bühnen verschwimmen bewusst die Grenzen zwischen Musik, Theater und darstellender Kunst — seit Jahren arbeitet das Festival dafür mit Sprayern und Street-Art-Künstler:innen zusammen, die live vor Publikum arbeiten."
+    "about": "2012 machten die Gründer ein Freiwilliges Soziales Jahr im Wildbad Rothenburg und veranstalteten dort mit Freunden zum ersten Mal den „Sundowner\" — daraus wuchs der Verein Grenzkunst und mit ihm das Eulenflug-Festival. Auf einem liebevoll dekorierten Waldgelände mit mehreren selbstgebauten Bühnen verschwimmen bewusst die Grenzen zwischen Musik, Theater und darstellender Kunst — seit Jahren arbeitet das Festival dafür mit Sprayern und Street-Art-Künstler:innen zusammen, die live vor Publikum arbeiten.",
+    "anfahrt": "Fürs Navi einfach Linden, 91635 eingeben — ab dort weisen Eulen-Schilder am Straßenrand den Weg. Von Rothenburg kommend gibt es zusätzlich Beschilderung ab den Ausfahrten Schweinsdorfer Straße und Ansbacher Straße."
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -1599,7 +1635,8 @@ const festivals = [
     "description": "Techno Open Air auf dem Messegelände Balingen — Baden-Württembergs Sommerhighlight für Underground-Techno-Fans.",
     "lat": 48.2627004,
     "lng": 8.8455873,
-    "about": "Ende 2024 von Julius Vasiliadis und Robin Krützfeldt gegründet, feierte Bassaffekt eine erfolgreiche Premiere auf dem Balinger Messegelände. Das erklärte Ziel der Veranstalter: Festival-Atmosphäre bezahlbar machen und Menschen aus der Region zusammenbringen — bewusst moderate Preise statt Premium-Aufschlag, auf einem rund 24.000 Quadratmeter großen, eingezäunten Gelände."
+    "about": "Ende 2024 von Julius Vasiliadis und Robin Krützfeldt gegründet, feierte Bassaffekt eine erfolgreiche Premiere auf dem Balinger Messegelände. Das erklärte Ziel der Veranstalter: Festival-Atmosphäre bezahlbar machen und Menschen aus der Region zusammenbringen — bewusst moderate Preise statt Premium-Aufschlag, auf einem rund 24.000 Quadratmeter großen, eingezäunten Gelände.",
+    "anfahrt": "Adresse: Auf Stetten, 72336 Balingen (Messegelände). Aus Richtung Stuttgart/Tübingen über die B27, Ausfahrt Balingen-Süd/Gewerbegebiet Gehrn; aus Richtung Albstadt/Sigmaringen über die B463 bis zum Ortseingang Balingen, dann links Richtung Messegelände — vor Ort der Beschilderung „Messe\" folgen. Parkplätze erreicht ihr, indem ihr an der Südausfahrt weiter Richtung Rottweil fahrt und am Ende des vierspurigen B27-Abschnitts über die Wendespur zum Parkplatz abbiegt."
   },
   {
     "name": "FUTURE BEATZZ FESTIVAL 2026",
@@ -1631,7 +1668,8 @@ const festivals = [
     "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
     "lat": 51.5802996,
     "lng": 6.2456273,
-    "about": "Amphoria hat sein eigenes Erzähl-Konzept: Tief im Wald von Kevelaer liegt der Schwarze Bruch, ein mysteriöser Ort, der nur wenige Nächte im Jahr erwacht, wenn Amphoria seine Tore öffnet. Ähnlich wie Parookaville seine fiktive Stadt lebt, dreht sich Amphoria um die Waldgöttin, die für die richtige Feierstimmung sorgt — zwei Bühnen (Forest Stage und Local Hero Stage), eine kulinarische Food-Mile und ein Kreativbereich zum Mitmachen ergänzen das Programm."
+    "about": "Amphoria hat sein eigenes Erzähl-Konzept: Tief im Wald von Kevelaer liegt der Schwarze Bruch, ein mysteriöser Ort, der nur wenige Nächte im Jahr erwacht, wenn Amphoria seine Tore öffnet. Ähnlich wie Parookaville seine fiktive Stadt lebt, dreht sich Amphoria um die Waldgöttin, die für die richtige Feierstimmung sorgt — zwei Bühnen (Forest Stage und Local Hero Stage), eine kulinarische Food-Mile und ein Kreativbereich zum Mitmachen ergänzen das Programm.",
+    "anfahrt": "Adresse: Weller Landstraße, Schwarzer Bruch, 47623 Kevelaer. Am Veranstaltungstag der Beschilderung vor Ort folgen. Ein Festival-Shuttle verkehrt vom Bahnhof Kevelaer (Europaplatz) zum Gelände (Hinfahrt 13:30-16:30 Uhr, Rückfahrt 23:00-3:00 Uhr). Parkplätze kosten 5 Euro (nur Bar), Übernachten auf dem Parkplatz — auch im Auto — ist untersagt; Radfahrer nutzen den Heideweg."
   },
   {
     "name": "HARD.NOISE FESTIVAL 2026",
@@ -1646,7 +1684,8 @@ const festivals = [
     "description": "Hard Techno auf Burg Stickhausen — mit Kobosil, Negitiv, Neon Graveyard und weiteren.",
     "lat": 53.2176097,
     "lng": 7.643256,
-    "about": "Hard.Noise bringt etwas nach Ostfriesland, das es dort so noch nicht gab: einen Techno-Rave auf dem Gelände von Burg Stickhausen. Historische Architektur trifft auf moderne elektronische Musik — zwei Bühnen teilen sich das Areal, eine auf der großen Wiese am Eingang für klassische Festivalatmosphäre, eine zweite hinter dem markanten Burgturm für eine intensivere, mystischere Stimmung. Rund 3.500 Besucher werden erwartet."
+    "about": "Hard.Noise bringt etwas nach Ostfriesland, das es dort so noch nicht gab: einen Techno-Rave auf dem Gelände von Burg Stickhausen. Historische Architektur trifft auf moderne elektronische Musik — zwei Bühnen teilen sich das Areal, eine auf der großen Wiese am Eingang für klassische Festivalatmosphäre, eine zweite hinter dem markanten Burgturm für eine intensivere, mystischere Stimmung. Rund 3.500 Besucher werden erwartet.",
+    "anfahrt": "Adresse: Burgstraße 3, 26847 Detern (Burg Stickhausen). Parkplätze sind direkt am Gelände vorhanden, Parkgebühr 10 Euro pro Fahrzeug."
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2026",
@@ -1664,7 +1703,8 @@ const festivals = [
     "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
     "lat": 49.3297989,
     "lng": 8.5763,
-    "about": "Glücksgefühle wurde von Musikmanager Markus Krampe und Fußballer Lukas Podolski ins Leben gerufen und feierte seine erste Ausgabe 2023. Mit rund 250.000 Besuchern und einer Veranstaltungsfläche von einer Million Quadratmetern auf dem Hockenheimring ist es mittlerweile Deutschlands größtes Musikfestival — drei Mainstages mit einer breiten Mischung aus Pop, Electro, HipHop und Party-Acts."
+    "about": "Glücksgefühle wurde von Musikmanager Markus Krampe und Fußballer Lukas Podolski ins Leben gerufen und feierte seine erste Ausgabe 2023. Mit rund 250.000 Besuchern und einer Veranstaltungsfläche von einer Million Quadratmetern auf dem Hockenheimring ist es mittlerweile Deutschlands größtes Musikfestival — drei Mainstages mit einer breiten Mischung aus Pop, Electro, HipHop und Party-Acts.",
+    "anfahrt": "Der Hockenheimring liegt direkt an der A5/A6 und ist auch mit dem ÖPNV erreichbar: S9, RB67 und RE9 fahren aus den umliegenden Städten zum Bahnhof. Die offiziell ausgeschilderten Parkflächen sind kostenfrei — der Veranstalter empfiehlt, vorab die offizielle Festival-App zu installieren, die per Navigation zum passenden Camping- bzw. Parkplatz führt."
   },
   {
     "name": "THE BIG BLUE 2026",
@@ -1679,7 +1719,8 @@ const festivals = [
     "description": "Highlight-Festival von Outside World am Blauen See Garbsen — 38 DJs, u.a. Umek, Westbam und Kai Tracid, 30.000+ Besucher pro Jahr.",
     "lat": 52.4196779,
     "lng": 9.5503431,
-    "about": "Das Outside World Festival feiert mit „The Big Blue\" seine 5. Ausgabe am Blauen See in Garbsen bei Hannover — unter dem Jubiläumsmotto liegt der Fokus auf Techno-Classics aus den 1990ern, 2000ern und der Gegenwart. Drei Bühnen und 45 DJs, darunter Szene-Urgesteine wie Talla 2XLC, Umek und Westbam, sorgen für zwei Tage Nostalgie und Gegenwart nebeneinander."
+    "about": "Das Outside World Festival feiert mit „The Big Blue\" seine 5. Ausgabe am Blauen See in Garbsen bei Hannover — unter dem Jubiläumsmotto liegt der Fokus auf Techno-Classics aus den 1990ern, 2000ern und der Gegenwart. Drei Bühnen und 45 DJs, darunter Szene-Urgesteine wie Talla 2XLC, Umek und Westbam, sorgen für zwei Tage Nostalgie und Gegenwart nebeneinander.",
+    "anfahrt": "Der Blaue See liegt direkt an der A2 westlich von Garbsen und ist damit gut mit dem Auto erreichbar (Adresse: Am Blauen See, 30823 Garbsen). PKW-Parkplätze sind in ausreichender Zahl direkt am Strand vorhanden, kostenpflichtig tagsüber (kostenlos nur von Mitte Oktober bis Mitte Mai bzw. vor 9 und nach 19 Uhr)."
   },
   {
     "name": "WAVES OPEN AIR CLOSING 2026",
@@ -1695,7 +1736,8 @@ const festivals = [
     "description": "Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover. Die letzte Sommerparty bevor der Herbst kommt.",
     "lat": 52.5467847,
     "lng": 9.7482486,
-    "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad."
+    "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
+    "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
   },
   {
     "name": "POKKE HERRIE 2026",
@@ -1710,7 +1752,8 @@ const festivals = [
     "description": "Hardcore-Event in der Turbinenhalle Oberhausen — Pokke Herrie macht keinen Spaß, und das ist gut so.",
     "lat": 51.4835582,
     "lng": 6.8666494,
-    "about": "Pokke Herrie steht für niederländischen Hardcore in seiner lautesten, schnellsten Form. Die Reihe begann am 21. Oktober 2005 in Culemborg und feierte am 23. Oktober 2010 ihre erste deutsche Ausgabe — seitdem ist sie fester Bestandteil des Hardcore-Kalenders und zieht Fans aus ganz Europa in die Turbinenhalle Oberhausen, die seit ihrer Wiedereröffnung als Disco 1993 zu einer der größten Veranstaltungshallen der Region gewachsen ist."
+    "about": "Pokke Herrie steht für niederländischen Hardcore in seiner lautesten, schnellsten Form. Die Reihe begann am 21. Oktober 2005 in Culemborg und feierte am 23. Oktober 2010 ihre erste deutsche Ausgabe — seitdem ist sie fester Bestandteil des Hardcore-Kalenders und zieht Fans aus ganz Europa in die Turbinenhalle Oberhausen, die seit ihrer Wiedereröffnung als Disco 1993 zu einer der größten Veranstaltungshallen der Region gewachsen ist.",
+    "anfahrt": "Adresse: Im Lipperfeld 23, 46047 Oberhausen (Turbinenhalle). Ab Oberhausen Hauptbahnhof mit dem Bus ab Bussteig 1 bis „Im Lipperfeld\" oder „Feuerwache\" (ca. 5 Minuten Fußweg), alternativ hält auch die Straßenbahnlinie 112 an der Haltestelle „Lipperfeld\". Kostenpflichtige Parkplätze gibt es direkt vor der Halle, der Veranstalter empfiehlt aber ausdrücklich den ÖPNV."
   },
   {
     "name": "STRANDFIEBER FESTIVAL 2026",
@@ -1726,7 +1769,8 @@ const festivals = [
     "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
     "lat": 52.7916075,
     "lng": 8.4459285,
-    "about": "Strandfieber findet inzwischen zum zwölften Mal am Hartensbergsee in Goldenstedt statt — eine 13-stündige Electro-Party mit drei klar getrennten musikalischen Welten: die Waldbühne für Electro bis Hardstyle mitten im Grünen, die Strandbühne für Future House mit Seeblick, und das Amphitheater für Techno und Tech House."
+    "about": "Strandfieber findet inzwischen zum zwölften Mal am Hartensbergsee in Goldenstedt statt — eine 13-stündige Electro-Party mit drei klar getrennten musikalischen Welten: die Waldbühne für Electro bis Hardstyle mitten im Grünen, die Strandbühne für Future House mit Seeblick, und das Amphitheater für Techno und Tech House.",
+    "anfahrt": "Navi-Adresse: Fasanenkamp 2, 49424 Goldenstedt (Hartensbergsee). Die Anfahrt mit dem Auto oder Taxi ist ausschließlich über die Straße Tiefer Weg möglich — die Straße Fasanenkamp wird während der Veranstaltung zur Einbahnstraße, eine Anfahrt über die Dohlenstiege ist nicht möglich. Der Gästeparkplatz liegt in unmittelbarer Nähe zum Gelände (Barzahlung vor Ort). Shuttlebusse starten zwischen 13:15 und ca. 2:30 Uhr aus Damme, Holdorf, Wildeshausen, Diepholz, Vechta und innerhalb Goldenstedts; der Bahnhof Goldenstedt liegt rund 5 Autominuten entfernt."
   },
   {
     "name": "GEHT RAUS! OPEN AIR 2026",
@@ -1742,7 +1786,8 @@ const festivals = [
     "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
     "lat": 50.8803,
     "lng": 12.0796,
-    "about": "GEht RAus! wird von der Stadtverwaltung Gera selbst organisiert und findet traditionell am ersten Septembersamstag im Hofwiesenpark statt — 2026 bereits zum vierten Mal seit dem Start 2023. Auf der Sparkassenbühne treffen treibender Techno, melodische Sounds und energiegeladene Live-Acts auf hochwertige Sound- und Lichttechnik, mitten im Grünen der Stadt."
+    "about": "GEht RAus! wird von der Stadtverwaltung Gera selbst organisiert und findet traditionell am ersten Septembersamstag im Hofwiesenpark statt — 2026 bereits zum vierten Mal seit dem Start 2023. Auf der Sparkassenbühne treffen treibender Techno, melodische Sounds und energiegeladene Live-Acts auf hochwertige Sound- und Lichttechnik, mitten im Grünen der Stadt.",
+    "anfahrt": "Adresse: Hofwiesenpark, 07545 Gera. Der Veranstalter empfiehlt die klimafreundliche Anreise mit der Bahn bis Gera Hauptbahnhof — von dort ist es nicht weit zum Hofwiesenpark. Zur Parkplatzsituation lohnt sich vorab ein Blick auf die Website oder Social-Media-Kanäle des Festivals, da bei manchen Terminen ein separates Parkticket nötig ist."
   },
   {
     "name": "REBORN 2026",
@@ -1790,7 +1835,8 @@ const festivals = [
     "description": "Open Air Festival am Sorpesee im Sauerland — Techno mit Seeblick und entspanntem Vibe.",
     "lat": 51.3309061,
     "lng": 7.9420379,
-    "about": "Solem findet direkt am Ufer des Sorpesees im Sauerland statt — Open Air mit Wasser und Sonnenuntergang, wo die Location die halbe Arbeit übernimmt und der Sound den Rest erledigt. Musikalisch setzt das Festival auf eine kuratierte Mischung aus Deep House, Afro House und Melodic Techno, von warm und sanft bis tief und treibend."
+    "about": "Solem findet direkt am Ufer des Sorpesees im Sauerland statt — Open Air mit Wasser und Sonnenuntergang, wo die Location die halbe Arbeit übernimmt und der Sound den Rest erledigt. Musikalisch setzt das Festival auf eine kuratierte Mischung aus Deep House, Afro House und Melodic Techno, von warm und sanft bis tief und treibend.",
+    "anfahrt": "Adresse: Am Sorpesee 191, Sundern (Sauerland). Der Parkplatz wird gemeinsam mit dem Nordic-Familienpark Sorpesee und dem Restaurant Meilenweit genutzt, ein Parkticket ist erforderlich (alternativ 16 weitere kostenpflichtige Parkflächen rund um den See, täglich 8-20 Uhr). Aus Richtung Norden mit der Bahn bis Neheim-Hüsten, dann Buslinie R25 oder S20 Richtung Sundern; aus Richtung Süden bis Finnentrop, dann Buslinie 335 Richtung Sundern."
   },
   {
     "name": "RHEINGRÜN OPEN AIR 2026",
@@ -1807,7 +1853,8 @@ const festivals = [
     "description": "Rheinstrandbad Karlsruhe wird zur Bühne für Hard Techno, Industrial und Bouncy Grooves — zwei Tage direkt am Wasser.",
     "lat": 48.9995321,
     "lng": 8.2926327,
-    "about": "Rheingrün Open Air läuft seit 2013 im Rheinstrandbad Rappenwört, liebevoll „Rappele\" genannt — seit der Eröffnung 1929 einer der wichtigsten Freizeit- und Begegnungsorte am Karlsruher Rheinufer. Das Festival nutzt die idyllische Lage direkt am Fluss für ein Open Air rund um Electronic Music und Techno."
+    "about": "Rheingrün Open Air läuft seit 2013 im Rheinstrandbad Rappenwört, liebevoll „Rappele\" genannt — seit der Eröffnung 1929 einer der wichtigsten Freizeit- und Begegnungsorte am Karlsruher Rheinufer. Das Festival nutzt die idyllische Lage direkt am Fluss für ein Open Air rund um Electronic Music und Techno.",
+    "anfahrt": "Adresse: Hermann-Schneider-Allee 54, 76189 Karlsruhe (Rheinstrandbad Rappenwört). Mit der Straßenbahnlinie 6 geht es im 20-Minuten-Takt bis Daxlanden Rappenwört. Über 3.000 befestigte Parkplätze sowie Fahrradstellplätze sind direkt am Rheinstrandbad vorhanden — bei großem Andrang lohnt sich frühzeitige Anreise, da die Parkplätze schnell voll werden können."
   },
   {
     "name": "UNREAL XXL OPEN AIR 2026",
@@ -1823,7 +1870,8 @@ const festivals = [
     "description": "Industrieller Open-Air-Rave direkt an der Südbrücke in Köln — ein Tag und eine Nacht Hard Techno.",
     "lat": 50.9146,
     "lng": 6.9767,
-    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations. Die XXL Open Air Ausgabe an der Südbrücke Köln war Unreals erstes echtes Open Air in der Stadt — ein ganzer Tag und eine ganze Nacht Hard Techno in einzigartiger Industriekulisse direkt an der Brücke."
+    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations. Die XXL Open Air Ausgabe an der Südbrücke Köln war Unreals erstes echtes Open Air in der Stadt — ein ganzer Tag und eine ganze Nacht Hard Techno in einzigartiger Industriekulisse direkt an der Brücke.",
+    "anfahrt": "Erreichbar mit der Straßenbahnlinie 7 (Richtung Porz/Zündorf) bis Poller Kirchweg oder Raiffeisenstraße (je ca. 900-1000 Meter Fußweg), mit den Linien 16/17 bis Schönhauser Straße auf der linken Rheinseite (ca. 1000 Meter über die Südbrücke), oder mit Buslinie 159 bis Schüttewerk (450 Meter). Der Veranstalter empfiehlt ausdrücklich Bahn oder Fahrgemeinschaften."
   },
   {
     "name": "SYNDICATE 2026",
@@ -1841,7 +1889,8 @@ const festivals = [
     "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE in den Westfalenhallen. Harder als alles andere.",
     "lat": 51.4966917,
     "lng": 7.4602637,
-    "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. Die Halle wird für eine Nacht zur „WestfalenHELL\": 2026 gibt’s erstmals vier Floors gleichzeitig — Mainstage, Uptempo, Hardstyle und Early Hardcore — für ein Line-up, das von treibendem Hardstyle bis zu kompromisslosem Hardcore reicht."
+    "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. Die Halle wird für eine Nacht zur „WestfalenHELL\": 2026 gibt’s erstmals vier Floors gleichzeitig — Mainstage, Uptempo, Hardstyle und Early Hardcore — für ein Line-up, das von treibendem Hardstyle bis zu kompromisslosem Hardcore reicht.",
+    "anfahrt": "Adresse: Rheinlanddamm 200, 44139 Dortmund. Der Dortmunder Hauptbahnhof liegt nur wenige Gehminuten entfernt — nach Mitternacht fahren zusätzliche Verstärker-Bahnen der U45 im 30-Minuten-Takt zwischen Westfalenhallen und Hauptbahnhof. Parkplätze (A1-A8) direkt am Gelände kosten 11 Euro an der Kasse bzw. 15,50 Euro online im Voraus; weitere Parkflächen (C-F) in der Umgebung werden von DOPARK betrieben."
   },
   {
     "name": "AMAYA FESTIVAL 2026",
@@ -1873,7 +1922,8 @@ const festivals = [
     "description": "Ein Fest der Bassmusik in Oberhausen — Techno, Dubstep, Drum'n'Bass und Hardcore unter einem Dach.",
     "lat": 51.4696137,
     "lng": 6.8514435,
-    "about": "Blacklist wurde im legendären Kölner Bootshaus-Club gegründet und bespielt seit 2017 Bühnen bei Parookaville, New Horizons und SonneMondSterne. Seit der Rückkehr in die Turbinenhalle Oberhausen 2023 und dem zehnjährigen Jubiläum 2025 gilt Blacklist als eine der größten Bass-Partys Deutschlands — vier Bühnen für Dubstep, Drum & Bass, Tearout und Hybrid-Metal, wo elektronische Musik und Metalcore aufeinandertreffen."
+    "about": "Blacklist wurde im legendären Kölner Bootshaus-Club gegründet und bespielt seit 2017 Bühnen bei Parookaville, New Horizons und SonneMondSterne. Seit der Rückkehr in die Turbinenhalle Oberhausen 2023 und dem zehnjährigen Jubiläum 2025 gilt Blacklist als eine der größten Bass-Partys Deutschlands — vier Bühnen für Dubstep, Drum & Bass, Tearout und Hybrid-Metal, wo elektronische Musik und Metalcore aufeinandertreffen.",
+    "anfahrt": "Adresse: Im Lipperfeld 23, 46047 Oberhausen (Turbinenhalle). Mit dem Bus bis zur Haltestelle „Im Lipperfeld\". Parkplätze sind an der Turbinenhalle kostenpflichtig vorhanden (je nach Verfügbarkeit, Zahlung vor Ort)."
   },
   {
     "name": "REACTŌR AFTERMATH 2026",
@@ -1889,7 +1939,8 @@ const festivals = [
     "description": "Raw. Rebellious. Relentless. — Underground-Techno im stillgelegten Kernkraftwerk Kalkar. Industrielle Ästhetik, brutalist sound, non-stop energy.",
     "lat": 51.7388793,
     "lng": 6.2927546,
-    "about": "Das stillgelegte Kernkraftwerk Kalkar — der „Schnelle Brüter\", ein deutsch-belgisch-niederländisches Gemeinschaftsprojekt — wurde 1985 fertiggestellt, ging aber nach der Reaktorkatastrophe von Tschernobyl 1986 nie in Betrieb und wurde 1991 endgültig stillgelegt. Aus der Investitionsruine wurde später der Freizeitpark „Wunderland Kalkar\". REACTŌR verbindet diese Industriegeschichte mit zeitgemäßem Sound: 48 Stunden Musik non-stop auf Indoor- und Outdoor-Bühnen über den gesamten brutalistischen Gebäudekomplex verteilt."
+    "about": "Das stillgelegte Kernkraftwerk Kalkar — der „Schnelle Brüter\", ein deutsch-belgisch-niederländisches Gemeinschaftsprojekt — wurde 1985 fertiggestellt, ging aber nach der Reaktorkatastrophe von Tschernobyl 1986 nie in Betrieb und wurde 1991 endgültig stillgelegt. Aus der Investitionsruine wurde später der Freizeitpark „Wunderland Kalkar\". REACTŌR verbindet diese Industriegeschichte mit zeitgemäßem Sound: 48 Stunden Musik non-stop auf Indoor- und Outdoor-Bühnen über den gesamten brutalistischen Gebäudekomplex verteilt.",
+    "anfahrt": "Adresse fürs Navi: Griether Str. 138, 47546 Kalkar-Hönnepel — ab dort der Beschilderung folgen. Parkplätze sind direkt am Gelände vorhanden, benötigen aber ein separates REACTOR-Parkticket aus dem offiziellen Ticketshop (im Vorverkauf günstiger als vor Ort). Mit der Bahn sind die Bahnhöfe Kleve und Xanten gut angebunden, von dort bringen Shuttle-Busse euch mit gültigem Shuttle-Ticket direkt zum Festival."
   },
   {
     "name": "HIVE INDOOR 2026",
@@ -1906,7 +1957,8 @@ const festivals = [
     "description": "HIVE geht indoor — die Crew aus Ferropolis bringt Hard Techno und Schranz in die Messe Leipzig. Ab 15:00 Uhr.",
     "lat": 51.3963707,
     "lng": 12.4035524,
-    "about": "Hive Indoor ist der winterliche Ableger des Hive Festivals von Ferropolis — die gleiche Crew, die sonst zwischen den Tagebaubaggern der „Stadt aus Eisen\" auflegt, bringt Hard Techno und Schranz in die Messehallen Leipzig. Statt Open-Air-Weite gibt’s kompromisslosen Indoor-Sound unter einem Dach — ein bewusster Kontrast zum Sommer-Original, aber mit dem gleichen musikalischen Anspruch."
+    "about": "Hive Indoor ist der winterliche Ableger des Hive Festivals von Ferropolis — die gleiche Crew, die sonst zwischen den Tagebaubaggern der „Stadt aus Eisen\" auflegt, bringt Hard Techno und Schranz in die Messehallen Leipzig. Statt Open-Air-Weite gibt’s kompromisslosen Indoor-Sound unter einem Dach — ein bewusster Kontrast zum Sommer-Original, aber mit dem gleichen musikalischen Anspruch.",
+    "anfahrt": "Mit dem Auto ist die Messe Leipzig direkt über die A14 erreichbar, entsprechende Ausfahrten sind auf der Autobahn ausgeschildert. Mit Bahn oder S-Bahn orientiert ihr euch am Haltepunkt „Leipzig Messe\", auch die Straßenbahn fährt bis zur Endhaltestelle „Messegelände\". Parkplätze gibt es auf P1 für 6 Euro pro Tag, ein dynamisches Leitsystem führt euch zu freien Plätzen — je nach Ticket ist die Hin- und Rückfahrt mit dem MDV-Nahverkehr (Tarifzone 110) am Veranstaltungstag sogar inklusive."
   },
   {
     "name": "ACE OF RAVE 2026",
@@ -1921,7 +1973,8 @@ const festivals = [
     "description": "Techno-Ausgabe von Ace of Rave in der Aladin Music Hall & Tivoli Bremen, präsentiert von Klangwelten Bremen.",
     "lat": 53.0758196,
     "lng": 8.8071646,
-    "about": "Ace of Rave gilt als die populärste Hardtechno-Indoor-Night im Norden — drei Floors, 16 Artists und fünf Headliner auf einer Bühne für Hardtechno, Trance, Schranz, Bounce und Psytrance. Austragungsort ist der Twister-Dance-Club in Sande, der nach einem Großbrand im November 2023 wiedereröffnet wurde."
+    "about": "Ace of Rave gilt als die populärste Hardtechno-Indoor-Night im Norden — drei Floors, 16 Artists und fünf Headliner auf einer Bühne für Hardtechno, Trance, Schranz, Bounce und Psytrance. Austragungsort ist der Twister-Dance-Club in Sande, der nach einem Großbrand im November 2023 wiedereröffnet wurde.",
+    "anfahrt": "Adresse: Hannoversche Straße 11, 28309 Bremen. Aus Richtung Osnabrück Ausfahrt Bremen-Hemelingen-Centrum nehmen, aus Richtung Hamburg/Bremer Kreuz ebenfalls Ausfahrt Bremen-Hemelingen-Centrum und dann die zweite Ausfahrt „Hemelingen\" von der Schnellstraße. Mit der Bahn ab Hauptbahnhof mit der Straßenbahnlinie 10 Richtung Sebaldsbrück, Ausstieg Föhrenstraße plus Umstieg auf Bus 40/41 bis „Glockenstraße/Bahnhof Hemelingen\" (ca. 5 Minuten Fußweg), oder bis Sebaldsbrück und rund 10 Minuten zu Fuß durch den Bahntunnel. Ausreichend Parkplätze sind direkt rund um das Gebäude vorhanden."
   },
   {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
@@ -1952,7 +2005,8 @@ const festivals = [
     "description": "Verknipt zu Gast in Amsterdam — zwei Tage Hard Techno im AFAS Live. Tag 1: 13:00–22:00 Uhr, Tag 2: 14:00–00:00 Uhr.",
     "lat": 52.3122606,
     "lng": 4.9442166,
-    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil."
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil.",
+    "anfahrt": "Adresse: ArenA Boulevard 590, 1101 DR Amsterdam. Mit dem Auto über die A2 Richtung Amsterdam Zuidoost bis zum P1-ArenA-Parkplatz direkt gegenüber der Halle (Navi-Adresse: Burgemeester Stramanweg 130). Mit der Bahn/Metro bis Amsterdam Bijlmer ArenA — von dort sind es nur rund 5 Minuten zu Fuß bis AFAS Live."
   },
   {
     "name": "FACELESS PSYCHO CITY 2026",
@@ -1968,7 +2022,8 @@ const festivals = [
     "description": "Halloween-Hardcore in der Turbinenhalle — Faceless Psycho City macht die Nacht zum Tag der Toten.",
     "lat": 51.4835582,
     "lng": 6.8666494,
-    "about": "Faceless verwandelt die Turbinenhalle Oberhausen zu Halloween in eine düstere Stadt in vier Vierteln — „The Capital\", „The Slums\", „The Undergrid\" und „The Deadzone\" — mit Platz für bis zu 3.000 Besucher auf den verschiedenen Arealen. Harder Styles stehen im Zentrum des Line-ups, verpackt in ein aufwendiges, thematisch durchdachtes Bühnenkonzept statt klassischer Festivalhallen-Optik."
+    "about": "Faceless verwandelt die Turbinenhalle Oberhausen zu Halloween in eine düstere Stadt in vier Vierteln — „The Capital\", „The Slums\", „The Undergrid\" und „The Deadzone\" — mit Platz für bis zu 3.000 Besucher auf den verschiedenen Arealen. Harder Styles stehen im Zentrum des Line-ups, verpackt in ein aufwendiges, thematisch durchdachtes Bühnenkonzept statt klassischer Festivalhallen-Optik.",
+    "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
     "name": "THE HOLY SHIT SHOW 2026",
@@ -1983,7 +2038,8 @@ const festivals = [
     "description": "Hardcore in der Maimarkthalle Mannheim — The Holy Shit Show braucht keine weitere Erklärung.",
     "lat": 49.4683637,
     "lng": 8.5239462,
-    "about": "Nach zahlreichen ausverkauften Shows in Hamburg, Berlin und Dortmund sowie europäischen Tourstationen hat sich die Holy Shit Show von DJ Holy Priest als feste Größe in der Hard-Techno-Szene etabliert. Die Mannheim-Ausgabe wird als größte Show der Reihe angekündigt — energiegeladene Sets, aufwendige Visuals und markantes Bühnendesign in der bis zu 12.500 Menschen fassenden Maimarkthalle, als einmalige Veranstaltung mit strikt limitierten Tickets."
+    "about": "Nach zahlreichen ausverkauften Shows in Hamburg, Berlin und Dortmund sowie europäischen Tourstationen hat sich die Holy Shit Show von DJ Holy Priest als feste Größe in der Hard-Techno-Szene etabliert. Die Mannheim-Ausgabe wird als größte Show der Reihe angekündigt — energiegeladene Sets, aufwendige Visuals und markantes Bühnendesign in der bis zu 12.500 Menschen fassenden Maimarkthalle, als einmalige Veranstaltung mit strikt limitierten Tickets.",
+    "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
   },
   {
     "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",
@@ -2000,7 +2056,8 @@ const festivals = [
     "description": "Norddeutschlands größte Goa- & Psytrance-Indoor-Experience auf mehreren Floors im Aladin Music Hall Bremen, u.a. mit Hard Techno und Techno.",
     "lat": 53.0557345,
     "lng": 8.8850217,
-    "about": "Klangwelten gilt als Norddeutschlands größtes Indoor-Festival für Goa und Psy — sechs Floors in der Bremer Aladin Music Hall, die seit ihrer Eröffnung 1977 zu den festen Größen der Bremer Clubszene zählt. Neben zwei Hauptbühnen sorgen vier kleinere Floors für Progressive, Psytrance, Forest, Hitech, Hardtechno und Techno, jeweils mit eigenem Deko- und Lichtkonzept, das jeden Floor zu einem eigenen Kosmos macht."
+    "about": "Klangwelten gilt als Norddeutschlands größtes Indoor-Festival für Goa und Psy — sechs Floors in der Bremer Aladin Music Hall, die seit ihrer Eröffnung 1977 zu den festen Größen der Bremer Clubszene zählt. Neben zwei Hauptbühnen sorgen vier kleinere Floors für Progressive, Psytrance, Forest, Hitech, Hardtechno und Techno, jeweils mit eigenem Deko- und Lichtkonzept, das jeden Floor zu einem eigenen Kosmos macht.",
+    "anfahrt": "Adresse: Hannoversche Straße 11, 28309 Bremen. Aus Richtung Osnabrück Ausfahrt Bremen-Hemelingen-Centrum nehmen, aus Richtung Hamburg/Bremer Kreuz ebenfalls Ausfahrt Bremen-Hemelingen-Centrum und dann die zweite Ausfahrt „Hemelingen\" von der Schnellstraße. Mit der Bahn ab Hauptbahnhof mit der Straßenbahnlinie 10 Richtung Sebaldsbrück, Ausstieg Föhrenstraße plus Umstieg auf Bus 40/41 bis „Glockenstraße/Bahnhof Hemelingen\" (ca. 5 Minuten Fußweg), oder bis Sebaldsbrück und rund 10 Minuten zu Fuß durch den Bahntunnel. Ausreichend Parkplätze sind direkt rund um das Gebäude vorhanden."
   },
   {
     "name": "VERKNIPT OBERHAUSEN 2026 (NOVEMBER)",
@@ -2015,7 +2072,8 @@ const festivals = [
     "description": "Verknipt macht erneut Station in der Turbinenhalle Oberhausen — hartes Hard-Techno-Line-up, 22:00 bis 07:00 Uhr.",
     "lat": 51.4835582,
     "lng": 6.8666494,
-    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil."
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil.",
+    "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
@@ -2033,7 +2091,8 @@ const festivals = [
     "description": "Norddeutschlands größtes Indoor-Festival — 20.000 Besucher, 50+ Acts auf 5 Stages, 12 Stunden non-stop von 18:00 bis 06:00 Uhr.",
     "lat": 52.3173696,
     "lng": 9.7924818,
-    "about": "Fairground fand 2022 erstmals auf dem Hannoveraner Messegelände statt und war das erste Festival mit reinem „Live Acts Only\"-Konzept in Deutschland. Aus einer Veranstaltung von Hannover für Hannover ist innerhalb weniger Jahre Deutschlands größtes Indoor-Festival mit internationaler Strahlkraft geworden, mit rund 20.000 Besuchern — die Größe des Messegeländes gibt Raum für weiteres Wachstum."
+    "about": "Fairground fand 2022 erstmals auf dem Hannoveraner Messegelände statt und war das erste Festival mit reinem „Live Acts Only\"-Konzept in Deutschland. Aus einer Veranstaltung von Hannover für Hannover ist innerhalb weniger Jahre Deutschlands größtes Indoor-Festival mit internationaler Strahlkraft geworden, mit rund 20.000 Besuchern — die Größe des Messegeländes gibt Raum für weiteres Wachstum.",
+    "anfahrt": "Adresse: Messegelände, 30521 Hannover, direkt an den Autobahnen A2 und A7 gelegen. Rund 39.000 Parkplätze stehen auf dem Messegelände zur Verfügung (Parkflächen P1-P10 am Nordeingang, weitere auf P11-P19 und P26-P33), zusätzlich der Waldparkplatz mit über 1.000 Plätzen nahe dem Südeingang. Zur genauen Parkplatzsituation am Festivaltag lohnt sich vorab ein Blick auf die Website oder Social-Media-Kanäle des Veranstalters."
   },
   {
     "name": "HARDSHIFT FESTIVAL 2026",
@@ -2049,7 +2108,8 @@ const festivals = [
     "description": "Hardcore und Hard Techno in der Zenith Halle München — Bayerns härteste Nacht des Jahres.",
     "lat": 48.1946864,
     "lng": 11.6078535,
-    "about": "Hardshift gilt als Münchens härtestes Festival — rund 15.000 Besucher feiern jährlich im Zenith die besten Hardcore-, Hardstyle- und Raw-Acts. Das 1918 als Teil einer Bahnreparaturwerkstatt eröffnete und 1994 zur Veranstaltungshalle umgebaute Zenith bildet zusammen mit dem Kesselhaus die Kulisse für das Konzept „The 4 Realms\" — mehrere Areale, jede mit eigenen Regeln und eigener Energie."
+    "about": "Hardshift gilt als Münchens härtestes Festival — rund 15.000 Besucher feiern jährlich im Zenith die besten Hardcore-, Hardstyle- und Raw-Acts. Das 1918 als Teil einer Bahnreparaturwerkstatt eröffnete und 1994 zur Veranstaltungshalle umgebaute Zenith bildet zusammen mit dem Kesselhaus die Kulisse für das Konzept „The 4 Realms\" — mehrere Areale, jede mit eigenen Regeln und eigener Energie.",
+    "anfahrt": "Adresse: Lilienthalallee 29, 80939 München (Zenith). Der Veranstalter empfiehlt ausdrücklich die Anreise mit öffentlichen Verkehrsmitteln, da direkt vor Ort nur wenige, kostenpflichtige Parkplätze im Parkhaus der Motorworld zur Verfügung stehen."
   },
   {
     "name": "ARENA RAVE ROSTOCK 2026",
@@ -2064,7 +2124,8 @@ const festivals = [
     "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Rostock.",
     "lat": 54.1393903,
     "lng": 12.0779788,
-    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow, die neue Maßstäbe für die akustische und visuelle Bespielung solcher Hallen setzen soll."
+    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow, die neue Maßstäbe für die akustische und visuelle Bespielung solcher Hallen setzen soll.",
+    "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
   },
   {
     "name": "TOXICATOR 2026",
@@ -2081,7 +2142,8 @@ const festivals = [
     "description": "Hardcore, Hardstyle und Hard Techno auf drei Floors in der Maimarkthalle — das härteste Ende des Jahres 2026.",
     "lat": 49.4683637,
     "lng": 8.5239462,
-    "about": "Toxicator ist seit 2009 fester Termin am ersten Dezember-Samstag in der Mannheimer Maimarkthalle. Aus bescheidenen 3.600 Besuchern bei der ersten Ausgabe ist längst das größte Harder-Styles-Festival Süddeutschlands geworden — 2025 feierte man mit 14.000 Besuchern „15 Jahre Strictly Hard\". Auf drei Floors laufen Hardcore, Hardstyle und Hardtechno — kompromisslos, wie der Name verspricht."
+    "about": "Toxicator ist seit 2009 fester Termin am ersten Dezember-Samstag in der Mannheimer Maimarkthalle. Aus bescheidenen 3.600 Besuchern bei der ersten Ausgabe ist längst das größte Harder-Styles-Festival Süddeutschlands geworden — 2025 feierte man mit 14.000 Besuchern „15 Jahre Strictly Hard\". Auf drei Floors laufen Hardcore, Hardstyle und Hardtechno — kompromisslos, wie der Name verspricht.",
+    "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
   },
   {
     "name": "CONTACT FESTIVAL 2026",
@@ -2097,7 +2159,8 @@ const festivals = [
     "description": "Indoor-Festival im Zenith München — die Kohlebunker-Stage steht für brachialen Hard Techno, 5.500 Gäste.",
     "lat": 48.1969,
     "lng": 11.5836,
-    "about": "Contact zählt zu Deutschlands größten Indoor-Festivals für House und Techno und ist regelmäßig komplett ausverkauft. Auf drei benachbarten Industriearealen im Münchner Norden — Zenith, Kesselhaus und Kohlebunker — verteilen sich vier Bühnen für bis zu 17 Stunden internationale und nationale Electronic-Acts, von Electro und Acid House bis zu kompromisslosem Club-Sound."
+    "about": "Contact zählt zu Deutschlands größten Indoor-Festivals für House und Techno und ist regelmäßig komplett ausverkauft. Auf drei benachbarten Industriearealen im Münchner Norden — Zenith, Kesselhaus und Kohlebunker — verteilen sich vier Bühnen für bis zu 17 Stunden internationale und nationale Electronic-Acts, von Electro und Acid House bis zu kompromisslosem Club-Sound.",
+    "anfahrt": "Adresse: Lilienthalallee 29, 80939 München. Die U-Bahn-Linie U6 Richtung Garching-Forschungszentrum bis Haltestelle Freimann bringt euch in rund 10 Minuten Fußweg zum Zenith. Parken könnt ihr im Motorworld-Parkhaus direkt am Gelände (kostenpflichtig) oder mit etwas Glück kostenlos am Frankplatz, von dort sind es 350-500 Meter zu Fuß."
   },
   {
     "name": "44 LABEL X STUTYARD 2026",
@@ -2145,7 +2208,8 @@ const festivals = [
     "description": "Weihnachten hardcore-style — Army of Hardcore macht Bescherung auf die härteste Art möglich.",
     "lat": 51.4835582,
     "lng": 6.8666494,
-    "about": "Rund 5.000 Besucher feiern jedes Jahr am 1. Weihnachtstag bei Army of Hardcore in der Turbinenhalle Oberhausen — Hardcore, Gabber und maximale Feierlaune statt Bescherung. Die Turbinenhalle selbst hat eine lange Geschichte: 1909 zur Stromerzeugung für die Gutehoffnungshütte errichtet, stand sie jahrelang leer, bevor sie 1993 als Disco wiedereröffnet wurde und sich seither zu einer der größten Veranstaltungshallen der Region entwickelt hat."
+    "about": "Rund 5.000 Besucher feiern jedes Jahr am 1. Weihnachtstag bei Army of Hardcore in der Turbinenhalle Oberhausen — Hardcore, Gabber und maximale Feierlaune statt Bescherung. Die Turbinenhalle selbst hat eine lange Geschichte: 1909 zur Stromerzeugung für die Gutehoffnungshütte errichtet, stand sie jahrelang leer, bevor sie 1993 als Disco wiedereröffnet wurde und sich seither zu einer der größten Veranstaltungshallen der Region entwickelt hat.",
+    "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
   },
   {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
@@ -2177,7 +2241,8 @@ const festivals = [
     "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
     "lat": 49.4683637,
     "lng": 8.5239462,
-    "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub."
+    "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub.",
+    "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
   },
   {
     "name": "ARENA RAVE LEIPZIG 2027",
@@ -2192,7 +2257,8 @@ const festivals = [
     "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
     "lat": 51.3945,
     "lng": 12.4139,
-    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück, 2027 erstmals nach Leipzig. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow."
+    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück, 2027 erstmals nach Leipzig. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow.",
+    "anfahrt": "Adresse: Halle 1, Messe-Allee 1, 04356 Leipzig. Mit dem Auto über die A14, Ausfahrt Leipzig Messegelände. Der Park-and-Ride-Parkplatz „Leipziger Messe\" bietet 1.200 kostenlose Stellplätze rund um die Uhr; direkt am Gelände liegen zusätzlich die kostenpflichtigen Parkplätze P1/P2 (6 Euro pro Tag). Zwischen dem S-Bahnhof Leipzig Messe und dem Haupteingang verkehrt ein Shuttlebus."
   },
   {
     "name": "INTACT EXPANDA 2027",
@@ -2209,7 +2275,8 @@ const festivals = [
     "description": "Seit über 20 Jahren fester Bestandteil der Hamburger Szene — Progressive Trance, Psytrance und Techno im Catonium.",
     "lat": 53.5881791,
     "lng": 9.9199831,
-    "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut."
+    "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut.",
+    "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2224,7 +2291,8 @@ const festivals = [
     "description": "Reines Techno-Line-up in der DM Arena bei Karlsruhe.",
     "lat": 48.9694,
     "lng": 8.3277,
-    "about": "Teletech kehrt für seine Ausgabe in die dm-arena in Rheinstetten zurück — eine der vier Messehallen der Messe Karlsruhe mit Platz für 14.000 Menschen. Über 9.000 Besucher feierten bei der letzten Ausgabe, begleitet von einer Food-Mile mit Foodtrucks und einem eigenen Awareness-Team für respektvollen Umgang miteinander."
+    "about": "Teletech kehrt für seine Ausgabe in die dm-arena in Rheinstetten zurück — eine der vier Messehallen der Messe Karlsruhe mit Platz für 14.000 Menschen. Über 9.000 Besucher feierten bei der letzten Ausgabe, begleitet von einer Food-Mile mit Foodtrucks und einem eigenen Awareness-Team für respektvollen Umgang miteinander.",
+    "anfahrt": "Adresse: Messeallee 1, 76287 Rheinstetten (DM Arena/Messe Karlsruhe). Mit der Stadtbahnlinie S2 ab Karlsruhe Innenstadt erreichbar (Spätverbindungen eingeschränkt); zusätzlich verkehrt ein Messe-Express-Shuttle ab Karlsruhe Hauptbahnhof (alle 30 Minuten, 20:30-1:00 Uhr) sowie ein Shuttle ab Karlsruhe Entenfang (alle 10 Minuten, 21:00-1:00 Uhr). Parkplätze sind direkt am Haupteingang der dm-arena sowie am S2-Bahnhof vorhanden (rund 7.000 Stellplätze auf dem Messegelände)."
   },
   {
     "name": "TIME WARP 2027",
@@ -2239,7 +2307,8 @@ const festivals = [
     "description": "19 Stunden, 5 Floors — das jährliche Techno-Pilgerfest kehrt 2027 nach Mannheim zurück.",
     "lat": 49.4683637,
     "lng": 8.5239462,
-    "about": "Time Warp ist keine gewöhnliche Techno-Party — es ist eine Institution. Gegründet 1994 von Steffen Charles, feierte das Festival seine Premiere im November desselben Jahres in der Nähe von Stuttgart, mit gerade einmal 2.000 Besuchern. Schon ein Jahr später zog es nach Mannheim um — und ist dort seitdem zu Hause. Die Maimarkthalle macht möglich, was in den meisten Locations unmöglich wäre: tonnenschwere LED-Wände, immersive Laser-Arrays, Soundsysteme in Industriegröße. Kein Zufall, dass Mannheim dank Time Warp den Titel „UNESCO City of Music\" trägt. Was in Deutschland begann, hat sich längst international ausgebreitet — mit Ablegern in São Paulo, New York, Madrid und Santiago de Chile."
+    "about": "Time Warp ist keine gewöhnliche Techno-Party — es ist eine Institution. Gegründet 1994 von Steffen Charles, feierte das Festival seine Premiere im November desselben Jahres in der Nähe von Stuttgart, mit gerade einmal 2.000 Besuchern. Schon ein Jahr später zog es nach Mannheim um — und ist dort seitdem zu Hause. Die Maimarkthalle macht möglich, was in den meisten Locations unmöglich wäre: tonnenschwere LED-Wände, immersive Laser-Arrays, Soundsysteme in Industriegröße. Kein Zufall, dass Mannheim dank Time Warp den Titel „UNESCO City of Music\" trägt. Was in Deutschland begann, hat sich längst international ausgebreitet — mit Ablegern in São Paulo, New York, Madrid und Santiago de Chile.",
+    "anfahrt": "ÖPNV wird ausdrücklich empfohlen — mit gültigem Time-Warp-Ticket ist die Fahrt im gesamten VRN-Gebiet kostenlos. Die Maimarkthalle erreicht ihr per Straßenbahn Linie 6/6A oder Buslinie 50 bis Haltestelle „Maimarkt\", per OEG-Bahn Linie 5 bis „MA-Neuostheim\", oder mit der S-Bahn (S2/S3/S6) bis „Mannheim Arena/Maimarkt\". Parkplätze gibt es direkt am Gelände für 6 Euro, außerdem einen Festival-Bus als Alternative."
   },
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
@@ -2255,7 +2324,8 @@ const festivals = [
     "description": "Erstmals in Schleswig-Holstein: Uplifting, Progressive und Hard Trance im Max Nachttheater Kiel.",
     "lat": 54.3324518,
     "lng": 10.1118095,
-    "about": "Erstmals bringt ein Festival dieser Größenordnung die internationale Trance-Szene nach Schleswig-Holstein. Trance World startet als Season Opening im Max Nachttheater Kiel und deckt die ganze Bandbreite der Stilrichtung ab — von Uplifting über Progressive bis Hard Trance. Ein bewusst indoor konzipiertes Format für ein Genre, das sonst meist unter freiem Himmel zuhause ist."
+    "about": "Erstmals bringt ein Festival dieser Größenordnung die internationale Trance-Szene nach Schleswig-Holstein. Trance World startet als Season Opening im Max Nachttheater Kiel und deckt die ganze Bandbreite der Stilrichtung ab — von Uplifting über Progressive bis Hard Trance. Ein bewusst indoor konzipiertes Format für ein Genre, das sonst meist unter freiem Himmel zuhause ist.",
+    "anfahrt": "Mit öffentlichen Verkehrsmitteln bringen euch die KVG-Linien 22, 71, 72, 81, 830 oder 4810 bis zur Haltestelle Eichhofstraße. Mit dem Auto über die BAB215, Ausfahrt B76 Richtung Eckernförde, dann Ausfahrt Kiel-Zentrum Richtung Kiel-Zentrum."
   },
   {
     "name": "MAYDAY 2027",
@@ -2273,7 +2343,8 @@ const festivals = [
     "description": "Seit 1991 Deutschlands Techno-Institution — die Walpurgisnacht in den Westfalenhallen Dortmund.",
     "lat": 51.4966917,
     "lng": 7.4602637,
-    "about": "MAYDAY ist die Mutter aller deutschen Techno-Festivals. Die Idee kam 1991 von Fabian Lenz alias DJ Dick, unterstützt von seinem Bruder Maximilian (WestBam) und dem Szene-Magazin Frontpage — ursprünglich als Benefizveranstaltung für den vom Ende bedrohten DDR-Sender DT64, einen der ersten Sender überhaupt, die Techno spielten. Am 14. Dezember 1991 feierten rund 5.000 Menschen in einer Berliner Halle die erste MAYDAY. Seit 1993 ist Dortmund die feste Heimat — der Name selbst ist eine Anspielung auf das internationale Notrufsignal und den traditionellen Termin am 1. Mai."
+    "about": "MAYDAY ist die Mutter aller deutschen Techno-Festivals. Die Idee kam 1991 von Fabian Lenz alias DJ Dick, unterstützt von seinem Bruder Maximilian (WestBam) und dem Szene-Magazin Frontpage — ursprünglich als Benefizveranstaltung für den vom Ende bedrohten DDR-Sender DT64, einen der ersten Sender überhaupt, die Techno spielten. Am 14. Dezember 1991 feierten rund 5.000 Menschen in einer Berliner Halle die erste MAYDAY. Seit 1993 ist Dortmund die feste Heimat — der Name selbst ist eine Anspielung auf das internationale Notrufsignal und den traditionellen Termin am 1. Mai.",
+    "anfahrt": "Adresse: Rheinlanddamm 202, 44139 Dortmund. Mit dem Eintrittsticket könnt ihr Busse, Bahnen und Straßenbahnen (RE, RB, S-Bahn 2. Klasse) im gesamten VRR-Gebiet kostenlos nutzen — ab Dortmund Hauptbahnhof geht es z. B. mit RB53/RB59/RB52 bis „Signal Iduna Park\" (U45) oder direkt bis „Westfalenhallen\". Parkplätze A3/A4 liegen direkt vor der Halle, Parktickets gibt es vorab im Online-Shop."
   },
   {
     "name": "RAVE AND SUN FESTIVAL 2027",
@@ -2289,7 +2360,8 @@ const festivals = [
     "description": "Open-Air-Techno-Festival in der WM Arena Gießen — rund 4.500 Gäste, reiner Techno-Fokus.",
     "lat": 50.586,
     "lng": 8.6797,
-    "about": "Rave and Sun ist ein junges Format — 2023 gegründet, findet es an einem Samstag in der WM Arena Gießen statt. Auf über 7.500 Quadratmetern teilen sich zwei Bühnen das Line-up: die Hauptbühne für rund 25 Acts „100% Rave-Musik\", und die minus:one Stage als eigene Container-Bühne für ausgewählte Underground-Acts und kompromisslosen Techno."
+    "about": "Rave and Sun ist ein junges Format — 2023 gegründet, findet es an einem Samstag in der WM Arena Gießen statt. Auf über 7.500 Quadratmetern teilen sich zwei Bühnen das Line-up: die Hauptbühne für rund 25 Acts „100% Rave-Musik\", und die minus:one Stage als eigene Container-Bühne für ausgewählte Underground-Acts und kompromisslosen Techno.",
+    "anfahrt": "Adresse: Schiffenberger Weg, 35394 Gießen, gut erreichbar über die A45/A485, rund 2 km vom Stadtzentrum entfernt. Bushaltestellen Sandkauter Weg, Siemensstraße und Philosophikum liegen nur wenige Gehminuten vom Gelände. Kostenlos parken könnt ihr am Philosophikum II (Phil 2) der Uni Gießen — bitte nicht auf den Parkplätzen von Fressnapf und Intersport parken."
   },
   {
     "name": "TECHNO FREITAG – ARENA EDITION 2027",
@@ -2304,7 +2376,8 @@ const festivals = [
     "description": "Aus dem Twitch-Rekord-Format wird Live-Erlebnis: Internet-Star \"Hänno\" bringt Techno Freitag erstmals vor 9.000 Menschen in die Arena Berlin.",
     "lat": 52.4967,
     "lng": 13.4478,
-    "about": "Techno Freitag entstand rund um den Streamer HandOfBlood (Maximilian Knabe) und seine Online-Community — der Sprung von Twitch und YouTube auf den Dancefloor. Das Format versteht sich bewusst als Gegenentwurf zu Geschmacks-Gatekeeping und abschreckender Türpolitik: Erfahrene Raver sind ebenso willkommen wie Menschen bei ihrem ersten großen Techno-Abend. Die Arena Berlin, 1927 als denkmalgeschütztes Omnibusdepot erbaut, bietet mit ihrer stützenarmen Fläche Platz für bis zu 9.000 Gäste."
+    "about": "Techno Freitag entstand rund um den Streamer HandOfBlood (Maximilian Knabe) und seine Online-Community — der Sprung von Twitch und YouTube auf den Dancefloor. Das Format versteht sich bewusst als Gegenentwurf zu Geschmacks-Gatekeeping und abschreckender Türpolitik: Erfahrene Raver sind ebenso willkommen wie Menschen bei ihrem ersten großen Techno-Abend. Die Arena Berlin, 1927 als denkmalgeschütztes Omnibusdepot erbaut, bietet mit ihrer stützenarmen Fläche Platz für bis zu 9.000 Gäste.",
+    "anfahrt": "Adresse: Eichenstraße 4, 12435 Berlin. Mit der U-Bahn U1 bis Schlesisches Tor (ca. 10 Minuten Fußweg), mit der S-Bahn S8/S85/S9/S42/S41 bis Treptower Park (ca. 5 Minuten Fußweg), oder mit den Buslinien 104, 194, 265 bzw. Nachtbus N65 bis Eichenstraße/Puschkinallee."
   },
   {
     "name": "HASARDEUR FESTIVAL 2027",
@@ -2320,7 +2393,8 @@ const festivals = [
     "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
     "lat": 49.0068705,
     "lng": 8.4034195,
-    "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen."
+    "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen.",
+    "anfahrt": "Adresse: Ottostraße 6, 76227 Karlsruhe (Auto-Böhler-Schrottplatz). Mit der Straßenbahnlinie 2 (Richtung Wolfartsweier) bis „Ostendstraße\" (ca. 10 Minuten Fußweg) oder mit Buslinie 42 (Richtung Hohenwettersbach) bis „Hauptfriedhof\" (ca. 15 Minuten Fußweg). Parkplätze in der Umgebung sind nur begrenzt vorhanden — der Veranstalter empfiehlt ausdrücklich den ÖPNV."
   },
   {
     "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
@@ -2338,7 +2412,8 @@ const festivals = [
     "description": "Zwölf Areas auf einem ehemaligen Flugplatz südlich von Berlin — von Techno und Dub-Techno bis Psytrance und Livebands.",
     "lat": 51.9958,
     "lng": 12.8898,
-    "about": "Aus kleinen, selbstorganisierten Free-Open-Airs in Berlin entstand 2011/2012 die Idee zu Zurück zu den Wurzeln — 2014 fand die erste Ausgabe statt. Auf 220.000 Quadratmetern größtenteils barrierefreiem Gelände am Flugplatz Altes Lager bei Jüterbog bringen zehn Bühnen, über 200 Acts und 80 Workshops Menschen aller Hautfarben, Weltanschauungen und Identitäten zusammen. 2019 gewann das Festival den Helga!-Award für beste Inklusion."
+    "about": "Aus kleinen, selbstorganisierten Free-Open-Airs in Berlin entstand 2011/2012 die Idee zu Zurück zu den Wurzeln — 2014 fand die erste Ausgabe statt. Auf 220.000 Quadratmetern größtenteils barrierefreiem Gelände am Flugplatz Altes Lager bei Jüterbog bringen zehn Bühnen, über 200 Acts und 80 Workshops Menschen aller Hautfarben, Weltanschauungen und Identitäten zusammen. 2019 gewann das Festival den Helga!-Award für beste Inklusion.",
+    "anfahrt": "Mit dem Auto über die A9/E51, Ausfahrt 4-Brück, Richtung Niedergörsdorf, dann dem Flugplatzweg folgen (ca. 45 Minuten ab Berlin-Süd). Mit der Bahn geht es ab Berlin Hauptbahnhof stündlich bis Jüterbog (ca. 45 Minuten), von dort bringen kostenlose Gästeshuttles euch im 30-Minuten-Takt zum Gelände. Ein separates Auto- oder Camperticket ist nicht nötig, da dies in der Zeltplatzgebühr (20 Euro) enthalten ist."
   },
   {
     "name": "WORLD CLUB DOME 2027",
@@ -2357,7 +2432,8 @@ const festivals = [
     "description": "Das größte Club-Festival der Welt — Early Bird Tickets bereits für €129 erhältlich.",
     "lat": 50.1115781,
     "lng": 8.6444501,
-    "about": "World Club Dome verwandelt den Deutsche Bank Park einmal im Jahr in den „größten Club der Welt\" — mit über 25 Bühnen auf 700.000 Quadratmetern. Seit der ersten Ausgabe 2013 mit 25.000 Besuchern ist das Festival rasant gewachsen. Veranstalter ist BigCityBeats, seit fast zwei Jahrzehnten eine der zentralen Institutionen der deutschen EDM-Szene. Das Konzept hat sich längst international ausgebreitet — mit einer eigenen Cruise-Edition, einer Winter Edition und 2017 sogar einem Ableger in Südkorea."
+    "about": "World Club Dome verwandelt den Deutsche Bank Park einmal im Jahr in den „größten Club der Welt\" — mit über 25 Bühnen auf 700.000 Quadratmetern. Seit der ersten Ausgabe 2013 mit 25.000 Besuchern ist das Festival rasant gewachsen. Veranstalter ist BigCityBeats, seit fast zwei Jahrzehnten eine der zentralen Institutionen der deutschen EDM-Szene. Das Konzept hat sich längst international ausgebreitet — mit einer eigenen Cruise-Edition, einer Winter Edition und 2017 sogar einem Ableger in Südkorea.",
+    "anfahrt": "Das Festivalticket gilt gleichzeitig als kostenloses ÖPNV-Ticket im gesamten RMV-Gebiet, für Hin- und Rückfahrt. Erreichbar ist das Gelände am Deutsche Bank Park über den Bahnhof Frankfurt Stadion (S-Bahn S7/S8/S9 sowie diverse Regionalzüge), die Straßenbahnlinien 20/21 ab Hauptbahnhof, oder verstärkte Buslinien 61/80. Für die Anreise mit dem Auto steht der Waldparkplatz zur Verfügung — ein Parkticket muss vorab im offiziellen Ticketshop gebucht werden."
   },
   {
     "name": "DOCKLANDS FESTIVAL 2027",
@@ -2375,7 +2451,8 @@ const festivals = [
     "description": "Industrieflair im Hawerkamp Münster — rund 100 Acts zwischen House, Techno, Trance und Hard Techno für 15.000 Gäste.",
     "lat": 51.9467971,
     "lng": 7.6387486,
-    "about": "Seit 2010 steht Docklands für sorgfältig kuratierte elektronische Musik zwischen Underground und Szenegrößen im Münsteraner Hawerkamp-Viertel. Das Besondere ist das Day-&-Night-Konzept: Tagsüber läuft das Programm open air rund um Hawerkamp und Kanal, ab 22 Uhr verlagert es sich nahtlos in die Clubs am Hawerkamp und Stadthafen — Festival und Clubkultur verschmelzen, statt getrennt nebeneinander zu existieren."
+    "about": "Seit 2010 steht Docklands für sorgfältig kuratierte elektronische Musik zwischen Underground und Szenegrößen im Münsteraner Hawerkamp-Viertel. Das Besondere ist das Day-&-Night-Konzept: Tagsüber läuft das Programm open air rund um Hawerkamp und Kanal, ab 22 Uhr verlagert es sich nahtlos in die Clubs am Hawerkamp und Stadthafen — Festival und Clubkultur verschmelzen, statt getrennt nebeneinander zu existieren.",
+    "anfahrt": "Adresse fürs Navi: Am Hawerkamp 29, 48155 Münster. Ab Münster Hauptbahnhof bringen euch die Stadtbuslinien 6 (Richtung Hiltrup Franz-Marc-Weg) oder 8 (Richtung Wolbeck Nogatstr.) bis zur Haltestelle Stadtwerke/Hafen, von dort ist es ein kurzer Fußweg zum Eingang. Parkplätze („Süd-Süd\" und „Caspar Hessel\" der Halle Münsterland) liegen 2-3 Gehminuten vom Gelände entfernt, Kosten: 5 Euro pro Parkticket."
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
@@ -2392,7 +2469,8 @@ const festivals = [
     "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
     "lat": 50.3720933,
     "lng": 7.2812427,
-    "about": "Affenkäfig wurde 2023 auf dem Flugplatz Mendig in Rheinland-Pfalz gegründet und zieht mittlerweile rund 30.000 Besucher an. Auf 25.000 Quadratmetern verteilen sich sechs benannte Areale — darunter Black Leaf Terminal, Old London Terminal, Hangar 7 und Hardcore Hangar — mit Indoor- und Outdoor-Programm, XXL-Lightshows, Feuerwerk, Riesenrad und Kartbahn."
+    "about": "Affenkäfig wurde 2023 auf dem Flugplatz Mendig in Rheinland-Pfalz gegründet und zieht mittlerweile rund 30.000 Besucher an. Auf 25.000 Quadratmetern verteilen sich sechs benannte Areale — darunter Black Leaf Terminal, Old London Terminal, Hangar 7 und Hardcore Hangar — mit Indoor- und Outdoor-Programm, XXL-Lightshows, Feuerwerk, Riesenrad und Kartbahn.",
+    "anfahrt": "Adresse: Am Alten Fort 112, 56743 Mendig (Flughafen Mendig). Mit dem Auto am besten über die A61 (Ausfahrt Kruft) oder die A48 (Ausfahrt Mayen), dann der B262/B256 folgen. Auf dem Gelände stehen Parkplätze für über 5.000 Autos zur Verfügung, nutzbar bis 15 Uhr am Tag nach dem Festival — Zelten auf dem Parkplatz ist nicht erlaubt."
   },
   {
     "name": "VOLUME X KRAGELUND FESTIVAL 2027",
@@ -2410,7 +2488,8 @@ const festivals = [
     "description": "Über 6.000 Besucher, drei Stages zwischen Husum und Flensburg — die XCircus-Bühne im Zirkuszelt bringt Techno und Hard Techno.",
     "lat": 54.6167,
     "lng": 9.2,
-    "about": "Volume X bringt seit Jahren über 6.000 Besucher nach Kragelund bei Viöl in Schleswig-Holstein — ein mehrtägiges Festival für die härteren Spielarten elektronischer Musik. Drei Bühnen mit eigenem Charakter teilen sich das Gelände: XVILLE als Hauptbühne für Hardstyle, Rawstyle und Uptempo, XCIRCUS als Zelt für tiefe Techno-Energie, und XPEDITION als Rückzugsort für Goa und Psytrance mit eigener, magischer Dekoration."
+    "about": "Volume X bringt seit Jahren über 6.000 Besucher nach Kragelund bei Viöl in Schleswig-Holstein — ein mehrtägiges Festival für die härteren Spielarten elektronischer Musik. Drei Bühnen mit eigenem Charakter teilen sich das Gelände: XVILLE als Hauptbühne für Hardstyle, Rawstyle und Uptempo, XCIRCUS als Zelt für tiefe Techno-Energie, und XPEDITION als Rückzugsort für Goa und Psytrance mit eigener, magischer Dekoration.",
+    "anfahrt": "Navi-Adresse: Kragelund, 25884 Viöl. Von Hamburg aus entweder über die A23 bis Heide, dann B5 Richtung Husum nach Viöl/Kragelund, oder über die A7 bis Schleswig/Schuby, dann B201 Richtung Viöl. Die Bahnhöfe Husum und Jübek sind gut angebunden (Husum ab Hamburg, Heide, Kiel; Jübek ab Flensburg, Schleswig, Hamburg, Kiel) — von dort weiter mit Taxi oder Shuttle."
   },
   {
     "name": "HIVE FESTIVAL 2027",
@@ -2428,7 +2507,8 @@ const festivals = [
     "lat": 51.7590874,
     "lng": 12.4487506,
     "endDate": "2027-06-20",
-    "about": "Hive Festival findet auf einem der eindrücklichsten Festivalgelände Deutschlands statt: Ferropolis, die „Stadt aus Eisen\". Von 1957 bis 1991 wurde hier Braunkohle abgebaut — fünf gigantische Tagebaubagger, bis zu 30 Meter hoch, 120 Meter lang und fast 2.000 Tonnen schwer, holten rund 70 Millionen Tonnen Kohle aus der Erde. Seit die Grube im Jahr 2000 geflutet wurde, stehen die Maschinen als Industriedenkmal am See — und bilden die Kulisse für bis zu 30.000 Festival-Besucher. Auf dem Line-up: Techno in seinen härteren Spielarten, Trance, Hitech und Psytrance."
+    "about": "Hive Festival findet auf einem der eindrücklichsten Festivalgelände Deutschlands statt: Ferropolis, die „Stadt aus Eisen\". Von 1957 bis 1991 wurde hier Braunkohle abgebaut — fünf gigantische Tagebaubagger, bis zu 30 Meter hoch, 120 Meter lang und fast 2.000 Tonnen schwer, holten rund 70 Millionen Tonnen Kohle aus der Erde. Seit die Grube im Jahr 2000 geflutet wurde, stehen die Maschinen als Industriedenkmal am See — und bilden die Kulisse für bis zu 30.000 Festival-Besucher. Auf dem Line-up: Techno in seinen härteren Spielarten, Trance, Hitech und Psytrance.",
+    "anfahrt": "Adresse: Ferropolisstraße 1, 06773 Gräfenhainichen. Mit dem Auto über die A9, Ausfahrt Dessau-Ost, dann der Beschilderung Richtung Oranienbaum/Gräfenhainichen folgen (letztes Stück über die B107). Wer nicht direkt am Auto campen will, braucht einen separaten Car/Van-Parking-Pass. Mit der Bahn geht es bis Bahnhof Gräfenhainichen, von dort pendeln mehrmals pro Stunde Shuttlebusse nach Ferropolis."
   },
   {
     "name": "BUCHBUSCH FESTIVAL 2027",
@@ -2443,7 +2523,8 @@ const festivals = [
     "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
     "lat": 48.890934,
     "lng": 8.7025509,
-    "about": "Buchbusch startete als Beginn einer neuen Festival-Ära in der Region Pforzheim — ein Ort, an dem sich die raue Energie von Mad Max mit den treibenden Rhythmen von Techno verbindet. Bewusst verzichtet das Festival auf klassisches Biergarten-Mobiliar und plakative Werbung, setzt stattdessen auf ästhetisch gestaltete Bars, regionale Foodtrucks und ein Bühnenkonzept, das sich harmonisch in die Natur einfügt — abseits von Mainstream und Kommerz."
+    "about": "Buchbusch startete als Beginn einer neuen Festival-Ära in der Region Pforzheim — ein Ort, an dem sich die raue Energie von Mad Max mit den treibenden Rhythmen von Techno verbindet. Bewusst verzichtet das Festival auf klassisches Biergarten-Mobiliar und plakative Werbung, setzt stattdessen auf ästhetisch gestaltete Bars, regionale Foodtrucks und ein Bühnenkonzept, das sich harmonisch in die Natur einfügt — abseits von Mainstream und Kommerz.",
+    "anfahrt": "Adresse: Zum Obsthof 2, 75177 Pforzheim. Von der A8 kommend Ausfahrt Pforzheim-Nord nehmen, Richtung Innenstadt fahren, an McDonald’s/ARAL links abbiegen und der Kieselbronner Straße bis zum Gelände folgen. Mit dem Bus geht es ab Pforzheim Hauptbahnhof direkt mit der (als „Buchbusch\" gekennzeichneten) Linie 3 bis Haltestelle „Obsthof\"."
   },
   {
     "name": "AIRPARK FESTIVAL 2027",
@@ -2459,7 +2540,8 @@ const festivals = [
     "description": "Techno-Festival auf dem Flughafengelände Karlsruhe/Baden-Baden — 20.000 m² Festival-Area, Indoor-Hangar und Outdoor zwischen historischen Flugzeugen.",
     "lat": 48.7528211,
     "lng": 8.0405324,
-    "about": "Der Flughafen Karlsruhe/Baden-Baden in Rheinmünster ist nach Stuttgart der zweitgrößte Flughafen Baden-Württembergs — auf seinem Gelände steht das Deutsch-Kanadische Luftwaffenmuseum mit einer umfangreichen Sammlung von Jets aus der NATO-Geschichte. Genau dort, zwischen Hangar und Kampfjets, findet seit 2024 das Airpark Festival statt: Indoor- und Outdoor-Floors zwischen Fluggerät schaffen eine der ungewöhnlichsten Festivalkulissen Deutschlands, mit Techno, House und Bass am Oberrhein."
+    "about": "Der Flughafen Karlsruhe/Baden-Baden in Rheinmünster ist nach Stuttgart der zweitgrößte Flughafen Baden-Württembergs — auf seinem Gelände steht das Deutsch-Kanadische Luftwaffenmuseum mit einer umfangreichen Sammlung von Jets aus der NATO-Geschichte. Genau dort, zwischen Hangar und Kampfjets, findet seit 2024 das Airpark Festival statt: Indoor- und Outdoor-Floors zwischen Fluggerät schaffen eine der ungewöhnlichsten Festivalkulissen Deutschlands, mit Techno, House und Bass am Oberrhein.",
+    "anfahrt": "Der Festival-Parkplatz liegt am Victoria Boulevard E 8, 77836 Rheinmünster, erreichbar über die A5 (Ausfahrt Bühl) — dort auch kostenlose Park-and-Ride-Möglichkeiten. Von den bewachten Parkplätzen bringt euch alle 20 Minuten ein kostenloser Shuttle zum Festival. Mit der Bahn geht es bis Sinzheim (nicht Sinzheim Nord!), von dort verkehrt ganztägig ein Shuttlebus zum Gelände."
   },
   {
     "name": "IKARUS FESTIVAL 2027",
@@ -2477,7 +2559,8 @@ const festivals = [
     "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
     "lat": 47.9888241,
     "lng": 10.2350723,
-    "about": "Ikarus fand am 5. und 6. Juni 2015 erstmals auf einem ehemaligen Militärflugplatz neben dem Flughafen Memmingen statt — benannt nach der Figur aus der griechischen Mythologie. Nach coronabedingten Ausfällen 2022 mit über 75.000 Besuchern zurück, wuchs das Festival bis 2026 auf 120.000 Besucher. Acht Bühnen bespielen offene Flächen, dunkle Shelter und Waldstücke — Mainstage-Momente treffen auf harten Techno, melodischer Wald-Floor auf Psytrance-Nacht."
+    "about": "Ikarus fand am 5. und 6. Juni 2015 erstmals auf einem ehemaligen Militärflugplatz neben dem Flughafen Memmingen statt — benannt nach der Figur aus der griechischen Mythologie. Nach coronabedingten Ausfällen 2022 mit über 75.000 Besuchern zurück, wuchs das Festival bis 2026 auf 120.000 Besucher. Acht Bühnen bespielen offene Flächen, dunkle Shelter und Waldstücke — Mainstage-Momente treffen auf harten Techno, melodischer Wald-Floor auf Psytrance-Nacht.",
+    "anfahrt": "Wegen Bauarbeiten führt die Anfahrt über die Ausfahrt Erkheim (A96) durch Attenhausen und Ottobeuren nach Hawangen zu den Parkflächen und dem Kiss-und-Bye-Parkplatz; alternativ über die Ausfahrt Woringen (A7) durch Lachen, Albishofen und Herbishofen. Die Zufahrt zum Kiss-und-Bye-Parkplatz erfolgt über den Alten Stadtweg in Hawangen. Zwischen Bahnhof Memmingen und dem Festivalgelände pendelt ein Shuttle im 15-20-Minuten-Takt, auch nachts."
   },
   {
     "name": "KINDHEITSTRAUM FESTIVAL 2027",
@@ -2494,7 +2577,8 @@ const festivals = [
     "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
     "lat": 49.8641269,
     "lng": 11.7843596,
-    "about": "Der Flugplatz Speichersdorf bei Bayreuth verwandelt sich einmal im Jahr in eine oberfränkische Dance-Alternative zu den großen süddeutschen Festivals — kompaktes Eintagesformat ohne Camping-Logistik, zwei Bühnen für Melodic Techno, House, EDM und Electronica, dazu Riesenrad und Biergarten. Nach über einem Jahrzehnt Tradition endet die Reihe 2027 mit ihrer finalen Ausgabe."
+    "about": "Der Flugplatz Speichersdorf bei Bayreuth verwandelt sich einmal im Jahr in eine oberfränkische Dance-Alternative zu den großen süddeutschen Festivals — kompaktes Eintagesformat ohne Camping-Logistik, zwei Bühnen für Melodic Techno, House, EDM und Electronica, dazu Riesenrad und Biergarten. Nach über einem Jahrzehnt Tradition endet die Reihe 2027 mit ihrer finalen Ausgabe.",
+    "anfahrt": "Adresse: Manfred-Strößenreuther-Straße 21, 95469 Speichersdorf — die Start- und Landebahn des Flugplatzes wird am Festivaltag zum Parkplatz. Kostenlose Shuttlebusse pendeln durchgehend zwischen Bahnhof Kirchenlaibach (rund 5 Minuten vom Gelände, ca. 15 Minuten Zugfahrt ab Bayreuth) und dem Festivalgelände."
   },
   {
     "name": "44 FESTIVAL 2027",
@@ -2527,7 +2611,8 @@ const festivals = [
     "description": "Das Ruhrgebiet tanzt — Open-Air Festival im OLGA-Park, 12–22 Uhr, mit breitem Electronic-Line-up.",
     "lat": 51.5013469,
     "lng": 6.8746128,
-    "about": "Ruhr-in-Love nennt sich selbst „das elektronische Familienfest\" — seit 2003, seit 2004 im OlgaPark Oberhausen. Die Fläche war einst Kohle- und Stahlgebiet, wurde für die Landesgartenschau 1999 umgestaltet und ist seitdem grüne Bühne fürs Festival. Statt eines zentralen Line-ups bringen rund 40 Floors von Clubs, Labels, Bookingagenturen und Radiosendern ihre eigene Handschrift mit — von Techno über House und Trance bis Hardcore und Hardstyle. Mit rund 35.000 Besuchern und 400+ DJs an einem einzigen Tag ist es eines der dichtesten Electronic-Line-ups Deutschlands."
+    "about": "Ruhr-in-Love nennt sich selbst „das elektronische Familienfest\" — seit 2003, seit 2004 im OlgaPark Oberhausen. Die Fläche war einst Kohle- und Stahlgebiet, wurde für die Landesgartenschau 1999 umgestaltet und ist seitdem grüne Bühne fürs Festival. Statt eines zentralen Line-ups bringen rund 40 Floors von Clubs, Labels, Bookingagenturen und Radiosendern ihre eigene Handschrift mit — von Techno über House und Trance bis Hardcore und Hardstyle. Mit rund 35.000 Besuchern und 400+ DJs an einem einzigen Tag ist es eines der dichtesten Electronic-Line-ups Deutschlands.",
+    "anfahrt": "Die offiziellen Parkplätze befinden sich ausschließlich beim Westfield Centro, von dort führt ein kurzer, ausgeschilderter Fußweg direkt zum Festivalgelände im OLGA-Park (Vestische Straße 45, 46117 Oberhausen). Die beiden Haupteingänge zum Park liegen an der Bottroper Straße und der Vestischen Straße."
   },
   {
     "name": "AIRBEAT ONE 2027",
@@ -2545,7 +2630,8 @@ const festivals = [
     "lat": 53.3613328,
     "lng": 11.6141158,
     "endDate": "2027-07-11",
-    "about": "Was 2002 als „Airbase One\" mit rund 1.000 Besuchern auf dem Flugplatz Neustadt-Glewe begann, ist heute Deutschlands größtes Electronic-Festival — 2023 kamen rund 210.000 Besucher. Den Namen musste die Veranstaltung schon zur dritten Ausgabe aus markenrechtlichen Gründen ändern. Airbeat One ist bekannt für sein jährlich wechselndes Länder-Motto, das jede Ausgabe optisch komplett neu einkleidet — vom Flugfeld wird so jedes Jahr eine andere Welt."
+    "about": "Was 2002 als „Airbase One\" mit rund 1.000 Besuchern auf dem Flugplatz Neustadt-Glewe begann, ist heute Deutschlands größtes Electronic-Festival — 2023 kamen rund 210.000 Besucher. Den Namen musste die Veranstaltung schon zur dritten Ausgabe aus markenrechtlichen Gründen ändern. Airbeat One ist bekannt für sein jährlich wechselndes Länder-Motto, das jede Ausgabe optisch komplett neu einkleidet — vom Flugfeld wird so jedes Jahr eine andere Welt.",
+    "anfahrt": "Adresse: Am Flugplatz 1, 19306 Neustadt-Glewe, direkt an der A24 Hamburg-Berlin. Über die A24 Ausfahrt Neustadt-Glewe anreisen und der Beschilderung zum Parkplatz P5 folgen (kostenpflichtig, Umweltplakette erforderlich). Von P5 bringt ein rund um die Uhr kostenloser Shuttle-Bus euch zum Gelände, mit Stopps am Festival, Bahnhof und See."
   },
   {
     "name": "DEICHBRAND 2027",
@@ -2563,7 +2649,8 @@ const festivals = [
     "lat": 53.7686,
     "lng": 8.6583,
     "endDate": "2027-07-18",
-    "about": "Deichbrand begann 2005 als kleines Festival von Freunden — Marc Engelke und Daniel Schneider veranstalteten die erste Ausgabe an der ehemaligen Festung Fort Kugelbake in Cuxhaven, mit gerade einmal 500 Besuchern. Nach mehreren Standortwechseln fand das Festival 2009 seine feste Heimat auf dem Seeflughafen Cuxhaven/Nordholz. Heute zählt Deichbrand mit rund 60.000 Besuchern und über 120 Acts zu den größten Festivals Norddeutschlands — direkt am Deich, mit Nordsee-Luft inklusive."
+    "about": "Deichbrand begann 2005 als kleines Festival von Freunden — Marc Engelke und Daniel Schneider veranstalteten die erste Ausgabe an der ehemaligen Festung Fort Kugelbake in Cuxhaven, mit gerade einmal 500 Besuchern. Nach mehreren Standortwechseln fand das Festival 2009 seine feste Heimat auf dem Seeflughafen Cuxhaven/Nordholz. Heute zählt Deichbrand mit rund 60.000 Besuchern und über 120 Acts zu den größten Festivals Norddeutschlands — direkt am Deich, mit Nordsee-Luft inklusive.",
+    "anfahrt": "Von Bremen/Bremerhaven über die A27 Richtung Cuxhaven, von Hamburg über die B73 Richtung Cuxhaven, jeweils Ausfahrt Neuenwalde — ab dort ist das Festival ausgeschildert. Parkplätze (P1-P4) benötigen ein separates Parkticket, das nicht im Festival- oder Campingticket enthalten ist. Shuttlebusse verkehren direkt von den Bahnhöfen Cuxhaven und Nordholz zum Gelände (kostenpflichtig, nicht im Deutschlandticket enthalten)."
   },
   {
     "name": "SEA YOU FESTIVAL 2027",
@@ -2581,7 +2668,8 @@ const festivals = [
     "lat": 48.0661014,
     "lng": 7.814414,
     "endDate": "2027-07-18",
-    "about": "Sea You Festival hieß ursprünglich Sea of Love und startete 2002 mit rund 2.500 Besuchern und Sven Väth als Headliner. Nach einer turbulenten Phase — 2011 sorgten Guetta, Tiësto und Kalkbrenner für 25.000 verkaufte Tickets und beinahe für eine Massenpanik — orientierte sich das Festival 2014 unter neuem Namen bewusst um: weg von großen internationalen Headlinern, hin zur Crème der deutschen und europäischen Technoszene. Der Tunisee bei Freiburg bringt dazu eine Mischung aus Festival und Sommerurlaub — Sprung ins Wasser, zurück auf den Dancefloor."
+    "about": "Sea You Festival hieß ursprünglich Sea of Love und startete 2002 mit rund 2.500 Besuchern und Sven Väth als Headliner. Nach einer turbulenten Phase — 2011 sorgten Guetta, Tiësto und Kalkbrenner für 25.000 verkaufte Tickets und beinahe für eine Massenpanik — orientierte sich das Festival 2014 unter neuem Namen bewusst um: weg von großen internationalen Headlinern, hin zur Crème der deutschen und europäischen Technoszene. Der Tunisee bei Freiburg bringt dazu eine Mischung aus Festival und Sommerurlaub — Sprung ins Wasser, zurück auf den Dancefloor.",
+    "anfahrt": "Über die A5, Ausfahrt 61/Freiburg-Nord, dann der Beschilderung „Sea You\" folgen (bzw. „Camping A\" für alle ohne Geländeübernachtung). Der offizielle Parkplatz liegt bei Camping A im Norden des Geländes, Tagesticket ab 12 Euro im Vorverkauf. Mit der Bahn geht es bis Freiburg Hauptbahnhof, von dort verkehren regelmäßig Shuttlebusse zum Festivalgelände."
   },
   {
     "name": "PAROOKAVILLE 2027",
@@ -2600,7 +2688,8 @@ const festivals = [
     "lat": 51.6031019,
     "lng": 6.1433899,
     "endDate": "2027-07-18",
-    "about": "Parookaville ist mehr als ein Festival — es ist eine fiktive Stadt, die einmal im Jahr am Flughafen Weeze zum Leben erwacht. 2015 gegründet von Norbert Bergers, Georg van Wickeren und Bernd Dicks, inspiriert von Konzepten wie Tomorrowland und Burning Man, hat die Stadt einen eigenen Gründervater (Bürgermeister Bill Parooka), eigene Stadtteile und Institutionen wie Kirche, Standesamt und Gefängnis. Statt Tickets gibt’s ein „Visa\" mit Stempeln für jeden Besuch. Mit rund 85.000 Besuchern täglich auf 20 Bühnen ist Parookaville heute Deutschlands größtes EDM-Festival."
+    "about": "Parookaville ist mehr als ein Festival — es ist eine fiktive Stadt, die einmal im Jahr am Flughafen Weeze zum Leben erwacht. 2015 gegründet von Norbert Bergers, Georg van Wickeren und Bernd Dicks, inspiriert von Konzepten wie Tomorrowland und Burning Man, hat die Stadt einen eigenen Gründervater (Bürgermeister Bill Parooka), eigene Stadtteile und Institutionen wie Kirche, Standesamt und Gefängnis. Statt Tickets gibt’s ein „Visa\" mit Stempeln für jeden Besuch. Mit rund 85.000 Besuchern täglich auf 20 Bühnen ist Parookaville heute Deutschlands größtes EDM-Festival.",
+    "anfahrt": "Für Tagesbesucher gibt es eine Kiss-und-Ride-Zone am Flughafen Ring, 47654 Weeze, sowie Parkplätze direkt auf dem Rollfeld. Kostenlose Shuttlebusse verkehren ab ca. 13 Uhr an jedem Festivaltag zum Gelände; ein separater Shuttle bringt euch vom Bahnhof Weeze zum Tagesbesucher-Eingang bzw. Camping (10 Euro Hin- und Rückfahrt im Vorverkauf). Von der A57 kommend Ausfahrt Sonsbeck nehmen und der temporären Beschilderung Richtung Airport/Passengers über Kevelaer folgen."
   },
   {
     "name": "MEDIVAL FESTIVAL 2027",
@@ -2637,7 +2726,8 @@ const festivals = [
     "lat": 52.5173885,
     "lng": 13.3951309,
     "endDate": "2027-07-18",
-    "about": "Lollapalooza wurde 1991 von Perry Farrell als Tourneefestival in den USA gegründet — Berlin war 2015 die erste europäische Stadt, die eine eigene Ausgabe bekam. Nach Stationen am Flughafen Tempelhof, im Treptower Park und auf der Trabrennbahn Karlshorst ist das Festival seit 2022 im Olympiapark und im Olympiastadion zu Hause. Im Inneren des historischen Stadions entsteht dabei eine der größten Rave-Kathedralen Europas. Das Konzept geht bewusst über reine Musik hinaus — Chartstürmer, elektronische Beats und Newcomer treffen auf Fashion, Kunst und gesellschaftlich relevante Themen."
+    "about": "Lollapalooza wurde 1991 von Perry Farrell als Tourneefestival in den USA gegründet — Berlin war 2015 die erste europäische Stadt, die eine eigene Ausgabe bekam. Nach Stationen am Flughafen Tempelhof, im Treptower Park und auf der Trabrennbahn Karlshorst ist das Festival seit 2022 im Olympiapark und im Olympiastadion zu Hause. Im Inneren des historischen Stadions entsteht dabei eine der größten Rave-Kathedralen Europas. Das Konzept geht bewusst über reine Musik hinaus — Chartstürmer, elektronische Beats und Newcomer treffen auf Fashion, Kunst und gesellschaftlich relevante Themen.",
+    "anfahrt": "Das Olympiastadion ist hervorragend an den ÖPNV angebunden: S-Bahn-Linien S3 und S9, U-Bahn-Linie U2 sowie die Buslinien M49 und 218 fahren direkt dorthin. Da sich das Festival als weitgehend autofreie Veranstaltung versteht, gibt es keine eigenen Parkplätze — bei unumgänglicher Autoanreise verweist der Veranstalter auf die Park-und-Ride-Stationen in Spandau, Jungfernheide und Messe Nord/ICC."
   },
   {
     "name": "FEEL FESTIVAL 2027",
@@ -2654,7 +2744,8 @@ const festivals = [
     "lat": 51.5717953,
     "lng": 13.791063,
     "endDate": "2027-07-25",
-    "about": "Feel Festival startete 2013 am Kiekebuscher See bei Schönefeld und zog 2015 an den Bergheider See in Brandenburg um, wo es bis heute zuhause ist. Unter dem Motto „Feel You Free\" verteilen sich zehn liebevoll gestaltete Bühnen mit jeweils eigener Klangwelt — von HipHop über Techno und House bis Disco und Live-Musik. Dazu kommt ein Rahmenprogramm mit Workshops und Talks zu Nachhaltigkeit und queer-feministischen Perspektiven. Mit 15.000 bis 20.000 Besuchern bleibt das Festival bewusst überschaubar und persönlich."
+    "about": "Feel Festival startete 2013 am Kiekebuscher See bei Schönefeld und zog 2015 an den Bergheider See in Brandenburg um, wo es bis heute zuhause ist. Unter dem Motto „Feel You Free\" verteilen sich zehn liebevoll gestaltete Bühnen mit jeweils eigener Klangwelt — von HipHop über Techno und House bis Disco und Live-Musik. Dazu kommt ein Rahmenprogramm mit Workshops und Talks zu Nachhaltigkeit und queer-feministischen Perspektiven. Mit 15.000 bis 20.000 Besuchern bleibt das Festival bewusst überschaubar und persönlich.",
+    "anfahrt": "Adresse: Bergheider Straße 4, 03238 Lichterfeld-Schacksdorf, mit dem Auto über die L60 Richtung Bergheider See erreichbar. Mit der Bahn geht es Richtung Finsterwalde (Niederlausitz) — ab Berlin Hauptbahnhof etwa 1,5 bis 2 Stunden Fahrzeit; von dort bringt ein Shuttle-Bus (5 Euro) euch direkt zum Camping."
   },
   {
     "name": "OPEN BEATZ 2027",
@@ -2672,7 +2763,8 @@ const festivals = [
     "lat": 49.453872,
     "lng": 11.077298,
     "endDate": "2027-07-25",
-    "about": "Was 2009 als kleine Ausgabe für die regionale Szene begann, ist heute eines der größten EDM-Festivals Süddeutschlands: Open Beatz zog bis 2012 in Wilhermsdorf bei Fürth Publikum an, bevor es 2013 nach Herzogenaurach umzog. Mit rund 90.000 Besuchern im Jahr, 200+ Acts auf acht Bühnen und einem Genre-Spektrum von Hardstyle über Techno bis Uptempo und Psytrance verwandelt sich das Gelände für ein Wochenende in eine temporäre Kleinstadt."
+    "about": "Was 2009 als kleine Ausgabe für die regionale Szene begann, ist heute eines der größten EDM-Festivals Süddeutschlands: Open Beatz zog bis 2012 in Wilhermsdorf bei Fürth Publikum an, bevor es 2013 nach Herzogenaurach umzog. Mit rund 90.000 Besuchern im Jahr, 200+ Acts auf acht Bühnen und einem Genre-Spektrum von Hardstyle über Techno bis Uptempo und Psytrance verwandelt sich das Gelände für ein Wochenende in eine temporäre Kleinstadt.",
+    "anfahrt": "Adresse: Puschendorfer Straße 2, 91074 Herzogenaurach, Anfahrt über die A3 Richtung Nürnberg/Erlangen und weiter durch den Ort Höfen (aus allen Richtungen ausgeschildert). Auf dem regulären Tagesparkplatz wird nur mit Debit- oder Kreditkarte bezahlt, Bargeld wird nicht mehr akzeptiert. Wer nicht mit dem Auto kommt: Express-Shuttles verkehren direkt von den Bahnhöfen Nürnberg, Fürth und Erlangen zum Gelände, oder mit der Bahn bis Puschendorf und von dort rund 20 Minuten zu Fuß."
   },
   {
     "name": "JUICY BEATS 2027",
@@ -2690,7 +2782,8 @@ const festivals = [
     "description": "Dortmunds Open-Air Festival im Westfalenpark — 25+ Jahre Electronic und Indie unter freiem Himmel.",
     "lat": 51.4953414,
     "lng": 7.4768236,
-    "about": "Juicy Beats geht auf den Dortmunder Club Trinidad zurück, damals einer der wichtigsten House-Clubs Deutschlands im Freizeitzentrum West. 1996 wagte man ein sommerliches Open-Air unter freiem Himmel im Westfalenpark — als „Juicy Fruits\" mit 2.000 Gästen. Aus dem Debüt wurde eine feste Institution: Seit 2007 gemeinsam von der Popmodern GmbH, dem Verein für urbane Popkultur und dem Dortmunder Jugendamt veranstaltet, zählt Juicy Beats heute zu den größten Musikfestivals Nordrhein-Westfalens."
+    "about": "Juicy Beats geht auf den Dortmunder Club Trinidad zurück, damals einer der wichtigsten House-Clubs Deutschlands im Freizeitzentrum West. 1996 wagte man ein sommerliches Open-Air unter freiem Himmel im Westfalenpark — als „Juicy Fruits\" mit 2.000 Gästen. Aus dem Debüt wurde eine feste Institution: Seit 2007 gemeinsam von der Popmodern GmbH, dem Verein für urbane Popkultur und dem Dortmunder Jugendamt veranstaltet, zählt Juicy Beats heute zu den größten Musikfestivals Nordrhein-Westfalens.",
+    "anfahrt": "Adresse: An der Buschmühle 3, 44139 Dortmund. Von der Innenstadt bzw. dem Hauptbahnhof bringen euch die U-Bahn-Linien U45 (Richtung Westfalenhallen) und U49 (Richtung Hacheney) in unter 10 Minuten zur Haltestelle Westfalenpark — U49 fährt am Wochenende sogar nachts im 15-Minuten-Takt bis ca. 4:15 Uhr. Parkplätze E3, F2 und F3 sind vorhanden, am besten vorab ein Parkticket sichern (nur E3 akzeptiert Kartenzahlung, sonst nur Bar)."
   },
   {
     "name": "NACHTI FESTIVAL 2027",
@@ -2708,7 +2801,8 @@ const festivals = [
     "description": "Nachfolger von Nachtdigital (seit 1998) — Techno, House und Electronica im Bungalowdorf Olganitz.",
     "lat": 51.4052061,
     "lng": 13.0921445,
-    "about": "Nachti ist der Nachfolger von Nachtdigital, einem Festival mit Wurzeln bis 1998 auf dem Gelände des Schullandheims Olganitz. Nach einer Pause 2019 kehrte das Konzept 2022 zunächst als „Escape to Olganitz\" zurück, seit 2023 läuft es alle zwei Jahre unter dem Namen Nachti weiter — Techno, House und Electronica im Bungalowdorf Olganitz."
+    "about": "Nachti ist der Nachfolger von Nachtdigital, einem Festival mit Wurzeln bis 1998 auf dem Gelände des Schullandheims Olganitz. Nach einer Pause 2019 kehrte das Konzept 2022 zunächst als „Escape to Olganitz\" zurück, seit 2023 läuft es alle zwei Jahre unter dem Namen Nachti weiter — Techno, House und Electronica im Bungalowdorf Olganitz.",
+    "anfahrt": "Navi-Adresse: Zum Bungalowdorf 1, 04758 Cavertitz (oder „Schullandheim Olganitz\" bei Google Maps suchen). Mit der Bahn ab Leipzig mit dem Regionalexpress Richtung Dresden bis Dahlen, ab Dresden Richtung Leipzig bis Oschatz — von beiden Bahnhöfen kostet ein Taxi nach Olganitz etwa 30-40 Euro. Alternativ verkehren spezielle Busse zum Festival über den Anbieter „Maximal Bus\". Mit dem Auto ist ausreichend Parkraum vorhanden."
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2027",
@@ -2725,7 +2819,8 @@ const festivals = [
     "description": "Kleines feines Techno- und Electronic-Festival auf einer Wiese in Niedersachsen — Camping, Community, Underground.",
     "lat": 53.0935023,
     "lng": 9.417503,
-    "about": "Drei regional bekannte DJs hatten die Idee im Sommer 2014 nach einer durchfeierten Nacht — am nächsten Tag legten sie ihr Erspartes von 27.000 Euro zusammen und organisierten die erste Ausgabe für August 2015. Was mit 3.500 Besuchern startete, wuchs bis 2019 auf rund 15.000 zahlende Gäste. Maskottchen Ferdi, benannt nach Ferdinand von Zeppelin, steht für das erklärte Ziel des Teams: „Back to the roots\" mit fairen Ticketpreisen statt Kommerz-Eskalation."
+    "about": "Drei regional bekannte DJs hatten die Idee im Sommer 2014 nach einer durchfeierten Nacht — am nächsten Tag legten sie ihr Erspartes von 27.000 Euro zusammen und organisierten die erste Ausgabe für August 2015. Was mit 3.500 Besuchern startete, wuchs bis 2019 auf rund 15.000 zahlende Gäste. Maskottchen Ferdi, benannt nach Ferdinand von Zeppelin, steht für das erklärte Ziel des Teams: „Back to the roots\" mit fairen Ticketpreisen statt Kommerz-Eskalation.",
+    "anfahrt": "Der Veranstalter bietet Shuttle-Busse zwischen dem Bahnhof Rotenburg und dem Festivalgelände an (10 Euro Hin- und Rückfahrt), die sich an den Ankunfts- und Abfahrtszeiten des Metronoms orientieren statt an einem festen Fahrplan. Mit dem Auto könnt ihr direkt auf dem Gelände des Flugplatzes Rotenburg parken (Parkticket online 10 Euro zzgl. Gebühren, gilt für ein Fahrzeug und einmalige Einfahrt) — bitte ausschließlich die ausgeschilderten Parkflächen nutzen."
   },
   {
     "name": "NATURE ONE 2027",
@@ -2743,7 +2838,8 @@ const festivals = [
     "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 2027 Deutschlands ältestes Freiluft-Rave-Festival.",
     "lat": 50.0434566,
     "lng": 7.4255143,
-    "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts."
+    "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts.",
+    "anfahrt": "Ab der Autobahnausfahrt der Beschilderung vor Ort folgen, nicht dem Navi — Tagesgäste folgen den ausgeschilderten Tagesparkplätzen, Camper der Beschilderung zu SilentCamp bzw. Camper-Bereichen. Kostenlose Shuttlebusse verkehren freitags und samstags von 9 bis 18 Uhr zwischen dem Gelände und der Innenstadt (Haltestellen EDEKA/Bahnhofstraße, Südstraße, Hallenbad, Marktplatz) — mit gültigem Ticket kostenlos nutzbar. Vom Hauptbahnhof Koblenz bringt ein Non-Stop-Shuttle euch in rund 45 Minuten direkt zum Gelände."
   },
   {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
@@ -2758,7 +2854,8 @@ const festivals = [
     "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
     "lat": 51.4574024,
     "lng": 12.0488952,
-    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln."
+    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln.",
+    "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
   },
   {
     "name": "LOVE FAMILY PARK 2027",
@@ -2776,7 +2873,8 @@ const festivals = [
     "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2027.",
     "lat": 50.110597,
     "lng": 8.6144214,
-    "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main."
+    "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main.",
+    "anfahrt": "Adresse: Max-Pruss-Straße/Am Römerhof 9, 60486 Frankfurt am Main. Der nächste Bahnhof „Frankfurt Messe\" ist ab dem Hauptbahnhof in rund 5 Minuten mit der S3, S4 oder S5 erreichbar — das Festivalticket gilt gleichzeitig als Freifahrschein im gesamten RMV-Gebiet für den Veranstaltungstag. Parkplätze (Bereich D oder E) kosten 15 Euro, Tickets gibt es nur online im Voraus, vor Ort wird ausschließlich mit passendem Bargeld bezahlt."
   },
   {
     "name": "NOISY FESTIVAL 2026",
@@ -2794,7 +2892,8 @@ const festivals = [
     "description": "Direkt am Elbufer: Techno, Electro und House zwischen Hafenkränen und Kreuzfahrtterminal.",
     "about": "NOISY holt elektronische Musik direkt ans Wasser — auf dem Gelände des Hamburg Cruise Center Altona, zwischen Kreuzfahrtterminal und Elbe, mitten im Hamburger Hafen. Statt klassischer Festivalwiese und Camping setzt das Festival bewusst auf ein urbanes Konzept: industrielle Hafenarchitektur trifft auf bis zu 10.000 Besucher und ein Programm aus Techno, Electro und Melodic House, mit direktem Blick auf die Elbe statt auf ein Zeltmeer.",
     "lat": 53.5436585,
-    "lng": 9.9370696
+    "lng": 9.9370696,
+    "anfahrt": "ÖPNV wird ausdrücklich empfohlen: mit der Bahn bis zum Hauptbahnhof, dann mit der S-Bahn S1 bis Königstraße, oder alternativ mit der Fähre Linie 62 bis Dockland (kurzer Fußweg zum Gelände). Kostenpflichtige Parkplätze sind zwar vorhanden, aber laut Veranstalter nicht die empfohlene Option."
   },
   {
     "name": "OFFSIDE FETTIVAL 2026",
@@ -2811,7 +2910,8 @@ const festivals = [
     "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
     "about": "Das OFFSIDE FETTival wird von den „Freunden elektronischer Tanzmusik Thüringen e.V.“ veranstaltet — einem gemeinnützigen Verein, der House- und Techno-Kultur bewusst dorthin bringt, wo sie sonst selten hinkommt: aufs Land. Mit rund 500 Besucher:innen in Kranichfeld bei Erfurt bleibt das Festival bewusst klein und community-getragen, finanziert unter anderem über Crowdfunding — ein Gegenentwurf zu den kommerziellen Großformaten der Szene.",
     "lat": 50.8526515,
-    "lng": 11.1998899
+    "lng": 11.1998899,
+    "anfahrt": "Adresse: Niederburg Kranichfeld, Schloßgasse 18, 99448 Kranichfeld. Mit dem Auto über die A71 (Thüringer-Wald-Autobahn), Ausfahrt Arnstadt-Süd über Stadtilm, oder über A9/A4, Ausfahrt Erfurt-Ost (von dort nur rund 10 km). Am Auenweg, direkt neben der Niederburg, gibt es einen großen Parkplatz für Busse und Autos. Das Gelände liegt zudem direkt am Bahnhof Kranichfeld und ist mit der Buslinie 155 ab Erfurt gut erreichbar."
   },
   {
     "name": "TECHNO IM PARK 2026",
@@ -2843,7 +2943,8 @@ const festivals = [
     "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
     "about": "Electric Sea Dance bringt einmal im Jahr rund 5.000 Besucher in die HanseMesse Rostock — ein Indoor-Format, das bewusst breit aufgestellt ist: Techno, Trance, Hard Dance und EDM teilen sich das Line-up statt sich auf ein einzelnes Subgenre zu beschränken. Damit füllt das Festival eine der ruhigeren Jahreszeiten für elektronische Musik in Norddeutschland — Anfang Dezember, wenn die meisten Open Airs längst vorbei sind.",
     "lat": 54.1393903,
-    "lng": 12.0779788
+    "lng": 12.0779788,
+    "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
   },
   {
     "name": "UNREAL NYEVE-RAVE 2026",
@@ -2858,7 +2959,8 @@ const festivals = [
     "description": "Silvester mit purem Dark Techno — Unreal läutet das neue Jahr in der Carlswerk Victoria ein.",
     "about": "Unreal ist bekannt für kompromisslose Hard-Techno-Line-ups in ungewöhnlichen Industrie-Locations — zu Silvester wird daraus ein dunkler, hochenergetischer Rave in der Carlswerk Victoria, einer 2018 eröffneten Eventhalle auf dem ehemaligen Gelände der Kölner Kabelfabrik Felten & Guillaume mit Platz für 1.600 Menschen. Statt Feuerwerk und Sektempfang: reiner, schonungsloser Techno-Sound zum Jahreswechsel.",
     "lat": 50.9649372,
-    "lng": 7.0125415
+    "lng": 7.0125415,
+    "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
   },
   {
     "name": "AREAL FESTIVAL 2026",
@@ -2891,7 +2993,8 @@ const festivals = [
     "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
     "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
     "lat": 54.3494378,
-    "lng": 13.4718006
+    "lng": 13.4718006,
+    "anfahrt": "Adresse: Marstall Putbus, Park 6, 18581 Putbus (Rügen). Direkt am Eingang zum Marstall liegt ein meist ausreichend großer Parkplatz am Wreechener Weg; alternativ könnt ihr auch am Markt oder am Circus parken. Kostenpflichtige Parkplätze sind zudem in unmittelbarer Umgebung des Marstalls vorhanden."
   },
   {
     "name": "ELYSIUM FESTIVAL GERMANY 2026",
@@ -2925,7 +3028,8 @@ const festivals = [
     "description": "Verknipts kompromissloser Hard Techno macht Station im Hamburger Edelfettwerk.",
     "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Hamburg-Ausgabe im Edelfettwerk ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
     "lat": 53.5952901,
-    "lng": 9.9057809
+    "lng": 9.9057809,
+    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
     "name": "OUTSIDE WORLD FESTIVAL – HAMBURG 2026",
@@ -2943,7 +3047,8 @@ const festivals = [
     "description": "Norddeutschlands größtes Techno-Classics-Festival — Loveparade- und 90er-Nostalgie mit echten Szene-Urgesteinen.",
     "about": "Outside World Festival gilt als Norddeutschlands größtes Techno-Classics-Festival — die Hamburg-Ausgabe im Edelfettwerk verteilt sich auf vier Bereiche: Main Stage, Hardtrance-Classics-Stage, Trance-Classics-Stage und HandsUp-Stage. Das Line-up liest sich wie ein Who-is-Who der 90er- und frühen-2000er-Techno- und Trance-Szene — DJ Rush, WestBam, Mauro Picotto, Talla 2XLC und weitere Urgesteine bringen die Loveparade-Ära zurück auf den Dancefloor.",
     "lat": 53.5952901,
-    "lng": 9.9057809
+    "lng": 9.9057809,
+    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
     "name": "ELECTRIC HORIZON INDOOR 2026",
@@ -2959,7 +3064,8 @@ const festivals = [
     "description": "Der Winter-Ableger des Electric Horizon Festivals — zwei Floors Techno und Hardtechno in der halle02.",
     "about": "Electric Horizon Indoor ist der winterliche Gegenpart zum Sommer-Original im Plankstadter Weldegarten — statt Open-Air-Palmen und Strandflair gibt es zwei Indoor-Floors in der Heidelberger halle02, mit einem Line-up aus Techno und Hardtechno von Acts wie In Verruf und Paraçek. Von 22 bis 5 Uhr bringt das Format die gleiche Energie wie die Sommerausgabe, nur unter Dach statt unter freiem Himmel.",
     "lat": 49.4021824,
-    "lng": 8.6704571
+    "lng": 8.6704571,
+    "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
   }
 ];
 
