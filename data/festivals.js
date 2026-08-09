@@ -2876,6 +2876,22 @@ const festivals = [
     "about": "Areal Festival verwandelt das Stuttgarter Bosch-Areal in ein intensives Warehouse-Rave-Erlebnis — auf zwei benachbarten Indoor-Floors, dem Lehmann Club und dem Mash, treffen einflussreiche Kollektive, internationale DJs und lokale Nachwuchstalente aufeinander. Das Übernacht-Format von 22 bis 9 Uhr, kompromissloser Sound und die rohe Warehouse-Ästhetik machen Areal zu einem der interessantesten neuen Techno-Formate Deutschlands.",
     "lat": 48.7784485,
     "lng": 9.1800132
+  },
+  {
+    "name": "TECHNO MEETS PSY INDOOR FESTIVAL 2027",
+    "date": "2027-04-03",
+    "dateDisplay": "3. April 2027",
+    "location": "Marstall Putbus, Rügen",
+    "genre": [
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "",
+    "soldOut": false,
+    "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
+    "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
+    "lat": 54.3494378,
+    "lng": 13.4718006
   }
 ];
 
