@@ -2270,7 +2270,7 @@ const festivals = [
     ],
     "url": "https://www.mayday.de",
     "soldOut": false,
-    "description": "Die nächste Walpurgisnacht — Tickets sichern bevor sie weg sind.",
+    "description": "Seit 1991 Deutschlands Techno-Institution — die Walpurgisnacht in den Westfalenhallen Dortmund.",
     "lat": 51.4966917,
     "lng": 7.4602637,
     "about": "MAYDAY ist die Mutter aller deutschen Techno-Festivals. Die Idee kam 1991 von Fabian Lenz alias DJ Dick, unterstützt von seinem Bruder Maximilian (WestBam) und dem Szene-Magazin Frontpage — ursprünglich als Benefizveranstaltung für den vom Ende bedrohten DDR-Sender DT64, einen der ersten Sender überhaupt, die Techno spielten. Am 14. Dezember 1991 feierten rund 5.000 Menschen in einer Berliner Halle die erste MAYDAY. Seit 1993 ist Dortmund die feste Heimat — der Name selbst ist eine Anspielung auf das internationale Notrufsignal und den traditionellen Termin am 1. Mai."
