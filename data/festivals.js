@@ -2827,6 +2827,55 @@ const festivals = [
     "about": "Techno im Park ist das eintägige Nachfolgeformat des dreitägigen KPiP-Festivals, das vier Jahre lang im Rheinberger Stadtpark stattfand — zuletzt im Juni 2025 mit rund 6.500 Besuchern. Veranstalter ist der KulturVallanisten e.V., benannt nach dem markanten Spanischen Vallan im Park, um den herum die Bühne aufgebaut wird. Neun DJs, freier Eintritt, von 11 Uhr mittags bis tief in die Nacht.",
     "lat": 51.5415849,
     "lng": 6.6018687
+  },
+  {
+    "name": "ELECTRIC SEA DANCE FESTIVAL 2026",
+    "date": "2026-12-05",
+    "dateDisplay": "5. Dezember 2026",
+    "location": "HanseMesse, Rostock",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://www.electric-sea.de/",
+    "soldOut": false,
+    "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
+    "about": "Electric Sea Dance bringt einmal im Jahr rund 5.000 Besucher in die HanseMesse Rostock — ein Indoor-Format, das bewusst breit aufgestellt ist: Techno, Trance, Hard Dance und EDM teilen sich das Line-up statt sich auf ein einzelnes Subgenre zu beschränken. Damit füllt das Festival eine der ruhigeren Jahreszeiten für elektronische Musik in Norddeutschland — Anfang Dezember, wenn die meisten Open Airs längst vorbei sind.",
+    "lat": 54.1393903,
+    "lng": 12.0779788
+  },
+  {
+    "name": "UNREAL NYEVE-RAVE 2026",
+    "date": "2026-12-31",
+    "dateDisplay": "31. Dezember 2026",
+    "location": "Carlswerk Victoria, Köln",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Silvester mit purem Dark Techno — Unreal läutet das neue Jahr in der Carlswerk Victoria ein.",
+    "about": "Unreal ist bekannt für kompromisslose Hard-Techno-Line-ups in ungewöhnlichen Industrie-Locations — zu Silvester wird daraus ein dunkler, hochenergetischer Rave in der Carlswerk Victoria, einer 2018 eröffneten Eventhalle auf dem ehemaligen Gelände der Kölner Kabelfabrik Felten & Guillaume mit Platz für 1.600 Menschen. Statt Feuerwerk und Sektempfang: reiner, schonungsloser Techno-Sound zum Jahreswechsel.",
+    "lat": 50.9649372,
+    "lng": 7.0125415
+  },
+  {
+    "name": "AREAL FESTIVAL 2026",
+    "date": "2026-05-13",
+    "endDate": "2026-05-14",
+    "dateDisplay": "13.–14. Mai 2026",
+    "location": "Bosch-Areal (Lehmann Club & Mash), Stuttgart",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://lehmannclub.de/",
+    "soldOut": false,
+    "description": "Urbanes Warehouse-Format — Techno und Hard Techno auf zwei Floors mitten in Stuttgart.",
+    "about": "Areal Festival verwandelt das Stuttgarter Bosch-Areal in ein intensives Warehouse-Rave-Erlebnis — auf zwei benachbarten Indoor-Floors, dem Lehmann Club und dem Mash, treffen einflussreiche Kollektive, internationale DJs und lokale Nachwuchstalente aufeinander. Das Übernacht-Format von 22 bis 9 Uhr, kompromissloser Sound und die rohe Warehouse-Ästhetik machen Areal zu einem der interessantesten neuen Techno-Formate Deutschlands.",
+    "lat": 48.7784485,
+    "lng": 9.1800132
   }
 ];
 
