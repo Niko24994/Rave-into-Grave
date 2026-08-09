@@ -218,10 +218,11 @@ const VENUE_CALENDAR_URL = {
   'westfalenhallen.de':'https://www.westfalenhallen.de/veranstaltungen/',
   // Preregistration-Seite zeigt naechste Edition mit Datum
   'hive-festival.de':  'https://www.hive-festival.de/en/hive27-preregistration',
-  // /festival-Unterseite zeigt nur den einen echten Termin, keine Nebendaten
-  // (die allgemeine Startseite enthielt z.B. eine Ticket-Deadline, die als
-  // weitere Edition fehlinterpretiert wurde)
-  'electric-horizon.com': 'https://www.electric-horizon.com/festival',
+  // Kein Eintrag mehr fuer electric-horizon.com: Seit es zwei Editionen auf
+  // dieser Domain gibt (Sommer-Open-Air unter /festival, Winter-Indoor unter
+  // /indoor), wuerde eine domain-weite Weiterleitung hier beide auf dieselbe
+  // Unterseite zwingen. Stattdessen tragen beide festivals.js-Eintraege ihre
+  // korrekte Unterseite direkt im eigenen "url"-Feld.
 };
 
 function getDomain(url) {

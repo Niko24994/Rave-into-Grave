@@ -1322,7 +1322,7 @@ const festivals = [
     "genre": [
       "Hard Techno"
     ],
-    "url": "https://www.electric-horizon.com/en",
+    "url": "https://www.electric-horizon.com/festival",
     "soldOut": false,
     "description": "Hard Techno Open Air im Weldegarten Plankstadt — für alle die wissen was wirklich hart ist.",
     "lat": 49.4011747,
@@ -2910,6 +2910,56 @@ const festivals = [
     "about": "Elysium versteht sich selbst als „Kein gewöhnlicher Clubabend. Kein klassisches Festival“ — die erste Ausgabe in München hält die genaue Adresse bewusst geheim und verschickt sie erst mit dem Ticket per Mail, ein typisches Konzept seriöser Underground-Techno-Events. Auf 3.500 Quadratmetern verteilen sich drei Welten: eine Open-Air-Fläche, die monumentale Mainstage mit gewaltigem Sound- und Lichtsystem, und der Rittersaal für eine melodischere, ruhigere Reise durch tief hypnotische Sounds. Als Premiere ohne Vorjahre steht Elysium noch ganz am Anfang seiner Geschichte — die erste Ausgabe wird zeigen, wohin sich das Format entwickelt.",
     "lat": 48.1510916,
     "lng": 11.5624179
+  },
+  {
+    "name": "VERKNIPT HAMBURG 2026",
+    "date": "2026-10-16",
+    "endDate": "2026-10-17",
+    "dateDisplay": "16.–17. Oktober 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.verknipt.org/",
+    "soldOut": false,
+    "description": "Verknipts kompromissloser Hard Techno macht Station im Hamburger Edelfettwerk.",
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Hamburg-Ausgabe im Edelfettwerk ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
+    "lat": 53.5952901,
+    "lng": 9.9057809
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL – HAMBURG 2026",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "dateDisplay": "3.–4. Oktober 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://outside-world.de/",
+    "soldOut": false,
+    "description": "Norddeutschlands größtes Techno-Classics-Festival — Loveparade- und 90er-Nostalgie mit echten Szene-Urgesteinen.",
+    "about": "Outside World Festival gilt als Norddeutschlands größtes Techno-Classics-Festival — die Hamburg-Ausgabe im Edelfettwerk verteilt sich auf vier Bereiche: Main Stage, Hardtrance-Classics-Stage, Trance-Classics-Stage und HandsUp-Stage. Das Line-up liest sich wie ein Who-is-Who der 90er- und frühen-2000er-Techno- und Trance-Szene — DJ Rush, WestBam, Mauro Picotto, Talla 2XLC und weitere Urgesteine bringen die Loveparade-Ära zurück auf den Dancefloor.",
+    "lat": 53.5952901,
+    "lng": 9.9057809
+  },
+  {
+    "name": "ELECTRIC HORIZON INDOOR 2026",
+    "date": "2026-11-21",
+    "dateDisplay": "21. November 2026",
+    "location": "halle02, Heidelberg",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.electric-horizon.com/indoor",
+    "soldOut": false,
+    "description": "Der Winter-Ableger des Electric Horizon Festivals — zwei Floors Techno und Hardtechno in der halle02.",
+    "about": "Electric Horizon Indoor ist der winterliche Gegenpart zum Sommer-Original im Plankstadter Weldegarten — statt Open-Air-Palmen und Strandflair gibt es zwei Indoor-Floors in der Heidelberger halle02, mit einem Line-up aus Techno und Hardtechno von Acts wie In Verruf und Paraçek. Von 22 bis 5 Uhr bringt das Format die gleiche Energie wie die Sommerausgabe, nur unter Dach statt unter freiem Himmel.",
+    "lat": 49.4021824,
+    "lng": 8.6704571
   }
 ];
 
