@@ -3066,6 +3066,23 @@ const festivals = [
     "lat": 49.4021824,
     "lng": 8.6704571,
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
+  },
+  {
+    "name": "VERKNIPT BERLIN 2026",
+    "date": "2026-10-09",
+    "endDate": "2026-10-10",
+    "dateDisplay": "9.–10. Oktober 2026",
+    "location": "Club OST, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.verknipt.org/berlin/",
+    "soldOut": false,
+    "description": "Verknipts kompromissloser Hard Techno macht Station im Berliner Club OST.",
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Berlin-Ausgabe im Club OST direkt an der Spree ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
+    "anfahrt": "Adresse: Alt-Stralau 1-2, 10245 Berlin (Club OST). Der Club liegt direkt zwischen den Bahnhöfen Ostkreuz (Regionalbahn, S3, S41/S42, S5, S7, S75, S8, S85) und Treptower Park (S41/S42, S8, S85, S9) an der Spree. Einen eigenen Parkplatz gibt es nicht, der Veranstalter empfiehlt ausdrücklich die Anreise mit dem ÖPNV — direkt neben dem Club liegt ein Wohngebiet, dort bitte rücksichtsvoll parken.",
+    "lat": 52.4970681,
+    "lng": 13.4650321
   }
 ];
 
