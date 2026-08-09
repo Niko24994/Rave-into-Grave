@@ -1481,7 +1481,7 @@ const festivals = [
     "date": "2026-08-22",
     "endDate": "2026-08-24",
     "dateDisplay": "22.–24. August 2026",
-    "location": "Hamburg",
+    "location": "Deichtorhallen, Hamburg",
     "genre": [
       "Techno",
       "House"
