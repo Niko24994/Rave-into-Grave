@@ -2777,6 +2777,41 @@ const festivals = [
     "lat": 50.110597,
     "lng": 8.6144214,
     "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main."
+  },
+  {
+    "name": "NOISY FESTIVAL 2026",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateDisplay": "28.–30. August 2026",
+    "location": "Cruise Center Altona, Hamburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.noi-sy.com/",
+    "soldOut": false,
+    "description": "Direkt am Elbufer: Techno, Electro und House zwischen Hafenkränen und Kreuzfahrtterminal.",
+    "about": "NOISY holt elektronische Musik direkt ans Wasser — auf dem Gelände des Hamburg Cruise Center Altona, zwischen Kreuzfahrtterminal und Elbe, mitten im Hamburger Hafen. Statt klassischer Festivalwiese und Camping setzt das Festival bewusst auf ein urbanes Konzept: industrielle Hafenarchitektur trifft auf bis zu 10.000 Besucher und ein Programm aus Techno, Electro und Melodic House, mit direktem Blick auf die Elbe statt auf ein Zeltmeer.",
+    "lat": 53.5436585,
+    "lng": 9.9370696
+  },
+  {
+    "name": "OFFSIDE FETTIVAL 2026",
+    "date": "2026-08-21",
+    "endDate": "2026-08-22",
+    "dateDisplay": "21.–22. August 2026",
+    "location": "Kranichfeld, Thüringen",
+    "genre": [
+      "House",
+      "Techno"
+    ],
+    "url": "https://fettev.org/",
+    "soldOut": false,
+    "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
+    "about": "Das OFFSIDE FETTival wird von den „Freunden elektronischer Tanzmusik Thüringen e.V.“ veranstaltet — einem gemeinnützigen Verein, der House- und Techno-Kultur bewusst dorthin bringt, wo sie sonst selten hinkommt: aufs Land. Mit rund 500 Besucher:innen in Kranichfeld bei Erfurt bleibt das Festival bewusst klein und community-getragen, finanziert unter anderem über Crowdfunding — ein Gegenentwurf zu den kommerziellen Großformaten der Szene.",
+    "lat": 50.8526515,
+    "lng": 11.1998899
   }
 ];
 
