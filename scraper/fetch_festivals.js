@@ -803,6 +803,7 @@ async function scrapeVerknipt(url) {
     const textLower = text.toLowerCase();
     const location = textLower.includes('amsterdam')  ? 'Amsterdam (NL)'
                    : textLower.includes('oberhausen') ? 'Turbinenhalle, Oberhausen'
+                   : textLower.includes('hamburg')    ? 'Edelfettwerk, Hamburg'
                    : textLower.includes('utrecht')    ? 'Utrecht (NL)'
                    : textLower.includes('rotterdam')  ? 'Rotterdam (NL)'
                    : textLower.includes('eindhoven')  ? 'Eindhoven (NL)'
