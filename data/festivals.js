@@ -2812,6 +2812,21 @@ const festivals = [
     "about": "Das OFFSIDE FETTival wird von den „Freunden elektronischer Tanzmusik Thüringen e.V.“ veranstaltet — einem gemeinnützigen Verein, der House- und Techno-Kultur bewusst dorthin bringt, wo sie sonst selten hinkommt: aufs Land. Mit rund 500 Besucher:innen in Kranichfeld bei Erfurt bleibt das Festival bewusst klein und community-getragen, finanziert unter anderem über Crowdfunding — ein Gegenentwurf zu den kommerziellen Großformaten der Szene.",
     "lat": 50.8526515,
     "lng": 11.1998899
+  },
+  {
+    "name": "TECHNO IM PARK 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "11. Juli 2026",
+    "location": "Spanischer Vallan, Rheinberg",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.kpipfestival.de/",
+    "soldOut": false,
+    "description": "Eintägiger Open-Air-Rave im Stadtpark — kostenloser Eintritt, neun DJs bis tief in die Nacht.",
+    "about": "Techno im Park ist das eintägige Nachfolgeformat des dreitägigen KPiP-Festivals, das vier Jahre lang im Rheinberger Stadtpark stattfand — zuletzt im Juni 2025 mit rund 6.500 Besuchern. Veranstalter ist der KulturVallanisten e.V., benannt nach dem markanten Spanischen Vallan im Park, um den herum die Bühne aufgebaut wird. Neun DJs, freier Eintritt, von 11 Uhr mittags bis tief in die Nacht.",
+    "lat": 51.5415849,
+    "lng": 6.6018687
   }
 ];
 
