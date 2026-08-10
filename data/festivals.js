@@ -49,6 +49,23 @@ const festivals = [
     "lng": 7.4602637
   },
   {
+    "name": "AREAL FESTIVAL 2026",
+    "date": "2026-05-13",
+    "endDate": "2026-05-14",
+    "dateDisplay": "13.–14. Mai 2026",
+    "location": "Bosch-Areal (Lehmann Club & Mash), Stuttgart",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://lehmannclub.de/",
+    "soldOut": false,
+    "description": "Urbanes Warehouse-Format — Techno und Hard Techno auf zwei Floors mitten in Stuttgart.",
+    "about": "Areal Festival verwandelt das Stuttgarter Bosch-Areal in ein intensives Warehouse-Rave-Erlebnis — auf zwei benachbarten Indoor-Floors, dem Lehmann Club und dem Mash, treffen einflussreiche Kollektive, internationale DJs und lokale Nachwuchstalente aufeinander. Das Übernacht-Format von 22 bis 9 Uhr, kompromissloser Sound und die rohe Warehouse-Ästhetik machen Areal zu einem der interessantesten neuen Techno-Formate Deutschlands.",
+    "lat": 48.7784485,
+    "lng": 9.1800132
+  },
+  {
     "name": "SPUTNIK SPRING BREAK 2026",
     "date": "2026-05-22",
     "endDate": "2026-05-25",
@@ -446,6 +463,21 @@ const festivals = [
     "description": "Open Air im Badezentrum Sindelfingen mit Kobosil, I Hate Models und Deborah de Luca — in Kooperation mit dem Lehmannclub Stuttgart.",
     "lat": 48.7193827,
     "lng": 9.0167905
+  },
+  {
+    "name": "TECHNO IM PARK 2026",
+    "date": "2026-07-11",
+    "dateDisplay": "11. Juli 2026",
+    "location": "Spanischer Vallan, Rheinberg",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.kpipfestival.de/",
+    "soldOut": false,
+    "description": "Eintägiger Open-Air-Rave im Stadtpark — kostenloser Eintritt, neun DJs bis tief in die Nacht.",
+    "about": "Techno im Park ist das eintägige Nachfolgeformat des dreitägigen KPiP-Festivals, das vier Jahre lang im Rheinberger Stadtpark stattfand — zuletzt im Juni 2025 mit rund 6.500 Besuchern. Veranstalter ist der KulturVallanisten e.V., benannt nach dem markanten Spanischen Vallan im Park, um den herum die Bühne aufgebaut wird. Neun DJs, freier Eintritt, von 11 Uhr mittags bis tief in die Nacht.",
+    "lat": 51.5415849,
+    "lng": 6.6018687
   },
   {
     "name": "DEICHBRAND 2026",
@@ -1443,6 +1475,24 @@ const festivals = [
     "anfahrt": "Mit dem Auto über die A620 (Ausfahrt Völklingen) oder die A8 (Ausfahrt Saarbrücken-Klarenthal). Mit der Bahn geht es bis Saarbrücken Hauptbahnhof, von dort mit der S1 nach Völklingen — von der Haltestelle sind es nur rund 5 Minuten Fußweg zum Hütteneingang."
   },
   {
+    "name": "OFFSIDE FETTIVAL 2026",
+    "date": "2026-08-21",
+    "endDate": "2026-08-22",
+    "dateDisplay": "21.–22. August 2026",
+    "location": "Kranichfeld, Thüringen",
+    "genre": [
+      "House",
+      "Techno"
+    ],
+    "url": "https://fettev.org/",
+    "soldOut": false,
+    "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
+    "about": "Das OFFSIDE FETTival wird von den „Freunden elektronischer Tanzmusik Thüringen e.V.“ veranstaltet — einem gemeinnützigen Verein, der House- und Techno-Kultur bewusst dorthin bringt, wo sie sonst selten hinkommt: aufs Land. Mit rund 500 Besucher:innen in Kranichfeld bei Erfurt bleibt das Festival bewusst klein und community-getragen, finanziert unter anderem über Crowdfunding — ein Gegenentwurf zu den kommerziellen Großformaten der Szene.",
+    "lat": 50.8526515,
+    "lng": 11.1998899,
+    "anfahrt": "Adresse: Niederburg Kranichfeld, Schloßgasse 18, 99448 Kranichfeld. Mit dem Auto über die A71 (Thüringer-Wald-Autobahn), Ausfahrt Arnstadt-Süd über Stadtilm, oder über A9/A4, Ausfahrt Erfurt-Ost (von dort nur rund 10 km). Am Auenweg, direkt neben der Niederburg, gibt es einen großen Parkplatz für Busse und Autos. Das Gelände liegt zudem direkt am Bahnhof Kranichfeld und ist mit der Buslinie 155 ab Erfurt gut erreichbar."
+  },
+  {
     "name": "TFELD FESTIVAL 2026",
     "date": "2026-08-22",
     "dateDisplay": "22. August 2026",
@@ -1604,6 +1654,25 @@ const festivals = [
     "lng": 10.25,
     "about": "2012 machten die Gründer ein Freiwilliges Soziales Jahr im Wildbad Rothenburg und veranstalteten dort mit Freunden zum ersten Mal den „Sundowner\" — daraus wuchs der Verein Grenzkunst und mit ihm das Eulenflug-Festival. Auf einem liebevoll dekorierten Waldgelände mit mehreren selbstgebauten Bühnen verschwimmen bewusst die Grenzen zwischen Musik, Theater und darstellender Kunst — seit Jahren arbeitet das Festival dafür mit Sprayern und Street-Art-Künstler:innen zusammen, die live vor Publikum arbeiten.",
     "anfahrt": "Fürs Navi einfach Linden, 91635 eingeben — ab dort weisen Eulen-Schilder am Straßenrand den Weg. Von Rothenburg kommend gibt es zusätzlich Beschilderung ab den Ausfahrten Schweinsdorfer Straße und Ansbacher Straße."
+  },
+  {
+    "name": "NOISY FESTIVAL 2026",
+    "date": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateDisplay": "28.–30. August 2026",
+    "location": "Cruise Center Altona, Hamburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.noi-sy.com/",
+    "soldOut": false,
+    "description": "Direkt am Elbufer: Techno, Electro und House zwischen Hafenkränen und Kreuzfahrtterminal.",
+    "about": "NOISY holt elektronische Musik direkt ans Wasser — auf dem Gelände des Hamburg Cruise Center Altona, zwischen Kreuzfahrtterminal und Elbe, mitten im Hamburger Hafen. Statt klassischer Festivalwiese und Camping setzt das Festival bewusst auf ein urbanes Konzept: industrielle Hafenarchitektur trifft auf bis zu 10.000 Besucher und ein Programm aus Techno, Electro und Melodic House, mit direktem Blick auf die Elbe statt auf ein Zeltmeer.",
+    "lat": 53.5436585,
+    "lng": 9.9370696,
+    "anfahrt": "ÖPNV wird ausdrücklich empfohlen: mit der Bahn bis zum Hauptbahnhof, dann mit der S-Bahn S1 bis Königstraße, oder alternativ mit der Fähre Linie 62 bis Dockland (kurzer Fußweg zum Gelände). Kostenpflichtige Parkplätze sind zwar vorhanden, aber laut Veranstalter nicht die empfohlene Option."
   },
   {
     "name": "SOLÅ FESTIVAL 2026",
@@ -1839,6 +1908,24 @@ const festivals = [
     "anfahrt": "Adresse: Am Sorpesee 191, Sundern (Sauerland). Der Parkplatz wird gemeinsam mit dem Nordic-Familienpark Sorpesee und dem Restaurant Meilenweit genutzt, ein Parkticket ist erforderlich (alternativ 16 weitere kostenpflichtige Parkflächen rund um den See, täglich 8-20 Uhr). Aus Richtung Norden mit der Bahn bis Neheim-Hüsten, dann Buslinie R25 oder S20 Richtung Sundern; aus Richtung Süden bis Finnentrop, dann Buslinie 335 Richtung Sundern."
   },
   {
+    "name": "ELYSIUM FESTIVAL GERMANY 2026",
+    "date": "2026-09-12",
+    "endDate": "2026-09-13",
+    "dateDisplay": "12.–13. September 2026",
+    "location": "Maxvorstadt, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://elysium-festival.com/",
+    "soldOut": false,
+    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
+    "about": "Elysium versteht sich selbst als „Kein gewöhnlicher Clubabend. Kein klassisches Festival“ — die erste Ausgabe in München hält die genaue Adresse bewusst geheim und verschickt sie erst mit dem Ticket per Mail, ein typisches Konzept seriöser Underground-Techno-Events. Auf 3.500 Quadratmetern verteilen sich drei Welten: eine Open-Air-Fläche, die monumentale Mainstage mit gewaltigem Sound- und Lichtsystem, und der Rittersaal für eine melodischere, ruhigere Reise durch tief hypnotische Sounds. Als Premiere ohne Vorjahre steht Elysium noch ganz am Anfang seiner Geschichte — die erste Ausgabe wird zeigen, wohin sich das Format entwickelt.",
+    "lat": 48.1510916,
+    "lng": 11.5624179
+  },
+  {
     "name": "RHEINGRÜN OPEN AIR 2026",
     "date": "2026-09-19",
     "endDate": "2026-09-20",
@@ -1908,6 +1995,42 @@ const festivals = [
     "about": "Amaya feiert seine Premiere als erste Veranstaltung dieser Größenordnung im BBBank Wildpark Stadion — dem Fußballstadion des Karlsruher SC. Statt sich an bestehenden Festivalformaten zu orientieren, wählten die Veranstalter bewusst einen komplett neuen Ansatz für die neue Infrastruktur: Gefeiert wird in den Katakomben des Stadions, wo raue Industrie-Untergrund-Optik auf kompromisslosen Techno-Sound trifft."
   },
   {
+    "name": "OUTSIDE WORLD FESTIVAL – HAMBURG 2026",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "dateDisplay": "3.–4. Oktober 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://outside-world.de/",
+    "soldOut": false,
+    "description": "Norddeutschlands größtes Techno-Classics-Festival — Loveparade- und 90er-Nostalgie mit echten Szene-Urgesteinen.",
+    "about": "Outside World Festival gilt als Norddeutschlands größtes Techno-Classics-Festival — die Hamburg-Ausgabe im Edelfettwerk verteilt sich auf vier Bereiche: Main Stage, Hardtrance-Classics-Stage, Trance-Classics-Stage und HandsUp-Stage. Das Line-up liest sich wie ein Who-is-Who der 90er- und frühen-2000er-Techno- und Trance-Szene — DJ Rush, WestBam, Mauro Picotto, Talla 2XLC und weitere Urgesteine bringen die Loveparade-Ära zurück auf den Dancefloor.",
+    "lat": 53.5952901,
+    "lng": 9.9057809,
+    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
+  },
+  {
+    "name": "VERKNIPT BERLIN 2026",
+    "date": "2026-10-09",
+    "endDate": "2026-10-10",
+    "dateDisplay": "9.–10. Oktober 2026",
+    "location": "Club OST, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.verknipt.org/berlin/",
+    "soldOut": false,
+    "description": "Verknipts kompromissloser Hard Techno macht Station im Berliner Club OST.",
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Berlin-Ausgabe im Club OST direkt an der Spree ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
+    "anfahrt": "Adresse: Alt-Stralau 1-2, 10245 Berlin (Club OST). Der Club liegt direkt zwischen den Bahnhöfen Ostkreuz (Regionalbahn, S3, S41/S42, S5, S7, S75, S8, S85) und Treptower Park (S41/S42, S8, S85, S9) an der Spree. Einen eigenen Parkplatz gibt es nicht, der Veranstalter empfiehlt ausdrücklich die Anreise mit dem ÖPNV — direkt neben dem Club liegt ein Wohngebiet, dort bitte rücksichtsvoll parken.",
+    "lat": 52.4970681,
+    "lng": 13.4650321
+  },
+  {
     "name": "BLACKLIST FESTIVAL 2026",
     "date": "2026-10-10",
     "dateDisplay": "10. Oktober 2026",
@@ -1924,6 +2047,23 @@ const festivals = [
     "lng": 6.8514435,
     "about": "Blacklist wurde im legendären Kölner Bootshaus-Club gegründet und bespielt seit 2017 Bühnen bei Parookaville, New Horizons und SonneMondSterne. Seit der Rückkehr in die Turbinenhalle Oberhausen 2023 und dem zehnjährigen Jubiläum 2025 gilt Blacklist als eine der größten Bass-Partys Deutschlands — vier Bühnen für Dubstep, Drum & Bass, Tearout und Hybrid-Metal, wo elektronische Musik und Metalcore aufeinandertreffen.",
     "anfahrt": "Adresse: Im Lipperfeld 23, 46047 Oberhausen (Turbinenhalle). Mit dem Bus bis zur Haltestelle „Im Lipperfeld\". Parkplätze sind an der Turbinenhalle kostenpflichtig vorhanden (je nach Verfügbarkeit, Zahlung vor Ort)."
+  },
+  {
+    "name": "VERKNIPT HAMBURG 2026",
+    "date": "2026-10-16",
+    "endDate": "2026-10-17",
+    "dateDisplay": "16.–17. Oktober 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.verknipt.org/",
+    "soldOut": false,
+    "description": "Verknipts kompromissloser Hard Techno macht Station im Hamburger Edelfettwerk.",
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Hamburg-Ausgabe im Edelfettwerk ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
+    "lat": 53.5952901,
+    "lng": 9.9057809,
+    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
     "name": "REACTŌR AFTERMATH 2026",
@@ -1975,6 +2115,22 @@ const festivals = [
     "lng": 8.8071646,
     "about": "Ace of Rave gilt als die populärste Hardtechno-Indoor-Night im Norden — drei Floors, 16 Artists und fünf Headliner auf einer Bühne für Hardtechno, Trance, Schranz, Bounce und Psytrance. Austragungsort ist der Twister-Dance-Club in Sande, der nach einem Großbrand im November 2023 wiedereröffnet wurde.",
     "anfahrt": "Adresse: Hannoversche Straße 11, 28309 Bremen. Aus Richtung Osnabrück Ausfahrt Bremen-Hemelingen-Centrum nehmen, aus Richtung Hamburg/Bremer Kreuz ebenfalls Ausfahrt Bremen-Hemelingen-Centrum und dann die zweite Ausfahrt „Hemelingen\" von der Schnellstraße. Mit der Bahn ab Hauptbahnhof mit der Straßenbahnlinie 10 Richtung Sebaldsbrück, Ausstieg Föhrenstraße plus Umstieg auf Bus 40/41 bis „Glockenstraße/Bahnhof Hemelingen\" (ca. 5 Minuten Fußweg), oder bis Sebaldsbrück und rund 10 Minuten zu Fuß durch den Bahntunnel. Ausreichend Parkplätze sind direkt rund um das Gebäude vorhanden."
+  },
+  {
+    "name": "ELECTRIC SEA DANCE FESTIVAL 2026",
+    "date": "2026-10-17",
+    "dateDisplay": "17. Oktober 2026",
+    "location": "HanseMesse, Rostock",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://www.electric-sea.de/",
+    "soldOut": false,
+    "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
+    "lat": 54.1393903,
+    "lng": 12.0779788
   },
   {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
@@ -2076,6 +2232,23 @@ const festivals = [
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
+    "name": "ELECTRIC HORIZON INDOOR 2026",
+    "date": "2026-11-21",
+    "dateDisplay": "21. November 2026",
+    "location": "halle02, Heidelberg",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.electric-horizon.com/indoor",
+    "soldOut": false,
+    "description": "Der Winter-Ableger des Electric Horizon Festivals — zwei Floors Techno und Hardtechno in der halle02.",
+    "about": "Electric Horizon Indoor ist der winterliche Gegenpart zum Sommer-Original im Plankstadter Weldegarten — statt Open-Air-Palmen und Strandflair gibt es zwei Indoor-Floors in der Heidelberger halle02, mit einem Line-up aus Techno und Hardtechno von Acts wie In Verruf und Paraçek. Von 22 bis 5 Uhr bringt das Format die gleiche Energie wie die Sommerausgabe, nur unter Dach statt unter freiem Himmel.",
+    "lat": 49.4021824,
+    "lng": 8.6704571,
+    "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
+  },
+  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. November 2026",
@@ -2163,6 +2336,24 @@ const festivals = [
     "anfahrt": "Adresse: Lilienthalallee 29, 80939 München. Die U-Bahn-Linie U6 Richtung Garching-Forschungszentrum bis Haltestelle Freimann bringt euch in rund 10 Minuten Fußweg zum Zenith. Parken könnt ihr im Motorworld-Parkhaus direkt am Gelände (kostenpflichtig) oder mit etwas Glück kostenlos am Frankplatz, von dort sind es 350-500 Meter zu Fuß."
   },
   {
+    "name": "ELECTRIC SEA DANCE FESTIVAL 2026",
+    "date": "2026-12-05",
+    "dateDisplay": "5. Dezember 2026",
+    "location": "HanseMesse, Rostock",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://www.electric-sea.de/",
+    "soldOut": false,
+    "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
+    "about": "Electric Sea Dance bringt einmal im Jahr rund 5.000 Besucher in die HanseMesse Rostock — ein Indoor-Format, das bewusst breit aufgestellt ist: Techno, Trance, Hard Dance und EDM teilen sich das Line-up statt sich auf ein einzelnes Subgenre zu beschränken. Damit füllt das Festival eine der ruhigeren Jahreszeiten für elektronische Musik in Norddeutschland — Anfang Dezember, wenn die meisten Open Airs längst vorbei sind.",
+    "lat": 54.1393903,
+    "lng": 12.0779788,
+    "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
+  },
+  {
     "name": "44 LABEL X STUTYARD 2026",
     "date": "2026-12-12",
     "dateDisplay": "12. Dezember 2026",
@@ -2210,6 +2401,22 @@ const festivals = [
     "lng": 6.8666494,
     "about": "Rund 5.000 Besucher feiern jedes Jahr am 1. Weihnachtstag bei Army of Hardcore in der Turbinenhalle Oberhausen — Hardcore, Gabber und maximale Feierlaune statt Bescherung. Die Turbinenhalle selbst hat eine lange Geschichte: 1909 zur Stromerzeugung für die Gutehoffnungshütte errichtet, stand sie jahrelang leer, bevor sie 1993 als Disco wiedereröffnet wurde und sich seither zu einer der größten Veranstaltungshallen der Region entwickelt hat.",
     "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
+  },
+  {
+    "name": "UNREAL NYEVE-RAVE 2026",
+    "date": "2026-12-31",
+    "dateDisplay": "31. Dezember 2026",
+    "location": "Carlswerk Victoria, Köln",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.unrealgermany.de/",
+    "soldOut": false,
+    "description": "Silvester mit purem Dark Techno — Unreal läutet das neue Jahr in der Carlswerk Victoria ein.",
+    "about": "Unreal ist bekannt für kompromisslose Hard-Techno-Line-ups in ungewöhnlichen Industrie-Locations — zu Silvester wird daraus ein dunkler, hochenergetischer Rave in der Carlswerk Victoria, einer 2018 eröffneten Eventhalle auf dem ehemaligen Gelände der Kölner Kabelfabrik Felten & Guillaume mit Platz für 1.600 Menschen. Statt Feuerwerk und Sektempfang: reiner, schonungsloser Techno-Sound zum Jahreswechsel.",
+    "lat": 50.9649372,
+    "lng": 7.0125415,
+    "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
   },
   {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
@@ -2309,6 +2516,23 @@ const festivals = [
     "lng": 8.5239462,
     "about": "Time Warp ist keine gewöhnliche Techno-Party — es ist eine Institution. Gegründet 1994 von Steffen Charles, feierte das Festival seine Premiere im November desselben Jahres in der Nähe von Stuttgart, mit gerade einmal 2.000 Besuchern. Schon ein Jahr später zog es nach Mannheim um — und ist dort seitdem zu Hause. Die Maimarkthalle macht möglich, was in den meisten Locations unmöglich wäre: tonnenschwere LED-Wände, immersive Laser-Arrays, Soundsysteme in Industriegröße. Kein Zufall, dass Mannheim dank Time Warp den Titel „UNESCO City of Music\" trägt. Was in Deutschland begann, hat sich längst international ausgebreitet — mit Ablegern in São Paulo, New York, Madrid und Santiago de Chile.",
     "anfahrt": "ÖPNV wird ausdrücklich empfohlen — mit gültigem Time-Warp-Ticket ist die Fahrt im gesamten VRN-Gebiet kostenlos. Die Maimarkthalle erreicht ihr per Straßenbahn Linie 6/6A oder Buslinie 50 bis Haltestelle „Maimarkt\", per OEG-Bahn Linie 5 bis „MA-Neuostheim\", oder mit der S-Bahn (S2/S3/S6) bis „Mannheim Arena/Maimarkt\". Parkplätze gibt es direkt am Gelände für 6 Euro, außerdem einen Festival-Bus als Alternative."
+  },
+  {
+    "name": "TECHNO MEETS PSY INDOOR FESTIVAL 2027",
+    "date": "2027-04-03",
+    "dateDisplay": "3. April 2027",
+    "location": "Marstall Putbus, Rügen",
+    "genre": [
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "",
+    "soldOut": false,
+    "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
+    "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
+    "lat": 54.3494378,
+    "lng": 13.4718006,
+    "anfahrt": "Adresse: Marstall Putbus, Park 6, 18581 Putbus (Rügen). Direkt am Eingang zum Marstall liegt ein meist ausreichend großer Parkplatz am Wreechener Weg; alternativ könnt ihr auch am Markt oder am Circus parken. Kostenpflichtige Parkplätze sind zudem in unmittelbarer Umgebung des Marstalls vorhanden."
   },
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
@@ -2858,6 +3082,38 @@ const festivals = [
     "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
   },
   {
+    "name": "CIRCLE OF LEAVES FESTIVAL 2027",
+    "date": "2027-08-08",
+    "dateDisplay": "8. August 2027",
+    "location": "Marbach-Stausee, Oberzent (Hessen)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://circle-of-leaves.com/",
+    "soldOut": false,
+    "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
+    "lat": 49.6101502,
+    "lng": 8.9671301
+  },
+  {
+    "name": "ELECTRISIZE 2027",
+    "date": "2027-08-08",
+    "dateDisplay": "8. August 2027",
+    "location": "Haus Hohenbusch, Erkelenz",
+    "genre": [
+      "EDM",
+      "Techno",
+      "Hard Techno",
+      "Hardstyle"
+    ],
+    "url": "https://www.electrisize.de",
+    "soldOut": false,
+    "description": "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.",
+    "lat": 51.0681502,
+    "lng": 6.2781717
+  },
+  {
     "name": "LOVE FAMILY PARK 2027",
     "date": "2027-08-14",
     "endDate": "2027-08-15",
@@ -2875,214 +3131,6 @@ const festivals = [
     "lng": 8.6144214,
     "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main.",
     "anfahrt": "Adresse: Max-Pruss-Straße/Am Römerhof 9, 60486 Frankfurt am Main. Der nächste Bahnhof „Frankfurt Messe\" ist ab dem Hauptbahnhof in rund 5 Minuten mit der S3, S4 oder S5 erreichbar — das Festivalticket gilt gleichzeitig als Freifahrschein im gesamten RMV-Gebiet für den Veranstaltungstag. Parkplätze (Bereich D oder E) kosten 15 Euro, Tickets gibt es nur online im Voraus, vor Ort wird ausschließlich mit passendem Bargeld bezahlt."
-  },
-  {
-    "name": "NOISY FESTIVAL 2026",
-    "date": "2026-08-28",
-    "endDate": "2026-08-30",
-    "dateDisplay": "28.–30. August 2026",
-    "location": "Cruise Center Altona, Hamburg",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "House"
-    ],
-    "url": "https://www.noi-sy.com/",
-    "soldOut": false,
-    "description": "Direkt am Elbufer: Techno, Electro und House zwischen Hafenkränen und Kreuzfahrtterminal.",
-    "about": "NOISY holt elektronische Musik direkt ans Wasser — auf dem Gelände des Hamburg Cruise Center Altona, zwischen Kreuzfahrtterminal und Elbe, mitten im Hamburger Hafen. Statt klassischer Festivalwiese und Camping setzt das Festival bewusst auf ein urbanes Konzept: industrielle Hafenarchitektur trifft auf bis zu 10.000 Besucher und ein Programm aus Techno, Electro und Melodic House, mit direktem Blick auf die Elbe statt auf ein Zeltmeer.",
-    "lat": 53.5436585,
-    "lng": 9.9370696,
-    "anfahrt": "ÖPNV wird ausdrücklich empfohlen: mit der Bahn bis zum Hauptbahnhof, dann mit der S-Bahn S1 bis Königstraße, oder alternativ mit der Fähre Linie 62 bis Dockland (kurzer Fußweg zum Gelände). Kostenpflichtige Parkplätze sind zwar vorhanden, aber laut Veranstalter nicht die empfohlene Option."
-  },
-  {
-    "name": "OFFSIDE FETTIVAL 2026",
-    "date": "2026-08-21",
-    "endDate": "2026-08-22",
-    "dateDisplay": "21.–22. August 2026",
-    "location": "Kranichfeld, Thüringen",
-    "genre": [
-      "House",
-      "Techno"
-    ],
-    "url": "https://fettev.org/",
-    "soldOut": false,
-    "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
-    "about": "Das OFFSIDE FETTival wird von den „Freunden elektronischer Tanzmusik Thüringen e.V.“ veranstaltet — einem gemeinnützigen Verein, der House- und Techno-Kultur bewusst dorthin bringt, wo sie sonst selten hinkommt: aufs Land. Mit rund 500 Besucher:innen in Kranichfeld bei Erfurt bleibt das Festival bewusst klein und community-getragen, finanziert unter anderem über Crowdfunding — ein Gegenentwurf zu den kommerziellen Großformaten der Szene.",
-    "lat": 50.8526515,
-    "lng": 11.1998899,
-    "anfahrt": "Adresse: Niederburg Kranichfeld, Schloßgasse 18, 99448 Kranichfeld. Mit dem Auto über die A71 (Thüringer-Wald-Autobahn), Ausfahrt Arnstadt-Süd über Stadtilm, oder über A9/A4, Ausfahrt Erfurt-Ost (von dort nur rund 10 km). Am Auenweg, direkt neben der Niederburg, gibt es einen großen Parkplatz für Busse und Autos. Das Gelände liegt zudem direkt am Bahnhof Kranichfeld und ist mit der Buslinie 155 ab Erfurt gut erreichbar."
-  },
-  {
-    "name": "TECHNO IM PARK 2026",
-    "date": "2026-07-11",
-    "dateDisplay": "11. Juli 2026",
-    "location": "Spanischer Vallan, Rheinberg",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.kpipfestival.de/",
-    "soldOut": false,
-    "description": "Eintägiger Open-Air-Rave im Stadtpark — kostenloser Eintritt, neun DJs bis tief in die Nacht.",
-    "about": "Techno im Park ist das eintägige Nachfolgeformat des dreitägigen KPiP-Festivals, das vier Jahre lang im Rheinberger Stadtpark stattfand — zuletzt im Juni 2025 mit rund 6.500 Besuchern. Veranstalter ist der KulturVallanisten e.V., benannt nach dem markanten Spanischen Vallan im Park, um den herum die Bühne aufgebaut wird. Neun DJs, freier Eintritt, von 11 Uhr mittags bis tief in die Nacht.",
-    "lat": 51.5415849,
-    "lng": 6.6018687
-  },
-  {
-    "name": "ELECTRIC SEA DANCE FESTIVAL 2026",
-    "date": "2026-12-05",
-    "dateDisplay": "5. Dezember 2026",
-    "location": "HanseMesse, Rostock",
-    "genre": [
-      "Techno",
-      "Trance",
-      "EDM"
-    ],
-    "url": "https://www.electric-sea.de/",
-    "soldOut": false,
-    "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
-    "about": "Electric Sea Dance bringt einmal im Jahr rund 5.000 Besucher in die HanseMesse Rostock — ein Indoor-Format, das bewusst breit aufgestellt ist: Techno, Trance, Hard Dance und EDM teilen sich das Line-up statt sich auf ein einzelnes Subgenre zu beschränken. Damit füllt das Festival eine der ruhigeren Jahreszeiten für elektronische Musik in Norddeutschland — Anfang Dezember, wenn die meisten Open Airs längst vorbei sind.",
-    "lat": 54.1393903,
-    "lng": 12.0779788,
-    "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
-  },
-  {
-    "name": "UNREAL NYEVE-RAVE 2026",
-    "date": "2026-12-31",
-    "dateDisplay": "31. Dezember 2026",
-    "location": "Carlswerk Victoria, Köln",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.unrealgermany.de/",
-    "soldOut": false,
-    "description": "Silvester mit purem Dark Techno — Unreal läutet das neue Jahr in der Carlswerk Victoria ein.",
-    "about": "Unreal ist bekannt für kompromisslose Hard-Techno-Line-ups in ungewöhnlichen Industrie-Locations — zu Silvester wird daraus ein dunkler, hochenergetischer Rave in der Carlswerk Victoria, einer 2018 eröffneten Eventhalle auf dem ehemaligen Gelände der Kölner Kabelfabrik Felten & Guillaume mit Platz für 1.600 Menschen. Statt Feuerwerk und Sektempfang: reiner, schonungsloser Techno-Sound zum Jahreswechsel.",
-    "lat": 50.9649372,
-    "lng": 7.0125415,
-    "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
-  },
-  {
-    "name": "AREAL FESTIVAL 2026",
-    "date": "2026-05-13",
-    "endDate": "2026-05-14",
-    "dateDisplay": "13.–14. Mai 2026",
-    "location": "Bosch-Areal (Lehmann Club & Mash), Stuttgart",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://lehmannclub.de/",
-    "soldOut": false,
-    "description": "Urbanes Warehouse-Format — Techno und Hard Techno auf zwei Floors mitten in Stuttgart.",
-    "about": "Areal Festival verwandelt das Stuttgarter Bosch-Areal in ein intensives Warehouse-Rave-Erlebnis — auf zwei benachbarten Indoor-Floors, dem Lehmann Club und dem Mash, treffen einflussreiche Kollektive, internationale DJs und lokale Nachwuchstalente aufeinander. Das Übernacht-Format von 22 bis 9 Uhr, kompromissloser Sound und die rohe Warehouse-Ästhetik machen Areal zu einem der interessantesten neuen Techno-Formate Deutschlands.",
-    "lat": 48.7784485,
-    "lng": 9.1800132
-  },
-  {
-    "name": "TECHNO MEETS PSY INDOOR FESTIVAL 2027",
-    "date": "2027-04-03",
-    "dateDisplay": "3. April 2027",
-    "location": "Marstall Putbus, Rügen",
-    "genre": [
-      "Techno",
-      "Psytrance"
-    ],
-    "url": "",
-    "soldOut": false,
-    "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
-    "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
-    "lat": 54.3494378,
-    "lng": 13.4718006,
-    "anfahrt": "Adresse: Marstall Putbus, Park 6, 18581 Putbus (Rügen). Direkt am Eingang zum Marstall liegt ein meist ausreichend großer Parkplatz am Wreechener Weg; alternativ könnt ihr auch am Markt oder am Circus parken. Kostenpflichtige Parkplätze sind zudem in unmittelbarer Umgebung des Marstalls vorhanden."
-  },
-  {
-    "name": "ELYSIUM FESTIVAL GERMANY 2026",
-    "date": "2026-09-12",
-    "endDate": "2026-09-13",
-    "dateDisplay": "12.–13. September 2026",
-    "location": "Maxvorstadt, München",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://elysium-festival.com/",
-    "soldOut": false,
-    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
-    "about": "Elysium versteht sich selbst als „Kein gewöhnlicher Clubabend. Kein klassisches Festival“ — die erste Ausgabe in München hält die genaue Adresse bewusst geheim und verschickt sie erst mit dem Ticket per Mail, ein typisches Konzept seriöser Underground-Techno-Events. Auf 3.500 Quadratmetern verteilen sich drei Welten: eine Open-Air-Fläche, die monumentale Mainstage mit gewaltigem Sound- und Lichtsystem, und der Rittersaal für eine melodischere, ruhigere Reise durch tief hypnotische Sounds. Als Premiere ohne Vorjahre steht Elysium noch ganz am Anfang seiner Geschichte — die erste Ausgabe wird zeigen, wohin sich das Format entwickelt.",
-    "lat": 48.1510916,
-    "lng": 11.5624179
-  },
-  {
-    "name": "VERKNIPT HAMBURG 2026",
-    "date": "2026-10-16",
-    "endDate": "2026-10-17",
-    "dateDisplay": "16.–17. Oktober 2026",
-    "location": "Edelfettwerk, Hamburg",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.verknipt.org/",
-    "soldOut": false,
-    "description": "Verknipts kompromissloser Hard Techno macht Station im Hamburger Edelfettwerk.",
-    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Hamburg-Ausgabe im Edelfettwerk ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
-    "lat": 53.5952901,
-    "lng": 9.9057809,
-    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
-  },
-  {
-    "name": "OUTSIDE WORLD FESTIVAL – HAMBURG 2026",
-    "date": "2026-10-03",
-    "endDate": "2026-10-04",
-    "dateDisplay": "3.–4. Oktober 2026",
-    "location": "Edelfettwerk, Hamburg",
-    "genre": [
-      "Techno",
-      "Trance",
-      "EDM"
-    ],
-    "url": "https://outside-world.de/",
-    "soldOut": false,
-    "description": "Norddeutschlands größtes Techno-Classics-Festival — Loveparade- und 90er-Nostalgie mit echten Szene-Urgesteinen.",
-    "about": "Outside World Festival gilt als Norddeutschlands größtes Techno-Classics-Festival — die Hamburg-Ausgabe im Edelfettwerk verteilt sich auf vier Bereiche: Main Stage, Hardtrance-Classics-Stage, Trance-Classics-Stage und HandsUp-Stage. Das Line-up liest sich wie ein Who-is-Who der 90er- und frühen-2000er-Techno- und Trance-Szene — DJ Rush, WestBam, Mauro Picotto, Talla 2XLC und weitere Urgesteine bringen die Loveparade-Ära zurück auf den Dancefloor.",
-    "lat": 53.5952901,
-    "lng": 9.9057809,
-    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
-  },
-  {
-    "name": "ELECTRIC HORIZON INDOOR 2026",
-    "date": "2026-11-21",
-    "dateDisplay": "21. November 2026",
-    "location": "halle02, Heidelberg",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://www.electric-horizon.com/indoor",
-    "soldOut": false,
-    "description": "Der Winter-Ableger des Electric Horizon Festivals — zwei Floors Techno und Hardtechno in der halle02.",
-    "about": "Electric Horizon Indoor ist der winterliche Gegenpart zum Sommer-Original im Plankstadter Weldegarten — statt Open-Air-Palmen und Strandflair gibt es zwei Indoor-Floors in der Heidelberger halle02, mit einem Line-up aus Techno und Hardtechno von Acts wie In Verruf und Paraçek. Von 22 bis 5 Uhr bringt das Format die gleiche Energie wie die Sommerausgabe, nur unter Dach statt unter freiem Himmel.",
-    "lat": 49.4021824,
-    "lng": 8.6704571,
-    "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
-  },
-  {
-    "name": "VERKNIPT BERLIN 2026",
-    "date": "2026-10-09",
-    "endDate": "2026-10-10",
-    "dateDisplay": "9.–10. Oktober 2026",
-    "location": "Club OST, Berlin",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.verknipt.org/berlin/",
-    "soldOut": false,
-    "description": "Verknipts kompromissloser Hard Techno macht Station im Berliner Club OST.",
-    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Die Berlin-Ausgabe im Club OST direkt an der Spree ist Teil dieser internationalen Tour: zwei Nächte kompromissloser, düsterer Techno-Sound, seit 2023 der klare musikalische Fokus der Marke.",
-    "anfahrt": "Adresse: Alt-Stralau 1-2, 10245 Berlin (Club OST). Der Club liegt direkt zwischen den Bahnhöfen Ostkreuz (Regionalbahn, S3, S41/S42, S5, S7, S75, S8, S85) und Treptower Park (S41/S42, S8, S85, S9) an der Spree. Einen eigenen Parkplatz gibt es nicht, der Veranstalter empfiehlt ausdrücklich die Anreise mit dem ÖPNV — direkt neben dem Club liegt ein Wohngebiet, dort bitte rücksichtsvoll parken.",
-    "lat": 52.4970681,
-    "lng": 13.4650321
   }
 ];
 
