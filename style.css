@@ -194,6 +194,15 @@ header {
 
 .website-cta { margin-top: 1.9rem; text-align: center; }
 
+.website-cta .visit-btn {
+  background: rgba(255,45,0,0.1);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+}
+.website-cta .visit-btn:hover { background: var(--red); }
+
 .similar-festivals { margin-top: 1.5rem; }
 
 .similar-title {
