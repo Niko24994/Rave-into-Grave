@@ -3079,7 +3079,9 @@ const festivals = [
     "soldOut": false,
     "description": "8. Auflage mit über 2027 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
     "lat": 52.8288647,
-    "lng": 8.988901
+    "lng": 8.988901,
+    "about": "Die 8. Auflage von Hill of Dreams bringt über 8.000 Besucher und mehr als 50 Live-Acts zwischen Bremen und Hannover zusammen. Vier Bühnen strukturieren das Gelände bei Bruchhausen-Vilsen — vom Castle Stage mit Techno über den Unicorn Stage (EDM, Big Room) bis zum Dirtbasss Stage für Bass Music und DnB. Camping ist fester Bestandteil, gefeiert wird von Freitagabend bis früh am Sonntagmorgen.",
+    "anfahrt": "Adresse: Freidorfer Weg 1, 27305 Bruchhausen-Vilsen — ab dort ist der Weg zum Parkplatz ausgeschildert (Parkgebühr 5 Euro vor Ort). Vom Bahnhof Syke verkehrt ein Shuttlebus: freitags im Pendelverkehr 18-21 Uhr (Fahrzeit ca. 30-40 Minuten), samstags 14-20 Uhr ab Bahnhof und 22-3 Uhr ab Festivalgelände."
   },
   {
     "name": "CIRCLE OF LEAVES FESTIVAL 2027",
@@ -3094,7 +3096,9 @@ const festivals = [
     "soldOut": false,
     "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
     "lat": 49.6101502,
-    "lng": 8.9671301
+    "lng": 8.9671301,
+    "about": "Am Marbach-Stausee im Odenwald verbindet Circle of Leaves pulsierende Beats mit der stillen Schönheit der Natur. Das Festival feiert elektronische Musik in all ihren Facetten und versteht sich als Ort für eine Community, die von Kreativität, Austausch und Solidarität geprägt ist — Techno und Tech House unter dem Sternenhimmel des Odenwalds.",
+    "anfahrt": "Anfahrt je nach Richtung: von Frankfurt/Wiesbaden über die A5 bis Bensheim, dann via B47 durch Lindenfels nach Michelstadt/Beerfelden; von Mannheim/Heidelberg über die B37; von Würzburg/Aschaffenburg über die A3 bis Stockstadt; von Stuttgart/Heilbronn über die A6 bis Sinsheim, dann B292. Zwei Park-und-Ride-Parkplätze stehen bereit (Michelstadt und Beerfelden), Wohnmobile werden per Shuttle direkt zum Eingang gebracht. Mit der Bahn geht es bis Michelstadt, von dort per Festival-Shuttle weiter."
   },
   {
     "name": "ELECTRISIZE 2027",
@@ -3111,7 +3115,9 @@ const festivals = [
     "soldOut": false,
     "description": "Großes Electronic Festival in Erkelenz NRW — mehrere Stages, internationales Line-up, Camping.",
     "lat": 51.0681502,
-    "lng": 6.2781717
+    "lng": 6.2781717,
+    "about": "Electrisize feierte sein Debüt am 15. August 2009 im Erkelenzer Lahey-Park — damals traten sieben Künstler vor rund 400 Gästen auf. Seit 2013 ist das ehemalige Kreuzherrenkloster Hohenbusch die feste Heimat, mittlerweile bis 2028 vertraglich gesichert. Heute zieht das Festival bis zu 45.000 Besucher an und zählt damit zu den größten in Nordrhein-Westfalen. Fünf aufwendig gestaltete Themenwelten — von der Dschungelwelt „Tapuya\" bis zur Schwermetall-Dystopie „Hardsize\" — wechseln jährlich passend zum Ambiente.",
+    "anfahrt": "Ein Shuttle verkehrt rund um die Uhr zwischen dem Bahnhof Erkelenz und dem Festivalgelände (5 Euro Tagesticket, 9 Euro fürs ganze Wochenende, mit Priority Pass kostenlos) — Tickets gibt es direkt am Bahnhof oder vorab im offiziellen Shop. Für die Anreise mit dem Auto steht ein Park-und-Ride-Parkplatz in Erkelenz bereit."
   },
   {
     "name": "LOVE FAMILY PARK 2027",
@@ -3146,7 +3152,27 @@ const festivals = [
     "soldOut": false,
     "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
     "lat": 51.6898781,
-    "lng": 7.8441183
+    "lng": 7.8441183,
+    "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert.",
+    "anfahrt": "Adresse: Ostenallee 87, 59071 Hamm (bzw. „Exerzierplatz Hamm\" bei Google Maps). Mit dem Auto der Beschilderung über die Kreuzung Ostenallee/Ahseufer folgen. Mit dem Bus (Linien 1, 3, 5) ab Haltestelle „HBF./Willy Brandt Platz\" in unter 15 Minuten am Gelände; mit dem Taxi ab Hamm Hauptbahnhof (Stichwort „Kurpark\" oder „Kurhaus\") in unter 12 Minuten."
+  },
+  {
+    "name": "UND DRINNEN TANZT DER BÄR 2026",
+    "date": "2026-10-16",
+    "endDate": "2026-10-17",
+    "dateDisplay": "16.–17. Oktober 2026",
+    "location": "Stadthalle Rostock, Rostock",
+    "genre": [
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.udtdb.de/",
+    "soldOut": false,
+    "description": "Erstmals als Wochenendfestival: zwei Nächte Techno und Trance in der Rostocker Stadthalle.",
+    "about": "Was als eine einzelne Clubnacht begann, wird 2026 erstmals zum Wochenendfestival ausgebaut — zwei Nächte lang verwandelt sich die Stadthalle Rostock in eine Club-Landschaft für Techno- und Trance-Fans im Norden. Mit Paracek und Schrotthagen stehen zwei Namen aus der deutschen Techno-Szene auf dem Line-up, dazu mit Paul van Dyk einer der einflussreichsten Trance-DJs überhaupt sowie Nora en Pure.",
+    "lat": 54.0772155,
+    "lng": 12.1255356,
+    "anfahrt": "Adresse: Südring 90, 18059 Rostock. Die Stadthalle liegt direkt an der Straßenbahnhaltestelle „StadtHalle\" (ca. 90 Meter Fußweg), auch die barrierefreie Haltestelle „Platz der Freundschaft\" ist gut erreichbar — der Veranstalter empfiehlt wegen Bauarbeiten an der Goetheplatzbrücke ausdrücklich den ÖPNV. Der Parkplatz (Einfahrt Ecke Erich-Schlesinger-Straße/Ziolkowskistraße, 450 Plätze, rund um die Uhr geöffnet) kostet pauschal 5 Euro pro Veranstaltung, mit Ticket sind die ersten 30 Minuten kostenlos."
   }
 ];
 
