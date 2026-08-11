@@ -31,6 +31,13 @@
 
 html { scroll-behavior: smooth; }
 
+/* Verhindert die Doppel-Tipp-zum-Zoomen-Gestenerkennung von iOS Safari auf
+   klickbaren Elementen — sonst wartet der erste Tipp ab, ob ein zweiter
+   folgt, und fuehlt sich wie "muss zweimal klicken" an. */
+a, button, .card, [role="button"] {
+  touch-action: manipulation;
+}
+
 body {
   background: var(--bg);
   color: var(--white);
