@@ -284,7 +284,9 @@ header {
   transition: color 0.15s;
 }
 
-.card-name a.card-name-link:hover { color: var(--orange); }
+@media (hover: hover) and (pointer: fine) {
+  .card-name a.card-name-link:hover { color: var(--orange); }
+}
 
 /* Ganze Karte klickbar (Stretched-Link) + sichtbarer Chevron am Titel */
 .card { cursor: pointer; }
@@ -310,7 +312,9 @@ header {
   display: inline-block;
   transition: transform 0.15s;
 }
-.card:hover .card-title-chevron { transform: translateX(3px); }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .card-title-chevron { transform: translateX(3px); }
+}
 
 .site-title {
   font-family: var(--font-mono);
@@ -702,10 +706,12 @@ header {
 .card.status-ongoing::before { background: var(--orange); box-shadow: 0 0 10px rgba(255,153,0,0.5); }
 .card.status-past::before { background: #2a2a2a; }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 35px rgba(255,45,0,0.18);
-  border-color: #2a2a2a;
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 35px rgba(255,45,0,0.18);
+    border-color: #2a2a2a;
+  }
 }
 
 .card-inner {
