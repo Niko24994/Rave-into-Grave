@@ -93,19 +93,6 @@ function renderAnfahrtSection(f) {
     </section>`;
 }
 
-function renderMapSection(f) {
-  if (f.lat == null || f.lng == null) return '';
-  const d = 0.012;
-  const bbox = [f.lng - d, f.lat - d, f.lng + d, f.lat + d].join('%2C');
-  return `
-    <section class="map-section">
-      <h2 class="about-label">// Lageplan</h2>
-      <div class="map-embed">
-        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${f.lat}%2C${f.lng}" referrerpolicy="no-referrer-when-downgrade" title="Karte: ${escapeHtml(f.location)}"></iframe>
-      </div>
-    </section>`;
-}
-
 function renderWebsiteCTA(f) {
   if (!f.url) return '';
   return `
@@ -257,7 +244,6 @@ function renderPage(f, slug, allEntries) {
     </article>
     ${renderAboutSection(f)}
     ${renderAnfahrtSection(f)}
-    ${renderMapSection(f)}
     ${renderWebsiteCTA(f)}
     ${renderSimilarSection(f, allEntries)}
   </main>
