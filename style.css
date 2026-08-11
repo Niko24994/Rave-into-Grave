@@ -286,6 +286,32 @@ header {
 
 .card-name a.card-name-link:hover { color: var(--orange); }
 
+/* Ganze Karte klickbar (Stretched-Link) + sichtbarer Chevron am Titel */
+.card { cursor: pointer; }
+
+.card-stretched-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.card-name a.card-name-link,
+.fav-btn,
+.share-btn,
+.visit-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.card-title-chevron {
+  color: var(--orange);
+  font-weight: 700;
+  margin-left: 0.3rem;
+  display: inline-block;
+  transition: transform 0.15s;
+}
+.card:hover .card-title-chevron { transform: translateX(3px); }
+
 .site-title {
   font-family: var(--font-mono);
   font-size: clamp(2.5rem, 8vw, 5.5rem);

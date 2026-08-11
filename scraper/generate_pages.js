@@ -415,7 +415,7 @@ function renderHomepageCard(f, today) {
         <article class="card status-${status}">
           <div class="card-inner">
             <div class="card-header">
-              <h2 class="card-name"><a class="card-name-link" href="festival/${slugify(f.name)}/">${f.name}</a></h2>
+              <h2 class="card-name"><a class="card-name-link" href="festival/${slugify(f.name)}/">${f.name} <span class="card-title-chevron">›</span></a></h2>
               <div style="display:flex;align-items:center;gap:0.5rem;flex-shrink:0">
                 <span class="card-status-badge ${badgeClass}">${badgeText}</span>
                 <button class="fav-btn" data-fav="${f.name}|${f.date}" aria-label="Favorit">★</button>
@@ -437,10 +437,11 @@ function renderHomepageCard(f, today) {
               <span class="countdown ${countdownClass}">${countdown}</span>
               <div style="display:flex;gap:0.5rem;align-items:center">
                 <button class="share-btn visit-btn" data-fav="${f.name}|${f.date}" aria-label="Festival teilen">↗ TEILEN</button>
-                ${f.url ? `<a class="visit-btn" href="${f.url}" target="_blank" rel="noopener noreferrer">ZUR WEBSITE →</a>` : ''}
+                <a class="visit-btn" href="festival/${slugify(f.name)}/">MEHR ERFAHREN →</a>
               </div>
             </div>
           </div>
+          <a class="card-stretched-link" href="festival/${slugify(f.name)}/" aria-hidden="true" tabindex="-1"></a>
         </article>`;
 }
 
