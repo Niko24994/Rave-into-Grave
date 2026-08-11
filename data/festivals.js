@@ -2117,39 +2117,6 @@ const festivals = [
     "anfahrt": "Adresse: Hannoversche Straße 11, 28309 Bremen. Aus Richtung Osnabrück Ausfahrt Bremen-Hemelingen-Centrum nehmen, aus Richtung Hamburg/Bremer Kreuz ebenfalls Ausfahrt Bremen-Hemelingen-Centrum und dann die zweite Ausfahrt „Hemelingen\" von der Schnellstraße. Mit der Bahn ab Hauptbahnhof mit der Straßenbahnlinie 10 Richtung Sebaldsbrück, Ausstieg Föhrenstraße plus Umstieg auf Bus 40/41 bis „Glockenstraße/Bahnhof Hemelingen\" (ca. 5 Minuten Fußweg), oder bis Sebaldsbrück und rund 10 Minuten zu Fuß durch den Bahntunnel. Ausreichend Parkplätze sind direkt rund um das Gebäude vorhanden."
   },
   {
-    "name": "ELECTRIC SEA DANCE FESTIVAL 2026",
-    "date": "2026-10-17",
-    "dateDisplay": "17. Oktober 2026",
-    "location": "HanseMesse, Rostock",
-    "genre": [
-      "Techno",
-      "Trance",
-      "EDM"
-    ],
-    "url": "https://www.electric-sea.de/",
-    "soldOut": false,
-    "description": "Indoor-Electronic zwischen den Jahren — Techno, Trance und Hard Dance in der HanseMesse Rostock.",
-    "lat": 54.1393903,
-    "lng": 12.0779788
-  },
-  {
-    "name": "PAROOKAVILLE 2026",
-    "date": "2026-10-21",
-    "dateDisplay": "21. Oktober 2026",
-    "location": "Airport Weeze, Weeze",
-    "genre": [
-      "EDM",
-      "Techno",
-      "Hard Techno",
-      "Trance"
-    ],
-    "url": "https://www.parookaville.com",
-    "soldOut": false,
-    "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
-    "lat": 51.6031019,
-    "lng": 6.1433899
-  },
-  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",

@@ -757,18 +757,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/electric-sea-dance-festival-2026/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/parookaville-2026-2026-10-21/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/goa-world-halloween-special-2026/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -841,7 +829,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/electric-sea-dance-festival-2026-2026-12-05/</loc>
+    <loc>https://raveintograve.de/festival/electric-sea-dance-festival-2026/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
