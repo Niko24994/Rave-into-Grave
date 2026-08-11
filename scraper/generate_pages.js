@@ -10,6 +10,8 @@
  */
 
 import fs from 'fs/promises';
+import fsSync from 'fs';
+import crypto from 'crypto';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -17,6 +19,15 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const FESTIVALS_PATH = path.join(ROOT, 'data/festivals.js');
 const SITE_URL = 'https://raveintograve.de/';
+
+// Cache-Buster fuer style.css — Content-Hash statt manueller Versionsnummer,
+// damit Browser (v.a. iOS Safari, cached CSS gerne hartnaeckig) nach jeder
+// Aenderung garantiert die neue Version laden, ohne dass man dran denken muss.
+const CSS_VERSION = crypto
+  .createHash('md5')
+  .update(fsSync.readFileSync(path.join(ROOT, 'style.css')))
+  .digest('hex')
+  .slice(0, 10);
 
 function slugify(str) {
   return str
@@ -195,7 +206,7 @@ function renderPage(f, slug, allEntries) {
   <link rel="canonical" href="${pageUrl}" />
   <link rel="icon" type="image/png" href="../../apple-touch-icon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png" />
-  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="../../style.css?v=${CSS_VERSION}" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
 </head>
@@ -507,6 +518,10 @@ async function injectHomepageSSR(festivals) {
   const { gridHtml, count } = buildHomepageSSR(festivals);
   const seoNames = buildSeoNamesList(festivals);
 
+  html = html.replace(
+    /href="style\.css(?:\?v=[a-f0-9]+)?"/,
+    `href="style.css?v=${CSS_VERSION}"`
+  );
   html = html.replace(
     /<!--SSR_FESTIVALS_START-->[\s\S]*?<!--SSR_FESTIVALS_END-->/,
     `<!--SSR_FESTIVALS_START-->${gridHtml}\n      <!--SSR_FESTIVALS_END-->`
