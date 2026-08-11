@@ -2133,6 +2133,23 @@ const festivals = [
     "lng": 12.0779788
   },
   {
+    "name": "PAROOKAVILLE 2026",
+    "date": "2026-10-21",
+    "dateDisplay": "21. Oktober 2026",
+    "location": "Airport Weeze, Weeze",
+    "genre": [
+      "EDM",
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.parookaville.com",
+    "soldOut": false,
+    "description": "Die verrückteste Stadt der Welt lebt drei Tage auf dem Flughafen Weeze — Hard Techno Stage inklusive.",
+    "lat": 51.6031019,
+    "lng": 6.1433899
+  },
+  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",
@@ -3131,6 +3148,22 @@ const festivals = [
     "lng": 8.6144214,
     "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main.",
     "anfahrt": "Adresse: Max-Pruss-Straße/Am Römerhof 9, 60486 Frankfurt am Main. Der nächste Bahnhof „Frankfurt Messe\" ist ab dem Hauptbahnhof in rund 5 Minuten mit der S3, S4 oder S5 erreichbar — das Festivalticket gilt gleichzeitig als Freifahrschein im gesamten RMV-Gebiet für den Veranstaltungstag. Parkplätze (Bereich D oder E) kosten 15 Euro, Tickets gibt es nur online im Voraus, vor Ort wird ausschließlich mit passendem Bargeld bezahlt."
+  },
+  {
+    "name": "WELCOME TO MY GARDEN 2027",
+    "date": "2027-08-14",
+    "dateDisplay": "14. August 2027",
+    "location": "Kurpark Hamm, Hamm",
+    "genre": [
+      "EDM",
+      "Trance",
+      "Techno"
+    ],
+    "url": "https://wtmg-festival.de/",
+    "soldOut": false,
+    "description": "Das beliebteste Open-Air-Festival für EDM, Trance und Techno in Hamm — im Kurpark an der Ostenallee.",
+    "lat": 51.6898781,
+    "lng": 7.8441183
   }
 ];
 
