@@ -3066,6 +3066,22 @@ const festivals = [
     "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
   },
   {
+    "name": "HILL OF DREAMS 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Bruchhausen-Vilsen",
+    "genre": [
+      "Techno",
+      "EDM",
+      "Electronic"
+    ],
+    "url": "https://hill-of-dreams.de/",
+    "soldOut": false,
+    "description": "8. Auflage mit über 2027 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
+    "lat": 52.8288647,
+    "lng": 8.988901
+  },
+  {
     "name": "CIRCLE OF LEAVES FESTIVAL 2027",
     "date": "2027-08-08",
     "dateDisplay": "8. August 2027",

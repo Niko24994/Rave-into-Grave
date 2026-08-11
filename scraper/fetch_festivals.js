@@ -199,6 +199,13 @@ const KNOWN_FALSE_POSITIVES = new Set([
   'hiveindoor20272027-06-20',
   'stonetechnofestival20272027-07-11',
   'libellafestival20272027-07-11',
+  // parookaville.com: generischer Datums-Regex zieht faelschlich ein
+  // Oktober-Datum von der Seite, obwohl Parookaville nur im Juli stattfindet
+  // (verifiziert per Websuche — offizielle Quellen nennen nur Juli-Termine).
+  'parookaville20262026-10-21',
+  // electric-sea.de: gleiches Problem, echter Termin ist 5. Dezember 2026
+  // (siehe bereits vorhandener Eintrag), nicht 17. Oktober.
+  'electricseadancefestival22026-10-17',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —

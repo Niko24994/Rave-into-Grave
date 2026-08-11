@@ -305,17 +305,6 @@ header {
   z-index: 2;
 }
 
-.card-title-chevron {
-  color: var(--orange);
-  font-weight: 700;
-  margin-left: 0.3rem;
-  display: inline-block;
-  transition: transform 0.15s;
-}
-@media (hover: hover) and (pointer: fine) {
-  .card:hover .card-title-chevron { transform: translateX(3px); }
-}
-
 .site-title {
   font-family: var(--font-mono);
   font-size: clamp(2.5rem, 8vw, 5.5rem);
