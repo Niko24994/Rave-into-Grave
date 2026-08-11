@@ -93,6 +93,14 @@ function renderAnfahrtSection(f) {
     </section>`;
 }
 
+function renderWebsiteCTA(f) {
+  if (!f.url) return '';
+  return `
+    <div class="website-cta">
+      <a class="visit-btn" href="${escapeHtml(f.url)}" target="_blank" rel="noopener noreferrer">ZUR OFFIZIELLEN WEBSITE →</a>
+    </div>`;
+}
+
 function renderSimilarSection(f, allEntries) {
   const similar = findSimilarFestivals(f, allEntries);
   if (similar.length === 0) return '';
@@ -236,6 +244,7 @@ function renderPage(f, slug, allEntries) {
     </article>
     ${renderAboutSection(f)}
     ${renderAnfahrtSection(f)}
+    ${renderWebsiteCTA(f)}
     ${renderSimilarSection(f, allEntries)}
   </main>
 
