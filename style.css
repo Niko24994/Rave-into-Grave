@@ -705,6 +705,9 @@ header {
   flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
   overflow: hidden;
+  backdrop-filter: blur(6px);
+  animation: card-in 0.3s ease both;
+  cursor: pointer;
 }
 
 .card::before {
@@ -1302,10 +1305,8 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 }
 
 @media (max-width: 768px) {
-  /* Video-Hintergrund testweise aus auf Mobile — moeglicher Verdacht fuer
-     den iOS-Tipp-Bug (autoplay <video>, auch mit pointer-events:none). */
-  .video-bg { display: none !important; }
-  .video-overlay { background: #0a0000; }
+  .video-bg { display: block; }
+  .video-overlay { background: rgba(5,0,0,0.75); }
 
   .stats-bar {
     gap: 1rem 1.5rem;

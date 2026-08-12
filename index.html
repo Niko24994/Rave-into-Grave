@@ -4394,20 +4394,31 @@
     })();
 
     // ─── VIDEO AUTOPLAY ───
-    // Nur versuchen, wenn der Hintergrund ueberhaupt sichtbar ist (auf Mobile
-    // per CSS ausgeblendet) — sonst haengt ein globaler touchstart-Listener
-    // (fuers iOS-Autoplay-Freischalten) am allerersten Tipp irgendwo auf der
-    // Seite und kann dessen Klick-Event schlucken.
+    // Kein touchstart-Fallback mehr: das video-Element ist "muted", was auf
+    // iOS fuer Autoplay i.d.R. schon ausreicht. Ein globaler, einmaliger
+    // touchstart-Listener zum Freischalten fing zuvor den allerersten Tipp
+    // irgendwo auf der Seite ab und konnte dessen Klick-Event schlucken.
     const bgVideo = document.querySelector('.video-bg video');
-    if (bgVideo && getComputedStyle(document.querySelector('.video-bg')).display !== 'none') {
+    if (bgVideo) {
       const tryPlay = () => bgVideo.play().catch(() => {});
       if (bgVideo.readyState >= 3) {
         tryPlay();
       } else {
         bgVideo.addEventListener('canplay', tryPlay, { once: true });
       }
-      document.addEventListener('touchstart', tryPlay, { once: true });
     }
+
+    // Ganze Karte klickbar: Klick-Delegation statt eines echten <a>-Overlays
+    // (letzteres zeigte auf iOS Safari dasselbe Tipp-Problem wie ein direkt
+    // angetipptes Link-Element — siehe Video-Autoplay-Fix oben, das war die
+    // eigentliche Ursache, nicht dieser Mechanismus).
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('a, button')) return;
+      const card = e.target.closest('.festival-grid .card');
+      if (!card) return;
+      const link = card.querySelector('.card-name-link');
+      if (link) window.location.href = link.getAttribute('href');
+    });
 
   </script>
 </body>
