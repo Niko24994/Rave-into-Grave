@@ -3907,19 +3907,6 @@
       `;
     }
 
-    // Ganze Karte klickbar: Klick-Delegation statt eines echten <a>-Overlays,
-    // da ein unsichtbarer Stretched-Link auf iOS Safari denselben "erster
-    // Tipp tut nichts"-Bug wie ein direkt angetipptes Link-Element ausloeste
-    // (auch nach Entfernen aller :hover-Regeln). Ein reiner Klick-Handler
-    // ist von diesem WebKit-Verhalten nicht betroffen.
-    document.addEventListener('click', (e) => {
-      if (e.target.closest('a, button')) return;
-      const card = e.target.closest('.festival-grid .card');
-      if (!card) return;
-      const link = card.querySelector('.card-name-link');
-      if (link) window.location.href = link.getAttribute('href');
-    });
-
     // ─── FILTER ───
 
     function filterFestivals() {

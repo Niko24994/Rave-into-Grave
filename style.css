@@ -314,9 +314,6 @@ header {
   .card-name a.card-name-link:hover { color: var(--orange); }
 }
 
-/* Ganze Karte klickbar (JS-Klick-Delegation, siehe index.html) */
-.card { cursor: pointer; }
-
 .card-name a.card-name-link,
 .fav-btn,
 .share-btn,
