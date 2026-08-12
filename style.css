@@ -705,7 +705,6 @@ header {
   flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
   overflow: hidden;
-  animation: card-in 0.3s ease both;
 }
 
 .card::before {
