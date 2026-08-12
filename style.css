@@ -1303,9 +1303,10 @@ input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible
 }
 
 @media (max-width: 768px) {
-  /* Video background off on mobile — iOS doesn't autoplay iframes */
-  .video-bg { display: block; }
-  .video-overlay { background: rgba(5,0,0,0.75); }
+  /* Video-Hintergrund testweise aus auf Mobile — moeglicher Verdacht fuer
+     den iOS-Tipp-Bug (autoplay <video>, auch mit pointer-events:none). */
+  .video-bg { display: none !important; }
+  .video-overlay { background: #0a0000; }
 
   .stats-bar {
     gap: 1rem 1.5rem;
