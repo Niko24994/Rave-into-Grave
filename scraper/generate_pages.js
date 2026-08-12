@@ -461,7 +461,6 @@ function renderHomepageCard(f, today) {
               </div>
             </div>
           </div>
-          <a class="card-stretched-link" href="festival/${slugify(f.name)}/" aria-hidden="true" tabindex="-1"></a>
         </article>`;
 }
 

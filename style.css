@@ -314,14 +314,8 @@ header {
   .card-name a.card-name-link:hover { color: var(--orange); }
 }
 
-/* Ganze Karte klickbar (Stretched-Link) + sichtbarer Chevron am Titel */
+/* Ganze Karte klickbar (JS-Klick-Delegation, siehe index.html) */
 .card { cursor: pointer; }
-
-.card-stretched-link {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
 
 .card-name a.card-name-link,
 .fav-btn,
