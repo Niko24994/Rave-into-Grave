@@ -4394,8 +4394,12 @@
     })();
 
     // ─── VIDEO AUTOPLAY ───
+    // Nur versuchen, wenn der Hintergrund ueberhaupt sichtbar ist (auf Mobile
+    // per CSS ausgeblendet) — sonst haengt ein globaler touchstart-Listener
+    // (fuers iOS-Autoplay-Freischalten) am allerersten Tipp irgendwo auf der
+    // Seite und kann dessen Klick-Event schlucken.
     const bgVideo = document.querySelector('.video-bg video');
-    if (bgVideo) {
+    if (bgVideo && getComputedStyle(document.querySelector('.video-bg')).display !== 'none') {
       const tryPlay = () => bgVideo.play().catch(() => {});
       if (bgVideo.readyState >= 3) {
         tryPlay();
