@@ -278,6 +278,7 @@ function renderPage(f, slug, allEntries) {
       </a>
     </div>
     <p class="footer-disclaimer">Alle Angaben ohne Gewähr. Immer die offizielle Festival-Website checken.</p>
+    <p class="footer-support">Hosting und Domain kosten Geld — mit einer kleinen Spende hilfst du, die Seite werbefrei zu halten.<a href="https://ko-fi.com/raveintograve" target="_blank" rel="noopener noreferrer">Unterstützen</a></p>
     <div class="footer-links" style="margin-top:1rem;">
       <a href="../../impressum/">Impressum</a>
       <a href="../../datenschutz/">Datenschutz</a>

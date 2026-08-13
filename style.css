@@ -1231,6 +1231,27 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.footer-support {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: #666;
+  letter-spacing: 0.03em;
+  margin-top: 0.75rem;
+}
+.footer-support a {
+  color: var(--red);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}
+@media (hover: hover) and (pointer: fine) {
+  .footer-support a:hover { color: var(--orange); }
+}
+
 /* ─── SCROLLBAR ─── */
 
 ::-webkit-scrollbar { width: 5px; }
