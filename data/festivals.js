@@ -1599,6 +1599,41 @@ const festivals = [
     "anfahrt": "Adresse: Straße zur Voß 43, 06682 Teuchern. Wer mit Auto oder Camper anreist, kann direkt neben dem eigenen Zelt parken (Parkgebühr 40 Euro pro Fahrzeug)."
   },
   {
+    "name": "SÄGEWERK FESTIVAL 2026",
+    "date": "2026-08-27",
+    "endDate": "2026-08-30",
+    "dateDisplay": "27.–30. August 2026",
+    "location": "Flugplatz Cottbus-Drewitz, Jänschwalde",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://saegewerk-festival.de/de/",
+    "soldOut": false,
+    "description": "Fünfte Auflage des Sägewerk Festivals auf dem ehemaligen Flugplatz Cottbus-Drewitz — non-profit, mehrere Floors, viel Community.",
+    "lat": 51.8784081,
+    "lng": 14.5166634,
+    "about": "Das Sägewerk Festival wird vom gemeinnützigen Kollektiv khisdapaze e.V. organisiert und geht 2026 in seine fünfte Auflage — mitten auf dem ehemaligen Flugplatz Cottbus-Drewitz in der Niederlausitz. Die Veranstalter verstehen sich explizit als Rave „aus Liebe an der Sache und nicht wegen Profit\": mehrere Tanzflächen mit elektronischer Musik, eine Live-Bühne und ein kulturelles Rahmenprogramm jenseits der Musik, dazu künstlerische Installationen und versteckte Spots auf dem weitläufigen Gelände. Nachhaltigkeit und Barrierefreiheit sind dem Kollektiv wichtig, u.a. durch Mehrweg-Geschirr, emissionsreduzierte Stromerzeugung und ermäßigte Tickets für Anwohner der Region.",
+    "anfahrt": "Adresse: Flugplatzstr. 1, 03197 Jänschwalde. Mit der Bahn geht es bis zum Bahnhof Jänschwalde Ost (ca. 1,5 km entfernt), von dort verkehrt zwischen Donnerstagmittag und Montagmittag ein Shuttle zum Festivalgelände. Alternativ organisieren die Veranstalter über eine Telegram-Gruppe Fahrgemeinschaften für An- und Abreise mit Auto oder Fahrrad."
+  },
+  {
+    "name": "GAGGALACKA FESTIVAL 2026",
+    "date": "2026-08-27",
+    "endDate": "2026-08-31",
+    "dateDisplay": "27.–31. August 2026",
+    "location": "Schlossgarten Prettin, Prettin",
+    "genre": [
+      "Psytrance"
+    ],
+    "url": "https://www.gaggalacka.de",
+    "soldOut": false,
+    "description": "25-jähriges Jubiläum: eines der traditionsreichsten Psytrance-Festivals Deutschlands im Schlossgarten von Prettin.",
+    "lat": 51.6625427,
+    "lng": 12.9319561,
+    "about": "Gaggalacka feiert 2026 sein 25-jähriges Jubiläum und zählt damit zu den traditionsreichsten Psytrance-Festivals Deutschlands. Organisiert wird das nicht-kommerzielle Festival vom Verein Gaggalacka e.V., der bewusst auf klassische Werbung und gewinnorientierte Eintrittspreise verzichtet — im Fokus stehen stattdessen Musik, liebevolle Deko, Performances und Gemeinschaftsgefühl. Als Sommerausklang-Treffen der Szene findet es traditionell im zweijährigen Rhythmus im Schlossgarten von Prettin statt.",
+    "anfahrt": "Die Location liegt zentral und gut erreichbar: rund 125 km von Berlin und Dresden sowie ca. 70 km von Leipzig entfernt. Ab Bahnhof Jessen gibt es einen Gästeshuttle für die Anreise mit öffentlichen Verkehrsmitteln. Anreise ist ab Mittwoch, 26.08.2026, 15 Uhr möglich."
+  },
+  {
     "name": "HELL FESTIVAL 2026",
     "date": "2026-08-27",
     "endDate": "2026-08-30",
@@ -2198,6 +2233,23 @@ const festivals = [
     "lng": 8.5239462,
     "about": "Nach zahlreichen ausverkauften Shows in Hamburg, Berlin und Dortmund sowie europäischen Tourstationen hat sich die Holy Shit Show von DJ Holy Priest als feste Größe in der Hard-Techno-Szene etabliert. Die Mannheim-Ausgabe wird als größte Show der Reihe angekündigt — energiegeladene Sets, aufwendige Visuals und markantes Bühnendesign in der bis zu 12.500 Menschen fassenden Maimarkthalle, als einmalige Veranstaltung mit strikt limitierten Tickets.",
     "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
+  },
+  {
+    "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
+    "date": "2026-11-14",
+    "dateDisplay": "14. November 2026",
+    "location": "Holstenhallen, Neumünster",
+    "genre": [
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.kickmeback.de",
+    "soldOut": false,
+    "description": "Indoor-Revival-Festival für die goldene Ära von Techno, Trance und Hands Up in den Holstenhallen Neumünster.",
+    "lat": 54.0728,
+    "lng": 9.9908,
+    "about": "Kick Me Back holt die goldene Ära von Techno, Trance und Hands Up zurück in die Holstenhallen Neumünster — laut Veranstalter „kein Retro-Abend, sondern ein Revival\". Statt nostalgischer Wehmut gibt es rohe Basslines und euphorische Melodien mit Szene-Legenden wie Charly Lownoise, Starsplash, Special D und Master Blaster auf der Bühne, die genau die Energie zurückbringen sollen, die den Sound der 90er und 2000er geprägt hat.",
+    "anfahrt": "Adresse: Justus-von-Liebig-Straße 2-4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7). Einlass ist ab 19 Uhr, Beginn um 20 Uhr. Der Partner „Feierreisen\" bietet Anreisepakete mit Shuttle-Service aus mehreren deutschen Städten an; das Partnerhotel „Altes Stahlwerk\" gewährt mit dem Code „kickmeback\" 10 % Rabatt."
   },
   {
     "name": "KLANGWELTEN – DAS INDOOR FESTIVAL 2026",

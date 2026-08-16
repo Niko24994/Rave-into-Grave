@@ -577,6 +577,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/saegewerk-festival-2026/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/gaggalacka-festival-2026/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/hell-festival-2026/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -782,6 +794,12 @@
   </url>
   <url>
     <loc>https://raveintograve.de/festival/the-holy-shit-show-2026/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://raveintograve.de/festival/kick-me-back-das-mega-techno-revival-festival-2026/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
