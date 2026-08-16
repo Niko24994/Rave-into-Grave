@@ -2066,6 +2066,24 @@ const festivals = [
     "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
+    "name": "UND DRINNEN TANZT DER BÄR 2026",
+    "date": "2026-10-16",
+    "endDate": "2026-10-17",
+    "dateDisplay": "16.–17. Oktober 2026",
+    "location": "Stadthalle Rostock, Rostock",
+    "genre": [
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.udtdb.de/",
+    "soldOut": false,
+    "description": "Erstmals als Wochenendfestival: zwei Nächte Techno und Trance in der Rostocker Stadthalle.",
+    "about": "Was als eine einzelne Clubnacht begann, wird 2026 erstmals zum Wochenendfestival ausgebaut — zwei Nächte lang verwandelt sich die Stadthalle Rostock in eine Club-Landschaft für Techno- und Trance-Fans im Norden. Mit Paracek und Schrotthagen stehen zwei Namen aus der deutschen Techno-Szene auf dem Line-up, dazu mit Paul van Dyk einer der einflussreichsten Trance-DJs überhaupt sowie Nora en Pure.",
+    "lat": 54.0772155,
+    "lng": 12.1255356,
+    "anfahrt": "Adresse: Südring 90, 18059 Rostock. Die Stadthalle liegt direkt an der Straßenbahnhaltestelle „StadtHalle\" (ca. 90 Meter Fußweg), auch die barrierefreie Haltestelle „Platz der Freundschaft\" ist gut erreichbar — der Veranstalter empfiehlt wegen Bauarbeiten an der Goetheplatzbrücke ausdrücklich den ÖPNV. Der Parkplatz (Einfahrt Ecke Erich-Schlesinger-Straße/Ziolkowskistraße, 450 Plätze, rund um die Uhr geöffnet) kostet pauschal 5 Euro pro Veranstaltung, mit Ticket sind die ersten 30 Minuten kostenlos."
+  },
+  {
     "name": "REACTŌR AFTERMATH 2026",
     "date": "2026-10-17",
     "dateDisplay": "17. Oktober 2026",
@@ -3157,22 +3175,20 @@ const festivals = [
     "anfahrt": "Adresse: Ostenallee 87, 59071 Hamm (bzw. „Exerzierplatz Hamm\" bei Google Maps). Mit dem Auto der Beschilderung über die Kreuzung Ostenallee/Ahseufer folgen. Mit dem Bus (Linien 1, 3, 5) ab Haltestelle „HBF./Willy Brandt Platz\" in unter 15 Minuten am Gelände; mit dem Taxi ab Hamm Hauptbahnhof (Stichwort „Kurpark\" oder „Kurhaus\") in unter 12 Minuten."
   },
   {
-    "name": "UND DRINNEN TANZT DER BÄR 2026",
-    "date": "2026-10-16",
-    "endDate": "2026-10-17",
-    "dateDisplay": "16.–17. Oktober 2026",
-    "location": "Stadthalle Rostock, Rostock",
+    "name": "SAN HEJMO FESTIVAL 2027",
+    "date": "2027-08-14",
+    "dateDisplay": "14. August 2027",
+    "location": "Airport Weeze, Weeze",
     "genre": [
       "Techno",
-      "Trance"
+      "Electronic",
+      "House"
     ],
-    "url": "https://www.udtdb.de/",
+    "url": "https://www.sanhejmo.com/en/",
     "soldOut": false,
-    "description": "Erstmals als Wochenendfestival: zwei Nächte Techno und Trance in der Rostocker Stadthalle.",
-    "about": "Was als eine einzelne Clubnacht begann, wird 2026 erstmals zum Wochenendfestival ausgebaut — zwei Nächte lang verwandelt sich die Stadthalle Rostock in eine Club-Landschaft für Techno- und Trance-Fans im Norden. Mit Paracek und Schrotthagen stehen zwei Namen aus der deutschen Techno-Szene auf dem Line-up, dazu mit Paul van Dyk einer der einflussreichsten Trance-DJs überhaupt sowie Nora en Pure.",
-    "lat": 54.0772155,
-    "lng": 12.1255356,
-    "anfahrt": "Adresse: Südring 90, 18059 Rostock. Die Stadthalle liegt direkt an der Straßenbahnhaltestelle „StadtHalle\" (ca. 90 Meter Fußweg), auch die barrierefreie Haltestelle „Platz der Freundschaft\" ist gut erreichbar — der Veranstalter empfiehlt wegen Bauarbeiten an der Goetheplatzbrücke ausdrücklich den ÖPNV. Der Parkplatz (Einfahrt Ecke Erich-Schlesinger-Straße/Ziolkowskistraße, 450 Plätze, rund um die Uhr geöffnet) kostet pauschal 5 Euro pro Veranstaltung, mit Ticket sind die ersten 30 Minuten kostenlos."
+    "description": "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre.",
+    "lat": 51.6031019,
+    "lng": 6.1433899
   }
 ];
 
