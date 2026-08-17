@@ -3277,7 +3277,9 @@ const festivals = [
     "soldOut": false,
     "description": "Hamburgs Kultfestival für Musik und Kunst in Wilhelmsburg — urban, kreativ, mit starkem Electronic-Anteil.",
     "lat": 53.4984734,
-    "lng": 10.0068586
+    "lng": 10.0068586,
+    "about": "MS Dockville verwandelt seit 2007 jeden August ein Stück Hamburger Hafenindustrie in Wilhelmsburg — zwischen Werftkränen, Lagerhallen und dem Reiherstieg-Kanal — in ein Festival für Musik UND Kunst. Neben zehn Bühnen für Indie, HipHop, Pop und Electronic gehören Kunstinstallationen, Performances und Lesungen fest zum Programm — die Dockville-Kunstinstallationen bleiben sogar außerhalb der Festivalwoche zugänglich. Mit rund 60.000 Besuchern und über 100 Acts hat das Festival dem Stadtteil eine eigene kulturelle Identität gegeben.",
+    "anfahrt": "Auto-Anreise wird explizit nicht empfohlen — direkt am Gelände gibt es keine Parkplätze, und die Nachbarschaft in Wilhelmsburg ist von zusätzlichem Verkehr wenig begeistert. Mit der S-Bahn (S3/S5 Richtung Buxtehude/Neugraben/Stade) geht es bis Bahnhof Wilhelmsburg, nur rund 10 Minuten vom Hamburger Hauptbahnhof entfernt, von dort ist das Gelände fußläufig erreichbar. Für die Rückfahrt steht zusätzlich ein Bus-Shuttle bereit."
   }
 ];
 
