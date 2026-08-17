@@ -1926,6 +1926,24 @@ const festivals = [
     "about": "Seit 2018 findet Camakavum auf dem Gelände der historischen Ziegelei Benzin in Kritzow statt — Backsteinmauern, Türme und Hallen bilden die Kulisse für eine psychedelische Welt aus Lichtkunst, Lasereffekten und Videomapping. Vier Floors decken das gesamte Spektrum der Trance-Familie ab: von Hitech und Psycore über Darkpsy bis Forest und Psy, ergänzt um DnB, Techno und Chill-Bereiche."
   },
   {
+    "name": "ONLY ONE FESTIVAL 2026",
+    "date": "2026-09-12",
+    "dateDisplay": "12. September 2026",
+    "location": "Seehäusl, Rott",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "House"
+    ],
+    "url": "https://only-one-festival.de",
+    "soldOut": false,
+    "description": "Neues Community-Festival am Seehäusl in Rott (Bayern) — Line-up zwischen Techno, Hard Techno und House.",
+    "lat": 47.8886469,
+    "lng": 10.9785683,
+    "about": "Only One versteht sich nicht nur als Festival, sondern als gemeinsames Projekt: Von der ersten Idee bis zur Umsetzung soll die Community eingebunden sein, getragen von den Werten Freiheit, Natur, Liebe, Gänsehaut und Verbindung. Das Motto „Komm als Fremde, geh als Only One\" fasst den Anspruch zusammen — ein Tag am Seehäusl in Rott mit Line-up zwischen Techno, Hard Techno, House und Tech House, u.a. mit Joyhauser, VISIONV und Norman Walter.",
+    "anfahrt": "Adresse: Seehäusl 4, 86935 Rott (Landkreis Landsberg am Lech). Detaillierte Infos zu An- und Abreise sowie Parkmöglichkeiten veröffentlichen die Veranstalter nach eigener Aussage rechtzeitig vor dem Festivaltermin."
+  },
+  {
     "name": "SOLEM FESTIVAL 2026",
     "date": "2026-09-12",
     "dateDisplay": "12. September 2026",
