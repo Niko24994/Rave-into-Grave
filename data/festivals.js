@@ -1723,7 +1723,8 @@ const festivals = [
     "description": "Techno-Open-Air auf der Karlsaue in Kassel — die Wiese vor der Orangerie wird zum Dancefloor. 12–22 Uhr, 16+.",
     "lat": 51.3102676,
     "lng": 9.5008023,
-    "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur."
+    "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur.",
+    "anfahrt": "Adresse: Staatspark Karlsaue, Auedamm 18, 34121 Kassel. Der 150 Hektar große Park liegt in direkter Nähe zur Kasseler Innenstadt, direkt am Orangerieschloss."
   },
   {
     "name": "BASSAFFEKT OPEN AIR 2026",
@@ -1923,7 +1924,8 @@ const festivals = [
     "description": "Hardcore und Schranz Open Air auf einer historischen Ziegelei — roh, unkommerziell, brutal.",
     "lat": 53.4489349,
     "lng": 12.0962706,
-    "about": "Seit 2018 findet Camakavum auf dem Gelände der historischen Ziegelei Benzin in Kritzow statt — Backsteinmauern, Türme und Hallen bilden die Kulisse für eine psychedelische Welt aus Lichtkunst, Lasereffekten und Videomapping. Vier Floors decken das gesamte Spektrum der Trance-Familie ab: von Hitech und Psycore über Darkpsy bis Forest und Psy, ergänzt um DnB, Techno und Chill-Bereiche."
+    "about": "Seit 2018 findet Camakavum auf dem Gelände der historischen Ziegelei Benzin in Kritzow statt — Backsteinmauern, Türme und Hallen bilden die Kulisse für eine psychedelische Welt aus Lichtkunst, Lasereffekten und Videomapping. Vier Floors decken das gesamte Spektrum der Trance-Familie ab: von Hitech und Psycore über Darkpsy bis Forest und Psy, ergänzt um DnB, Techno und Chill-Bereiche.",
+    "anfahrt": "Adresse: Ziegeleiweg 8, 19386 Kritzow-Ziegelei — die Ziegelei liegt auf einer Anhöhe zwischen Plau am See und Lübz in Mecklenburg."
   },
   {
     "name": "ONLY ONE FESTIVAL 2026",
@@ -2045,7 +2047,8 @@ const festivals = [
     "description": "Premiere im Karlsruher Wildpark-Stadion — wetterunabhängiges Techno-Festival vom Gotec-Club, u.a. mit Alan Fitzpatrick, Nastia und Pan-Pot.",
     "lat": 49.0200043,
     "lng": 8.4129879,
-    "about": "Amaya feiert seine Premiere als erste Veranstaltung dieser Größenordnung im BBBank Wildpark Stadion — dem Fußballstadion des Karlsruher SC. Statt sich an bestehenden Festivalformaten zu orientieren, wählten die Veranstalter bewusst einen komplett neuen Ansatz für die neue Infrastruktur: Gefeiert wird in den Katakomben des Stadions, wo raue Industrie-Untergrund-Optik auf kompromisslosen Techno-Sound trifft."
+    "about": "Amaya feiert seine Premiere als erste Veranstaltung dieser Größenordnung im BBBank Wildpark Stadion — dem Fußballstadion des Karlsruher SC. Statt sich an bestehenden Festivalformaten zu orientieren, wählten die Veranstalter bewusst einen komplett neuen Ansatz für die neue Infrastruktur: Gefeiert wird in den Katakomben des Stadions, wo raue Industrie-Untergrund-Optik auf kompromisslosen Techno-Sound trifft.",
+    "anfahrt": "Adresse: Adenauerring 17, 76131 Karlsruhe. Mit dem Auto über die Autobahnausfahrt Karlsruhe-Süd (Nr. 48), von dort in rund 10 Minuten am Stadion — ca. 3.000 Waldparkplätze stehen für 5–10 Euro zur Verfügung. Mit der Straßenbahnlinie 4 geht es ab Karlsruhe Hauptbahnhof in etwa 15 Minuten bis zur Haltestelle „Europahalle/Wildparkstadion\"."
   },
   {
     "name": "OUTSIDE WORLD FESTIVAL – HAMBURG 2026",
@@ -2200,7 +2203,8 @@ const festivals = [
     "description": "Halloween-Special mit Goa- und Trance-Sounds bei Twister Dance in Sande, veranstaltet von Klangwelten Bremen.",
     "lat": 53.4924729,
     "lng": 8.0256578,
-    "about": "Goa World ist eine wiederkehrende Themen-Reihe im Twister-Dance Sande, die regelmäßig Goa, Hitech und Hardstyle auf mehreren Floors zusammenbringt. Der Club selbst hat eine bewegte Geschichte: Nach einem Großbrand im November 2023 wurde er komplett neu eröffnet, mit markantem Markenzeichen — einer sich langsam drehenden, runden Tanzfläche, die schon die alte Disco auszeichnete."
+    "about": "Goa World ist eine wiederkehrende Themen-Reihe im Twister-Dance Sande, die regelmäßig Goa, Hitech und Hardstyle auf mehreren Floors zusammenbringt. Der Club selbst hat eine bewegte Geschichte: Nach einem Großbrand im November 2023 wurde er komplett neu eröffnet, mit markantem Markenzeichen — einer sich langsam drehenden, runden Tanzfläche, die schon die alte Disco auszeichnete.",
+    "anfahrt": "Adresse: Weserstr. 20, 26452 Sande."
   },
   {
     "name": "VERKNIPT AMSTERDAM 2026",
@@ -2439,7 +2443,8 @@ const festivals = [
     "description": "44 Label Group meets Stutyard — Indoor-Festival in der Messe Stuttgart, 21:00 bis 06:00 Uhr. Hard Techno auf höchstem Niveau.",
     "lat": 48.7784485,
     "lng": 9.1800132,
-    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet — die Stutyard-Ausgabe bringt das Format 2026 ins Stuttgarter Messegelände, mit dem gleichen Anspruch auf kompromisslosen Techno-Sound wie bei den Open-Air-Editionen."
+    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet — die Stutyard-Ausgabe bringt das Format 2026 ins Stuttgarter Messegelände, mit dem gleichen Anspruch auf kompromisslosen Techno-Sound wie bei den Open-Air-Editionen.",
+    "anfahrt": "Adresse: ICS Internationales Congresscenter Stuttgart, Messepiazza 1, 70629 Stuttgart. Ab Stuttgart Hauptbahnhof mit der S-Bahn (S2/S3 Richtung Flughafen/Messe) in ca. 27 Minuten zum Gelände. Rund 6.700 Besucherparkplätze stehen zur Verfügung, u.a. die Tiefgarage unter der Messepiazza (P22/P23) sowie das Bosch-Parkhaus über die A8 (P20/P21)."
   },
   {
     "name": "UNREAL X STUTYARD 2026",
@@ -2456,7 +2461,8 @@ const festivals = [
     "description": "Unreal Germany bespielt das Stutyard in der Messe Stuttgart — 21:00 bis 07:00 Uhr, Hard Techno auf höchstem Niveau, ab 18 Jahren.",
     "lat": 48.7784485,
     "lng": 9.1800132,
-    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations — die Stutyard-Kooperation bringt das Format ins Messegelände Stuttgart, mit dem gleichen Anspruch auf schonungslosen Hard-Techno-Sound wie bei den Open-Air-Ausgaben."
+    "about": "Unreal steht in der deutschen Hard-Techno-Szene für kompromisslose Line-ups in ungewöhnlichen Industrie-Locations — die Stutyard-Kooperation bringt das Format ins Messegelände Stuttgart, mit dem gleichen Anspruch auf schonungslosen Hard-Techno-Sound wie bei den Open-Air-Ausgaben.",
+    "anfahrt": "Adresse: ICS Internationales Congresscenter Stuttgart, Messepiazza 1, 70629 Stuttgart. Ab Stuttgart Hauptbahnhof mit der S-Bahn (S2/S3 Richtung Flughafen/Messe) in ca. 27 Minuten zum Gelände. Rund 6.700 Besucherparkplätze stehen zur Verfügung, u.a. die Tiefgarage unter der Messepiazza (P22/P23) sowie das Bosch-Parkhaus über die A8 (P20/P21)."
   },
   {
     "name": "ARMY OF HARDCORE 2026",
@@ -2504,7 +2510,8 @@ const festivals = [
     "description": "Das Techno-Winter-Indoor-Festival im Norden — zwei Bühnen in den Holstenhallen, u.a. mit Axmo und Harris & Ford.",
     "lat": 54.0728,
     "lng": 9.9908,
-    "about": "Der winterliche Ableger des Between The Seas Festivals bringt treibenden Techno und EDM in die Holstenhallen Neumünster — mit Main Stage und Classic Stage für zwei musikalische Welten unter einem Dach. Wo das Sommer-Original auf Open-Air-Atmosphäre in Schleswig-Holstein setzt, holt die Winter-Ausgabe das gleiche Festivalgefühl ins Indoor-Format, inklusive spektakulärer Lightshow."
+    "about": "Der winterliche Ableger des Between The Seas Festivals bringt treibenden Techno und EDM in die Holstenhallen Neumünster — mit Main Stage und Classic Stage für zwei musikalische Welten unter einem Dach. Wo das Sommer-Original auf Open-Air-Atmosphäre in Schleswig-Holstein setzt, holt die Winter-Ausgabe das gleiche Festivalgefühl ins Indoor-Format, inklusive spektakulärer Lightshow.",
+    "anfahrt": "Adresse: Justus-von-Liebig-Straße 2-4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7)."
   },
   {
     "name": "APEX 2027",
@@ -3003,7 +3010,8 @@ const festivals = [
     "lat": 50.994119,
     "lng": 10.1722441,
     "endDate": "2027-07-18",
-    "about": "Seit 2015 verbindet Medival ein hochkarätiges Electronic-Programm mit politischer Bildung, Kreativ-Workshops und einer offenen, diversen Festivalkultur. Schauplatz ist die Burgruine Brandenburg bei Gerstungen — eine im 12. Jahrhundert erbaute Verteidigungsanlage hoch über dem Werratal, die einst Handelswege sicherte. Auf vier Bühnen laufen House, Techno, Trance und Drum & Bass, umrahmt von aufwendigen Holzbauten und Diskussionsformaten zu Demokratie, Vielfalt und Awareness."
+    "about": "Seit 2015 verbindet Medival ein hochkarätiges Electronic-Programm mit politischer Bildung, Kreativ-Workshops und einer offenen, diversen Festivalkultur. Schauplatz ist die Burgruine Brandenburg bei Gerstungen — eine im 12. Jahrhundert erbaute Verteidigungsanlage hoch über dem Werratal, die einst Handelswege sicherte. Auf vier Bühnen laufen House, Techno, Trance und Drum & Bass, umrahmt von aufwendigen Holzbauten und Diskussionsformaten zu Demokratie, Vielfalt und Awareness.",
+    "anfahrt": "Adresse: Hermannstraße 5, 99834 Gerstungen. Die Burgruine ist von der A4 aus sichtbar und liegt direkt an der Verbindungsstraße von Lauchröden Richtung Herleshausen/Neuenhof."
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2027",
