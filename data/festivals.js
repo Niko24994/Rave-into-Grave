@@ -3261,6 +3261,23 @@ const festivals = [
     "lng": 6.1433899,
     "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet.",
     "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
+  },
+  {
+    "name": "MS DOCKVILLE 2027",
+    "date": "2027-08-21",
+    "dateDisplay": "21. August 2027",
+    "location": "Hamburg-Wilhelmsburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House",
+      "Indie"
+    ],
+    "url": "https://www.msdockville.de",
+    "soldOut": false,
+    "description": "Hamburgs Kultfestival für Musik und Kunst in Wilhelmsburg — urban, kreativ, mit starkem Electronic-Anteil.",
+    "lat": 53.4984734,
+    "lng": 10.0068586
   }
 ];
 
