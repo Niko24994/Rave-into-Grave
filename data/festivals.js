@@ -3216,6 +3216,24 @@ const festivals = [
     "anfahrt": "Ein Shuttle verkehrt rund um die Uhr zwischen dem Bahnhof Erkelenz und dem Festivalgelände (5 Euro Tagesticket, 9 Euro fürs ganze Wochenende, mit Priority Pass kostenlos) — Tickets gibt es direkt am Bahnhof oder vorab im offiziellen Shop. Für die Anreise mit dem Auto steht ein Park-und-Ride-Parkplatz in Erkelenz bereit."
   },
   {
+    "name": "KLANGTHERAPIE FESTIVAL 2027",
+    "date": "2027-08-09",
+    "dateDisplay": "9. August 2027",
+    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Psytrance"
+    ],
+    "url": "https://www.klangtherapie-festival.de/",
+    "soldOut": false,
+    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
+    "lat": 49.8939869,
+    "lng": 11.3445052,
+    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Vier Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
+    "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
+  },
+  {
     "name": "LOVE FAMILY PARK 2027",
     "date": "2027-08-14",
     "endDate": "2027-08-15",
