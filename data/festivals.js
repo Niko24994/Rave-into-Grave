@@ -2308,6 +2308,23 @@ const festivals = [
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
+    "name": "HASARDEUR FESTIVAL 2026",
+    "date": "2026-11-14",
+    "dateDisplay": "14. November 2026",
+    "location": "Auto Böhler Schrottplatz, Karlsruhe",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://hasardeur-festival.de/",
+    "soldOut": false,
+    "description": "Techno auf dem Schrottplatz — vier Floors (Schrottplatz, MainFloor, Boiler, Cube), Outdoor bis 22 Uhr, danach Aftershow im GOTEC Club.",
+    "lat": 49.0068705,
+    "lng": 8.4034195,
+    "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen.",
+    "anfahrt": "Adresse: Ottostraße 6, 76227 Karlsruhe (Auto-Böhler-Schrottplatz). Mit der Straßenbahnlinie 2 (Richtung Wolfartsweier) bis „Ostendstraße\" (ca. 10 Minuten Fußweg) oder mit Buslinie 42 (Richtung Hohenwettersbach) bis „Hauptfriedhof\" (ca. 15 Minuten Fußweg). Parkplätze in der Umgebung sind nur begrenzt vorhanden — der Veranstalter empfiehlt ausdrücklich den ÖPNV."
+  },
+  {
     "name": "ELECTRIC HORIZON INDOOR 2026",
     "date": "2026-11-21",
     "dateDisplay": "21. November 2026",
