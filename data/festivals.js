@@ -3325,22 +3325,6 @@ const festivals = [
     "anfahrt": "Auto-Anreise wird explizit nicht empfohlen — direkt am Gelände gibt es keine Parkplätze, und die Nachbarschaft in Wilhelmsburg ist von zusätzlichem Verkehr wenig begeistert. Mit der S-Bahn (S3/S5 Richtung Buxtehude/Neugraben/Stade) geht es bis Bahnhof Wilhelmsburg, nur rund 10 Minuten vom Hamburger Hauptbahnhof entfernt, von dort ist das Gelände fußläufig erreichbar. Für die Rückfahrt steht zusätzlich ein Bus-Shuttle bereit."
   },
   {
-    "name": "HELL FESTIVAL 2027",
-    "date": "2027-08-26",
-    "dateDisplay": "26. August 2027",
-    "location": "Stausee Kelbra, Sachsen-Anhalt",
-    "genre": [
-      "Hardcore",
-      "Hard Techno",
-      "Schranz"
-    ],
-    "url": "https://www.hell-festival.de",
-    "soldOut": false,
-    "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
-    "lat": 51.4363848,
-    "lng": 10.9954779
-  },
-  {
     "name": "SOLÅ FESTIVAL 2027",
     "date": "2027-08-28",
     "dateDisplay": "28. August 2027",
@@ -3354,22 +3338,6 @@ const festivals = [
     "description": "Techno-Open-Air auf der Karlsaue in Kassel — die Wiese vor der Orangerie wird zum Dancefloor. 12–22 Uhr, 16+.",
     "lat": 51.3102676,
     "lng": 9.5008023
-  },
-  {
-    "name": "HELL FESTIVAL 2027",
-    "date": "2027-08-29",
-    "dateDisplay": "29. August 2027",
-    "location": "Stausee Kelbra, Sachsen-Anhalt",
-    "genre": [
-      "Hardcore",
-      "Hard Techno",
-      "Schranz"
-    ],
-    "url": "https://www.hell-festival.de",
-    "soldOut": false,
-    "description": "Vier Tage Hardcore und Schranz am Stausee Kelbra — Open Air, Camping, absolut keine Kompromisse.",
-    "lat": 51.4363848,
-    "lng": 10.9954779
   }
 ];
 

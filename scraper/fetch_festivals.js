@@ -206,6 +206,12 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // electric-sea.de: gleiches Problem, echter Termin ist 5. Dezember 2026
   // (siehe bereits vorhandener Eintrag), nicht 17. Oktober.
   'electricseadancefestival22026-10-17',
+  // hell-festival.de: Seite nennt fuer 2027 noch keinen offiziellen Termin
+  // (verifiziert per Websuche), der Scraper zog aber gleich zwei
+  // widerspruechliche Kandidatendaten (26. und 29.08.2027) aus der Seite —
+  // vermutlich Fragmente der 2026er-Laufzeit (27.-30.08.2026) fehlinterpretiert.
+  'hellfestival20272027-08-26',
+  'hellfestival20272027-08-29',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
