@@ -3337,7 +3337,9 @@ const festivals = [
     "soldOut": false,
     "description": "Techno-Open-Air auf der Karlsaue in Kassel — die Wiese vor der Orangerie wird zum Dancefloor. 12–22 Uhr, 16+.",
     "lat": 51.3102676,
-    "lng": 9.5008023
+    "lng": 9.5008023,
+    "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur.",
+    "anfahrt": "Adresse: Staatspark Karlsaue, Auedamm 18, 34121 Kassel. Der 150 Hektar große Park liegt in direkter Nähe zur Kasseler Innenstadt, direkt am Orangerieschloss."
   }
 ];
 
