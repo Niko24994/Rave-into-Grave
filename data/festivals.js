@@ -3325,6 +3325,22 @@ const festivals = [
     "anfahrt": "Auto-Anreise wird explizit nicht empfohlen — direkt am Gelände gibt es keine Parkplätze, und die Nachbarschaft in Wilhelmsburg ist von zusätzlichem Verkehr wenig begeistert. Mit der S-Bahn (S3/S5 Richtung Buxtehude/Neugraben/Stade) geht es bis Bahnhof Wilhelmsburg, nur rund 10 Minuten vom Hamburger Hauptbahnhof entfernt, von dort ist das Gelände fußläufig erreichbar. Für die Rückfahrt steht zusätzlich ein Bus-Shuttle bereit."
   },
   {
+    "name": "FERRA FESTIVAL 2027",
+    "date": "2027-08-21",
+    "dateDisplay": "21. August 2027",
+    "location": "Völklinger Hütte, Völklingen",
+    "genre": [
+      "Hard Techno",
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.ferra-festival.de",
+    "soldOut": false,
+    "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
+    "lat": 49.2490026,
+    "lng": 6.8439143
+  },
+  {
     "name": "SOLÅ FESTIVAL 2027",
     "date": "2027-08-28",
     "dateDisplay": "28. August 2027",
@@ -3340,6 +3356,22 @@ const festivals = [
     "lng": 9.5008023,
     "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur.",
     "anfahrt": "Adresse: Staatspark Karlsaue, Auedamm 18, 34121 Kassel. Der 150 Hektar große Park liegt in direkter Nähe zur Kasseler Innenstadt, direkt am Orangerieschloss."
+  },
+  {
+    "name": "INDIAN SPIRIT 2027",
+    "date": "2027-08-30",
+    "dateDisplay": "30. August 2027",
+    "location": "Flugplatz Ludwigslust, Mecklenburg",
+    "genre": [
+      "Psytrance",
+      "Techno",
+      "Experimental"
+    ],
+    "url": "https://www.indianspirit.de",
+    "soldOut": false,
+    "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
+    "lat": 53.2983572,
+    "lng": 11.5179145
   }
 ];
 
