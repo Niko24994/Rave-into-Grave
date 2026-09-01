@@ -1981,6 +1981,23 @@ const festivals = [
     "lng": 11.5624179
   },
   {
+    "name": "HEXON FESTIVAL #3 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Lokschuppen Bielefeld",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-3/",
+    "soldOut": false,
+    "description": "Dritte Ausgabe von Hexon im Lokschuppen Bielefeld — Industrial- und Driving-Techno auf mehreren Floors, ab 22:30 Uhr, 18+.",
+    "lat": 52.0365537,
+    "lng": 8.5514521,
+    "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine kompromisslose Techno-Location — Industrial-Vibes und treibender Sound über mehrere Areas verteilt (Lok.Werk, Lok.Halle, Lok.Bar, Lok.Kessel). Headliner der dritten Ausgabe sind LESSSS, FRANKY B und KARAMUSTAN, ergänzt um ein tiefes Line-up lokaler und regionaler Artists. Veranstaltet wird die Reihe von Sams Events.",
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld."
+  },
+  {
     "name": "RHEINGRÜN OPEN AIR 2026",
     "date": "2026-09-19",
     "endDate": "2026-09-20",
