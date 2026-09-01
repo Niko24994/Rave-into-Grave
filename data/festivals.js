@@ -628,7 +628,9 @@ const festivals = [
     "soldOut": false,
     "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
     "lat": 52.0365537,
-    "lng": 8.5514521
+    "lng": 8.5514521,
+    "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine kompromisslose Techno-Location — die zweite Ausgabe setzt auf ein Day & Night Konzept: Open-Air-Auftakt am Nachmittag, danach drei Indoor-Floors bis in die Nacht mit Techno, Trance und Classics. Veranstaltet wird die Reihe von Sams Events.",
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld."
   },
   {
     "name": "HABITAT FESTIVAL 2026",
