@@ -1,4 +1,4 @@
-// Daten zuletzt aktualisiert: August 2026
+// Daten zuletzt aktualisiert: September 2026
 // Automatisch gepflegt von scraper/fetch_festivals.js — manuelle Einträge bleiben erhalten.
 
 const festivals = [
@@ -3356,6 +3356,20 @@ const festivals = [
     "lng": 9.5008023,
     "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur.",
     "anfahrt": "Adresse: Staatspark Karlsaue, Auedamm 18, 34121 Kassel. Der 150 Hektar große Park liegt in direkter Nähe zur Kasseler Innenstadt, direkt am Orangerieschloss."
+  },
+  {
+    "name": "AMPHORIA 2027",
+    "date": "2027-08-28",
+    "dateDisplay": "28. August 2027",
+    "location": "Schwarzer Bruch, Kevelaer",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://amphoria-kevelaer.de/",
+    "soldOut": false,
+    "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
+    "lat": 51.5802996,
+    "lng": 6.2456273
   },
   {
     "name": "INDIAN SPIRIT 2027",
