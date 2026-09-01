@@ -212,6 +212,11 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // vermutlich Fragmente der 2026er-Laufzeit (27.-30.08.2026) fehlinterpretiert.
   'hellfestival20272027-08-26',
   'hellfestival20272027-08-29',
+  // ikarus-festival.de: echter 2026er-Termin ist 22.-25. Mai (siehe
+  // bereits vorhandener Eintrag), der Scraper zog aber zusaetzlich ein
+  // 3. September aus der Seite — vermutlich ein unabhaengiges Datum
+  // (Ticket-Deadline o.ae.), keine zweite Ausgabe (verifiziert per Websuche).
+  'ikarusfestival20262026-09-03',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
