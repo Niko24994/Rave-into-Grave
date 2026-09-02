@@ -2243,6 +2243,22 @@ const festivals = [
     "anfahrt": "Adresse: ArenA Boulevard 590, 1101 DR Amsterdam. Mit dem Auto über die A2 Richtung Amsterdam Zuidoost bis zum P1-ArenA-Parkplatz direkt gegenüber der Halle (Navi-Adresse: Burgemeester Stramanweg 130). Mit der Bahn/Metro bis Amsterdam Bijlmer ArenA — von dort sind es nur rund 5 Minuten zu Fuß bis AFAS Live."
   },
   {
+    "name": "LIBELLA FESTIVAL 2026",
+    "date": "2026-10-24",
+    "dateDisplay": "24. Oktober 2026",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
+    "lat": 51.4254976,
+    "lng": 7.2678414
+  },
+  {
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-10-31",
     "endDate": "2026-11-01",
