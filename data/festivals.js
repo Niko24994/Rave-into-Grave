@@ -3376,6 +3376,22 @@ const festivals = [
     "lng": 6.8439143
   },
   {
+    "name": "WILDE MÖHRE FESTIVAL 2027",
+    "date": "2027-08-23",
+    "dateDisplay": "23. August 2027",
+    "location": "Lausitz, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Experimental"
+    ],
+    "url": "https://wildemoehrefestival.de",
+    "soldOut": false,
+    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
+    "lat": 51.5119509,
+    "lng": 13.3505194
+  },
+  {
     "name": "SOLÅ FESTIVAL 2027",
     "date": "2027-08-28",
     "dateDisplay": "28. August 2027",
