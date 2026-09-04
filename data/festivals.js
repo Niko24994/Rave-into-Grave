@@ -1897,6 +1897,23 @@ const festivals = [
     "anfahrt": "Adresse: Hofwiesenpark, 07545 Gera. Der Veranstalter empfiehlt die klimafreundliche Anreise mit der Bahn bis Gera Hauptbahnhof — von dort ist es nicht weit zum Hofwiesenpark. Zur Parkplatzsituation lohnt sich vorab ein Blick auf die Website oder Social-Media-Kanäle des Festivals, da bei manchen Terminen ein separates Parkticket nötig ist."
   },
   {
+    "name": "ENDLESS SUMMER CLOSING 2026",
+    "date": "2026-09-05",
+    "dateDisplay": "5. September 2026",
+    "location": "Edelfettwerk, Hamburg",
+    "genre": [
+      "Trance",
+      "Psytrance"
+    ],
+    "url": "https://edelfettwerk.de/event/endless-summer-closing-2026/",
+    "soldOut": false,
+    "description": "Hamburgs größte Sommer-Closing-Party — 4 Floors, 17 Stunden Psychedelic und Progressive Trance non-stop.",
+    "lat": 53.5952901,
+    "lng": 9.9057809,
+    "about": "Endless Summer Closing bringt Hamburgs Sommer-Abschied mit 17 Stunden Non-Stop-Musik auf vier Floors ins Edelfettwerk — der Fokus liegt auf Psychedelic und Progressive Trance mit internationalem Line-up (u.a. Blastoyz aus Israel, Ghost Rider aus Thailand, Naturalize aus Dänemark), begleitet von Lasershows und Videoprojektionen auf allen Bühnen.",
+    "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
+  },
+  {
     "name": "REBORN 2026",
     "date": "2026-09-05",
     "dateDisplay": "5. September 2026",
