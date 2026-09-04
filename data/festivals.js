@@ -2243,22 +2243,6 @@ const festivals = [
     "anfahrt": "Adresse: ArenA Boulevard 590, 1101 DR Amsterdam. Mit dem Auto über die A2 Richtung Amsterdam Zuidoost bis zum P1-ArenA-Parkplatz direkt gegenüber der Halle (Navi-Adresse: Burgemeester Stramanweg 130). Mit der Bahn/Metro bis Amsterdam Bijlmer ArenA — von dort sind es nur rund 5 Minuten zu Fuß bis AFAS Live."
   },
   {
-    "name": "LIBELLA FESTIVAL 2026",
-    "date": "2026-10-24",
-    "dateDisplay": "24. Oktober 2026",
-    "location": "Kemnader See, Bochum",
-    "genre": [
-      "Techno",
-      "Schranz",
-      "Trance"
-    ],
-    "url": "https://libella-festival.de",
-    "soldOut": false,
-    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
-    "lat": 51.4254976,
-    "lng": 7.2678414
-  },
-  {
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-10-31",
     "endDate": "2026-11-01",
@@ -3377,8 +3361,9 @@ const festivals = [
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2027",
-    "date": "2027-08-23",
-    "dateDisplay": "23. August 2027",
+    "date": "2027-08-20",
+    "endDate": "2027-08-23",
+    "dateDisplay": "20.–23. August 2027",
     "location": "Lausitz, Brandenburg",
     "genre": [
       "Techno",
@@ -3389,7 +3374,9 @@ const festivals = [
     "soldOut": false,
     "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
     "lat": 51.5119509,
-    "lng": 13.3505194
+    "lng": 13.3505194,
+    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern.",
+    "anfahrt": "Wichtiger Hinweis: Viele Navigationsgeräte berechnen bei Eingabe der Geländeadresse eine falsche Route — besser zu den offiziell angegebenen Koordinaten einer nahegelegenen Kreuzung navigieren, ab dort führen Beschilderung und Helfer zum Gelände (Adresse: Göritz 5, 03116 Drebkau). Mit der Bahn geht es bis Calau, von dort bringt ein kostenpflichtiger Shuttle (Bassliner) direkt zum Festival. Falsch geparkte Autos werden in Kooperation mit der Stadt Drebkau abgeschleppt."
   },
   {
     "name": "SOLÅ FESTIVAL 2027",

@@ -217,6 +217,12 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // 3. September aus der Seite — vermutlich ein unabhaengiges Datum
   // (Ticket-Deadline o.ae.), keine zweite Ausgabe (verifiziert per Websuche).
   'ikarusfestival20262026-09-03',
+  // Gleiches Muster (generischer Datums-Regex zieht ein unabhaengiges
+  // Datum von der Seite) bei drei weiteren Domains — je per Websuche
+  // verifiziert, dass nur der bereits gelistete Sommertermin stimmt:
+  'libellafestival20262026-10-24',
+  'awakeningsfestival20262026-12-04',
+  'natureone20262026-09-10',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
