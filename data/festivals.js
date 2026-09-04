@@ -3346,7 +3346,8 @@ const festivals = [
   {
     "name": "FERRA FESTIVAL 2027",
     "date": "2027-08-21",
-    "dateDisplay": "21. August 2027",
+    "endDate": "2027-08-22",
+    "dateDisplay": "21.–22. August 2027",
     "location": "Völklinger Hütte, Völklingen",
     "genre": [
       "Hard Techno",
@@ -3357,7 +3358,9 @@ const festivals = [
     "soldOut": false,
     "description": "Hard Techno, Techno und Trance im UNESCO-Weltkulturerbe Völklinger Hütte — die imposante Industriekulisse als einzigartige Bühne.",
     "lat": 49.2490026,
-    "lng": 6.8439143
+    "lng": 6.8439143,
+    "about": "Die Völklinger Hütte ist das einzige vollständig erhaltene Hüttenwerk aus der Blütezeit der Industrialisierung und wurde 1994 als erstes Industriedenkmal weltweit UNESCO-Weltkulturerbe. Für FERRA öffnet dieses Weltkulturerbe Räume, die sonst verschlossen bleiben — auf fünf Bühnen treffen 67 DJs aus Hard Techno, Bounce und Trance auf monumentale Industriekultur, minimalistischen Sound und Laserinstallationen. Veranstaltet wird das Festival von Permanent Entertainment in Kooperation mit dem Hive Festival.",
+    "anfahrt": "Mit dem Auto über die A620 (Ausfahrt Völklingen) oder die A8 (Ausfahrt Saarbrücken-Klarenthal). Mit der Bahn geht es bis Saarbrücken Hauptbahnhof, von dort mit der S1 nach Völklingen — von der Haltestelle sind es nur rund 5 Minuten Fußweg zum Hütteneingang."
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2027",
@@ -3407,12 +3410,15 @@ const festivals = [
     "soldOut": false,
     "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
     "lat": 51.5802996,
-    "lng": 6.2456273
+    "lng": 6.2456273,
+    "about": "Amphoria hat sein eigenes Erzähl-Konzept: Tief im Wald von Kevelaer liegt der Schwarze Bruch, ein mysteriöser Ort, der nur wenige Nächte im Jahr erwacht, wenn Amphoria seine Tore öffnet. Ähnlich wie Parookaville seine fiktive Stadt lebt, dreht sich Amphoria um die Waldgöttin, die für die richtige Feierstimmung sorgt — zwei Bühnen (Forest Stage und Local Hero Stage), eine kulinarische Food-Mile und ein Kreativbereich zum Mitmachen ergänzen das Programm.",
+    "anfahrt": "Adresse: Weller Landstraße, Schwarzer Bruch, 47623 Kevelaer. Am Veranstaltungstag der Beschilderung vor Ort folgen. Ein Festival-Shuttle verkehrt vom Bahnhof Kevelaer (Europaplatz) zum Gelände (Hinfahrt 13:30-16:30 Uhr, Rückfahrt 23:00-3:00 Uhr). Parkplätze kosten 5 Euro (nur Bar), Übernachten auf dem Parkplatz — auch im Auto — ist untersagt; Radfahrer nutzen den Heideweg."
   },
   {
     "name": "INDIAN SPIRIT 2027",
-    "date": "2027-08-30",
-    "dateDisplay": "30. August 2027",
+    "date": "2027-08-25",
+    "endDate": "2027-08-30",
+    "dateDisplay": "25.–30. August 2027",
     "location": "Flugplatz Ludwigslust, Mecklenburg",
     "genre": [
       "Psytrance",
@@ -3423,7 +3429,9 @@ const festivals = [
     "soldOut": false,
     "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
     "lat": 53.2983572,
-    "lng": 11.5179145
+    "lng": 11.5179145,
+    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik.",
+    "anfahrt": "Von Hamburg oder Berlin über die A24 bis Kreuz Schwerin, dann A14 Richtung Magdeburg, Ausfahrt Grabow/Ludwigslust, weiter Richtung Dannenberg — kurz vor Eldena weist die Beschilderung den Weg. Ohne Auto geht es mit dem Zug bis Ludwigslust (Mecklenburg-Vorpommern), von dort per Bus-Shuttle zum Gelände; zusätzlich gibt es Airport-Shuttles ab Hamburg."
   }
 ];
 
