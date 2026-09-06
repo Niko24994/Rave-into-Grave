@@ -3342,6 +3342,25 @@ const festivals = [
     "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
   },
   {
+    "name": "WILDE MÖHRE FESTIVAL 2027",
+    "date": "2027-08-20",
+    "endDate": "2027-08-23",
+    "dateDisplay": "20.–23. August 2027",
+    "location": "Lausitz, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Experimental"
+    ],
+    "url": "https://wildemoehrefestival.de",
+    "soldOut": false,
+    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
+    "lat": 51.5119509,
+    "lng": 13.3505194,
+    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern.",
+    "anfahrt": "Wichtiger Hinweis: Viele Navigationsgeräte berechnen bei Eingabe der Geländeadresse eine falsche Route — besser zu den offiziell angegebenen Koordinaten einer nahegelegenen Kreuzung navigieren, ab dort führen Beschilderung und Helfer zum Gelände (Adresse: Göritz 5, 03116 Drebkau). Mit der Bahn geht es bis Calau, von dort bringt ein kostenpflichtiger Shuttle (Bassliner) direkt zum Festival. Falsch geparkte Autos werden in Kooperation mit der Stadt Drebkau abgeschleppt."
+  },
+  {
     "name": "MS DOCKVILLE 2027",
     "date": "2027-08-21",
     "dateDisplay": "21. August 2027",
@@ -3380,23 +3399,23 @@ const festivals = [
     "anfahrt": "Mit dem Auto über die A620 (Ausfahrt Völklingen) oder die A8 (Ausfahrt Saarbrücken-Klarenthal). Mit der Bahn geht es bis Saarbrücken Hauptbahnhof, von dort mit der S1 nach Völklingen — von der Haltestelle sind es nur rund 5 Minuten Fußweg zum Hütteneingang."
   },
   {
-    "name": "WILDE MÖHRE FESTIVAL 2027",
-    "date": "2027-08-20",
-    "endDate": "2027-08-23",
-    "dateDisplay": "20.–23. August 2027",
-    "location": "Lausitz, Brandenburg",
+    "name": "INDIAN SPIRIT 2027",
+    "date": "2027-08-25",
+    "endDate": "2027-08-30",
+    "dateDisplay": "25.–30. August 2027",
+    "location": "Flugplatz Ludwigslust, Mecklenburg",
     "genre": [
+      "Psytrance",
       "Techno",
-      "Electronic",
       "Experimental"
     ],
-    "url": "https://wildemoehrefestival.de",
+    "url": "https://www.indianspirit.de",
     "soldOut": false,
-    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
-    "lat": 51.5119509,
-    "lng": 13.3505194,
-    "about": "Wilde Möhre setzt bewusst auf das Gegenteil vom kommerziellen Großfestival: bargeldloses Bezahlsystem, rein vegane Verpflegung, ökologisches Camping mit Mülltrennung und einem eigenen Awareness-Team. Seit 2014 verwandelt sich das Gelände bei Drebkau in der Lausitz — selbst Resultat einer gefluteten Braunkohlegrube — jedes Jahr in eine Kunst- und Klanglandschaft. Über einen offenen Call bewerben sich Künstler:innen jährlich neu um einen Platz; eine Jury wählt nach Konzept, Nachhaltigkeit und Beteiligungsgrad aus. Bewusst überschaubar bei 5.000 bis 6.000 Besuchern.",
-    "anfahrt": "Wichtiger Hinweis: Viele Navigationsgeräte berechnen bei Eingabe der Geländeadresse eine falsche Route — besser zu den offiziell angegebenen Koordinaten einer nahegelegenen Kreuzung navigieren, ab dort führen Beschilderung und Helfer zum Gelände (Adresse: Göritz 5, 03116 Drebkau). Mit der Bahn geht es bis Calau, von dort bringt ein kostenpflichtiger Shuttle (Bassliner) direkt zum Festival. Falsch geparkte Autos werden in Kooperation mit der Stadt Drebkau abgeschleppt."
+    "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
+    "lat": 53.2983572,
+    "lng": 11.5179145,
+    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik.",
+    "anfahrt": "Von Hamburg oder Berlin über die A24 bis Kreuz Schwerin, dann A14 Richtung Magdeburg, Ausfahrt Grabow/Ludwigslust, weiter Richtung Dannenberg — kurz vor Eldena weist die Beschilderung den Weg. Ohne Auto geht es mit dem Zug bis Ludwigslust (Mecklenburg-Vorpommern), von dort per Bus-Shuttle zum Gelände; zusätzlich gibt es Airport-Shuttles ab Hamburg."
   },
   {
     "name": "SOLÅ FESTIVAL 2027",
@@ -3432,23 +3451,35 @@ const festivals = [
     "anfahrt": "Adresse: Weller Landstraße, Schwarzer Bruch, 47623 Kevelaer. Am Veranstaltungstag der Beschilderung vor Ort folgen. Ein Festival-Shuttle verkehrt vom Bahnhof Kevelaer (Europaplatz) zum Gelände (Hinfahrt 13:30-16:30 Uhr, Rückfahrt 23:00-3:00 Uhr). Parkplätze kosten 5 Euro (nur Bar), Übernachten auf dem Parkplatz — auch im Auto — ist untersagt; Radfahrer nutzen den Heideweg."
   },
   {
-    "name": "INDIAN SPIRIT 2027",
-    "date": "2027-08-25",
-    "endDate": "2027-08-30",
-    "dateDisplay": "25.–30. August 2027",
-    "location": "Flugplatz Ludwigslust, Mecklenburg",
+    "name": "STRANDFIEBER FESTIVAL 2027",
+    "date": "2027-09-04",
+    "dateDisplay": "4. September 2027",
+    "location": "Hartensbergsee, Goldenstedt",
     "genre": [
-      "Psytrance",
       "Techno",
-      "Experimental"
+      "Electronic"
     ],
-    "url": "https://www.indianspirit.de",
+    "url": "https://www.strandfieber-festival.de/",
     "soldOut": false,
-    "description": "Eines der größten Psychedelic-Trance-Festivals Europas — sechs Tage auf dem Flugplatz Ludwigslust.",
-    "lat": 53.2983572,
-    "lng": 11.5179145,
-    "about": "Indian Spirit ist seit 1999 Deutschlands größtes Psytrance-Festival — und eines der bedeutendsten der psychedelischen Szene in ganz Europa. Auf mehreren Bühnen verschmelzen Goa, Progressive Trance und Psytrance zu einer intensiven Erfahrung, begleitet von aufwendigen Dekorationen, Feuerkünstler:innen und Lasershows, die das Gelände bei Eldena in eine andere Dimension verwandeln. Abseits der Tanzflächen gehören Yoga, Workshops und Chill-out-Bereiche fest zum Konzept — ein Festival, das bewusst mehr sein will als Musik.",
-    "anfahrt": "Von Hamburg oder Berlin über die A24 bis Kreuz Schwerin, dann A14 Richtung Magdeburg, Ausfahrt Grabow/Ludwigslust, weiter Richtung Dannenberg — kurz vor Eldena weist die Beschilderung den Weg. Ohne Auto geht es mit dem Zug bis Ludwigslust (Mecklenburg-Vorpommern), von dort per Bus-Shuttle zum Gelände; zusätzlich gibt es Airport-Shuttles ab Hamburg."
+    "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
+    "lat": 52.7916075,
+    "lng": 8.4459285
+  },
+  {
+    "name": "GLÜCKSGEFÜHLE FESTIVAL 2027",
+    "date": "2027-09-05",
+    "dateDisplay": "5. September 2027",
+    "location": "Hockenheimring, Hockenheim",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.gluecksgefuehle-festival.de",
+    "soldOut": false,
+    "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
+    "lat": 49.3297989,
+    "lng": 8.5763
   }
 ];
 
