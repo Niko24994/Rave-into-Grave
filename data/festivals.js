@@ -2000,6 +2000,22 @@ const festivals = [
     "lng": 11.5624179
   },
   {
+    "name": "OPEN BEATZ 2026",
+    "date": "2026-09-13",
+    "dateDisplay": "13. September 2026",
+    "location": "bei Herzogenaurach, Nürnberg",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "EDM"
+    ],
+    "url": "https://www.openbeatz.de",
+    "soldOut": false,
+    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
+    "lat": 49.453872,
+    "lng": 11.077298
+  },
+  {
     "name": "HEXON FESTIVAL #3 2026",
     "date": "2026-09-19",
     "dateDisplay": "19. September 2026",
