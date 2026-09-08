@@ -691,6 +691,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://raveintograve.de/festival/back-to-nature-iv-by-darkforestnoise-2026/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://raveintograve.de/festival/camakavum-festival-2026/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -715,7 +721,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/open-beatz-2026-2026-09-13/</loc>
+    <loc>https://raveintograve.de/festival/waldbeben-2026/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1177,12 +1183,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/wilde-moehre-festival-2027/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://raveintograve.de/festival/ms-dockville-2027/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -1195,7 +1195,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/indian-spirit-2027/</loc>
+    <loc>https://raveintograve.de/festival/wilde-moehre-festival-2027/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1213,13 +1213,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://raveintograve.de/festival/strandfieber-festival-2027/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://raveintograve.de/festival/gluecksgefuehle-festival-2027/</loc>
+    <loc>https://raveintograve.de/festival/indian-spirit-2027/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -1929,6 +1929,23 @@ const festivals = [
     "about": "Reborn versteht sich als Neubeginn einer Szene aus der Stadt heraus — treibender Techno, Hard Trance und industrielle Ästhetik unter dem Motto „One Stage, Thousands of Souls, One Rhythm\". Das Konzept setzt bewusst auf eine einzige Bühne statt vieler paralleler Areale: eine geteilte Erfahrung statt zersplitterter Programme, im Münchner Stadtteil Allach-Untermenzing."
   },
   {
+    "name": "BACK TO NATURE IV BY DARKFORESTNOISE 2026",
+    "date": "2026-09-11",
+    "endDate": "2026-09-13",
+    "dateDisplay": "11.–13. September 2026",
+    "location": "Negenborn",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.goabase.net/festival/back-to-nature-iv-by-darkforestnoise/117907",
+    "soldOut": false,
+    "description": "Intimes Wald-Festival bei Negenborn vom Kollektiv DarkForestNoise — Live-Act und DJ-Sets, reiner Techno.",
+    "lat": 51.88492,
+    "lng": 9.580892,
+    "about": "Back to Nature verbindet unter dem Motto „Die Natur, die Musik, die Einsamkeit, den Frieden\" pure Techno-Klänge mit einem abgeschiedenen Waldsetting bei Negenborn. Live-Act Höki vom veranstaltenden Kollektiv DarkForestNoise selbst trifft auf DJ-Sets von ATRK, Yannick Tella, DJ Synrg und Bobtamin — ein bewusst kleines, naturverbundenes Gegenstück zu den großen Open Airs.",
+    "anfahrt": "Das Gelände liegt bei Negenborn (37643, Niedersachsen). Genaue Anfahrtsdetails veröffentlicht der Veranstalter DarkForestNoise vorab über seine Social-Media-Kanäle."
+  },
+  {
     "name": "CAMAKAVUM FESTIVAL 2026",
     "date": "2026-09-11",
     "endDate": "2026-09-13",
@@ -2000,20 +2017,22 @@ const festivals = [
     "lng": 11.5624179
   },
   {
-    "name": "OPEN BEATZ 2026",
-    "date": "2026-09-13",
-    "dateDisplay": "13. September 2026",
-    "location": "bei Herzogenaurach, Nürnberg",
+    "name": "WALDBEBEN 2026",
+    "date": "2026-09-18",
+    "endDate": "2026-09-20",
+    "dateDisplay": "18.–20. September 2026",
+    "location": "Sandförstgen, Oberlausitz",
     "genre": [
-      "Techno",
-      "Hard Techno",
-      "EDM"
+      "Psytrance",
+      "Techno"
     ],
-    "url": "https://www.openbeatz.de",
+    "url": "https://www.goabase.net/festival/waldbeben-2026/117582",
     "soldOut": false,
-    "description": "Bayerisches Open-Air bei Nürnberg — hartes Line-up, mehrtägiges Camping, keine Kompromisse.",
-    "lat": 49.453872,
-    "lng": 11.077298
+    "description": "Wald-Festival in der Oberlausitz — Psytrance, Tekno und Chillout auf der Bühne „Lichtung“, mit Camping und Feuerspace.",
+    "lat": 51.2381039,
+    "lng": 14.6518045,
+    "about": "Waldbeben findet mitten im Wald bei Sandförstgen in der Oberlausitz statt — Camping, Musik, Feuerspace und Workshops verschmelzen zu einem naturverbundenen Wochenende. Auf der Bühne „Lichtung“ laufen drei musikalische Richtungen: Psytrance, Tekno und Chillout, mit Artists wie Zauberling, Trokar, Zia Lo und Ogrim[izer].",
+    "anfahrt": "Adresse: An der Loose 7, 02906 Sandförstgen (Gelände von Bunka e.V.)."
   },
   {
     "name": "HEXON FESTIVAL #3 2026",

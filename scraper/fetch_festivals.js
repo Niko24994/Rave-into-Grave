@@ -223,6 +223,10 @@ const KNOWN_FALSE_POSITIVES = new Set([
   'libellafestival20262026-10-24',
   'awakeningsfestival20262026-12-04',
   'natureone20262026-09-10',
+  // openbeatz.de: echter Termin ist 24.-26. Juli 2026 (bereits gelistet),
+  // die Seite nennt aber zusaetzlich den 13. September (verifiziert per
+  // Websuche — keine zweite Ausgabe im September).
+  'openbeatz20262026-09-13',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
