@@ -29,7 +29,7 @@ const WORK_DIR = path.join(__dirname, '.work');
 const W = 1080, H = 1920;
 const SHORT_SECONDS = 4;
 const SHORT_THRESHOLD = 3;
-const PER_PAGE = 9;
+const PER_PAGE = 7;
 
 // Nur eine Seite insgesamt -> mehr Zeit zum Lesen/Screenshotten, da nichts
 // weiter folgt (8s). Mehrere Seiten -> etwas knapper pro Seite, damit das
@@ -256,7 +256,7 @@ function shortenIfCrossMonth(shortDate) {
 function pageHtml(group, pageNum, totalPages, weekLabel, yearLabel, dateRangeTitle, getWeather) {
   // Weniger Zeilen auf der Seite -> etwas mehr Abstand dazwischen, damit es
   // nicht nur "zentriert mit Leerraum drumherum" wirkt, sondern die Seite
-  // insgesamt voller. Bei maximaler Belegung (9) bleibt der Abstand wie bisher.
+  // insgesamt voller. Bei maximaler Belegung (PER_PAGE) bleibt der Abstand wie bisher.
   const rowGap = Math.min(40, 16 + Math.max(0, PER_PAGE - group.length) * 4);
 
   const rows = group.map(f => {
