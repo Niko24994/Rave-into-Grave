@@ -2653,6 +2653,21 @@ const festivals = [
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
   },
   {
+    "name": "APEX 2027",
+    "date": "2027-03-06",
+    "dateDisplay": "6. März 2027",
+    "location": "Maimarkthalle, Mannheim",
+    "genre": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "url": "https://apexfest.de/",
+    "soldOut": false,
+    "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
+    "lat": 49.4683637,
+    "lng": 8.5239462
+  },
+  {
     "name": "TELETECH FESTIVAL 2027",
     "date": "2027-03-12",
     "dateDisplay": "12. März 2027",
