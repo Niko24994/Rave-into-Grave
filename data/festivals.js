@@ -2087,6 +2087,22 @@ const festivals = [
     "anfahrt": "Erreichbar mit der Straßenbahnlinie 7 (Richtung Porz/Zündorf) bis Poller Kirchweg oder Raiffeisenstraße (je ca. 900-1000 Meter Fußweg), mit den Linien 16/17 bis Schönhauser Straße auf der linken Rheinseite (ca. 1000 Meter über die Südbrücke), oder mit Buslinie 159 bis Schüttewerk (450 Meter). Der Veranstalter empfiehlt ausdrücklich Bahn oder Fahrgemeinschaften."
   },
   {
+    "name": "NIBIRII FESTIVAL 2026",
+    "date": "2026-10-02",
+    "dateDisplay": "2. Oktober 2026",
+    "location": "Düren, NRW",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Electronic"
+    ],
+    "url": "https://nibirii.com",
+    "soldOut": false,
+    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
+    "lat": 50.8031684,
+    "lng": 6.4820806
+  },
+  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Oktober 2026",
@@ -2753,6 +2769,21 @@ const festivals = [
     "anfahrt": "Adresse: Rheinlanddamm 202, 44139 Dortmund. Mit dem Eintrittsticket könnt ihr Busse, Bahnen und Straßenbahnen (RE, RB, S-Bahn 2. Klasse) im gesamten VRR-Gebiet kostenlos nutzen — ab Dortmund Hauptbahnhof geht es z. B. mit RB53/RB59/RB52 bis „Signal Iduna Park\" (U45) oder direkt bis „Westfalenhallen\". Parkplätze A3/A4 liegen direkt vor der Halle, Parktickets gibt es vorab im Online-Shop."
   },
   {
+    "name": "UND DRINNEN TANZT DER BÄR 2027",
+    "date": "2027-05-06",
+    "dateDisplay": "6. Mai 2027",
+    "location": "Stadthalle Rostock, Rostock",
+    "genre": [
+      "Techno",
+      "Trance"
+    ],
+    "url": "https://www.udtdb.de/",
+    "soldOut": false,
+    "description": "Erstmals als Wochenendfestival: zwei Nächte Techno und Trance in der Rostocker Stadthalle.",
+    "lat": 54.0772155,
+    "lng": 12.1255356
+  },
+  {
     "name": "RAVE AND SUN FESTIVAL 2027",
     "date": "2027-05-15",
     "dateDisplay": "15. Mai 2027",
@@ -2859,6 +2890,21 @@ const festivals = [
     "lng": 7.6387486,
     "about": "Seit 2010 steht Docklands für sorgfältig kuratierte elektronische Musik zwischen Underground und Szenegrößen im Münsteraner Hawerkamp-Viertel. Das Besondere ist das Day-&-Night-Konzept: Tagsüber läuft das Programm open air rund um Hawerkamp und Kanal, ab 22 Uhr verlagert es sich nahtlos in die Clubs am Hawerkamp und Stadthafen — Festival und Clubkultur verschmelzen, statt getrennt nebeneinander zu existieren.",
     "anfahrt": "Adresse fürs Navi: Am Hawerkamp 29, 48155 Münster. Ab Münster Hauptbahnhof bringen euch die Stadtbuslinien 6 (Richtung Hiltrup Franz-Marc-Weg) oder 8 (Richtung Wolbeck Nogatstr.) bis zur Haltestelle Stadtwerke/Hafen, von dort ist es ein kurzer Fußweg zum Eingang. Parkplätze („Süd-Süd\" und „Caspar Hessel\" der Halle Münsterland) liegen 2-3 Gehminuten vom Gelände entfernt, Kosten: 5 Euro pro Parkticket."
+  },
+  {
+    "name": "WAVES OPEN AIR 2027",
+    "date": "2027-06-12",
+    "dateDisplay": "12. Juni 2027",
+    "location": "Spaßbad Wedemark, Hannover",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://waves-openair.de",
+    "soldOut": false,
+    "description": "Waves Open Air — Techno und Electronic im Spaßbad Wedemark bei Hannover. Drei Stages, Indoor & Outdoor, Pool-Vibes.",
+    "lat": 52.5467847,
+    "lng": 9.7482486
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
@@ -3514,6 +3560,21 @@ const festivals = [
     "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
     "lat": 52.7916075,
     "lng": 8.4459285
+  },
+  {
+    "name": "WAVES OPEN AIR CLOSING 2027",
+    "date": "2027-09-04",
+    "dateDisplay": "4. September 2027",
+    "location": "Spaßbad Wedemark, Hannover",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://closing.waves-openair.de",
+    "soldOut": false,
+    "description": "Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover. Die letzte Sommerparty bevor der Herbst kommt.",
+    "lat": 52.5467847,
+    "lng": 9.7482486
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2027",
