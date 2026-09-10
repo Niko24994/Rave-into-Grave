@@ -2052,6 +2052,42 @@ const festivals = [
     "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld."
   },
   {
+    "name": "HARBOUR FESTIVAL HERBST EDITION 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Westhafen, Leipzig",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.westhafen-leipzig.de/",
+    "soldOut": false,
+    "description": "Herbstausgabe des Harbour Festivals am Westhafen Leipzig — Techno, Hard Techno und Trance auf fünf Areas, indoor und open air, 14 bis 8 Uhr.",
+    "lat": 51.3383707,
+    "lng": 12.3050378,
+    "about": "Das Harbour Festival verwandelt den Leipziger Westhafen für die Herbstausgabe in ein Areal aus Sandstrand und Industrie: fünf Bereiche verteilen sich auf drinnen und draußen — die Main Stage mit rund 1.000 Kapazität am Sandstrand, ein bewaldeter Garden-Bereich, der kompakte Container-Floor und der dunkle, basslastige Bunker mit Lambda-Labs-Soundsystem für die Techno-Fans. Von 14 Uhr bis 8 Uhr morgens laufen Techno, Hard Techno und Trance.",
+    "anfahrt": "Adresse: Ernst-Keil-Straße 16, 04179 Leipzig-Lindenau. Mit dem ÖPNV: Straßenbahn 15 Richtung Miltitz bis „Lindenauer Bushof\", Bus 60 Richtung Lindenauer Hafen bis „Dr.-H.-Duncker-Straße\", oder S-Bahn S1 bis „Bahnhof Leipzig Lindenau\"."
+  },
+  {
+    "name": "WAPELBEATS OPEN AIR CLOSING 2026",
+    "date": "2026-09-19",
+    "dateDisplay": "19. September 2026",
+    "location": "Wapelbad, Gütersloh",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.wapelbeats.de/",
+    "soldOut": false,
+    "description": "Saisonabschluss von Wapelbeats im stillgelegten Freibad — elektronische Musik unter freiem Himmel, zwei Bühnen im weißen Sand, 15 bis 23 Uhr.",
+    "lat": 51.8916117,
+    "lng": 8.3383065,
+    "about": "Wapelbeats gilt als eines der größten Tagesfestivals der elektronischen Musikszene in NRW — fünfmal pro Saison verwandelt sich das stillgelegte Wapelbad in Gütersloh in eine Open-Air-Fläche mit weißem Sand und zwei Bühnen (Holzstegbühne und Waldbühne), pro Ausgabe kommen rund 3.500 Gäste. Das Line-up bewegt sich zwischen Techno, Trance und House; frühere Ausgaben brachten Acts wie Monolink, Booka Shade und Jan Blomqvist. Organisiert wird ehrenamtlich, Überschüsse gehen an gemeinnützige Zwecke.",
+    "anfahrt": "Adresse: Zum Wapelbad 1, 33334 Gütersloh. Mit der Bahn bis Gütersloh Hauptbahnhof, von dort mit Buslinie 208 Richtung LWL-Klinik (ca. 12 Minuten). Parken ist rund ums Gelände nur begrenzt möglich — der Veranstalter empfiehlt die kostenlosen Parkplätze an der LWL-Klinik; das Parken an den Feldwegen ist untersagt."
+  },
+  {
     "name": "RHEINGRÜN OPEN AIR 2026",
     "date": "2026-09-19",
     "endDate": "2026-09-20",
