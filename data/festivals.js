@@ -2087,22 +2087,6 @@ const festivals = [
     "anfahrt": "Erreichbar mit der Straßenbahnlinie 7 (Richtung Porz/Zündorf) bis Poller Kirchweg oder Raiffeisenstraße (je ca. 900-1000 Meter Fußweg), mit den Linien 16/17 bis Schönhauser Straße auf der linken Rheinseite (ca. 1000 Meter über die Südbrücke), oder mit Buslinie 159 bis Schüttewerk (450 Meter). Der Veranstalter empfiehlt ausdrücklich Bahn oder Fahrgemeinschaften."
   },
   {
-    "name": "NIBIRII FESTIVAL 2026",
-    "date": "2026-10-02",
-    "dateDisplay": "2. Oktober 2026",
-    "location": "Düren, NRW",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "Electronic"
-    ],
-    "url": "https://nibirii.com",
-    "soldOut": false,
-    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
-    "lat": 50.8031684,
-    "lng": 6.4820806
-  },
-  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Oktober 2026",
@@ -2669,21 +2653,6 @@ const festivals = [
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
   },
   {
-    "name": "APEX 2027",
-    "date": "2027-03-06",
-    "dateDisplay": "6. März 2027",
-    "location": "Maimarkthalle, Mannheim",
-    "genre": [
-      "Hardcore",
-      "Hard Techno"
-    ],
-    "url": "https://apexfest.de/",
-    "soldOut": false,
-    "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
-    "lat": 49.4683637,
-    "lng": 8.5239462
-  },
-  {
     "name": "TELETECH FESTIVAL 2027",
     "date": "2027-03-12",
     "dateDisplay": "12. März 2027",
@@ -2767,21 +2736,6 @@ const festivals = [
     "lng": 7.4602637,
     "about": "MAYDAY ist die Mutter aller deutschen Techno-Festivals. Die Idee kam 1991 von Fabian Lenz alias DJ Dick, unterstützt von seinem Bruder Maximilian (WestBam) und dem Szene-Magazin Frontpage — ursprünglich als Benefizveranstaltung für den vom Ende bedrohten DDR-Sender DT64, einen der ersten Sender überhaupt, die Techno spielten. Am 14. Dezember 1991 feierten rund 5.000 Menschen in einer Berliner Halle die erste MAYDAY. Seit 1993 ist Dortmund die feste Heimat — der Name selbst ist eine Anspielung auf das internationale Notrufsignal und den traditionellen Termin am 1. Mai.",
     "anfahrt": "Adresse: Rheinlanddamm 202, 44139 Dortmund. Mit dem Eintrittsticket könnt ihr Busse, Bahnen und Straßenbahnen (RE, RB, S-Bahn 2. Klasse) im gesamten VRR-Gebiet kostenlos nutzen — ab Dortmund Hauptbahnhof geht es z. B. mit RB53/RB59/RB52 bis „Signal Iduna Park\" (U45) oder direkt bis „Westfalenhallen\". Parkplätze A3/A4 liegen direkt vor der Halle, Parktickets gibt es vorab im Online-Shop."
-  },
-  {
-    "name": "UND DRINNEN TANZT DER BÄR 2027",
-    "date": "2027-05-06",
-    "dateDisplay": "6. Mai 2027",
-    "location": "Stadthalle Rostock, Rostock",
-    "genre": [
-      "Techno",
-      "Trance"
-    ],
-    "url": "https://www.udtdb.de/",
-    "soldOut": false,
-    "description": "Erstmals als Wochenendfestival: zwei Nächte Techno und Trance in der Rostocker Stadthalle.",
-    "lat": 54.0772155,
-    "lng": 12.1255356
   },
   {
     "name": "RAVE AND SUN FESTIVAL 2027",

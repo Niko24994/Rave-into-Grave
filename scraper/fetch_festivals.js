@@ -227,6 +227,16 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // die Seite nennt aber zusaetzlich den 13. September (verifiziert per
   // Websuche — keine zweite Ausgabe im September).
   'openbeatz20262026-09-13',
+  // nibirii.com: echter Termin ist 28.-30. August 2026 (bereits gelistet),
+  // 2. Oktober ist ein Fehlfund (verifiziert per Websuche).
+  'nibiriifestival20262026-10-02',
+  // apexfest.de: APEX 2027 findet am 30. Januar 2027 statt (bereits
+  // gelistet), der 6. Maerz ist ein Fehlfund (verifiziert per Websuche).
+  'apex20272027-03-06',
+  // udtdb.de: der 6. Mai 2027 gehoert zu "Und DRAUSSEN tanzt der Baer -
+  // Herrentags Open Air" in Schwerin, ein anderes Event — falsch der
+  // Rostocker "drinnen"-Reihe zugeordnet (verifiziert per Websuche).
+  'unddrinnentanztderbr20272027-05-06',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
