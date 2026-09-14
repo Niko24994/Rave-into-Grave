@@ -3428,6 +3428,21 @@ const festivals = [
     "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
   },
   {
+    "name": "ECHELON FESTIVAL 2027",
+    "date": "2027-08-14",
+    "dateDisplay": "14. August 2027",
+    "location": "Ehem. US-Kaserne, Bad Aibling",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.echelon-festival.de/",
+    "soldOut": false,
+    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse.",
+    "lat": 47.8640504,
+    "lng": 12.0097685
+  },
+  {
     "name": "WILDE MÖHRE FESTIVAL 2027",
     "date": "2027-08-20",
     "endDate": "2027-08-23",
