@@ -3076,6 +3076,21 @@ const festivals = [
     "anfahrt": "Adresse: Am Flugplatz 1, 19306 Neustadt-Glewe, direkt an der A24 Hamburg-Berlin. Über die A24 Ausfahrt Neustadt-Glewe anreisen und der Beschilderung zum Parkplatz P5 folgen (kostenpflichtig, Umweltplakette erforderlich). Von P5 bringt ein rund um die Uhr kostenloser Shuttle-Bus euch zum Gelände, mit Stopps am Festival, Bahnhof und See."
   },
   {
+    "name": "WET OPEN AIR 2027",
+    "date": "2027-07-10",
+    "dateDisplay": "10. Juli 2027",
+    "location": "Badezentrum Sindelfingen",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.wet-openair.de/",
+    "soldOut": false,
+    "description": "Open Air im Badezentrum Sindelfingen mit Kobosil, I Hate Models und Deborah de Luca — in Kooperation mit dem Lehmannclub Stuttgart.",
+    "lat": 48.7193827,
+    "lng": 9.0167905
+  },
+  {
     "name": "DEICHBRAND 2027",
     "date": "2027-07-15",
     "dateDisplay": "15.–18. Juli 2027",
