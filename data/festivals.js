@@ -2106,6 +2106,25 @@ const festivals = [
     "anfahrt": "Adresse: Hermann-Schneider-Allee 54, 76189 Karlsruhe (Rheinstrandbad Rappenwört). Mit der Straßenbahnlinie 6 geht es im 20-Minuten-Takt bis Daxlanden Rappenwört. Über 3.000 befestigte Parkplätze sowie Fahrradstellplätze sind direkt am Rheinstrandbad vorhanden — bei großem Andrang lohnt sich frühzeitige Anreise, da die Parkplätze schnell voll werden können."
   },
   {
+    "name": "LUNA FESTIVAL 2026",
+    "date": "2026-09-25",
+    "endDate": "2026-09-27",
+    "dateDisplay": "25.–27. September 2026",
+    "location": "Lußhardtsee, Kronau",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Psytrance"
+    ],
+    "url": "https://lusshardtsee.de/luna.html",
+    "soldOut": false,
+    "description": "Vollmond-Festival direkt am Lußhardtsee — Techno und Hard Techno auf der NUMEN-Bühne, Reggae, Dub und Psytrance am Strand.",
+    "lat": 49.2394958,
+    "lng": 8.6188106,
+    "about": "Luna bringt für ein Wochenende den Sommer zurück an den Lußhardtsee bei Kronau — zwei Tage Musik, Kunst, Markt, Workshops und Camping direkt am Wasser, mit Badebetrieb an beiden Tagen. Zwei Bühnen bespielen das Gelände: Die NUMEN-Stage steht für Techno und Hard Techno mit internationalen Headlinern, während die Ganja-Riddim-Soundsystem-Bühne tagsüber Reggae und Dub direkt am Strand bringt und nach Einbruch der Dunkelheit in Psytrance und Psytech übergeht.",
+    "anfahrt": "Adresse: Lußhardtsee, 76709 Kronau. Bahnhof Bad Schönborn-Kronau liegt in der Nähe, kostenlose Parkplätze sind vorhanden. Camping von Freitag 13 Uhr bis Sonntag 12 Uhr für Ticketinhaber möglich."
+  },
+  {
     "name": "UNREAL XXL OPEN AIR 2026",
     "date": "2026-09-26",
     "dateDisplay": "26. September 2026",
