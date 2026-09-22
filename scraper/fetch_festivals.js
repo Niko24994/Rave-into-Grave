@@ -237,6 +237,12 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // Herrentags Open Air" in Schwerin, ein anderes Event — falsch der
   // Rostocker "drinnen"-Reihe zugeordnet (verifiziert per Websuche).
   'unddrinnentanztderbr20272027-05-06',
+  // shop-overdrive.de: der 31. Oktober 2026 gehoert zu "Overdrive - Circus
+  // Rave", einer Indoor-Clubnacht am Schuetzenplatz Hannover — faelschlich
+  // dem Open-Air-Festival im Expo Park (7. August, bereits gelistet)
+  // zugeordnet (verifiziert per Websuche). Ausserdem ohnehin eine
+  // Clubnacht, kein Festival.
+  'overdriveopenairfestival22026-10-31',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
