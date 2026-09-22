@@ -2142,6 +2142,22 @@ const festivals = [
     "anfahrt": "Erreichbar mit der Straßenbahnlinie 7 (Richtung Porz/Zündorf) bis Poller Kirchweg oder Raiffeisenstraße (je ca. 900-1000 Meter Fußweg), mit den Linien 16/17 bis Schönhauser Straße auf der linken Rheinseite (ca. 1000 Meter über die Südbrücke), oder mit Buslinie 159 bis Schüttewerk (450 Meter). Der Veranstalter empfiehlt ausdrücklich Bahn oder Fahrgemeinschaften."
   },
   {
+    "name": "TRANCE SIGNAL 2026",
+    "date": "2026-10-03",
+    "dateDisplay": "3. Oktober 2026",
+    "location": "Schallwerk, Oberhausen",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://trance-signal.com/",
+    "soldOut": false,
+    "description": "Indoor-Trance-Festival im Schallwerk Oberhausen — zweimal im Jahr treibt die internationale Trance-Family hier eine Nacht durch.",
+    "lat": 51.4841944,
+    "lng": 6.8666520,
+    "about": "Trance Signal ist seit Jahren fester Programmpunkt für die deutsche und niederländische Trance-Family — eingebettet in die internationalen Netzwerke „Trance Family Germany\" und „Trance Family Netherlands\", zweimal jährlich (April und Oktober) im Schallwerk Oberhausen, Teil des Turbinenhallen-Komplexes. Die Herbstausgabe 2026 versammelt Namen wie Alex Signal, Dream6, Ed Lynam, Franky Effe, Paul Webster, Swooney, Woody und Xijaro & Pitch für eine Nacht klassischem und modernem Trance-Sound.",
+    "anfahrt": "Adresse: Mülheimer Straße 4, 46049 Oberhausen (Schallwerk, Teil des Turbinenhallen-Areals). Ab Oberhausen Hauptbahnhof verkehren Busse Richtung „Im Lipperfeld\"/„Feuerwache\" in die Neue Mitte, von dort ist das Areal in wenigen Gehminuten erreichbar. Parkmöglichkeiten sind direkt am Turbinenhallen-Gelände vorhanden."
+  },
+  {
     "name": "SYNDICATE 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Oktober 2026",
