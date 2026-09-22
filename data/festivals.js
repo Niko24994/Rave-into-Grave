@@ -2367,20 +2367,6 @@ const festivals = [
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
-    "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
-    "date": "2026-10-31",
-    "dateDisplay": "31. Oktober 2026",
-    "location": "Expo Park, Hannover",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://shop-overdrive.de/events/",
-    "soldOut": false,
-    "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.",
-    "lat": 52.3184969,
-    "lng": 9.8179603
-  },
-  {
     "name": "THE HOLY SHIT SHOW 2026",
     "date": "2026-11-06",
     "dateDisplay": "6. November 2026",
