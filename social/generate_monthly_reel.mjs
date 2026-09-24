@@ -105,6 +105,22 @@ function escapeHtml(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+const MONTH_ABBR = {
+  Januar: 'Jan', Februar: 'Feb', März: 'Mär', April: 'Apr', Mai: 'Mai', Juni: 'Jun',
+  Juli: 'Jul', August: 'Aug', September: 'Sep', Oktober: 'Okt', November: 'Nov', Dezember: 'Dez',
+};
+
+// Monatsuebergreifende Spannen ("31. Oktober–1. November") sind in der schmalen
+// row-date-Spalte zu lang und wirken gequetscht — dort beide Monate auf 3
+// Buchstaben kuerzen. Einzelmonats-Spannen bleiben ausgeschrieben.
+function shortenIfCrossMonth(shortDate) {
+  const monthsFound = Object.keys(MONTH_ABBR).filter(m => shortDate.includes(m));
+  if (monthsFound.length < 2) return shortDate;
+  let result = shortDate;
+  for (const m of monthsFound) result = result.replace(m, MONTH_ABBR[m]);
+  return result;
+}
+
 function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
   // Weniger Zeilen auf der Seite -> etwas mehr Abstand dazwischen, damit es
   // nicht nur "zentriert mit Leerraum drumherum" wirkt, sondern die Seite
@@ -113,7 +129,7 @@ function pageHtml(group, pageNum, totalPages, monthLabel, yearLabel) {
   const rowGap = Math.min(32, 12 + Math.max(0, PER_PAGE - group.length) * 4);
 
   const rows = group.map(f => {
-    const shortDate = f.dateDisplay.replace(new RegExp(`\\s*${yearLabel}$`), '').replace(/\s*–\s*/, '–');
+    const shortDate = shortenIfCrossMonth(f.dateDisplay.replace(new RegExp(`\\s*${yearLabel}$`), '').replace(/\s*–\s*/, '–'));
     return `
       <div class="row" style="margin-bottom:${rowGap}px">
         <div class="row-date">${escapeHtml(shortDate)}</div>
