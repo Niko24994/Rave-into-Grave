@@ -2366,6 +2366,23 @@ const festivals = [
     "anfahrt": "Adresse: ArenA Boulevard 590, 1101 DR Amsterdam. Mit dem Auto über die A2 Richtung Amsterdam Zuidoost bis zum P1-ArenA-Parkplatz direkt gegenüber der Halle (Navi-Adresse: Burgemeester Stramanweg 130). Mit der Bahn/Metro bis Amsterdam Bijlmer ArenA — von dort sind es nur rund 5 Minuten zu Fuß bis AFAS Live."
   },
   {
+    "name": "HALLOWEEN RAVE 2026",
+    "date": "2026-10-31",
+    "dateDisplay": "31. Oktober 2026",
+    "location": "Wagenhallen, Stuttgart",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://wagenhallen.de/events/halloween-rave-2026/",
+    "soldOut": false,
+    "description": "Halloween-Rave in den historischen Wagenhallen Stuttgart — Techno, Hard Techno und Deep Techno ab 22 Uhr, ab 18 Jahren.",
+    "lat": 48.7997248,
+    "lng": 9.1859097,
+    "about": "Nach dem „geisteskranken\" Halloween Rave 2025 mit Headlinern wie Poltergst, Alfred Heinrichs und KNTRLVRLST geht die Reihe 2026 in die nächste Runde — nach eigener Ankündigung „noch krasser, noch wilder\". Gefeiert wird in den Wagenhallen am Inneren Nordbahnhof: 1895 als Lokomotivschuppen erbaut, später Wartungszentrum für Güterwaggons und Busdepot, seit 2006 Kunst- und Kulturzentrum und nach jahrelanger Sanierung seit 2020 wieder in voller Größe bespielbar. Techno, Hard Techno und Deep Techno füllen die 7.500 Quadratmeter große Industriehalle, dazu Kostümprämierung und Horror-Show-Elemente.",
+    "anfahrt": "Adresse: Innerer Nordbahnhof 1, 70191 Stuttgart. Mit der S-Bahn (S4, S5, S6) bis „Nordbahnhof\" (ca. 10 Minuten Fußweg) oder mit der Stadtbahn U12 bis „Löwentor\" (ca. 12 Minuten Fußweg). Rund 120 Parkplätze stehen direkt auf dem Wagenhallen-Gelände zur Verfügung."
+  },
+  {
     "name": "FACELESS PSYCHO CITY 2026",
     "date": "2026-10-31",
     "endDate": "2026-11-01",
