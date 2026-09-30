@@ -3400,6 +3400,19 @@ const festivals = [
     "anfahrt": "Das Olympiastadion ist hervorragend an den ÖPNV angebunden: S-Bahn-Linien S3 und S9, U-Bahn-Linie U2 sowie die Buslinien M49 und 218 fahren direkt dorthin. Da sich das Festival als weitgehend autofreie Veranstaltung versteht, gibt es keine eigenen Parkplätze — bei unumgänglicher Autoanreise verweist der Veranstalter auf die Park-und-Ride-Stationen in Spandau, Jungfernheide und Messe Nord/ICC."
   },
   {
+    "name": "NATION OF GONDWANA 2027",
+    "date": "2027-07-18",
+    "dateDisplay": "18. Juli 2027",
+    "location": "Grünefeld bei Berlin",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://pyonen.de/nog2026/",
+    "soldOut": false,
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin."
+  },
+  {
     "name": "FEEL FESTIVAL 2027",
     "date": "2027-07-22",
     "dateDisplay": "22.–25. Juli 2027",
