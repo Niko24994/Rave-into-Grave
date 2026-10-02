@@ -1,4 +1,4 @@
-// Daten zuletzt aktualisiert: September 2026
+// Daten zuletzt aktualisiert: Oktober 2026
 // Automatisch gepflegt von scraper/fetch_festivals.js — manuelle Einträge bleiben erhalten.
 
 const festivals = [
@@ -2558,6 +2558,20 @@ const festivals = [
     "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
     "lat": 51.2859671,
     "lng": 12.3461028
+  },
+  {
+    "name": "SPÄTSCHICHT SAAR 2026",
+    "date": "2026-10-31",
+    "dateDisplay": "31. Oktober 2026",
+    "location": "Flugplatz, Zweibrücken",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.spaetschicht-saar.de/",
+    "soldOut": false,
+    "description": "",
+    "lat": 49.2248433,
+    "lng": 7.4003888
   },
   {
     "name": "THE HOLY SHIT SHOW 2026",
