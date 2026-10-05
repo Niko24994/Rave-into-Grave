@@ -2342,7 +2342,7 @@ const festivals = [
     "genre": [
       "Trance"
     ],
-    "url": "https://klangwelten-bremen.de/event/BUPQR/",
+    "url": "https://www.twister-dance.de/",
     "soldOut": false,
     "description": "Halloween-Special mit Goa- und Trance-Sounds bei Twister Dance in Sande, veranstaltet von Klangwelten Bremen.",
     "lat": 53.4924729,
@@ -3335,8 +3335,9 @@ const festivals = [
   },
   {
     "name": "FERDINANDS FELD FESTIVAL 2027",
-    "date": "2027-07-31",
-    "dateDisplay": "31. Juli 2027",
+    "date": "2027-07-30",
+    "endDate": "2027-07-31",
+    "dateDisplay": "30.–31. Juli 2027",
     "location": "Rotenburg an der Wümme",
     "genre": [
       "Techno",
@@ -3389,8 +3390,9 @@ const festivals = [
   },
   {
     "name": "HILL OF DREAMS 2027",
-    "date": "2027-08-07",
-    "dateDisplay": "7. August 2027",
+    "date": "2027-08-06",
+    "endDate": "2027-08-07",
+    "dateDisplay": "6.–7. August 2027",
     "location": "Bruchhausen-Vilsen",
     "genre": [
       "Techno",
@@ -3407,8 +3409,9 @@ const festivals = [
   },
   {
     "name": "CIRCLE OF LEAVES FESTIVAL 2027",
-    "date": "2027-08-08",
-    "dateDisplay": "8. August 2027",
+    "date": "2027-08-06",
+    "endDate": "2027-08-08",
+    "dateDisplay": "6.–8. August 2027",
     "location": "Marbach-Stausee, Oberzent (Hessen)",
     "genre": [
       "Techno",
@@ -3424,8 +3427,9 @@ const festivals = [
   },
   {
     "name": "ELECTRISIZE 2027",
-    "date": "2027-08-08",
-    "dateDisplay": "8. August 2027",
+    "date": "2027-08-06",
+    "endDate": "2027-08-08",
+    "dateDisplay": "6.–8. August 2027",
     "location": "Haus Hohenbusch, Erkelenz",
     "genre": [
       "EDM",
@@ -3457,7 +3461,7 @@ const festivals = [
     "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
     "lat": 49.8939869,
     "lng": 11.3445052,
-    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Vier Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
+    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Fünf Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
     "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
   },
   {
@@ -3499,8 +3503,9 @@ const festivals = [
   },
   {
     "name": "SAN HEJMO FESTIVAL 2027",
-    "date": "2027-08-14",
-    "dateDisplay": "14. August 2027",
+    "date": "2027-08-13",
+    "endDate": "2027-08-14",
+    "dateDisplay": "13.–14. August 2027",
     "location": "Airport Weeze, Weeze",
     "genre": [
       "Techno",
@@ -3552,8 +3557,9 @@ const festivals = [
   },
   {
     "name": "MS DOCKVILLE 2027",
-    "date": "2027-08-21",
-    "dateDisplay": "21. August 2027",
+    "date": "2027-08-20",
+    "endDate": "2027-08-21",
+    "dateDisplay": "20.–21. August 2027",
     "location": "Hamburg-Wilhelmsburg",
     "genre": [
       "Techno",
@@ -3672,8 +3678,9 @@ const festivals = [
   },
   {
     "name": "GLÜCKSGEFÜHLE FESTIVAL 2027",
-    "date": "2027-09-05",
-    "dateDisplay": "5. September 2027",
+    "date": "2027-09-02",
+    "endDate": "2027-09-05",
+    "dateDisplay": "2.–5. September 2027",
     "location": "Hockenheimring, Hockenheim",
     "genre": [
       "Techno",
