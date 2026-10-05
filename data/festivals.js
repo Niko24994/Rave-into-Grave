@@ -2250,7 +2250,8 @@ const festivals = [
     "dateDisplay": "9.–10. Oktober 2026",
     "location": "Club OST, Berlin",
     "genre": [
-      "Techno"
+      "Techno",
+      "Hard Techno"
     ],
     "url": "https://www.verknipt.org/berlin/",
     "soldOut": false,
@@ -2317,7 +2318,8 @@ const festivals = [
     "dateDisplay": "16.–17. Oktober 2026",
     "location": "Edelfettwerk, Hamburg",
     "genre": [
-      "Techno"
+      "Techno",
+      "Hard Techno"
     ],
     "url": "https://www.verknipt.org/",
     "soldOut": false,
@@ -2614,7 +2616,8 @@ const festivals = [
     "genre": [
       "Techno",
       "Hard Techno",
-      "Trance"
+      "Trance",
+      "Psytrance"
     ],
     "url": "https://klangwelten-bremen.de/event/KLHFX/",
     "soldOut": false,
@@ -2967,7 +2970,7 @@ const festivals = [
     "name": "TRANCE WORLD FESTIVAL 2027",
     "date": "2027-04-17",
     "endDate": "2027-04-19",
-    "dateDisplay": "17.– 19. April 2027",
+    "dateDisplay": "17.–19. April 2027",
     "location": "Max Nachttheater, Kiel",
     "genre": [
       "Trance"
@@ -3082,7 +3085,7 @@ const festivals = [
     ],
     "url": "https://www.worldclubdome.com",
     "soldOut": false,
-    "description": "Das größte Club-Festival der Welt — Early Bird Tickets bereits für €129 erhältlich.",
+    "description": "Das größte Club-Festival der Welt — die Messe Frankfurt wird zum größten Club auf Erden.",
     "lat": 50.1115781,
     "lng": 8.6444501,
     "about": "World Club Dome verwandelt den Deutsche Bank Park einmal im Jahr in den „größten Club der Welt\" — mit über 25 Bühnen auf 700.000 Quadratmetern. Seit der ersten Ausgabe 2013 mit 25.000 Besuchern ist das Festival rasant gewachsen. Veranstalter ist BigCityBeats, seit fast zwei Jahrzehnten eine der zentralen Institutionen der deutschen EDM-Szene. Das Konzept hat sich längst international ausgebreitet — mit einer eigenen Cruise-Edition, einer Winter Edition und 2017 sogar einem Ableger in Südkorea.",
@@ -3224,7 +3227,7 @@ const festivals = [
     ],
     "url": "https://www.ikarus-festival.de",
     "soldOut": false,
-    "description": "Vier Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
+    "description": "Drei Tage Electronic Music auf dem Flughafen Memmingen — Camping, mehrere Stages, knallendes Line-up.",
     "lat": 47.9888241,
     "lng": 10.2350723,
     "about": "Ikarus fand am 5. und 6. Juni 2015 erstmals auf einem ehemaligen Militärflugplatz neben dem Flughafen Memmingen statt — benannt nach der Figur aus der griechischen Mythologie. Nach coronabedingten Ausfällen 2022 mit über 75.000 Besuchern zurück, wuchs das Festival bis 2026 auf 120.000 Besucher. Acht Bühnen bespielen offene Flächen, dunkle Shelter und Waldstücke — Mainstage-Momente treffen auf harten Techno, melodischer Wald-Floor auf Psytrance-Nacht.",
@@ -3312,7 +3315,7 @@ const festivals = [
     ],
     "url": "https://www.wet-openair.de/",
     "soldOut": false,
-    "description": "Open Air im Badezentrum Sindelfingen mit Kobosil, I Hate Models und Deborah de Luca — in Kooperation mit dem Lehmannclub Stuttgart.",
+    "description": "Techno und Hard Techno im Badezentrum Sindelfingen — in Kooperation mit dem Lehmannclub Stuttgart.",
     "lat": 48.7193827,
     "lng": 9.0167905
   },
@@ -3347,7 +3350,7 @@ const festivals = [
     ],
     "url": "https://www.seayou-festival.de/",
     "soldOut": false,
-    "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
+    "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, Techno, House und Trance.",
     "lat": 48.0661014,
     "lng": 7.814414,
     "endDate": "2027-07-18",
@@ -3521,8 +3524,9 @@ const festivals = [
   },
   {
     "name": "NATURE ONE 2027",
-    "date": "2027-08-01",
-    "dateDisplay": "1. August 2027",
+    "date": "2027-07-29",
+    "endDate": "2027-08-01",
+    "dateDisplay": "29. Juli – 1. August 2027",
     "location": "Raketenbasis Pydna, Kastellaun",
     "genre": [
       "Techno",
@@ -3532,7 +3536,7 @@ const festivals = [
     ],
     "url": "https://www.nature-one.de",
     "soldOut": false,
-    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 2027 Deutschlands ältestes Freiluft-Rave-Festival.",
+    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
     "lat": 50.0434566,
     "lng": 7.4255143,
     "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts.",
@@ -3566,7 +3570,7 @@ const festivals = [
     ],
     "url": "https://hill-of-dreams.de/",
     "soldOut": false,
-    "description": "8. Auflage mit über 2027 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
+    "description": "8. Auflage mit über 8.000 Besuchern und 4 Stages zwischen Bremen und Hannover — von Techno bis EDM.",
     "lat": 52.8288647,
     "lng": 8.988901,
     "about": "Die 8. Auflage von Hill of Dreams bringt über 8.000 Besucher und mehr als 50 Live-Acts zwischen Bremen und Hannover zusammen. Vier Bühnen strukturieren das Gelände bei Bruchhausen-Vilsen — vom Castle Stage mit Techno über den Unicorn Stage (EDM, Big Room) bis zum Dirtbasss Stage für Bass Music und DnB. Camping ist fester Bestandteil, gefeiert wird von Freitagabend bis früh am Sonntagmorgen.",
@@ -3583,7 +3587,7 @@ const festivals = [
     ],
     "url": "https://circle-of-leaves.com/",
     "soldOut": false,
-    "description": "Techno am Marbach-Stausee in Hessen — Pan-Pot, Kölsch, DJ Rush, Oliver Huntemann, Gregor Tresher und Anthony Rother am Wasser.",
+    "description": "Techno am Marbach-Stausee in Hessen — elektronische Musik unterm Sternenhimmel des Odenwalds.",
     "lat": 49.6101502,
     "lng": 8.9671301,
     "about": "Am Marbach-Stausee im Odenwald verbindet Circle of Leaves pulsierende Beats mit der stillen Schönheit der Natur. Das Festival feiert elektronische Musik in all ihren Facetten und versteht sich als Ort für eine Community, die von Kreativität, Austausch und Solidarität geprägt ist — Techno und Tech House unter dem Sternenhimmel des Odenwalds.",
@@ -3610,8 +3614,9 @@ const festivals = [
   },
   {
     "name": "KLANGTHERAPIE FESTIVAL 2027",
-    "date": "2027-08-09",
-    "dateDisplay": "9. August 2027",
+    "date": "2027-08-05",
+    "endDate": "2027-08-09",
+    "dateDisplay": "5.–9. August 2027",
     "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
     "genre": [
       "Techno",
@@ -3639,10 +3644,10 @@ const festivals = [
     ],
     "url": "https://www.lovefamilypark.com",
     "soldOut": false,
-    "description": "30. Jubiläum — Charlotte de Witte, Solomun, I Hate Models im Rebstockpark Frankfurt. Techno mit Herz seit 2027.",
+    "description": "Techno und House im Rebstockpark Frankfurt — der Love Family Park mit Herz seit 1996.",
     "lat": 50.110597,
     "lng": 8.6144214,
-    "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause. 2026 feiert der Love Family Park sein 30-jähriges Bestehen und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main.",
+    "about": "Der Love Family Park startete 1996 im Hanauer Dunlop-Park — damals ein revolutionäres Konzept: Techno und House unter freiem Himmel, in entspannter Familienatmosphäre zwischen Picknickdecken und Sonnencreme. Über Stationen in Mainz-Hechtsheim und Rüsselsheim fand das Festival 2023 im Frankfurter Rebstockpark sein neues Zuhause und gilt als eines der prägendsten Open-Airs für elektronische Musik in der Region Rhein-Main.",
     "anfahrt": "Adresse: Max-Pruss-Straße/Am Römerhof 9, 60486 Frankfurt am Main. Der nächste Bahnhof „Frankfurt Messe\" ist ab dem Hauptbahnhof in rund 5 Minuten mit der S3, S4 oder S5 erreichbar — das Festivalticket gilt gleichzeitig als Freifahrschein im gesamten RMV-Gebiet für den Veranstaltungstag. Parkplätze (Bereich D oder E) kosten 15 Euro, Tickets gibt es nur online im Voraus, vor Ort wird ausschließlich mit passendem Bargeld bezahlt."
   },
   {
@@ -3683,8 +3688,9 @@ const festivals = [
   },
   {
     "name": "ECHELON FESTIVAL 2027",
-    "date": "2027-08-14",
-    "dateDisplay": "14. August 2027",
+    "date": "2027-08-13",
+    "endDate": "2027-08-14",
+    "dateDisplay": "13.–14. August 2027",
     "location": "Ehem. US-Kaserne, Bad Aibling",
     "genre": [
       "Techno",
@@ -3692,7 +3698,7 @@ const festivals = [
     ],
     "url": "https://www.echelon-festival.de/",
     "soldOut": false,
-    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling — Charlotte de Witte, I Hate Models, Kobosil und Lilly Palmer vor Alpenkulisse.",
+    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling vor Alpenkulisse.",
     "lat": 47.8640504,
     "lng": 12.0097685
   },
