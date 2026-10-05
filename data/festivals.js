@@ -3165,6 +3165,22 @@ const festivals = [
     "anfahrt": "Von Bremen/Bremerhaven über die A27 Richtung Cuxhaven, von Hamburg über die B73 Richtung Cuxhaven, jeweils Ausfahrt Neuenwalde — ab dort ist das Festival ausgeschildert. Parkplätze (P1-P4) benötigen ein separates Parkticket, das nicht im Festival- oder Campingticket enthalten ist. Shuttlebusse verkehren direkt von den Bahnhöfen Cuxhaven und Nordholz zum Gelände (kostenpflichtig, nicht im Deutschlandticket enthalten)."
   },
   {
+    "name": "NATION OF GONDWANA 2027",
+    "date": "2027-07-15",
+    "endDate": "2027-07-19",
+    "dateDisplay": "15.–19. Juli 2027",
+    "location": "Grünefeld bei Berlin",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://pyonen.de/",
+    "soldOut": false,
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — fünf Tage elektronische Musik im Grünen bei Berlin.",
+    "lat": 52.6775373,
+    "lng": 12.9634171
+  },
+  {
     "name": "SEA YOU FESTIVAL 2027",
     "date": "2027-07-16",
     "dateDisplay": "16.–18. Juli 2027",
@@ -3243,22 +3259,6 @@ const festivals = [
     "anfahrt": "Das Olympiastadion ist hervorragend an den ÖPNV angebunden: S-Bahn-Linien S3 und S9, U-Bahn-Linie U2 sowie die Buslinien M49 und 218 fahren direkt dorthin. Da sich das Festival als weitgehend autofreie Veranstaltung versteht, gibt es keine eigenen Parkplätze — bei unumgänglicher Autoanreise verweist der Veranstalter auf die Park-und-Ride-Stationen in Spandau, Jungfernheide und Messe Nord/ICC."
   },
   {
-    "name": "NATION OF GONDWANA 2027",
-    "date": "2027-07-15",
-    "endDate": "2027-07-19",
-    "dateDisplay": "15.–19. Juli 2027",
-    "location": "Grünefeld bei Berlin",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://pyonen.de/",
-    "soldOut": false,
-    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — fünf Tage elektronische Musik im Grünen bei Berlin.",
-    "lat": 52.6775373,
-    "lng": 12.9634171
-  },
-  {
     "name": "FEEL FESTIVAL 2027",
     "date": "2027-07-22",
     "dateDisplay": "22.–25. Juli 2027",
@@ -3294,6 +3294,26 @@ const festivals = [
     "endDate": "2027-07-25",
     "about": "Was 2009 als kleine Ausgabe für die regionale Szene begann, ist heute eines der größten EDM-Festivals Süddeutschlands: Open Beatz zog bis 2012 in Wilhermsdorf bei Fürth Publikum an, bevor es 2013 nach Herzogenaurach umzog. Mit rund 90.000 Besuchern im Jahr, 200+ Acts auf acht Bühnen und einem Genre-Spektrum von Hardstyle über Techno bis Uptempo und Psytrance verwandelt sich das Gelände für ein Wochenende in eine temporäre Kleinstadt.",
     "anfahrt": "Adresse: Puschendorfer Straße 2, 91074 Herzogenaurach, Anfahrt über die A3 Richtung Nürnberg/Erlangen und weiter durch den Ort Höfen (aus allen Richtungen ausgeschildert). Auf dem regulären Tagesparkplatz wird nur mit Debit- oder Kreditkarte bezahlt, Bargeld wird nicht mehr akzeptiert. Wer nicht mit dem Auto kommt: Express-Shuttles verkehren direkt von den Bahnhöfen Nürnberg, Fürth und Erlangen zum Gelände, oder mit der Bahn bis Puschendorf und von dort rund 20 Minuten zu Fuß."
+  },
+  {
+    "name": "NATURE ONE 2027",
+    "date": "2027-07-29",
+    "endDate": "2027-08-01",
+    "dateDisplay": "29. Juli – 1. August 2027",
+    "location": "Raketenbasis Pydna, Kastellaun",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "url": "https://www.nature-one.de",
+    "soldOut": false,
+    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
+    "lat": 50.0434566,
+    "lng": 7.4255143,
+    "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts.",
+    "anfahrt": "Ab der Autobahnausfahrt der Beschilderung vor Ort folgen, nicht dem Navi — Tagesgäste folgen den ausgeschilderten Tagesparkplätzen, Camper der Beschilderung zu SilentCamp bzw. Camper-Bereichen. Kostenlose Shuttlebusse verkehren freitags und samstags von 9 bis 18 Uhr zwischen dem Gelände und der Innenstadt (Haltestellen EDEKA/Bahnhofstraße, Südstraße, Hallenbad, Marktplatz) — mit gültigem Ticket kostenlos nutzbar. Vom Hauptbahnhof Koblenz bringt ein Non-Stop-Shuttle euch in rund 45 Minuten direkt zum Gelände."
   },
   {
     "name": "JUICY BEATS 2027",
@@ -3353,40 +3373,23 @@ const festivals = [
     "anfahrt": "Der Veranstalter bietet Shuttle-Busse zwischen dem Bahnhof Rotenburg und dem Festivalgelände an (10 Euro Hin- und Rückfahrt), die sich an den Ankunfts- und Abfahrtszeiten des Metronoms orientieren statt an einem festen Fahrplan. Mit dem Auto könnt ihr direkt auf dem Gelände des Flugplatzes Rotenburg parken (Parkticket online 10 Euro zzgl. Gebühren, gilt für ein Fahrzeug und einmalige Einfahrt) — bitte ausschließlich die ausgeschilderten Parkflächen nutzen."
   },
   {
-    "name": "NATURE ONE 2027",
-    "date": "2027-07-29",
-    "endDate": "2027-08-01",
-    "dateDisplay": "29. Juli – 1. August 2027",
-    "location": "Raketenbasis Pydna, Kastellaun",
+    "name": "KLANGTHERAPIE FESTIVAL 2027",
+    "date": "2027-08-05",
+    "endDate": "2027-08-09",
+    "dateDisplay": "5.–9. August 2027",
+    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
     "genre": [
       "Techno",
       "Trance",
-      "Hardstyle",
-      "Hardcore"
+      "Psytrance"
     ],
-    "url": "https://www.nature-one.de",
+    "url": "https://www.klangtherapie-festival.de/",
     "soldOut": false,
-    "description": "350+ Artists, 20 Floors — auf einer ehemaligen NATO-Raketenbasis. Seit 1996 Deutschlands ältestes Freiluft-Rave-Festival.",
-    "lat": 50.0434566,
-    "lng": 7.4255143,
-    "about": "Nature One ist Deutschlands traditionsreichstes Festival für elektronische Musik. Die erste Ausgabe fand im August 1995 am Flughafen Frankfurt-Hahn statt, mit 13.000 Tänzer:innen. Schon im zweiten Jahr zog das Festival auf die ehemalige NATO-Raketenbasis Pydna bei Kastellaun im Hunsrück um — Deutschlands erstes großes Open-Air-Rave auf einem früheren US-Atomraketenstützpunkt. Die einstigen Bunker, in denen Raketen lagerten, dienen heute als Dancefloors; das Gelände umfasst mittlerweile eine Campingfläche größer als 150 Fußballfelder, mit rund 300 internationalen Acts.",
-    "anfahrt": "Ab der Autobahnausfahrt der Beschilderung vor Ort folgen, nicht dem Navi — Tagesgäste folgen den ausgeschilderten Tagesparkplätzen, Camper der Beschilderung zu SilentCamp bzw. Camper-Bereichen. Kostenlose Shuttlebusse verkehren freitags und samstags von 9 bis 18 Uhr zwischen dem Gelände und der Innenstadt (Haltestellen EDEKA/Bahnhofstraße, Südstraße, Hallenbad, Marktplatz) — mit gültigem Ticket kostenlos nutzbar. Vom Hauptbahnhof Koblenz bringt ein Non-Stop-Shuttle euch in rund 45 Minuten direkt zum Gelände."
-  },
-  {
-    "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
-    "date": "2027-08-07",
-    "dateDisplay": "7. August 2027",
-    "location": "Friedrichsbad, Halle",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://outside-world.de/events",
-    "soldOut": false,
-    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
-    "lat": 51.4574024,
-    "lng": 12.0488952,
-    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln.",
-    "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
+    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
+    "lat": 49.8939869,
+    "lng": 11.3445052,
+    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Fünf Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
+    "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
   },
   {
     "name": "HILL OF DREAMS 2027",
@@ -3446,23 +3449,55 @@ const festivals = [
     "anfahrt": "Ein Shuttle verkehrt rund um die Uhr zwischen dem Bahnhof Erkelenz und dem Festivalgelände (5 Euro Tagesticket, 9 Euro fürs ganze Wochenende, mit Priority Pass kostenlos) — Tickets gibt es direkt am Bahnhof oder vorab im offiziellen Shop. Für die Anreise mit dem Auto steht ein Park-und-Ride-Parkplatz in Erkelenz bereit."
   },
   {
-    "name": "KLANGTHERAPIE FESTIVAL 2027",
-    "date": "2027-08-05",
-    "endDate": "2027-08-09",
-    "dateDisplay": "5.–9. August 2027",
-    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
+    "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Friedrichsbad, Halle",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
+    "lat": 51.4574024,
+    "lng": 12.0488952,
+    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln.",
+    "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
+  },
+  {
+    "name": "SAN HEJMO FESTIVAL 2027",
+    "date": "2027-08-13",
+    "endDate": "2027-08-14",
+    "dateDisplay": "13.–14. August 2027",
+    "location": "Airport Weeze, Weeze",
     "genre": [
       "Techno",
-      "Trance",
-      "Psytrance"
+      "Electronic",
+      "House"
     ],
-    "url": "https://www.klangtherapie-festival.de/",
+    "url": "https://www.sanhejmo.com/en/",
     "soldOut": false,
-    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
-    "lat": 49.8939869,
-    "lng": 11.3445052,
-    "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Fünf Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
-    "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
+    "description": "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre.",
+    "lat": 51.6031019,
+    "lng": 6.1433899,
+    "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet.",
+    "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
+  },
+  {
+    "name": "ECHELON FESTIVAL 2027",
+    "date": "2027-08-13",
+    "endDate": "2027-08-14",
+    "dateDisplay": "13.–14. August 2027",
+    "location": "Ehem. US-Kaserne, Bad Aibling",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://www.echelon-festival.de/",
+    "soldOut": false,
+    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling vor Alpenkulisse.",
+    "lat": 47.8640504,
+    "lng": 12.0097685
   },
   {
     "name": "LOVE FAMILY PARK 2027",
@@ -3500,41 +3535,6 @@ const festivals = [
     "lng": 7.8441183,
     "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert.",
     "anfahrt": "Adresse: Ostenallee 87, 59071 Hamm (bzw. „Exerzierplatz Hamm\" bei Google Maps). Mit dem Auto der Beschilderung über die Kreuzung Ostenallee/Ahseufer folgen. Mit dem Bus (Linien 1, 3, 5) ab Haltestelle „HBF./Willy Brandt Platz\" in unter 15 Minuten am Gelände; mit dem Taxi ab Hamm Hauptbahnhof (Stichwort „Kurpark\" oder „Kurhaus\") in unter 12 Minuten."
-  },
-  {
-    "name": "SAN HEJMO FESTIVAL 2027",
-    "date": "2027-08-13",
-    "endDate": "2027-08-14",
-    "dateDisplay": "13.–14. August 2027",
-    "location": "Airport Weeze, Weeze",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "House"
-    ],
-    "url": "https://www.sanhejmo.com/en/",
-    "soldOut": false,
-    "description": "Neues Festival auf dem Airport Weeze — Electronic und Techno in entspannter Atmosphäre.",
-    "lat": 51.6031019,
-    "lng": 6.1433899,
-    "about": "San Hejmo feierte im August 2022 seine Premiere am Flughafen Weeze und zog auf Anhieb rund 20.000 Besucher an. Hinter dem Projekt steckt die Next Events Gruppe, die mit Parookaville bereits eines der wichtigsten Musik-Megaevents Europas geschaffen hat. Der Name ist dem Esperanto entlehnt und bedeutet „Heiliges Zuhause\" — der ehemalige Militärflughafen mit seinen Bunkern, Sheltern und Waldflächen bildet die Basis für ein Showkonzept-Festival, das Musik mit Urban Art und Streetfood verbindet.",
-    "anfahrt": "Mit der Bahn geht es über die RE10 (Niers-Express) bis Bahnhof Weeze — am Festivalwochenende verkehren nachts zusätzliche Züge für die Rückfahrt. Vom Bahnhof bringen Shuttle-Busse euch zum Tagesbesucher-Eingang und Campingbereich. Mit dem Auto erfolgt die Zufahrt über den Hülmer Deich (L361), mit eigenem Einbahnsystem zur Stauvermeidung; Tagesbesucher-Parkplätze liegen nördlich des Flughafengeländes."
-  },
-  {
-    "name": "ECHELON FESTIVAL 2027",
-    "date": "2027-08-13",
-    "endDate": "2027-08-14",
-    "dateDisplay": "13.–14. August 2027",
-    "location": "Ehem. US-Kaserne, Bad Aibling",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://www.echelon-festival.de/",
-    "soldOut": false,
-    "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling vor Alpenkulisse.",
-    "lat": 47.8640504,
-    "lng": 12.0097685
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2027",
@@ -3647,6 +3647,23 @@ const festivals = [
     "anfahrt": "Adresse: Weller Landstraße, Schwarzer Bruch, 47623 Kevelaer. Am Veranstaltungstag der Beschilderung vor Ort folgen. Ein Festival-Shuttle verkehrt vom Bahnhof Kevelaer (Europaplatz) zum Gelände (Hinfahrt 13:30-16:30 Uhr, Rückfahrt 23:00-3:00 Uhr). Parkplätze kosten 5 Euro (nur Bar), Übernachten auf dem Parkplatz — auch im Auto — ist untersagt; Radfahrer nutzen den Heideweg."
   },
   {
+    "name": "GLÜCKSGEFÜHLE FESTIVAL 2027",
+    "date": "2027-09-02",
+    "endDate": "2027-09-05",
+    "dateDisplay": "2.–5. September 2027",
+    "location": "Hockenheimring, Hockenheim",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "House"
+    ],
+    "url": "https://www.gluecksgefuehle-festival.de",
+    "soldOut": false,
+    "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
+    "lat": 49.3297989,
+    "lng": 8.5763
+  },
+  {
     "name": "STRANDFIEBER FESTIVAL 2027",
     "date": "2027-09-04",
     "dateDisplay": "4. September 2027",
@@ -3677,21 +3694,23 @@ const festivals = [
     "lng": 9.7482486
   },
   {
-    "name": "GLÜCKSGEFÜHLE FESTIVAL 2027",
-    "date": "2027-09-02",
-    "endDate": "2027-09-05",
-    "dateDisplay": "2.–5. September 2027",
-    "location": "Hockenheimring, Hockenheim",
+    "name": "SYNDICATE 2027",
+    "date": "2027-10-02",
+    "dateDisplay": "2. Oktober 2027",
+    "location": "Westfalenhallen, Dortmund",
     "genre": [
-      "Techno",
-      "Electronic",
-      "House"
+      "Hard Techno",
+      "Hardcore",
+      "Hardstyle",
+      "Schranz"
     ],
-    "url": "https://www.gluecksgefuehle-festival.de",
+    "url": "https://www.syndicate-festival.de",
     "soldOut": false,
-    "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
-    "lat": 49.3297989,
-    "lng": 8.5763
+    "description": "Deutschlands größtes Harder-Styles-Festival — SYNDICATE feiert 2027 20-jähriges Jubiläum in den Westfalenhallen. Harder als alles andere.",
+    "lat": 51.4972774,
+    "lng": 7.4598369,
+    "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. 2027 feiert Syndicate sein 20-jähriges Bestehen: Die Halle wird für eine Nacht zur „WestfalenHELL\" — mehrere Floors für Mainstage, Uptempo, Hardstyle und Early Hardcore, von treibendem Hardstyle bis zu kompromisslosem Hardcore. Von 19 bis 5 Uhr sind limitierte Early-Bird-Tickets mit exklusivem Souvenir-Ticket erhältlich.",
+    "anfahrt": "Adresse: Rheinlanddamm 200, 44139 Dortmund. Der Dortmunder Hauptbahnhof liegt nur wenige Gehminuten entfernt — nach Mitternacht fahren zusätzliche Verstärker-Bahnen der U45 im 30-Minuten-Takt zwischen Westfalenhallen und Hauptbahnhof. Parkplätze (A1-A8) direkt am Gelände kosten 11 Euro an der Kasse bzw. 15,50 Euro online im Voraus; weitere Parkflächen (C-F) in der Umgebung werden von DOPARK betrieben."
   }
 ];
 
