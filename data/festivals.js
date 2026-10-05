@@ -2212,6 +2212,22 @@ const festivals = [
     "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
+    "name": "SEA YOU FESTIVAL 2026",
+    "date": "2026-10-08",
+    "dateDisplay": "8. Oktober 2026",
+    "location": "Tunisee, Freiburg",
+    "genre": [
+      "Techno",
+      "House",
+      "Trance"
+    ],
+    "url": "https://www.seayou-festival.de/",
+    "soldOut": false,
+    "description": "Eines der größten Electronic-Festivals Europas am Tunisee — 150+ Acts auf 6 Bühnen, u.a. Sven Väth, Nina Kraviz, Reinier Zonneveld.",
+    "lat": 48.0661014,
+    "lng": 7.814414
+  },
+  {
     "name": "VERKNIPT BERLIN 2026",
     "date": "2026-10-09",
     "endDate": "2026-10-10",
