@@ -2142,22 +2142,6 @@ const festivals = [
     "anfahrt": "Erreichbar mit der Straßenbahnlinie 7 (Richtung Porz/Zündorf) bis Poller Kirchweg oder Raiffeisenstraße (je ca. 900-1000 Meter Fußweg), mit den Linien 16/17 bis Schönhauser Straße auf der linken Rheinseite (ca. 1000 Meter über die Südbrücke), oder mit Buslinie 159 bis Schüttewerk (450 Meter). Der Veranstalter empfiehlt ausdrücklich Bahn oder Fahrgemeinschaften."
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-02",
-    "dateDisplay": "2. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "TRANCE SIGNAL 2026",
     "date": "2026-10-03",
     "dateDisplay": "3. Oktober 2026",
@@ -2228,22 +2212,6 @@ const festivals = [
     "anfahrt": "Adresse: Schnackenburgallee 202, 22525 Hamburg (Edelfettwerk). Mit der S-Bahn ab Hamburg Hauptbahnhof mit der S5 Richtung Pinneberg bis Eidelstedt — von dort seid ihr in unter einer Minute zu Fuß da. Alternativ hält Metrobus-Linie 22 (S-Blankenese – U-Kellinghusenstraße) direkt an der Haltestelle Schnackenburgallee. Einen eigenen Parkplatz gibt es nicht, dafür ausreichend Stellplätze vor dem Einlasstor."
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-03",
-    "dateDisplay": "3. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "VERKNIPT BERLIN 2026",
     "date": "2026-10-09",
     "endDate": "2026-10-10",
@@ -2262,22 +2230,6 @@ const festivals = [
     "lng": 13.4650321
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-09",
-    "dateDisplay": "9. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "BLACKLIST FESTIVAL 2026",
     "date": "2026-10-10",
     "dateDisplay": "10. Oktober 2026",
@@ -2294,22 +2246,6 @@ const festivals = [
     "lng": 6.8514435,
     "about": "Blacklist wurde im legendären Kölner Bootshaus-Club gegründet und bespielt seit 2017 Bühnen bei Parookaville, New Horizons und SonneMondSterne. Seit der Rückkehr in die Turbinenhalle Oberhausen 2023 und dem zehnjährigen Jubiläum 2025 gilt Blacklist als eine der größten Bass-Partys Deutschlands — vier Bühnen für Dubstep, Drum & Bass, Tearout und Hybrid-Metal, wo elektronische Musik und Metalcore aufeinandertreffen.",
     "anfahrt": "Adresse: Im Lipperfeld 23, 46047 Oberhausen (Turbinenhalle). Mit dem Bus bis zur Haltestelle „Im Lipperfeld\". Parkplätze sind an der Turbinenhalle kostenpflichtig vorhanden (je nach Verfügbarkeit, Zahlung vor Ort)."
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-10",
-    "dateDisplay": "10. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
   },
   {
     "name": "VERKNIPT HAMBURG 2026",
@@ -2346,22 +2282,6 @@ const festivals = [
     "lat": 54.0772155,
     "lng": 12.1255356,
     "anfahrt": "Adresse: Südring 90, 18059 Rostock. Die Stadthalle liegt direkt an der Straßenbahnhaltestelle „StadtHalle\" (ca. 90 Meter Fußweg), auch die barrierefreie Haltestelle „Platz der Freundschaft\" ist gut erreichbar — der Veranstalter empfiehlt wegen Bauarbeiten an der Goetheplatzbrücke ausdrücklich den ÖPNV. Der Parkplatz (Einfahrt Ecke Erich-Schlesinger-Straße/Ziolkowskistraße, 450 Plätze, rund um die Uhr geöffnet) kostet pauschal 5 Euro pro Veranstaltung, mit Ticket sind die ersten 30 Minuten kostenlos."
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-16",
-    "dateDisplay": "16. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
   },
   {
     "name": "REACTŌR AFTERMATH 2026",
@@ -2415,22 +2335,6 @@ const festivals = [
     "anfahrt": "Adresse: Hannoversche Straße 11, 28309 Bremen. Aus Richtung Osnabrück Ausfahrt Bremen-Hemelingen-Centrum nehmen, aus Richtung Hamburg/Bremer Kreuz ebenfalls Ausfahrt Bremen-Hemelingen-Centrum und dann die zweite Ausfahrt „Hemelingen\" von der Schnellstraße. Mit der Bahn ab Hauptbahnhof mit der Straßenbahnlinie 10 Richtung Sebaldsbrück, Ausstieg Föhrenstraße plus Umstieg auf Bus 40/41 bis „Glockenstraße/Bahnhof Hemelingen\" (ca. 5 Minuten Fußweg), oder bis Sebaldsbrück und rund 10 Minuten zu Fuß durch den Bahntunnel. Ausreichend Parkplätze sind direkt rund um das Gebäude vorhanden."
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-17",
-    "dateDisplay": "17. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
     "date": "2026-10-23",
     "dateDisplay": "23. Oktober 2026",
@@ -2445,22 +2349,6 @@ const festivals = [
     "lng": 8.0256578,
     "about": "Goa World ist eine wiederkehrende Themen-Reihe im Twister-Dance Sande, die regelmäßig Goa, Hitech und Hardstyle auf mehreren Floors zusammenbringt. Der Club selbst hat eine bewegte Geschichte: Nach einem Großbrand im November 2023 wurde er komplett neu eröffnet, mit markantem Markenzeichen — einer sich langsam drehenden, runden Tanzfläche, die schon die alte Disco auszeichnete.",
     "anfahrt": "Adresse: Weserstr. 20, 26452 Sande."
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-23",
-    "dateDisplay": "23. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
   },
   {
     "name": "VERKNIPT AMSTERDAM 2026",
@@ -2478,38 +2366,6 @@ const festivals = [
     "lng": 4.9442166,
     "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und hat sich seitdem zum weltweit gefragtesten Hard-Techno-Festival entwickelt — 2024 rund 300.000 Gäste in Ländern von Deutschland bis Chile. Seit 2023 konzentriert sich Verknipt konsequent auf Hard Techno und steht für „chaotische Harmonie\": treibende Rhythmen und düstere Klanglandschaften in einem kompromisslosen Stil.",
     "anfahrt": "Adresse: ArenA Boulevard 590, 1101 DR Amsterdam. Mit dem Auto über die A2 Richtung Amsterdam Zuidoost bis zum P1-ArenA-Parkplatz direkt gegenüber der Halle (Navi-Adresse: Burgemeester Stramanweg 130). Mit der Bahn/Metro bis Amsterdam Bijlmer ArenA — von dort sind es nur rund 5 Minuten zu Fuß bis AFAS Live."
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-24",
-    "dateDisplay": "24. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-30",
-    "dateDisplay": "30. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
   },
   {
     "name": "HALLOWEEN RAVE 2026",
@@ -2544,36 +2400,6 @@ const festivals = [
     "lng": 6.8666494,
     "about": "Faceless verwandelt die Turbinenhalle Oberhausen zu Halloween in eine düstere Stadt in vier Vierteln — „The Capital\", „The Slums\", „The Undergrid\" und „The Deadzone\" — mit Platz für bis zu 3.000 Besucher auf den verschiedenen Arealen. Harder Styles stehen im Zentrum des Line-ups, verpackt in ein aufwendiges, thematisch durchdachtes Bühnenkonzept statt klassischer Festivalhallen-Optik.",
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
-  },
-  {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-10-31",
-    "dateDisplay": "31. Oktober 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
-    "name": "SPÄTSCHICHT SAAR 2026",
-    "date": "2026-10-31",
-    "dateDisplay": "31. Oktober 2026",
-    "location": "Flugplatz, Zweibrücken",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://www.spaetschicht-saar.de/",
-    "soldOut": false,
-    "description": "",
-    "lat": 49.2248433,
-    "lng": 7.4003888
   },
   {
     "name": "THE HOLY SHIT SHOW 2026",
@@ -3418,16 +3244,19 @@ const festivals = [
   },
   {
     "name": "NATION OF GONDWANA 2027",
-    "date": "2027-07-18",
-    "dateDisplay": "18. Juli 2027",
+    "date": "2027-07-15",
+    "endDate": "2027-07-19",
+    "dateDisplay": "15.–19. Juli 2027",
     "location": "Grünefeld bei Berlin",
     "genre": [
       "Techno",
       "Electronic"
     ],
-    "url": "https://pyonen.de/nog2026/",
+    "url": "https://pyonen.de/",
     "soldOut": false,
-    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — Robert Hood, Gene On Earth und Josey Rebelle im Grünen bei Berlin."
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — fünf Tage elektronische Musik im Grünen bei Berlin.",
+    "lat": 52.6775373,
+    "lng": 12.9634171
   },
   {
     "name": "FEEL FESTIVAL 2027",

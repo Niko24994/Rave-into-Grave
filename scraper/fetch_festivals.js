@@ -243,6 +243,30 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // zugeordnet (verifiziert per Websuche). Ausserdem ohnehin eine
   // Clubnacht, kein Festival.
   'overdriveopenairfestival22026-10-31',
+  // Future Beatzz Festival (Nordstrand Cospudener See, Leipzig): echter
+  // Termin ist 29. August 2026 (bereits gelistet). Die Discovery hat ueber
+  // mehrere Tage hinweg zehn weitere Freitags-/Samstagstermine im Oktober
+  // gefunden — vermutlich eine regelmaessige Clubnacht-Reihe am selben Ort,
+  // keine zusaetzlichen Festival-Ausgaben (verifiziert: identischer, generischer
+  // Inhalt ohne eigene Beschreibung). Der zugrundeliegende Bug im
+  // Monats-Dedup (mergeIntoExisting prüfte nicht gegen im selben Lauf
+  // bereits hinzugefuegte Kandidaten) wurde ebenfalls behoben.
+  'futurebeatzzfestival20262026-10-02',
+  'futurebeatzzfestival20262026-10-03',
+  'futurebeatzzfestival20262026-10-09',
+  'futurebeatzzfestival20262026-10-10',
+  'futurebeatzzfestival20262026-10-16',
+  'futurebeatzzfestival20262026-10-17',
+  'futurebeatzzfestival20262026-10-23',
+  'futurebeatzzfestival20262026-10-24',
+  'futurebeatzzfestival20262026-10-30',
+  'futurebeatzzfestival20262026-10-31',
+  // spaetschicht-saar.de: der 31. Oktober 2026 ist laut offizieller Seite
+  // eine "Halloween Party" in der Bliesgau-Festhalle Blieskastel, nicht am
+  // Flugplatz Zweibruecken (verifiziert per Websuche) — falscher Ort
+  // zugeordnet, ausserdem eher eine Clubnacht als ein eigenstaendiges
+  // Festival.
+  'sptschichtsaar20262026-10-31',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
@@ -1180,7 +1204,12 @@ function mergeIntoExisting(existing, candidates) {
 
     const cYear = c.date.slice(0, 4);
     const cMonth = parseInt(c.date.slice(5, 7));
-    const nearDuplicate = existing.some(f => {
+    // Gegen bestehende UND bereits in diesem Lauf hinzugefuegte Kandidaten
+    // pruefen — sonst rutschen mehrere Termine derselben wiederkehrenden
+    // Quelle (z.B. eine Seite, die in einem Scrape gleich mehrere Fr/Sa-Termine
+    // einer Club-Reihe auflistet) alle in einem einzigen Lauf durch, weil
+    // "existing" waehrend der Schleife nicht mitwaechst.
+    const nearDuplicate = [...existing, ...added].some(f => {
       if (baseName(f.name) !== cBase) return false;
       if (f.date.slice(0, 4) !== cYear) return false;
       const fMonth = parseInt(f.date.slice(5, 7));
