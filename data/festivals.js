@@ -2418,6 +2418,23 @@ const festivals = [
     "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
   },
   {
+    "name": "RAUMKLANG – THE INDOOR FESTIVAL 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Hans-Bunte-Areal, Freiburg",
+    "genre": [
+      "Psytrance",
+      "Techno"
+    ],
+    "url": "https://www.hans-bunte.de/",
+    "soldOut": false,
+    "description": "Psychedelic-Progressive-Indoor-Festival im Hans-Bunte-Areal Freiburg — drei bis vier Floors mit über 20 DJs, ab 22 Uhr, 18+.",
+    "lat": 48.02995,
+    "lng": 7.85789,
+    "about": "Raumklang ist das Indoor-Festival des Freiburger Hans-Bunte-Areals — für den Veranstalter die „krasse Indoor-Saison\" mit der „Crème de la Crème an den Decks\". Auf mehreren Floors spielen über 20 DJs und Live-Acts feinsten psychedelischen, progressiven Sound, darunter Omiki, Liquid Soul, Ranji, Phaxe, Hatikwa, Trip-Tamine und Bassforscher. Visuals von Dystopic und Dekoration von Trip Mechanics verwandeln das ehemalige Industrieareal für eine Nacht in eine andere Sphäre; das Festival läuft in Freiburg in mehreren Ausgaben seit 2024.",
+    "anfahrt": "Adresse: Hans-Bunte-Straße 16c, 79108 Freiburg. Die Straßenbahnlinie 3 Richtung Zähringen fährt rund um die Uhr bis „Gundelfinger Straße\" (ca. 5 Minuten Fußweg). Mit dem Auto über die Autobahnausfahrt Freiburg-Nord; Parkplätze gibt es in der Umgebung, etwa auf dem Möbelhaus-Parkplatz rund 480 Meter entfernt."
+  },
+  {
     "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
     "date": "2026-11-14",
     "dateDisplay": "14. November 2026",
@@ -2485,6 +2502,42 @@ const festivals = [
     "lng": 8.4034195,
     "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen.",
     "anfahrt": "Adresse: Ottostraße 6, 76227 Karlsruhe (Auto-Böhler-Schrottplatz). Mit der Straßenbahnlinie 2 (Richtung Wolfartsweier) bis „Ostendstraße\" (ca. 10 Minuten Fußweg) oder mit Buslinie 42 (Richtung Hohenwettersbach) bis „Hauptfriedhof\" (ca. 15 Minuten Fußweg). Parkplätze in der Umgebung sind nur begrenzt vorhanden — der Veranstalter empfiehlt ausdrücklich den ÖPNV."
+  },
+  {
+    "name": "WONDERFUL DAYS – THE CLASSIC RAVE FESTIVAL VOL. X 2026",
+    "date": "2026-11-14",
+    "dateDisplay": "14. November 2026",
+    "location": "Bootshaus, Köln",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Hardstyle"
+    ],
+    "url": "https://wonderfuldays-festival.com/event-item/wonderful-days-the-classic-rave-festival-vol-x/",
+    "soldOut": false,
+    "description": "Die 10. Ausgabe des Classic Rave Festivals im Bootshaus Köln — Rave-Klassiker der 90er und 2000er, 22 bis 5 Uhr, 18+.",
+    "lat": 50.951697,
+    "lng": 6.9819528,
+    "about": "Wonderful Days feiert die goldene Ära der Rave-Kultur — pulsierende Beats, ikonische Classics und der Sound der 90er und 2000er in einer „epischen Zeitreise\". Nach neun restlos ausverkauften Ausgaben läuft 2026 im Bootshaus Köln bereits die zehnte: Auf mehreren Floors spielen nationale und internationale Szene-Acts Rave, Techno und Oldschool-Hardstyle, begleitet von Neon-Optik, spektakulären Lichtinstallationen sowie Feuer-, Nebel- und Konfetti-Effekten. Das Bootshaus zählt zu den bekanntesten Clubs Europas.",
+    "anfahrt": "Adresse: Auenweg 173, 51063 Köln (Bootshaus im Mülheimer Hafen). Mit Bahn oder Stadtbahn (Linien 1, 3, 4, 9) bis Köln Messe/Deutz, von dort mit den Buslinien 150, 250 oder 260 bis „Thermalbad\" direkt am Gelände — zu Fuß sind es rund 1,7 Kilometer. Kostenlose Parkplätze gibt es neben dem Bootshaus am Claudiustherme sowie unter der Zollbrücke."
+  },
+  {
+    "name": "HARBOUR INDOOR FESTIVAL 2026",
+    "date": "2026-11-17",
+    "dateDisplay": "17. November 2026",
+    "location": "Westhafen, Leipzig",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://westhafen-leipzig.de/events/harbour-indoor-festival",
+    "soldOut": false,
+    "description": "Das Harbour Festival zieht ins Warme — Techno, Hard Techno und Trance auf zwei Indoor-Floors am Westhafen Leipzig, 23 bis 6 Uhr.",
+    "lat": 51.3383707,
+    "lng": 12.3050378,
+    "about": "Für die kalte Jahreszeit holt das Westhafen Leipzig sein Harbour Festival nach drinnen: zwei Floors, „dunkel, laut, intensiv — bis in die frühen Morgenstunden\", mit Techno, Hard Techno und Trance von 23 bis 6 Uhr. Wegen des Feiertags Buß- und Bettag am Folgetag in Sachsen findet die Nacht ausnahmsweise an einem Dienstag statt. Die Indoor-Kapazität ist begrenzt, ein Teil der Tickets wird als Blind-Tickets verkauft und war schon früh zur Hälfte vergriffen — eine Abendkasse ist nicht garantiert.",
+    "anfahrt": "Adresse: Ernst-Keil-Straße 16, 04179 Leipzig-Lindenau. Mit dem ÖPNV: Straßenbahn 15 Richtung Miltitz bis „Lindenauer Bushof\", Bus 60 Richtung Lindenauer Hafen bis „Dr.-H.-Duncker-Straße\", oder S-Bahn S1 bis „Bahnhof Leipzig Lindenau\"."
   },
   {
     "name": "ELECTRIC HORIZON INDOOR 2026",
