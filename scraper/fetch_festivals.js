@@ -267,6 +267,10 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // zugeordnet, ausserdem eher eine Clubnacht als ein eigenstaendiges
   // Festival.
   'sptschichtsaar20262026-10-31',
+  // seayou-festival.de: echter Termin ist 17.-19. Juli 2026 (bereits gelistet,
+  // verifiziert per Websuche) — der 8. Oktober ist ein Fehlfund. Rutschte
+  // durch den ±1-Monats-Dedup, weil Juli und Oktober 3 Monate auseinander liegen.
+  'seayoufestival20262026-10-08',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
