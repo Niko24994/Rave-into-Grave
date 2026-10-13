@@ -2729,6 +2729,22 @@ const festivals = [
     "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
   },
   {
+    "name": "NIBIRII FESTIVAL 2027",
+    "date": "2027-01-01",
+    "dateDisplay": "1. Januar 2027",
+    "location": "Düren, NRW",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Electronic"
+    ],
+    "url": "https://nibirii.com",
+    "soldOut": false,
+    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
+    "lat": 50.8031684,
+    "lng": 6.4820806
+  },
+  {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
     "date": "2027-01-09",
     "dateDisplay": "9. Januar 2027",
