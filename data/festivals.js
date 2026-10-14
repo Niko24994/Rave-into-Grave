@@ -2713,6 +2713,20 @@ const festivals = [
     "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
   },
   {
+    "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
+    "date": "2026-12-30",
+    "dateDisplay": "30. Dezember 2026",
+    "location": "Expo Park, Hannover",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://shop-overdrive.de/events/",
+    "soldOut": false,
+    "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.",
+    "lat": 52.3184969,
+    "lng": 9.8179603
+  },
+  {
     "name": "UNREAL NYEVE-RAVE 2026",
     "date": "2026-12-31",
     "dateDisplay": "31. Dezember 2026",
