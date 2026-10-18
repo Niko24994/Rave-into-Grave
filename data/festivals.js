@@ -2793,6 +2793,20 @@ const festivals = [
     "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
   },
   {
+    "name": "BUCHBUSCH FESTIVAL 2027",
+    "date": "2027-01-30",
+    "dateDisplay": "30. Januar 2027",
+    "location": "Pforzheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://buchbusch.de",
+    "soldOut": false,
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
+    "lat": 48.890934,
+    "lng": 8.7025509
+  },
+  {
     "name": "ARENA RAVE LEIPZIG 2027",
     "date": "2027-02-20",
     "dateDisplay": "20. Februar 2027",
