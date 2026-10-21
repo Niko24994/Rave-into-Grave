@@ -3470,6 +3470,21 @@ const festivals = [
     "anfahrt": "Der Veranstalter bietet Shuttle-Busse zwischen dem Bahnhof Rotenburg und dem Festivalgelände an (10 Euro Hin- und Rückfahrt), die sich an den Ankunfts- und Abfahrtszeiten des Metronoms orientieren statt an einem festen Fahrplan. Mit dem Auto könnt ihr direkt auf dem Gelände des Flugplatzes Rotenburg parken (Parkticket online 10 Euro zzgl. Gebühren, gilt für ein Fahrzeug und einmalige Einfahrt) — bitte ausschließlich die ausgeschilderten Parkflächen nutzen."
   },
   {
+    "name": "HABITAT FESTIVAL 2027",
+    "date": "2027-08-01",
+    "dateDisplay": "1. August 2027",
+    "location": "MS Artville, Hamburg",
+    "genre": [
+      "Techno",
+      "House"
+    ],
+    "url": "https://habitat-festival.de/",
+    "soldOut": false,
+    "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville.",
+    "lat": 53.5036896,
+    "lng": 9.9776863
+  },
+  {
     "name": "KLANGTHERAPIE FESTIVAL 2027",
     "date": "2027-08-05",
     "endDate": "2027-08-09",
