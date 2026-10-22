@@ -2418,6 +2418,22 @@ const festivals = [
     "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
   },
   {
+    "name": "FUTURE BEATZZ FESTIVAL 2026",
+    "date": "2026-11-06",
+    "dateDisplay": "6. November 2026",
+    "location": "Nordstrand Cospudener See, Leipzig",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Hard Techno"
+    ],
+    "url": "https://www.leipzig-beatzz.de/",
+    "soldOut": false,
+    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
+    "lat": 51.2859671,
+    "lng": 12.3461028
+  },
+  {
     "name": "RAUMKLANG – THE INDOOR FESTIVAL 2026",
     "date": "2026-11-07",
     "dateDisplay": "7. November 2026",
@@ -2433,6 +2449,21 @@ const festivals = [
     "lng": 7.85789,
     "about": "Raumklang ist das Indoor-Festival des Freiburger Hans-Bunte-Areals — für den Veranstalter die „krasse Indoor-Saison\" mit der „Crème de la Crème an den Decks\". Auf mehreren Floors spielen über 20 DJs und Live-Acts feinsten psychedelischen, progressiven Sound, darunter Omiki, Liquid Soul, Ranji, Phaxe, Hatikwa, Trip-Tamine und Bassforscher. Visuals von Dystopic und Dekoration von Trip Mechanics verwandeln das ehemalige Industrieareal für eine Nacht in eine andere Sphäre; das Festival läuft in Freiburg in mehreren Ausgaben seit 2024.",
     "anfahrt": "Adresse: Hans-Bunte-Straße 16c, 79108 Freiburg. Die Straßenbahnlinie 3 Richtung Zähringen fährt rund um die Uhr bis „Gundelfinger Straße\" (ca. 5 Minuten Fußweg). Mit dem Auto über die Autobahnausfahrt Freiburg-Nord; Parkplätze gibt es in der Umgebung, etwa auf dem Möbelhaus-Parkplatz rund 480 Meter entfernt."
+  },
+  {
+    "name": "OFFSIDE FETTIVAL 2026",
+    "date": "2026-11-08",
+    "dateDisplay": "8. November 2026",
+    "location": "Kranichfeld, Thüringen",
+    "genre": [
+      "House",
+      "Techno"
+    ],
+    "url": "https://fettev.org/",
+    "soldOut": false,
+    "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
+    "lat": 50.8526515,
+    "lng": 11.1998899
   },
   {
     "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
