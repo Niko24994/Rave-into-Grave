@@ -2888,6 +2888,20 @@ const festivals = [
     "anfahrt": "Adresse: Messeallee 1, 76287 Rheinstetten (DM Arena/Messe Karlsruhe). Mit der Stadtbahnlinie S2 ab Karlsruhe Innenstadt erreichbar (Spätverbindungen eingeschränkt); zusätzlich verkehrt ein Messe-Express-Shuttle ab Karlsruhe Hauptbahnhof (alle 30 Minuten, 20:30-1:00 Uhr) sowie ein Shuttle ab Karlsruhe Entenfang (alle 10 Minuten, 21:00-1:00 Uhr). Parkplätze sind direkt am Haupteingang der dm-arena sowie am S2-Bahnhof vorhanden (rund 7.000 Stellplätze auf dem Messegelände)."
   },
   {
+    "name": "ARENA RAVE HAMBURG 2027",
+    "date": "2027-03-19",
+    "dateDisplay": "19. März 2027",
+    "location": "Hamburg",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/event/hamburg/",
+    "soldOut": false,
+    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Hamburg.",
+    "lat": 53.5501721,
+    "lng": 10.0013165
+  },
+  {
     "name": "TIME WARP 2027",
     "date": "2027-04-03",
     "dateDisplay": "3. April 2027",
