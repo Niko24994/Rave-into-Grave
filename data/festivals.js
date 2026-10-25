@@ -3622,6 +3622,20 @@ const festivals = [
     "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
   },
   {
+    "name": "NIMMERLAND OPEN AIR 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Festung Germersheim, Germersheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://nimmerlandevents.de/openair",
+    "soldOut": false,
+    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
+    "lat": 49.2009672,
+    "lng": 8.3395468
+  },
+  {
     "name": "SAN HEJMO FESTIVAL 2027",
     "date": "2027-08-13",
     "endDate": "2027-08-14",
