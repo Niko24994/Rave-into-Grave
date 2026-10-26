@@ -2588,6 +2588,22 @@ const festivals = [
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
   },
   {
+    "name": "LIBELLA FESTIVAL 2026",
+    "date": "2026-11-21",
+    "dateDisplay": "21. November 2026",
+    "location": "Kemnader See, Bochum",
+    "genre": [
+      "Techno",
+      "Schranz",
+      "Trance"
+    ],
+    "url": "https://libella-festival.de",
+    "soldOut": false,
+    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
+    "lat": 51.4254976,
+    "lng": 7.2678414
+  },
+  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. November 2026",
@@ -2900,6 +2916,20 @@ const festivals = [
     "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Hamburg.",
     "lat": 53.5501721,
     "lng": 10.0013165
+  },
+  {
+    "name": "TRANCE SIGNAL 2027",
+    "date": "2027-03-27",
+    "dateDisplay": "27. März 2027",
+    "location": "Schallwerk, Oberhausen",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://trance-signal.com/",
+    "soldOut": false,
+    "description": "Indoor-Trance-Festival im Schallwerk Oberhausen — zweimal im Jahr treibt die internationale Trance-Family hier eine Nacht durch.",
+    "lat": 51.4696137,
+    "lng": 6.8514435
   },
   {
     "name": "TIME WARP 2027",
