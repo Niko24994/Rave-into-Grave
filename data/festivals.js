@@ -3168,17 +3168,18 @@ const festivals = [
     "name": "44 FESTIVAL 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",
-    "location": "Container Arena, Karlsruhe",
+    "location": "Messe Karlsruhe, Rheinstetten",
     "genre": [
       "Hard Techno",
       "Techno"
     ],
     "url": "https://44labelgroup.events",
     "soldOut": false,
-    "description": "44 Label Group Festival in der Container Arena Karlsruhe — Secret Line Up, Hard Techno Open Air.",
-    "lat": 49.0068705,
-    "lng": 8.4034195,
-    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet. Bei Editionen wie „44 Enters Karlsruhe\" wurde etwa eine eigens gebaute „Container Arena\" in der dm-Arena errichtet — kompromissloser Techno-Sound, präsentiert von einem Kollektiv, das für seine Line-ups internationale Headliner und lokale Talente zusammenbringt."
+    "description": "44 Label Group Festival auf dem Gelände der Messe Karlsruhe in Rheinstetten — Hard Techno Open Air, ab 11 Uhr.",
+    "lat": 48.9694,
+    "lng": 8.3277,
+    "about": "Die 44 Label Group ist ein in Berlin gegründetes Kollektiv, das gemeinsam mit lokalen Venues Open-Air-Festivals und Multi-Club-Afterparty-Formate veranstaltet. Bei Editionen wie „44 Enters Karlsruhe\" wurde etwa eine eigens gebaute „Container Arena\" in der dm-Arena errichtet — kompromissloser Techno-Sound, präsentiert von einem Kollektiv, das für seine Line-ups internationale Headliner und lokale Talente zusammenbringt.",
+    "anfahrt": "Adresse: Messeallee 1, 76287 Rheinstetten (Messe Karlsruhe). Parkplätze P1 und P2 direkt am Messegelände (Tagespauschale 15 Euro). Mit der Straßenbahn S2 ab Karlsruhe-Zentrum; spätabends fährt sie im reduzierten Takt, Shuttles ergänzen die Verbindung."
   },
   {
     "name": "RUHR-IN-LOVE 2027",
@@ -3230,7 +3231,9 @@ const festivals = [
     "soldOut": false,
     "description": "Techno und Hard Techno im Badezentrum Sindelfingen — in Kooperation mit dem Lehmannclub Stuttgart.",
     "lat": 48.7193827,
-    "lng": 9.0167905
+    "lng": 9.0167905,
+    "about": "Das WET Open Air ist ein eintägiges Techno-Festival im Badezentrum Sindelfingen und zählt mit bis zu 17.000 Besuchern zu den größten Festivals für elektronische Musik im Raum Stuttgart. Entstanden im Freibad Gärtringen, ist der „Bade-Rave\" nach Überschreiten der Kapazitätsgrenzen seit 2019 in Sindelfingen zuhause. Auf drei Bühnen spielen internationale Techno-Größen, und die Schwimmbecken des Bades dürfen während der gesamten Veranstaltung genutzt werden. Veranstaltet wird das Festival in Kooperation mit dem Lehmannclub Stuttgart.",
+    "anfahrt": "Adresse: Badezentrum, Hohenzollernstraße 23, 71067 Sindelfingen. Mit der S-Bahn S1 ab Stuttgart in rund einer halben Stunde bis Sindelfingen, von dort per Bus zum Bad; für auswärtige Gäste pendelt außerdem ein Shuttle ab S-Bahnhof Goldberg. Parkplätze am Bad sind knapp — der Veranstalter empfiehlt ausdrücklich die Anreise mit dem ÖPNV."
   },
   {
     "name": "DEICHBRAND 2027",
@@ -3254,8 +3257,8 @@ const festivals = [
   {
     "name": "NATION OF GONDWANA 2027",
     "date": "2027-07-15",
-    "endDate": "2027-07-19",
-    "dateDisplay": "15.–19. Juli 2027",
+    "endDate": "2027-07-18",
+    "dateDisplay": "15.–18. Juli 2027",
     "location": "Grünefeld bei Berlin",
     "genre": [
       "Techno",
@@ -3263,9 +3266,11 @@ const festivals = [
     ],
     "url": "https://pyonen.de/",
     "soldOut": false,
-    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — fünf Tage elektronische Musik im Grünen bei Berlin.",
+    "description": "Eines der ältesten alternativen Outdoor-Festivals Deutschlands — vier Tage elektronische Musik im Grünen bei Berlin.",
     "lat": 52.6775373,
-    "lng": 12.9634171
+    "lng": 12.9634171,
+    "about": "Seit 1999 findet Nation of Gondwana auf einer großen grünen Wiese in Grünefeld bei Berlin statt, eingebettet in einen Kiefernwald am Waldsee. Veranstaltet vom Kollektiv Pyonen versteht sich das Festival als alternativ, politisch und kommerzfrei — vier Tage Musik, Kunst und Camping, ohne Mainstream-Anspruch und mit eigenem Gemeinschaftsgefühl.",
+    "anfahrt": "Adresse für Auto und Wohnmobil: Zur Kiesgrube, 14621 Schönwalde-Glien (Grünefeld). Ein kostenloser Shuttlebus pendelt täglich zwischen dem Bahnhof Nauen und dem Gelände; aktuelle Parkplatz-Infos stehen vorab auf der Festival-Homepage."
   },
   {
     "name": "SEA YOU FESTIVAL 2027",
