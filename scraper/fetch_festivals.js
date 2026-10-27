@@ -282,6 +282,11 @@ const KNOWN_FALSE_POSITIVES = new Set([
   'overdriveopenairfestival22026-12-30',
   'nibiriifestival20272027-01-01',
   'buchbuschfestival20272027-01-30',
+  // hasardeur-festival.de: der 14.11.2026 ist "Hasardeur Indoor" in der
+  // dm-arena Karlsruhe (manuell als HASARDEUR INDOOR 2026 gepflegt), nicht
+  // das Schrottplatz-Festival — verhindert, dass der Scraper den Termin unter
+  // dem alten Namen erneut mit falschem Ort anlegt.
+  'hasardeurfestival20262026-11-14',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
