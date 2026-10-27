@@ -2418,22 +2418,6 @@ const festivals = [
     "anfahrt": "Adresse fürs Navi: Xaver-Fuhr-Straße 101, 68163 Mannheim — die Maimarkthalle liegt direkt neben der A656. Parkplätze P1-P3 liegen am nächsten zum Gelände, der Großparkplatz P20 hat zusätzlich E-Ladesäulen; die Tagesparkgebühr beträgt 6 Euro. Ein Wohnmobil-Stellplatz ist rund 5 Gehminuten entfernt vorhanden."
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-11-06",
-    "dateDisplay": "6. November 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "RAUMKLANG – THE INDOOR FESTIVAL 2026",
     "date": "2026-11-07",
     "dateDisplay": "7. November 2026",
@@ -2449,21 +2433,6 @@ const festivals = [
     "lng": 7.85789,
     "about": "Raumklang ist das Indoor-Festival des Freiburger Hans-Bunte-Areals — für den Veranstalter die „krasse Indoor-Saison\" mit der „Crème de la Crème an den Decks\". Auf mehreren Floors spielen über 20 DJs und Live-Acts feinsten psychedelischen, progressiven Sound, darunter Omiki, Liquid Soul, Ranji, Phaxe, Hatikwa, Trip-Tamine und Bassforscher. Visuals von Dystopic und Dekoration von Trip Mechanics verwandeln das ehemalige Industrieareal für eine Nacht in eine andere Sphäre; das Festival läuft in Freiburg in mehreren Ausgaben seit 2024.",
     "anfahrt": "Adresse: Hans-Bunte-Straße 16c, 79108 Freiburg. Die Straßenbahnlinie 3 Richtung Zähringen fährt rund um die Uhr bis „Gundelfinger Straße\" (ca. 5 Minuten Fußweg). Mit dem Auto über die Autobahnausfahrt Freiburg-Nord; Parkplätze gibt es in der Umgebung, etwa auf dem Möbelhaus-Parkplatz rund 480 Meter entfernt."
-  },
-  {
-    "name": "OFFSIDE FETTIVAL 2026",
-    "date": "2026-11-08",
-    "dateDisplay": "8. November 2026",
-    "location": "Kranichfeld, Thüringen",
-    "genre": [
-      "House",
-      "Techno"
-    ],
-    "url": "https://fettev.org/",
-    "soldOut": false,
-    "description": "Elektronische Tanzmusik für den ländlichen Raum — House und Techno mitten in Thüringen.",
-    "lat": 50.8526515,
-    "lng": 11.1998899
   },
   {
     "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
@@ -2586,22 +2555,6 @@ const festivals = [
     "lat": 49.4021824,
     "lng": 8.6704571,
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
-  },
-  {
-    "name": "LIBELLA FESTIVAL 2026",
-    "date": "2026-11-21",
-    "dateDisplay": "21. November 2026",
-    "location": "Kemnader See, Bochum",
-    "genre": [
-      "Techno",
-      "Schranz",
-      "Trance"
-    ],
-    "url": "https://libella-festival.de",
-    "soldOut": false,
-    "description": "Open-Air Festival auf dem Gelände der Zeche Gibraltar am Kemnader See — 4 Stages, 40+ Acts von 12:00 bis 22:00 Uhr.",
-    "lat": 51.4254976,
-    "lng": 7.2678414
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
@@ -2760,20 +2713,6 @@ const festivals = [
     "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
   },
   {
-    "name": "OVERDRIVE OPEN AIR FESTIVAL 2026",
-    "date": "2026-12-30",
-    "dateDisplay": "30. Dezember 2026",
-    "location": "Expo Park, Hannover",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://shop-overdrive.de/events/",
-    "soldOut": false,
-    "description": "Hannovers Hard Techno Open Air im Expo Park — die Heimat für alle, die Hard Techno leben.",
-    "lat": 52.3184969,
-    "lng": 9.8179603
-  },
-  {
     "name": "UNREAL NYEVE-RAVE 2026",
     "date": "2026-12-31",
     "dateDisplay": "31. Dezember 2026",
@@ -2788,22 +2727,6 @@ const festivals = [
     "lat": 50.9649372,
     "lng": 7.0125415,
     "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
-  },
-  {
-    "name": "NIBIRII FESTIVAL 2027",
-    "date": "2027-01-01",
-    "dateDisplay": "1. Januar 2027",
-    "location": "Düren, NRW",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "Electronic"
-    ],
-    "url": "https://nibirii.com",
-    "soldOut": false,
-    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
-    "lat": 50.8031684,
-    "lng": 6.4820806
   },
   {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
@@ -2838,20 +2761,6 @@ const festivals = [
     "lng": 8.5239462,
     "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub.",
     "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
-  },
-  {
-    "name": "BUCHBUSCH FESTIVAL 2027",
-    "date": "2027-01-30",
-    "dateDisplay": "30. Januar 2027",
-    "location": "Pforzheim",
-    "genre": [
-      "Techno"
-    ],
-    "url": "https://buchbusch.de",
-    "soldOut": false,
-    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
-    "lat": 48.890934,
-    "lng": 8.7025509
   },
   {
     "name": "ARENA RAVE LEIPZIG 2027",
@@ -2907,15 +2816,17 @@ const festivals = [
     "name": "ARENA RAVE HAMBURG 2027",
     "date": "2027-03-19",
     "dateDisplay": "19. März 2027",
-    "location": "Hamburg",
+    "location": "Barclays Arena, Hamburg",
     "genre": [
       "Hard Techno"
     ],
     "url": "https://arena-rave.de/event/hamburg/",
     "soldOut": false,
-    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Hamburg.",
-    "lat": 53.5501721,
-    "lng": 10.0013165
+    "description": "Arena Rave erstmals in Hamburg — Hard Techno in der Barclays Arena, 19 bis 5 Uhr, mit Tribünen-Kategorien Pulse, Vibe und Horizon.",
+    "lat": 53.5894001,
+    "lng": 9.8991078,
+    "about": "Arena Rave bringt kompromisslosen Hard Techno in große Hallen quer durch Deutschland — am 19. März 2027 erstmals in die Hamburger Barclays Arena, die zum „gigantischen Techno-Tempel\" wird. Von 19 bis 5 Uhr verwandelt sich die Arena in eine hochmoderne Sound-Arena mit High-End-Anlage sowie Laser- und Lichtshow. Es gibt drei Ticketkategorien: PULSE (Innenraum, mitten im Geschehen), VIBE (Unterrang mit erhöhter Perspektive) und HORIZON (Oberrang mit Panoramablick). Das Line-up wird noch bekanntgegeben.",
+    "anfahrt": "Adresse: Hellgrundweg 44, 22525 Hamburg (Barclays Arena). Mit dem Auto über A7 oder A23 der Beschilderung folgen — kostenpflichtige Parkplätze (ca. 10 Euro) gibt es in der Nähe. Mit der S-Bahn (S3 oder S5) ab Hauptbahnhof bis „Stellingen-Arenen\", Shuttlebusse verbinden die Station mit der Arena; das HVV-Ticket ist im Eventticket enthalten."
   },
   {
     "name": "TRANCE SIGNAL 2027",
@@ -2928,8 +2839,10 @@ const festivals = [
     "url": "https://trance-signal.com/",
     "soldOut": false,
     "description": "Indoor-Trance-Festival im Schallwerk Oberhausen — zweimal im Jahr treibt die internationale Trance-Family hier eine Nacht durch.",
-    "lat": 51.4696137,
-    "lng": 6.8514435
+    "lat": 51.4841944,
+    "lng": 6.866652,
+    "about": "Trance Signal ist seit Jahren fester Programmpunkt für die deutsche und niederländische Trance-Family — eingebettet in die internationalen Netzwerke „Trance Family Germany\" und „Trance Family Netherlands\", zweimal jährlich im Schallwerk Oberhausen, Teil des Turbinenhallen-Komplexes. Die Frühjahrsausgabe am 27. März 2027 bringt eine Nacht klassischen und modernen Trance-Sound; Tickets und VIP-Upgrades sind bereits im Shop erhältlich.",
+    "anfahrt": "Adresse: Mülheimer Straße 4, 46049 Oberhausen (Schallwerk, Teil des Turbinenhallen-Areals). Ab Oberhausen Hauptbahnhof verkehren Busse Richtung „Im Lipperfeld\"/„Feuerwache\" in die Neue Mitte, von dort ist das Areal in wenigen Gehminuten erreichbar. Parkmöglichkeiten sind direkt am Turbinenhallen-Gelände vorhanden."
   },
   {
     "name": "TIME WARP 2027",
@@ -3121,7 +3034,9 @@ const festivals = [
     "soldOut": false,
     "description": "Waves Open Air — Techno und Electronic im Spaßbad Wedemark bei Hannover. Drei Stages, Indoor & Outdoor, Pool-Vibes.",
     "lat": 52.5467847,
-    "lng": 9.7482486
+    "lng": 9.7482486,
+    "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
+    "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
@@ -3189,7 +3104,7 @@ const festivals = [
     ],
     "url": "https://buchbusch.de",
     "soldOut": false,
-    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Bart Skils, Thomas Schumacher und Hard Techno im Schwarzwald.",
+    "description": "Techno Festival in Pforzheim mit Underground-Fokus — Techno und Hard Techno im Schwarzwald.",
     "lat": 48.890934,
     "lng": 8.7025509,
     "about": "Buchbusch startete als Beginn einer neuen Festival-Ära in der Region Pforzheim — ein Ort, an dem sich die raue Energie von Mad Max mit den treibenden Rhythmen von Techno verbindet. Bewusst verzichtet das Festival auf klassisches Biergarten-Mobiliar und plakative Werbung, setzt stattdessen auf ästhetisch gestaltete Bars, regionale Foodtrucks und ein Bühnenkonzept, das sich harmonisch in die Natur einfügt — abseits von Mainstream und Kommerz.",
@@ -3243,7 +3158,7 @@ const festivals = [
     ],
     "url": "https://www.kindheitstraum-festival.de/",
     "soldOut": false,
-    "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM u.a. von Hard-Techno-DJ Felix Kröcher.",
+    "description": "Das große Finale nach 15 Jahren — letzte Ausgabe des Kindheitstraum Festivals auf dem Flugplatz Speichersdorf, mit Melodic Techno, House und EDM.",
     "lat": 49.8641269,
     "lng": 11.7843596,
     "about": "Der Flugplatz Speichersdorf bei Bayreuth verwandelt sich einmal im Jahr in eine oberfränkische Dance-Alternative zu den großen süddeutschen Festivals — kompaktes Eintagesformat ohne Camping-Logistik, zwei Bühnen für Melodic Techno, House, EDM und Electronica, dazu Riesenrad und Biergarten. Nach über einem Jahrzehnt Tradition endet die Reihe 2027 mit ihrer finalen Ausgabe.",
@@ -3546,8 +3461,8 @@ const festivals = [
   },
   {
     "name": "HABITAT FESTIVAL 2027",
-    "date": "2027-08-01",
-    "dateDisplay": "1. August 2027",
+    "date": "2027-07-31",
+    "dateDisplay": "31. Juli – 1. August 2027",
     "location": "MS Artville, Hamburg",
     "genre": [
       "Techno",
@@ -3555,9 +3470,12 @@ const festivals = [
     ],
     "url": "https://habitat-festival.de/",
     "soldOut": false,
-    "description": "32 Stunden non-stop Techno und House auf dem Hamburger Hafen — Marcel Dettmann, Sama' Abdulhadi und Jayda G auf der MS Artville.",
+    "description": "32 Stunden non-stop Techno, Electro und House auf dem Hamburger Hafen — das Habitat Festival auf der MS Artville.",
     "lat": 53.5036896,
-    "lng": 9.9776863
+    "lng": 9.9776863,
+    "endDate": "2027-08-01",
+    "about": "Habitat versteht sich als Festival für elektronische Musik und kollektiven Eskapismus: 32 Stunden Non-Stop-Rave auf dem MS-Artville-Gelände im Hamburger Hafen (Wilhelmsburg), mit ambitioniertem Line-up aus Techno, Electro und House sowie musikalischen Wildcards. Die Kulisse aus Hafenindustrie und Wasser macht aus dem Gelände einen der außergewöhnlichsten Festivalorte der Stadt.",
+    "anfahrt": "Adresse: Alte Schleuse 23, 21107 Hamburg. Mit der S-Bahn (S3/S31) ab Hauptbahnhof bis „Wilhelmsburg\", von dort mit der Buslinie M13 Richtung S Veddel bis „Krankenhaus Groß-Sand\". Fahrradstellplätze und kostenpflichtige Autoparkplätze sind vorhanden — die aktuelle Parksituation vorab auf der Festival-Seite prüfen."
   },
   {
     "name": "KLANGTHERAPIE FESTIVAL 2027",
@@ -3661,9 +3579,11 @@ const festivals = [
     ],
     "url": "https://nimmerlandevents.de/openair",
     "soldOut": false,
-    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound mit u.a. Felix Kröcher, Klaudia Gawlas, Jay Lumen.",
+    "description": "Open Air auf dem historischen Uni-Campus der Festung Germersheim — Techno und Clubsound unter freiem Himmel.",
     "lat": 49.2009672,
-    "lng": 8.3395468
+    "lng": 8.3395468,
+    "about": "Die historische Festung Germersheim verwandelt sich einmal im Jahr in einen pulsierenden Day-Techno-Tempel unter freiem Himmel. Mächtige Festungsmauern und offene Innenhöfe treffen auf zehn Stunden elektronische Musik — Nimmerland steht für die besondere Mischung aus Härte, Atmosphäre und kollektiver Eskalation, bei der sich Realität und Rave vermischen.",
+    "anfahrt": "Adresse: An der Hochschule 2, 76726 Germersheim (Campus der Festung, FTSK Uni Mainz). Der Bahnhof Germersheim ist die nächste Station; Parkmöglichkeiten gibt es unter anderem am P+R Germersheim (Bahnhofstraße 13, 269 Plätze)."
   },
   {
     "name": "SAN HEJMO FESTIVAL 2027",
@@ -3698,7 +3618,9 @@ const festivals = [
     "soldOut": false,
     "description": "Zwei Tage Techno und Hard Techno auf der ehemaligen US-Kaserne Bad Aibling vor Alpenkulisse.",
     "lat": 47.8640504,
-    "lng": 12.0097685
+    "lng": 12.0097685,
+    "about": "Echelon Festival findet auf dem Gelände einer ehemaligen US-Kaserne in Bad Aibling statt, die während des Kalten Kriegs als Abhörstation der NSA diente — direkt neben den ikonischen Radomen der einstigen Horchanlage. 2009 belebte eine Gruppe junger Kreativer den Ort erstmals mit Musik neu; aus Überwachung wurde Feiern, aus Kontrolle Verbindung. Auf dem Programm: Techno, Hardtechno, House, Acid, Melodic, Progressive und Minimal — bewusst ohne kommerziellen EDM.",
+    "anfahrt": "Der ÖPNV-Zielbahnhof ist Bad Aibling, an der Bahnstrecke Holzkirchen-Rosenheim, rund eine Stunde vom Münchner Hauptbahnhof entfernt. Ein Echelon-Shuttle pendelt regelmäßig zwischen Bahnhof und Festivalgelände, ab Mitternacht sogar bis Rosenheim weiter — das Ticket muss vor Ort in ein Shuttle-Band getauscht werden. Mit dem Auto geht es über die A8, Ausfahrt Bad Aibling, dann der Beschilderung folgen."
   },
   {
     "name": "LOVE FAMILY PARK 2027",
@@ -3841,7 +3763,7 @@ const festivals = [
     ],
     "url": "https://amphoria-kevelaer.de/",
     "soldOut": false,
-    "description": "Open-Air Techno-Tagesfestival in Kevelaer — über 20 Acts auf 2 Stages, u.a. Felix Kröcher, Thomas Schumacher.",
+    "description": "Open-Air Techno-Tagesfestival in Kevelaer — mehrere Acts auf 2 Stages.",
     "lat": 51.5802996,
     "lng": 6.2456273,
     "about": "Amphoria hat sein eigenes Erzähl-Konzept: Tief im Wald von Kevelaer liegt der Schwarze Bruch, ein mysteriöser Ort, der nur wenige Nächte im Jahr erwacht, wenn Amphoria seine Tore öffnet. Ähnlich wie Parookaville seine fiktive Stadt lebt, dreht sich Amphoria um die Waldgöttin, die für die richtige Feierstimmung sorgt — zwei Bühnen (Forest Stage und Local Hero Stage), eine kulinarische Food-Mile und ein Kreativbereich zum Mitmachen ergänzen das Programm.",
@@ -3862,7 +3784,9 @@ const festivals = [
     "soldOut": false,
     "description": "Festival am legendären Hockenheimring — Techno, House und Electronic auf und neben dem Rennkurs.",
     "lat": 49.3297989,
-    "lng": 8.5763
+    "lng": 8.5763,
+    "about": "Glücksgefühle wurde von Musikmanager Markus Krampe und Fußballer Lukas Podolski ins Leben gerufen und feierte seine erste Ausgabe 2023. Mit rund 250.000 Besuchern und einer Veranstaltungsfläche von einer Million Quadratmetern auf dem Hockenheimring ist es mittlerweile Deutschlands größtes Musikfestival — drei Mainstages mit einer breiten Mischung aus Pop, Electro, HipHop und Party-Acts.",
+    "anfahrt": "Der Hockenheimring liegt direkt an der A5/A6 und ist auch mit dem ÖPNV erreichbar: S9, RB67 und RE9 fahren aus den umliegenden Städten zum Bahnhof. Die offiziell ausgeschilderten Parkflächen sind kostenfrei — der Veranstalter empfiehlt, vorab die offizielle Festival-App zu installieren, die per Navigation zum passenden Camping- bzw. Parkplatz führt."
   },
   {
     "name": "STRANDFIEBER FESTIVAL 2027",
@@ -3877,7 +3801,9 @@ const festivals = [
     "soldOut": false,
     "description": "Festival am Hartensbergsee in Goldenstedt — Techno und Electronic direkt am Wasser in der niedersächsischen Natur.",
     "lat": 52.7916075,
-    "lng": 8.4459285
+    "lng": 8.4459285,
+    "about": "Strandfieber findet inzwischen zum dreizehnten Mal am Hartensbergsee in Goldenstedt statt — eine 13-stündige Electro-Party mit drei klar getrennten musikalischen Welten: die Waldbühne für Electro bis Hardstyle mitten im Grünen, die Strandbühne für Future House mit Seeblick, und das Amphitheater für Techno und Tech House.",
+    "anfahrt": "Navi-Adresse: Fasanenkamp 2, 49424 Goldenstedt (Hartensbergsee). Die Anfahrt mit dem Auto oder Taxi ist ausschließlich über die Straße Tiefer Weg möglich — die Straße Fasanenkamp wird während der Veranstaltung zur Einbahnstraße, eine Anfahrt über die Dohlenstiege ist nicht möglich. Der Gästeparkplatz liegt in unmittelbarer Nähe zum Gelände (Barzahlung vor Ort). Shuttlebusse starten zwischen 13:15 und ca. 2:30 Uhr aus Damme, Holdorf, Wildeshausen, Diepholz, Vechta und innerhalb Goldenstedts; der Bahnhof Goldenstedt liegt rund 5 Autominuten entfernt."
   },
   {
     "name": "WAVES OPEN AIR CLOSING 2027",
@@ -3892,7 +3818,9 @@ const festivals = [
     "soldOut": false,
     "description": "Waves Open Air Closing — der Abschluss der Festivalsaison im Spaßbad Wedemark bei Hannover. Die letzte Sommerparty bevor der Herbst kommt.",
     "lat": 52.5467847,
-    "lng": 9.7482486
+    "lng": 9.7482486,
+    "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
+    "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
   },
   {
     "name": "SYNDICATE 2027",

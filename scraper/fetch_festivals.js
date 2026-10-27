@@ -271,6 +271,17 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // verifiziert per Websuche) — der 8. Oktober ist ein Fehlfund. Rutschte
   // durch den ±1-Monats-Dedup, weil Juli und Oktober 3 Monate auseinander liegen.
   'seayoufestival20262026-10-08',
+  // Weitere Winter-Fehlfunde von Sommer-Open-Airs (gleiches Muster: Termin
+  // liegt >1 Monat vom echten Termin entfernt und rutscht durch den Dedup;
+  // echte Termine jeweils bereits gelistet, verifiziert per Websuche):
+  // Future Beatzz 29.08., Offside 21.-22.08., Libella 10.-11.07.,
+  // Overdrive 07.08., Nibirii 28.-30.08., Buchbusch 19.06.2027.
+  'futurebeatzzfestival20262026-11-06',
+  'offsidefettival20262026-11-08',
+  'libellafestival20262026-11-21',
+  'overdriveopenairfestival22026-12-30',
+  'nibiriifestival20272027-01-01',
+  'buchbuschfestival20272027-01-30',
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
