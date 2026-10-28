@@ -2435,6 +2435,22 @@ const festivals = [
     "anfahrt": "Adresse: Hans-Bunte-Straße 16c, 79108 Freiburg. Die Straßenbahnlinie 3 Richtung Zähringen fährt rund um die Uhr bis „Gundelfinger Straße\" (ca. 5 Minuten Fußweg). Mit dem Auto über die Autobahnausfahrt Freiburg-Nord; Parkplätze gibt es in der Umgebung, etwa auf dem Möbelhaus-Parkplatz rund 480 Meter entfernt."
   },
   {
+    "name": "FUTURE BEATZZ FESTIVAL 2026",
+    "date": "2026-11-07",
+    "dateDisplay": "7. November 2026",
+    "location": "Nordstrand Cospudener See, Leipzig",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Hard Techno"
+    ],
+    "url": "https://www.leipzig-beatzz.de/",
+    "soldOut": false,
+    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
+    "lat": 51.2859671,
+    "lng": 12.3461028
+  },
+  {
     "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
     "date": "2026-11-14",
     "dateDisplay": "14. November 2026",
@@ -2962,6 +2978,21 @@ const festivals = [
     "lng": 8.4034195,
     "about": "Hasardeur findet auf einem Autoschrottplatz in Karlsruhe statt — nach eigener Beschreibung „der mystischste Ort weit und breit\". Resident Adrian Mills lädt jährlich handverlesene Gäste ein und zieht damit rund 6.000 Besucher an, die den ganzen Tag über zwischen den Wracks feiern, gefolgt von Aftershows bis in den nächsten Morgen.",
     "anfahrt": "Adresse: Ottostraße 6, 76227 Karlsruhe (Auto-Böhler-Schrottplatz). Mit der Straßenbahnlinie 2 (Richtung Wolfartsweier) bis „Ostendstraße\" (ca. 10 Minuten Fußweg) oder mit Buslinie 42 (Richtung Hohenwettersbach) bis „Hauptfriedhof\" (ca. 15 Minuten Fußweg). Parkplätze in der Umgebung sind nur begrenzt vorhanden — der Veranstalter empfiehlt ausdrücklich den ÖPNV."
+  },
+  {
+    "name": "HASARDEUR INDOOR 2027",
+    "date": "2027-05-29",
+    "dateDisplay": "29. Mai 2027",
+    "location": "dm-arena, Messe Karlsruhe, Rheinstetten",
+    "genre": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "url": "https://hasardeur-festival.de/",
+    "soldOut": false,
+    "description": "Weltpremiere indoor — Hasardeur in der dm-arena der Messe Karlsruhe: eine Nacht, ein einziges ausgedehntes B2B2B-Set von Fantasm, Klofama und Winson, 21 bis 6 Uhr.",
+    "lat": 48.968549,
+    "lng": 8.3097117
   },
   {
     "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
