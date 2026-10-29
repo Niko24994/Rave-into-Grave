@@ -2435,22 +2435,6 @@ const festivals = [
     "anfahrt": "Adresse: Hans-Bunte-Straße 16c, 79108 Freiburg. Die Straßenbahnlinie 3 Richtung Zähringen fährt rund um die Uhr bis „Gundelfinger Straße\" (ca. 5 Minuten Fußweg). Mit dem Auto über die Autobahnausfahrt Freiburg-Nord; Parkplätze gibt es in der Umgebung, etwa auf dem Möbelhaus-Parkplatz rund 480 Meter entfernt."
   },
   {
-    "name": "FUTURE BEATZZ FESTIVAL 2026",
-    "date": "2026-11-07",
-    "dateDisplay": "7. November 2026",
-    "location": "Nordstrand Cospudener See, Leipzig",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Hard Techno"
-    ],
-    "url": "https://www.leipzig-beatzz.de/",
-    "soldOut": false,
-    "description": "Electronic Festival an der Hacienda Cospuden bei Leipzig — Techno und Hard Techno am Wasser.",
-    "lat": 51.2859671,
-    "lng": 12.3461028
-  },
-  {
     "name": "KICK ME BACK – DAS MEGA TECHNO REVIVAL FESTIVAL 2026",
     "date": "2026-11-14",
     "dateDisplay": "14. November 2026",

@@ -289,6 +289,13 @@ const KNOWN_FALSE_POSITIVES = new Set([
   'hasardeurfestival20262026-11-14',
 ]);
 
+// nameKeys von Festivals mit genau einem echten Termin pro Jahr, deren Quelle
+// laufend weitere (falsche) Termine liefert — neue Daten unter diesem Namen
+// werden komplett ignoriert.
+const SINGLE_DATE_SERIES = new Set([
+  'futurebeatzzfestival2026', // echter Termin 29.08.2026, Quelle liefert woechentlich neue Clubnacht-Daten
+]);
+
 // Domains die eine VENUE sind mit strukturiertem Kalender —
 // hier gezielt nach dem vollen Festival-Namen im Kontext suchen
 const VENUE_DOMAINS = new Set([
@@ -1206,6 +1213,15 @@ function mergeIntoExisting(existing, candidates) {
     // geprueft und ohne verlaessliche Quelle fuer dieses Datum verworfen.
     if (KNOWN_FALSE_POSITIVES.has(key)) {
       console.log(`  ⏸  ${c.name} (${c.date}) übersprungen — bekannter Falsch-Fund ohne verlässliche Quelle (KNOWN_FALSE_POSITIVES)`);
+      continue;
+    }
+
+    // 1.2 Einzeltermin-Serien: Quelle listet woechentlich neue Clubnacht-Termine
+    // (z.B. Future Beatzz) — der echte Termin ist bereits gelistet, jedes weitere
+    // Datum unter diesem Namen ist ein Fehlfund. Eine neue Jahresausgabe hat
+    // einen anderen nameKey und wird nicht blockiert.
+    if (SINGLE_DATE_SERIES.has(nameKey(c.name))) {
+      console.log(`  ⏸  ${c.name} (${c.date}) übersprungen — Einzeltermin-Serie (SINGLE_DATE_SERIES)`);
       continue;
     }
 
