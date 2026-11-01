@@ -294,6 +294,7 @@ const KNOWN_FALSE_POSITIVES = new Set([
 // werden komplett ignoriert.
 const SINGLE_DATE_SERIES = new Set([
   'futurebeatzzfestival2026', // echter Termin 29.08.2026, Quelle liefert woechentlich neue Clubnacht-Daten
+  'goaworldhalloweenspecial2', // echter Termin 23.10.2026; der 5.12. war eine Ue30-Party (Venue-Seite), kein Goa World
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
