@@ -2914,6 +2914,24 @@ const festivals = [
     "anfahrt": "Adresse: Rheinlanddamm 202, 44139 Dortmund. Mit dem Eintrittsticket könnt ihr Busse, Bahnen und Straßenbahnen (RE, RB, S-Bahn 2. Klasse) im gesamten VRR-Gebiet kostenlos nutzen — ab Dortmund Hauptbahnhof geht es z. B. mit RB53/RB59/RB52 bis „Signal Iduna Park\" (U45) oder direkt bis „Westfalenhallen\". Parkplätze A3/A4 liegen direkt vor der Halle, Parktickets gibt es vorab im Online-Shop."
   },
   {
+    "name": "HEAT FSTVL 2027",
+    "date": "2027-05-01",
+    "dateDisplay": "1. Mai 2027",
+    "location": "Stadionbad, Frankfurt am Main",
+    "genre": [
+      "Hard Techno",
+      "Schranz",
+      "Techno"
+    ],
+    "url": "https://tickets.worldclubdome.com/c04a3d63b99d47eaa7fbc215edb82128/tickets",
+    "soldOut": false,
+    "description": "Premiere des HEAT FSTVL im Frankfurter Stadionbad — Hard Techno, Schranz und Industrial als erstes Festival des Jahres, ab 11 Uhr.",
+    "lat": 50.0706874,
+    "lng": 8.6510502,
+    "about": "Das HEAT FSTVL feiert am 1. Mai 2027 Premiere: Die Frankfurter Heat-Reihe, bislang vor allem aus Clubnächten wie im Zoom Club und der Adam Riese Bar bekannt, zieht für ihr erstes Festival ins Open-Air-Stadionbad im Süden der Stadt — präsentiert „powered by World Club Dome\" und damit vom Veranstalter von Frankfurts größtem Club-Festival. Von 11 Uhr an stehen energetische Raves und treibender Sound auf dem Programm, von Hard Techno und Schranz über Industrial bis zu Trance und Bounce. Das Line-up wird noch bekanntgegeben; Blind-Tickets gibt es ab 35 Euro, ein Backstage-Paket mit Fast Lane, Stage-Zugang und privater Bar ab 70 Euro.",
+    "anfahrt": "Adresse: Mörfelder Landstraße 362, 60528 Frankfurt am Main (Stadionbad, direkt neben dem Deutsche Bank Park). Mit der Straßenbahnlinie 21 bis „Stadion\", mit dem Bus 61 bis „Stadion/Schwimmbad\" oder mit der S-Bahn (S7, S8, S9) bis „Frankfurt Stadion\". Zu Parkmöglichkeiten gibt es noch keine Angaben — am besten vorab auf der Seite des Veranstalters prüfen."
+  },
+  {
     "name": "RAVE AND SUN FESTIVAL 2027",
     "date": "2027-05-15",
     "dateDisplay": "15. Mai 2027",
