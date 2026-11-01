@@ -1,4 +1,4 @@
-// Daten zuletzt aktualisiert: Oktober 2026
+// Daten zuletzt aktualisiert: November 2026
 // Automatisch gepflegt von scraper/fetch_festivals.js — manuelle Einträge bleiben erhalten.
 
 const festivals = [
@@ -2660,6 +2660,20 @@ const festivals = [
     "lat": 54.1393903,
     "lng": 12.0779788,
     "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
+  },
+  {
+    "name": "GOA WORLD HALLOWEEN SPECIAL 2026",
+    "date": "2026-12-05",
+    "dateDisplay": "5. Dezember 2026",
+    "location": "Twister Dance, Sande",
+    "genre": [
+      "Trance"
+    ],
+    "url": "https://www.twister-dance.de/",
+    "soldOut": false,
+    "description": "Halloween-Special mit Goa- und Trance-Sounds bei Twister Dance in Sande, veranstaltet von Klangwelten Bremen.",
+    "lat": 53.4924729,
+    "lng": 8.0256578
   },
   {
     "name": "44 LABEL X STUTYARD 2026",
