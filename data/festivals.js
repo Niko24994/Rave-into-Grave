@@ -2402,6 +2402,22 @@ const festivals = [
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
+    "name": "WILDE MÖHRE FESTIVAL 2026",
+    "date": "2026-11-03",
+    "dateDisplay": "3. November 2026",
+    "location": "Lausitz, Brandenburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Experimental"
+    ],
+    "url": "https://wildemoehrefestival.de",
+    "soldOut": false,
+    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
+    "lat": 51.5119509,
+    "lng": 13.3505194
+  },
+  {
     "name": "THE HOLY SHIT SHOW 2026",
     "date": "2026-11-06",
     "dateDisplay": "6. November 2026",
@@ -2555,6 +2571,22 @@ const festivals = [
     "lat": 49.4021824,
     "lng": 8.6704571,
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
+  },
+  {
+    "name": "NIBIRII FESTIVAL 2026",
+    "date": "2026-11-27",
+    "dateDisplay": "27. November 2026",
+    "location": "Düren, NRW",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Electronic"
+    ],
+    "url": "https://nibirii.com",
+    "soldOut": false,
+    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
+    "lat": 50.8031684,
+    "lng": 6.4820806
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
