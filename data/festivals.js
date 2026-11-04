@@ -2761,6 +2761,18 @@ const festivals = [
     "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
   },
   {
+    "name": "ARENA RAVE KLOFAMA PRES. BY ARENA RAVE @ DOCKS 2027",
+    "date": "2027-01-08",
+    "dateDisplay": "8. Januar 2027",
+    "location": "Klofama Pres. By Arena Rave @ Docks",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/event/klofama-pres-by-arena-rave-docks/",
+    "soldOut": false,
+    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Klofama Pres. By Arena Rave @ Docks."
+  },
+  {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
     "date": "2027-01-09",
     "dateDisplay": "9. Januar 2027",
@@ -2827,6 +2839,21 @@ const festivals = [
     "lng": 9.9199831,
     "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut.",
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
+  },
+  {
+    "name": "APEX 2027",
+    "date": "2027-03-08",
+    "dateDisplay": "8. März 2027",
+    "location": "Maimarkthalle, Mannheim",
+    "genre": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "url": "https://apexfest.de/",
+    "soldOut": false,
+    "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
+    "lat": 49.4683637,
+    "lng": 8.5239462
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2925,6 +2952,34 @@ const festivals = [
     "lng": 10.1118095,
     "about": "Erstmals bringt ein Festival dieser Größenordnung die internationale Trance-Szene nach Schleswig-Holstein. Trance World startet als Season Opening im Max Nachttheater Kiel und deckt die ganze Bandbreite der Stilrichtung ab — von Uplifting über Progressive bis Hard Trance. Ein bewusst indoor konzipiertes Format für ein Genre, das sonst meist unter freiem Himmel zuhause ist.",
     "anfahrt": "Mit öffentlichen Verkehrsmitteln bringen euch die KVG-Linien 22, 71, 72, 81, 830 oder 4810 bis zur Haltestelle Eichhofstraße. Mit dem Auto über die BAB215, Ausfahrt B76 Richtung Eckernförde, dann Ausfahrt Kiel-Zentrum Richtung Kiel-Zentrum."
+  },
+  {
+    "name": "ARENA RAVE LEIPZIG 2027",
+    "date": "2027-04-23",
+    "dateDisplay": "23. April 2027",
+    "location": "Halle 1, Messe-Allee, Leipzig",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/",
+    "soldOut": false,
+    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
+    "lat": 51.3928717,
+    "lng": 12.4014965
+  },
+  {
+    "name": "ARENA RAVE STENDAL 2027",
+    "date": "2027-04-23",
+    "dateDisplay": "23. April 2027",
+    "location": "Stendal",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/event/stendal/",
+    "soldOut": false,
+    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Stendal.",
+    "lat": 52.6050782,
+    "lng": 11.8594279
   },
   {
     "name": "MAYDAY 2027",
