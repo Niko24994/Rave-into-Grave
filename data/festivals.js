@@ -3471,6 +3471,21 @@ const festivals = [
     "anfahrt": "Das Olympiastadion ist hervorragend an den ÖPNV angebunden: S-Bahn-Linien S3 und S9, U-Bahn-Linie U2 sowie die Buslinien M49 und 218 fahren direkt dorthin. Da sich das Festival als weitgehend autofreie Veranstaltung versteht, gibt es keine eigenen Parkplätze — bei unumgänglicher Autoanreise verweist der Veranstalter auf die Park-und-Ride-Stationen in Spandau, Jungfernheide und Messe Nord/ICC."
   },
   {
+    "name": "SCHALL IM SCHILF FESTIVAL 2027",
+    "date": "2027-07-17",
+    "dateDisplay": "17. Juli 2027",
+    "location": "Garchinger See, München",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.schallimschilf.de/",
+    "soldOut": false,
+    "description": "Elektronisches Open Air am Garchinger See — Bambounou, Interstellar Funk, Palms Trax, Octo Octa und viele mehr unter freiem Münchner Himmel.",
+    "lat": 48.2602013,
+    "lng": 11.63915
+  },
+  {
     "name": "FEEL FESTIVAL 2027",
     "date": "2027-07-22",
     "dateDisplay": "22.–25. Juli 2027",
