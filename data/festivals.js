@@ -2796,6 +2796,25 @@ const festivals = [
     "anfahrt": "Adresse: Messeallee 1, 76287 Rheinstetten (DM Arena/Messe Karlsruhe). Mit der Stadtbahnlinie S2 ab Karlsruhe Innenstadt erreichbar (Spätverbindungen eingeschränkt); zusätzlich verkehrt ein Messe-Express-Shuttle ab Karlsruhe Hauptbahnhof (alle 30 Minuten, 20:30-1:00 Uhr) sowie ein Shuttle ab Karlsruhe Entenfang (alle 10 Minuten, 21:00-1:00 Uhr). Parkplätze sind direkt am Haupteingang der dm-arena sowie am S2-Bahnhof vorhanden (rund 7.000 Stellplätze auf dem Messegelände)."
   },
   {
+    "name": "SNOWBEAT FESTIVAL 2027",
+    "date": "2027-03-13",
+    "dateDisplay": "13. März 2027",
+    "location": "Alpincenter Hamburg-Wittenburg, Wittenburg",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Psytrance",
+      "Trance"
+    ],
+    "url": "https://snowbeat.de/",
+    "soldOut": false,
+    "description": "Fünf Floors in der Skihalle — Techno, Hard Dance, Psytrance und Classic Dance von 20 bis 6 Uhr im Alpincenter Wittenburg.",
+    "lat": 53.506458,
+    "lng": 11.0962964,
+    "about": "Das Snowbeat Festival macht aus der Skihalle des Alpincenters Hamburg-Wittenburg eine Indoor-Winterlandschaft zum Durchtanzen: Am 13. März 2027 sorgen von 20:00 bis 06:00 Uhr fünf Stages für Techno, Hard Dance, Psytrance und Classic Dance. Zu den bisher bestätigten Acts zählen TiefundTon (Main Stage), Lekkerfaces (Main Circus), LsDirty (Goa-Stage) und Chris Nitro (Classic-Stage). Der Eintritt ist ab 16 Jahren mit Elternzettel. Die Halle liegt zwischen Hamburg und Schwerin.",
+    "anfahrt": "Adresse: Zur Winterwelt 1, 19243 Wittenburg (Alpincenter, zwischen Hamburg und Schwerin). Mit dem Auto über die A24; in den Vorjahren gab es kostenlose Parkplätze direkt vor der Halle. Mit der Bahn (z. B. von Hamburg Hbf) bis Hagenow Land, von dort fährt in der Regel ein Festival-Shuttle zum Alpincenter. Zusätzlich gab es Festival-Busse aus Hamburg, Rostock, Schwerin und Lübeck. Shuttle-Zeiten und Preise für 2027 bitte beim Veranstalter prüfen."
+  },
+  {
     "name": "ARENA RAVE HAMBURG 2027",
     "date": "2027-03-19",
     "dateDisplay": "19. März 2027",
@@ -3020,6 +3039,43 @@ const festivals = [
     "anfahrt": "Das Festivalticket gilt gleichzeitig als kostenloses ÖPNV-Ticket im gesamten RMV-Gebiet, für Hin- und Rückfahrt. Erreichbar ist das Gelände am Deutsche Bank Park über den Bahnhof Frankfurt Stadion (S-Bahn S7/S8/S9 sowie diverse Regionalzüge), die Straßenbahnlinien 20/21 ab Hauptbahnhof, oder verstärkte Buslinien 61/80. Für die Anreise mit dem Auto steht der Waldparkplatz zur Verfügung — ein Parkticket muss vorab im offiziellen Ticketshop gebucht werden."
   },
   {
+    "name": "BETWEEN THE SEAS FESTIVAL 2027",
+    "date": "2027-06-10",
+    "endDate": "2027-06-12",
+    "dateDisplay": "10.–12. Juni 2027",
+    "location": "Geestland-Eventgelände am Schwimmbad, Kropp (Schleswig-Holstein)",
+    "genre": [
+      "Techno",
+      "Hardstyle",
+      "EDM"
+    ],
+    "url": "https://www.festival-sh.de/",
+    "soldOut": false,
+    "description": "Das EDM- und Techno-Highlight in Schleswig-Holstein — mehrere Stages am Geestlandbad in Kropp, 2027 vom 10. bis 12. Juni.",
+    "lat": 54.4115609,
+    "lng": 9.5093321,
+    "about": "Between the Seas ist das große Sommerfestival zwischen Nord- und Ostsee: Auf dem Eventgelände am Geestlandbad in Kropp bei Schleswig stehen mehrere Stages, darunter Main Stage, Harder Stage, Pool Stage und Classic Stage — von EDM und Techno bis Hardstyle ist alles dabei. Die Sommerausgabe 2027 wird als Techno Festival vom 10. bis 12. Juni beworben; einige Ticketportale nennen abweichend den 9. bis 13. Juni, vermutlich wegen Früh- und Abreise. Für 2026 gab es einen Campingbereich mit eigener Campeinfahrt; Details und Line-up für 2027 sind noch offen. Mit dem Winter Techno Festival in Neumünster hat die Reihe zusätzlich ein Indoor-Gegenstück.",
+    "anfahrt": "Adresse für das Navi: Am Schwimmbad 1, 24848 Kropp. Am einfachsten mit dem Auto. Mit der Bahn von Hamburg oder Kiel über Neumünster mit dem RE7 nach Schleswig, dann weiter mit dem Bus bis „Kropp, Am Schwimmbad“. Ein offizieller Shuttle ist für 2027 nicht bekannt; für Camper gab es 2026 eine eigene Campeinfahrt ab Donnerstag 8 Uhr, Frühanreise ab Mittwoch gegen Zusatzticket. Fahrgemeinschaften lassen sich z. B. über ride2rave organisieren."
+  },
+  {
+    "name": "AFFENKÄFIG FESTIVAL 2027",
+    "date": "2027-06-11",
+    "endDate": "2027-06-12",
+    "dateDisplay": "11.–12. Juni 2027",
+    "location": "Mendig, Rheinland-Pfalz",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.affenkaefig-festival.de",
+    "soldOut": false,
+    "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
+    "lat": 50.3720933,
+    "lng": 7.2812427,
+    "about": "Affenkäfig wurde 2023 auf dem Flugplatz Mendig in Rheinland-Pfalz gegründet und zieht mittlerweile rund 30.000 Besucher an. Auf 25.000 Quadratmetern verteilen sich sechs benannte Areale — darunter Black Leaf Terminal, Old London Terminal, Hangar 7 und Hardcore Hangar — mit Indoor- und Outdoor-Programm, XXL-Lightshows, Feuerwerk, Riesenrad und Kartbahn.",
+    "anfahrt": "Adresse: Am Alten Fort 112, 56743 Mendig (Flughafen Mendig). Mit dem Auto am besten über die A61 (Ausfahrt Kruft) oder die A48 (Ausfahrt Mayen), dann der B262/B256 folgen. Auf dem Gelände stehen Parkplätze für über 5.000 Autos zur Verfügung, nutzbar bis 15 Uhr am Tag nach dem Festival — Zelten auf dem Parkplatz ist nicht erlaubt."
+  },
+  {
     "name": "DOCKLANDS FESTIVAL 2027",
     "date": "2027-06-12",
     "dateDisplay": "12. Juni 2027",
@@ -3054,24 +3110,6 @@ const festivals = [
     "lng": 9.7482486,
     "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
     "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
-  },
-  {
-    "name": "AFFENKÄFIG FESTIVAL 2027",
-    "date": "2027-06-11",
-    "endDate": "2027-06-12",
-    "dateDisplay": "11.–12. Juni 2027",
-    "location": "Mendig, Rheinland-Pfalz",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.affenkaefig-festival.de",
-    "soldOut": false,
-    "description": "Elektronisches Musikfestival — 2026 war ausverkauft, Vorverkauf für 2027 hat bereits begonnen.",
-    "lat": 50.3720933,
-    "lng": 7.2812427,
-    "about": "Affenkäfig wurde 2023 auf dem Flugplatz Mendig in Rheinland-Pfalz gegründet und zieht mittlerweile rund 30.000 Besucher an. Auf 25.000 Quadratmetern verteilen sich sechs benannte Areale — darunter Black Leaf Terminal, Old London Terminal, Hangar 7 und Hardcore Hangar — mit Indoor- und Outdoor-Programm, XXL-Lightshows, Feuerwerk, Riesenrad und Kartbahn.",
-    "anfahrt": "Adresse: Am Alten Fort 112, 56743 Mendig (Flughafen Mendig). Mit dem Auto am besten über die A61 (Ausfahrt Kruft) oder die A48 (Ausfahrt Mayen), dann der B262/B256 folgen. Auf dem Gelände stehen Parkplätze für über 5.000 Autos zur Verfügung, nutzbar bis 15 Uhr am Tag nach dem Festival — Zelten auf dem Parkplatz ist nicht erlaubt."
   },
   {
     "name": "VOLUME X KRAGELUND FESTIVAL 2027",
@@ -3182,6 +3220,24 @@ const festivals = [
     "anfahrt": "Adresse: Manfred-Strößenreuther-Straße 21, 95469 Speichersdorf — die Start- und Landebahn des Flugplatzes wird am Festivaltag zum Parkplatz. Kostenlose Shuttlebusse pendeln durchgehend zwischen Bahnhof Kirchenlaibach (rund 5 Minuten vom Gelände, ca. 15 Minuten Zugfahrt ab Bayreuth) und dem Festivalgelände."
   },
   {
+    "name": "UNIQUE OPENAIR 2027",
+    "date": "2027-06-26",
+    "dateDisplay": "26. Juni 2027",
+    "location": "Rappbodetalsperre, Wendefurth (Harz, Sachsen-Anhalt)",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://unique-openair.de/",
+    "soldOut": false,
+    "description": "Dein Techno OpenAir im Harz — 30+ Artists auf drei Stages direkt an der Rappbodetalsperre, getanzt wird bis in den frühen Morgen.",
+    "lat": 51.7411218,
+    "lng": 10.9185573,
+    "about": "Das Unique OpenAir findet in einer der spektakulärsten Open-Air-Kulissen Mitteldeutschlands statt: an der Rappbodetalsperre im Harz, vor der höchsten Staumauer Deutschlands. Am 26. Juni 2027 spielen über 30 Artists auf drei Stages Techno und House, getanzt wird bis in den frühen Morgen. Das Festival ist ab 18 Jahren; einen klassischen Campingplatz gibt es nicht, für Wohnmobile standen zuletzt begrenzte Stellplätze am Rand des Parkplatzes bereit. Preise, Line-up und weitere Details für 2027 sind noch nicht veröffentlicht.",
+    "anfahrt": "Adresse: Rappbodetalsperre bei Wendefurth (Harz). Mit dem Auto gibt es Parkplätze direkt am Gelände (zuletzt 3,50 Euro, vor Verlassen des Parkplatzes zu zahlen). Mit der Bahn bis Wernigerode, von dort fährt ein Festival-Shuttle (zuletzt ab Hauptbahnhof bzw. Anger Wernigerode, ca. 10 Euro pro Strecke, im Bus zahlbar) direkt zum Gelände. Alternativ aus Blankenburg mit Linie 263 bis „Wendefurth Oberbecken“ und weiter mit Linie 260 Richtung Rappbodetalsperre. Shuttle-Zeiten und Preise für 2027 bitte vorab auf der Festivalseite prüfen."
+  },
+  {
     "name": "44 FESTIVAL 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",
@@ -3234,6 +3290,24 @@ const festivals = [
     "endDate": "2027-07-11",
     "about": "Was 2002 als „Airbase One\" mit rund 1.000 Besuchern auf dem Flugplatz Neustadt-Glewe begann, ist heute Deutschlands größtes Electronic-Festival — 2023 kamen rund 210.000 Besucher. Den Namen musste die Veranstaltung schon zur dritten Ausgabe aus markenrechtlichen Gründen ändern. Airbeat One ist bekannt für sein jährlich wechselndes Länder-Motto, das jede Ausgabe optisch komplett neu einkleidet — vom Flugfeld wird so jedes Jahr eine andere Welt.",
     "anfahrt": "Adresse: Am Flugplatz 1, 19306 Neustadt-Glewe, direkt an der A24 Hamburg-Berlin. Über die A24 Ausfahrt Neustadt-Glewe anreisen und der Beschilderung zum Parkplatz P5 folgen (kostenpflichtig, Umweltplakette erforderlich). Von P5 bringt ein rund um die Uhr kostenloser Shuttle-Bus euch zum Gelände, mit Stopps am Festival, Bahnhof und See."
+  },
+  {
+    "name": "STONE TECHNO FESTIVAL 2027",
+    "date": "2027-07-09",
+    "endDate": "2027-07-11",
+    "dateDisplay": "9.–11. Juli 2027",
+    "location": "Zeche Zollverein, Essen",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.stone-techno.com",
+    "soldOut": false,
+    "description": "Drei Tage Techno auf dem UNESCO-Welterbe Zeche Zollverein — das Stone Techno Festival kehrt 2027 in die Essener Industriekulisse zurück.",
+    "lat": 51.488001,
+    "lng": 7.0386873,
+    "about": "Das Stone Techno Festival verwandelt das UNESCO-Welterbe Zeche Zollverein in Essen in eine dreitägige Techno-Spielwiese. Zwischen Kokerei, Schachtanlage und den ikonischen Bauhaus-Backsteinbauten entstehen mehrere Floors, auf denen von Mittag bis Mitternacht getanzt wird. 2027 findet das Festival vom 9. bis 11. Juli statt, jeweils von 12:00 bis 23:59 Uhr; der Eintritt ist ab 18 Jahren. Veranstalter ist The Third Room. Das Line-up für 2027 ist noch nicht bekannt gegeben — die Kulisse aus Stahl, Beton und Industriedenkmal bleibt aber der eigentliche Star des Wochenendes.",
+    "anfahrt": "Adresse: Kokereiallee 71, 45141 Essen (Zeche Zollverein). Mit der Straßenbahn 107 bis „Zollverein“ bzw. „Zollverein-Nord“, mit den Bussen 170 und 183 oder der RB32 bis „Zollverein-Nord“. An allen Festivaltagen fahren zusätzlich Shuttlebusse zwischen Essen Hauptbahnhof und Zollverein. Zu Parkmöglichkeiten gibt es noch keine Angaben — am besten kurz vor dem Festival auf der Seite des Veranstalters prüfen und die Öffentlichen nutzen."
   },
   {
     "name": "WET OPEN AIR 2027",
@@ -3420,6 +3494,23 @@ const festivals = [
     "endDate": "2027-07-25",
     "about": "Was 2009 als kleine Ausgabe für die regionale Szene begann, ist heute eines der größten EDM-Festivals Süddeutschlands: Open Beatz zog bis 2012 in Wilhermsdorf bei Fürth Publikum an, bevor es 2013 nach Herzogenaurach umzog. Mit rund 90.000 Besuchern im Jahr, 200+ Acts auf acht Bühnen und einem Genre-Spektrum von Hardstyle über Techno bis Uptempo und Psytrance verwandelt sich das Gelände für ein Wochenende in eine temporäre Kleinstadt.",
     "anfahrt": "Adresse: Puschendorfer Straße 2, 91074 Herzogenaurach, Anfahrt über die A3 Richtung Nürnberg/Erlangen und weiter durch den Ort Höfen (aus allen Richtungen ausgeschildert). Auf dem regulären Tagesparkplatz wird nur mit Debit- oder Kreditkarte bezahlt, Bargeld wird nicht mehr akzeptiert. Wer nicht mit dem Auto kommt: Express-Shuttles verkehren direkt von den Bahnhöfen Nürnberg, Fürth und Erlangen zum Gelände, oder mit der Bahn bis Puschendorf und von dort rund 20 Minuten zu Fuß."
+  },
+  {
+    "name": "VERKNIPT GERMANY OPEN AIR 2027",
+    "date": "2027-07-24",
+    "dateDisplay": "24. Juli 2027",
+    "location": "Turbinenhalle (Open Air), Oberhausen",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://www.verknipt.org/germany-open-air/",
+    "soldOut": false,
+    "description": "Verknipt Germany Open Air — ein Tag Hard Techno, Bounce und Hardhouse auf mehreren Stages vor der Industriekulisse der Turbinenhalle Oberhausen.",
+    "lat": 51.4835582,
+    "lng": 6.8666494,
+    "about": "Verknipt wurde 2012 in Amsterdam als Afterparty zum Awakenings-Festival gegründet und gehört heute zu den gefragtesten Hard-Techno-Marken der Welt. Beim Germany Open Air am 24. Juli 2027 (12 bis 22 Uhr) holt die niederländische Crew ihr Konzept unter freiem Himmel nach Oberhausen — auf das Gelände rund um die Turbinenhalle, im Schatten der Industriearchitektur des Ruhrgebiets. Geboten werden mehrere Stages mit Hard Techno, Industrial Hard Techno, Bounce, Hardhouse und klassischem Techno. Das Line-up ist noch nicht veröffentlicht; Infos und Tickets gibt es über die offizielle Verknipt-Seite.",
+    "anfahrt": "Adresse: Im Lipperfeld 23, 46047 Oberhausen. Vom Hauptbahnhof Oberhausen mit dem Bus ab Bussteig 1 Richtung „Im Lipperfeld“ bzw. „Feuerwache“, danach ca. 5 Minuten zu Fuß. Mit dem Auto über die Autobahnausfahrt Oberhausen-Neue Mitte; direkt vor der Halle gibt es Parkplätze (5 Euro, nur bar) sowie den großen Parkplatz der Turbinenhalle. Aktuelle Hinweise zu Parken und Shuttle bitte vorab beim Veranstalter prüfen."
   },
   {
     "name": "NATURE ONE 2027",
@@ -3623,6 +3714,23 @@ const festivals = [
     "lng": 8.3395468,
     "about": "Die historische Festung Germersheim verwandelt sich einmal im Jahr in einen pulsierenden Day-Techno-Tempel unter freiem Himmel. Mächtige Festungsmauern und offene Innenhöfe treffen auf zehn Stunden elektronische Musik — Nimmerland steht für die besondere Mischung aus Härte, Atmosphäre und kollektiver Eskalation, bei der sich Realität und Rave vermischen.",
     "anfahrt": "Adresse: An der Hochschule 2, 76726 Germersheim (Campus der Festung, FTSK Uni Mainz). Der Bahnhof Germersheim ist die nächste Station; Parkmöglichkeiten gibt es unter anderem am P+R Germersheim (Bahnhofstraße 13, 269 Plätze)."
+  },
+  {
+    "name": "SEELECTRIC 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Seebühne, Bayreuth",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.seebuehne-bayreuth.de/",
+    "soldOut": false,
+    "description": "Techno-Open-Air zum Abschluss des Bayreuther Seebühnenfestivals — SEELECTRIC geht 2027 in die zweite Runde.",
+    "lat": 49.9462867,
+    "lng": 11.6014503,
+    "about": "SEELECTRIC ist der elektronische Abschluss des Bayreuther Seebühnenfestivals: Am 7. August 2027 (16 bis 22 Uhr) wird die Seebühne in der Wilhelminenaue zur Techno-Open-Air-Arena. Die Premiere 2026 brachte unter anderem Westbam, Anna Reusch und Markus Kavka nach Bayreuth, 2027 folgt die zweite Auflage. Der Eintritt ist ab 16 Jahren möglich (ohne Begleitperson). Veranstalter ist die Bayreuther Agentur MOTION; das Line-up für 2027 ist noch nicht bekannt, der Vorverkauf läuft über die Seebühnen-Seite.",
+    "anfahrt": "Adresse: Seebühne, Obere Röth, 95448 Bayreuth (Wilhelminenaue). Parken ist sehr begrenzt; der Veranstalter empfiehlt die Anreise ohne Auto. Mit dem Bus ab ZOH Linie 302 (Richtung Hammerstatt/Industriegebiet) bis „Volksfestplatz“ und ca. 10 Minuten zu Fuß, oder Linie 303 bis „Wilhelminenaue“. Parkplätze gibt es an der Wilhelminenaue, entlang der Äußeren Badstraße und Kerschensteinerstraße, am Volksfestplatz sowie am Sportpark (5–15 Minuten Fußweg). Auf das Gelände selbst darf nicht gefahren werden."
   },
   {
     "name": "SAN HEJMO FESTIVAL 2027",
