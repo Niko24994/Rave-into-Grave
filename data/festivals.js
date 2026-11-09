@@ -2478,7 +2478,7 @@ const festivals = [
     "genre": [
       "Hard Techno"
     ],
-    "url": "https://www.verknipt.org/oberhausen-day-night/",
+    "url": "https://www.verknipt.org/oberhausen/",
     "soldOut": false,
     "description": "Verknipt macht erneut Station in der Turbinenhalle Oberhausen — hartes Hard-Techno-Line-up, 22:00 bis 07:00 Uhr.",
     "lat": 51.4835582,
@@ -2680,9 +2680,8 @@ const festivals = [
   },
   {
     "name": "UNREAL X STUTYARD 2026",
-    "date": "2026-12-19",
-    "endDate": "2026-12-20",
-    "dateDisplay": "19.–20. Dezember 2026",
+    "date": "2026-12-18",
+    "dateDisplay": "18. Dezember 2026",
     "location": "Messe Stuttgart ICS, Stuttgart",
     "genre": [
       "Hard Techno",
@@ -2746,23 +2745,6 @@ const festivals = [
     "anfahrt": "Adresse: Justus-von-Liebig-Straße 2-4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7)."
   },
   {
-    "name": "APEX 2027",
-    "date": "2027-03-06",
-    "dateDisplay": "6. März 2027",
-    "location": "Maimarkthalle, Mannheim",
-    "genre": [
-      "Hardcore",
-      "Hard Techno"
-    ],
-    "url": "https://apexfest.de/",
-    "soldOut": false,
-    "description": "Deutschlands größtes Indoor-Hardstyle-Event in der Maimarkthalle Mannheim — APEX 2027 mit zwei Floors und dem bisher größten Line-up der APEX-Geschichte.",
-    "lat": 49.4683637,
-    "lng": 8.5239462,
-    "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub.",
-    "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
-  },
-  {
     "name": "INTACT EXPANDA 2027",
     "date": "2027-02-27",
     "dateDisplay": "27. Februar 2027",
@@ -2779,6 +2761,23 @@ const festivals = [
     "lng": 9.9199831,
     "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut.",
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
+  },
+  {
+    "name": "APEX 2027",
+    "date": "2027-03-06",
+    "dateDisplay": "6. März 2027",
+    "location": "Maimarkthalle, Mannheim",
+    "genre": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "url": "https://apexfest.de/",
+    "soldOut": false,
+    "description": "Deutschlands größtes Indoor-Hardstyle-Event in der Maimarkthalle Mannheim — APEX 2027 mit zwei Floors und dem bisher größten Line-up der APEX-Geschichte.",
+    "lat": 49.4683637,
+    "lng": 8.5239462,
+    "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub.",
+    "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2864,8 +2863,8 @@ const festivals = [
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
     "date": "2027-04-17",
-    "endDate": "2027-04-19",
-    "dateDisplay": "17.–19. April 2027",
+    "endDate": "2027-04-18",
+    "dateDisplay": "17.–18. April 2027",
     "location": "Max Nachttheater, Kiel",
     "genre": [
       "Trance"
@@ -2982,21 +2981,6 @@ const festivals = [
     "anfahrt": "Adresse: Ottostraße 6, 76227 Karlsruhe (Auto-Böhler-Schrottplatz). Mit der Straßenbahnlinie 2 (Richtung Wolfartsweier) bis „Ostendstraße\" (ca. 10 Minuten Fußweg) oder mit Buslinie 42 (Richtung Hohenwettersbach) bis „Hauptfriedhof\" (ca. 15 Minuten Fußweg). Parkplätze in der Umgebung sind nur begrenzt vorhanden — der Veranstalter empfiehlt ausdrücklich den ÖPNV."
   },
   {
-    "name": "HASARDEUR INDOOR 2027",
-    "date": "2027-05-29",
-    "dateDisplay": "29. Mai 2027",
-    "location": "dm-arena, Messe Karlsruhe, Rheinstetten",
-    "genre": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "url": "https://hasardeur-festival.de/",
-    "soldOut": false,
-    "description": "Weltpremiere indoor — Hasardeur in der dm-arena der Messe Karlsruhe: eine Nacht, ein einziges ausgedehntes B2B2B-Set von Fantasm, Klofama und Winson, 21 bis 6 Uhr.",
-    "lat": 48.968549,
-    "lng": 8.3097117
-  },
-  {
     "name": "ZURÜCK ZU DEN WURZELN FESTIVAL 2027",
     "date": "2027-06-03",
     "endDate": "2027-06-06",
@@ -3020,7 +3004,7 @@ const festivals = [
     "date": "2027-06-04",
     "endDate": "2027-06-06",
     "dateDisplay": "4.–6. Juni 2027",
-    "location": "Messe Frankfurt, Frankfurt",
+    "location": "Deutsche Bank Park, Frankfurt",
     "genre": [
       "Techno",
       "Hard Techno",
@@ -3029,9 +3013,9 @@ const festivals = [
     ],
     "url": "https://www.worldclubdome.com",
     "soldOut": false,
-    "description": "Das größte Club-Festival der Welt — die Messe Frankfurt wird zum größten Club auf Erden.",
-    "lat": 50.1115781,
-    "lng": 8.6444501,
+    "description": "Das größte Club-Festival der Welt — der Deutsche Bank Park wird drei Tage lang zum größten Club auf Erden.",
+    "lat": 50.0686103,
+    "lng": 8.6454154,
     "about": "World Club Dome verwandelt den Deutsche Bank Park einmal im Jahr in den „größten Club der Welt\" — mit über 25 Bühnen auf 700.000 Quadratmetern. Seit der ersten Ausgabe 2013 mit 25.000 Besuchern ist das Festival rasant gewachsen. Veranstalter ist BigCityBeats, seit fast zwei Jahrzehnten eine der zentralen Institutionen der deutschen EDM-Szene. Das Konzept hat sich längst international ausgebreitet — mit einer eigenen Cruise-Edition, einer Winter Edition und 2017 sogar einem Ableger in Südkorea.",
     "anfahrt": "Das Festivalticket gilt gleichzeitig als kostenloses ÖPNV-Ticket im gesamten RMV-Gebiet, für Hin- und Rückfahrt. Erreichbar ist das Gelände am Deutsche Bank Park über den Bahnhof Frankfurt Stadion (S-Bahn S7/S8/S9 sowie diverse Regionalzüge), die Straßenbahnlinien 20/21 ab Hauptbahnhof, oder verstärkte Buslinien 61/80. Für die Anreise mit dem Auto steht der Waldparkplatz zur Verfügung — ein Parkticket muss vorab im offiziellen Ticketshop gebucht werden."
   },
@@ -3073,9 +3057,9 @@ const festivals = [
   },
   {
     "name": "AFFENKÄFIG FESTIVAL 2027",
-    "date": "2027-06-18",
-    "endDate": "2027-06-20",
-    "dateDisplay": "18.–20. Juni 2027",
+    "date": "2027-06-11",
+    "endDate": "2027-06-12",
+    "dateDisplay": "11.–12. Juni 2027",
     "location": "Mendig, Rheinland-Pfalz",
     "genre": [
       "Techno",
@@ -3755,9 +3739,9 @@ const festivals = [
   },
   {
     "name": "FERRA FESTIVAL 2027",
-    "date": "2027-08-21",
-    "endDate": "2027-08-22",
-    "dateDisplay": "21.–22. August 2027",
+    "date": "2027-08-20",
+    "endDate": "2027-08-21",
+    "dateDisplay": "20.–21. August 2027",
     "location": "Völklinger Hütte, Völklingen",
     "genre": [
       "Hard Techno",

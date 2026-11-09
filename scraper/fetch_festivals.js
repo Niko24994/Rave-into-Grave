@@ -306,6 +306,8 @@ const KNOWN_FALSE_POSITIVES = new Set([
 const SINGLE_DATE_SERIES = new Set([
   'futurebeatzzfestival2026', // echter Termin 29.08.2026, Quelle liefert woechentlich neue Clubnacht-Daten
   'goaworldhalloweenspecial2', // echter Termin 23.10.2026; der 5.12. war eine Ue30-Party (Venue-Seite), kein Goa World
+  'nibiriifestival2026', // echter Termin 28.-30.08.2026; die Quelle liefert immer wieder Clubshow-/Silvester-Termine
+  'hasardeurindoor2027', // Rollover des manuell umbenannten Indoor-Eintrags; echtes Hasardeur 2027 ist das Schrottplatz-Festival am 29.05.
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —
