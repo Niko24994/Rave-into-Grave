@@ -230,9 +230,11 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // nibirii.com: echter Termin ist 28.-30. August 2026 (bereits gelistet),
   // 2. Oktober ist ein Fehlfund (verifiziert per Websuche).
   'nibiriifestival20262026-10-02',
-  // apexfest.de: APEX 2027 findet am 30. Januar 2027 statt (bereits
-  // gelistet), der 6. Maerz ist ein Fehlfund (verifiziert per Websuche).
-  'apex20272027-03-06',
+  // apexfest.de: APEX 2027 findet laut offizieller Seite am 6. Maerz 2027 statt
+  // (korrigiert; frueher faelschlich 30. Januar). Der 30.01. und der 8.03.
+  // (Fundsachen-Datum auf der Seite) sind Fehlfunde.
+  'apex20272027-01-30',
+  'apex20272027-03-08',
   // udtdb.de: der 6. Mai 2027 gehoert zu "Und DRAUSSEN tanzt der Baer -
   // Herrentags Open Air" in Schwerin, ein anderes Event — falsch der
   // Rostocker "drinnen"-Reihe zugeordnet (verifiziert per Websuche).
@@ -287,6 +289,15 @@ const KNOWN_FALSE_POSITIVES = new Set([
   // das Schrottplatz-Festival — verhindert, dass der Scraper den Termin unter
   // dem alten Namen erneut mit falschem Ort anlegt.
   'hasardeurfestival20262026-11-14',
+  // Weitere Fehlfunde (verifiziert per Websuche): Wilde Moehre 20.-23.08.,
+  // Nibirii 28.-30.08. (die Termine im November sind keine Ausgaben);
+  // Klofama @ Docks Hamburg ist eine Clubnacht, Arena Rave Leipzig 20.02.2027
+  // laut mehreren Ticketportalen abgesagt (der 23.04. ist Arena Rave Stendal).
+  'wildemhrefestival20262026-11-03',
+  'nibiriifestival20262026-11-27',
+  'arenaraveklofamapresbyare2027-01-08',
+  'arenaraveleipzig20272027-02-20',
+  'arenaraveleipzig20272027-04-23',
 ]);
 
 // nameKeys von Festivals mit genau einem echten Termin pro Jahr, deren Quelle

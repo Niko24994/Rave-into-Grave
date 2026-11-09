@@ -2402,22 +2402,6 @@ const festivals = [
     "anfahrt": "Von der Autobahnausfahrt Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen. Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort sind es rund 5 Minuten Fußweg. Kostenpflichtige Parkplätze (5 Euro, nur Bar) gibt es direkt vor der Halle, zusätzlich einen großen Parkplatz der Turbinenhalle."
   },
   {
-    "name": "WILDE MÖHRE FESTIVAL 2026",
-    "date": "2026-11-03",
-    "dateDisplay": "3. November 2026",
-    "location": "Lausitz, Brandenburg",
-    "genre": [
-      "Techno",
-      "Electronic",
-      "Experimental"
-    ],
-    "url": "https://wildemoehrefestival.de",
-    "soldOut": false,
-    "description": "Underground Techno-Festival in der Lausitz — experimentell, naturverbunden, für Menschen die mehr wollen als Mainstream.",
-    "lat": 51.5119509,
-    "lng": 13.3505194
-  },
-  {
     "name": "THE HOLY SHIT SHOW 2026",
     "date": "2026-11-06",
     "dateDisplay": "6. November 2026",
@@ -2571,22 +2555,6 @@ const festivals = [
     "lat": 49.4021824,
     "lng": 8.6704571,
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
-  },
-  {
-    "name": "NIBIRII FESTIVAL 2026",
-    "date": "2026-11-27",
-    "dateDisplay": "27. November 2026",
-    "location": "Düren, NRW",
-    "genre": [
-      "Techno",
-      "Hard Techno",
-      "Electronic"
-    ],
-    "url": "https://nibirii.com",
-    "soldOut": false,
-    "description": "NIBIRII in Düren — drei Tage Techno und Hard Techno für die NRW-Underground-Szene.",
-    "lat": 50.8031684,
-    "lng": 6.4820806
   },
   {
     "name": "FAIRGROUND FESTIVAL 2026",
@@ -2761,18 +2729,6 @@ const festivals = [
     "anfahrt": "Adresse: Schanzenstraße 6-20, Gebäude 3.12, Köln (Carlswerk Victoria). Der Veranstalter empfiehlt ausdrücklich die Anreise mit der Bahn oder Fahrgemeinschaften, da die Parkmöglichkeiten vor Ort begrenzt sind."
   },
   {
-    "name": "ARENA RAVE KLOFAMA PRES. BY ARENA RAVE @ DOCKS 2027",
-    "date": "2027-01-08",
-    "dateDisplay": "8. Januar 2027",
-    "location": "Klofama Pres. By Arena Rave @ Docks",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://arena-rave.de/event/klofama-pres-by-arena-rave-docks/",
-    "soldOut": false,
-    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Klofama Pres. By Arena Rave @ Docks."
-  },
-  {
     "name": "BETWEEN THE SEAS WINTER TECHNO FESTIVAL 2027",
     "date": "2027-01-09",
     "dateDisplay": "9. Januar 2027",
@@ -2791,8 +2747,8 @@ const festivals = [
   },
   {
     "name": "APEX 2027",
-    "date": "2027-01-30",
-    "dateDisplay": "30. Januar 2027",
+    "date": "2027-03-06",
+    "dateDisplay": "6. März 2027",
     "location": "Maimarkthalle, Mannheim",
     "genre": [
       "Hardcore",
@@ -2800,27 +2756,11 @@ const festivals = [
     ],
     "url": "https://apexfest.de/",
     "soldOut": false,
-    "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
+    "description": "Deutschlands größtes Indoor-Hardstyle-Event in der Maimarkthalle Mannheim — APEX 2027 mit zwei Floors und dem bisher größten Line-up der APEX-Geschichte.",
     "lat": 49.4683637,
     "lng": 8.5239462,
     "about": "APEX ist das Hardstyle-Projekt von Musical Madness, das 2022 zum 15-jährigen Bestehen der Veranstalter mit der bis dahin größten Show in der Maimarkthalle startete. Unter dem Motto „Enter the Next Dimension\" versteht sich APEX nicht als klassisches Hardstyle-Event, sondern als audiovisuelle Erfahrungswelt — mit modernster Licht- und Videotechnik, synchronisierten Shows und mittlerweile zwei Floors zwischen Maimarkthalle und Maimarktclub.",
     "anfahrt": "Adresse: Xaver-Fuhr-Straße 101, 68163 Mannheim. Die Haltestelle Mannheim Arena/Maimarkt der Rhein-Neckar-S-Bahn liegt rund 1.000 Meter vom Gelände entfernt. Parkplätze direkt am Veranstaltungsort kosten 6 Euro pro Fahrzeug."
-  },
-  {
-    "name": "ARENA RAVE LEIPZIG 2027",
-    "date": "2027-02-20",
-    "dateDisplay": "20. Februar 2027",
-    "location": "Halle 1, Messe-Allee, Leipzig",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://arena-rave.de/",
-    "soldOut": false,
-    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
-    "lat": 51.3945,
-    "lng": 12.4139,
-    "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück, 2027 erstmals nach Leipzig. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow.",
-    "anfahrt": "Adresse: Halle 1, Messe-Allee 1, 04356 Leipzig. Mit dem Auto über die A14, Ausfahrt Leipzig Messegelände. Der Park-and-Ride-Parkplatz „Leipziger Messe\" bietet 1.200 kostenlose Stellplätze rund um die Uhr; direkt am Gelände liegen zusätzlich die kostenpflichtigen Parkplätze P1/P2 (6 Euro pro Tag). Zwischen dem S-Bahnhof Leipzig Messe und dem Haupteingang verkehrt ein Shuttlebus."
   },
   {
     "name": "INTACT EXPANDA 2027",
@@ -2839,21 +2779,6 @@ const festivals = [
     "lng": 9.9199831,
     "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut.",
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
-  },
-  {
-    "name": "APEX 2027",
-    "date": "2027-03-08",
-    "dateDisplay": "8. März 2027",
-    "location": "Maimarkthalle, Mannheim",
-    "genre": [
-      "Hardcore",
-      "Hard Techno"
-    ],
-    "url": "https://apexfest.de/",
-    "soldOut": false,
-    "description": "Das neue Jahr beginnt hart — APEX in der Maimarkthalle Mannheim eröffnet 2027 mit Hardcore und Hard Techno.",
-    "lat": 49.4683637,
-    "lng": 8.5239462
   },
   {
     "name": "TELETECH FESTIVAL 2027",
@@ -2954,32 +2879,20 @@ const festivals = [
     "anfahrt": "Mit öffentlichen Verkehrsmitteln bringen euch die KVG-Linien 22, 71, 72, 81, 830 oder 4810 bis zur Haltestelle Eichhofstraße. Mit dem Auto über die BAB215, Ausfahrt B76 Richtung Eckernförde, dann Ausfahrt Kiel-Zentrum Richtung Kiel-Zentrum."
   },
   {
-    "name": "ARENA RAVE LEIPZIG 2027",
-    "date": "2027-04-23",
-    "dateDisplay": "23. April 2027",
-    "location": "Halle 1, Messe-Allee, Leipzig",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://arena-rave.de/",
-    "soldOut": false,
-    "description": "Die Leipziger Messehalle wird zum Schauplatz eines Hard Techno Raves, der keine Kompromisse macht.",
-    "lat": 51.3928717,
-    "lng": 12.4014965
-  },
-  {
     "name": "ARENA RAVE STENDAL 2027",
     "date": "2027-04-23",
     "dateDisplay": "23. April 2027",
-    "location": "Stendal",
+    "location": "Airfield Borstel, Stendal",
     "genre": [
       "Hard Techno"
     ],
     "url": "https://arena-rave.de/event/stendal/",
     "soldOut": false,
-    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Stendal.",
-    "lat": 52.6050782,
-    "lng": 11.8594279
+    "description": "Arena Rave erstmals in Stendal — Hard Techno auf dem ehemaligen Flugplatz Borstel, 19 bis 5 Uhr.",
+    "lat": 52.6318497,
+    "lng": 11.8389903,
+    "about": "Arena Rave bringt kompromisslosen Hard Techno an außergewöhnliche Orte quer durch Deutschland — am 23. April 2027 erstmals auf das Gelände des Airfield Borstel bei Stendal in Sachsen-Anhalt, das für eine Nacht zur Techno-Location wird. Von 19 bis 5 Uhr gibt es eine hochmoderne Sound-Anlage sowie Laser- und Lichtshow; das Line-up wird noch bekanntgegeben. Einlass ab 16 Jahren mit Einverständniserklärung der Eltern.",
+    "anfahrt": "Adresse: Osterburger Straße 250, 39576 Stendal (Flugplatz Stendal-Borstel, rund 1 bis 1,5 Kilometer außerhalb der Stadt). Angaben zu Shuttle, Bahnanbindung und Parkplätzen liegen noch nicht vor — sie werden vom Veranstalter auf arena-rave.de bekanntgegeben."
   },
   {
     "name": "MAYDAY 2027",
@@ -3481,9 +3394,11 @@ const festivals = [
     ],
     "url": "https://www.schallimschilf.de/",
     "soldOut": false,
-    "description": "Elektronisches Open Air am Garchinger See — Bambounou, Interstellar Funk, Palms Trax, Octo Octa und viele mehr unter freiem Münchner Himmel.",
+    "description": "Elektronisches Open Air am Garchinger See bei München — Techno und Electronic unter freiem Himmel, 12 bis 1 Uhr.",
     "lat": 48.2602013,
-    "lng": 11.63915
+    "lng": 11.63915,
+    "about": "Schall im Schilf verwandelt den Garchinger See nördlich von München in ein elektronisches Open Air: ein Tag Techno und Electronic zwischen Schilf, Strand und Wasser, von Samstagmittag bis in die Nacht. Das Line-up für 2027 ist noch nicht bekannt, Tickets gibt es bereits ab 42 Euro.",
+    "anfahrt": "Adresse: Am See 8, 85748 Garching bei München. Mit der U-Bahn U6 ab Marienplatz bis „Garching-Hochbrück\", von dort rund 20 Minuten zu Fuß zum See. Parken am See ist nur mit Behindertenausweis möglich — alle anderen parken am Business Campus Garching oder an der U-Bahn-Station Garching-Hochbrück."
   },
   {
     "name": "FEEL FESTIVAL 2027",
