@@ -2609,6 +2609,21 @@ const festivals = [
     "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
   },
   {
+    "name": "GEHT RAUS! OPEN AIR 2026",
+    "date": "2026-12-04",
+    "dateDisplay": "4. Dezember 2026",
+    "location": "Hofwiesenpark, Gera",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
+    "soldOut": false,
+    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
+    "lat": 50.8783034,
+    "lng": 12.0702597
+  },
+  {
     "name": "TOXICATOR 2026",
     "date": "2026-12-05",
     "dateDisplay": "5. Dezember 2026",
@@ -2777,6 +2792,18 @@ const festivals = [
     "lng": 8.5514521
   },
   {
+    "name": "ARENA RAVE VENDEX PRES. BY ARENA RAVE @ DOCKS 2027",
+    "date": "2027-02-05",
+    "dateDisplay": "5. Februar 2027",
+    "location": "Vendex Pres. By Arena Rave @ Docks",
+    "genre": [
+      "Hard Techno"
+    ],
+    "url": "https://arena-rave.de/event/vendex-pres-by-arena-rave-docks/",
+    "soldOut": false,
+    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Vendex Pres. By Arena Rave @ Docks."
+  },
+  {
     "name": "INTACT EXPANDA 2027",
     "date": "2027-02-27",
     "dateDisplay": "27. Februar 2027",
@@ -2893,6 +2920,21 @@ const festivals = [
     "lng": 6.866652,
     "about": "Trance Signal ist seit Jahren fester Programmpunkt für die deutsche und niederländische Trance-Family — eingebettet in die internationalen Netzwerke „Trance Family Germany\" und „Trance Family Netherlands\", zweimal jährlich im Schallwerk Oberhausen, Teil des Turbinenhallen-Komplexes. Die Frühjahrsausgabe am 27. März 2027 bringt eine Nacht klassischen und modernen Trance-Sound; Tickets und VIP-Upgrades sind bereits im Shop erhältlich.",
     "anfahrt": "Adresse: Mülheimer Straße 4, 46049 Oberhausen (Schallwerk, Teil des Turbinenhallen-Areals). Ab Oberhausen Hauptbahnhof verkehren Busse Richtung „Im Lipperfeld\"/„Feuerwache\" in die Neue Mitte, von dort ist das Areal in wenigen Gehminuten erreichbar. Parkmöglichkeiten sind direkt am Turbinenhallen-Gelände vorhanden."
+  },
+  {
+    "name": "GEHT RAUS! OPEN AIR 2027",
+    "date": "2027-03-31",
+    "dateDisplay": "31. März 2027",
+    "location": "Hofwiesenpark, Gera",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
+    "soldOut": false,
+    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
+    "lat": 50.8783034,
+    "lng": 12.0702597
   },
   {
     "name": "TIME WARP 2027",
@@ -4016,6 +4058,21 @@ const festivals = [
     "lng": 9.7482486,
     "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
     "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
+  },
+  {
+    "name": "GEHT RAUS! OPEN AIR 2027",
+    "date": "2027-09-04",
+    "dateDisplay": "4. September 2027",
+    "location": "Hofwiesenpark, Gera",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
+    "soldOut": false,
+    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
+    "lat": 50.8783034,
+    "lng": 12.0702597
   },
   {
     "name": "SYNDICATE 2027",
