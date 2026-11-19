@@ -3698,6 +3698,22 @@ const festivals = [
     "anfahrt": "Adresse: Alte Schleuse 23, 21107 Hamburg. Mit der S-Bahn (S3/S31) ab Hauptbahnhof bis „Wilhelmsburg\", von dort mit der Buslinie M13 Richtung S Veddel bis „Krankenhaus Groß-Sand\". Fahrradstellplätze und kostenpflichtige Autoparkplätze sind vorhanden — die aktuelle Parksituation vorab auf der Festival-Seite prüfen."
   },
   {
+    "name": "GREENFIELDS OPEN AIR 2027",
+    "date": "2027-07-31",
+    "dateDisplay": "31. Juli 2027",
+    "location": "Galopprennbahn, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.greenfields-openair.de/",
+    "soldOut": false,
+    "description": "25 Jahre Greenfields — Richie Hawtin, Ben Klock, Sven Väth und Pan-Pot auf der Galopprennbahn München. Zwei Stages, 11 Stunden Electronic Music.",
+    "lat": 48.1507242,
+    "lng": 11.6711537
+  },
+  {
     "name": "KLANGTHERAPIE FESTIVAL 2027",
     "date": "2027-08-05",
     "endDate": "2027-08-09",
