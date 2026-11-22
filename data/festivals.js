@@ -2557,6 +2557,22 @@ const festivals = [
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
   },
   {
+    "name": "WINTERBEATS 2026",
+    "date": "2026-11-27",
+    "dateDisplay": "27. November 2026",
+    "location": "Saturn Arena, Ingolstadt",
+    "genre": [
+      "Hard Techno",
+      "Trance",
+      "Electronic"
+    ],
+    "url": "https://winterbeats.de/",
+    "soldOut": false,
+    "description": "",
+    "lat": 48.7599645,
+    "lng": 11.4381874
+  },
+  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. November 2026",
@@ -2802,6 +2818,22 @@ const festivals = [
     "url": "https://arena-rave.de/event/vendex-pres-by-arena-rave-docks/",
     "soldOut": false,
     "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Vendex Pres. By Arena Rave @ Docks."
+  },
+  {
+    "name": "WINTERBEATS 2027",
+    "date": "2027-02-19",
+    "dateDisplay": "19. Februar 2027",
+    "location": "Saturn Arena, Ingolstadt",
+    "genre": [
+      "Hard Techno",
+      "Trance",
+      "Electronic"
+    ],
+    "url": "https://winterbeats.de/",
+    "soldOut": false,
+    "description": "",
+    "lat": 48.7599645,
+    "lng": 11.4381874
   },
   {
     "name": "INTACT EXPANDA 2027",
