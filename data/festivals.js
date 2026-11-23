@@ -2808,6 +2808,22 @@ const festivals = [
     "lng": 8.5514521
   },
   {
+    "name": "ELYSIUM FESTIVAL GERMANY 2027",
+    "date": "2027-02-01",
+    "dateDisplay": "1. Februar 2027",
+    "location": "Maxvorstadt, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://elysium-festival.com/",
+    "soldOut": false,
+    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
+    "lat": 48.1510916,
+    "lng": 11.5624179
+  },
+  {
     "name": "ARENA RAVE VENDEX PRES. BY ARENA RAVE @ DOCKS 2027",
     "date": "2027-02-05",
     "dateDisplay": "5. Februar 2027",
@@ -3000,6 +3016,22 @@ const festivals = [
     "lat": 54.3494378,
     "lng": 13.4718006,
     "anfahrt": "Adresse: Marstall Putbus, Park 6, 18581 Putbus (Rügen). Direkt am Eingang zum Marstall liegt ein meist ausreichend großer Parkplatz am Wreechener Weg; alternativ könnt ihr auch am Markt oder am Circus parken. Kostenpflichtige Parkplätze sind zudem in unmittelbarer Umgebung des Marstalls vorhanden."
+  },
+  {
+    "name": "ELYSIUM FESTIVAL GERMANY 2027",
+    "date": "2027-04-10",
+    "dateDisplay": "10. April 2027",
+    "location": "Maxvorstadt, München",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://elysium-festival.com/",
+    "soldOut": false,
+    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
+    "lat": 48.1510916,
+    "lng": 11.5624179
   },
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
