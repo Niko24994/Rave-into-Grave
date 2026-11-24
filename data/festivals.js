@@ -2743,6 +2743,23 @@ const festivals = [
     "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
   },
   {
+    "name": "MERRY HARDMAS NO. 3 2026",
+    "date": "2026-12-26",
+    "dateDisplay": "26. Dezember 2026",
+    "location": "Lokschuppen Bielefeld",
+    "genre": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "url": "https://www.lokschuppen-bielefeld.de/event/merry-hardmas-no-3/",
+    "soldOut": false,
+    "description": "Hardes Weihnachts-Rave im Lokschuppen Bielefeld — Hard Tekk, Raw und Uptempo auf dem Main Floor, Hard Dance, Hard Bounce und Hard Techno auf dem Second Floor.",
+    "lat": 52.0365537,
+    "lng": 8.5514521,
+    "about": "Merry Hardmas ist das harte Weihnachts-Rave im Lokschuppen Bielefeld und feiert am 26. Dezember 2026 bereits seine dritte Ausgabe — ab 22:30 Uhr, Einlass ab 18 Jahren. Auf dem Main Floor („Danger Zone x Hardmas“) treffen Hard Tekk, Raw, Hardcore und Uptempo aufeinander, unter anderem mit Die Gebrüder Brett, Dr.Z & Brainstorm, Viciouz, Genga & Flixe, Die Imker und Neue Deutsche Säge. Der Second Floor gehört „Sams on Tour“ in der Back-to-Back-Version mit Hard Dance, Hard Bounce und Hard Techno; dort spielen u. a. Marvin Bussian, Carlippo, Nokkt, Sinn, Hütchen, MC Spinne, Phnx, MV, Phyrus und Alaaddin — viele davon auch bei der Hexon-Reihe im selben Haus. Gefeiert wird auf mehreren Bereichen des Lokschuppens (Lok.Werk, Lok.Halle und Lok.Bar); die Tickets kosten laut Lokschuppen 17,20 Euro inklusive Gebühren und laufen über Eventim.",
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
+  },
+  {
     "name": "UNREAL NYEVE-RAVE 2026",
     "date": "2026-12-31",
     "dateDisplay": "31. Dezember 2026",
@@ -2791,7 +2808,7 @@ const festivals = [
     "lat": 52.0365537,
     "lng": 8.5514521,
     "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine mehrstufige Techno-Location: Am 30. Januar 2027 spielen ab 22:30 Uhr auf drei Floors Techno, Melodic Techno und Trance (Main Stage), Hardbounce, Groove und Harddance (Tranceland) sowie Hard Techno (Hard-Techno-Floor). Zum Line-up zählen unter anderem Schrotthagen, Marvin Bussian, Phyrus und MV auf der Main Stage, Somewhen (Premiere in Bielefeld) und Carlippo b2b Max Man im Tranceland sowie Alaaddin, Lena Lang und Mialu auf dem Hard-Techno-Floor. Es gibt ein Awareness-Team, Candy Bar und Tattoo Corner; Einlass ab 18 Jahren. Veranstaltet wird die Reihe von Sams Events, das Ticket kostet in der aktuellen Vorverkaufsphase 35 Euro zzgl. Gebühren.",
-    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen). Details zu Anreise mit Bahn/Bus und zu Parkmöglichkeiten bitte vorab auf der Seite des Lokschuppens prüfen."
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
   },
   {
     "name": "ELYSIUM FESTIVAL GERMANY 2027",
