@@ -2780,6 +2780,21 @@ const festivals = [
     "anfahrt": "Adresse: Kulturzentrum Johanniskirche, Johannisplatz 6/8, 02708 Löbau. Löbau ist laut Veranstalter gut mit Bus und Bahn im Nahverkehr erreichbar; die Kirche liegt in der Innenstadt. Mit dem Auto aus Richtung Bautzen über die B6 nach Löbau, dann über Weißenberger Straße/Poststraße zum Promenadenring und zum Nikolaiplatz — von dort sind es ca. 100 Meter. Der öffentliche Parkplatz am Nikolaiplatz ist kostenfrei (werktags ab 18 Uhr, samstags ab 14 Uhr, sonntags ganztägig); ein Behindertenparkplatz liegt direkt vor dem Gebäude am Johannisplatz."
   },
   {
+    "name": "TECHNO MEETS PSY INDOOR FESTIVAL 2027",
+    "date": "2027-01-16",
+    "dateDisplay": "16. Januar 2027",
+    "location": "Marstall Putbus, Rügen",
+    "genre": [
+      "Techno",
+      "Psytrance"
+    ],
+    "url": "https://eventfrog.de/de/p/festivals/electronic/techno-meets-psy-indoor-festival-7325127418229856966.html",
+    "soldOut": false,
+    "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
+    "lat": 54.3494378,
+    "lng": 13.4718006
+  },
+  {
     "name": "HEXON FESTIVAL 2027",
     "date": "2027-01-30",
     "dateDisplay": "30. Januar 2027",
@@ -2916,6 +2931,22 @@ const festivals = [
     "lng": 9.8991078,
     "about": "Arena Rave bringt kompromisslosen Hard Techno in große Hallen quer durch Deutschland — am 19. März 2027 erstmals in die Hamburger Barclays Arena, die zum „gigantischen Techno-Tempel\" wird. Von 19 bis 5 Uhr verwandelt sich die Arena in eine hochmoderne Sound-Arena mit High-End-Anlage sowie Laser- und Lichtshow. Es gibt drei Ticketkategorien: PULSE (Innenraum, mitten im Geschehen), VIBE (Unterrang mit erhöhter Perspektive) und HORIZON (Oberrang mit Panoramablick). Das Line-up wird noch bekanntgegeben.",
     "anfahrt": "Adresse: Hellgrundweg 44, 22525 Hamburg (Barclays Arena). Mit dem Auto über A7 oder A23 der Beschilderung folgen — kostenpflichtige Parkplätze (ca. 10 Euro) gibt es in der Nähe. Mit der S-Bahn (S3 oder S5) ab Hauptbahnhof bis „Stellingen-Arenen\", Shuttlebusse verbinden die Station mit der Arena; das HVV-Ticket ist im Eventticket enthalten."
+  },
+  {
+    "name": "HEXON FESTIVAL 2027",
+    "date": "2027-03-19",
+    "dateDisplay": "19. März 2027",
+    "location": "Lokschuppen Bielefeld",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Hard Techno"
+    ],
+    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2027/",
+    "soldOut": false,
+    "description": "Hexon im Lokschuppen Bielefeld — Main Stage, Tranceland und Hard-Techno-Floor ab 22:30 Uhr, 18+. Mit Schrotthagen, Somewhen und Alaaddin.",
+    "lat": 52.0365537,
+    "lng": 8.5514521
   },
   {
     "name": "TMF TRIER MUSIC FESTIVAL 2027",
@@ -4549,6 +4580,22 @@ const festivals = [
     "lng": 7.4598369,
     "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. 2027 feiert Syndicate sein 20-jähriges Bestehen: Die Halle wird für eine Nacht zur „WestfalenHELL\" — mehrere Floors für Mainstage, Uptempo, Hardstyle und Early Hardcore, von treibendem Hardstyle bis zu kompromisslosem Hardcore. Von 19 bis 5 Uhr sind limitierte Early-Bird-Tickets mit exklusivem Souvenir-Ticket erhältlich.",
     "anfahrt": "Adresse: Rheinlanddamm 200, 44139 Dortmund. Der Dortmunder Hauptbahnhof liegt nur wenige Gehminuten entfernt — nach Mitternacht fahren zusätzliche Verstärker-Bahnen der U45 im 30-Minuten-Takt zwischen Westfalenhallen und Hauptbahnhof. Parkplätze (A1-A8) direkt am Gelände kosten 11 Euro an der Kasse bzw. 15,50 Euro online im Voraus; weitere Parkflächen (C-F) in der Umgebung werden von DOPARK betrieben."
+  },
+  {
+    "name": "HEXON FESTIVAL 2027",
+    "date": "2027-11-17",
+    "dateDisplay": "17. November 2027",
+    "location": "Lokschuppen Bielefeld",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Hard Techno"
+    ],
+    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2027/",
+    "soldOut": false,
+    "description": "Hexon im Lokschuppen Bielefeld — Main Stage, Tranceland und Hard-Techno-Floor ab 22:30 Uhr, 18+. Mit Schrotthagen, Somewhen und Alaaddin.",
+    "lat": 52.0365537,
+    "lng": 8.5514521
   }
 ];
 
