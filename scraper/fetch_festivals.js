@@ -308,6 +308,8 @@ const SINGLE_DATE_SERIES = new Set([
   'goaworldhalloweenspecial2', // echter Termin 23.10.2026; der 5.12. war eine Ue30-Party (Venue-Seite), kein Goa World
   'nibiriifestival2026', // echter Termin 28.-30.08.2026; die Quelle liefert immer wieder Clubshow-/Silvester-Termine
   'hasardeurindoor2027', // Rollover des manuell umbenannten Indoor-Eintrags; echtes Hasardeur 2027 ist das Schrottplatz-Festival am 29.05.
+  'hexonfestival22026', // echter Termin 18.07.2026; Lokschuppen-Slug /hexon-festival-2/ zeigt inzwischen Round IV und andere Events der Seite
+  'hexonfestival22027', // Rollover von #2; Lokschuppen-Seite listet unter "Gleiche Kategorie" fremde Events (Merry Hardmas, Technosphere, Schiller)
 ]);
 
 // Domains die eine VENUE sind mit strukturiertem Kalender —

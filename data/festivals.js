@@ -624,7 +624,7 @@ const festivals = [
       "Trance",
       "Electronic"
     ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
+    "url": "https://rausgegangen.de/en/events/hexon-festival-2-0/",
     "soldOut": false,
     "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
     "lat": 52.0365537,
@@ -2743,22 +2743,6 @@ const festivals = [
     "anfahrt": "Von der A42 Ausfahrt 11-Oberhausen-Neue Mitte Richtung Oberhausen-Osterfeld, weiter auf der Osterfelder Str./L450, dann auf die Essener Str./B231 und links in die Im Lipperfeld einbiegen (aus Richtung Norden: A42 Ausfahrt 14-Kreuz Herne, dann analog weiter). Ab Oberhausen Hauptbahnhof verkehren Busse ab Bussteig 1 Richtung „Im Lipperfeld\" bzw. „Feuerwache\", von dort rund 5 Minuten Fußweg zur Turbinenhalle."
   },
   {
-    "name": "HEXON FESTIVAL #2 2026",
-    "date": "2026-12-26",
-    "dateDisplay": "26. Dezember 2026",
-    "location": "Lokschuppen Bielefeld",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
-    "soldOut": false,
-    "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
-    "lat": 52.0365537,
-    "lng": 8.5514521
-  },
-  {
     "name": "UNREAL NYEVE-RAVE 2026",
     "date": "2026-12-31",
     "dateDisplay": "31. Dezember 2026",
@@ -2792,20 +2776,22 @@ const festivals = [
     "anfahrt": "Adresse: Justus-von-Liebig-Straße 2-4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7)."
   },
   {
-    "name": "HEXON FESTIVAL #2 2027",
+    "name": "HEXON FESTIVAL 2027",
     "date": "2027-01-30",
     "dateDisplay": "30. Januar 2027",
     "location": "Lokschuppen Bielefeld",
     "genre": [
       "Techno",
       "Trance",
-      "Electronic"
+      "Hard Techno"
     ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
+    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2027/",
     "soldOut": false,
-    "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
+    "description": "Hexon im Lokschuppen Bielefeld — Main Stage, Tranceland und Hard-Techno-Floor ab 22:30 Uhr, 18+. Mit Schrotthagen, Somewhen und Alaaddin.",
     "lat": 52.0365537,
-    "lng": 8.5514521
+    "lng": 8.5514521,
+    "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine mehrstufige Techno-Location: Am 30. Januar 2027 spielen ab 22:30 Uhr auf drei Floors Techno, Melodic Techno und Trance (Main Stage), Hardbounce, Groove und Harddance (Tranceland) sowie Hard Techno (Hard-Techno-Floor). Zum Line-up zählen unter anderem Schrotthagen, Marvin Bussian, Phyrus und MV auf der Main Stage, Somewhen (Premiere in Bielefeld) und Carlippo b2b Max Man im Tranceland sowie Alaaddin, Lena Lang und Mialu auf dem Hard-Techno-Floor. Es gibt ein Awareness-Team, Candy Bar und Tattoo Corner; Einlass ab 18 Jahren. Veranstaltet wird die Reihe von Sams Events, das Ticket kostet in der aktuellen Vorverkaufsphase 35 Euro zzgl. Gebühren.",
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen). Details zu Anreise mit Bahn/Bus und zu Parkmöglichkeiten bitte vorab auf der Seite des Lokschuppens prüfen."
   },
   {
     "name": "ELYSIUM FESTIVAL GERMANY 2027",
@@ -2936,22 +2922,6 @@ const festivals = [
     "lng": 9.8991078,
     "about": "Arena Rave bringt kompromisslosen Hard Techno in große Hallen quer durch Deutschland — am 19. März 2027 erstmals in die Hamburger Barclays Arena, die zum „gigantischen Techno-Tempel\" wird. Von 19 bis 5 Uhr verwandelt sich die Arena in eine hochmoderne Sound-Arena mit High-End-Anlage sowie Laser- und Lichtshow. Es gibt drei Ticketkategorien: PULSE (Innenraum, mitten im Geschehen), VIBE (Unterrang mit erhöhter Perspektive) und HORIZON (Oberrang mit Panoramablick). Das Line-up wird noch bekanntgegeben.",
     "anfahrt": "Adresse: Hellgrundweg 44, 22525 Hamburg (Barclays Arena). Mit dem Auto über A7 oder A23 der Beschilderung folgen — kostenpflichtige Parkplätze (ca. 10 Euro) gibt es in der Nähe. Mit der S-Bahn (S3 oder S5) ab Hauptbahnhof bis „Stellingen-Arenen\", Shuttlebusse verbinden die Station mit der Arena; das HVV-Ticket ist im Eventticket enthalten."
-  },
-  {
-    "name": "HEXON FESTIVAL #2 2027",
-    "date": "2027-03-19",
-    "dateDisplay": "19. März 2027",
-    "location": "Lokschuppen Bielefeld",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
-    "soldOut": false,
-    "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
-    "lat": 52.0365537,
-    "lng": 8.5514521
   },
   {
     "name": "TRANCE SIGNAL 2027",
@@ -4172,22 +4142,6 @@ const festivals = [
     "lng": 7.4598369,
     "about": "Syndicate startete 2007 mit rund 10.000 Besuchern in den Dortmunder Westfalenhallen — heute ist es Deutschlands größtes Indoor-Festival für die härteren Spielarten elektronischer Musik, mit bis zu 20.000 Besuchern. 2027 feiert Syndicate sein 20-jähriges Bestehen: Die Halle wird für eine Nacht zur „WestfalenHELL\" — mehrere Floors für Mainstage, Uptempo, Hardstyle und Early Hardcore, von treibendem Hardstyle bis zu kompromisslosem Hardcore. Von 19 bis 5 Uhr sind limitierte Early-Bird-Tickets mit exklusivem Souvenir-Ticket erhältlich.",
     "anfahrt": "Adresse: Rheinlanddamm 200, 44139 Dortmund. Der Dortmunder Hauptbahnhof liegt nur wenige Gehminuten entfernt — nach Mitternacht fahren zusätzliche Verstärker-Bahnen der U45 im 30-Minuten-Takt zwischen Westfalenhallen und Hauptbahnhof. Parkplätze (A1-A8) direkt am Gelände kosten 11 Euro an der Kasse bzw. 15,50 Euro online im Voraus; weitere Parkflächen (C-F) in der Umgebung werden von DOPARK betrieben."
-  },
-  {
-    "name": "HEXON FESTIVAL #2 2027",
-    "date": "2027-11-17",
-    "dateDisplay": "17. November 2027",
-    "location": "Lokschuppen Bielefeld",
-    "genre": [
-      "Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://www.lokschuppen-bielefeld.de/event/hexon-festival-2/",
-    "soldOut": false,
-    "description": "Day & Night Konzept im Lokschuppen Bielefeld — Open-Air am Nachmittag, drei Indoor-Floors ab Abend. Techno, Trance und Classics für 18+.",
-    "lat": 52.0365537,
-    "lng": 8.5514521
   }
 ];
 
