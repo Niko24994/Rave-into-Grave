@@ -2976,7 +2976,7 @@ const festivals = [
       "Techno",
       "Psytrance"
     ],
-    "url": "",
+    "url": "https://eventfrog.de/de/p/festivals/electronic/techno-meets-psy-indoor-festival-7325127418229856966.html",
     "soldOut": false,
     "description": "Dunkler Techno trifft psychedelische Trance — Indoor-Rave im Marstall Putbus auf Rügen.",
     "about": "Techno meets Psy verbindet zwei Welten, die selten auf derselben Tanzfläche landen: hypnotisch-dunkle Techno-Rhythmen und energetische psychedelische Trance-Wellen. Veranstaltet vom lokalen Kollektiv Island Explosion im Marstall Putbus — einem historischen Gebäude im Schlosspark der einstigen Fürstenresidenz auf Rügen — verwandelt sich der Innenraum mit Schwarzlicht-Deko und psychedelischen Lichteffekten in eine eigene kleine Parallelwelt, weit weg vom Festland-Trubel der großen Techno-Szene.",
