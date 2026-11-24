@@ -2866,6 +2866,24 @@ const festivals = [
     "anfahrt": "Adresse: Hellgrundweg 44, 22525 Hamburg (Barclays Arena). Mit dem Auto über A7 oder A23 der Beschilderung folgen — kostenpflichtige Parkplätze (ca. 10 Euro) gibt es in der Nähe. Mit der S-Bahn (S3 oder S5) ab Hauptbahnhof bis „Stellingen-Arenen\", Shuttlebusse verbinden die Station mit der Arena; das HVV-Ticket ist im Eventticket enthalten."
   },
   {
+    "name": "TMF TRIER MUSIC FESTIVAL 2027",
+    "date": "2027-03-20",
+    "dateDisplay": "20. März 2027",
+    "location": "Messehalle, Messepark Trier",
+    "genre": [
+      "Hardstyle",
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "url": "https://www.harderdates.de/event/tmf-trier-music-festival-2027/",
+    "soldOut": false,
+    "description": "Indoor-Festival der Harder Styles in Trier — Hardstyle, Rawstyle und Uptempo in der Messehalle, vierte Ausgabe.",
+    "lat": 49.7409861,
+    "lng": 6.6216893,
+    "about": "Das TMF Trier Music Festival findet am 20. März 2027 zum vierten Mal in der Messehalle im Messepark Trier statt. Der Schwerpunkt liegt auf Harder Styles: Hardstyle, Rawstyle und Uptempo, einzelne Listings führen auch Techno und EDM. Einlass ist ab ca. 18:30 Uhr, Ende gegen 3 Uhr; der Eintritt ist ab 18 Jahren (einzelne Seiten nennen 16). Als bestätigte Namen werden u. a. Dr. Peacock, Dual Damage, Galactixx, Jebroer, Lekkerfaces, Sickmode, Sound Rush und The Saints genannt; die Quellenlage dazu ist uneinheitlich.",
+    "anfahrt": "Adresse: Messehalle, In den Moselauen 1, 54294 Trier (Messepark). Rund um den Messepark gibt es Parkplätze — frühes Kommen wird empfohlen. Vom Hauptbahnhof Trier geht es per Bus oder Taxi zum Messepark. Das Ticket enthielt 2026 laut Presse eine Fahrkarte für den VRT-Nahverkehr. Bustouren (z. B. über Hardtours) und ein Luxemburg-Shuttle gab es in den Vorjahren; für 2027 sind Shuttles noch nicht bestätigt."
+  },
+  {
     "name": "TRANCE SIGNAL 2027",
     "date": "2027-03-27",
     "dateDisplay": "27. März 2027",
@@ -3002,6 +3020,25 @@ const festivals = [
     "anfahrt": "Adresse: Schiffenberger Weg, 35394 Gießen, gut erreichbar über die A45/A485, rund 2 km vom Stadtzentrum entfernt. Bushaltestellen Sandkauter Weg, Siemensstraße und Philosophikum liegen nur wenige Gehminuten vom Gelände. Kostenlos parken könnt ihr am Philosophikum II (Phil 2) der Uni Gießen — bitte nicht auf den Parkplätzen von Fressnapf und Intersport parken."
   },
   {
+    "name": "TROPICAL MOUNTAIN 2027",
+    "date": "2027-05-15",
+    "dateDisplay": "15. Mai 2027",
+    "location": "Erlebnisort Reden, Schiffweiler (Saarland)",
+    "genre": [
+      "Electronic",
+      "House",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://alm-events.de/tropicalmountain/",
+    "soldOut": false,
+    "description": "Pfingstsamstag auf der Bergehalde — Dance, Electro, House und Trance für rund 15.000 Gäste im Erlebnisort Reden.",
+    "lat": 49.3478069,
+    "lng": 7.1149508,
+    "about": "Tropical Mountain ist das große Pfingstfestival auf der Bergehalde im Erlebnisort Reden bei Schiffweiler im Saarland. Am Pfingstsamstag, 15. Mai 2027, feiern rund 15.000 Gäste auf der „Alm“ zu Dance, Electro, House und Trance. Das Programm ist ein elektronischer Mix und nicht auf Techno festgelegt. Early-Bird-Tickets liegen bei ca. 54,90 Euro (VIP 239 Euro); das Line-up für 2027 ist noch nicht bekannt.",
+    "anfahrt": "Navi-Adresse laut VIP-Infos des Veranstalters: Alexander-von-Humboldt-Straße, 66578 Landsweiler-Reden (Erlebnisort Reden, „Auf der Alm“). Für Besucher gibt es in der Regel Parkplätze und einen Shuttle von dort zum Festivalgelände; die Zufahrt und die Shuttle-Zeiten für 2027 sind noch nicht veröffentlicht, bitte auf alm-events.de prüfen. Der saisonale Alm-Shuttle des Erlebnisorts läuft nur sonn- und feiertags und gilt nicht für das Festival."
+  },
+  {
     "name": "TECHNO FREITAG – ARENA EDITION 2027",
     "date": "2027-05-21",
     "dateDisplay": "21. Mai 2027",
@@ -3016,6 +3053,41 @@ const festivals = [
     "lng": 13.4478,
     "about": "Techno Freitag entstand rund um den Streamer HandOfBlood (Maximilian Knabe) und seine Online-Community — der Sprung von Twitch und YouTube auf den Dancefloor. Das Format versteht sich bewusst als Gegenentwurf zu Geschmacks-Gatekeeping und abschreckender Türpolitik: Erfahrene Raver sind ebenso willkommen wie Menschen bei ihrem ersten großen Techno-Abend. Die Arena Berlin, 1927 als denkmalgeschütztes Omnibusdepot erbaut, bietet mit ihrer stützenarmen Fläche Platz für bis zu 9.000 Gäste.",
     "anfahrt": "Adresse: Eichenstraße 4, 12435 Berlin. Mit der U-Bahn U1 bis Schlesisches Tor (ca. 10 Minuten Fußweg), mit der S-Bahn S8/S85/S9/S42/S41 bis Treptower Park (ca. 5 Minuten Fußweg), oder mit den Buslinien 104, 194, 265 bzw. Nachtbus N65 bis Eichenstraße/Puschkinallee."
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL – DRESDEN 2027",
+    "date": "2027-05-22",
+    "dateDisplay": "22. Mai 2027",
+    "location": "Stromwerk Dresden, Dresden",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://outside-world.de/events/outside-world-festival-dresden",
+    "soldOut": false,
+    "description": "Techno-Classics aus den 90ern und 2000ern — Outside World feiert Premiere in Dresden, mit Thomas Schumacher, Da Hool, Anna Reusch und Revil O.",
+    "lat": 51.0537344,
+    "lng": 13.7224622,
+    "about": "Outside World ist seit 2018 Deutschlands größtes Techno-Classics-Festival und gastiert in rund 14 Städten; Gründer ist DJ Oliver Bensmann alias Revil O. Am 22. Mai 2027 kommt die Reihe zum ersten Mal nach Dresden ins Stromwerk im Kraftwerk Mitte — von 20 Uhr bis in den frühen Morgen. Laut Veranstalter stehen unter anderem Thomas Schumacher, Anna Reusch, DJ Quicksilver, Nalin & Kane, Niels van Gogh, Da Hool, Revil O., Marc van Linden und Mijk van Dijk sowie das Live-Act Sunbeam auf dem Programm. Der Eintritt ist ab 18 Jahren; limitierte Early-Bird-Tickets sind online erhältlich.",
+    "anfahrt": "Adresse: Kraftwerk Mitte 28, 01067 Dresden (Stromwerk). Das Stromwerk liegt im ehemaligen Kraftwerk Mitte nahe der Dresdner Innenstadt und ist gut mit den öffentlichen Verkehrsmitteln erreichbar — die genaue Verbindung am besten im DVB-Fahrplan prüfen. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben; bitte vorab beim Veranstalter bzw. Stromwerk nachsehen."
+  },
+  {
+    "name": "PSYCHEDELIC EXPERIENCE OPEN AIR 2027",
+    "date": "2027-05-28",
+    "endDate": "2027-05-31",
+    "dateDisplay": "28.–31. Mai 2027",
+    "location": "Gallin bei Lübz (Mecklenburg-Vorpommern)",
+    "genre": [
+      "Psytrance"
+    ],
+    "url": "https://www.psyexperience-festival.com/",
+    "soldOut": false,
+    "description": "Psytrance-Open-Air für Trance-Puristen — mehrtägiges Festival in Gallin bei Lübz mit Camping, zwei Bühnen und über 70 Stunden Musik.",
+    "lat": 53.5121054,
+    "lng": 12.1246594,
+    "about": "Das Psychedelic Experience Open Air in Gallin bei Lübz ist ein Psytrance-Festival für Musikpuristen: Zwei Bühnen und über 70 Stunden Non-Stop-Musik, der Fokus liegt auf der musikalischen Reise statt auf Beiwerk. Rund 6.000 Gäste feiern vom 28. bis 31. Mai 2027 (eine Quelle nennt als Ende den 30. Mai); Camping ist im Ticket enthalten, der Eintritt ist ab 18. Das Line-up für 2027 ist noch nicht veröffentlicht.",
+    "anfahrt": "Navi-Adresse: Am Kanal, 19386 Lübz. Mit dem Auto Richtung Diestelow und weiter nach Gallin, dort der Beschilderung folgen. Mit der Bahn bis Lübz oder Parchim, von dort fahren Shuttlebusse direkt zum Gelände (Shuttle-Nummer auf der Festivalseite). Zusätzlich gibt es Busanbieter aus Hamburg, Berlin, Bremen und weiteren Städten (z. B. GoaExpress). Aktuelle Infos zu Parken und Camping bitte auf psyexperience-festival.com prüfen."
   },
   {
     "name": "HASARDEUR FESTIVAL 2027",
@@ -3147,6 +3219,25 @@ const festivals = [
     "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
   },
   {
+    "name": "ISLE OF SUMMER 2027",
+    "date": "2027-06-12",
+    "dateDisplay": "12. Juni 2027",
+    "location": "Olympia Reitanlage Riem, München",
+    "genre": [
+      "Hard Techno",
+      "Techno",
+      "Hardstyle",
+      "Trance"
+    ],
+    "url": "https://www.isleofsummer.de/",
+    "soldOut": false,
+    "description": "Vier Bühnen, elf Stunden Musik — das Münchner Sommer-Festival mit Hard Techno, Techno, Hardstyle und Trance kehrt 2027 auf die Olympia Reitanlage zurück.",
+    "lat": 48.1454234,
+    "lng": 11.6684705,
+    "about": "Isle of Summer ist Münchens großes Sommerfestival für harte elektronische Musik. Am 12. Juni 2027 verwandelt sich die Olympia Reitanlage in München-Riem von 11 bis 22 Uhr in ein Festivalgelände mit vier Bühnen — von Hard Techno und Techno über Hardstyle bis Trance. Laut Veranstalter gehört das Festival zu einer Saison mit weiteren Terminen (Opening am 15. Mai, Beach-Ausgabe am 7. August); das Line-up für die Juni-Ausgabe ist noch nicht veröffentlicht. Einige Drittseiten nennen irrtümlich die Galopprennbahn Riem als Ort — laut offizieller Seite ist es die Olympia Reitanlage.",
+    "anfahrt": "Adresse: Landshamer Straße 11, 81929 München (Olympia Reitanlage Riem). Am einfachsten mit der S-Bahn S2 Richtung Erding bis „Riem“, von dort ca. 7 Minuten zu Fuß; alternativ mit der U2 bis „Messestadt West“ bzw. „Messestadt Ost“ (ca. 15 Minuten Fußweg). Mit dem Auto über die A94, Ausfahrt Riem; Parken ist auf dem Messegelände (Paul-Henri-Spaak-Straße) möglich, in der Vergangenheit mit Shuttle zum Gelände — der Platz füllt sich bei großen Events schnell, die Öffentlichen sind die bessere Wahl. Aktuelle Infos zu Shuttle und Parken bitte vorab beim Veranstalter prüfen."
+  },
+  {
     "name": "VOLUME X KRAGELUND FESTIVAL 2027",
     "date": "2027-06-18",
     "endDate": "2027-06-20",
@@ -3237,6 +3328,25 @@ const festivals = [
     "anfahrt": "Wegen Bauarbeiten führt die Anfahrt über die Ausfahrt Erkheim (A96) durch Attenhausen und Ottobeuren nach Hawangen zu den Parkflächen und dem Kiss-und-Bye-Parkplatz; alternativ über die Ausfahrt Woringen (A7) durch Lachen, Albishofen und Herbishofen. Die Zufahrt zum Kiss-und-Bye-Parkplatz erfolgt über den Alten Stadtweg in Hawangen. Zwischen Bahnhof Memmingen und dem Festivalgelände pendelt ein Shuttle im 15-20-Minuten-Takt, auch nachts."
   },
   {
+    "name": "SUMMER BREAK FESTIVAL 2027",
+    "date": "2027-06-25",
+    "endDate": "2027-06-26",
+    "dateDisplay": "25.–26. Juni 2027",
+    "location": "Gießen (Karl-Glöckner-Straße)",
+    "genre": [
+      "Techno",
+      "House",
+      "EDM"
+    ],
+    "url": "https://summerbreak-festival.de/",
+    "soldOut": false,
+    "description": "Zwei Tage Open Air in Gießen — Techno, House und EDM mit weiteren Stilen wie HipHop, ab 18 Jahren.",
+    "lat": 50.5709645,
+    "lng": 8.6959391,
+    "about": "Das Summer Break Festival ist ein zweitägiges Open Air in Gießen, das am 25. und 26. Juni 2027 stattfindet. Das Programm ist stilistisch gemischt: Neben Techno stehen vor allem House und EDM sowie teilweise HipHop und Afrobeats auf dem Plan — Techno ist also einer von mehreren Schwerpunkten. Der Eintritt ist ab 18 Jahren. Einige Verzeichnisse nennen die EM-Arena Gießen als Ort, die Festivalseite selbst die WM-Arena — bitte den Ort vor der Anreise auf der offiziellen Seite prüfen. Das Line-up für 2027 ist noch nicht bekannt.",
+    "anfahrt": "Adresse laut Veranstaltungsportal: Karl-Glöckner-Straße 4, 35394 Gießen. Mit der Bahn bis „Gießen Erdkauter Weg“, von dort ist es nicht weit zum Gelände. Ein Shuttle vom Bahnhof ist nicht bestätigt; in früheren Jahren gab es laut Festivalguide ausreichend Parkmöglichkeiten vor Ort. Aktuelle Infos zu Anreise und Parken bitte auf summerbreak-festival.de prüfen."
+  },
+  {
     "name": "KINDHEITSTRAUM FESTIVAL 2027",
     "date": "2027-06-26",
     "dateDisplay": "26. Juni 2027",
@@ -3273,6 +3383,27 @@ const festivals = [
     "anfahrt": "Adresse: Rappbodetalsperre bei Wendefurth (Harz). Mit dem Auto gibt es Parkplätze direkt am Gelände (zuletzt 3,50 Euro, vor Verlassen des Parkplatzes zu zahlen). Mit der Bahn bis Wernigerode, von dort fährt ein Festival-Shuttle (zuletzt ab Hauptbahnhof bzw. Anger Wernigerode, ca. 10 Euro pro Strecke, im Bus zahlbar) direkt zum Gelände. Alternativ aus Blankenburg mit Linie 263 bis „Wendefurth Oberbecken“ und weiter mit Linie 260 Richtung Rappbodetalsperre. Shuttle-Zeiten und Preise für 2027 bitte vorab auf der Festivalseite prüfen."
   },
   {
+    "name": "HEIDEWITZKA FESTIVAL 2027",
+    "date": "2027-07-01",
+    "endDate": "2027-07-03",
+    "dateDisplay": "1.–3. Juli 2027",
+    "location": "Lange Heide, Hildburghausen (Thüringen)",
+    "genre": [
+      "Techno",
+      "House",
+      "Hard Techno",
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "url": "https://heidewitzka-festival.com/",
+    "soldOut": false,
+    "description": "Über 100 Acts auf vielen Stages im Wald der Langen Heide — von Techno und House über Tekk und Hardtekk bis Frenchcore und Hardstyle.",
+    "lat": 50.4324836,
+    "lng": 10.7293778,
+    "about": "Das Heidewitzka Festival findet auf der „Langen Heide“ bei Hildburghausen statt — einem ehemaligen NVA-Truppenübungsplatz mitten im Wald. 2027 feiert das Festival seine 12. Ausgabe vom 1. bis 3. Juli (Abreise bis Sonntag, 4. Juli, 14 Uhr). Auf vielen Stages mit über 100 Acts reicht das Spektrum von Techno und House über Tekk und Hardtekk bis zu Frenchcore und Hardstyle. Erste Acts wie Tekkschuster und die Tekkstreetboyz sind bestätigt, weitere sollen folgen; Camping ist auf dem Gelände möglich.",
+    "anfahrt": "Navi-Adresse: Schleusinger Straße, 98646 Hildburghausen. Mit dem Auto über die A73 (Richtung Coburg/Suhl), die Zufahrt ist ab dort nur wenige Minuten entfernt und ausgeschildert. Mit der Bahn bis Hildburghausen (gute Verbindungen über Erfurt, Würzburg, Bamberg oder Coburg), vom Bahnhof ist es mit dem Taxi nicht weit. In früheren Jahren gab es Park-&-Ride-Plätze in der Stadt mit Shuttlebussen; ob das 2027 so bleibt, bitte auf heidewitzka-festival.com/anfahrt prüfen. Camping ist vorhanden."
+  },
+  {
     "name": "44 FESTIVAL 2027",
     "date": "2027-07-03",
     "dateDisplay": "3. Juli 2027",
@@ -3306,6 +3437,22 @@ const festivals = [
     "lng": 6.8746128,
     "about": "Ruhr-in-Love nennt sich selbst „das elektronische Familienfest\" — seit 2003, seit 2004 im OlgaPark Oberhausen. Die Fläche war einst Kohle- und Stahlgebiet, wurde für die Landesgartenschau 1999 umgestaltet und ist seitdem grüne Bühne fürs Festival. Statt eines zentralen Line-ups bringen rund 40 Floors von Clubs, Labels, Bookingagenturen und Radiosendern ihre eigene Handschrift mit — von Techno über House und Trance bis Hardcore und Hardstyle. Mit rund 35.000 Besuchern und 400+ DJs an einem einzigen Tag ist es eines der dichtesten Electronic-Line-ups Deutschlands.",
     "anfahrt": "Die offiziellen Parkplätze befinden sich ausschließlich beim Westfield Centro, von dort führt ein kurzer, ausgeschilderter Fußweg direkt zum Festivalgelände im OLGA-Park (Vestische Straße 45, 46117 Oberhausen). Die beiden Haupteingänge zum Park liegen an der Bottroper Straße und der Vestischen Straße."
+  },
+  {
+    "name": "TECHNO FAMILY OPEN AIR 2027",
+    "date": "2027-07-03",
+    "dateDisplay": "3. Juli 2027",
+    "location": "Freizeitanlage Dreisbach, Westerwald",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.mvp.de/rheinland-pfalz/veranstaltungen/techno-family-open-air-dreschhalle-dreisbach-dreisbach/",
+    "soldOut": false,
+    "description": "Techno-Open-Air im Westerwald — 14 Stunden Techno von 16 bis 6 Uhr an der Freizeitanlage Dreisbach.",
+    "lat": 50.6175994,
+    "lng": 7.9245854,
+    "about": "Das Techno Family Open Air ist ein 14-stündiges Techno-Open-Air im Westerwald: Am 3. Juli 2027 wird von 16:00 bis 06:00 Uhr an der Freizeitanlage Dreisbach getanzt — bei jedem Wetter. Veranstaltet wird es von Klangkurbel und Alte Schule Events, die schon die Anniversary-Ausgabe 2025 in Dreisbach ausgerichtet haben. Der Einlass ist ab 16 Jahren möglich (unter 18 bis 24 Uhr bzw. mit Elternzettel). Das Line-up folgt noch.",
+    "anfahrt": "Adresse: Freizeitanlage Dreisbach, Schulstraße 3 / In den Gärten, 56472 Dreisbach (Westerwald, bei Bad Marienberg). Die Anreise erfolgt am besten mit dem Auto oder per Fahrgemeinschaft, da das Dorf abseits der großen Bahnstrecken liegt. Zu Parkplätzen und etwaigen Shuttles gibt es noch keine Angaben — bitte vorab bei den Veranstaltern nachsehen."
   },
   {
     "name": "AIRBEAT ONE 2027",
@@ -3360,6 +3507,77 @@ const festivals = [
     "lng": 9.0167905,
     "about": "Das WET Open Air ist ein eintägiges Techno-Festival im Badezentrum Sindelfingen und zählt mit bis zu 17.000 Besuchern zu den größten Festivals für elektronische Musik im Raum Stuttgart. Entstanden im Freibad Gärtringen, ist der „Bade-Rave\" nach Überschreiten der Kapazitätsgrenzen seit 2019 in Sindelfingen zuhause. Auf drei Bühnen spielen internationale Techno-Größen, und die Schwimmbecken des Bades dürfen während der gesamten Veranstaltung genutzt werden. Veranstaltet wird das Festival in Kooperation mit dem Lehmannclub Stuttgart.",
     "anfahrt": "Adresse: Badezentrum, Hohenzollernstraße 23, 71067 Sindelfingen. Mit der S-Bahn S1 ab Stuttgart in rund einer halben Stunde bis Sindelfingen, von dort per Bus zum Bad; für auswärtige Gäste pendelt außerdem ein Shuttle ab S-Bahnhof Goldberg. Parkplätze am Bad sind knapp — der Veranstalter empfiehlt ausdrücklich die Anreise mit dem ÖPNV."
+  },
+  {
+    "name": "RAVE THE PLANET PARADE 2027",
+    "date": "2027-07-10",
+    "dateDisplay": "10. Juli 2027",
+    "location": "Straße des 17. Juni, Berlin",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://www.ravetheplanet.com/en/events/rave-the-planet-parade-2027/",
+    "soldOut": false,
+    "description": "Die Nachfolge-Parade der Love Parade — UNESCO-anerkanntes Kulturerbe, kostenlose Techno-Parade durchs Brandenburger Tor. Motto 2027: „Make Peace Loud“.",
+    "lat": 52.5132816,
+    "lng": 13.3332602,
+    "about": "Rave The Planet ist der geistige Nachfolger der Love Parade — gegründet von deren Erfinder Dr. Motte, der 1989 mit gerade 150 Teilnehmenden auf dem Ku’damm startete und die Parade in den 1990ern auf über eine Million Menschen an der Straße des 17. Juni wachsen sah, bevor sie 2010 nach der Duisburger Katastrophe endete. 2019 initiierte Dr. Motte gemeinsam mit einer Gruppe Electronic-Music-Enthusiast:innen die Rave The Planet Parade als Neuanfang; am 9. Juli 2022 zog erstmals seit zwölf Jahren wieder ein großer Techno-Umzug durch Berlin. Die Parade 2027 ist für Samstag, 10. Juli, geplant (laut Veranstalter ca. 14 bis 22 Uhr) und steht unter dem Motto „Make Peace Loud“. Die Bewerbung für Floats läuft bis zum 15. Januar 2027; Visit Berlin beschreibt den Termin noch als vorläufig.",
+    "anfahrt": "Die Parade zieht zwischen Brandenburger Tor und Großer Stern die Straße des 17. Juni entlang — wegen der enormen Besucherzahlen ist ÖPNV dringend empfohlen. Erreichbar mit der S-Bahn (S1/S2/S25/S26) bis Brandenburger Tor oder Potsdamer Platz, mit der U5 bis Brandenburger Tor, oder mit den Buslinien 100, 200 und 245 entlang der Strecke. Je nach Startpunkt solltet ihr 25 bis 60 Minuten Fahrtzeit einplanen."
+  },
+  {
+    "name": "WASENBEATS FESTIVAL 2027",
+    "date": "2027-07-10",
+    "dateDisplay": "10. Juli 2027",
+    "location": "Sauwasen, Püttlingen (Saarland)",
+    "genre": [
+      "EDM",
+      "Hardstyle",
+      "House",
+      "Techno"
+    ],
+    "url": "https://www.wasenbeats.de/",
+    "soldOut": false,
+    "description": "Open-Air-Festival im Saarland — über 40 Künstler auf vier Stages mit EDM, Hardstyle, House und Techno am Sauwasen in Püttlingen.",
+    "lat": 49.3202938,
+    "lng": 6.8831416,
+    "about": "Das Wasenbeats Festival ist ein Elektro-Open-Air im Saarland: Am 10. Juli 2027 spielen von 14 Uhr bis 2 Uhr nachts über 40 Künstler auf vier Stages EDM, Hardstyle, House und Techno am Sauwasen in Püttlingen. Das Festival wächst seit Jahren (2026: 36 Acts auf drei Bühnen). Es gibt regionale Foodtrucks; der Einlass ist ab 16 Jahren mit Elternzettel möglich. Tickets starten bei 38 Euro, ein Solidaritätsticket kostet die Hälfte.",
+    "anfahrt": "Adresse: Freizeitanlage Sauwasen, 66346 Püttlingen. Mit dem Auto wegen einer Einbahnregelung an Veranstaltungstagen nur über die A8, Ausfahrt Schwalbach/Schwarzenholz — die Zufahrt von Herchenbach ist gesperrt. Es gibt Parkplätze am Gelände, aber begrenzt; direkt vor dem Gelände ist eine Hol- und Bringzone. Mit dem ÖPNV gibt es keine Direktverbindung: Saarbahn bis „Riegelsberg Süd“, dann Bus 192 Richtung Köllerbach bis „Dorfplatz Herchenbach“ und ein kurzes Stück zu Fuß (der Bus fährt nur stündlich). Aktuelle Shuttle-Infos bitte auf wasenbeats.de prüfen."
+  },
+  {
+    "name": "SMAG SUNDANCE OPEN AIR 2027",
+    "date": "2027-07-10",
+    "dateDisplay": "10. Juli 2027",
+    "location": "Seaside Beach Baldeney, Essen",
+    "genre": [
+      "Electronic",
+      "House",
+      "Techno"
+    ],
+    "url": "https://smagsundance.de/",
+    "soldOut": false,
+    "description": "Elektronisches Open Air am Baldeneysee — das SMAG Sundance feiert am Seaside Beach in Essen, mit Early-Bird-Tickets ab 49 Euro.",
+    "lat": 51.4075919,
+    "lng": 7.0197745,
+    "about": "Das SMAG Sundance Open Air ist ein elektronisches Tagesfestival am Baldeneysee in Essen. Am 10. Juli 2027 findet es von 12 bis 22 Uhr am Seaside Beach Baldeney statt, veranstaltet von LUGANA Entertainment. Early-Bird-Tickets kosten 49 Euro (VIP 119 Euro); das Line-up für 2027 ist noch nicht bekannt. Hinweis: Genau festgelegt auf Techno ist das Programm nicht — es ist ein Mix elektronischer Stile.",
+    "anfahrt": "Adresse: Seaside Beach Baldeney, Freiherr-vom-Stein-Straße 384, 45133 Essen. Mit dem Auto über die A52 bis Ausfahrt Essen-Rüttenscheid/Bredeney, dann über die Freiherr-vom-Stein-Straße; die Stichstraße zum Gelände wird an Festivaltagen ab ca. 13:30 Uhr aus Sicherheitsgründen gesperrt, geparkt werden darf nur auf ausgewiesenen Flächen (Falschparker werden abgeschleppt). Mit der S6 bis „Essen-Hügel“ (an Festivaltagen mit erhöhter Frequenz). In früheren Jahren gab es kostenlose Shuttlebusse zwischen dem Gelände und Essen-Rüttenscheid — für 2027 bitte auf smagsundance.de prüfen."
+  },
+  {
+    "name": "KLUTENSEE FESTIVAL 2027",
+    "date": "2027-07-10",
+    "dateDisplay": "10. Juli 2027",
+    "location": "Klutensee-Bad, Lüdinghausen",
+    "genre": [
+      "EDM",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.klutensee-festival.de/",
+    "soldOut": false,
+    "description": "Der Elektro-Tag im Münsterland — EDM, House und Techno am Klutensee in Lüdinghausen.",
+    "lat": 51.7729576,
+    "lng": 7.4271067,
+    "about": "Das Klutensee Festival ist ein elektronisches Open-Air am See in Lüdinghausen im Münsterland — laut Veranstalter „das EDM-Festival im Münsterland“. Am 10. Juli 2027 stehen EDM und House im Vordergrund, einzelne Acts bringen auch Techno und Bass House mit. Early-Bird-Tickets sind im Verkauf, die erste reguläre Ticketphase startet im Januar 2027. Das Festival ist inhaltlich eher EDM- und House-lastig als reines Techno.",
+    "anfahrt": "Adresse: Klutensee-Bad, Rohrkamp 23, 59348 Lüdinghausen. Mit dem Auto direkt zum Rohrkamp (ausgeschilderte Parkplätze in unmittelbarer Nähe). Der Veranstalter bietet Shuttlebusse ab Werne, Selm, Olfen, Seppenrade, Lüdinghausen, Senden, Ascheberg und Ottmarsbocholt an (zuletzt 5 Euro einfach, 8 Euro hin und zurück, im Bus zahlbar). Aktuelle Fahrpläne bitte auf klutensee-festival.de prüfen."
   },
   {
     "name": "DEICHBRAND 2027",
@@ -3455,6 +3673,42 @@ const festivals = [
     "endDate": "2027-07-18",
     "about": "Seit 2015 verbindet Medival ein hochkarätiges Electronic-Programm mit politischer Bildung, Kreativ-Workshops und einer offenen, diversen Festivalkultur. Schauplatz ist die Burgruine Brandenburg bei Gerstungen — eine im 12. Jahrhundert erbaute Verteidigungsanlage hoch über dem Werratal, die einst Handelswege sicherte. Auf vier Bühnen laufen House, Techno, Trance und Drum & Bass, umrahmt von aufwendigen Holzbauten und Diskussionsformaten zu Demokratie, Vielfalt und Awareness.",
     "anfahrt": "Adresse: Hermannstraße 5, 99834 Gerstungen. Die Burgruine ist von der A4 aus sichtbar und liegt direkt an der Verbindungsstraße von Lauchröden Richtung Herleshausen/Neuenhof."
+  },
+  {
+    "name": "TAG AM MEER FESTIVAL 2027",
+    "date": "2027-07-16",
+    "endDate": "2027-07-17",
+    "dateDisplay": "16.–17. Juli 2027",
+    "location": "Jugendherberge Prora, Rügen",
+    "genre": [
+      "House",
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.tagammeer-festival.de/",
+    "soldOut": false,
+    "description": "Strandfestival auf Rügen — House, Techno und Reggae direkt in Prora an der Ostsee, zwei Tage Camping am Meer.",
+    "lat": 54.4512135,
+    "lng": 13.5697885,
+    "about": "Das Tag am Meer Festival findet im ehemaligen KdF-Seebad Prora auf Rügen statt, direkt hinter dem Strand und dem Gelände der Jugendherberge. Am 16. und 17. Juli 2027 stehen House, Techno und Reggae am Strand auf dem Programm; Tagesgäste sind am Freitag von 18 bis 22 Uhr und am Samstag von 11 bis 24 Uhr willkommen. Zum Festival gehört ein Zeltplatz bei der Jugendherberge (Autos sind dort nicht erlaubt). Der Vorverkauf begann am 11.11.2026, Tickets starten bei ca. 49 Euro; das Line-up für 2027 ist noch nicht bekannt.",
+    "anfahrt": "Adresse: DJH Jugendherberge Prora (Prora/Binz, Rügen). Mit der Regionalbahn direkt bis Bahnhof Prora, von dort ca. 12–15 Minuten zu Fuß; alternativ mit ICE/IC bis Binz und weiter mit den Buslinien 24 oder 27 bis „Prora Jugendherberge“. Abends fährt ein Bus-Shuttle außerhalb der regulären Linienzeiten von Prora nach Binz. Parken ist begrenzt (Parkplatz an der Jugendherberge mit EasyPark-App); für Wohnmobile empfiehlt der Veranstalter die Wohnmobil-Oase Prora. Aktuelle Infos bitte auf der Festivalseite prüfen."
+  },
+  {
+    "name": "VOOV EXPERIENCE 2027",
+    "date": "2027-07-16",
+    "endDate": "2027-07-19",
+    "dateDisplay": "16.–19. Juli 2027",
+    "location": "Field of Joy, Putlitz (Brandenburg)",
+    "genre": [
+      "Psytrance"
+    ],
+    "url": "https://www.voov-festival.de/",
+    "soldOut": false,
+    "description": "Der deutsche Goa-Trance-Klassiker auf dem Field of Joy bei Putlitz — Camping, Open Air und Psychedelic Vibes seit 2001.",
+    "lat": 53.2280102,
+    "lng": 12.0358645,
+    "about": "Das VooV Experience ist eines der traditionsreichsten Goa- und Psytrance-Festivals in Deutschland und findet seit 2001 auf dem „Field of Joy“ bei Putlitz in der Prignitz statt. 2027 läuft es von Freitag, 16., bis Montag, 19. Juli; das Camping ist im Ticket enthalten (Early-Bird 160 Euro plus 5 Euro Pfand), die Zeltplätze öffnen schon Donnerstagabend. Das Line-up ist noch nicht veröffentlicht.",
+    "anfahrt": "Navi: Mansfelder Chaussee, 16949 Putlitz. Mit dem Auto über die A24, Ausfahrt Putlitz, dann den Schildern Richtung Mansfeld folgen; von dort ca. 1,5 km zu Fuß zum Gelände. Fahrzeuge (auch Busse und Wohnmobile) dürfen direkt neben den Zelten parken. Mit der Bahn bis Karstädt, dort bringen lokale Shuttles zum Festival (Nummern auf der Festivalseite); alternativ über Pritzwalk in die Prignitzer Eisenbahn Richtung Putlitz. Zusätzlich fahren Busse ab Berlin, Hamburg und weiteren Städten. Aktuelle Infos bitte auf voov-festival.de prüfen."
   },
   {
     "name": "LOLLAPALOOZA BERLIN 2027",
@@ -3625,6 +3879,25 @@ const festivals = [
     "anfahrt": "Der Veranstalter bietet Shuttle-Busse zwischen dem Bahnhof Rotenburg und dem Festivalgelände an (10 Euro Hin- und Rückfahrt), die sich an den Ankunfts- und Abfahrtszeiten des Metronoms orientieren statt an einem festen Fahrplan. Mit dem Auto könnt ihr direkt auf dem Gelände des Flugplatzes Rotenburg parken (Parkticket online 10 Euro zzgl. Gebühren, gilt für ein Fahrzeug und einmalige Einfahrt) — bitte ausschließlich die ausgeschilderten Parkflächen nutzen."
   },
   {
+    "name": "WHOLE FESTIVAL 2027",
+    "date": "2027-07-30",
+    "endDate": "2027-08-02",
+    "dateDisplay": "30. Juli–2. August 2027",
+    "location": "Ferropolis, Gräfenhainichen",
+    "genre": [
+      "Techno",
+      "House",
+      "Electronic"
+    ],
+    "url": "https://www.wholefestival.com/",
+    "soldOut": false,
+    "description": "Queeres Festival in der Stadt aus Eisen — vier Tage Techno und House auf mehreren Bühnen im Ferropolis am Gremminer See.",
+    "lat": 51.7590874,
+    "lng": 12.4487506,
+    "about": "WHOLE United Queer Festival gilt als eines der bekanntesten Treffen der queeren Techno- und House-Kultur in Europa. Gefeiert wird im Ferropolis bei Gräfenhainichen — einem ehemaligen Braunkohle-Tagebau am Ufer des Gremminer Sees, in dem die riesigen Schaufelradbagger zur Kulisse der „Stadt aus Eisen“ werden. Die Ausgabe 2027 läuft von Freitag, 30. Juli, bis Montag, 2. August, mit mehreren Bühnen von hartem Techno bis sonnigem House sowie Camping direkt am Gelände. Das Line-up für 2027 ist noch nicht veröffentlicht.",
+    "anfahrt": "Adresse: Ferropolisstraße 1, 06773 Gräfenhainichen. Mit dem Auto über die A9, Ausfahrt Dessau-Ost, dann der Beschilderung Richtung Oranienbaum/Gräfenhainichen folgen. Mit der Bahn bis Bahnhof Gräfenhainichen, von dort pendeln in der Regel Shuttlebusse zum Ferropolis. Details zu Parken, Camping und Shuttle bitte vorab beim Veranstalter prüfen."
+  },
+  {
     "name": "HABITAT FESTIVAL 2027",
     "date": "2027-07-31",
     "dateDisplay": "31. Juli – 1. August 2027",
@@ -3678,6 +3951,25 @@ const festivals = [
     "lng": 11.3445052,
     "about": "Seit 2003 trifft sich Anfang August eine Community von rund 7.000 Menschen auf dem „Feld der Ehre\" in der Fränkischen Schweiz. Fünf Tage lang spielen über 100 DJs, Live-Acts und Bands auf fünf Bühnen, während mehr als 70 Workshops zu Yoga, Meditation, Awareness und politischer Bildung einladen. Inspiriert vom Fusion Festival pflegt Klangtherapie eine ausgeprägte Awareness- und Inklusionspolitik — über ein Soli-Ticket-System finanzieren Besucher mit höherem Einkommen ermäßigte Tickets für Menschen mit wenig Geld.",
     "anfahrt": "Das Gelände liegt bei Scherleithen nahe Plankenfels in der Fränkischen Schweiz, mit Bamberg, Bayreuth und Nürnberg als nächstgelegenen größeren Städten. Der Veranstalter empfiehlt ausdrücklich umweltfreundliche Anreise mit Bus, Bahn oder Fahrgemeinschaften — über die festivaleigene Ride2Rave-Plattform lassen sich Mitfahrgelegenheiten organisieren."
+  },
+  {
+    "name": "SHIFTED FESTIVAL 2027",
+    "date": "2027-08-05",
+    "endDate": "2027-08-08",
+    "dateDisplay": "5.–8. August 2027",
+    "location": "Secret Forest, Niedergörsdorf (Brandenburg)",
+    "genre": [
+      "Techno",
+      "Hard Techno",
+      "Trance"
+    ],
+    "url": "https://www.shifted-festival.com/de",
+    "soldOut": false,
+    "description": "Unabhängiges Festival für Trance, Groove und Hard Techno im Secret Forest in Brandenburg — vier Tage, neue Floors, fairer Preis.",
+    "lat": 52.8455492,
+    "lng": 13.2461296,
+    "about": "Shifted findet auf einem ehemaligen sowjetischen Militärflugplatz aus dem Kalten Krieg statt, der nach dem Zusammenbruch der Sowjetunion aufgegeben wurde. Über 15 Jahre verwandelte sich das als „Secret Forest\" bekannte Areal in Brandenburg in einen Kreativraum für Festivals. Seit der ersten Ausgabe 2024 verbindet Shifted futuristisches Stage-Design mit Underground-Electronic-Sound aus Trance, Hard- und Groove-Techno — mit besonderem Fokus auf Nachwuchskünstler:innen. Für 2027 kündigen die Veranstalter an, dass der Hard-Techno-Floor einen neuen Platz bekommt, der Groove-Floor wächst und ein neuer House-Floor dazukommt. Laut Listings läuft das Festival vom 5. bis 8. August; ein Social-Post nennt abweichend den 6. bis 9. August.",
+    "anfahrt": "Das Festivalgelände (Secret Forest) liegt auf dem ehemaligen Militärflugplatz Flugplatzweg 6, 14913 Niedergörsdorf — rund eine Autostunde von Berlin entfernt. Mit der Bahn geht es mit der RE3 ab Berlin bis Jüterbog, von dort bringt ein Shuttle euch direkt zum Gelände."
   },
   {
     "name": "HILL OF DREAMS 2027",
@@ -3737,6 +4029,44 @@ const festivals = [
     "anfahrt": "Ein Shuttle verkehrt rund um die Uhr zwischen dem Bahnhof Erkelenz und dem Festivalgelände (5 Euro Tagesticket, 9 Euro fürs ganze Wochenende, mit Priority Pass kostenlos) — Tickets gibt es direkt am Bahnhof oder vorab im offiziellen Shop. Für die Anreise mit dem Auto steht ein Park-und-Ride-Parkplatz in Erkelenz bereit."
   },
   {
+    "name": "SONNE MOND STERNE 2027",
+    "date": "2027-08-06",
+    "endDate": "2027-08-08",
+    "dateDisplay": "6.–8. August 2027",
+    "location": "Bleilochtalsperre, Saalburg-Ebersdorf (Thüringen)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Electronic"
+    ],
+    "url": "https://www.sonnemondsterne.de",
+    "soldOut": false,
+    "description": "SMS an der Bleilochtalsperre — drei Tage Electronic Open Air mit Techno, Trance, House und mehr, Camping und Seeblick.",
+    "lat": 50.4948382,
+    "lng": 11.7092902,
+    "about": "Sonne Mond Sterne — kurz SMS — feierte 1997 seine erste Ausgabe an der Bleilochtalsperre bei Saalburg-Ebersdorf, mit rund 2.500 Besuchern auf einer einzigen Bühne und einem einzigen Zelt. Seitdem findet das Festival traditionell am zweiten August-Wochenende in Thüringen statt und ist auf mehrere zehntausend Besucher gewachsen — heute eines der größten Electronic-Open-Airs Europas, direkt am Wasser der Talsperre. Die Ausgabe 2027 läuft vom 6. bis 8. August; Tickets inklusive Camping sind bereits im Verkauf, die ersten Acts (u. a. Martin Garrix und Brutalismus 3000 laut Shop) sind angekündigt, weitere sollen folgen.",
+    "anfahrt": "Die Festivalwiese liegt direkt an der Bleilochtalsperre bei Saalburg — die meisten reisen mit dem Auto an, da Camping im Ticket enthalten ist und der Wagen direkt am Camp stehen darf (Parkgebühr ca. 30 Euro, für Wohnmobile/Anhänger ca. 50 Euro). Mit der Bahn geht es bis Bad Lobenstein, von dort bringt ein kostenloser Shuttle Ticketinhaber in rund 25 Minuten zum Gelände."
+  },
+  {
+    "name": "HAVELBEATS FESTIVAL 2027",
+    "date": "2027-08-06",
+    "endDate": "2027-08-07",
+    "dateDisplay": "6.–7. August 2027",
+    "location": "Schiffbauergasse, Potsdam",
+    "genre": [
+      "Techno",
+      "Electronic",
+      "Trance"
+    ],
+    "url": "https://www.citybounce.de/havelbeats-2027",
+    "soldOut": false,
+    "description": "Potsdams großes Festival an der Havel — mehrere Stages mit Techno, Trance und Goa direkt am Wasser in der Schiffbauergasse.",
+    "lat": 52.4031259,
+    "lng": 13.0737772,
+    "about": "Havelbeats findet seit 2017 im Kunst- und Kulturquartier Schiffbauergasse statt — einem ehemaligen Militärgelände direkt an der Havel im Potsdamer Norden. Veranstaltet wird das Festival vom traditionsreichen Waschhaus Potsdam, das die elektronische Clubkultur der Stadt seit den 1990ern prägt. Mehrere spezialisierte Bühnen decken das Spektrum ab: große Mainstage mit EDM, House und Techno, der raue Schirrhof für industriellen Techno-Sound, und ein Trance & Goa Garden direkt am Wasser. Die Ausgabe 2027 ist für den 6. und 7. August angekündigt (einzelne Quellen nennen auch den 8. August als Ende); Tickets gibt es über Citybounce.",
+    "anfahrt": "Adresse: Schiffbauergasse 1, 14467 Potsdam. Der Veranstalter empfiehlt ausdrücklich die klimafreundliche Anreise mit der Bahn bis Potsdam — von dort ist es nicht weit bis zum Kunst- und Kulturquartier Schiffbauergasse. Zur Parkplatzsituation (insbesondere für Wohnmobile) lohnt sich vorab ein Blick auf die offizielle Website oder die Social-Media-Kanäle des Festivals."
+  },
+  {
     "name": "STRAND MIEZEN – THE SEASIDE RAVE 2027",
     "date": "2027-08-07",
     "dateDisplay": "7. August 2027",
@@ -3784,6 +4114,42 @@ const festivals = [
     "lng": 11.6014503,
     "about": "SEELECTRIC ist der elektronische Abschluss des Bayreuther Seebühnenfestivals: Am 7. August 2027 (16 bis 22 Uhr) wird die Seebühne in der Wilhelminenaue zur Techno-Open-Air-Arena. Die Premiere 2026 brachte unter anderem Westbam, Anna Reusch und Markus Kavka nach Bayreuth, 2027 folgt die zweite Auflage. Der Eintritt ist ab 16 Jahren möglich (ohne Begleitperson). Veranstalter ist die Bayreuther Agentur MOTION; das Line-up für 2027 ist noch nicht bekannt, der Vorverkauf läuft über die Seebühnen-Seite.",
     "anfahrt": "Adresse: Seebühne, Obere Röth, 95448 Bayreuth (Wilhelminenaue). Parken ist sehr begrenzt; der Veranstalter empfiehlt die Anreise ohne Auto. Mit dem Bus ab ZOH Linie 302 (Richtung Hammerstatt/Industriegebiet) bis „Volksfestplatz“ und ca. 10 Minuten zu Fuß, oder Linie 303 bis „Wilhelminenaue“. Parkplätze gibt es an der Wilhelminenaue, entlang der Äußeren Badstraße und Kerschensteinerstraße, am Volksfestplatz sowie am Sportpark (5–15 Minuten Fußweg). Auf das Gelände selbst darf nicht gefahren werden."
+  },
+  {
+    "name": "HEIDEBEAT FESTIVAL 2027",
+    "date": "2027-08-07",
+    "dateDisplay": "7. August 2027",
+    "location": "Heidebad, Schmelz (Saarland)",
+    "genre": [
+      "Electronic",
+      "House",
+      "Techno"
+    ],
+    "url": "https://heidebeat.de/",
+    "soldOut": false,
+    "description": "Boutique-Elektronik-Open-Air am Waldrand — das Heidebeat Festival am Heidebad Schmelz, 2026 in unter einer Stunde ausverkauft.",
+    "lat": 49.4351156,
+    "lng": 6.8404192,
+    "about": "Das Heidebeat Festival ist ein kleines Boutique-Open-Air im Saarland: Auf der Liegewiese des Heidebads in Schmelz, am Waldrand, wird am Samstag, 7. August 2027, von 12 Uhr bis Mitternacht getanzt (Einlass ab 11:30 Uhr, laut Homepage-Kopf teils auch der 8. August genannt). Es ist ein Tagesevent ohne Camping, der Eintritt ist ab 18 Jahren. Tickets (Einzelticket 49 Euro, 50 Soli-Tickets mit 50 % Ermäßigung) sind sehr gefragt — das Festival war zuletzt innerhalb einer Stunde ausverkauft. Das Line-up ist noch nicht veröffentlicht.",
+    "anfahrt": "Adresse: Zum Heidebad 55, 66839 Schmelz. Parken ist am Heidebad begrenzt — die Veranstalter nennen ausgewiesene Parkflächen an der Primshalle, auf dem Außener Sportplatz und am Marktplatz Schmelz, von wo ein Shuttle zum Gelände fährt. Im Shop werden Shuttle-Linien u. a. ab Saarbrücken, Saarlouis, St. Wendel und Illingen angeboten (zuletzt 12–15 Euro, Rückfahrt gegen 0:20 Uhr). Camping gibt es nicht; Wohnmobile dürfen auf dem Außener Sportplatz abgestellt werden. Aktuelle Infos bitte auf heidebeat.de prüfen."
+  },
+  {
+    "name": "BRUPABU FESTIVAL 2027",
+    "date": "2027-08-12",
+    "endDate": "2027-08-15",
+    "dateDisplay": "12.–15. August 2027",
+    "location": "Brunau-Packebusch, Altmark (Sachsen-Anhalt)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://www.brupabu.de/",
+    "soldOut": false,
+    "description": "Techno unter freiem Himmel in der Altmark — das BruPaBu Festival in Brunau-Packebusch mit Camping.",
+    "lat": 52.7500252,
+    "lng": 11.4780123,
+    "about": "Das BruPaBu Festival (Brunau-Packebusch) ist ein kleineres Techno- und Electronic-Festival in der Altmark bei Stendal. Rund 1.500 Gäste, darunter viele Camper, feiern dort traditionell Mitte August; 2026 lief die Ausgabe vom 6. bis 9. August. Für 2027 nennt das Festivalverzeichnis Infield den 12. bis 15. August — eine offizielle Bestätigung des Veranstalters lag bei der Recherche noch nicht vor.",
+    "anfahrt": "Adresse: Bahnhofstraße, 39624 Brunau (Kalbe/Milde, Altmark). Die Anreise ist mit dem Auto oder über die Bahnverbindung nach Brunau-Packebusch möglich; ob ein Shuttle vom Bahnhof angeboten wird, ist nicht bestätigt. Camping ist auf dem Gelände vorhanden. Aktuelle Infos zu Parken und Anreise bitte auf brupabu.de bzw. den Social-Media-Kanälen prüfen."
   },
   {
     "name": "SAN HEJMO FESTIVAL 2027",
@@ -3858,6 +4224,43 @@ const festivals = [
     "lng": 7.8441183,
     "about": "Welcome To My Garden verwandelt den Kurpark Hamm einmal im Jahr in eine Welt zwischen Traum und Realität — mit Themenbereichen wie Glitter Garden und Hidden Forest, Blumenmädchen, Stelzenläufer:innen und Feuerwerk. Auf zwei Bühnen laufen EDM, Trance und Techno, während sich das Publikum durch eine kulinarische Reise von Wein und Gin bis zu kreativen alkoholfreien Drinks probiert.",
     "anfahrt": "Adresse: Ostenallee 87, 59071 Hamm (bzw. „Exerzierplatz Hamm\" bei Google Maps). Mit dem Auto der Beschilderung über die Kreuzung Ostenallee/Ahseufer folgen. Mit dem Bus (Linien 1, 3, 5) ab Haltestelle „HBF./Willy Brandt Platz\" in unter 15 Minuten am Gelände; mit dem Taxi ab Hamm Hauptbahnhof (Stichwort „Kurpark\" oder „Kurhaus\") in unter 12 Minuten."
+  },
+  {
+    "name": "LACUNA FESTIVAL 2027",
+    "date": "2027-08-19",
+    "endDate": "2027-08-22",
+    "dateDisplay": "19.–22. August 2027",
+    "location": "Ochtrup (Münsterland)",
+    "genre": [
+      "Techno",
+      "Hardstyle",
+      "Trance"
+    ],
+    "url": "https://www.lacunafestival.com/",
+    "soldOut": false,
+    "description": "Das Electro-Festival im Münsterland — mehrtägiges Camping-Festival mit Techno, Hardstyle, House, Harddance und Trance in Ochtrup.",
+    "lat": 52.1912904,
+    "lng": 7.1791635,
+    "about": "Lacuna ist das Electro-Festival im Münsterland und findet in Ochtrup bei Rheine statt. Seit der ersten Ausgabe ist das Konzept kontinuierlich gewachsen — mittlerweile mit mehreren Tagen Camping, mehreren Bühnen, über 50 Artists und einer 360°-Stage. Musikalisch liegt der Fokus auf Techno und Hardstyle, ergänzt um House, Harddance und Trance. Die Ausgabe 2027 ist für den 19. bis 22. August angekündigt (Facebook nennt den 19. bis 21. August); Tickets gibt es ab ca. 25 Euro, das Line-up ist noch offen.",
+    "anfahrt": "Adresse für die Anfahrt: Im Hook 6, 48607 Ochtrup. Laut Veranstalter stehen Parkplätze kostenfrei zur Verfügung. Da ein Großteil der CO2-Bilanz eines Festivals durch die Anreise entsteht, empfiehlt der Veranstalter klimafreundliche Alternativen wie Bus, Bahn oder Fahrgemeinschaften. Details zu Camping und Anreisezeiten bitte vorab auf der Festivalseite prüfen."
+  },
+  {
+    "name": "ANDEREWELT FESTIVAL 2027",
+    "date": "2027-08-19",
+    "endDate": "2027-08-22",
+    "dateDisplay": "19.–22. August 2027",
+    "location": "Autokino Zempow, Wittstock/Dosse (Brandenburg)",
+    "genre": [
+      "Techno",
+      "Electronic"
+    ],
+    "url": "https://anderewelt-festival.de/",
+    "soldOut": false,
+    "description": "Kleines Techno-Festival mit rund 1.000 Gästen auf dem Gelände des Autokinos Zempow in der Ostprignitz — vier Tage Camping und Musik.",
+    "lat": 53.2080182,
+    "lng": 12.7489535,
+    "about": "Das Anderewelt Festival ist ein kleineres, familiäres Techno-Festival in Brandenburg: Vom 19. bis 22. August 2027 treffen sich rund 1.000 Gäste auf dem Gelände des Autokinos Zempow bei Wittstock/Dosse. Es gibt Campingplätze, Stellplätze für Wohnmobile sowie Bereiche für Silent und Green Camping. Das Programm für 2027 ist noch nicht veröffentlicht; die Angaben zu Termin und Ort stammen aus Festivalverzeichnissen und der Event-Plattform Resident Advisor.",
+    "anfahrt": "Adresse: Zempower Dorfstraße 25, 16909 Wittstock/Dosse (OT Zempow, Autokino). Die Anreise erfolgt am besten mit dem Auto; die letzte Etappe führt laut Besuchern über einen unbefestigten Weg. Zu ÖPNV und Shuttle gibt es keine verlässlichen Angaben — bitte vorab beim Veranstalter nachsehen. Camping ist auf dem Gelände möglich."
   },
   {
     "name": "WILDE MÖHRE FESTIVAL 2027",
@@ -3937,6 +4340,42 @@ const festivals = [
     "anfahrt": "Von Hamburg oder Berlin über die A24 bis Kreuz Schwerin, dann A14 Richtung Magdeburg, Ausfahrt Grabow/Ludwigslust, weiter Richtung Dannenberg — kurz vor Eldena weist die Beschilderung den Weg. Ohne Auto geht es mit dem Zug bis Ludwigslust (Mecklenburg-Vorpommern), von dort per Bus-Shuttle zum Gelände; zusätzlich gibt es Airport-Shuttles ab Hamburg."
   },
   {
+    "name": "HIPPIETRANCE FESTIVAL 2027",
+    "date": "2027-08-26",
+    "endDate": "2027-08-29",
+    "dateDisplay": "26.–29. August 2027",
+    "location": "Willy-Brandt-Zeltlagerplatz, Thalmässing bei Nürnberg",
+    "genre": [
+      "Psytrance"
+    ],
+    "url": "https://hippietrance.com/",
+    "soldOut": false,
+    "description": "Vier Tage Goa, Psytrance und Healing in der Natur bei Nürnberg — kleines Festival mit Hippiemarkt und nur rund 800 Tickets.",
+    "lat": 49.0766087,
+    "lng": 11.188891,
+    "about": "Das HippieTrance Festival verbindet Goa und Psytrance mit Healing-Angeboten und einem Hippiemarkt — vier Tage in der Natur auf dem Willy-Brandt-Zeltlagerplatz in Reinwarzhofen bei Thalmässing, südlich von Nürnberg. Mit nur rund 800 Tickets bleibt es bewusst klein und familiär. 2027 läuft es von Donnerstag, 26., bis Sonntag, 29. August; Camping gehört dazu, Autos dürfen allerdings nicht auf den Zeltplatz.",
+    "anfahrt": "Adresse: Willy-Brandt-Zeltlagerplatz, Reinwarzhofen 17, 91177 Thalmässing. Auf den Zeltplatz selbst darf man nicht mit dem Auto fahren; für das Auto wird ein PKW-Stellplatz gebucht (Zusatzkosten). Mit der Bahn ab Nürnberg Hbf mit der S2 nach Roth, dann mit der Regionalbahn nach Hilpoltstein; von dort werktags Bus 611 nach Thalmässing, am Wochenende (Mai–November) der „Gredl-Express“ 636, an Sonn- und Feiertagen zusätzlich das Anrufsammeltaxi A615 bis Reinwarzhofen (mindestens 90 Minuten vorher buchen). Einen eigenen Festival-Shuttle gibt es laut FAQ nicht; für die letzten Kilometer gibt es eine Telegram-Mitfahrgruppe."
+  },
+  {
+    "name": "NIBIRII FESTIVAL 2027",
+    "date": "2027-08-27",
+    "endDate": "2027-08-29",
+    "dateDisplay": "27.–29. August 2027",
+    "location": "Dürener Badesee, Düren (NRW)",
+    "genre": [
+      "Techno",
+      "Psytrance",
+      "Drum and Bass"
+    ],
+    "url": "https://nibirii.com",
+    "soldOut": false,
+    "description": "NIBIRII am Dürener Badesee — Techno, Psytrance und Drum & Bass auf mehreren Bühnen, direkt am Wasser zwischen Köln und Aachen.",
+    "lat": 50.8031684,
+    "lng": 6.4820806,
+    "about": "Nibirii feierte 2019 nach zwei Jahren als Clubevent seine Festival-Premiere mit über 15.000 Besuchern und wuchs bis 2024 auf rund 48.000. Das Besondere am Konzept: Techno, Psytrance und Drum & Bass — drei sonst kaum verbundene Nischen elektronischer Musik — teilen sich auf rund 45.000 Quadratmetern am Dürener Badesee fünf Bühnen. Neben der Musik gehören Wasserski, Bananaboat-Fahrten und Silent Disco zum kostenlosen Rahmenprogramm. Die Ausgabe 2027 findet vom 27. bis 29. August statt (Camping von Donnerstag, 26., bis Montag, 30. August), der Eintritt ist ab 18 Jahren. Das Line-up ist noch nicht veröffentlicht.",
+    "anfahrt": "Adresse: Am Badesee 1, 52349 Düren. Mit dem Auto über die A4, Ausfahrt Düren — kostenpflichtige Parkplätze sind in Geländenähe vorhanden. Mit der Bahn bis Bahnhof Düren, von dort pendelt ein Shuttlebus zum Festivalgelände; zusätzlich bietet Nibirii in der Regel eigene Festivalbusse aus vielen deutschen Städten an. Aktuelle Shuttle-Zeiten bitte vorab beim Veranstalter prüfen."
+  },
+  {
     "name": "SOLÅ FESTIVAL 2027",
     "date": "2027-08-28",
     "dateDisplay": "28. August 2027",
@@ -3987,6 +4426,24 @@ const festivals = [
     "lng": 8.5763,
     "about": "Glücksgefühle wurde von Musikmanager Markus Krampe und Fußballer Lukas Podolski ins Leben gerufen und feierte seine erste Ausgabe 2023. Mit rund 250.000 Besuchern und einer Veranstaltungsfläche von einer Million Quadratmetern auf dem Hockenheimring ist es mittlerweile Deutschlands größtes Musikfestival — drei Mainstages mit einer breiten Mischung aus Pop, Electro, HipHop und Party-Acts.",
     "anfahrt": "Der Hockenheimring liegt direkt an der A5/A6 und ist auch mit dem ÖPNV erreichbar: S9, RB67 und RE9 fahren aus den umliegenden Städten zum Bahnhof. Die offiziell ausgeschilderten Parkflächen sind kostenfrei — der Veranstalter empfiehlt, vorab die offizielle Festival-App zu installieren, die per Navigation zum passenden Camping- bzw. Parkplatz führt."
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL – RAVEOLUTION 2027",
+    "date": "2027-09-03",
+    "dateDisplay": "3. September 2027",
+    "location": "Blauer See, Garbsen",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://outside-world.de/staedte/garbsen",
+    "soldOut": false,
+    "description": "Outside World „Raveolution“ am Blauen See Garbsen — Techno-Classics und Trance-Nostalgie bei Hannover, Open Air am Strand.",
+    "lat": 52.4196779,
+    "lng": 9.5503431,
+    "about": "Nach „The Big Blue“ kehrt das Outside World Festival 2027 unter dem Namen „Raveolution“ an den Blauen See in Garbsen bei Hannover zurück. Am 3. September 2027 gibt es an Deutschlands größtem Techno-Classics-Festival (Outside World, seit 2018) wieder Techno- und Trance-Klassiker der 90er und 2000er sowie aktuelle Acts auf mehreren Bühnen direkt am Strand. Die Veranstaltung beginnt am Nachmittag (ca. 14 Uhr), am Samstag folgt ein Aftershow-Programm. Das Line-up ist noch nicht veröffentlicht.",
+    "anfahrt": "Der Blaue See liegt direkt an der A2 westlich von Garbsen und ist damit gut mit dem Auto erreichbar (Adresse: Am Blauen See, 30823 Garbsen). PKW-Parkplätze sind in ausreichender Zahl direkt am Strand vorhanden, kostenpflichtig tagsüber (kostenlos nur von Mitte Oktober bis Mitte Mai bzw. vor 9 und nach 19 Uhr)."
   },
   {
     "name": "STRANDFIEBER FESTIVAL 2027",
