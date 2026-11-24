@@ -2557,22 +2557,6 @@ const festivals = [
     "anfahrt": "Die halle02 liegt nur rund 5-8 Gehminuten vom Heidelberger Hauptbahnhof entfernt — von der Jensenstraße oder Max-Jarecki-Straße biegt ihr in den Zollhofgarten ein, das Gebäude erkennt ihr am charakteristischen Backstein-Querschnitt. Einen eigenen Parkplatz gibt es nicht (nur zwei Behindertenparkplätze direkt vor dem Eingang), daher wird die Anreise per ÖPNV oder Rad empfohlen — die nächste Bushaltestelle „Hauptbahnhof Süd\" (Linien 33, 721, M3) liegt nur 200 Meter entfernt, die nächste Straßenbahnhaltestelle ist „Gadamerplatz\" (Linie 22)."
   },
   {
-    "name": "WINTERBEATS 2026",
-    "date": "2026-11-27",
-    "dateDisplay": "27. November 2026",
-    "location": "Saturn Arena, Ingolstadt",
-    "genre": [
-      "Hard Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://winterbeats.de/",
-    "soldOut": false,
-    "description": "",
-    "lat": 48.7599645,
-    "lng": 11.4381874
-  },
-  {
     "name": "FAIRGROUND FESTIVAL 2026",
     "date": "2026-11-28",
     "dateDisplay": "28. November 2026",
@@ -2623,21 +2607,6 @@ const festivals = [
     "lng": 12.0779788,
     "about": "Arena Rave bringt kompromisslosen Hard Techno in wechselnde Messehallen quer durch Deutschland — nach erfolgreichen Editionen in Schwerin und Rostock 2025 kehrt das Format regelmäßig zurück. Ab 19 Uhr verwandelt sich die jeweilige Halle in eine hochmoderne Sound-Arena mit High-End-Anlage und präzise abgestimmter Laser- und Lichtshow, die neue Maßstäbe für die akustische und visuelle Bespielung solcher Hallen setzen soll.",
     "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
-  },
-  {
-    "name": "GEHT RAUS! OPEN AIR 2026",
-    "date": "2026-12-04",
-    "dateDisplay": "4. Dezember 2026",
-    "location": "Hofwiesenpark, Gera",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
-    "soldOut": false,
-    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
-    "lat": 50.8783034,
-    "lng": 12.0702597
   },
   {
     "name": "TOXICATOR 2026",
@@ -2811,50 +2780,6 @@ const festivals = [
     "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
   },
   {
-    "name": "ELYSIUM FESTIVAL GERMANY 2027",
-    "date": "2027-02-01",
-    "dateDisplay": "1. Februar 2027",
-    "location": "Maxvorstadt, München",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://elysium-festival.com/",
-    "soldOut": false,
-    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
-    "lat": 48.1510916,
-    "lng": 11.5624179
-  },
-  {
-    "name": "ARENA RAVE VENDEX PRES. BY ARENA RAVE @ DOCKS 2027",
-    "date": "2027-02-05",
-    "dateDisplay": "5. Februar 2027",
-    "location": "Vendex Pres. By Arena Rave @ Docks",
-    "genre": [
-      "Hard Techno"
-    ],
-    "url": "https://arena-rave.de/event/vendex-pres-by-arena-rave-docks/",
-    "soldOut": false,
-    "description": "Angemietete Halle, großes Line-up — Arena Rave macht Station in Vendex Pres. By Arena Rave @ Docks."
-  },
-  {
-    "name": "WINTERBEATS 2027",
-    "date": "2027-02-19",
-    "dateDisplay": "19. Februar 2027",
-    "location": "Saturn Arena, Ingolstadt",
-    "genre": [
-      "Hard Techno",
-      "Trance",
-      "Electronic"
-    ],
-    "url": "https://winterbeats.de/",
-    "soldOut": false,
-    "description": "",
-    "lat": 48.7599645,
-    "lng": 11.4381874
-  },
-  {
     "name": "INTACT EXPANDA 2027",
     "date": "2027-02-27",
     "dateDisplay": "27. Februar 2027",
@@ -2957,21 +2882,6 @@ const festivals = [
     "anfahrt": "Adresse: Mülheimer Straße 4, 46049 Oberhausen (Schallwerk, Teil des Turbinenhallen-Areals). Ab Oberhausen Hauptbahnhof verkehren Busse Richtung „Im Lipperfeld\"/„Feuerwache\" in die Neue Mitte, von dort ist das Areal in wenigen Gehminuten erreichbar. Parkmöglichkeiten sind direkt am Turbinenhallen-Gelände vorhanden."
   },
   {
-    "name": "GEHT RAUS! OPEN AIR 2027",
-    "date": "2027-03-31",
-    "dateDisplay": "31. März 2027",
-    "location": "Hofwiesenpark, Gera",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
-    "soldOut": false,
-    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
-    "lat": 50.8783034,
-    "lng": 12.0702597
-  },
-  {
     "name": "TIME WARP 2027",
     "date": "2027-04-03",
     "dateDisplay": "3. April 2027",
@@ -3003,22 +2913,6 @@ const festivals = [
     "lat": 54.3494378,
     "lng": 13.4718006,
     "anfahrt": "Adresse: Marstall Putbus, Park 6, 18581 Putbus (Rügen). Direkt am Eingang zum Marstall liegt ein meist ausreichend großer Parkplatz am Wreechener Weg; alternativ könnt ihr auch am Markt oder am Circus parken. Kostenpflichtige Parkplätze sind zudem in unmittelbarer Umgebung des Marstalls vorhanden."
-  },
-  {
-    "name": "ELYSIUM FESTIVAL GERMANY 2027",
-    "date": "2027-04-10",
-    "dateDisplay": "10. April 2027",
-    "location": "Maxvorstadt, München",
-    "genre": [
-      "Techno",
-      "House",
-      "Electronic"
-    ],
-    "url": "https://elysium-festival.com/",
-    "soldOut": false,
-    "description": "Premiere mit geheimer Location — melodischer, hypnotischer Sound auf drei Bühnen in München.",
-    "lat": 48.1510916,
-    "lng": 11.5624179
   },
   {
     "name": "TRANCE WORLD FESTIVAL 2027",
@@ -3760,9 +3654,11 @@ const festivals = [
     ],
     "url": "https://www.greenfields-openair.de/",
     "soldOut": false,
-    "description": "25 Jahre Greenfields — Richie Hawtin, Ben Klock, Sven Väth und Pan-Pot auf der Galopprennbahn München. Zwei Stages, 11 Stunden Electronic Music.",
+    "description": "Greenfields geht in die 26. Runde — zwei Stages, 11 Stunden elektronische Musik auf der Galopprennbahn München-Riem. Line-up und Vorverkauf folgen.",
     "lat": 48.1507242,
-    "lng": 11.6711537
+    "lng": 11.6711537,
+    "about": "Das Greenfields Open Air gehört zu den etabliertesten Techno- und House-Open-Airs Süddeutschlands und findet am Samstag, 31. Juli 2027, bereits zum 26. Mal auf der Galopprennbahn München-Riem statt. Auf zwei Stages gibt es rund elf Stunden elektronische Musik, vom melodischen House bis zum treibenden Techno. Das Line-up für 2027 ist noch nicht veröffentlicht, der Vorverkauf wurde als „Available Soon“ angekündigt.",
+    "anfahrt": "Adresse: Graf-Lehndorff-Straße 36, 81929 München (Galopprennbahn Riem). Die Veranstalter empfehlen dringend die Anreise mit öffentlichen Verkehrsmitteln: mit der S-Bahn S2 Richtung Erding bis „Riem“, von dort ca. 10 Minuten zu Fuß. Vor Ort gibt es keine Parkmöglichkeiten."
   },
   {
     "name": "KLANGTHERAPIE FESTIVAL 2027",
@@ -4125,21 +4021,6 @@ const festivals = [
     "lng": 9.7482486,
     "about": "Waves Open Air findet seit 2019 am Spaßbad Wedemark bei Hannover statt und zieht im Schnitt rund 9.000 Besucher an. Das genreübergreifende Festival für Techno, Trance, House und Groove setzt auf ein ungewöhnliches Konzept: zwölf Stunden Programm auf drei Bühnen, Indoor- und Outdoor-Bereiche, dazu Pools zum Abkühlen zwischen den Sets — ein ganztägiger Sommer-Techno-Tag direkt am Schwimmbad.",
     "anfahrt": "Adresse: Am Freizeitpark 2, 30900 Wedemark (Spaßbad Wedemark). Mit der Bahn ab Hannover Hauptbahnhof mit der S4 bis Mellendorf (ca. 23 Minuten), von dort rund 500 Meter zu Fuß. Mit dem Auto über die A7, Ausfahrt 52-Mellendorf, dann Richtung Gailhof/Mellendorf — das Spaßbad liegt nach wenigen Minuten links."
-  },
-  {
-    "name": "GEHT RAUS! OPEN AIR 2027",
-    "date": "2027-09-04",
-    "dateDisplay": "4. September 2027",
-    "location": "Hofwiesenpark, Gera",
-    "genre": [
-      "Techno",
-      "Electronic"
-    ],
-    "url": "https://www.gera.de/maerkte-und-feste/geht-raus-open-air",
-    "soldOut": false,
-    "description": "Zehn Stunden elektronische Musik im Hofwiesenpark Gera — u.a. mit Chris Liebing und Pan-Pot.",
-    "lat": 50.8783034,
-    "lng": 12.0702597
   },
   {
     "name": "SYNDICATE 2027",

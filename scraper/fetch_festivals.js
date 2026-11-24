@@ -196,6 +196,14 @@ const NO_WEBSITE_YET = new Set([
 // Quelle fuer ein echtes Datum ergeben haben. Exakter nameKey()+date-Schluessel,
 // damit ein spaeteres, echtes Datum (anderer Tag) nicht ebenfalls blockiert wird.
 const KNOWN_FALSE_POSITIVES = new Set([
+  // Elysium Munich: nur 12.09.2026 bestaetigt, 2027 noch "TBA" (Stand 24.11.2026)
+  'elysiumfestivalgermany2022027-02-01',
+  'elysiumfestivalgermany2022027-04-10',
+  // Geht Raus! Open Air Gera: nur 05.09.2026 bestaetigt, kein 2027-Termin bekannt
+  'gehtrausopenair20272027-03-31',
+  'gehtrausopenair20272027-09-04',
+  // Clubnacht im Docks Hamburg, kein Festival
+  'arenaravevendexpresbyaren2027-02-05',
   'hiveindoor20272027-06-20',
   'stonetechnofestival20272027-07-11',
   'libellafestival20272027-07-11',
@@ -308,6 +316,9 @@ const SINGLE_DATE_SERIES = new Set([
   'goaworldhalloweenspecial2', // echter Termin 23.10.2026; der 5.12. war eine Ue30-Party (Venue-Seite), kein Goa World
   'nibiriifestival2026', // echter Termin 28.-30.08.2026; die Quelle liefert immer wieder Clubshow-/Silvester-Termine
   'hasardeurindoor2027', // Rollover des manuell umbenannten Indoor-Eintrags; echtes Hasardeur 2027 ist das Schrottplatz-Festival am 29.05.
+  'winterbeats2026', // echter Termin 21.02.2026 (vorbei); Quelle liefert bogus Novembertermin
+  'winterbeats2027', // Winterbeats Feb 2027 vom Veranstalter abgesagt (Nov 2026), Ausgabe 2026 war die letzte
+  'gehtrausopenair2026', // echter Termin 05.09.2026 (vorbei); Quelle liefert bogus Dezembertermin
   'hexonfestival22026', // echter Termin 18.07.2026; Lokschuppen-Slug /hexon-festival-2/ zeigt inzwischen Round IV und andere Events der Seite
   'hexonfestival22027', // Rollover von #2; Lokschuppen-Seite listet unter "Gleiche Kategorie" fremde Events (Merry Hardmas, Technosphere, Schiller)
 ]);
