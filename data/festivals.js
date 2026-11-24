@@ -2759,7 +2759,25 @@ const festivals = [
     "lat": 54.0728,
     "lng": 9.9908,
     "about": "Der winterliche Ableger des Between The Seas Festivals bringt treibenden Techno und EDM in die Holstenhallen Neumünster — mit Main Stage und Classic Stage für zwei musikalische Welten unter einem Dach. Wo das Sommer-Original auf Open-Air-Atmosphäre in Schleswig-Holstein setzt, holt die Winter-Ausgabe das gleiche Festivalgefühl ins Indoor-Format, inklusive spektakulärer Lightshow.",
-    "anfahrt": "Adresse: Justus-von-Liebig-Straße 2-4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7)."
+    "anfahrt": "Adresse: Holstenhallen Neumünster, Justus-von-Liebig-Straße 2–4, 24537 Neumünster — direkt an der Autobahnausfahrt Neumünster-Nord (A7, Hamburg–Flensburg/Kiel); Parkplätze sind in ausreichender Zahl vorhanden. Mit der Bahn bis Bahnhof Neumünster (IC-Halt auf der Strecke Hamburg–Kiel/Flensburg), von dort weiter mit Bus oder Taxi. Camper können laut Quellen ab 13 Uhr anreisen, der Einlass ist ab 18 Uhr; Tickets gibt es nicht an der Abendkasse. Ein offizieller Shuttle ist nicht bekannt."
+  },
+  {
+    "name": "WALDAPOTHEKER CHURCH-FESTIVAL 2027",
+    "date": "2027-01-15",
+    "endDate": "2027-01-16",
+    "dateDisplay": "15.–16. Januar 2027",
+    "location": "Kulturzentrum Johanniskirche, Löbau",
+    "genre": [
+      "Techno",
+      "Drum and Bass"
+    ],
+    "url": "https://www.joki-loebau.de/",
+    "soldOut": false,
+    "description": "Zwei Nächte elektronische Musik in der Kirche — Techno Night mit Felix Kröcher am Freitag, Drum and Bass Night am Samstag.",
+    "lat": 51.0955755,
+    "lng": 14.6682487,
+    "about": "Das Waldapotheker Church-Festival verwandelt das Kulturzentrum Johanniskirche in Löbau (Oberlausitz) für zwei Nächte in einen Club: Die Johanniskirche ist ein ehemaliges Gotteshaus, das heute als Kulturzentrum genutzt wird. Am Freitag, 15. Januar 2027, steht die Techno Night mit Felix Kröcher, Human Like Machines, TSBIN, ZP und Fastmix auf dem Programm; am Samstag, 16. Januar, folgt die Drum and Bass Night mit A-Cray, The Duplicates, DJ 3nLight, B on Rave b2b Zero Focus, Under Pressure b2b Electricbounce und Dropz. Beginn ist an beiden Tagen um 21:30 Uhr. Ein eigener Festival-Webauftritt war bei der Recherche nicht zu finden, die Angaben stammen aus dem Veranstaltungskalender der Stadt Löbau und dem Messepark-Löbau-Kalender.",
+    "anfahrt": "Adresse: Kulturzentrum Johanniskirche, Johannisplatz 6/8, 02708 Löbau. Löbau ist laut Veranstalter gut mit Bus und Bahn im Nahverkehr erreichbar; die Kirche liegt in der Innenstadt. Mit dem Auto aus Richtung Bautzen über die B6 nach Löbau, dann über Weißenberger Straße/Poststraße zum Promenadenring und zum Nikolaiplatz — von dort sind es ca. 100 Meter. Der öffentliche Parkplatz am Nikolaiplatz ist kostenfrei (werktags ab 18 Uhr, samstags ab 14 Uhr, sonntags ganztägig); ein Behindertenparkplatz liegt direkt vor dem Gebäude am Johannisplatz."
   },
   {
     "name": "HEXON FESTIVAL 2027",
@@ -2780,6 +2798,22 @@ const festivals = [
     "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
   },
   {
+    "name": "QUARTIERRAVE 2027",
+    "date": "2027-01-30",
+    "dateDisplay": "30. Januar 2027",
+    "location": "TurmQuartier, Pforzheim",
+    "genre": [
+      "Techno"
+    ],
+    "url": "https://buchbusch.de/quartierrave",
+    "soldOut": false,
+    "description": "Winter-Rave der Buchbusch-Crew im TurmQuartier Pforzheim — Techno von 19 bis 4 Uhr, ab 18 Jahren.",
+    "lat": 48.8923604,
+    "lng": 8.6990189,
+    "about": "Der QuartierRave ist der Winter-Ableger des Buchbusch Festivals: Der Buchbusch Festival e.V. holt gemeinsam mit dem TurmQuartier Pforzheim das Techno-Gefühl der Sommer-Open-Airs in die Innenstadt. Am 30. Januar 2027 wird von 19:00 bis 4:00 Uhr getanzt; der Eintritt ist ab 18 Jahren mit Ausweis. Laut Ticketshop sind I AM WOLV, Joris Turenhout, Klaudia Gawlas, Paal12 und VE/RA gebucht, weitere Acts sollen folgen. Es gibt nur einen einheitlichen Ticketpreis (35 Euro), limitiert und nach dem Prinzip „first come, first served“.",
+    "anfahrt": "Adresse: TurmQuartier, Poststraße 3, 75172 Pforzheim. Das TurmQuartier liegt rund 500 Meter bzw. ca. 5 Minuten zu Fuß vom Hauptbahnhof Pforzheim entfernt; die Bushaltestellen Hauptbahnhof und Leopoldplatz/Leopoldstraße sind ebenfalls etwa fünf Gehminuten entfernt. Mit dem Auto aus Richtung Karlsruhe über die A8, Ausfahrt Pforzheim-West, dann auf der B10 Richtung Zentrum (aus Richtung Stuttgart Ausfahrt Pforzheim-Ost); Ziel ist das Sparkassen-Parkhaus, Luisenstraße 4, mit ca. 230 Plätzen und rund um die Uhr geöffnet (Gebühren vorab prüfen)."
+  },
+  {
     "name": "INTACT EXPANDA 2027",
     "date": "2027-02-27",
     "dateDisplay": "27. Februar 2027",
@@ -2796,6 +2830,24 @@ const festivals = [
     "lng": 9.9199831,
     "about": "Intact Expanda ist seit über 20 Jahren fester Bestandteil der Hamburger Elektronikszene — ein Programm aus Progressive Trance, Psytrance, Dark und Techno im Catonium. Weniger Großevent als treue Institution: Die Reihe läuft mehrmals im Jahr und hat sich über zwei Jahrzehnte eine feste Fanbase in der Hansestadt aufgebaut.",
     "anfahrt": "Adresse: Försterweg 163, 22525 Hamburg. Das Catonium liegt in Hamburg-Stellingen direkt am S-Bahnhof Stellingen — von dort seid ihr in unter 10 Minuten zu Fuß da. Hinweis: Die Straße liegt etwas versteckt in einer Sackgasse, am besten die Wegbeschreibung der Location vorab checken."
+  },
+  {
+    "name": "OUTSIDE WORLD FESTIVAL – OSNABRÜCK 2027",
+    "date": "2027-02-27",
+    "dateDisplay": "27. Februar 2027",
+    "location": "Alando Ballhaus, Osnabrück",
+    "genre": [
+      "Techno",
+      "Trance",
+      "EDM"
+    ],
+    "url": "https://outside-world.de/events",
+    "soldOut": false,
+    "description": "Techno-Classics aus den 90ern und 2000ern — Outside World gastiert im Alando Ballhaus in Osnabrück, 20 bis 5 Uhr.",
+    "lat": 52.2710528,
+    "lng": 8.0556844,
+    "about": "Outside World ist seit 2018 Deutschlands größtes Techno-Classics-Festival und gastiert in rund 14 Städten; Gründer ist DJ Oliver Bensmann alias Revil O. Mit rund 35.000 Besuchern pro Jahr holt die Reihe die Techno-, Trance- und Hands-up-Klassiker der 90er und frühen 2000er zurück auf die Tanzfläche — oft mit den Szene-Urgesteinen von damals. Am 27. Februar 2027 macht Outside World im Alando Ballhaus in Osnabrück Station, von 20:00 bis 5:00 Uhr. Das Line-up für Osnabrück ist noch nicht veröffentlicht, Tickets laufen über TicketTicker.",
+    "anfahrt": "Adresse: Alando Ballhaus (Alando Palais), Pottgraben 58–60, 49074 Osnabrück. Das Alando liegt nur wenige Gehminuten vom Osnabrücker Hauptbahnhof entfernt. Mit dem Auto empfiehlt der Betreiber nahegelegene Parkhäuser in ca. 4–5 Minuten Fußweg: die Salzmarkt-Garage (Holtstraße 37) und die Bahnhofsgarage am Theodor-Heuss-Platz; die Tiefgarage des Holiday Inn nebenan ist vor allem für Hotelgäste gedacht. Mit dem Bus fährt u. a. die Linie 13 ab Neumarkt Richtung Marienhospital — die genaue Haltestelle am besten im Fahrplan prüfen."
   },
   {
     "name": "APEX 2027",
@@ -3614,7 +3666,7 @@ const festivals = [
     "lat": 52.6775373,
     "lng": 12.9634171,
     "about": "Seit 1999 findet Nation of Gondwana auf einer großen grünen Wiese in Grünefeld bei Berlin statt, eingebettet in einen Kiefernwald am Waldsee. Veranstaltet vom Kollektiv Pyonen versteht sich das Festival als alternativ, politisch und kommerzfrei — vier Tage Musik, Kunst und Camping, ohne Mainstream-Anspruch und mit eigenem Gemeinschaftsgefühl.",
-    "anfahrt": "Adresse für Auto und Wohnmobil: Zur Kiesgrube, 14621 Schönwalde-Glien (Grünefeld). Ein kostenloser Shuttlebus pendelt täglich zwischen dem Bahnhof Nauen und dem Gelände; aktuelle Parkplatz-Infos stehen vorab auf der Festival-Homepage."
+    "anfahrt": "Adresse für Auto und Wohnmobil: Zur Kiesgrube, 14621 Schönwalde-Glien (Grünefeld). Wer mit dem Auto kommt, braucht ein KFZ-Ticket (Wohnwagen/Wohnmobile ein Caravan-Ticket) — in Grünefeld, Börnicke und an der Landstraße darf nicht geparkt werden, Falschparker werden abgeschleppt; es gibt keine Parkplätze in der Nähe. Zuletzt war die Anfahrt über die A10, Ausfahrt Nauen/Kremmen via Börnicke ausgeschildert (die Zufahrt über Paaren war wegen Bauarbeiten gesperrt). Mit der Bahn bis Bahnhof Nauen, von dort pendelt ein kostenloser Shuttlebus zum Gelände (nur mit gültigem Ticket, ab Donnerstag 16 Uhr). Aktuelle Infos für 2027 bitte auf der Festivalseite prüfen."
   },
   {
     "name": "SEA YOU FESTIVAL 2027",
@@ -3672,7 +3724,7 @@ const festivals = [
     "lng": 10.1722441,
     "endDate": "2027-07-18",
     "about": "Seit 2015 verbindet Medival ein hochkarätiges Electronic-Programm mit politischer Bildung, Kreativ-Workshops und einer offenen, diversen Festivalkultur. Schauplatz ist die Burgruine Brandenburg bei Gerstungen — eine im 12. Jahrhundert erbaute Verteidigungsanlage hoch über dem Werratal, die einst Handelswege sicherte. Auf vier Bühnen laufen House, Techno, Trance und Drum & Bass, umrahmt von aufwendigen Holzbauten und Diskussionsformaten zu Demokratie, Vielfalt und Awareness.",
-    "anfahrt": "Adresse: Hermannstraße 5, 99834 Gerstungen. Die Burgruine ist von der A4 aus sichtbar und liegt direkt an der Verbindungsstraße von Lauchröden Richtung Herleshausen/Neuenhof."
+    "anfahrt": "Adresse: Burgruine Brandenburg, K505 bzw. Mühlenstraße 6, 99834 Gerstungen (Lauchröden) — die Zufahrt erfolgt über die K505 zwischen Göringen und Lauchröden. Unterhalb der Burg gibt es kostenlose Parkplätze. Zwei Campingplätze: Der erste liegt unterhalb der Burg (nur mit Auto-/Wohnmobil-Ticket), der zweite im Ortskern von Lauchröden auf dem Sportplatz — zwischen dem zweiten Campingplatz und dem Gelände pendelt ein Shuttle zu festen Zeiten (für Camper kostenlos). Mit der Bahn bis zum Haltepunkt Herleshausen, von dort ca. 30–45 Minuten zu Fuß; einen Bahnhofs-Shuttle gibt es laut Quellen nicht. Details für 2027 bitte auf der Festivalseite prüfen."
   },
   {
     "name": "TAG AM MEER FESTIVAL 2027",
@@ -4076,11 +4128,11 @@ const festivals = [
     ],
     "url": "https://outside-world.de/events",
     "soldOut": false,
-    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna — die 2027er Ausgabe von Outside World Festival.",
+    "description": "Techno-Classics am Strand des Friedrichsbads Zwintschöna bei Halle — die 2027er Ausgabe der Outside-World-Reihe, 18 bis 3 Uhr.",
     "lat": 51.4574024,
     "lng": 12.0488952,
-    "about": "Strand Miezen bringt Rave-Atmosphäre an den Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle — mit Line-ups, die Techno-Urgesteine wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen der Szene versammeln.",
-    "anfahrt": "Adresse: Am Friedrichsbad 1, 06184 Kabelsketal (Ortsteil Zwintschöna). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung."
+    "about": "Strand Miezen — „The Seaside Rave“ — ist die Strandparty von Outside World, Deutschlands größtem Techno-Classics-Festival (seit 2018). Am 7. August 2027 verwandelt sich der Strand des Freizeitbads Friedrichsbad in Zwintschöna bei Halle (Kabelsketal) in eine Open-Air-Tanzfläche: Techno-, Trance- und Hands-up-Klassiker der 90er und 2000er, gespielt von Szene-Urgesteinen wie Westbam, DJ Rush und Dr. Motte neben aktuellen Namen. Laut Veranstalter beginnt der Rave um 18 Uhr und endet um 3 Uhr (ein Ticketportal nennt 17 Uhr). Tickets gibt es über TicketTicker.",
+    "anfahrt": "Adresse: Friedrichsbad Zwintschöna, Am Friedrichsbad 1, 06184 Kabelsketal (OT Zwintschöna, südwestlich von Halle). Kostenlose Parkplätze stehen direkt außerhalb des Freibad-Areals zur Verfügung. Eine Straßenbahn- oder Busverbindung speziell zum Gelände konnte ich nicht belegen — die Anreise mit dem Auto oder per Fahrgemeinschaft ist am verlässlichsten; die Öffentlichen bitte über den Fahrplan (z. B. HAVAG/MDV) prüfen."
   },
   {
     "name": "NIMMERLAND OPEN AIR 2027",
@@ -4390,7 +4442,7 @@ const festivals = [
     "lat": 51.3102676,
     "lng": 9.5008023,
     "about": "Seit 2022 hat sich Solå als feste Größe im Kasseler Kultursommer etabliert. Jedes Jahr im August wird die Wiese vor dem Orangerie-Schloss in der Karlsaue zum Dancefloor — ein Park, der um 1700 zunächst als symmetrischer Barockgarten mit Wasserbecken angelegt und Ende des 18. Jahrhunderts zum Landschaftsgarten umgestaltet wurde. Wo einst barocke Feste gefeiert wurden, trifft heute klassizistische Architektur auf moderne Electronic-Kultur.",
-    "anfahrt": "Adresse: Staatspark Karlsaue, Auedamm 18, 34121 Kassel. Der 150 Hektar große Park liegt in direkter Nähe zur Kasseler Innenstadt, direkt am Orangerieschloss."
+    "anfahrt": "Adresse laut Festival: An der Karlsaue 20c, 34121 Kassel (Orangerie im Staatspark Karlsaue, auch als Auedamm 18 geführt). Der 150 Hektar große Park liegt direkt an der Kasseler Innenstadt; mit dem Auto über die A49/A7, Ausfahrt Kassel-Mitte, dann der Beschilderung Richtung Karlsaue folgen. Am Gelände gibt es Fahrradstellplätze. Konkrete ÖPNV-Verbindungen und Parkhinweise sind nicht veröffentlicht — am besten über die KVG-Fahrplanauskunft oder die Festivalseite prüfen. Einlass 12 bis 22 Uhr."
   },
   {
     "name": "AMPHORIA 2027",
