@@ -630,7 +630,7 @@ const festivals = [
     "lat": 52.0365537,
     "lng": 8.5514521,
     "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine kompromisslose Techno-Location — die zweite Ausgabe setzt auf ein Day & Night Konzept: Open-Air-Auftakt am Nachmittag, danach drei Indoor-Floors bis in die Nacht mit Techno, Trance und Classics. Veranstaltet wird die Reihe von Sams Events.",
-    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld."
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
   },
   {
     "name": "HABITAT FESTIVAL 2026",
@@ -2049,7 +2049,7 @@ const festivals = [
     "lat": 52.0365537,
     "lng": 8.5514521,
     "about": "Hexon verwandelt den Lokschuppen Bielefeld in eine kompromisslose Techno-Location — Industrial-Vibes und treibender Sound über mehrere Areas verteilt (Lok.Werk, Lok.Halle, Lok.Bar, Lok.Kessel). Headliner der dritten Ausgabe sind LESSSS, FRANKY B und KARAMUSTAN, ergänzt um ein tiefes Line-up lokaler und regionaler Artists. Veranstaltet wird die Reihe von Sams Events.",
-    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld."
+    "anfahrt": "Adresse: Stadtheider Straße 11, 33609 Bielefeld (Lokschuppen, östlich des Hauptbahnhofs). Mit der Stadtbahn Linie 2 oder dem Nachtexpress N12 bis „Stadtheider Straße“, von dort ca. 3 Minuten zu Fuß; vom Hauptbahnhof sind es zu Fuß etwa 15 Minuten. In den Nächten vor Feiertagen hält der Nachtbus N8 direkt an der Haltestelle „Lokschuppen“. Mit dem Auto über die A2, Abfahrt Bielefeld Zentrum, und weiter über die Stadtheider Straße. Zu Parkmöglichkeiten gibt es keine verlässlichen Angaben — am besten vorab beim Lokschuppen nachsehen und die Öffentlichen nutzen. Hinweis: Bis Ende 2026 gibt es eine Baustelle an der Kreuzung Herforder Straße / Am Stadtholz, der Lokschuppen bleibt aber erreichbar."
   },
   {
     "name": "HARBOUR FESTIVAL HERBST EDITION 2026",
