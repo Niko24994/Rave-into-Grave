@@ -2662,6 +2662,23 @@ const festivals = [
     "anfahrt": "Adresse: Zur Hansemesse 1-2, 18106 Rostock. Aus Richtung Berlin über die A19, B105 und den Warnowtunnel (mautpflichtig), erste Ausfahrt Hansemesse, dann dem Parkleitsystem folgen; aus Richtung Hamburg über die A20 und den Westzubringer (B103). Mit der S-Bahn Richtung Warnemünde bis Bahnhof Lütten Klein (ca. 5 Minuten Fußweg). Rund 1.332 kostenpflichtige Parkplätze stehen zur Verfügung."
   },
   {
+    "name": "AUF'M RAVE - ARENA 2026",
+    "date": "2026-12-11",
+    "dateDisplay": "11. Dezember 2026",
+    "location": "Messehalle Weser-Ems-Hallen, Oldenburg",
+    "genre": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "url": "https://ticket2go.de/tickets-kaufen/aufm-rave-arena-oldenburg-11-12-2026-5862",
+    "soldOut": false,
+    "description": "Hard-Techno-Overnight-Rave in der Messehalle der Weser-Ems-Hallen — 14 Stunden, bis zu 8.000 Raver, mit Angerfist, Holy Priest und Luke Madness.",
+    "lat": 53.1503,
+    "lng": 8.2113,
+    "about": "AUF'M RAVE - ARENA ist der große Hard-Techno-Overnight-Rave in der Messehalle der Weser-Ems-Hallen in Oldenburg und findet am Freitag, 11. Dezember 2026, statt. Einlass ist ab 18:00 Uhr, gefeiert wird durch die Nacht bis Samstag um 08:00 Uhr — also rund 14 Stunden am Stück, ab 18 Jahren. Nach der ersten Arena-Ausgabe im März wurde die Kapazität auf bis zu 8.000 Besucher erhöht; die Veranstalter versprechen eine große begehbare Stage, eine neue Lichtshow und neue Technik. Laut den Event-Listings stehen unter anderem Angerfist, Holy Priest, Luke Madness und Paracek auf dem Line-up, dazu Acts wie Ally Bliska, A.N.I., Color Kid, IGDA, Kistenbrügger, LASZR, LEVT, Lucid, Lukstarr, Paul Wolf, Toxic Machinery und USH. Neben der Hauptbühne sollen weitere Räume Variationen wie Acid und dunkleren, hypnotischeren Techno bieten. Tickets gibt es ab 68,50 Euro über Ticket2go — auf einzelnen Seiten wird das Event bereits als ausverkauft geführt, die Verfügbarkeit also vorab dort prüfen.",
+    "anfahrt": "Adresse: Weser-Ems-Hallen, Europaplatz 12, 26123 Oldenburg. Mit der Bahn bis Oldenburg Hauptbahnhof; vom zentralen Busbahnhof (ZOB, Nordausgang) sind es nur wenige Minuten zu Fuß, alternativ fahren die Buslinien 323 und 318 bis zur Haltestelle „Weser-Ems-Hallen“. Mit dem Auto über die A 28 oder A 29 nach Oldenburg und der Beschilderung „Weser-Ems-Hallen“ folgen; der Parkplatz ist über die Messestraße (Nord) oder die Maastrichter Straße 3 (Süd) erreichbar und kostet pauschal 4 Euro pro 24 Stunden (Kennzeichenerkennung an der Schranke). Ist der Parkplatz voll, weicht man auf die Parkhäuser der Stadt aus; außerdem gibt es Park & Ride mit Shuttle-Bussen der VWG. Fahrräder können auf den Vorplätzen abgestellt werden. Hinweis: Die Rückfahrt endet nach 08:00 Uhr — Zugverbindungen am Samstagmorgen vorab prüfen."
+  },
+  {
     "name": "44 LABEL X STUTYARD 2026",
     "date": "2026-12-12",
     "dateDisplay": "12. Dezember 2026",
