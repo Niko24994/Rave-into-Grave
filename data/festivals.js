@@ -2812,6 +2812,22 @@ const festivals = [
     "lng": 13.4718006
   },
   {
+    "name": "KLANGTHERAPIE FESTIVAL 2027",
+    "date": "2027-01-24",
+    "dateDisplay": "24. Januar 2027",
+    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Psytrance"
+    ],
+    "url": "https://www.klangtherapie-festival.de/",
+    "soldOut": false,
+    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
+    "lat": 49.8939869,
+    "lng": 11.3445052
+  },
+  {
     "name": "HEXON FESTIVAL 2027",
     "date": "2027-01-30",
     "dateDisplay": "30. Januar 2027",
@@ -2998,6 +3014,22 @@ const festivals = [
     "lng": 6.866652,
     "about": "Trance Signal ist seit Jahren fester Programmpunkt für die deutsche und niederländische Trance-Family — eingebettet in die internationalen Netzwerke „Trance Family Germany\" und „Trance Family Netherlands\", zweimal jährlich im Schallwerk Oberhausen, Teil des Turbinenhallen-Komplexes. Die Frühjahrsausgabe am 27. März 2027 bringt eine Nacht klassischen und modernen Trance-Sound; Tickets und VIP-Upgrades sind bereits im Shop erhältlich.",
     "anfahrt": "Adresse: Mülheimer Straße 4, 46049 Oberhausen (Schallwerk, Teil des Turbinenhallen-Areals). Ab Oberhausen Hauptbahnhof verkehren Busse Richtung „Im Lipperfeld\"/„Feuerwache\" in die Neue Mitte, von dort ist das Areal in wenigen Gehminuten erreichbar. Parkmöglichkeiten sind direkt am Turbinenhallen-Gelände vorhanden."
+  },
+  {
+    "name": "KLANGTHERAPIE FESTIVAL 2027",
+    "date": "2027-03-30",
+    "dateDisplay": "30. März 2027",
+    "location": "Scherleithen, Plankenfels (Fränkische Schweiz)",
+    "genre": [
+      "Techno",
+      "Trance",
+      "Psytrance"
+    ],
+    "url": "https://www.klangtherapie-festival.de/",
+    "soldOut": false,
+    "description": "Seit über 20 Jahren in der Fränkischen Schweiz — 5 Floors, 100+ DJs/Live-Acts, Techno und Tech-House trifft Trance, Psytrance und Drum-and-Bass. Motto: Techno, Liebe, Anarchie.",
+    "lat": 49.8939869,
+    "lng": 11.3445052
   },
   {
     "name": "TIME WARP 2027",
